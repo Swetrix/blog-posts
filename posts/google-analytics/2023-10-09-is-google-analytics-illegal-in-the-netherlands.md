@@ -1,12 +1,12 @@
 ---
-title: Is Google Analytics illegal in Poland?
+title: Is Google Analytics illegal in the Netherlands?
 date: October 9, 2023
 hidden: true
 author: Andrii Romasiun
 nickname: blaumaus
 ---
 
-European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR. Five of these companies are located in Poland.
+European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR. Four of these companies are located in the Netherlands.
 
 These complaints are still in progress, however the Swedish court has already [ruled](https://noyb.eu/en/noyb-win-first-major-fine-eu-1-million-using-google-analytics) a fine of 1,000,000 EUR against Tele2 and 30,000 EUR against CDON for using Google Analytics on their websites.
 Other EU countries (such as Austria and France) have made similar decisions to declare that Google Analytics violates the GDPR. This means that companies using Google Analytics can be fined.
@@ -18,8 +18,8 @@ Other EU countries (such as Austria and France) have made similar decisions to d
     </a>
   </li>
   <li>
-    <a href="#gdpr-in-poland">
-      Does the GDPR affect Poland?
+    <a href="#gdpr-in-the-netherlands">
+      Does the GDPR affect the Netherlands?
     </a>
   </li>
   <li>
@@ -37,17 +37,17 @@ Other EU countries (such as Austria and France) have made similar decisions to d
 <h2 id="why-eu-ga-illegal">
   Why are EU countries making Google Analytics illegal?
 </h2>
-Poland is not the only country to declare Google Analytics illegal. Similar decisions have been made in other EEA countries, including France, Finland, Denmark, Italy, Austria, the Netherlands and Norway. Courts in EU countries are taking a similar approach to the GDPR, so other countries may soon follow.
+The Netherlands is not the only country to declare Google Analytics illegal. Similar decisions have been made in other EEA countries, including France, Finland, Denmark, Italy, Austria, the Netherlands and Norway. Courts in EU countries are taking a similar approach to the GDPR, so other countries may soon follow.
 
 Courts declare Google Analytics illegal because of the [CLOUD Act](https://en.wikipedia.org/wiki/CLOUD_Act) which allows U.S. federal law enforcement agencies to compel U.S.-based companies to provide requested data, regardless of whether the data is stored in the U.S. or on foreign soil, such as in the EU.
 
 The other issue with Google Analytics is the transfer of personal data outside the European Union. The GDPR allows the [transfer of personal data](https://gdpr-info.eu/issues/third-countries/) outside of the EU as long as the countries in question offer an adequate level of data protection, however the United States is <b>not included</b> in that list.
 
-<h2 id="gdpr-in-poland">
-  Does the GDPR affect Poland?
+<h2 id="gdpr-in-the-netherlands">
+  Does the GDPR affect the Netherlands?
 </h2>
-The EEA GDPR applies to all 27 member countries of the EU, including Poland, as well as to any company operating or targeting the Polish market.
-If you use Google Analytics and your websites target audience is Poles - you may be <b>in breach</b> of the GDPR!
+The EEA GDPR applies to all 27 member countries of the EU, including the Netherlands, as well as to any company operating or targeting the Dutch market. Additionally, the Netherlands has it's own data protection law (Uitvoeringswet Algemene verordening gegevensbescherming) which has some additions and derogations to the GDPR.
+If you use Google Analytics and your websites target audience includes Dutch people - you may be <b>in breach</b> of the GDPR!
 
 However, privacy-friendly Google Analytics alternatives exist. Swetrix allows you to collect important metrics without gathering any personal data. This way, you'll remain <b>GDPR compliant</b>, as GDPR doesn't apply to the data you process.
 
