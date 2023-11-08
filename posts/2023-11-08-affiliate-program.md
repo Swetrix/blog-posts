@@ -40,6 +40,6 @@ Every person you refer to Swetrix will also enjoy a 20% discount on their first 
 Important Information
 </h2>
 
-Before you dive into promoting Swetrix, we’d highly recommend that you check out Terms and Conditions. It's essential to understand the guidelines and expectations of our affiliate program.
+Before you dive into promoting Swetrix, we’d highly recommend that you check out [Terms and Conditions](https://docs.swetrix.com/affiliate/terms). It's essential to understand the guidelines and expectations of our affiliate program.
 
 Get started today and explore the earning potential of the Swetrix affiliate program! Sign up now, promote Swetrix, and start earning commissions while helping others discover outstanding services.
