@@ -118,7 +118,7 @@ If you want to avoid cookie banners and consent pop-ups, you can use a cookieles
 </h3>
 Anonymising IP addresses is a critical step in ensuring compliance with privacy regulations. By removing the last octet of the IP address, Google Analytics helps protect the privacy of website visitors. This process makes it virtually impossible to identify an individual based on their IP address alone.
 
-Implementing IP anonymisation is relatively simple. Website owners can enable this feature by adding a simple snippet of code to their Google Analytics tracking code. Once enabled, IP addresses collected by Google Analytics will be anonymised before being stored or processed.
+Implementing IP anonymisation is [relatively simple](https://support.google.com/analytics/answer/2763052). Website owners can enable this feature by adding a simple snippet of code to their Google Analytics tracking code. Once enabled, IP addresses collected by Google Analytics will be anonymised before being stored or processed.
 
 It is important to note that IP anonymisation does not affect the accuracy or usefulness of the data collected by Google Analytics. It still provides valuable insights about website traffic and user behaviour, while ensuring compliance with privacy regulations.
 
@@ -130,9 +130,9 @@ In summary, IP address anonymisation is a necessary measure to protect user priv
 <h3>
   Fines and penalties
 </h3>
-Failure to comply with Google Analytics regulations can have serious consequences. [Penalties for breaching data protection](https://gdpr-info.eu/issues/fines-penalties/) laws can be significant, with fines of up to €10 million or 2% of a company's global annual turnover, whichever is greater.
+Failure to comply with Google Analytics regulations can have serious consequences. Penalties for breaching data protection laws can be significant, with fines of up to €10 million or 2% of a company's global annual turnover, whichever is greater.
 
-It is important for organisations to understand and comply with legal requirements to avoid these financial consequences. In addition, non-compliance can lead to reputational damage, as customers may lose trust in a company that mishandles their personal data.
+It is important for organisations to understand and [comply with legal requirements](https://gdpr-info.eu/issues/fines-penalties) to avoid these financial consequences. In addition, non-compliance can lead to reputational damage, as customers may lose trust in a company that mishandles their personal data.
 
 To ensure compliance, organisations should implement robust data protection measures, obtain valid consent from users, and regularly review and update their privacy policies and practices. By doing so, they can mitigate the risks associated with non-compliance and protect both their reputation and their bottom line.
 
