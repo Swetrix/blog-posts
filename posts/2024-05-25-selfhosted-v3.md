@@ -19,56 +19,38 @@ It's a very powerful release, with dozens of unique features and hundreds of hou
   🔥 Major updates
 </h3>
 
-<ol>
-  <li>
-    Added session analytics: you can now see which pages / custom events were tracked within a session, as well as some details about them
-  </li>
-  <li>
-    Added support for marketing funnels
-  </li>
-  <li>
-    Added client-side error tracking
-  </li>
-  <li>
-    Added metadata feature for custom events
-  </li>
-  <li>
-    Added more metrics for performance monitoring: you can now see load time distribution over different quantiles, as well as apply different aggregation functions to your data
-  </li>
-  <li>
-    Added [API](https://docs.swetrix.com/statistics-api) key support
-  </li>
-</ol>
+ - Added session analytics: you can now see which pages / custom events were tracked within a session, as well as some details about them
+ - Added support for marketing funnels
+ - Added client-side error tracking
+ - Added metadata feature for custom events
+ - Added more metrics for performance monitoring: you can now see load time distribution over different quantiles, as well as apply different aggregation functions to your data
+ - Added [API](https://docs.swetrix.com/statistics-api) key support
 
 <h3>
   🙂 Minor updates
 </h3>
 
-<ol>
-  <li>Project ID now generated on the backend for new sites</li>
-  <li>Removed validate-ip-node library in favour of built-in Node.js net module</li>
-  <li>Project "Allowed origins" setting now supports wildcards</li>
-  <li>You can now partially clear analytics data with filters</li>
-  <li>Added support for more detailed filters; you can now apply multiple filters to the same data column</li>
-  <li>Added new time buckets for aggregated reporting: "All time" and "This hour</li>
-  <li>Added site search functionality to the dashboard page</li>
-  <li>Added support for cumulative mode for charts</li>
-  <li>Migrated frontend frow React to Remix to enable server-side rendering and improve performance</li>
-  <li>Added support for [embedded dashboards](https://docs.swetrix.com/how-to-embed)</li>
-  <li>Updated analytics dashboard design and other UI / UX improvements throughout the application</li>
-  <li>Added support for dashboard hotkeys</li>
-  <li>Updated API dependencies</li>
-  <li>Updated Clickhouse & Redis versions</li>
-</ol>
+ - Project ID now generated on the backend for new sites
+ - Removed validate-ip-node library in favour of built-in Node.js net module
+ - Project "Allowed origins" setting now supports wildcards
+ - You can now partially clear analytics data with filters
+ - Added support for more detailed filters; you can now apply multiple filters to the same data column
+ - Added new time buckets for aggregated reporting: "All time" and "This hour
+ - Added site search functionality to the dashboard page
+ - Added support for cumulative mode for charts
+ - Migrated frontend frow React to Remix to enable server-side rendering and improve performance
+ - Added support for [embedded dashboards](https://docs.swetrix.com/how-to-embed)
+ - Updated analytics dashboard design and other UI / UX improvements throughout the application
+ - Added support for dashboard hotkeys
+ - Updated API dependencies
+ - Updated Clickhouse & Redis versions
 
 <h3>
   🔧 Fixes
 </h3>
 
-<ol>
-  <li>Fixed an issue where users could not disable the "Show live visitors in page title" feature.</li>
-  <li>Fixed a possible issue where a non-existent tab could be opened in the dashboard</li>
-</ol>
+ - Fixed an issue where users could not disable the "Show live visitors in page title" feature.
+ - Fixed a possible issue where a non-existent tab could be opened in the dashboard
 
 <h2>
   How to upgrade to v3?
