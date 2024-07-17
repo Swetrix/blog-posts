@@ -36,7 +36,6 @@ Swetrix was released in August 2021. Let's look at the differences between Swetr
         </a>
       </li>
       <li>
-      <li>
         <a href="#ux_uf">
           User flow analysis
         </a>
