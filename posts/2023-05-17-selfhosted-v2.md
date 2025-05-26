@@ -12,6 +12,7 @@ nickname: blaumaus
 From now on, we're getting much more focused on our selfhosted edition and we are working on making it as stable and easy to use as possible!
 
 <b>This release includes such features and improvements as:</b>
+
 <ul>
   <li>Performance monitoring: now you can monitor how well your website performs in various countries for various users, you can track such metrics as TTFB, DOM load, etc., filter out the data and much more!</li>
   <li>Added traffic comparison feature.</li>

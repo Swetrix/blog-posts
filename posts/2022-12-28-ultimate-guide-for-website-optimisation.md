@@ -62,7 +62,6 @@ Website loading speed is a critical factor in user experience and search engine 
   </li>
 </ol>
 
-
 <h2 id="s2">
   Section 2: Designing a user-friendly layout
 </h2>
@@ -89,7 +88,6 @@ To create a user-friendly layout, consider the following tips:
   </li>
 </ol>
 
-
 <h2 id="s3">
   Section 3: Creating compelling content
 </h2>
@@ -98,6 +96,7 @@ In addition to a well-designed layout, your website needs compelling content to 
 <br />
 To create compelling content, consider the following tips:
 <br />
+
 <ol>
   <li>
     Identify your target audience and understand their needs and interests: Before you start creating content, it is important to identify who your target audience is and what they are interested in. This will help you create content that is relevant and appealing to your audience.

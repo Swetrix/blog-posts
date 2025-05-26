@@ -1,0 +1,13 @@
+{
+  "name": "swetrix-blog-posts",
+  "version": "1.0.0",
+  "description": "Blog posts for Swetrix",
+  "private": true,
+  "scripts": {
+    "format": "prettier --write \"**/*.md\"",
+    "format:check": "prettier --check \"**/*.md\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

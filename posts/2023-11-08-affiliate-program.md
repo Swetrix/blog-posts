@@ -12,7 +12,7 @@ Are you ready to boost your earnings while promoting a fantastic product? Then w
 <h2>
   Bag those 20% Commissions
 </h2>
-Here's the deal: For every customer you refer to Swetrix using your unique affiliate link, we'll send 20% of their subscription fees directly to your PayPal account, as long as they remain paying customers. That's real money in your pocket with every successful referral. 
+Here's the deal: For every customer you refer to Swetrix using your unique affiliate link, we'll send 20% of their subscription fees directly to your PayPal account, as long as they remain paying customers. That's real money in your pocket with every successful referral.
 
 <h2>
 Not paying for the service yet? No problem! 

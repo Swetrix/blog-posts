@@ -120,7 +120,6 @@ Data transfers to the United States are currently a legal dilemma, so probably m
 <br /><br />
 Swetrix, on the other hand, is hosted in Nuremberg, Germany thus your website data never leaves the EU.
 
-
 <h3 id="illegal_2">
   GDPR (CCPA and others) compliance.
 </h3>
@@ -132,7 +131,6 @@ Google Analytics collects a lot of personal data, which can be a legal liability
 <br />
 Many website owners fail to do this, but you have to inform your visitors that you are tracking them with Google Analytics.
 
-
 <h3 id="illegal_3">
   You should own your data, not Google.
 </h3>
@@ -140,6 +138,7 @@ You own your data, not us. Our mission is to ensure your privacy and to keep you
 We strive to provide you with a simple and powerful web analytics service by collecting only the necessary data.
 
 With Swetrix,
+
 <ol>
   <li>
     You control your data, not us. You can export or delete it anytime.
@@ -148,7 +147,6 @@ With Swetrix,
     We do not sell, rent, or share your personal information or analytics data with third parties.
   </li>
 </ol>
-
 
 <h2 id="key">
   Swetrix and Google Analytics key differences.

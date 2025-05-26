@@ -6,7 +6,7 @@ author: Andrii Romasiun
 nickname: blaumaus
 ---
 
-European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR. 
+European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR.
 
 These complaints are still in progress, however the Swedish court has already [ruled](https://noyb.eu/en/noyb-win-first-major-fine-eu-1-million-using-google-analytics) a fine of 1,000,000 EUR against Tele2 and 30,000 EUR against CDON for using Google Analytics on their websites.
 Other EU countries (such as Austria and France) have made similar decisions to declare that Google Analytics violates the GDPR. This means that companies using Google Analytics can be fined.

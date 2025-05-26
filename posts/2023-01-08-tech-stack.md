@@ -50,7 +50,6 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
     </a>
   </li>
 
-
   <li>
     <a href="#support">
         Support
@@ -98,7 +97,6 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-
 <h2 id="databases">
   Databases
 </h2>
@@ -141,7 +139,6 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-
 <h2 id="payments">
   Payments
 </h2>
@@ -160,7 +157,6 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-
 <h2 id="support">
   Development
 </h2>
@@ -175,7 +171,6 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
     <a href="https://pnpm.io/" target="_blank" rel="noreferrer noopener">pnpm</a>: fast and disk space efficient JavaScript package manager.
   </li>
 </ol>
-
 
 <h2 id="other">
   Other

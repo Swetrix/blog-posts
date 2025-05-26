@@ -73,10 +73,11 @@ Overall, Google Analytics provides insights that can help website owners make da
 </h3>
 
 Google Analytics collects various types of information to provide insights about website performance and user behaviour. Some of the data collected includes:
- - Pageviews: The number of times a page is viewed.
- - Sessions: A group of interactions that take place on a website within a specific time frame.
- - Bounce rate: The percentage of single-page visits where the user leaves the site without interacting.
- - Referral sources: The websites or platforms that refer traffic to a website.
+
+- Pageviews: The number of times a page is viewed.
+- Sessions: A group of interactions that take place on a website within a specific time frame.
+- Bounce rate: The percentage of single-page visits where the user leaves the site without interacting.
+- Referral sources: The websites or platforms that refer traffic to a website.
 
 <h2 id="is-ga-legal">
   Is Google Analytics legal in the EU?

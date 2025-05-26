@@ -15,7 +15,6 @@ This will not be a serious "business article", instead I want to share with you 
 
 For people who are new to this blog: <a href="https://swetrix.com" target="_blank" rel="noreferrer noopener">Swetrix</a> is a privacy-focused and fully cookieless web analytics service. We are something similar to Google Analytics, but unlike them, we are transparent, privacy-friendly and much easier to use.
 
-
 <ol>
   <li>
     <a href="#chapter_1">
@@ -81,7 +80,7 @@ Time passed and people started returning to their former lives little by little.
 Step by step we continued working on Swetrix and started adding more features. For example, during that period we released interactive maps to see the traffic country origins, shared projects functionality, custom time period picker, and 2FA, worked a lot on the browser extensions. We also got some more people involved in the project. These are the people who might not have a lot of experience but they are highly motivated and are working hard as hell. Currently, our team consists of more than 10 people: we are the developers, designers and testers.
 <br />
 
-At that time we started working more on marketing and getting more recognition and even got interviewed by a local startup news outlet Ucluster. The <a href="https://ucluster.org/blog/2022/07/swetrix-zamistj-google-analytics-bez-trekingu-ta-cookies/" target="_blank" rel="noreferrer noopener">original</a> article is written un Ukrainian, but <a href="https://ucluster-org.translate.goog/blog/2022/07/swetrix-zamistj-google-analytics-bez-trekingu-ta-cookies/?_x_tr_sl=uk&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp" target="_blank" rel="noreferrer noopener">here is</a> a Google translated link for you. 
+At that time we started working more on marketing and getting more recognition and even got interviewed by a local startup news outlet Ucluster. The <a href="https://ucluster.org/blog/2022/07/swetrix-zamistj-google-analytics-bez-trekingu-ta-cookies/" target="_blank" rel="noreferrer noopener">original</a> article is written un Ukrainian, but <a href="https://ucluster-org.translate.goog/blog/2022/07/swetrix-zamistj-google-analytics-bez-trekingu-ta-cookies/?_x_tr_sl=uk&_x_tr_tl=en&_x_tr_hl=en-US&_x_tr_pto=wapp" target="_blank" rel="noreferrer noopener">here is</a> a Google translated link for you.
 <br />
 
 <img src="https://i.imgur.com/h5fk6Pi.png" alt="" title="And this is us, giving an interview" />
@@ -105,10 +104,10 @@ After the redesign, we started rushing lots of new features. We have improved th
 <br />
 
 Overall, we finished 2022 with:
- - 310 registered users.
- - 305 connected websites.
- - 500,000 tracked events.
 
+- 310 registered users.
+- 305 connected websites.
+- 500,000 tracked events.
 
 <h2 id="chapter_3">
   What we are working on and our plans for the future.

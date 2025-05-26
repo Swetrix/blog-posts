@@ -101,7 +101,6 @@ The main reason of why some analytics companies apply sampling techniques is to 
 <br /><br />
 At Swetrix, we prioritise both the accuracy of the data we provide and the privacy of your users. To achieve this, we never sample the data we collect and always show you the actual traffic coming to your website. We believe that you should have access to the most accurate data available while also preserving the privacy of those visiting your site.
 
-
 <h3 id="data_2">
   Bots are not excluded.
 </h3>
@@ -109,7 +108,6 @@ At Swetrix, we prioritise both the accuracy of the data we provide and the priva
 Another reason why Cloudflare Web Analytics dashboard is inaccurate is that they are not excluding bot traffic. Bots are labelled as 'Unknown' and in some cases they take a decent percentage of total statistics.
 <br />
 At Swetrix, we detect bot traffic and exclude it from your website statistics, as this bot traffic does not represent actual pageviews. Bot traffic is also not accounted in our pricing.
-
 
 <h3 id="data_3">
   Data retention.
@@ -136,13 +134,13 @@ Cloudflare Web Analytics currently does not provide such functionality.
 </h2>
 Cloudflare has a maximum of 10 websites you can add to the web analytics. Swetrix free tier also provides you with 10 websites - we do it as it currently costs us to store the website data. Swetrix paid tiers have a limit of 20 to 30 websites per account, but in feature these limits will be greatly increased.
 
-
 <h2 id="missed_insights">
   Cloudflare dashboard is missing a lot of insights.
 </h2>
 
 Cloudflare Dashboard is too limited and misses a lot of crucial features most people use in their daily life.
 For example, here's what Cloudflare is missing compared to what you can get on Swetrix:
+
 <ol>
   <li>
     No visit duration metric. With Cloudflare you're not able to see for how long people stay on your website and measure the quality of traffic based on this information.
@@ -173,7 +171,6 @@ For example, here's what Cloudflare is missing compared to what you can get on S
   </li>
 </ol>
 
-
 <h2 id="open_source">
   Open source vs closed source.
 </h2>
@@ -181,13 +178,12 @@ Swetrix is a <a href="https://github.com/Swetrix" target="_blank" rel="noreferre
 <br /><br />
 On the other hand, Cloudflare Web Analytics is a fully closed source product. People who use Cloudflare have to blindly trust this company, as there's no way of knowing what's going on when they use it. You will never know if there are any data leaks on their side or if the code has some backdoors.
 
-
 <h2 id="visitors">
   Different techniques of unique visitors tracking.
 </h2>
 Swetrix and Cloudflare Web Analytics have different definitions of a unique visitor. Cloudflare Web Analytics counts a visit as a successful page view that has an HTTP referrer that doesn't match the hostname of the request. This means that Cloudflare counts the number of times someone comes to any page of your site from another site, and it may differ significantly from the counts of other analytics tools depending on the type of site and audience you have. For example, if the same person visits your site ten times in one day, Cloudflare Web Analytics would list that person as ten unique visitors, while Swetrix would show them as one unique visitor.
 <br /><br />
-Swetrix does not use cookies or local storage to track unique visitors, and it does not generate a device-persistent identifier because these are considered personal data under GDPR. Instead, it generates a daily changing identifier using the visitor's IP address and User Agent, and it anonymises this data by running it through a hash function with a dailt rotating salt. 
+Swetrix does not use cookies or local storage to track unique visitors, and it does not generate a device-persistent identifier because these are considered personal data under GDPR. Instead, it generates a daily changing identifier using the visitor's IP address and User Agent, and it anonymises this data by running it through a hash function with a dailt rotating salt.
 
 <h2 id="comparison">
   Comparison table.

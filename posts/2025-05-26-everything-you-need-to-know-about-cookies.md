@@ -48,7 +48,7 @@ But cookies can also be used for other legitimate puproses, like remembering you
   What kind of cookies are there?
 </h2>
 
-Cookies can be classified in three main ways: by their duration, provenance (where they come from), and purpose. Understanding these categories is crucial  to determine your legal obligations.
+Cookies can be classified in three main ways: by their duration, provenance (where they come from), and purpose. Understanding these categories is crucial to determine your legal obligations.
 
 ### Duration
 

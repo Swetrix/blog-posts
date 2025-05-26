@@ -111,7 +111,7 @@ By using Swetrix, you can track countries your users come from, UTM tags to see 
 Simple Analytics and Swetrix are using a bit different approach in tracking the country your users come from. Simple Analytics is using timezone to indicate the country of the user. Swetrix is also using timezone-based country detection, but in case the timezone is too generic (for example, just GMT+0 instead of Europe/London) - we use the IP address for country detection as a backup measure.
 <br />
 
-Swetrix traffic analysis dashboard also shows some extra metrics like the user's locale, session duration, bounce rate, views per session and more. 
+Swetrix traffic analysis dashboard also shows some extra metrics like the user's locale, session duration, bounce rate, views per session and more.
 
 <img src="https://i.imgur.com/WBt87tZ.png" alt="Simple Analytics dashboard" title="Simple Analytics dashboard" />
 <i>Simple Analytics dashboard</i>
@@ -170,7 +170,7 @@ With Swetrix you can share our dashboards with other users, assign them roles (o
 Swetrix offers a great functionality called Swetrix Extensions & Extensions Marketplace. For example, by using our <a href="https://docs.swetrix.com/sdk-introduction" target="_blank">SDK</a> you can customise your dashboard, add new features or manipulate the data any way you want. The coolest part is that you can use extensions other people created or publish your own to our Extension Marketplace (the Marketplace is still in beta-stage, but we're working hard to improve it) - yes, this is something like browser extensions, but for analytics.
 <br />
 
-This way Swetrix can stay simple and usable for most people and if someone needs an additional functionality - they can always add it themselves by installing an appropriate extension. 
+This way Swetrix can stay simple and usable for most people and if someone needs an additional functionality - they can always add it themselves by installing an appropriate extension.
 
 <h3 id="ux_4">
   Custom alerts functionality
@@ -186,7 +186,7 @@ Swetrix offers super easy integration with messengers like Telegram. Plus, after
 Both Swetrix and Simple Analytics support multiple themes and languages. This is an important feature because it allows services to be convenient for a bigger variety of people.
 <br />
 
-Currently, Swetrix supports the following languages: English, German, Ukrainian, Polish, Swedish, Russian, Greek, Hindi and Chinese. You can customise your language or theme on the dashboard or any other page of swetrix.com. 
+Currently, Swetrix supports the following languages: English, German, Ukrainian, Polish, Swedish, Russian, Greek, Hindi and Chinese. You can customise your language or theme on the dashboard or any other page of swetrix.com.
 <br />
 
 Simple Analytics also offers a multilinguistic service with light and dark themes, but only for the marketing (landing) page (please, correct me if I'm wrong, but I haven't found a way to switch a theme or language on the Simple Analytics dashboard).
@@ -211,6 +211,7 @@ Swetrix is a self-hostable utility which means that you can host it on your serv
 <br />
 
 For that reason, we offer Swetrix as a cloud service which is super easy to use, but it costs some money. Here are comparison tables of Swetrix and Simple Analytics paid offerings:
+
 <table>
   <tbody>
     <tr>
@@ -242,6 +243,7 @@ For that reason, we offer Swetrix as a cloud service which is super easy to use,
 </table>
 
 Here's a comparison of yearly subscription expenses:
+
 <table>
   <tbody>
     <tr>
