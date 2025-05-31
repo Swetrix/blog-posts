@@ -11,49 +11,25 @@ European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints
 These complaints are still in progress, however the Swedish court has already [ruled](https://noyb.eu/en/noyb-win-first-major-fine-eu-1-million-using-google-analytics) a fine of 1,000,000 EUR against Tele2 and 30,000 EUR against CDON for using Google Analytics on their websites.
 Austria and France, among other EU countries, have also declared that Google Analytics violates the GDPR. As a result, companies using Google Analytics may face fines.
 
-<ol>
-  <li>
-    <a href="#why-eu-ga-illegal">
-      Why are EU countries making Google Analytics illegal?
-    </a>
-  </li>
-  <li>
-    <a href="#gdpr-in-romania">
-      Does the GDPR affect Romania?
-    </a>
-  </li>
-  <li>
-    <a href="#what-is-gdpr-fuss-about">
-      GDPR: What's all the fuss about?
-    </a>
-  </li>
-  <li>
-    <a href="#conclusions">
-      Conclusions
-    </a>
-  </li>
-</ol>
+::TABLE_OF_CONTENTS::
 
-<h2 id="why-eu-ga-illegal">
-  Why are EU countries making Google Analytics illegal?
-</h2>
+## Why are EU countries making Google Analytics illegal?
+
 In many EEA countries, including France, Finland, Denmark, Italy, Austria, the Netherlands and Norway, Google Analytics has been declared illegal. Courts in EU countries are taking a similar approach to the GDPR, so other countries may soon follow.
 
 Courts declare Google Analytics illegal because of the [CLOUD Act](https://en.wikipedia.org/wiki/CLOUD_Act) which allows U.S. federal law enforcement agencies to compel U.S.-based companies to provide requested data, regardless of whether the data is stored in the U.S. or on foreign soil, such as in the EU.
 
 The other issue with Google Analytics is the transfer of personal data outside the European Union. The GDPR allows the [transfer of personal data](https://gdpr-info.eu/issues/third-countries/) outside of the EU as long as the countries in question offer an adequate level of data protection, however the United States is <b>not included</b> in that list.
 
-<h2 id="gdpr-in-romania">
-  Does the GDPR affect Romania?
-</h2>
+## Does the GDPR affect Romania?
+
 The General Data Protection Regulation (GDPR) of the European Economic Area (EEA) applies to all 27 EU member countries, including Romania, and to any company operating in or targeting the Romanian market.
 If you use Google Analytics and your websites target audience are Romanians - you may be <b>in breach</b> of the GDPR!
 
 However, privacy-friendly Google Analytics alternatives exist. Swetrix allows you to collect important metrics without gathering any personal data. This way, you'll remain <b>GDPR compliant</b>, as GDPR doesn't apply to the data you process.
 
-<h2 id="what-is-gdpr-fuss-about">
-  GDPR: What's all the fuss about?
-</h2>
+## GDPR: What's all the fuss about?
+
 The General Data Protection Regulation (GDPR) came into force on 25 May 2018, and now affects almost every business in the EU. The GDPR builds on the existing Data Protection Act of 1996, and places more importance on the handling of personal data. Now, all businesses and organisations must ensure that all personal data is stored securely and protected.
 
 The recent rulings on the legality of using Google Analytics in the EU are part of a broader issue concerning data transfers between the European Economic Area and the United States. The GDPR stipulates that personal data of European residents can only be transferred to countries with adequate data protection levels. The problem is that the US legal system allows the collection of personal data and surveillance (such as the CLOUD Act or [FISA](https://en.wikipedia.org/wiki/Foreign_Intelligence_Surveillance_Act)) on foreign citizens.
@@ -64,9 +40,7 @@ The proposed "Trans-Atlantic Data Privacy Framework" seems to be a repetition of
 
 Following the CJEU judgement, the majority of EU companies continued their regular operations with US-based service providers. Nyob [filed complaints](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) in all 30 EU and EEA member states against 101 European companies which continued using Google Analytics or Facebook Connect services. Some of these complaints led to a decision <b>against the use</b> of Google Analytics in several EU countries like France and Italy, which means that other countries' Personal Data Protection Agencies likely rule against Google Analytics in a similar manner.
 
-<h2 id="conclusions">
-  Conclusions
-</h2>
+## Conclusions
 
 In light of these developments, it's important to consider alternatives to Google Analytics that prioritise user privacy and compliance with GDPR regulations. Fortunately, such alternatives do exist and [Swetrix](https://swetrix.com) is one of them.
 

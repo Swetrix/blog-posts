@@ -13,60 +13,10 @@ I've always been curious about what technologies or languages other companies us
 
 And now it's time to reveal our tech stack - the tools and technologies that power our open-source and privacy-focused web analytics SaaS, <a href="https://swetrix.com" target="_blank" rel="noreferrer noopener">Swetrix</a>.
 
-<ol>
-  <li>
-    <a href="#languages">
-        Languages
-    </a>
-  </li>
-  
-  <li>
-    <a href="#frameworks">
-        Frameworks
-    </a>
-  </li>
-  
-  <li>
-    <a href="#databases">
-        Databases
-    </a>
-  </li>
-  
-  <li>
-    <a href="#hosting">
-        Hosting & Infrastructure
-    </a>
-  </li>
-  
-  <li>
-    <a href="#email">
-        Email
-    </a>
-  </li>
+::TABLE_OF_CONTENTS::
 
-  <li>
-    <a href="#payments">
-        Payments
-    </a>
-  </li>
+## Languages
 
-  <li>
-    <a href="#support">
-        Support
-    </a>
-  </li>
-  
-  
-  <li>
-    <a href="#other">
-        Other
-    </a>
-  </li>
-</ol>
-
-<h2 id="languages">
-  Languages
-</h2>
 <ol>
   <li>
     <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer noopener">TypeScript</a>: all the backend is written using this language. We chose it due to how powerful yet simple this language is and a huge support of the community.
@@ -76,9 +26,8 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-<h2 id="frameworks">
-  Frameworks
-</h2>
+## Frameworks
+
 <ol>
   <li>
     <a href="https://remix.run/" target="_blank" rel="noreferrer noopener">Remix</a>: in my opinion it's the best frontend framework there is. It allows your React app to be rendered server-side (you may even set it up in a way where not a single byte of JS is loaded to client!). They have great docs, often release updates and overall is a very pleasant framework to work with.
@@ -97,9 +46,8 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-<h2 id="databases">
-  Databases
-</h2>
+## Databases
+
 <ol>
   <li>
     <a href="https://www.mysql.com/" target="_blank" rel="noreferrer noopener">MySQL</a>: one of the most popular choices among SaaS services. Very reliable and easy to use database, especially in combinations with ORMs like typeorm. We use it for storing data about users, projects, alerts and so on.
@@ -112,9 +60,8 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-<h2 id="hosting">
-  Hosting & Infrastructure
-</h2>
+## Hosting & Infrastructure
+
 <ol>
   <li>
     <a href="https://www.hetzner.com/" target="_blank" rel="noreferrer noopener">Hetzner</a>: very reliable and affordable hosting & dedicated servers provider. Perfect for side-projects and SaaS companies.
@@ -127,9 +74,8 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-<h2 id="email">
-  Email
-</h2>
+## Email
+
 <ol>
   <li>
     <a href="https://postmarkapp.com/" target="_blank" rel="noreferrer noopener">Postmark</a>: we use it for outbound mailing (transactional and broadcast emails). They provide a lot of integrations into any codebase, plus they give free $75 for bootstrapped startups.
@@ -139,27 +85,24 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-<h2 id="payments">
-  Payments
-</h2>
+## Payments
+
 <ol>
   <li>
     <a href="https://www.paddle.com/" target="_blank" rel="noreferrer noopener">Paddle</a>: subscriptions and credit card processing service. Their documentation is amazing, dashboards are quite simple and easy to use.
   </li>
 </ol>
 
-<h2 id="support">
-  Support
-</h2>
+## Support
+
 <ol>
   <li>
     <a href="https://github.com/idoco/intergram" target="_blank" rel="noreferrer noopener">Intergram</a>: an amazing, Telegram-based and open-source in-app support chat. Easy to customise and integrate into existing apps.
   </li>
 </ol>
 
-<h2 id="support">
-  Development
-</h2>
+## Development
+
 <ol>
   <li>
     <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer noopener">VS Code</a>: beautiful semi code editor / semi-IDE, especially when using extensions. The best code editor for web development.
@@ -172,9 +115,8 @@ And now it's time to reveal our tech stack - the tools and technologies that pow
   </li>
 </ol>
 
-<h2 id="other">
-  Other
-</h2>
+## Other
+
 <ol>
   <li>
     <a href="https://swetrix.com" target="_blank" rel="noreferrer noopener">Swetrix</a>: we use our tool to monitor our websites traffic and performance🙂.

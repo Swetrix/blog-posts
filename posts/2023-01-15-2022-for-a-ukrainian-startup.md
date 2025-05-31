@@ -15,32 +15,10 @@ This will not be a serious "business article", instead I want to share with you 
 
 For people who are new to this blog: <a href="https://swetrix.com" target="_blank" rel="noreferrer noopener">Swetrix</a> is a privacy-focused and fully cookieless web analytics service. We are something similar to Google Analytics, but unlike them, we are transparent, privacy-friendly and much easier to use.
 
-<ol>
-  <li>
-    <a href="#chapter_1">
-        The introduction / How it all started.
-    </a>
-  </li>
-  <li>
-    <a href="#chapter_2">
-        War and its impact on Swetrix.
-    </a>
-  </li>
-  <li>
-    <a href="#chapter_3">
-        What we are working on and our plans for the future.
-    </a>
-  </li>
-  <li>
-    <a href="#chapter_4">
-        The conclusions and lessons learnt.
-    </a>
-  </li>
-</ol>
+::TABLE_OF_CONTENTS::
 
-<h2 id="chapter_1">
-  The introduction / How it all started.
-</h2>
+## The introduction / How it all started.
+
 I've always been curious about entrepreneurship: there's something fascinating building on your own company from scratch, seeing it going live, and interacting with the customers, there's a kind of charisma to it. At that time, I had been watching lots of tv-series like Silicon Valley, and reading lots of startup-related content on Reddit - I had lots of motivation, just needed an idea to start working on.
 <br />
 
@@ -64,9 +42,8 @@ Fast forward the next 6 months I was adding new features, occasionally getting s
 
 At that time we were becoming more serious about the project: we started managing tasks via a Kanban board, set up the deadlines for each ticket, started collecting the feedback of users, participated in some start-up accelerator programs like <a href="https://pioneer.app" target="_blank" rel="noreferrer noopener">Pioneer</a> (I wouldn't say it was a great success, but participating in such accelerators is quite a fun experience which can even bring some potential customers to your business), got a new person (<a href="https://github.com/yevheniikulisidi" target="_blank" rel="noreferrer noopener">Yevhenii Kulisidi</a>) joining our team.
 
-<h2 id="chapter_2">
-  War and its impact on Swetrix.
-</h2>
+## War and its impact on Swetrix.
+
 February 24, 2022 - Russia launches a totally unjustified and unfair full-scale invasion of Ukraine. The country is in total chaos, air-raid sirens screamed, rockets flew overhead, and people were massively leaving the city, every minute there was news from all over the country that something had exploded somewhere, some city had been captured by the Russians. It was the most frightening and life-changing time not only for us but for every Ukrainian. Work on the project was suspended for a few months, there was no desire or strength to do anything at that time.
 <br />
 
@@ -109,9 +86,8 @@ Overall, we finished 2022 with:
 - 305 connected websites.
 - 500,000 tracked events.
 
-<h2 id="chapter_3">
-  What we are working on and our plans for the future.
-</h2>
+## What we are working on and our plans for the future.
+
 We've done some refactoring to our working process and now all of the tickets on our <a href="https://github.com/orgs/Swetrix/projects/2" target="_blank" rel="noreferrer noopener">roadmap</a> are divided by the quarterly milestones. That means that Swetrix will become more stable in terms of development as there are clearly assigned deadlines for the tasks, which would make releasing new features more predictable.
 <br />
 
@@ -135,9 +111,8 @@ In 2023 overall we also want to release a new service called Swetrix Ads. This i
 <b>In terms of marketing</b>, we will be focusing more on the company blog, publishing our articles and insights into various platforms like Reddit, and Twitter. We made a post about ourselves on <a href="https://www.reddit.com/r/degoogle/comments/105xt4a/privacy_focused_cookieless_and_opensource_google/" target="_blank" rel="noreferrer noopener">Reddit</a> recently and have received lots of upvotes and good feedback. There is a demand for a service like that, it's just a matter of letting people know that Swetrix exists.
 We aim to finish 2023 with 1000 users signed up on our platform.
 
-<h2 id="chapter_4">
-  The conclusions and lessons learnt.
-</h2>
+## The conclusions and lessons learnt.
+
 <ol>
   <li>
     Building a startup is a challenging process. Be prepared for setbacks and do not get discouraged if you are not getting enough recognition amongst people. You will, eventually. Don't give up and believe in your idea.

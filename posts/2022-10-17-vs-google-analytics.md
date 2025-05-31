@@ -21,94 +21,12 @@ In this article, I'll explain to you why Google Analytics is substandard and why
 <br /><br />
 <img src="https://swetrix.com/assets/screenshot_dark.png" alt="Swetrix Dashboard" />
 
-<ol>
-  <li>
-    <a href="#illegal">
-        Google Analytics legal issues.
-    </a>
-    <ol>
-      <li>
-        <a href="#illegal_1">
-            GA is illegal in some EU countries.
-        </a>
-      </li>
-      <li>
-        <a href="#illegal_2">
-            GDPR (CCPA and others) compliance.
-        </a>
-      </li>
-      <li>
-        <a href="#illegal_3">
-            You should own your data, not Google.
-        </a>
-      </li>
-    </ol>
-  </li>
-  
-  <li>
-    <a href="#key">
-        Swetrix and Google Analytics key differences.
-    </a>
-    <ol>
-      <li>
-        <a href="#key_1">
-            Open source vs closed source analytics.
-        </a>
-      </li>
-      <li>
-        <a href="#key_2">
-            Lightweight vs over-engineered analytics.
-        </a>
-      </li>
-      <li>
-        <a href="#key_3">
-            Increasing loading speed and decreasing page weight.
-        </a>
-      </li>
-      <li>
-        <a href="#key_4">
-            Feature-rich vs feature-overkill.
-        </a>
-      </li>
-      <li>
-        <a href="#key_5">
-            Avoiding ad blockers.
-        </a>
-      </li>
-      <li>
-        <a href="#key_6">
-            The community directly influences what features we release.
-        </a>
-      </li>
-    </ol>
-  </li>
+::TABLE_OF_CONTENTS::
 
-  <li>
-    <a href="#price">
-        The price of privacy.
-    </a>
-  </li>
+## Google Analytics legal issues.
 
-  <li>
-    <a href="#why">
-        Why Swetrix over Google Analytics?
-    </a>
-  </li>
+### GA is illegal in some EU countries.
 
-  <li>
-    <a href="#comparison">
-        Comparison table.
-    </a>
-  </li>
-</ol>
-
-<h2 id="illegal">
-  Google Analytics legal issues.
-</h2>
-
-<h3 id="illegal_1">
-  GA is illegal in some EU countries.
-</h3>
 Google Analytics has recently dominated the privacy news.
 <br/>
 France, Austria, Italy, Netherlands and Denmark have declared that the use of <a href="https://analytics.google.com/analytics/web/" target="_blank" rel="noreferrer noopener">Google Analytics</a> in its current configuration is illegal.
@@ -120,9 +38,8 @@ Data transfers to the United States are currently a legal dilemma, so probably m
 <br /><br />
 Swetrix, on the other hand, is hosted in Nuremberg, Germany thus your website data never leaves the EU.
 
-<h3 id="illegal_2">
-  GDPR (CCPA and others) compliance.
-</h3>
+### GDPR (CCPA and others) compliance.
+
 According to recent regulations such as the <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" target="_blank" rel="noreferrer noopener">General Data Protection Regulation</a> (GDPR) in Europe, if you are tracking and collecting personal website usage data, you must ask for and obtain explicit consent from the visitor.
 <br /><br />
 Due to the <a href="https://en.wikipedia.org/wiki/Brussels_effect" target="_blank" rel="noreferrer noopener">Brussels effect</a>, this law has become a de-facto global standard, so similar privacy regulations around the world have been introduced, such as <a href="https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act" target="_blank" rel="noreferrer noopener">California Consumer Privacy Act</a> in the United States or <a href="https://ico.org.uk/for-organisations/guide-to-pecr/" target="_blank" rel="noreferrer noopener">Privacy and Electronic Communications Regulations</a> in the United Kingdom.
@@ -131,9 +48,8 @@ Google Analytics collects a lot of personal data, which can be a legal liability
 <br />
 Many website owners fail to do this, but you have to inform your visitors that you are tracking them with Google Analytics.
 
-<h3 id="illegal_3">
-  You should own your data, not Google.
-</h3>
+### You should own your data, not Google.
+
 You own your data, not us. Our mission is to ensure your privacy and to keep your data secure. We are a Ukraine-based company that securely stores your data on the EU servers.
 We strive to provide you with a simple and powerful web analytics service by collecting only the necessary data.
 
@@ -148,13 +64,10 @@ With Swetrix,
   </li>
 </ol>
 
-<h2 id="key">
-  Swetrix and Google Analytics key differences.
-</h2>
+## Swetrix and Google Analytics key differences.
 
-<h3 id="key_1">
-  Open source vs closed source analytics.
-</h3>
+### Open source vs closed source analytics.
+
 Swetrix is a <a href="https://github.com/Swetrix" target="_blank" rel="noreferrer noopener">fully opensourced</a> web analytics utility. Our code is available on Github, anyone can always analyse it or create pull requests with new features, fixes or improvements.
 <br /><br />
 On the other hand, Google Analytics is a fully closed source tool. People who use GA have to blindly trust this company, as there's no way of knowing what's going on when they use it.
@@ -163,9 +76,8 @@ You will never know if there are any data leaks on their side or if the code has
 <br />
 By using GA you have to trust Google.
 
-<h3 id="key_2">
-  Lightweight vs over-engineered analytics.
-</h3>
+### Lightweight vs over-engineered analytics.
+
 Most website owners don't need Google Analytics, as they simply don't use most of its features.
 <br />
 Google Analytics is designed for marketing professionals, it collects too much data that regular people use only a small fractions of.
@@ -178,25 +90,22 @@ People who need additional features can always install custom extensions from ou
 <br /><br />
 On Swetrix, there are no dozens of useless tabs or menus, no need to generate custom reports or filter through data noise. Take a look at our <a href="https://swetrix.com/projects/STEzHcB1rALV" target="_blank" rel="noreferrer noopener">live demo</a> and see for yourself!
 
-<h3 id="key_3">
-  Feature-rich vs feature-overkill.
-</h3>
+### Feature-rich vs feature-overkill.
+
 Unlike Google Analytics, Swetrix provides a huge number of features that people actually use. For example, you can segment your data, track custom events, invite people to your connected websites, set up notifications or two-factor authentication and much more.
 <br />
 All this comes with privacy in mind and doesn't require tracking unnecessary data from your users, so there's no need to display annoying cookie warnings on your websites.
 <br /><br />
 <img src="https://i.imgur.com/kgaZz4c.png" alt="Google Analytics vs Swetrix" />
 
-<h3 id="key_4">
-  Increasing loading speed and decreasing page weight.
-</h3>
+### Increasing loading speed and decreasing page weight.
+
 Depending on how you install GA, their tracking script size may be between 20 to 50 KB. This can potentially delay website rendering and cause issues for some people. Swetrix is a lightweight analytics tool, and we aim to provide great analytics insights without a negative impact on your website's performance.
 <br /><br />
 Swetrix.js script size is < 4KB, it loads in the background and does not impact your website's performance.
 
-<h3 id="key_5">
-  Avoiding ad blockers.
-</h3>
+### Avoiding ad blockers.
+
 Did you know that 42.7% of internet users <a href="https://backlinko.com/ad-blockers-users#ad-blocking-stats" target="_blank" rel="noreferrer noopener">use ad blockers</a>? Almost all the ad blockers prevent Google Analytics from loading, which means that you receive incomplete insights about your website traffic and performance.
 <br />
 Incomplete statistics may lead to misunderstanding of what content your visitors actually like and what not, which can lead to advertisement issues in future.
@@ -205,32 +114,28 @@ Swetrix does not track any personal data, does not rely on cookies or profile pe
 <br />
 You can always <a href="https://github.com/swetrix/swetrix-api" target="_blank" rel="noreferrer noopener">self-host</a> Swetrix yourself without any limitations or proxy visitors tracking via your domain name by setting up our script.
 
-<h3 id="key_6">
-  The community directly influences what features we release.
-</h3>
+### The community directly influences what features we release.
+
 Our roadmap is <a href="https://github.com/orgs/Swetrix/projects/2" target="_blank" rel="noreferrer noopener">public</a> and available to anyone on Github. You can propose or discuss upcoming features, or develop them yourself by opening pull requests to any of our repositories.
 <br /><br />
 On the other hand, you cannot decide what feature will Google Analytics release next. There are no public roadmaps or any meaningful way to leave a feedback they will actually listen to. Only Google desides what will happen to the GA.
 
-<h2 id="price">
-  The price of privacy.
-</h2>
+## The price of privacy.
+
 Unlike Google, our business model is ethical. We don't monetise or share user's data in any way, so to be profitable and grow, we provide pair tiers. Regardless, we do provide a free tier for small websites.
 <br /><br />
 Swetrix is an independent and bootstrapped project and to keep it alive we need to bill a fee.
 
-<h2 id="why">
-  Why Swetrix over Google Analytics?
-</h2>
+## Why Swetrix over Google Analytics?
+
 Swetrix is a fully opensource and cookieless alternative to Google Analytics. We are a bootstrapped project driven by the community, so we don't rely on any investors and try to stay as transparant as possible.
 <br /><br />
 We provide you all the needed analytics insights in a simple and understandable way, you don't have to learn how to use our platform. We respect the privacy of our visitors and are compliant with the GDPR.
 <br /><br />
 So, why not to <a href="https://swetrix.com/signup" target="_blank" rel="noreferrer noopener">give us a try</a> and see for yourself? No payment needed, you can simply register and start using the service at once.
 
-<h2 id="comparison">
-  Comparison table.
-</h2>
+## Comparison table.
+
 <table>
   <tbody>
     <tr>

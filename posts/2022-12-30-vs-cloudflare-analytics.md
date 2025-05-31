@@ -18,79 +18,11 @@ However, client-side tracking has the advantage of being able to filter out auto
 <img src="https://i.imgur.com/p5NpNHG.png" alt="Cloudflare Web Analytics Dashboard" title="Cloudflare Web Analytics Dashboard" />
 <i>Cloudflare Web Analytics Dashboard</i>
 
-<ol>
-  <li>
-    <a href="#data">
-        Data collection & dashboard.
-    </a>
-    <ol>
-      <li>
-        <a href="#data_1">
-            Sampling is applied to Cloudflare Dashboard.
-        </a>
-      </li>
-      <li>
-        <a href="#data_2">
-            Bots are not excluded.
-        </a>
-      </li>
-      <li>
-        <a href="#data_3">
-            Data retention.
-        </a>
-      </li>
-      <li>
-        <a href="#data_4">
-            User flow analysis.
-        </a>
-      </li>
-    </ol>
-  </li>
+::TABLE_OF_CONTENTS::
 
-  <li>
-    <a href="#website_limit">
-        Number of websites is limited.
-    </a>
-  </li>
+## Data collection & dashboard.
 
-  <li>
-    <a href="#missed_insights">
-        Cloudflare dashboard is missing a lot of insights.
-    </a>
-  </li>
-
-  <li>
-    <a href="#open_source">
-        Open source vs closed source.
-    </a>
-  </li>
-
-  <li>
-    <a href="#visitors">
-        Different techniques of unique visitors tracking.
-    </a>
-  </li>
-
-  <li>
-    <a href="#comparison">
-        Comparison table.
-    </a>
-  </li>
-
-  <li>
-    <a href="#pricing">
-        Pricing.
-    </a>
-  </li>
-</ol>
-
-<h2 id="data">
-  Data collection & dashboard.
-</h2>
-
-<h3 id="data_1">
-  Sampling is applied to Cloudflare Dashboard.
-</h3>
+### Sampling is applied to Cloudflare Dashboard.
 
 Cloudflare's documentation states that the analytics they provide are based on a sample — a subset of the dataset.
 <br />
@@ -101,26 +33,22 @@ The main reason of why some analytics companies apply sampling techniques is to 
 <br /><br />
 At Swetrix, we prioritise both the accuracy of the data we provide and the privacy of your users. To achieve this, we never sample the data we collect and always show you the actual traffic coming to your website. We believe that you should have access to the most accurate data available while also preserving the privacy of those visiting your site.
 
-<h3 id="data_2">
-  Bots are not excluded.
-</h3>
+### Bots are not excluded.
 
 Another reason why Cloudflare Web Analytics dashboard is inaccurate is that they are not excluding bot traffic. Bots are labelled as 'Unknown' and in some cases they take a decent percentage of total statistics.
 <br />
 At Swetrix, we detect bot traffic and exclude it from your website statistics, as this bot traffic does not represent actual pageviews. Bot traffic is also not accounted in our pricing.
 
-<h3 id="data_3">
-  Data retention.
-</h3>
+### Data retention.
+
 As stated in their documentation, Cloudflare only stores the analytics data for 6 months (when they launched it was only 7 days). Long data retention is a crucial feature for people who use analytics, as it's very common for people to compare large data sets, i.e. month-to-month or year-to-year comparison.
 <br /><br />
 Cloudflare Analytics is currently a free product, so it makes sense they want to reduce costs of operating it. It's not their core product, so we are not expecting for them to upper the limits of data retention.
 <br /><br />
 At Swetrix, we currently store your data indefinetely. You can compare and check the data for any period you want.
 
-<h3 id="data_4">
-  User flow analysis
-</h3>
+### User flow analysis
+
 With Swetrix, you can you can track user interactions and navigation patterns throughout your application, providing valuable insights for optimising user experience and engagement. Analysing user flow might help you to improve your website and the user experience of your visitors.
 <br />
 Cloudflare Web Analytics currently does not provide such functionality.
@@ -129,14 +57,11 @@ Cloudflare Web Analytics currently does not provide such functionality.
 <i>Swetrix user flow diagram</i>
 <br />
 
-<h2 id="website_limit">
-  Number of websites is limited.
-</h2>
+## Number of websites is limited.
+
 Cloudflare has a maximum of 10 websites you can add to the web analytics. Swetrix free tier also provides you with 10 websites - we do it as it currently costs us to store the website data. Swetrix paid tiers have a limit of 20 to 30 websites per account, but in feature these limits will be greatly increased.
 
-<h2 id="missed_insights">
-  Cloudflare dashboard is missing a lot of insights.
-</h2>
+## Cloudflare dashboard is missing a lot of insights.
 
 Cloudflare Dashboard is too limited and misses a lot of crucial features most people use in their daily life.
 For example, here's what Cloudflare is missing compared to what you can get on Swetrix:
@@ -171,23 +96,20 @@ For example, here's what Cloudflare is missing compared to what you can get on S
   </li>
 </ol>
 
-<h2 id="open_source">
-  Open source vs closed source.
-</h2>
+## Open source vs closed source.
+
 Swetrix is a <a href="https://github.com/Swetrix" target="_blank" rel="noreferrer noopener">fully opensourced</a> web analytics utility. Our code is available on Github, anyone can always analyse it or create pull requests with new features, fixes or improvements. Swetrix can be self-hosted, we also provide Docker images for that.
 <br /><br />
 On the other hand, Cloudflare Web Analytics is a fully closed source product. People who use Cloudflare have to blindly trust this company, as there's no way of knowing what's going on when they use it. You will never know if there are any data leaks on their side or if the code has some backdoors.
 
-<h2 id="visitors">
-  Different techniques of unique visitors tracking.
-</h2>
+## Different techniques of unique visitors tracking.
+
 Swetrix and Cloudflare Web Analytics have different definitions of a unique visitor. Cloudflare Web Analytics counts a visit as a successful page view that has an HTTP referrer that doesn't match the hostname of the request. This means that Cloudflare counts the number of times someone comes to any page of your site from another site, and it may differ significantly from the counts of other analytics tools depending on the type of site and audience you have. For example, if the same person visits your site ten times in one day, Cloudflare Web Analytics would list that person as ten unique visitors, while Swetrix would show them as one unique visitor.
 <br /><br />
 Swetrix does not use cookies or local storage to track unique visitors, and it does not generate a device-persistent identifier because these are considered personal data under GDPR. Instead, it generates a daily changing identifier using the visitor's IP address and User Agent, and it anonymises this data by running it through a hash function with a dailt rotating salt.
 
-<h2 id="comparison">
-  Comparison table.
-</h2>
+## Comparison table.
+
 <table>
   <tbody>
     <tr>
@@ -278,9 +200,8 @@ Swetrix does not use cookies or local storage to track unique visitors, and it d
   </tbody>
 </table>
 
-<h2 id="pricing">
-  Pricing.
-</h2>
+## Pricing.
+
 Like Google Analytics, Cloudflare Web Analytics is free to use. It's natural to be suspicious of free services, as the saying goes, "If you're not paying for the product, you are the product.". This means that the company providing the free service is likely monetizing your data in some way. While it's unclear how Cloudflare is funding its free web analytics service, it's worth considering that the company may be using it as a form of marketing, a strategy in which a free service is offered to attract users to the company's main products.
 <br /><br />
 As a large company with significant resources, Cloudflare may be using its web analytics service as a way to increase awareness of its other offerings. It's worth considering whether Cloudflare will continue to offer this service if it is not successful in attracting users to its other products.

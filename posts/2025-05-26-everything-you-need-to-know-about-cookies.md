@@ -11,32 +11,9 @@ As a website owner, you've probably wondered whether you actually need to displa
 
 If you're running a simple blog, you might not need a banner at all. But if you're using third-party advertising or tools like Google Analytics, you're likely legally required to ask for consent.
 
-<ol>
-  <li>
-    <a href="#what-are-cookies">
-      What are cookies?
-    </a>
-  </li>
-  <li>
-    <a href="#what-kind-of-cookies-are-there">
-      What kind of cookies are there?
-    </a>
-  </li>
-  <li>
-    <a href="#cookies-and-privacy-regulations">
-      Privacy regulations around cookies (GDPR, ePrivacy)
-    </a>
-  </li>
-  <li>
-    <a href="#cookieless-alternatives">
-      Cookies and web analytics; cookieless alternatives
-    </a>
-  </li>
-</ol>
+::TABLE_OF_CONTENTS::
 
-<h2 id="what-are-cookies">
-  What are cookies?
-</h2>
+## What are cookies?
 
 Cookies are small text files that websites store on your device to remember information about you and your browsing session.
 
@@ -72,9 +49,7 @@ Cookies can be classified in three main ways: by their duration, provenance (whe
 
 **Marketing cookies** track your online activity across websites to deliver targeted advertising or limit ad frequency. These are almost always persistent third-party cookies and can build detailed profiles of your browsing habits and preferences.
 
-<h2 id="cookies-and-privacy-regulations">
-  Privacy regulations around cookies (GDPR, ePrivacy)
-</h2>
+## Privacy regulations around cookies (GDPR, ePrivacy)
 
 In Europe, cookies are primarily regulated by the General Data Protection Regulation (GDPR) and the ePrivacy Directive. These laws are pretty complicated and in general, when they talk about cookies, they also mean other means of storing data on your device, like local storage.
 
@@ -94,9 +69,7 @@ EPD requires that a website must inform a user and obtain their consent before s
 
 So unless your cookies are strictly necessary (like for authentication), you **need to obtain consent from the user** before storing them.
 
-<h2 id="cookieless-alternatives">
-  Cookies and web analytics; cookieless alternatives
-</h2>
+## Cookies and web analytics; cookieless alternatives
 
 Many services like Google Analytics use cookies to track visitors across websites they're installed on. And because of that, you're legally required to display a cookie consent banner for that.
 

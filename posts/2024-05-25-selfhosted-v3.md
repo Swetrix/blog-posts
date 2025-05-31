@@ -11,13 +11,11 @@ Over 1 year have passed since our [previous selfhosted release](https://swetrix.
 
 It's a very powerful release, with dozens of unique features and hundreds of hours spent into it. We've made it more stable and even easier to install and use.
 
-<h2>
-  What changed
-</h2>
+::TABLE_OF_CONTENTS::
 
-<h3>
-  🔥 Major updates
-</h3>
+## What changed
+
+### 🔥 Major updates
 
 - Added session analytics: you can now see which pages / custom events were tracked within a session, as well as some details about them
 - Added support for marketing funnels
@@ -26,9 +24,7 @@ It's a very powerful release, with dozens of unique features and hundreds of hou
 - Added more metrics for performance monitoring: you can now see load time distribution over different quantiles, as well as apply different aggregation functions to your data
 - Added [API](https://docs.swetrix.com/statistics-api) key support
 
-<h3>
-  🙂 Minor updates
-</h3>
+### 🙂 Minor updates
 
 - Project ID now generated on the backend for new sites
 - Removed validate-ip-node library in favour of built-in Node.js net module
@@ -45,16 +41,12 @@ It's a very powerful release, with dozens of unique features and hundreds of hou
 - Updated API dependencies
 - Updated Clickhouse & Redis versions
 
-<h3>
-  🔧 Fixes
-</h3>
+### 🔧 Fixes
 
 - Fixed an issue where users could not disable the "Show live visitors in page title" feature.
 - Fixed a possible issue where a non-existent tab could be opened in the dashboard
 
-<h2>
-  How to upgrade to v3?
-</h2>
+## How to upgrade to v3?
 
 You can find upgrade instructions on our [release notes](https://github.com/Swetrix/swetrix-api/releases/tag/v3.0.0) page on Github.
 

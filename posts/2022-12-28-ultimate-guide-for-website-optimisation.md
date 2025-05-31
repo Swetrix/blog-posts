@@ -8,38 +8,12 @@ twitter_handle: andrii_rom
 ---
 
 As a small business owner, your website is often the first point of contact between you and your potential customers. A well-designed and optimized website can help you effectively market your products or services, engage visitors, and convert them into paying customers. On the other hand, a poorly designed or slow-loading website can drive potential customers away and hurt your business.
-<br />
+
 In this guide, we will cover the four key aspects of website optimization: improving website loading speed, designing a user-friendly layout, creating compelling content and analysing your website's performance. By following these tips, you can improve your website's performance and drive more traffic and conversions for your small business.
 
-<ol>
-  <li>
-    <a href="#s1">
-        Section 1: Improving website loading speed
-    </a>
-  </li>
+::TABLE_OF_CONTENTS::
 
-  <li>
-    <a href="#s2">
-        Section 2: Designing a user-friendly layout
-    </a>
-  </li>
-
-  <li>
-    <a href="#s3">
-        Section 3: Creating compelling content
-    </a>
-  </li>
-
-  <li>
-    <a href="#s4">
-        Section 4: Analysing and improving website performance
-    </a>
-  </li>
-</ol>
-
-<h2 id="s1">
-  Section 1: Improving website loading speed
-</h2>
+## Section 1: Improving website loading speed
 
 Website loading speed is a critical factor in user experience and search engine rankings. Studies have shown that even a one-second delay in loading times can result in a significant drop in traffic and conversions. This is because users are more likely to abandon a website that takes too long to load, and search engines such as Google tend to rank faster-loading websites higher in search results.
 <br />
@@ -62,9 +36,7 @@ Website loading speed is a critical factor in user experience and search engine 
   </li>
 </ol>
 
-<h2 id="s2">
-  Section 2: Designing a user-friendly layout
-</h2>
+## Section 2: Designing a user-friendly layout
 
 A user-friendly layout is essential for ensuring that users can easily find what they are looking for on your website. A cluttered or confusing layout can make it difficult for users to navigate your website and may result in them leaving your site without taking any desired actions.
 <br />
@@ -88,9 +60,7 @@ To create a user-friendly layout, consider the following tips:
   </li>
 </ol>
 
-<h2 id="s3">
-  Section 3: Creating compelling content
-</h2>
+## Section 3: Creating compelling content
 
 In addition to a well-designed layout, your website needs compelling content to engage and convert visitors. Content is the driving force behind your website, and it should be valuable, informative, and tailored to your target audience.
 <br />
@@ -115,9 +85,8 @@ To create compelling content, consider the following tips:
   </li>
 </ol>
 
-<h2 id="s4">
-  Section 4: Analysing and improving website performance
-</h2>
+## Section 4: Analysing and improving website performance
+
 Once you have implemented the tips in this guide, it is important to regularly analyse and track your website's performance to identify areas for improvement. There are several tools and techniques that you can use to do this:
 
 <ol>

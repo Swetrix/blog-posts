@@ -9,40 +9,10 @@ twitter_handle: andrii_rom
 
 A UTM parameter is the textual content included in the URL to apprehend where are the site visitors coming from, and therefore, to understand which advertising campaigns are working and which are not.
 
-<ol>
-  <li>
-    <a href="#what_is">
-        What is a UTM parameter?
-    </a>
-  </li>
-  <li>
-    <a href="#utm_types">
-        UTM parameter types
-    </a>
-  </li>
-  <li>
-    <a href="#when">
-        When should I use UTM parameters?
-    </a>
-  </li>
-  <li>
-    <a href="#how">
-        How to create UTM parameters?
-    </a>
-  </li>
-  <li>
-    <a href="#tips">
-        Some tips for using UTM codes and UTM tracking
-    </a>
-  </li>
-  <li>
-    <a href="#why_swetrix">
-        Why use Swetrix for tracking UTM parameters
-    </a>
-  </li>
-</ol>
+::TABLE_OF_CONTENTS::
 
-<h2 id="what_is">What is a UTM parameter?</h2>
+## What is a UTM parameter?
+
 UTM stands for “Urchin Tracking Module,” which initially commenced in Google Analytics (they acquired a product known as Urchin many years ago).
 
 They are now recognized in much more places than simply Google Analytics and are used as an industry standard.
@@ -52,13 +22,15 @@ The information in the URL known as a UTM parameter helps you determine which of
 
 Creating and tracking UTM links doesn't require some technical skills, violating people's privacy, or writing complex code and even our UTM builder may be used to construct these links.
 
-<h2 id="utm_types">UTM parameter types</h2>
+## UTM parameter types
+
 Take a look at the following link:
 <br />
 `https://swetrix.com/docs?utm_source=google&utm_campaign=ads&utm_medium=paid_ads&utm_term=analytics&utm_content=text_ad`
 <br />
 At a glance it may look difficult to understand, but actually it's not. Let's break down each piece of it in a more understandable format:
 <br />
+
 <ul>
   <li>
     <b>utm_source</b> - the website or platform that is generating the traffic.
@@ -77,23 +49,27 @@ At a glance it may look difficult to understand, but actually it's not. Let's br
   </li>
 </ul>
 
-<h2 id="when">When should I use UTM parameters?</h2>
+## When should I use UTM parameters?
+
 You want to see where your users are coming from when you are running an advertising campaign on Google or social media.
 
 You employ additional strategies to draw readers and potential clients, and you are curious about their origins.
 
 Using e-marketing services, you send newsletters to your subscribers, and you want to monitor how effective they are.
 
-<h2 id="how">How to create UTM parameters?</h2>
+## How to create UTM parameters?
+
 You can use the following template to paste your UTM parameters into the link `https://example.com/?utm_source=[SOURCE]&utm_medium=[MEDIUM]&utm_campaign=[CAMPAIGN]&utm_term=[TERM]&utm_content=[CONTENT]` or use the
 <a href="https://url.swetrix.com" target="_blank" rel="noreferrer noopener">UTM builder application</a>
 we specifically created for that reason.
 <br />
 <img src="https://i.imgur.com/FQRCbMm.png" alt="Swetrix UTM builder application" />
 
-<h2 id="tips">Some tips for using UTM codes and UTM tracking</h2>
+## Some tips for using UTM codes and UTM tracking
+
 UTMs can be any terms you choose, but when making them, it's crucial to keep the following in mind:
 <br />
+
 <ol>
   <li>
     UTM links should only be utilised for links that lead to other websites.
@@ -115,7 +91,8 @@ UTMs can be any terms you choose, but when making them, it's crucial to keep the
   </li>
 </ol>
 
-<h2 id="why_swetrix">Why use Swetrix for tracking UTM parameters</h2>
+## Why use Swetrix for tracking UTM parameters
+
 You can quickly view and filter UTM parameters using Swetrix.
 
 As a result, you can view all the UTMs you've used for your campaigns directly on the dashboard for your website and filter each one (or many UTMs at once) to further delve into your data and track the development of your campaigns.
