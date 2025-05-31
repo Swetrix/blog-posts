@@ -3,7 +3,7 @@ title: 'Google Analytics pricing: All you need to know'
 date: November 7, 2023
 hidden: true
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Google Analytics is the most popular web analytics tool, providing website owners with insights into traffic and website performance.

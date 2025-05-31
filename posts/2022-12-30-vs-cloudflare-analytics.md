@@ -4,7 +4,7 @@ intro: Cloudflare Web Analytics is quite a popular privacy-focused web analytics
 date: December 30, 2022
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Cloudflare offers several analytics products and one of them is called Cloudflare Account Analytics, but it is only available to Cloudflare users. Cloudflare Web Analytics, on the other hand, is a free tool that is available to everyone.

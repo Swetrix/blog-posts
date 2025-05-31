@@ -4,7 +4,7 @@ intro: Earn money by sharing Swetrix with your friends, website visitors or foll
 date: November 8, 2023
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Are you ready to boost your earnings while promoting a fantastic product? Then we’re more than happy to introduce you to the Swetrix affiliate program! With Swetrix, you can effortlessly monetize your website, blog, newsletter, or social media presence. We offer you all the essential tools and resources to kickstart your journey as a Swetrix affiliate and begin earning enticing commissions.

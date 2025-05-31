@@ -4,7 +4,7 @@ intro: Simple Analytics is a privacy-focused web analytics solution, but is it t
 date: February 23, 2023
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Simple Analytics was founded in 2018 by Adriaan van Rossum as a privacy-focused alternative to Google Analytics.

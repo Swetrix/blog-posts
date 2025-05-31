@@ -4,7 +4,7 @@ intro: 'In the latest Swetrix release we have released new features: IP blacklis
 date: August 02, 2022
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Hi everyone reading this post!

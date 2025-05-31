@@ -4,7 +4,7 @@ intro: 'Swetrix Selfhosted v2: performance monitoring, traffic comparison, user 
 date: May 17, 2023
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 🎉 We're happy to announce that we've finally released Swetrix Selfhosted version 2. It's been more than a year since the last release and a lot has changed during that time.

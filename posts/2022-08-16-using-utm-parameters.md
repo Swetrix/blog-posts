@@ -4,7 +4,7 @@ intro: A UTM parameter is the textual content included in the URL to apprehend w
 date: August 16, 2022
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 A UTM parameter is the textual content included in the URL to apprehend where are the site visitors coming from, and therefore, to understand which advertising campaigns are working and which are not.

@@ -3,7 +3,7 @@ title: Is Google Analytics illegal in the Netherlands?
 date: October 9, 2023
 hidden: true
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR. Four of these companies are located in the Netherlands.

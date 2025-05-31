@@ -4,7 +4,7 @@ intro: Cookie consent banners are everywhere, but do you actually need one? This
 date: May 26, 2025
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 As a website owner, you've probably wondered whether you actually need to display a cookie consent banner on your website.

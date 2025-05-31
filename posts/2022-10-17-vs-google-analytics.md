@@ -4,7 +4,7 @@ intro: Google Analytics is the most widely used analytics service among the webs
 date: October 17, 2022
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Google Analytics is a service that has been on the market for a long time and is used by millions of people.

@@ -4,7 +4,7 @@ intro: 'Swetrix Selfhosted v3: our biggest update so far! Session analytics, fun
 date: May 25, 2024
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 Over 1 year have passed since our [previous selfhosted release](https://swetrix.com/blog/selfhosted-v2). At that time, it was a solid product with unique and very useful features. But now, we're happy to introduce: Swetrix Selfhosted v3.

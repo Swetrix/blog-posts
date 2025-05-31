@@ -4,7 +4,7 @@ intro: The new website design has been released, marketplace and extensions are 
 date: July 27, 2022
 hidden: false
 author: Andrii Romasiun
-nickname: blaumaus
+twitter_handle: andrii_rom
 ---
 
 The new design of our website has been published today, and with it the new strategy for our business.
