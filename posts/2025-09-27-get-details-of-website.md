@@ -240,11 +240,11 @@ Popular options include Plausible, Fathom, and Simple Analytics. They provide:
 
 A quick comparison:
 
-| Platform         | Cookieless | GDPR Compliant | Data Ownership | Integrations |
-| ---------------- | ---------- | -------------- | -------------- | ------------ |
-| Plausible        | Yes        | Yes            | Full           | Moderate     |
-| Fathom           | Yes        | Yes            | Full           | Moderate     |
-| Simple Analytics | Yes        | Yes            | Full           | Basic        |
+| Platform  | Cookieless | GDPR Compliant | Data Ownership | Integrations |
+| --------- | ---------- | -------------- | -------------- | ------------ |
+| Swetrix   | Yes        | Yes            | Full           | Full         |
+| Plausible | Yes        | Yes            | Full           | Moderate     |
+| Fathom    | Yes        | Yes            | Full           | Moderate     |
 
 These help you measure what matters while keeping trust high.
 
