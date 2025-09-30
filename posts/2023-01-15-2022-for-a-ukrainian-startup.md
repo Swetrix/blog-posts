@@ -77,7 +77,7 @@ After redesigning the website and relaunching Swetrix on Producthunt, we hit 127
 <i>That's how our main page looked before, yeah we know it's kind of crappy. You can check out our latest main page <a href="https://swetrix.com" target="_blank" rel="noreferrer noopener">here</a>.</i>
 <br />
 
-After the redesign, we started rushing lots of new features. We have improved the integrations with other services, drastically improved the charts and added several custom metrics there, added session duration tracking, performance monitoring, custom alerts and Telegram integration and much more! We also launched a <a href="https://swetrix.com/changelog" target="_blank" rel="noreferrer noopener">changelog page</a> where we publish updates we do on Swetrix.
+After the redesign, we started rushing lots of new features. We have improved the integrations with other services, drastically improved the charts and added several custom metrics there, added session duration tracking, performance monitoring, custom alerts and Telegram integration and much more! We also launched a changelog page (2025.09.30 update: the changelog page has been removed, too much hassle to maintain it) where we publish updates we do on Swetrix.
 <br />
 
 Overall, we finished 2022 with:
