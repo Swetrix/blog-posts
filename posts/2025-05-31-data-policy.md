@@ -60,7 +60,7 @@ For pageviews, we store the following data:
 
 1. **Randomly generated number** - to help count pageviews for the same visitor
 2. **Your website (project) ID** - to understand which website the pageview belongs to
-3. **Host and page URL** - to understand which page was viewed. For example, if you visit https://example.com/page1 and Swetrix is set up on this website, we will store the host (example.com), the page URL (/page1). We will also store UTM parameters (parameters like **ref**, **source**, **utm_source**, **utm_campaign**, **utm_medium**, **utm_term**, **utm_content**).
+3. **Host and page URL** - to understand which page was viewed. For example, if you visit `https://example.com/page1` and Swetrix is set up on this website, we will store the host (example.com), the page URL (/page1). We will also store UTM parameters (parameters like **ref**, **source**, **utm_source**, **utm_campaign**, **utm_medium**, **utm_term**, **utm_content**).
 
 Optionally, if you can also enable hash-based tracking (so we will store the hash of the page URL visited, like `/#page1`) or search-based tracking (so we will store the query parameters, like `/?search`) if your website uses such kind of routing.
 

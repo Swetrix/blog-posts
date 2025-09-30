@@ -42,7 +42,7 @@ Swetrix, on the other hand, is hosted in Nuremberg, Germany thus your website da
 
 According to recent regulations such as the <a href="https://en.wikipedia.org/wiki/General_Data_Protection_Regulation" target="_blank" rel="noreferrer noopener">General Data Protection Regulation</a> (GDPR) in Europe, if you are tracking and collecting personal website usage data, you must ask for and obtain explicit consent from the visitor.
 <br /><br />
-Due to the <a href="https://en.wikipedia.org/wiki/Brussels_effect" target="_blank" rel="noreferrer noopener">Brussels effect</a>, this law has become a de-facto global standard, so similar privacy regulations around the world have been introduced, such as <a href="https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act" target="_blank" rel="noreferrer noopener">California Consumer Privacy Act</a> in the United States or <a href="https://ico.org.uk/for-organisations/guide-to-pecr/" target="_blank" rel="noreferrer noopener">Privacy and Electronic Communications Regulations</a> in the United Kingdom.
+Due to the <a href="https://en.wikipedia.org/wiki/Brussels_effect" target="_blank" rel="noreferrer noopener">Brussels effect</a>, this law has become a de-facto global standard, so similar privacy regulations around the world have been introduced, such as <a href="https://en.wikipedia.org/wiki/California_Consumer_Privacy_Act" target="_blank" rel="noreferrer noopener">California Consumer Privacy Act</a> in the United States or Privacy and Electronic Communications Regulations in the United Kingdom.
 <br /><br />
 Google Analytics collects a lot of personal data, which can be a legal liability for your website.
 <br />
