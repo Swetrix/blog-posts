@@ -1,6 +1,6 @@
 ---
 title: 'How to Track Website Traffic in 2025: A Practical Guide'
-intro: Learn how to track website traffic in 2025 with a straightforward plan: what to measure, how to set it up, the tools that help, and how to stay privacy-compliant.
+intro: 'Learn how to track website traffic in 2025 with a straightforward plan: what to measure, how to set it up, the tools that help, and how to stay privacy-compliant.'
 date: September 30, 2025
 hidden: false
 author: Andrii Romasiun
