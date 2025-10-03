@@ -95,9 +95,9 @@ The demand for privacy-first analytics has surged, prompting many to seek new wa
 
 Open-source tools and cloud solutions now let you gather actionable insights while respecting user privacy. Many businesses are turning to [Alternatives to Google Analytics](https://swetrix.com/blog/alternatives-to-google-analytics) to assess which privacy-focused analytics solutions best fit their needs. By choosing compliant tools, you can see a website traffic while meeting global regulations and maintaining transparency.
 
-### [Swetrix: Privacy-First Analytics for Modern Websites](https://swetrix.com)
+### Swetrix: Privacy-First Analytics for Modern Websites
 
-Swetrix is redefining how organizations see a website traffic in 2025. As a comprehensive, open-source, and privacy-first analytics platform, it offers cookieless tracking, real-time insights, and error monitoring—all without intrusive cookie banners.
+[Swetrix](https://swetrix.com) is redefining how organizations see a website traffic in 2025. As a comprehensive, open-source, and privacy-first analytics platform, it offers cookieless tracking, real-time insights, and error monitoring—all without intrusive cookie banners.
 
 ![See a Website Traffic: The Essential Guide for 2025 - Swetrix: Privacy-First Analytics for Modern Websites](https://i.imgur.com/IcQ0D9d.png)
 
