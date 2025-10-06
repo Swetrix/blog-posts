@@ -1,7 +1,7 @@
 ---
 title: 'Cookie Less Tracking: A Practical Guide for 2025'
 intro: 'Cookie less tracking in plain English: what it is, why it matters in 2025, and how to set it up with privacy-friendly tools while keeping reliable analytics.'
-date: October 4, 2025
+date: October 5, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
