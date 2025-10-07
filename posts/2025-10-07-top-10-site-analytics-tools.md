@@ -101,7 +101,7 @@ Choosing the right site analytics tool is pivotal for businesses aiming to thriv
 
 [Swetrix](https://swetrix.com) is a privacy-focused site analytics tool that offers both cloud and self-hosted options. Pricing starts at $19/month for 100,000 events, while the Community Edition is free for self-hosting.
 
-![Top 10 Site Analytics Tool Picks to Boost Your Website in 2025 - Swetrix](https://xqvnmkjynbkcujcrtubi.supabase.co/storage/v1/object/public/article-images/e5efdc8a-576b-460e-bae6-150dcedfbc15/1759821450423-https___swetrix_com.jpg)
+![Top 10 Site Analytics Tool Picks to Boost Your Website in 2025 - Swetrix](https://i.imgur.com/IcQ0D9d.png)
 
 Key features include:
 
