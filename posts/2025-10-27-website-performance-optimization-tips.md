@@ -1,7 +1,7 @@
 ---
 title: '10 Actionable Website Performance Optimization Tips for 2025'
 intro: 'Discover 10 expert website performance optimization tips to boost speed, UX, and SEO. Learn to reduce load times with actionable, data-driven advice.'
-date: October 76, 2025
+date: October 27, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
