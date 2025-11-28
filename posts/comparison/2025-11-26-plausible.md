@@ -2,6 +2,7 @@
 title: Swetrix vs Plausible
 date: November 28, 2025
 hidden: true
+standalone: true
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
