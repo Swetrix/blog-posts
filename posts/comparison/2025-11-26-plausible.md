@@ -57,7 +57,7 @@ Here is a quick comparison to help you decide which one fits your needs.
 
 ## Key Difference: Performance Monitoring
 
-One of the biggest differences between Swetrix and Plausible is performance monitoring. Plausible focuses strictly on traffic stats—visitors, pageviews, bounce rates, etc.
+One of the biggest differences between Swetrix and Plausible is performance monitoring. Plausible focuses strictly on traffic stats - visitors, pageviews, bounce rates, etc.
 
 Swetrix goes a step further by tracking **web performance metrics** alongside traffic data. It allows you to monitor how fast your website loads for your users by tracking technical metrics like Time to First Byte (TTFB), DNS resolution time, and page load speeds. You can segment this performance data by country, browser, or device. This means you don't just see _how many_ people visit your site, but also _how fast_ your site loads for them, helping you identify technical bottlenecks that might be hurting your SEO or user experience.
 
@@ -65,7 +65,7 @@ Swetrix goes a step further by tracking **web performance metrics** alongside tr
 
 Plausible prides itself on being "simple analytics," which is great if you only need a high-level overview. However, if you need to understand user behavior in more depth, Swetrix offers more robust tools.
 
-- **User Flow:** Swetrix provides User Flow diagrams that visualise exactly how visitors navigate through your site—where they start, what pages they visit next, and where they drop off. Swetrix also shows you the entry and exit pages of your users sessions.
+- **User Flow:** Swetrix provides User Flow diagrams that visualise exactly how visitors navigate through your site - where they start, what pages they visit next, and where they drop off. Swetrix also shows you the entry and exit pages of your users sessions.
 - **Session Analysis:** Swetrix includes session analysis to help you see your user journeys across your website. It shows you the pages they visit, the actions they perform (custom events), any JavaScript errors they encountered and more.
 - **Geo Map visualisation:** Swetrix includes a geo map visualisation to help you see where your users are coming from. It shows you the country, region and city of your users. Swetrix also offers geo map visualisation of your website performance metrics.
 
@@ -79,4 +79,4 @@ Plausible focuses on individual websites, but they are missing organisation-scal
 
 If you want the absolute simplest dashboard and only care about basic traffic numbers, **Plausible** is a fantastic, polished choice.
 
-If you want a privacy-friendly tool that offers **deeper insights**—like how fast your pages load, how users flow through your site, and how well you retain them—**Swetrix** is the better option. It gives you the power of tools like Google Analytics (performance, behavioral flows) without the privacy violations or complexity.
+If you want a privacy-friendly tool that offers **deeper insights** - like how fast your pages load, how users flow through your site, and how well you retain them - **Swetrix** is the better option. It gives you the power of tools like Google Analytics (performance, behavioral flows) without the privacy violations or complexity.
