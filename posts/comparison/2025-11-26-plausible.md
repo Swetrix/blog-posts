@@ -13,44 +13,44 @@ Here is a quick comparison to help you decide which one fits your needs.
 
 ## Why choose Swetrix over Plausible?
 
-| Feature                             | Swetrix | Plausible |
-| :---------------------------------- | :-----: | :-------: |
-| **Core Features**                   |         |           |
-| Real-time Analytics                 |   ✅    |    ✅     |
-| Custom Events                       |   ✅    |    ✅     |
-| Page views                          |   ✅    |    ✅     |
-| Live visitors count                 |   ✅    |    ✅     |
-| UTM Tracking                        |   ✅    |    ✅     |
-| Device stats (browser, OS, type)    |   ✅    |    ✅     |
-| Email Reports                       |   ✅    |    ✅     |
-| **Advanced Features**               |         |           |
-| Performance Monitoring (Web Vitals) |   ✅    |    ❌     |
-| User Flow Analysis                  |   ✅    |    ❌     |
-| Error Tracking                      |   ✅    |    ❌     |
-| Alerts / Notifications              |   ✅    |    ❌     |
-| Geolocation map visualisation       |   ✅    |    ❌     |
-| Funnels                             |   ✅    |    ✅     |
-| Segments                            |   ✅    |    ✅     |
-| Multiple Sites Support              |   ✅    |    ✅     |
-| Multiple Domains per Site           |   ✅    |    ❌     |
-| **Security & Access**               |         |           |
-| Bot filtering                       |   ✅    |    ✅     |
-| Two-Factor Authentication (2FA)     |   ✅    |    ✅     |
-| Role-based Access Control           |   ✅    |    ✅     |
-| Shared Dashboards                   |   ✅    |    ✅     |
-| Organisations (Teams)               |   ✅    |    ❌     |
-| **Privacy & Compliance**            |         |           |
-| Cookie-less Tracking                |   ✅    |    ✅     |
-| Open Source                         |   ✅    |    ✅     |
-| Self-hostable                       |   ✅    |    ✅     |
-| EU data residency                   |   ✅    |    ✅     |
-| **Technical specifications**        |         |           |
-| Script size                         |  6 KB   |   6 KB    |
-| API access                          |   ✅    |    ✅     |
-| Bypass adblockers                   |   ✅    |    ✅     |
-| **Pricing & Support**               |         |           |
-| Entry price                         | $19.00  |  $14.00   |
-| Customer support                    |   ✅    |    ✅     |
+|                                     | ::SWETRIX_LOGO:: | Plausible |
+| :---------------------------------- | :--------------: | :-------: |
+| **Core Features**                   |                  |           |
+| Real-time Analytics                 |        ✅        |    ✅     |
+| Custom Events                       |        ✅        |    ✅     |
+| Page views                          |        ✅        |    ✅     |
+| Live visitors count                 |        ✅        |    ✅     |
+| UTM Tracking                        |        ✅        |    ✅     |
+| Device stats (browser, OS, type)    |        ✅        |    ✅     |
+| Email Reports                       |        ✅        |    ✅     |
+| **Advanced Features**               |                  |           |
+| Performance Monitoring (Web Vitals) |        ✅        |    ❌     |
+| User Flow Analysis                  |        ✅        |    ❌     |
+| Error Tracking                      |        ✅        |    ❌     |
+| Alerts / Notifications              |        ✅        |    ❌     |
+| Geolocation map visualisation       |        ✅        |    ❌     |
+| Funnels                             |        ✅        |    ✅     |
+| Segments                            |        ✅        |    ✅     |
+| Multiple Sites Support              |        ✅        |    ✅     |
+| Multiple Domains per Site           |        ✅        |    ❌     |
+| **Security & Access**               |                  |           |
+| Bot filtering                       |        ✅        |    ✅     |
+| Two-Factor Authentication (2FA)     |        ✅        |    ✅     |
+| Role-based Access Control           |        ✅        |    ✅     |
+| Shared Dashboards                   |        ✅        |    ✅     |
+| Organisations (Teams)               |        ✅        |    ❌     |
+| **Privacy & Compliance**            |                  |           |
+| Cookie-less Tracking                |        ✅        |    ✅     |
+| Open Source                         |        ✅        |    ✅     |
+| Self-hostable                       |        ✅        |    ✅     |
+| EU data residency                   |        ✅        |    ✅     |
+| **Technical specifications**        |                  |           |
+| Script size                         |       6 KB       |   6 KB    |
+| API access                          |        ✅        |    ✅     |
+| Bypass adblockers                   |        ✅        |    ✅     |
+| **Pricing & Support**               |                  |           |
+| Entry price                         |      $19.00      |  $14.00   |
+| Customer support                    |        ✅        |    ✅     |
 
 <br>
 
