@@ -7,6 +7,9 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
+> [!NOTE]
+> This article is no longer relevant as of November 29, 2025. Please refer to the [Swetrix vs Simple Analytics: A Comprehensive Features Comparison](https://swetrix.com/comparison/simple-analytics) article for the latest comparison.
+
 Simple Analytics was founded in 2018 by Adriaan van Rossum as a privacy-focused alternative to Google Analytics.
 <br />
 
