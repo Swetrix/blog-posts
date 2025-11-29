@@ -79,3 +79,5 @@ Plausible focuses on individual websites, but they are missing organisation-scal
 If you want the absolute simplest dashboard and only care about basic traffic numbers, **Plausible** is a fantastic, polished choice.
 
 If you want a privacy-friendly tool that offers **deeper insights** - like how fast your pages load, how users flow through your site, and how well you retain them - **Swetrix** is the better option. It gives you the power of tools like Google Analytics (performance, behavioral flows) without the privacy violations or complexity.
+
+::CTA:TIME_TO_SWITCH::
