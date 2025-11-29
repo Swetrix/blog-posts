@@ -7,6 +7,9 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
+> [!NOTE]
+> This article is no longer relevant as of November 29, 2025. Please refer to the [Swetrix vs Cloudflare Web Analytics: Full Feature Comparison](https://swetrix.com/comparison/cloudflare-analytics) article for the latest comparison.
+
 Cloudflare offers several analytics products and one of them is called Cloudflare Account Analytics, but it is only available to Cloudflare users. Cloudflare Web Analytics, on the other hand, is a free tool that is available to everyone.
 <br />
 
