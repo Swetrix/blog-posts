@@ -49,7 +49,7 @@ Here is a quick comparison to help you decide which one fits your needs.
 | API access                          |        ✅        |    ✅     |
 | Bypass adblockers                   |        ✅        |    ✅     |
 | **Pricing & Support**               |                  |           |
-| Entry price                         |      $19.00      |  $14.00   |
+| Entry price                         |      $19.00      |  $19.00   |
 | Customer support                    |        ✅        |    ✅     |
 
 <br>
