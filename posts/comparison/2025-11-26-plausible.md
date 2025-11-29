@@ -31,7 +31,6 @@ Here is a quick comparison to help you decide which one fits your needs.
 | Geolocation map visualisation       |        ✅        |    ❌     |
 | Funnels                             |        ✅        |    ✅     |
 | Segments                            |        ✅        |    ✅     |
-| Multiple Sites Support              |        ✅        |    ✅     |
 | Multiple Domains per Site           |        ✅        |    ❌     |
 | **Security & Access**               |                  |           |
 | Bot filtering                       |        ✅        |    ✅     |
