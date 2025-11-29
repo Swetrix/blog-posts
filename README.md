@@ -47,3 +47,7 @@ Available components:
 - `::CTA:TIME_TO_SWITCH::` - a CTA section to switch to Swetrix from other analytics tools.
 - `::CTA:TIME_TO_DITCH_GOOGLE::` - a CTA section to ditch Google Analytics and switch to Swetrix.
 - `::SWETRIX_LOGO::` - a Swetrix logo, font size inherited from the surrounding text.
+
+### Emojis
+
+`✅`, `⚠️` and `❌` emojis are replaced with proper SVG entities on render.
