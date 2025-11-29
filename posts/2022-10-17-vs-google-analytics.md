@@ -7,6 +7,9 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
+> [!NOTE]
+> This article is no longer relevant as of November 29, 2025. Please refer to the [Swetrix vs Google Analytics: Full Feature Comparison](https://swetrix.com/comparison/google-analytics) article for the latest comparison.
+
 Google Analytics is a service that has been on the market for a long time and is used by millions of people.
 <br />
 Some people have even gotten into the habit of automatically installing Google analytics after launching their websites.
