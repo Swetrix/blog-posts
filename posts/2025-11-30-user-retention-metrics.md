@@ -7,8 +7,6 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-# Mastering User Retention Metrics for Sustainable Growth
-
 User retention metrics are how you measure your ability to keep customers coming back. They're the key performance indicators (KPIs) that tell you whether people see real, ongoing value in your product long after the initial novelty wears off.
 
 Think of these metrics as a health report for your customer relationships.
