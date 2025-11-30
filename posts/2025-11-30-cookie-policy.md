@@ -5,8 +5,6 @@ hidden: true
 standalone: true
 ---
 
-Cookie Policy
-
 Part of the provision of our service and this website relies on the collection of cookies. Depending on their use, they may be considered essential or subject to your explicit consent.
 
 ### What is a cookie?
