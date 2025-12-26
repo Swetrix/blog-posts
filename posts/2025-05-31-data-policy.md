@@ -54,6 +54,12 @@ Only the randomly generated number is stored in the database to link pageviews t
 
 The salt to generate the hash is generated randomly every day. This means a visitor on Monday and Tuesday will appear as two distinct visitors, preventing long-term tracking. We cannot show user retention statistics because they rely on a persistent session identifier, like cookies.
 
+### User Profiles
+
+We also support User Profiles tracking. Profiles work similarly to sessions and use the same irreversible hash mechanism. The main difference is that while the sessions salt is reset daily, the profiles salt is reset monthly.
+
+You can also pass your own `profileIds` to the API if you want to identify your users (e.g. by using your internal user IDs or storing this data in cookies). However, if you choose to do this, you are required to obtain consent from your users.
+
 ### Page views
 
 For pageviews, we store the following data:
