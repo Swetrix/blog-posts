@@ -33,6 +33,14 @@ Here is a quick comparison to help you decide which one fits your needs.
 | Funnels                             |             ✅              |          ❌          |
 | Segments                            |             ✅              |          ❌          |
 | Multiple Domains per Site           |             ✅              |          ❌          |
+| **Growth & Product**                |                             |                      |
+| AI Chat                             |             ✅              |          ✅          |
+| Goals                               |             ✅              |          ✅          |
+| Experiments (A/B tests)             |             ✅              |          ❌          |
+| Feature flags                       |             ✅              |          ❌          |
+| User Profiles                       |             ✅              |          ❌          |
+| Revenue analytics                   |             ✅              |          ❌          |
+| CAPTCHA                             |             ✅              |          ❌          |
 | **Security & Access**               |                             |                      |
 | Bot filtering                       |             ✅              |          ✅          |
 | Two-Factor Authentication (2FA)     |             ✅              |          ❌          |
@@ -54,19 +62,19 @@ Here is a quick comparison to help you decide which one fits your needs.
 
 <br>
 
-## Key Difference: Open Source & Self-hosting
+## Open Source & Self-hosting
 
 One of the biggest differences is that Swetrix is **fully open-source** and **self-hostable**. You can inspect our code, contribute to it, or host it entirely on your own infrastructure for free. This ensures you have full ownership and control over your data, and ensures our pledge to verifiable transparency.
 
 Simple Analytics is a proprietary, closed-source product. You rely entirely on their cloud infrastructure and cannot verify the code quality or host it yourself.
 
-## Key Difference: Performance Monitoring
+## Performance Monitoring
 
 Swetrix goes beyond just traffic stats by tracking **web performance metrics**. These metrics show how fast your website loads for your users, and include metrics like Time to First Byte (TTFB), DNS resolution time, and page load speeds.
 
 Simple Analytics focuses strictly on traffic statistics (visitors, pageviews) and does not provide performance monitoring features.
 
-## Key Difference: Depth of Analysis (User Flows, Errors)
+## Depth of Analysis (User Flows, Errors)
 
 Simple Analytics lives up to its name by keeping things simple. However, if you need to understand user behavior in depth, Swetrix offers more robust tools:
 
@@ -75,6 +83,17 @@ Simple Analytics lives up to its name by keeping things simple. However, if you 
 - **Geolocation Map:** Swetrix includes a map visualisation to see where your users are coming from, whereas Simple Analytics only provides country-based list.
 - **Funnels:** With Swetrix, you can build your own funnels to track your user journeys, and see how many users make it from one step to the next. Simple Analytics does not provide this functionality.
 - **Alerts:** Swetrix includes alerts to notify you when certain events occur, such as a new user signing up, a pageview being recorded, or a JavaScript error being logged. These alerts can be sent to you or your team by Slack, Discord, Telegram or custom webhooks. Simple Analytics does not provide this functionality.
+
+## Growth & Product Tools
+
+Swetrix offers a suite of tools to help you actively grow your business, not just measure it:
+
+- **Experiments:** Run privacy-friendly A/B tests.
+- **Feature Flags:** Safely manage feature rollouts.
+- **Revenue Analytics:** Track financial metrics alongside traffic.
+- **User Profiles:** Understand user retention with MAU/DAU tracking.
+
+While Simple Analytics focuses purely on the "stats", Swetrix gives you the tools to improve those stats.
 
 ## Conclusion
 

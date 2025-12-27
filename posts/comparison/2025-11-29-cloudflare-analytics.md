@@ -34,6 +34,14 @@ Here is a quick comparison to help you understand the real differences.
 | Geolocation map visualisation       |        ✅        |                 Limited                 |
 | Funnels                             |        ✅        |                   ❌                    |
 | Multiple Domains per Site           |        ✅        |                   ❌                    |
+| **Growth & Product**                |                  |                                         |
+| AI Chat                             |        ✅        |                   ❌                    |
+| Goals                               |        ✅        |                   ❌                    |
+| Experiments (A/B tests)             |        ✅        |                   ❌                    |
+| Feature flags                       |        ✅        |                   ❌                    |
+| User Profiles                       |        ✅        |                   ❌                    |
+| Revenue analytics                   |        ✅        |                   ❌                    |
+| CAPTCHA                             |        ✅        |            ✅ (Turnstile)             |
 | **Data Quality & Ownership**        |                  |                                         |
 | Data Sampling                       |    0% (None)     | 10% (only 1 of 10 visitors are counted) |
 | Data Retention                      |    Unlimited     |                6 months                 |
@@ -76,6 +84,18 @@ For Swetrix, analytics is our **entire business**. We are obsessed with building
 - **Error Tracking:** To catch JavaScript bugs affecting your users.
 - **Funnels:** To optimize your conversion rates.
 - **Data Export:** Because it's your data, and you should be able to take it with you.
+
+## Advanced Growth Features
+
+Cloudflare Analytics is extremely basic. Swetrix provides a full suite of growth tools:
+
+- **Experiments (A/B Testing)**
+- **Feature Flags**
+- **Revenue Analytics**
+- **User Profiles (MAU/DAU)**
+- **AI Chat Assistant**
+
+Cloudflare gives you a dashboard; Swetrix gives you a platform to grow your business.
 
 ## Conclusion
 

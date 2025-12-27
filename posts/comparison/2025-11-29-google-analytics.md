@@ -35,6 +35,14 @@ Here is a brutally honest comparison to help you see why moving away from Google
 | Segments                            |         ✅         |                ✅                 |
 | Multiple Domains per Site           |         ✅         |                ❌                 |
 | Custom dashboards                   |         ❌         |                ✅                 |
+| **Growth & Product**                |                    |                                   |
+| AI Chat                             |         ✅         |                ✅                 |
+| Goals                               |         ✅         |                ✅                 |
+| Experiments (A/B tests)             |         ✅         |       ❌ (Requires 3rd party)     |
+| Feature flags                       |         ✅         |                ❌                 |
+| User Profiles                       |         ✅         |                ✅                 |
+| Revenue analytics                   |         ✅         |                ✅                 |
+| CAPTCHA                             |         ✅         |                ❌                 |
 | **Security & Access**               |                    |                                   |
 | Bot filtering                       |         ✅         |                ✅                 |
 | Two-Factor Authentication (2FA)     |         ✅         |                ✅                 |
@@ -97,6 +105,15 @@ Swetrix bridges the gap between marketing and engineering. We include:
 - **Alerts & Notifications:** Set up alerts for specific events, traffic spikes, or errors, delivered directly to your preferred channels.
 
 Google Analytics has none of this. If your checkout button is broken, GA will just show you a drop in conversions. Swetrix will tell you _exactly which error_ caused it.
+
+## Modern Growth Tools (without the Privacy Cost)
+
+You might think you need Google's ecosystem for advanced features, but Swetrix matches them while respecting privacy:
+
+- **Experiments:** Run A/B tests (Google killed Google Optimize, leaving a gap).
+- **Feature Flags:** Built-in feature management.
+- **Revenue Analytics:** Track revenue without sharing financial data with an ad tech giant.
+- **AI Chat:** Get insights faster than clicking through GA4's complex menus.
 
 ## Conclusion
 

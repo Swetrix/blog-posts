@@ -33,6 +33,14 @@ Here is a quick comparison to help you decide which one fits your needs.
 | Funnels                             |        ✅        |        ❌        |
 | Segments                            |        ✅        |        ❌        |
 | Multiple Domains per Site           |        ✅        |        ✅        |
+| **Growth & Product**                |                  |                  |
+| AI Chat                             |        ✅        |        ❌        |
+| Goals                               |        ✅        |        ✅        |
+| Experiments (A/B tests)             |        ✅        |        ❌        |
+| Feature flags                       |        ✅        |        ❌        |
+| User Profiles                       |        ✅        |        ❌        |
+| Revenue analytics                   |        ✅        |        ❌        |
+| CAPTCHA                             |        ✅        |        ❌        |
 | **Security & Access**               |                  |                  |
 | Bot filtering                       |        ✅        |        ✅        |
 | Two-Factor Authentication (2FA)     |        ✅        |        ✅        |
@@ -77,6 +85,16 @@ Swetrix provides a comprehensive suite of analysis tools that go deeper:
 - **Error Tracking:** Automatically detect and log JavaScript errors so you can fix technical issues before they impact your users.
 - **Interactive Maps:** Visualize your traffic sources on an interactive world map, offering a more intuitive view than simple country lists.
 - **Custom Alerts:** Set up notifications for specific events, traffic spikes, or errors, delivered directly to your preferred channels.
+
+## Growth & Product Features
+
+Swetrix includes powerful tools for product growth that Fathom lacks:
+
+- **Experiments (A/B Testing):** Optimize your site with privacy-friendly A/B tests.
+- **Feature Flags:** Manage feature releases and rollouts.
+- **Revenue Analytics:** Integrated revenue tracking with Stripe and Paddle.
+- **AI Chat:** Ask questions about your data and get instant answers.
+- **User Profiles:** Track MAU/DAU and user retention.
 
 ## Teams & Role Management
 

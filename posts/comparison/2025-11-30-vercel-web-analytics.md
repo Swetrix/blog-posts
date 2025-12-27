@@ -33,6 +33,14 @@ Here is a quick comparison to help you decide.
 | Segments                            |        ✅        |                 ✅                  |
 | Multiple Domains per Site           |        ✅        |                 ❌                  |
 | API access                          |        ✅        |                 ❌                  |
+| **Growth & Product**                |                  |                                     |
+| AI Chat                             |        ✅        |                 ❌                  |
+| Goals                               |        ✅        |                 ❌                  |
+| Experiments (A/B tests)             |        ✅        |                 ❌                  |
+| Feature flags                       |        ✅        |                 ❌                  |
+| User Profiles                       |        ✅        |                 ❌                  |
+| Revenue analytics                   |        ✅        |                 ❌                  |
+| CAPTCHA                             |        ✅        |                 ❌                  |
 | **Platform & Freedom**              |                  |                                     |
 | Works on ANY hosting                |        ✅        |          ❌ (Vercel only)           |
 | Zero Vendor Lock-in                 |        ✅        |                 ❌                  |
@@ -64,6 +72,17 @@ Swetrix offers a suite of advanced tools that Vercel completely lacks:
 - **Funnels:** Want to know why users aren't signing up? Swetrix Funnels show you the exact drop-off rates at each step of your conversion process.
 - **Error Tracking:** If a button is broken on your site, Vercel Web Analytics won't tell you. Swetrix tracks JavaScript errors automatically, so you know if your users are facing technical issues.
 - **Performance Monitoring:** While Vercel has "Speed Insights", it's often a separate tab or add-on. Swetrix integrates Site Speed analyticsc directly into your dashboard, linking performance directly to user behavior.
+
+## Built-in Growth Tools
+
+Vercel offers some of these features (like Feature Flags) as separate, paid add-ons or distinct products. Swetrix integrates them directly into your analytics workflow:
+
+- **Experiments (A/B Testing):** Run tests to improve conversions.
+- **Feature Flags:** Manage rollouts.
+- **Revenue Analytics:** See which traffic sources drive the most revenue (Stripe/Paddle integration).
+- **AI Chat:** Instant answers to your data questions.
+
+With Swetrix, these aren't just separate infrastructure pieces—they are part of your data story.
 
 ## The "Hobby" Plan Limits
 
