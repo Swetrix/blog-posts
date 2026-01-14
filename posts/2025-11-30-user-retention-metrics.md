@@ -1,6 +1,6 @@
 ---
-title: 'Mastering User Retention Metrics for Sustainable Growth'
-intro: 'Unlock business growth by mastering key user retention metrics. Learn to track, analyze, and improve retention to build a product customers love.'
+title: "Mastering User Retention Metrics for Sustainable Growth"
+intro: "Unlock business growth by mastering key user retention metrics. Learn to track, analyze, and improve retention to build a product customers love."
 date: November 30, 2025
 hidden: false
 author: Andrii Romasiun

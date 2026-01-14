@@ -1,6 +1,6 @@
 ---
-title: '12 Best Open Source Alternative Web Analytics Tools (2025)'
-intro: 'Discover the top open source alternative to proprietary web analytics. Explore 12 leading platforms with detailed pros, cons, and use cases.'
+title: "12 Best Open Source Alternative Web Analytics Tools (2025)"
+intro: "Discover the top open source alternative to proprietary web analytics. Explore 12 leading platforms with detailed pros, cons, and use cases."
 date: October 25, 2025
 hidden: false
 author: Andrii Romasiun

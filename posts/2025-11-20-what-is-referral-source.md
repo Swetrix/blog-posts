@@ -1,6 +1,6 @@
 ---
-title: 'What Is Referral Source and Why Does It Matter?'
-intro: 'Discover what is referral source in web analytics. Learn how to track referral traffic, understand its business impact, and improve your marketing strategy.'
+title: "What Is Referral Source and Why Does It Matter?"
+intro: "Discover what is referral source in web analytics. Learn how to track referral traffic, understand its business impact, and improve your marketing strategy."
 date: November 20, 2025
 hidden: false
 author: Andrii Romasiun

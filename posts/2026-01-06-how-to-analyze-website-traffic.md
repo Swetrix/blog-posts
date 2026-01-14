@@ -1,6 +1,6 @@
 ---
-title: 'How to Analyze Website Traffic for Actionable Growth'
-intro: 'Learn how to analyze website traffic with our practical guide. Discover how to use key metrics and user behavior insights to build real growth strategies.'
+title: "How to Analyze Website Traffic for Actionable Growth"
+intro: "Learn how to analyze website traffic with our practical guide. Discover how to use key metrics and user behavior insights to build real growth strategies."
 date: January 06, 2026
 hidden: false
 author: Andrii Romasiun

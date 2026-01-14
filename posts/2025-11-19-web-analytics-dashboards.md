@@ -1,6 +1,6 @@
 ---
-title: 'Build Web Analytics Dashboards That Drive Growth'
-intro: 'Learn to create powerful web analytics dashboards that translate data into growth. This guide covers key metrics, design best practices, and implementation.'
+title: "Build Web Analytics Dashboards That Drive Growth"
+intro: "Learn to create powerful web analytics dashboards that translate data into growth. This guide covers key metrics, design best practices, and implementation."
 date: November 19, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: 'Privacy vs Security: A Guide to Protecting Your Data'
-intro: 'Explore the critical differences in the privacy vs security debate. Our guide offers practical strategies for businesses and individuals to protect data online.'
+title: "Privacy vs Security: A Guide to Protecting Your Data"
+intro: "Explore the critical differences in the privacy vs security debate. Our guide offers practical strategies for businesses and individuals to protect data online."
 date: November 10, 2025
 hidden: false
 author: Andrii Romasiun

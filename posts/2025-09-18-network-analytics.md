@@ -1,5 +1,5 @@
 ---
-title: 'Network Analytics Guide: Unlocking Insights for 2025'
+title: "Network Analytics Guide: Unlocking Insights for 2025"
 intro: Unlock the power of network analytics in 2025 with this expert guide. Discover trends, benefits, and best practices to optimize security, performance, and business value.
 date: September 18, 2025
 hidden: false

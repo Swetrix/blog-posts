@@ -1,6 +1,6 @@
 ---
-title: 'What Happened to Do Not Track DNT and Is It Still Relevant'
-intro: 'Discover the story behind the do not track dnt signal. Learn why it failed to protect user privacy and what modern alternatives like GPC have replaced it.'
+title: "What Happened to Do Not Track DNT and Is It Still Relevant"
+intro: "Discover the story behind the do not track dnt signal. Learn why it failed to protect user privacy and what modern alternatives like GPC have replaced it."
 date: December 14, 2025
 hidden: false
 author: Andrii Romasiun

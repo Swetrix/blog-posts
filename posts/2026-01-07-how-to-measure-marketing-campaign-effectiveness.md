@@ -1,5 +1,5 @@
 ---
-title: 'How to Measure Marketing Campaign Effectiveness That Drives Growth'
+title: "How to Measure Marketing Campaign Effectiveness That Drives Growth"
 intro: "Learn how to measure marketing campaign effectiveness with our guide. Go beyond vanity metrics to track KPIs, calculate ROI, and prove marketing's true impact."
 date: January 07, 2026
 hidden: false
@@ -44,7 +44,6 @@ With a clear objective locked in, you can now select the KPIs that will act as y
 The right KPIs depend entirely on your objective. A campaign designed to build brand awareness looks very different from one built to drive immediate sales.
 
 - **For a Brand Awareness Campaign, you might track:**
-
   - **Share of Voice (SOV):** How often your brand gets mentioned versus your competitors.
   - **Direct Website Traffic:** More people typing your URL directly into their browser is a great sign.
   - **Branded Search Volume:** An uptick in people searching for your brand name on Google.

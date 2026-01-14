@@ -1,6 +1,6 @@
 ---
-title: 'A Guide to Analytics for Mobile App Success'
-intro: 'Unlock growth with our guide on analytics for mobile apps. Learn key metrics, privacy-first implementation, and strategies for user experience and growth.'
+title: "A Guide to Analytics for Mobile App Success"
+intro: "Unlock growth with our guide on analytics for mobile apps. Learn key metrics, privacy-first implementation, and strategies for user experience and growth."
 date: October 28, 2025
 hidden: false
 author: Andrii Romasiun

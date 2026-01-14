@@ -1,5 +1,5 @@
 ---
-title: 'Ultimate Guide to Tracking Script Implementation in 2025'
+title: "Ultimate Guide to Tracking Script Implementation in 2025"
 intro: Master tracking script implementation in 2025 with step by step guidance, privacy compliance, top tools, and expert tips for accurate, future proof analytics.
 date: September 25, 2025
 hidden: false

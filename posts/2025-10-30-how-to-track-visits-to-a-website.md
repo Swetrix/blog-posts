@@ -1,6 +1,6 @@
 ---
-title: 'How to Track Visits to a Website'
-intro: 'Learn how to track visits to a website with this practical guide. Discover the best tools, setup methods, and data analysis to grow your business.'
+title: "How to Track Visits to a Website"
+intro: "Learn how to track visits to a website with this practical guide. Discover the best tools, setup methods, and data analysis to grow your business."
 date: October 30, 2025
 hidden: false
 author: Andrii Romasiun

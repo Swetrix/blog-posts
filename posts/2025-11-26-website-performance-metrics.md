@@ -1,6 +1,6 @@
 ---
-title: 'A Guide to Website Performance Metrics'
-intro: 'Discover the essential website performance metrics that drive user experience and conversions. Learn how to track, interpret, and improve them.'
+title: "A Guide to Website Performance Metrics"
+intro: "Discover the essential website performance metrics that drive user experience and conversions. Learn how to track, interpret, and improve them."
 date: November 26, 2025
 hidden: false
 author: Andrii Romasiun

@@ -37,19 +37,16 @@ Think of analytics as the map and insight as the route you actually take.
 ## Quick examples that turn analytics into insight
 
 - **E‑commerce**
-
   - Analytics: Cart completion drops 18% on mobile.
   - Insight: A recent theme update increased image sizes on the checkout page.
   - Action: Optimize media, lazy‑load below‑the‑fold assets, re‑test. Revenue lifts with speed.
 
 - **SaaS**
-
   - Analytics: Churn spikes among 1–3 month cohorts.
   - Insight: Power users are fine; light users never activate a key feature.
   - Action: In‑app checklist and triggered emails. Success metric: activation rate + retention.
 
 - **Content/SEO**
-
   - Analytics: Average time on blog is high, but newsletter signups are flat.
   - Insight: CTAs are buried and non‑contextual.
   - Action: Inline CTAs after top‑performing sections; test copy. Measure signup rate per post.

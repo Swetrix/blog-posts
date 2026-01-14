@@ -1,6 +1,6 @@
 ---
-title: 'What Are Web Analytics A Guide to Turning Data Into Decisions'
-intro: 'This guide explains key metrics, privacy-first tools, and how to use website data to understand user behavior and drive growth.'
+title: "What Are Web Analytics A Guide to Turning Data Into Decisions"
+intro: "This guide explains key metrics, privacy-first tools, and how to use website data to understand user behavior and drive growth."
 date: December 17, 2025
 hidden: false
 author: Andrii Romasiun

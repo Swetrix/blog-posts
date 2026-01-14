@@ -1,6 +1,6 @@
 ---
-title: 'What Are Core Web Vitals Your Ultimate Guide'
-intro: 'Understand what are core web vitals and how they impact user experience and SEO. Learn to measure and fix LCP, INP, and CLS with practical, expert tips.'
+title: "What Are Core Web Vitals Your Ultimate Guide"
+intro: "Understand what are core web vitals and how they impact user experience and SEO. Learn to measure and fix LCP, INP, and CLS with practical, expert tips."
 date: December 03, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: 'Conversion rate optimization best practices: win more leads'
-intro: 'Discover conversion rate optimization best practices to boost your conversions with actionable, data-driven strategies you can apply today.'
+title: "Conversion rate optimization best practices: win more leads"
+intro: "Discover conversion rate optimization best practices to boost your conversions with actionable, data-driven strategies you can apply today."
 date: October 31, 2025
 hidden: false
 author: Andrii Romasiun

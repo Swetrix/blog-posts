@@ -1,6 +1,6 @@
 ---
-title: 'How to improve website conversion rates: Proven Tips'
-intro: 'Discover how to improve website conversion rates with proven, privacy-friendly tactics: faster pages, social proof, and optimized forms to boost sign-ups.'
+title: "How to improve website conversion rates: Proven Tips"
+intro: "Discover how to improve website conversion rates with proven, privacy-friendly tactics: faster pages, social proof, and optimized forms to boost sign-ups."
 date: November 13, 2025
 hidden: false
 author: Andrii Romasiun

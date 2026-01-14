@@ -1,5 +1,5 @@
 ---
-title: 'How to find 404 errors and fix them fast'
+title: "How to find 404 errors and fix them fast"
 intro: "Learn how to find 404 errors before they hurt your site's SEO and user experience. Our guide covers proven methods for detection and smart fixes."
 date: December 27, 2025
 hidden: false

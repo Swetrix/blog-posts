@@ -1,5 +1,5 @@
 ---
-title: 'What Is Performance Monitoring? A Complete Guide'
+title: "What Is Performance Monitoring? A Complete Guide"
 intro: "Learn what is performance monitoring and why it's vital for business success. This guide covers key metrics, tools, and strategies to optimize your systems."
 date: November 23, 2025
 hidden: false

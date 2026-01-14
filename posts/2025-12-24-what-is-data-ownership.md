@@ -1,6 +1,6 @@
 ---
-title: 'What Is Data Ownership and Why Does It Matter for Your Business'
-intro: 'Understand what is data ownership in our clear explainer guide. Learn how to control your data, ensure compliance, and avoid the risks of third-party tools.'
+title: "What Is Data Ownership and Why Does It Matter for Your Business"
+intro: "Understand what is data ownership in our clear explainer guide. Learn how to control your data, ensure compliance, and avoid the risks of third-party tools."
 date: December 24, 2025
 hidden: false
 author: Andrii Romasiun

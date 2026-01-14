@@ -1,6 +1,6 @@
 ---
-title: 'Site Visitors Guide for 2025'
-intro: 'Master site visitors success in 2025 with proven strategies for analytics, personalization, privacy, and conversion. Optimize user experience for measurable results.'
+title: "Site Visitors Guide for 2025"
+intro: "Master site visitors success in 2025 with proven strategies for analytics, personalization, privacy, and conversion. Optimize user experience for measurable results."
 date: October 12, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
 title: "CCPA vs CPRA Unpacking California's Privacy Laws"
-intro: 'Explore the critical differences in our CCPA vs CPRA analysis. This guide covers new rights, compliance thresholds, and enforcement for your business.'
+intro: "Explore the critical differences in our CCPA vs CPRA analysis. This guide covers new rights, compliance thresholds, and enforcement for your business."
 date: November 9, 2025
 hidden: false
 author: Andrii Romasiun

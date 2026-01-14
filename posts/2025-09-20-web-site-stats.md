@@ -1,5 +1,5 @@
 ---
-title: '12 Essential Web Site Stats Every Owner Should Know in 2025'
+title: "12 Essential Web Site Stats Every Owner Should Know in 2025"
 intro: Discover the 12 essential web site stats every owner must know in 2025 to boost traffic, engagement, and conversions. Make data-driven decisions for lasting growth.
 date: September 20, 2025
 hidden: false

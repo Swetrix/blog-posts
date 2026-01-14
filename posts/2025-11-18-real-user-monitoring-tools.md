@@ -1,6 +1,6 @@
 ---
-title: 'Top 12 Real User Monitoring Tools for 2025'
-intro: 'Discover the 12 best real user monitoring tools for 2025. Compare features, pricing, and find the perfect RUM solution for your product or devops team.'
+title: "Top 12 Real User Monitoring Tools for 2025"
+intro: "Discover the 12 best real user monitoring tools for 2025. Compare features, pricing, and find the perfect RUM solution for your product or devops team."
 date: November 18, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: 'Session Duration Guide: Mastering User Engagement in 2025'
-intro: 'Master session duration in 2025 with expert strategies to boost user engagement, improve SEO, and benchmark your site using actionable, privacy-first analytics insights'
+title: "Session Duration Guide: Mastering User Engagement in 2025"
+intro: "Master session duration in 2025 with expert strategies to boost user engagement, improve SEO, and benchmark your site using actionable, privacy-first analytics insights"
 date: October 6, 2025
 hidden: false
 author: Andrii Romasiun

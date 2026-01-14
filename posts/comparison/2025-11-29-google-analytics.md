@@ -1,5 +1,5 @@
 ---
-title: 'Swetrix vs Google Analytics: A Comprehensive Comparison'
+title: "Swetrix vs Google Analytics: A Comprehensive Comparison"
 date: November 29, 2025
 hidden: true
 standalone: true
@@ -38,7 +38,7 @@ Here is a brutally honest comparison to help you see why moving away from Google
 | **Growth & Product**                |                    |                                   |
 | AI Chat                             |         ✅         |                ✅                 |
 | Goals                               |         ✅         |                ✅                 |
-| Experiments (A/B tests)             |         ✅         |       ❌ (Requires 3rd party)     |
+| Experiments (A/B tests)             |         ✅         |      ❌ (Requires 3rd party)      |
 | Feature flags                       |         ✅         |                ❌                 |
 | User Profiles                       |         ✅         |                ✅                 |
 | Revenue analytics                   |         ✅         |                ✅                 |

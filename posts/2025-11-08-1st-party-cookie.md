@@ -1,6 +1,6 @@
 ---
-title: 'A Guide to the 1st Party Cookies'
-intro: 'Understand what a 1st party cookie is, how it works, and why it is vital for marketing. Your essential guide to privacy-first website analytics.'
+title: "A Guide to the 1st Party Cookies"
+intro: "Understand what a 1st party cookie is, how it works, and why it is vital for marketing. Your essential guide to privacy-first website analytics."
 date: November 8, 2025
 hidden: false
 author: Andrii Romasiun

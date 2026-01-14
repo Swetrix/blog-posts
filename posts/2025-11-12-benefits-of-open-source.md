@@ -1,6 +1,6 @@
 ---
-title: '10 Key Benefits of Open Source Software in 2025'
-intro: 'Discover the top 10 benefits of open source, from major cost savings to enhanced security and innovation. See why businesses are choosing OSS in 2025.'
+title: "10 Key Benefits of Open Source Software in 2025"
+intro: "Discover the top 10 benefits of open source, from major cost savings to enhanced security and innovation. See why businesses are choosing OSS in 2025."
 date: November 12, 2025
 hidden: false
 author: Andrii Romasiun

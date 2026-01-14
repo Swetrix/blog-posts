@@ -1,6 +1,6 @@
 ---
-title: 'How to Calculate Churn Rate and What It Reveals'
-intro: 'A practical guide on how to calculate churn rate accurately. Learn the formula, avoid common mistakes, and use this critical metric to boost customer retention.'
+title: "How to Calculate Churn Rate and What It Reveals"
+intro: "A practical guide on how to calculate churn rate accurately. Learn the formula, avoid common mistakes, and use this critical metric to boost customer retention."
 date: November 3, 2025
 hidden: false
 author: Andrii Romasiun

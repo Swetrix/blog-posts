@@ -1,6 +1,6 @@
 ---
-title: 'What Is a Referral Source in Web Analytics'
-intro: 'What is a referral source and how does it drive website growth? Discover how to track, analyze, and leverage referral traffic for better marketing results.'
+title: "What Is a Referral Source in Web Analytics"
+intro: "What is a referral source and how does it drive website growth? Discover how to track, analyze, and leverage referral traffic for better marketing results."
 date: November 29, 2025
 hidden: false
 author: Andrii Romasiun

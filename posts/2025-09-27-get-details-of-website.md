@@ -1,5 +1,5 @@
 ---
-title: 'How to Find Website Details in 2025'
+title: "How to Find Website Details in 2025"
 intro: Looking to get details of website performance? This 2025 guide covers what to check, the tools to use, how to stay privacy‑friendly, and how to turn data into results
 date: September 27, 2025
 hidden: false

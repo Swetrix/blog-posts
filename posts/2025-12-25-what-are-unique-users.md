@@ -1,5 +1,5 @@
 ---
-title: 'What are unique users: A Clear Guide to the Key Web Metric'
+title: "What are unique users: A Clear Guide to the Key Web Metric"
 intro: "What are unique users? Discover what this metric means, how it's tracked, and why it matters for your growth."
 date: December 25, 2025
 hidden: false

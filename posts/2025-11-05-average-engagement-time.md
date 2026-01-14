@@ -1,6 +1,6 @@
 ---
-title: 'Understanding Average Engagement Time in GA4'
-intro: 'What is average engagement time and why does it matter? Our guide explains how to measure and improve this key GA4 metric for better website performance.'
+title: "Understanding Average Engagement Time in GA4"
+intro: "What is average engagement time and why does it matter? Our guide explains how to measure and improve this key GA4 metric for better website performance."
 date: November 5, 2025
 hidden: false
 author: Andrii Romasiun

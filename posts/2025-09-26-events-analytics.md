@@ -1,5 +1,5 @@
 ---
-title: 'Events Analytics Guide: Unlock Insights for 2025 Success'
+title: "Events Analytics Guide: Unlock Insights for 2025 Success"
 intro: Unlock 2025 event success with our expert events analytics guide. Learn key metrics, setup steps, privacy best practices, and actionable strategies for measurable growth.
 date: September 26, 2025
 hidden: false
@@ -172,9 +172,9 @@ Google Analytics 4 is a leading choice for events analytics, offering flexibilit
 GA4 distinguishes between automatically collected events, enhanced measurement events, recommended events, and custom events. For example, to track a “sign_up” event, configure the following in your setup:
 
 ```javascript
-gtag('event', 'sign_up', {
-  method: 'Event Page',
-  value: 'Webinar2025',
+gtag("event", "sign_up", {
+  method: "Event Page",
+  value: "Webinar2025",
 });
 ```
 
@@ -187,9 +187,9 @@ Parameters add essential context to your events analytics, allowing you to analy
 To add parameters in GA4, use Google Tag Manager or modify your event code directly. Here’s a sample code snippet:
 
 ```javascript
-gtag('event', 'session_attendance', {
-  session_type: 'virtual',
-  speaker: 'Jane Doe',
+gtag("event", "session_attendance", {
+  session_type: "virtual",
+  speaker: "Jane Doe",
 });
 ```
 

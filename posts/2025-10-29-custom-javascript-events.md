@@ -1,6 +1,6 @@
 ---
-title: 'Mastering Custom JavaScript Events for Modern Apps'
-intro: 'Unlock scalable and interactive web applications with custom JavaScript events. This guide provides practical examples for creating and managing events.'
+title: "Mastering Custom JavaScript Events for Modern Apps"
+intro: "Unlock scalable and interactive web applications with custom JavaScript events. This guide provides practical examples for creating and managing events."
 date: October 29, 2025
 hidden: false
 author: Andrii Romasiun

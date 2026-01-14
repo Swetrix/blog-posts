@@ -1,6 +1,6 @@
 ---
 title: Swetrix Selfhosted v2 is released!
-intro: 'Swetrix Selfhosted v2: performance monitoring, traffic comparison, user flow and more!'
+intro: "Swetrix Selfhosted v2: performance monitoring, traffic comparison, user flow and more!"
 date: May 17, 2023
 hidden: false
 author: Andrii Romasiun

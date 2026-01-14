@@ -1,6 +1,6 @@
 ---
-title: 'How to reduce website bounce rate: Quick, proven tips'
-intro: 'Learn how to reduce website bounce rate with practical steps to improve speed, UX, and intent for higher engagement and conversions.'
+title: "How to reduce website bounce rate: Quick, proven tips"
+intro: "Learn how to reduce website bounce rate with practical steps to improve speed, UX, and intent for higher engagement and conversions."
 date: November 25, 2025
 hidden: false
 author: Andrii Romasiun

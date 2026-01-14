@@ -1,6 +1,6 @@
 ---
-title: 'A Practical Guide to Digital Marketing Reporting'
-intro: 'Transform your data into actionable insights. This guide to digital marketing reporting provides real-world strategies for building reports that drive growth.'
+title: "A Practical Guide to Digital Marketing Reporting"
+intro: "Transform your data into actionable insights. This guide to digital marketing reporting provides real-world strategies for building reports that drive growth."
 date: December 10, 2025
 hidden: false
 author: Andrii Romasiun

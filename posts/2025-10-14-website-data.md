@@ -1,6 +1,6 @@
 ---
-title: 'The Essential Guide to Website Data in 2025'
-intro: 'Unlock the power of website data in 2025 with expert insights on collection, privacy, analytics, and compliance. Master data strategies for growth and security.'
+title: "The Essential Guide to Website Data in 2025"
+intro: "Unlock the power of website data in 2025 with expert insights on collection, privacy, analytics, and compliance. Master data strategies for growth and security."
 date: October 14, 2025
 hidden: false
 author: Andrii Romasiun

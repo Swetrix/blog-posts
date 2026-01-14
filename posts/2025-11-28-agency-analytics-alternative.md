@@ -1,6 +1,6 @@
 ---
-title: '12 Best Agency Analytics Alternative Tools in 2025'
-intro: 'Searching for an Agency Analytics alternative? Explore our detailed list of 12 top reporting and analytics tools for agencies, startups, and developers in 2025.'
+title: "12 Best Agency Analytics Alternative Tools in 2025"
+intro: "Searching for an Agency Analytics alternative? Explore our detailed list of 12 top reporting and analytics tools for agencies, startups, and developers in 2025."
 date: November 28, 2025
 hidden: false
 author: Andrii Romasiun

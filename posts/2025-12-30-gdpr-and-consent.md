@@ -1,6 +1,6 @@
 ---
-title: 'A Practical Guide to GDPR and Consent Compliance'
-intro: 'Master GDPR and consent with this practical guide. Learn the rules for valid consent, avoid costly fines, and build a privacy-first strategy for your business.'
+title: "A Practical Guide to GDPR and Consent Compliance"
+intro: "Master GDPR and consent with this practical guide. Learn the rules for valid consent, avoid costly fines, and build a privacy-first strategy for your business."
 date: December 30, 2025
 hidden: false
 author: Andrii Romasiun

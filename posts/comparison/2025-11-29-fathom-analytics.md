@@ -1,5 +1,5 @@
 ---
-title: 'Swetrix vs Fathom Analytics: Full Feature Comparison'
+title: "Swetrix vs Fathom Analytics: Full Feature Comparison"
 date: November 29, 2025
 hidden: true
 standalone: true

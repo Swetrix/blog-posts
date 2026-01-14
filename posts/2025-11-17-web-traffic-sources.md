@@ -1,6 +1,6 @@
 ---
-title: 'Understanding Web Traffic Sources for Growth'
-intro: 'Explore the primary web traffic sources and learn how to analyze and optimize each channel. This guide covers how to track your visitors for sustainable growth.'
+title: "Understanding Web Traffic Sources for Growth"
+intro: "Explore the primary web traffic sources and learn how to analyze and optimize each channel. This guide covers how to track your visitors for sustainable growth."
 date: November 17, 2025
 hidden: false
 author: Andrii Romasiun

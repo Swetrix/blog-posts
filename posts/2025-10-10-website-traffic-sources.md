@@ -1,6 +1,6 @@
 ---
-title: 'Website Traffic Sources Guide: Master Your Growth in 2025'
-intro: 'Master website traffic sources with expert strategies for 2025. Discover actionable tips, analytics best practices, and future trends to drive sustainable growth.'
+title: "Website Traffic Sources Guide: Master Your Growth in 2025"
+intro: "Master website traffic sources with expert strategies for 2025. Discover actionable tips, analytics best practices, and future trends to drive sustainable growth."
 date: October 10, 2025
 hidden: false
 author: Andrii Romasiun

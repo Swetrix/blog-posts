@@ -1,6 +1,6 @@
 ---
-title: 'Discover pixel tags and web beacons: A practical guide to analytics and privacy'
-intro: 'Explore pixel tags and web beacons: learn how they fuel analytics and advertising, ensure privacy compliance, and apply best practices for effective tracking.'
+title: "Discover pixel tags and web beacons: A practical guide to analytics and privacy"
+intro: "Explore pixel tags and web beacons: learn how they fuel analytics and advertising, ensure privacy compliance, and apply best practices for effective tracking."
 date: December 18, 2025
 hidden: false
 author: Andrii Romasiun

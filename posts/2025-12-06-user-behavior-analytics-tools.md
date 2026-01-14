@@ -1,6 +1,6 @@
 ---
-title: '12 Best User Behavior Analytics Tools for 2025 (Privacy-First Options Included)'
-intro: 'Discover the story behind the do not track dnt signal. Learn why it failed to protect user privacy and what modern alternatives like GPC have replaced it.'
+title: "12 Best User Behavior Analytics Tools for 2025 (Privacy-First Options Included)"
+intro: "Discover the story behind the do not track dnt signal. Learn why it failed to protect user privacy and what modern alternatives like GPC have replaced it."
 date: December 06, 2025
 hidden: false
 author: Andrii Romasiun

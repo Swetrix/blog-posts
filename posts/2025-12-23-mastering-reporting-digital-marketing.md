@@ -1,6 +1,6 @@
 ---
-title: 'Mastering Reporting Digital Marketing'
-intro: 'Learn how to turn messy data into a clear strategy with reporting digital marketing. Get practical, actionable insights that prove value.'
+title: "Mastering Reporting Digital Marketing"
+intro: "Learn how to turn messy data into a clear strategy with reporting digital marketing. Get practical, actionable insights that prove value."
 date: December 23, 2025
 hidden: false
 author: Andrii Romasiun

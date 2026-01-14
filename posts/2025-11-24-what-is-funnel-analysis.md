@@ -1,6 +1,6 @@
 ---
-title: 'What Is Funnel Analysis and How Does It Work'
-intro: 'Unlock business growth by understanding what is funnel analysis. This guide explains how to track user journeys, fix drop-offs, and boost conversions.'
+title: "What Is Funnel Analysis and How Does It Work"
+intro: "Unlock business growth by understanding what is funnel analysis. This guide explains how to track user journeys, fix drop-offs, and boost conversions."
 date: November 24, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: '12 Best Website Performance Monitoring Tools for 2025'
-intro: 'Discover the top 12 website performance monitoring tools for 2025. Our detailed review covers features, pricing, and use cases to help you choose wisely.'
+title: "12 Best Website Performance Monitoring Tools for 2025"
+intro: "Discover the top 12 website performance monitoring tools for 2025. Our detailed review covers features, pricing, and use cases to help you choose wisely."
 date: October 26, 2025
 hidden: false
 author: Andrii Romasiun

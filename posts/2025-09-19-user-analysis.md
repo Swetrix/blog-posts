@@ -1,5 +1,5 @@
 ---
-title: 'User Analysis Guide: Strategies for 2025 Success'
+title: "User Analysis Guide: Strategies for 2025 Success"
 intro: Master user analysis with proven strategies, the latest tools, and privacy-first insights. Drive retention, reduce churn, and achieve digital success in 2025.
 date: September 19, 2025
 hidden: false

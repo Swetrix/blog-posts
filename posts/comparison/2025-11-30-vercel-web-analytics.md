@@ -1,5 +1,5 @@
 ---
-title: 'Swetrix vs Vercel Web Analytics: A Comprehensive Comparison'
+title: "Swetrix vs Vercel Web Analytics: A Comprehensive Comparison"
 date: November 30, 2025
 hidden: true
 standalone: true

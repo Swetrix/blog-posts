@@ -1,6 +1,6 @@
 ---
-title: '8 Quick Wins for improving website conversion rates'
-intro: 'Discover actionable tactics for improving website conversion rates with these 8 proven quick wins to boost engagement and sales.'
+title: "8 Quick Wins for improving website conversion rates"
+intro: "Discover actionable tactics for improving website conversion rates with these 8 proven quick wins to boost engagement and sales."
 date: November 14, 2025
 hidden: false
 author: Andrii Romasiun

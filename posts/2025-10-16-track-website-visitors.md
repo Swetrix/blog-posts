@@ -1,6 +1,6 @@
 ---
-title: 'Complete Guide to Track Website Visitors in 2025'
-intro: 'Learn how to track website visitors in 2025 with the latest privacy-compliant tools and strategies. Optimize marketing, boost ROI, and drive business growth.'
+title: "Complete Guide to Track Website Visitors in 2025"
+intro: "Learn how to track website visitors in 2025 with the latest privacy-compliant tools and strategies. Optimize marketing, boost ROI, and drive business growth."
 date: October 16, 2025
 hidden: false
 author: Andrii Romasiun

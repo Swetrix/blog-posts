@@ -1,6 +1,6 @@
 ---
-title: 'Understanding First-Party Cookies: A Practical Guide to Privacy'
-intro: 'Discover how first-party cookies affect privacy, tracking, and UX, and learn best practices for using it responsibly.'
+title: "Understanding First-Party Cookies: A Practical Guide to Privacy"
+intro: "Discover how first-party cookies affect privacy, tracking, and UX, and learn best practices for using it responsibly."
 date: December 29, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,13 +1,13 @@
 {
   "name": "swetrix-blog-posts",
   "version": "1.0.0",
-  "description": "Blog posts for Swetrix",
   "private": true,
+  "description": "Blog posts for Swetrix",
   "scripts": {
-    "format": "prettier --write \"**/*.md\"",
-    "format:check": "prettier --check \"**/*.md\""
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt ."
   },
   "devDependencies": {
-    "prettier": "^3.2.5"
+    "oxfmt": "^0.24.0"
   }
 }

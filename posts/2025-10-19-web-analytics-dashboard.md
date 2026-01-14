@@ -1,6 +1,6 @@
 ---
-title: 'Your Web Analytics Dashboard Made Simple'
-intro: 'Unlock the power of your web analytics dashboard. This guide explains key metrics and design tips to turn your website data into actionable growth strategies.'
+title: "Your Web Analytics Dashboard Made Simple"
+intro: "Unlock the power of your web analytics dashboard. This guide explains key metrics and design tips to turn your website data into actionable growth strategies."
 date: October 19, 2025
 hidden: false
 author: Andrii Romasiun

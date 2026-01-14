@@ -1,6 +1,6 @@
 ---
-title: 'A Complete Guide to Understanding and Fixing Your Site Bounce Rate'
-intro: 'Confused by a high site bounce rate? Learn what it means, why it matters, and discover proven strategies to improve user engagement and website performance.'
+title: "A Complete Guide to Understanding and Fixing Your Site Bounce Rate"
+intro: "Confused by a high site bounce rate? Learn what it means, why it matters, and discover proven strategies to improve user engagement and website performance."
 date: January 02, 2026
 hidden: false
 author: Andrii Romasiun

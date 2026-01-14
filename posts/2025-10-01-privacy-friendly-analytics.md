@@ -1,6 +1,6 @@
 ---
-title: 'Privacy-Friendly Analytics in 2025: A Practical Guide'
-intro: 'A clear, practical look at privacy-friendly analytics in 2025: what it is, why it matters, and how to put it to work with sensible strategies, compliant setup, and dependable tools.'
+title: "Privacy-Friendly Analytics in 2025: A Practical Guide"
+intro: "A clear, practical look at privacy-friendly analytics in 2025: what it is, why it matters, and how to put it to work with sensible strategies, compliant setup, and dependable tools."
 date: October 1, 2025
 hidden: false
 author: Andrii Romasiun

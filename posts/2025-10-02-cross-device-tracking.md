@@ -1,6 +1,6 @@
 ---
-title: 'Cross Device Tracking Guide: Strategies & Insights for 2025'
-intro: 'Master cross device tracking in 2025 with proven strategies, the latest technologies, privacy insights, and step by step guidance to optimize your marketing results.'
+title: "Cross Device Tracking Guide: Strategies & Insights for 2025"
+intro: "Master cross device tracking in 2025 with proven strategies, the latest technologies, privacy insights, and step by step guidance to optimize your marketing results."
 date: October 2, 2025
 hidden: false
 author: Andrii Romasiun

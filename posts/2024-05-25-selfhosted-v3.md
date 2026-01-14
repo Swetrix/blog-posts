@@ -1,6 +1,6 @@
 ---
 title: Introducing Swetrix Selfhosted v3!
-intro: 'Swetrix Selfhosted v3: our biggest update so far! Session analytics, funnels, error tracking and much more!'
+intro: "Swetrix Selfhosted v3: our biggest update so far! Session analytics, funnels, error tracking and much more!"
 date: May 25, 2024
 hidden: false
 author: Andrii Romasiun

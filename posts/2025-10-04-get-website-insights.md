@@ -1,6 +1,6 @@
 ---
-title: 'The Essential Guide to Get Website Insights for 2025'
-intro: 'Unlock your competitive edge in 2025 Learn how to get insights from data with proven strategies tools and ethical practices for smarter business decisions.'
+title: "The Essential Guide to Get Website Insights for 2025"
+intro: "Unlock your competitive edge in 2025 Learn how to get insights from data with proven strategies tools and ethical practices for smarter business decisions."
 date: October 4, 2025
 hidden: false
 author: Andrii Romasiun

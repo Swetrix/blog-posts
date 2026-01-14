@@ -1,6 +1,6 @@
 ---
-title: 'How to Track Conversion Times with Privacy-First Analytics'
-intro: 'Discover how to track conversion times to optimize your customer journey. Learn proven methods for setup, analysis, and strategy using privacy-first tools.'
+title: "How to Track Conversion Times with Privacy-First Analytics"
+intro: "Discover how to track conversion times to optimize your customer journey. Learn proven methods for setup, analysis, and strategy using privacy-first tools."
 date: January 08, 2026
 hidden: false
 author: Andrii Romasiun

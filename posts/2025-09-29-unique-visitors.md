@@ -1,5 +1,5 @@
 ---
-title: 'Unique Visitors: What They Are and Why They Matter'
+title: "Unique Visitors: What They Are and Why They Matter"
 intro: A clear, no-jargon look at unique visitors—what the metric means, how it’s measured in 2025, and how to use it to understand your audience.
 date: September 29, 2025
 hidden: false

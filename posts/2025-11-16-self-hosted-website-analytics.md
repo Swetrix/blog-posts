@@ -1,6 +1,6 @@
 ---
-title: 'Control Your Data with Self Hosted Website Analytics'
-intro: 'Discover how self hosted website analytics gives you full data ownership. Explore top tools and privacy benefits to move beyond traditional analytics today.'
+title: "Control Your Data with Self Hosted Website Analytics"
+intro: "Discover how self hosted website analytics gives you full data ownership. Explore top tools and privacy benefits to move beyond traditional analytics today."
 date: November 16, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,5 +1,5 @@
 ---
-title: 'Swetrix vs Simple Analytics: A Comprehensive Features Comparison'
+title: "Swetrix vs Simple Analytics: A Comprehensive Features Comparison"
 date: November 29, 2025
 hidden: true
 standalone: true

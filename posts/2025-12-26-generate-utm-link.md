@@ -1,6 +1,6 @@
 ---
-title: 'How to Generate UTM Links That Supercharge Your Analytics'
-intro: 'Learn how to generate UTM links to accurately track campaign performance. This guide covers builders, best practices, and avoiding common mistakes.'
+title: "How to Generate UTM Links That Supercharge Your Analytics"
+intro: "Learn how to generate UTM links to accurately track campaign performance. This guide covers builders, best practices, and avoiding common mistakes."
 date: December 26, 2025
 hidden: false
 author: Andrii Romasiun

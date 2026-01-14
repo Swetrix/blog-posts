@@ -1,6 +1,6 @@
 ---
-title: '12 Best User Journey Mapping Tools for 2025'
-intro: 'Discover the 12 best user journey mapping tools for 2025. Compare features, pricing, and pros/cons to visualize and improve your customer experience.'
+title: "12 Best User Journey Mapping Tools for 2025"
+intro: "Discover the 12 best user journey mapping tools for 2025. Compare features, pricing, and pros/cons to visualize and improve your customer experience."
 date: November 1, 2025
 hidden: false
 author: Andrii Romasiun

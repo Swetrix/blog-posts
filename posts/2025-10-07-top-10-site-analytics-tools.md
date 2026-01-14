@@ -1,6 +1,6 @@
 ---
-title: 'Top 10 Site Analytics Tool Picks to Boost Your Website in 2025'
-intro: 'Discover the top 10 site analytics tool options for 2025 to boost performance, enhance user experience, ensure privacy compliance, and drive measurable business growth.'
+title: "Top 10 Site Analytics Tool Picks to Boost Your Website in 2025"
+intro: "Discover the top 10 site analytics tool options for 2025 to boost performance, enhance user experience, ensure privacy compliance, and drive measurable business growth."
 date: October 7, 2025
 hidden: false
 author: Andrii Romasiun

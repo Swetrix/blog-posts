@@ -1,6 +1,6 @@
 ---
-title: '10 Customer Journey Mapping Examples to Inspire You in 2025'
-intro: 'Discover 10 real-world customer journey mapping examples from SaaS, e-commerce, and healthcare. Learn to map touchpoints and fix pain points.'
+title: "10 Customer Journey Mapping Examples to Inspire You in 2025"
+intro: "Discover 10 real-world customer journey mapping examples from SaaS, e-commerce, and healthcare. Learn to map touchpoints and fix pain points."
 date: November 2, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: 'What Is Cross Site Tracking'
-intro: 'Discover what cross site tracking is, how it works, and the privacy risks it creates. Learn how to protect your data with actionable steps.'
+title: "What Is Cross Site Tracking"
+intro: "Discover what cross site tracking is, how it works, and the privacy risks it creates. Learn how to protect your data with actionable steps."
 date: November 22, 2025
 hidden: false
 author: Andrii Romasiun

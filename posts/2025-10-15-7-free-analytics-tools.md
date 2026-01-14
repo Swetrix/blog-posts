@@ -1,6 +1,6 @@
 ---
-title: '7 Top Free Analytics Tool Picks for Smarter Insights in 2025'
-intro: 'Discover the best free analytics tool options for 2025. Compare features, benefits, and ideal use cases to make smarter data driven decisions for your business.'
+title: "7 Top Free Analytics Tool Picks for Smarter Insights in 2025"
+intro: "Discover the best free analytics tool options for 2025. Compare features, benefits, and ideal use cases to make smarter data driven decisions for your business."
 date: October 15, 2025
 hidden: false
 author: Andrii Romasiun

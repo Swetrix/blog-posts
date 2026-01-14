@@ -1,5 +1,5 @@
 ---
-title: 'User Insights Guide: Unlocking Customer Understanding in 2025'
+title: "User Insights Guide: Unlocking Customer Understanding in 2025"
 intro: Unlock user insights in 2025 with this expert guide. Discover key trends, proven methods, and actionable strategies to drive growth and customer loyalty.
 date: September 17, 2025
 hidden: false

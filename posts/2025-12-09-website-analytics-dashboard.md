@@ -1,6 +1,6 @@
 ---
-title: 'A Guide to Website Analytics Dashboards'
-intro: 'Transform raw website data into clear, actionable insights. This guide explores how website analytics dashboards help you track performance and drive growth.'
+title: "A Guide to Website Analytics Dashboards"
+intro: "Transform raw website data into clear, actionable insights. This guide explores how website analytics dashboards help you track performance and drive growth."
 date: December 09, 2025
 hidden: false
 author: Andrii Romasiun
@@ -48,13 +48,11 @@ If you don't nail these basics, your dashboard can quickly become a confusing ju
 Metrics are just quantifiable data points that track what your users are doing. We can group them into three main categories, and each one answers a different, vital question about your audience. Getting a handle on these will take you way beyond surface-level stats.
 
 1.  **Traffic Metrics:** These answer the question, "Who is coming to our site and where are they from?"
-
     - **Users:** This is the number of unique individuals who visited your site. It’s a great way to gauge the actual size of your audience.
     - **Sessions:** The total number of visits to your site. One user can have multiple sessions, which is a good sign of repeat engagement.
     - **Traffic Sources:** This shows you _how_ people found you—was it through a Google search, a social media post, or did they type your URL directly? This is crucial for figuring out if your marketing is working.
 
 2.  **Engagement Metrics:** These answer, "What are visitors doing once they get here?"
-
     - **Bounce Rate:** The percentage of visitors who land on a page and leave without clicking anything else. A high bounce rate might mean your content isn't what they were looking for or the page is confusing.
     - **Average Session Duration:** How long, on average, people stick around during a visit. Longer sessions usually mean your content is holding their attention.
     - **Pages per Session:** The average number of pages someone looks at before they leave. This tells you how deeply they’re exploring what you have to offer.

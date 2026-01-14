@@ -1,6 +1,6 @@
 ---
-title: 'Site Insights Guide: Unlocking Website Success in 2025'
-intro: 'Unlock website success in 2025 with advanced site insights. Discover key metrics, strategic optimization, privacy compliance, and future-proof analytics for growth.'
+title: "Site Insights Guide: Unlocking Website Success in 2025"
+intro: "Unlock website success in 2025 with advanced site insights. Discover key metrics, strategic optimization, privacy compliance, and future-proof analytics for growth."
 date: October 8, 2025
 hidden: false
 author: Andrii Romasiun

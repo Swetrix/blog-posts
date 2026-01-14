@@ -1,6 +1,6 @@
 ---
-title: 'Event Tracking Guide: Master Data Insights in 2025'
-intro: 'Master event tracking in 2025 with this expert guide Explore tools strategies and privacy best practices to turn user data into actionable business insights.'
+title: "Event Tracking Guide: Master Data Insights in 2025"
+intro: "Master event tracking in 2025 with this expert guide Explore tools strategies and privacy best practices to turn user data into actionable business insights."
 date: October 3, 2025
 hidden: false
 author: Andrii Romasiun
@@ -105,8 +105,8 @@ You can implement event tracking client-side, where events are sent directly fro
 Here's an example of a simple JavaScript event tracking snippet:
 
 ```javascript
-document.getElementById('buy-button').addEventListener('click', function () {
-  trackEvent('purchase_clicked', { product_id: '1234', price: 49.99 });
+document.getElementById("buy-button").addEventListener("click", function () {
+  trackEvent("purchase_clicked", { product_id: "1234", price: 49.99 });
 });
 ```
 
@@ -190,8 +190,8 @@ Select the right SDK or API based on your platform, whether web, mobile, or serv
 For instance, a simple JavaScript event tracking snippet for a button click might look like:
 
 ```javascript
-analytics.track('button_clicked', {
-  button_name: 'Subscribe',
+analytics.track("button_clicked", {
+  button_name: "Subscribe",
   page: window.location.pathname,
 });
 ```

@@ -1,6 +1,6 @@
 ---
-title: 'A Practical Guide on How to Track Website Visitors Ethically'
-intro: 'Learn how to track website visitors with our practical guide. Master privacy-first analytics, UTMs, and server-side tracking to gain actionable insights.'
+title: "A Practical Guide on How to Track Website Visitors Ethically"
+intro: "Learn how to track website visitors with our practical guide. Master privacy-first analytics, UTMs, and server-side tracking to gain actionable insights."
 date: December 16, 2025
 hidden: false
 author: Andrii Romasiun

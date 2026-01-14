@@ -1,6 +1,6 @@
 ---
-title: 'Mastering Tracking Affiliate Links for Better ROI'
-intro: 'A complete guide to tracking affiliate links. Learn to master UTMs, link management, and privacy-focused analytics to optimize your affiliate marketing.'
+title: "Mastering Tracking Affiliate Links for Better ROI"
+intro: "A complete guide to tracking affiliate links. Learn to master UTMs, link management, and privacy-focused analytics to optimize your affiliate marketing."
 date: November 7, 2025
 hidden: false
 author: Andrii Romasiun

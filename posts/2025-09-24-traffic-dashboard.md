@@ -1,5 +1,5 @@
 ---
-title: 'Your traffic dashboard in 2025: a practical guide'
+title: "Your traffic dashboard in 2025: a practical guide"
 intro: Master the traffic dashboard for 2025 with expert insights on metrics, privacy compliance, setup, and advanced strategies to drive smarter web analytics decisions.
 date: September 24, 2025
 hidden: false

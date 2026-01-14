@@ -1,5 +1,5 @@
 ---
-title: 'A Complete Guide to Real User Monitoring'
+title: "A Complete Guide to Real User Monitoring"
 intro: "Discover how real user monitoring (RUM) provides critical insights into your website's performance and user experience. Learn key metrics and best practices."
 date: January 01, 2026
 hidden: false

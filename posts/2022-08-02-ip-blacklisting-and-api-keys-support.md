@@ -1,6 +1,6 @@
 ---
 title: New IP blacklisting and API Keys features
-intro: 'In the latest Swetrix release we have released new features: IP blacklisting and API key support.'
+intro: "In the latest Swetrix release we have released new features: IP blacklisting and API key support."
 date: August 02, 2022
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: 'How to Track Sign Ups and Drive Real Growth'
-intro: 'Learn how to track sign ups with our practical guide. Compare client-side vs. server-side methods and turn your analytics into actionable growth strategies.'
+title: "How to Track Sign Ups and Drive Real Growth"
+intro: "Learn how to track sign ups with our practical guide. Compare client-side vs. server-side methods and turn your analytics into actionable growth strategies."
 date: November 21, 2025
 hidden: false
 author: Andrii Romasiun

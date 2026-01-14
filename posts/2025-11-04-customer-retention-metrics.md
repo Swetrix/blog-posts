@@ -1,6 +1,6 @@
 ---
-title: 'A Guide to Customer Retention Metrics'
-intro: 'Unlock sustainable growth with our guide to customer retention metrics. Learn to measure, analyze, and improve the metrics that truly matter for your business.'
+title: "A Guide to Customer Retention Metrics"
+intro: "Unlock sustainable growth with our guide to customer retention metrics. Learn to measure, analyze, and improve the metrics that truly matter for your business."
 date: November 4, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,6 +1,6 @@
 ---
-title: 'Top 7 Web Analytics Tool Picks for Smarter Insights in 2025'
-intro: 'Discover the top 7 web analytics tool options for 2025. Compare features, pricing, privacy, and integration to make smarter, data-driven business decisions.'
+title: "Top 7 Web Analytics Tool Picks for Smarter Insights in 2025"
+intro: "Discover the top 7 web analytics tool options for 2025. Compare features, pricing, privacy, and integration to make smarter, data-driven business decisions."
 date: October 18, 2025
 hidden: false
 author: Andrii Romasiun

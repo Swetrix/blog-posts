@@ -1,6 +1,6 @@
 ---
-title: 'Own Your Data with Self Hosted Web Analytics'
-intro: 'Discover self hosted web analytics and gain full control over your data. Our guide explains setup, benefits, and the best platforms for true privacy.'
+title: "Own Your Data with Self Hosted Web Analytics"
+intro: "Discover self hosted web analytics and gain full control over your data. Our guide explains setup, benefits, and the best platforms for true privacy."
 date: October 23, 2025
 hidden: false
 author: Andrii Romasiun

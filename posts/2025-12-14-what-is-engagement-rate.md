@@ -1,6 +1,6 @@
 ---
-title: 'What Is Engagement Rate and How Do You Actually Improve It'
-intro: 'Confused about what is engagement rate? This guide breaks down the formulas, benchmarks, and actionable strategies to measure and boost audience interaction.'
+title: "What Is Engagement Rate and How Do You Actually Improve It"
+intro: "Confused about what is engagement rate? This guide breaks down the formulas, benchmarks, and actionable strategies to measure and boost audience interaction."
 date: December 14, 2025
 hidden: false
 author: Andrii Romasiun

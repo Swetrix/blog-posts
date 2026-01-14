@@ -1,6 +1,6 @@
 ---
-title: 'GDPR Compliance for Websites A Practical Guide'
-intro: 'Struggling with GDPR compliance for websites? Our guide demystifies cookie consent, data rights, and privacy policies with actionable, real-world steps.'
+title: "GDPR Compliance for Websites A Practical Guide"
+intro: "Struggling with GDPR compliance for websites? Our guide demystifies cookie consent, data rights, and privacy policies with actionable, real-world steps."
 date: November 27, 2025
 hidden: false
 author: Andrii Romasiun
@@ -166,7 +166,6 @@ Follow these steps to build a process that holds up:
 3.  **Locate and Compile the Data:** Once you've confirmed their identity, the hunt begins. You need to track down every piece of data linked to that user across _all_ of your systems. That means checking your CRM, your email marketing platform, your analytics tools, and any website databases.
 
 4.  **Fulfill the Request:**
-
     - **For access requests:** Securely package and send the compiled data to the user.
     - **For correction requests:** Update the incorrect information everywhere it lives.
     - **For erasure requests:** Permanently delete the user's data from all systems.

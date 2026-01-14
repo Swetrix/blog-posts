@@ -1,5 +1,5 @@
 ---
-title: 'Insights Session Guide: Unlocking Actionable Strategies 2025'
+title: "Insights Session Guide: Unlocking Actionable Strategies 2025"
 intro: Unlock the power of insights session with proven frameworks, expert tools, and real case studies to drive actionable strategies and measurable business growth in 2025.
 date: September 28, 2025
 hidden: false

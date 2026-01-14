@@ -1,6 +1,6 @@
 ---
-title: 'Your Guide to Flawless Tracking with a UTM Campaign Builder'
-intro: 'Stop guessing and start tracking. Our guide to using a UTM campaign builder shows you how to create consistent links for data you can actually trust.'
+title: "Your Guide to Flawless Tracking with a UTM Campaign Builder"
+intro: "Stop guessing and start tracking. Our guide to using a UTM campaign builder shows you how to create consistent links for data you can actually trust."
 date: January 03, 2026
 hidden: false
 author: Andrii Romasiun

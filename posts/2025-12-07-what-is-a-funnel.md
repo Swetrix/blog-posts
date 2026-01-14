@@ -1,6 +1,6 @@
 ---
 title: "What's a funnel: A Simple Guide to Turning Visitors Into Customers"
-intro: 'Discover a simple framework to guide visitors from awareness to action and boost your conversions.'
+intro: "Discover a simple framework to guide visitors from awareness to action and boost your conversions."
 date: December 07, 2025
 hidden: false
 author: Andrii Romasiun

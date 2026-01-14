@@ -1,6 +1,6 @@
 ---
-title: '12 Best Alternatives to Google Analytics for 2026'
-intro: 'Tired of Google Analytics? Explore our detailed list of 12 powerful alternatives to Google Analytics, focusing on privacy, features, and pricing for 2026.'
+title: "12 Best Alternatives to Google Analytics for 2026"
+intro: "Tired of Google Analytics? Explore our detailed list of 12 powerful alternatives to Google Analytics, focusing on privacy, features, and pricing for 2026."
 date: January 09, 2026
 hidden: false
 author: Andrii Romasiun

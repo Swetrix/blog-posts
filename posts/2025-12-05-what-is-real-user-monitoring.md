@@ -1,6 +1,6 @@
 ---
-title: 'Real User Monitoring Explained'
-intro: 'What is real user monitoring? This guide explains how RUM works, the key metrics to track, and how it reveals your true user experience.'
+title: "Real User Monitoring Explained"
+intro: "What is real user monitoring? This guide explains how RUM works, the key metrics to track, and how it reveals your true user experience."
 date: December 05, 2025
 hidden: false
 author: Andrii Romasiun
@@ -153,7 +153,6 @@ Knowing when to deploy each method is crucial for building a solid monitoring st
 Here’s a simple breakdown of when to reach for each tool:
 
 - **Use Synthetic Monitoring for:**
-
   - **Uptime Monitoring:** Get an instant alert the second your homepage goes down.
   - **Pre-Production Testing:** Benchmark performance _before_ a new feature is released to the public.
   - **Competitor Analysis:** See how your site’s baseline speed compares to a competitor's.

@@ -1,6 +1,6 @@
 ---
-title: 'Open Source Web Analytics: Free, Flexible, Privacy-Focused'
-intro: 'Discover open source web analytics tools that give you control over data, ensuring privacy and insights without proprietary restrictions.'
+title: "Open Source Web Analytics: Free, Flexible, Privacy-Focused"
+intro: "Discover open source web analytics tools that give you control over data, ensuring privacy and insights without proprietary restrictions."
 date: October 20, 2025
 hidden: false
 author: Andrii Romasiun

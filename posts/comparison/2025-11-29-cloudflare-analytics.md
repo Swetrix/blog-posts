@@ -1,5 +1,5 @@
 ---
-title: 'Swetrix vs Cloudflare Analytics: A Comprehensive Comparison'
+title: "Swetrix vs Cloudflare Analytics: A Comprehensive Comparison"
 date: November 29, 2025
 hidden: true
 standalone: true
@@ -41,7 +41,7 @@ Here is a quick comparison to help you understand the real differences.
 | Feature flags                       |        ✅        |                   ❌                    |
 | User Profiles                       |        ✅        |                   ❌                    |
 | Revenue analytics                   |        ✅        |                   ❌                    |
-| CAPTCHA                             |        ✅        |            ✅ (Turnstile)             |
+| CAPTCHA                             |        ✅        |             ✅ (Turnstile)              |
 | **Data Quality & Ownership**        |                  |                                         |
 | Data Sampling                       |    0% (None)     | 10% (only 1 of 10 visitors are counted) |
 | Data Retention                      |    Unlimited     |                6 months                 |

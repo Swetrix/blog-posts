@@ -1,5 +1,5 @@
 ---
-title: 'Swetrix vs Plausible: A Comprehensive Comparison'
+title: "Swetrix vs Plausible: A Comprehensive Comparison"
 date: November 28, 2025
 hidden: true
 standalone: true

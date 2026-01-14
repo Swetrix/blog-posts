@@ -1,5 +1,5 @@
 ---
-title: 'Guide to Mastering Insights Web for 2025 Success'
+title: "Guide to Mastering Insights Web for 2025 Success"
 intro: Master insights web for 2025 with our expert guide. Discover key features, advanced analytics, integration strategies, and privacy tips to drive business success.
 date: September 21, 2025
 hidden: false

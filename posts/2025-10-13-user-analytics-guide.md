@@ -1,6 +1,6 @@
 ---
-title: 'User Analytics Guide 2025: Unlocking Actionable Insights'
-intro: 'Unlock the power of user analytics in 2025 with this expert guide. Learn actionable strategies, top tools, and privacy-first insights to drive business growth.'
+title: "User Analytics Guide 2025: Unlocking Actionable Insights"
+intro: "Unlock the power of user analytics in 2025 with this expert guide. Learn actionable strategies, top tools, and privacy-first insights to drive business growth."
 date: October 13, 2025
 hidden: false
 author: Andrii Romasiun

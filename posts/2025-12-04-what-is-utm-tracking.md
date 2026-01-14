@@ -1,6 +1,6 @@
 ---
-title: 'What Is UTM Tracking and How Does It Work'
-intro: 'Learn what is UTM tracking and how it helps you measure campaign performance. Get expert tips on building, using, and analyzing UTM links to boost your ROI.'
+title: "What Is UTM Tracking and How Does It Work"
+intro: "Learn what is UTM tracking and how it helps you measure campaign performance. Get expert tips on building, using, and analyzing UTM links to boost your ROI."
 date: December 04, 2025
 hidden: false
 author: Andrii Romasiun

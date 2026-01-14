@@ -1,6 +1,6 @@
 ---
-title: '12 Best Open Source Website Analytics Tools for 2025'
-intro: 'Explore the top open source website analytics tools for 2025. Compare features, pricing, and deployment options to find the best privacy-focused solution.'
+title: "12 Best Open Source Website Analytics Tools for 2025"
+intro: "Explore the top open source website analytics tools for 2025. Compare features, pricing, and deployment options to find the best privacy-focused solution."
 date: November 15, 2025
 hidden: false
 author: Andrii Romasiun

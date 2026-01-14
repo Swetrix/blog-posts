@@ -1,6 +1,6 @@
 ---
-title: 'A Guide to Open Source Analytics Software'
-intro: 'Explore the world of open source analytics software. This guide covers its benefits, top tools, and how to choose the right solution for your business.'
+title: "A Guide to Open Source Analytics Software"
+intro: "Explore the world of open source analytics software. This guide covers its benefits, top tools, and how to choose the right solution for your business."
 date: October 22, 2025
 hidden: false
 author: Andrii Romasiun

@@ -1,5 +1,5 @@
 ---
-title: '2022 for a Ukrainian startup: thoughts, insights, conclusions.'
+title: "2022 for a Ukrainian startup: thoughts, insights, conclusions."
 intro: A personal reflection on the experience of starting and growing a startup in Ukraine in 2022.
 date: January 15, 2023
 hidden: false

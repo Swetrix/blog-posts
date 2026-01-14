@@ -1,6 +1,6 @@
 ---
-title: 'Tracking Data Guide: Strategies and Best Practices for 2025'
-intro: 'Master tracking data in 2025 with proven strategies, privacy compliance, and actionable steps. Discover essential tools and best practices for effective analytics.'
+title: "Tracking Data Guide: Strategies and Best Practices for 2025"
+intro: "Master tracking data in 2025 with proven strategies, privacy compliance, and actionable steps. Discover essential tools and best practices for effective analytics."
 date: October 9, 2025
 hidden: false
 author: Andrii Romasiun
@@ -101,8 +101,8 @@ Use SDKs, APIs, and tag managers to deploy tracking codes efficiently. Watch for
 A typical event tracking implementation might look like this:
 
 ```javascript
-analytics.track('Purchase', {
-  product_id: '1234',
+analytics.track("Purchase", {
+  product_id: "1234",
   value: 49.99,
 });
 ```

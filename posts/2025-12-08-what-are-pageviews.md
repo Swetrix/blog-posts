@@ -1,5 +1,5 @@
 ---
-title: 'What Are Page Views and How Do They Work'
+title: "What Are Page Views and How Do They Work"
 intro: "Understand what are page views, how they differ from sessions and users, and why this metric is crucial for measuring your website's performance."
 date: December 08, 2025
 hidden: false

@@ -1,6 +1,6 @@
 ---
-title: 'The Ultimate Guide to Insights Online in 2025'
-intro: 'Unlock the power of insights online in 2025 with expert strategies, top tools, and privacy-first solutions to drive data-driven growth and outperform competitors.'
+title: "The Ultimate Guide to Insights Online in 2025"
+intro: "Unlock the power of insights online in 2025 with expert strategies, top tools, and privacy-first solutions to drive data-driven growth and outperform competitors."
 date: October 17, 2025
 hidden: false
 author: Andrii Romasiun
