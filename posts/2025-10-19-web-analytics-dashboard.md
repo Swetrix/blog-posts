@@ -236,5 +236,3 @@ Giving each team a tailored view ensures the data they see is immediately releva
 ---
 
 Ready to turn your data into clear, actionable insights without sacrificing user privacy? **Swetrix** offers a clean, intuitive, and cookieless analytics platform built to help you make smarter decisions. [Start your 14-day free trial today](https://swetrix.com) and see what you've been missing.
-
-_Article created using [Outrank](https://outrank.so)_

@@ -1,6 +1,6 @@
 ---
 title: 'How to Measure Marketing Campaign Effectiveness That Drives Growth'
-intro: 'Learn how to measure marketing campaign effectiveness with our guide. Go beyond vanity metrics to track KPIs, calculate ROI, and prove marketing's true impact.'
+intro: "Learn how to measure marketing campaign effectiveness with our guide. Go beyond vanity metrics to track KPIs, calculate ROI, and prove marketing's true impact."
 date: January 07, 2026
 hidden: false
 author: Andrii Romasiun
