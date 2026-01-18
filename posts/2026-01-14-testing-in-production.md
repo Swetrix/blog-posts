@@ -1,6 +1,6 @@
 ---
 title: "A Practical Guide to Testing in Production"
-intro: 'Learn how to implement testing in production safely and effectively. This guide covers key strategies, risk management, and the tools you need to succeed.
+intro: "Learn how to implement testing in production safely and effectively. This guide covers key strategies, risk management, and the tools you need to succeed."
 date: January 14, 2026
 hidden: false
 author: Andrii Romasiun
