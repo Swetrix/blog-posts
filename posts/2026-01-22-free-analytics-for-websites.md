@@ -13,11 +13,11 @@ This comprehensive guide is designed to help you navigate this landscape efficie
 
 Inside, you will find a detailed breakdown of each tool, complete with screenshots, direct links, and a concise analysis covering:
 
-*   **Key Features:** What makes each platform stand out.
-*   **Pros & Cons:** An honest look at strengths and limitations.
-*   **Best For:** Specific use cases, from indie makers to digital agencies.
-*   **Privacy Focus:** Notes on GDPR/CCPA compliance and cookie-less tracking.
-*   **Setup & Migration:** Quick tips to get you started.
+- **Key Features:** What makes each platform stand out.
+- **Pros & Cons:** An honest look at strengths and limitations.
+- **Best For:** Specific use cases, from indie makers to digital agencies.
+- **Privacy Focus:** Notes on GDPR/CCPA compliance and cookie-less tracking.
+- **Setup & Migration:** Quick tips to get you started.
 
 Our goal is to cut through the noise and provide the clarity needed to select, implement, and benefit from a free analytics solution that perfectly aligns with your project's specific needs, budget, and ethical considerations. Let’s dive in.
 
@@ -37,26 +37,26 @@ For growth-focused teams, Swetrix integrates essential optimization tools direct
 
 ### Core Features & Benefits
 
-| Feature Category | Description & Benefits |
-| :--- | :--- |
-| **Data & Privacy** | **Cookieless Tracking**: Anonymously collects data, eliminating the need for cookie banners and simplifying GDPR/CCPA compliance. |
-| **Analytics Suite** | **Real-Time Dashboards**: Monitor top pages, traffic sources, bounce rate, and UTM campaigns as they happen. |
-| **Advanced Tools** | **Error Tracking & RUM**: Identify and debug front-end JavaScript errors and monitor real user performance metrics to optimize site speed. |
-| **Optimization** | **A/B Testing & Feature Flags**: Run experiments and safely deploy new features from within the analytics platform. |
-| **Integrations** | **Revenue & Alerts**: Connect Stripe/Paddle for revenue analytics and send alerts to Slack, Discord, or Telegram. |
-| **Hosting & Control**| **Open-Source & Self-Hostable**: The Community Edition allows for 100% data ownership and free hosting on your own infrastructure. |
+| Feature Category      | Description & Benefits                                                                                                                     |
+| :-------------------- | :----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Data & Privacy**    | **Cookieless Tracking**: Anonymously collects data, eliminating the need for cookie banners and simplifying GDPR/CCPA compliance.          |
+| **Analytics Suite**   | **Real-Time Dashboards**: Monitor top pages, traffic sources, bounce rate, and UTM campaigns as they happen.                               |
+| **Advanced Tools**    | **Error Tracking & RUM**: Identify and debug front-end JavaScript errors and monitor real user performance metrics to optimize site speed. |
+| **Optimization**      | **A/B Testing & Feature Flags**: Run experiments and safely deploy new features from within the analytics platform.                        |
+| **Integrations**      | **Revenue & Alerts**: Connect Stripe/Paddle for revenue analytics and send alerts to Slack, Discord, or Telegram.                          |
+| **Hosting & Control** | **Open-Source & Self-Hostable**: The Community Edition allows for 100% data ownership and free hosting on your own infrastructure.         |
 
 ### Practical Considerations
 
--   **Pros:**
-    -   Privacy-first design eliminates cookie banners and supports compliance.
-    -   Feature-rich suite includes error tracking, RUM, funnels, and A/B testing.
-    -   Open-source Community Edition offers a completely free, self-hosted option.
-    -   Revenue attribution and team management tools are built-in.
+- **Pros:**
+  - Privacy-first design eliminates cookie banners and supports compliance.
+  - Feature-rich suite includes error tracking, RUM, funnels, and A/B testing.
+  - Open-source Community Edition offers a completely free, self-hosted option.
+  - Revenue attribution and team management tools are built-in.
 
--   **Cons:**
-    -   The hosted cloud version does not have a permanent free plan after the 14-day trial.
-    -   Its integration ecosystem is smaller compared to industry giants like Google Analytics.
+- **Cons:**
+  - The hosted cloud version does not have a permanent free plan after the 14-day trial.
+  - Its integration ecosystem is smaller compared to industry giants like Google Analytics.
 
 ### Pricing & Access
 
@@ -74,15 +74,15 @@ GA4 is free to use, but an enterprise version, GA4 360, is available for large-s
 
 **Website:** [https://analytics.google.com/](https://analytics.google.com/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐☆☆☆ (Relies on cookies, subject to data privacy regulations like GDPR) |
-| **Cookie-less**       | No (Cookie-based by default)                                                |
-| **Self-Hosting**      | No (Cloud-hosted only)                                                      |
-| **Key Metrics**       | Events, Conversions, User Engagement, Traffic Acquisition, Funnels, Paths   |
-| **Best For**          | Businesses leveraging the Google Ads & Marketing Platform ecosystem.        |
+| Feature Focus       | Rating & Notes                                                             |
+| ------------------- | -------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐☆☆☆ (Relies on cookies, subject to data privacy regulations like GDPR) |
+| **Cookie-less**     | No (Cookie-based by default)                                               |
+| **Self-Hosting**    | No (Cloud-hosted only)                                                     |
+| **Key Metrics**     | Events, Conversions, User Engagement, Traffic Acquisition, Funnels, Paths  |
+| **Best For**        | Businesses leveraging the Google Ads & Marketing Platform ecosystem.       |
 
 ## 3. Microsoft Clarity
 
@@ -96,15 +96,15 @@ While it excels at behavioral analysis, it is not a comprehensive marketing anal
 
 **Website:** [https://clarity.microsoft.com/](https://clarity.microsoft.com/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐☆ (GDPR & CCPA compliant; automatically masks sensitive data)        |
-| **Cookie-less**       | No (Uses a first-party cookie for session tracking)                         |
-| **Self-Hosting**      | No (Cloud-hosted only)                                                      |
-| **Key Metrics**       | Session Replays, Heatmaps, Dead Clicks, Rage Clicks, Scroll Depth, Funnels  |
-| **Best For**          | UX designers, product managers, and marketers focused on improving website usability. |
+| Feature Focus       | Rating & Notes                                                                        |
+| ------------------- | ------------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐☆ (GDPR & CCPA compliant; automatically masks sensitive data)                 |
+| **Cookie-less**     | No (Uses a first-party cookie for session tracking)                                   |
+| **Self-Hosting**    | No (Cloud-hosted only)                                                                |
+| **Key Metrics**     | Session Replays, Heatmaps, Dead Clicks, Rage Clicks, Scroll Depth, Funnels            |
+| **Best For**        | UX designers, product managers, and marketers focused on improving website usability. |
 
 ## 4. Cloudflare Web Analytics
 
@@ -118,15 +118,15 @@ The trade-off for this simplicity is a lack of depth. Cloudflare Web Analytics f
 
 **Website:** [https://www.cloudflare.com/web-analytics/](https://www.cloudflare.com/web-analytics/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                                   |
-| --------------------- | ---------------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐⭐ (Cookieless by design, no PII collected, GDPR compliant out-of-the-box)    |
-| **Cookie-less**       | Yes (Does not use any client-side state like cookies or localStorage)              |
-| **Self-Hosting**      | No (Cloud-hosted only)                                                             |
-| **Key Metrics**       | Page Views, Visits, Referrers, Core Web Vitals, Top Pages, Visitor Countries       |
-| **Best For**          | Privacy-conscious site owners needing simple traffic stats and performance data.   |
+| Feature Focus       | Rating & Notes                                                                     |
+| ------------------- | ---------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐⭐ (Cookieless by design, no PII collected, GDPR compliant out-of-the-box) |
+| **Cookie-less**     | Yes (Does not use any client-side state like cookies or localStorage)              |
+| **Self-Hosting**    | No (Cloud-hosted only)                                                             |
+| **Key Metrics**     | Page Views, Visits, Referrers, Core Web Vitals, Top Pages, Visitor Countries       |
+| **Best For**        | Privacy-conscious site owners needing simple traffic stats and performance data.   |
 
 ## 5. Matomo (self-hosted)
 
@@ -140,15 +140,15 @@ The main trade-off for this power is the responsibility of server maintenance. Y
 
 **Website:** [https://matomo.org/](https://matomo.org/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐⭐ (Designed for data ownership and GDPR compliance)                  |
-| **Cookie-less**       | Yes (Can be configured for cookieless tracking)                             |
-| **Self-Hosting**      | Yes (The primary deployment method for the free version)                    |
-| **Key Metrics**       | Visitors, Pageviews, Goals, Funnels, Events, Campaigns, E-commerce, Outlinks|
-| **Best For**          | Organizations needing full data ownership and GDPR compliance.              |
+| Feature Focus       | Rating & Notes                                                               |
+| ------------------- | ---------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐⭐ (Designed for data ownership and GDPR compliance)                 |
+| **Cookie-less**     | Yes (Can be configured for cookieless tracking)                              |
+| **Self-Hosting**    | Yes (The primary deployment method for the free version)                     |
+| **Key Metrics**     | Visitors, Pageviews, Goals, Funnels, Events, Campaigns, E-commerce, Outlinks |
+| **Best For**        | Organizations needing full data ownership and GDPR compliance.               |
 
 ## 6. Umami (self-hosted)
 
@@ -162,15 +162,15 @@ The free, open-source nature means you have full control over your data, a criti
 
 **Website:** [https://umami.is/](https://umami.is/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐⭐ (Designed for privacy; no cookies or PII collection)              |
-| **Cookie-less**       | Yes (Completely cookie-less by design)                                      |
-| **Self-Hosting**      | Yes (Primary deployment model is self-hosting)                              |
-| **Key Metrics**       | Pageviews, Referrers, UTMs, Funnels, Custom Events, Retention, Geolocation  |
-| **Best For**          | Developers, startups, and privacy-conscious businesses needing simple, fast analytics. |
+| Feature Focus       | Rating & Notes                                                                         |
+| ------------------- | -------------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐⭐ (Designed for privacy; no cookies or PII collection)                        |
+| **Cookie-less**     | Yes (Completely cookie-less by design)                                                 |
+| **Self-Hosting**    | Yes (Primary deployment model is self-hosting)                                         |
+| **Key Metrics**     | Pageviews, Referrers, UTMs, Funnels, Custom Events, Retention, Geolocation             |
+| **Best For**        | Developers, startups, and privacy-conscious businesses needing simple, fast analytics. |
 
 ## 7. Plausible Analytics
 
@@ -182,15 +182,15 @@ The primary drawback of the free offering is that the Community Edition is commu
 
 **Website:** [https://plausible.io/](https://plausible.io/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐⭐ (Cookieless by design, GDPR compliant, no personal data collected)     |
-| **Cookie-less**       | Yes (Does not use cookies)                                                  |
-| **Self-Hosting**      | Yes (Free Community Edition is fully self-hostable)                         |
-| **Key Metrics**       | Unique Visitors, Pageviews, Bounce Rate, Visit Duration, Goals, UTM Campaigns |
-| **Best For**          | Privacy-conscious businesses and developers needing a simple, self-hosted solution. |
+| Feature Focus       | Rating & Notes                                                                      |
+| ------------------- | ----------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐⭐ (Cookieless by design, GDPR compliant, no personal data collected)       |
+| **Cookie-less**     | Yes (Does not use cookies)                                                          |
+| **Self-Hosting**    | Yes (Free Community Edition is fully self-hostable)                                 |
+| **Key Metrics**     | Unique Visitors, Pageviews, Bounce Rate, Visit Duration, Goals, UTM Campaigns       |
+| **Best For**        | Privacy-conscious businesses and developers needing a simple, self-hosted solution. |
 
 ## 8. PostHog
 
@@ -204,15 +204,15 @@ The platform is undeniably feature-rich, which can introduce complexity for user
 
 **Website:** [https://posthog.com/](https://posthog.com/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐☆ (Self-hosting offers maximum privacy; cloud version is robust)     |
-| **Cookie-less**       | Yes (Can be configured to operate without cookies)                          |
-| **Self-Hosting**      | Yes (Open-source and fully self-hostable)                                   |
-| **Key Metrics**       | Events, Funnels, Retention, Session Replays, Feature Flag Adoption, A/B Tests |
-| **Best For**          | Product and engineering teams needing a unified analytics and testing stack.    |
+| Feature Focus       | Rating & Notes                                                                |
+| ------------------- | ----------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐☆ (Self-hosting offers maximum privacy; cloud version is robust)      |
+| **Cookie-less**     | Yes (Can be configured to operate without cookies)                            |
+| **Self-Hosting**    | Yes (Open-source and fully self-hostable)                                     |
+| **Key Metrics**     | Events, Funnels, Retention, Session Replays, Feature Flag Adoption, A/B Tests |
+| **Best For**        | Product and engineering teams needing a unified analytics and testing stack.  |
 
 ## 9. Mixpanel
 
@@ -226,15 +226,15 @@ While the free plan limits the number of saved reports and projects, it provides
 
 **Website:** [https://mixpanel.com/](https://mixpanel.com/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐☆☆ (Offers controls for data residency and PII management, but is not privacy-first by default) |
-| **Cookie-less**       | Yes (Can be configured to operate without cookies)                          |
-| **Self-Hosting**      | No (Cloud-hosted only)                                                      |
-| **Key Metrics**       | Funnels, Retention, User Flows, Cohort Analysis, Session Replay, Events     |
-| **Best For**          | Product teams and startups needing to analyze user behavior and feature adoption. |
+| Feature Focus       | Rating & Notes                                                                                        |
+| ------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐☆☆ (Offers controls for data residency and PII management, but is not privacy-first by default) |
+| **Cookie-less**     | Yes (Can be configured to operate without cookies)                                                    |
+| **Self-Hosting**    | No (Cloud-hosted only)                                                                                |
+| **Key Metrics**     | Funnels, Retention, User Flows, Cohort Analysis, Session Replay, Events                               |
+| **Best For**        | Product teams and startups needing to analyze user behavior and feature adoption.                     |
 
 ## 10. Jetpack Stats (WordPress)
 
@@ -248,15 +248,15 @@ Jetpack Stats is free for personal and non-commercial sites, with paid plans ava
 
 **Website:** [https://jetpack.com/stats/](https://jetpack.com/stats/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐☆☆ (Does not set identifying cookies by default; respects DNT headers) |
-| **Cookie-less**       | Yes (Does not use cookies for tracking unique users by default)             |
-| **Self-Hosting**      | No (Managed by Automattic, the company behind WordPress.com)                |
-| **Key Metrics**       | Views, Visitors, Top Posts & Pages, Referrers, Search Terms, Clicks, Countries |
-| **Best For**          | WordPress bloggers and small site owners needing simple, integrated stats.  |
+| Feature Focus       | Rating & Notes                                                                 |
+| ------------------- | ------------------------------------------------------------------------------ |
+| **Privacy-Focused** | ⭐⭐⭐☆☆ (Does not set identifying cookies by default; respects DNT headers)   |
+| **Cookie-less**     | Yes (Does not use cookies for tracking unique users by default)                |
+| **Self-Hosting**    | No (Managed by Automattic, the company behind WordPress.com)                   |
+| **Key Metrics**     | Views, Visitors, Top Posts & Pages, Referrers, Search Terms, Clicks, Countries |
+| **Best For**        | WordPress bloggers and small site owners needing simple, integrated stats.     |
 
 ## 11. Statcounter
 
@@ -270,15 +270,15 @@ The free plan is generous enough for small sites, but it's important to note its
 
 **Website:** [https://statcounter.com/](https://statcounter.com/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐☆☆☆ (Cookie-based; offers privacy controls but not its primary focus) |
-| **Cookie-less**       | No (Relies on cookies for visitor tracking)                                 |
-| **Self-Hosting**      | No (Cloud-hosted only)                                                      |
-| **Key Metrics**       | Live Visitor Feed, Recent Pageloads, Entry/Exit Pages, Referrer Tracking    |
-| **Best For**          | Bloggers and small website owners wanting a simple, real-time traffic overview. |
+| Feature Focus       | Rating & Notes                                                                  |
+| ------------------- | ------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐☆☆☆ (Cookie-based; offers privacy controls but not its primary focus)       |
+| **Cookie-less**     | No (Relies on cookies for visitor tracking)                                     |
+| **Self-Hosting**    | No (Cloud-hosted only)                                                          |
+| **Key Metrics**     | Live Visitor Feed, Recent Pageloads, Entry/Exit Pages, Referrer Tracking        |
+| **Best For**        | Bloggers and small website owners wanting a simple, real-time traffic overview. |
 
 ## 12. Open Web Analytics (OWA)
 
@@ -292,32 +292,32 @@ The primary trade-off is the need for self-hosting, which requires server resour
 
 **Website:** [https://www.openwebanalytics.com/](https://www.openwebanalytics.com/)
 
-***
+---
 
-| Feature Focus         | Rating & Notes                                                              |
-| --------------------- | --------------------------------------------------------------------------- |
-| **Privacy-Focused**   | ⭐⭐⭐⭐☆ (Full data ownership enhances privacy; GDPR compliance is your own responsibility) |
-| **Cookie-less**       | No (Uses cookies for tracking)                                              |
-| **Self-Hosting**      | Yes (Requires PHP/MySQL server)                                             |
-| **Key Metrics**       | Pageviews, Visits, Goals, E-commerce, Heatmaps, Session Recordings          |
-| **Best For**          | Developers and technical users wanting a free, fully-owned analytics stack. |
+| Feature Focus       | Rating & Notes                                                                               |
+| ------------------- | -------------------------------------------------------------------------------------------- |
+| **Privacy-Focused** | ⭐⭐⭐⭐☆ (Full data ownership enhances privacy; GDPR compliance is your own responsibility) |
+| **Cookie-less**     | No (Uses cookies for tracking)                                                               |
+| **Self-Hosting**    | Yes (Requires PHP/MySQL server)                                                              |
+| **Key Metrics**     | Pageviews, Visits, Goals, E-commerce, Heatmaps, Session Recordings                           |
+| **Best For**        | Developers and technical users wanting a free, fully-owned analytics stack.                  |
 
 ## Free Web Analytics: 12-Tool Comparison
 
-| Product | Core features ✨ | Privacy & Data Control | Target audience 👥 | Price & Rating 💰★ |
-|---|---:|---|---|---|
-| **🏆 Swetrix** | Real‑time dashboards, session analysis, RUM, funnels, A/B + feature flags, revenue attribution | Cookieless & anonymous, open‑source & self‑hostable — full data ownership | Startups, product/growth teams, devs, agencies | 💰 Cloud $19+/mo (traffic‑based) · 14d trial; Community self‑host free · ★★★★☆ |
-| Google Analytics 4 (GA4) | Event‑based tracking, Explorations, BigQuery export | Cloud‑hosted with identifiers & modeling; less cookieless | Marketers, enterprises, ad teams | 💰 Free core; 360 enterprise · ★★★★☆ |
-| Microsoft Clarity | Session replay, unlimited heatmaps, rage‑clicks, funnels | Privacy‑conscious session data; free service | UX researchers, small teams, site diagnostics | 💰 Free forever · ★★★☆☆ |
-| Cloudflare Web Analytics | Lightweight RUM beacon, pages/referrers/countries, status codes | Cookieless, non‑fingerprinting, privacy‑forward | Privacy‑focused sites, Cloudflare users | 💰 Free with Cloudflare · ★★★★☆ |
-| Matomo (self‑hosted) | Page/events, goals & funnels, plugins for heatmaps/recordings | Self‑hosted GDPR tools, first‑party data control | Enterprises, privacy‑minded orgs, analysts | 💰 Self‑host free; Cloud paid · ★★★★☆ |
-| Umami (self‑hosted) | Tiny script (<2KB), pages/referrers/UTM, custom events, funnels | Cookieless, self‑hosted, lightweight footprint | Indie makers, small teams, privacy fans | 💰 Self‑host free; Cloud paid · ★★★★☆ |
-| Plausible Analytics | Simple dashboards, UTM/events, API, public stats option | Cookieless, open‑source self‑host; EU cloud option | Small sites, nonprofits, EU orgs | 💰 Cloud paid after trial; self‑host free · ★★★★☆ |
-| PostHog | Events, funnels, retention, session replay, feature flags, experiments ✨ | Self‑host option; generous free cloud tier | Product & growth teams, startups | 💰 Generous free tier; usage‑based paid · ★★★★☆ |
-| Mixpanel | Funnels, retention, cohorts, flows; templates for analysis | Cloud product analytics; strong event model | Product teams, growth marketers | 💰 Free up to 1M events; scale pricing · ★★★★☆ |
-| Jetpack Stats (WordPress) | Views/visitors, top posts/pages, referrers, CSV export | Runs via Jetpack (WP); basic data control | WordPress bloggers & site owners | 💰 Free personal; paid for commercial · ★★☆☆☆ |
-| Statcounter | Real‑time visitor feed, path analysis, landing/conversion reports | Cloud‑hosted; basic controls & add‑ons | Small sites, bloggers, troubleshooting | 💰 Free basic; paid upgrades · ★★★☆☆ |
-| Open Web Analytics (OWA) | Pageviews, goals, ecommerce, heatmaps, DOM session recordings | GPL self‑hosted — full data ownership | Devs, self‑hosters, small orgs | 💰 Free self‑host · ★★★☆☆ |
+| Product                   |                                                                               Core features ✨ | Privacy & Data Control                                                    | Target audience 👥                             | Price & Rating 💰★                                                             |
+| ------------------------- | ---------------------------------------------------------------------------------------------: | ------------------------------------------------------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------ |
+| **🏆 Swetrix**            | Real‑time dashboards, session analysis, RUM, funnels, A/B + feature flags, revenue attribution | Cookieless & anonymous, open‑source & self‑hostable — full data ownership | Startups, product/growth teams, devs, agencies | 💰 Cloud $19+/mo (traffic‑based) · 14d trial; Community self‑host free · ★★★★☆ |
+| Google Analytics 4 (GA4)  |                                            Event‑based tracking, Explorations, BigQuery export | Cloud‑hosted with identifiers & modeling; less cookieless                 | Marketers, enterprises, ad teams               | 💰 Free core; 360 enterprise · ★★★★☆                                           |
+| Microsoft Clarity         |                                       Session replay, unlimited heatmaps, rage‑clicks, funnels | Privacy‑conscious session data; free service                              | UX researchers, small teams, site diagnostics  | 💰 Free forever · ★★★☆☆                                                        |
+| Cloudflare Web Analytics  |                                Lightweight RUM beacon, pages/referrers/countries, status codes | Cookieless, non‑fingerprinting, privacy‑forward                           | Privacy‑focused sites, Cloudflare users        | 💰 Free with Cloudflare · ★★★★☆                                                |
+| Matomo (self‑hosted)      |                                  Page/events, goals & funnels, plugins for heatmaps/recordings | Self‑hosted GDPR tools, first‑party data control                          | Enterprises, privacy‑minded orgs, analysts     | 💰 Self‑host free; Cloud paid · ★★★★☆                                          |
+| Umami (self‑hosted)       |                                Tiny script (<2KB), pages/referrers/UTM, custom events, funnels | Cookieless, self‑hosted, lightweight footprint                            | Indie makers, small teams, privacy fans        | 💰 Self‑host free; Cloud paid · ★★★★☆                                          |
+| Plausible Analytics       |                                        Simple dashboards, UTM/events, API, public stats option | Cookieless, open‑source self‑host; EU cloud option                        | Small sites, nonprofits, EU orgs               | 💰 Cloud paid after trial; self‑host free · ★★★★☆                              |
+| PostHog                   |                      Events, funnels, retention, session replay, feature flags, experiments ✨ | Self‑host option; generous free cloud tier                                | Product & growth teams, startups               | 💰 Generous free tier; usage‑based paid · ★★★★☆                                |
+| Mixpanel                  |                                     Funnels, retention, cohorts, flows; templates for analysis | Cloud product analytics; strong event model                               | Product teams, growth marketers                | 💰 Free up to 1M events; scale pricing · ★★★★☆                                 |
+| Jetpack Stats (WordPress) |                                         Views/visitors, top posts/pages, referrers, CSV export | Runs via Jetpack (WP); basic data control                                 | WordPress bloggers & site owners               | 💰 Free personal; paid for commercial · ★★☆☆☆                                  |
+| Statcounter               |                              Real‑time visitor feed, path analysis, landing/conversion reports | Cloud‑hosted; basic controls & add‑ons                                    | Small sites, bloggers, troubleshooting         | 💰 Free basic; paid upgrades · ★★★☆☆                                           |
+| Open Web Analytics (OWA)  |                                  Pageviews, goals, ecommerce, heatmaps, DOM session recordings | GPL self‑hosted — full data ownership                                     | Devs, self‑hosters, small orgs                 | 💰 Free self‑host · ★★★☆☆                                                      |
 
 ## Making Your Choice: A Quick-Reference Guide to Select the Right Analytics Tool
 
@@ -338,22 +338,21 @@ Finally, the rise of open-source and self-hosted analytics empowers you to take 
 To cut through the noise and select the right tool, ask yourself these three critical questions:
 
 1.  **What is my primary goal?**
-    *   **Simple traffic monitoring:** If you just need to know how many people visit your site and where they come from, lightweight options like **Umami**, **Cloudflare Web Analytics**, or **Plausible** are excellent.
-    *   **User behavior analysis:** To understand *how* users interact with your site, tools with heatmaps and session recordings like **Microsoft Clarity** or event-based platforms like **Swetrix** are invaluable.
-    *   **Product-led growth:** For deep analysis of user journeys, funnels, and feature adoption in a web app, a product analytics tool like **PostHog** or **Mixpanel** is the right choice.
+    - **Simple traffic monitoring:** If you just need to know how many people visit your site and where they come from, lightweight options like **Umami**, **Cloudflare Web Analytics**, or **Plausible** are excellent.
+    - **User behavior analysis:** To understand _how_ users interact with your site, tools with heatmaps and session recordings like **Microsoft Clarity** or event-based platforms like **Swetrix** are invaluable.
+    - **Product-led growth:** For deep analysis of user journeys, funnels, and feature adoption in a web app, a product analytics tool like **PostHog** or **Mixpanel** is the right choice.
 
 2.  **What are my technical resources?**
-    *   **Minimal to none:** Stick with hosted solutions that offer a simple copy-paste JavaScript snippet. **Swetrix**, **Statcounter**, and **Clarity** are perfect examples.
-    *   **Comfortable with server management:** If you have experience with Docker or managing a VPS, self-hosting **Matomo** or **Umami** gives you ultimate control and long-term cost savings.
-    *   **WordPress user:** **Jetpack Stats** provides a deeply integrated, hassle-free starting point directly within your dashboard.
+    - **Minimal to none:** Stick with hosted solutions that offer a simple copy-paste JavaScript snippet. **Swetrix**, **Statcounter**, and **Clarity** are perfect examples.
+    - **Comfortable with server management:** If you have experience with Docker or managing a VPS, self-hosting **Matomo** or **Umami** gives you ultimate control and long-term cost savings.
+    - **WordPress user:** **Jetpack Stats** provides a deeply integrated, hassle-free starting point directly within your dashboard.
 
 3.  **How important is data privacy and ownership?**
-    *   **Top priority:** Choose a privacy-first, cookieless tool. Any of the self-hosted options put you in complete control, while hosted services like **Swetrix** and **Plausible** are built on a foundation of ethical data handling.
-    *   **A balanced approach:** Solutions like **GA4** offer powerful features but require careful configuration of consent modes and data retention policies to align with privacy regulations.
+    - **Top priority:** Choose a privacy-first, cookieless tool. Any of the self-hosted options put you in complete control, while hosted services like **Swetrix** and **Plausible** are built on a foundation of ethical data handling.
+    - **A balanced approach:** Solutions like **GA4** offer powerful features but require careful configuration of consent modes and data retention policies to align with privacy regulations.
 
 Ultimately, the best way to find your perfect fit is to experiment. Most hosted tools offer a free tier or trial, and open-source software can be spun up on a test server. Don't be afraid to run two tools in parallel for a short period to compare their data and user experience. The insights you gain will empower you to move beyond vanity metrics and make decisions that truly drive your website's success.
 
 ---
 
 Ready to embrace a modern, privacy-first approach to your website data? **Swetrix** combines powerful real-time analytics and user behavior insights with a simple, intuitive interface, all while respecting your users' privacy. Start making smarter decisions today with our generous free plan by visiting [Swetrix](https://swetrix.com).
-
