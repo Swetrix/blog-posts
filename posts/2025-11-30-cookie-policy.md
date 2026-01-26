@@ -1,6 +1,7 @@
 ---
 title: Cookie Policy
 date: November 30, 2025
+intro: "Cookie Policy: Learn what cookies are, which essential cookies we use, and how to manage or disable cookies in your browser settings."
 hidden: true
 standalone: true
 ---

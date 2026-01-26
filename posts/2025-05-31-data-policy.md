@@ -1,6 +1,7 @@
 ---
 title: Swetrix Data Policy and Privacy Law Compliance
 date: May 31, 2025
+intro: "Swetrix Data Policy: cookieless, privacy-first analytics that stores no PII. Learn what data we collect (sessions, pageviews, performance, errors) and how we comply with GDPR, PECR, CCPA."
 hidden: true
 standalone: true
 ---
