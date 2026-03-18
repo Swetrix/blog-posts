@@ -83,6 +83,7 @@ function Dashboard() {
 const isAiAssistantEnabled = useFeatureFlagEnabled('ai-assistant-button')
 
 return (
+
 <div>
 <h1>Welcome to your Dashboard</h1>
 {isAiAssistantEnabled && <AiAssistantButton />}
