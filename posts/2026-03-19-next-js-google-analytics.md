@@ -60,6 +60,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function RootLayout({ children }) {
 return (
+
 <html lang="en">
 <body>{children}</body>
 <GoogleAnalytics gaId="YOUR_GA_MEASUREMENT_ID" />
@@ -86,6 +87,7 @@ import { GoogleAnalytics } from '@next/third-parties/google'
 
 export default function RootLayout({ children }) {
 return (
+
 <html lang="en">
 <body>{children}</body>
 <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
@@ -117,6 +119,7 @@ import { sendGAEvent } from '@next/third-parties/google'
 
 export function NewsletterForm() {
 return (
+
 <form>
 {/_ ...form inputs... _/}
 <button
