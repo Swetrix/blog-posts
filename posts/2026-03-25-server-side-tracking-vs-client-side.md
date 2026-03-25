@@ -9,33 +9,7 @@ twitter_handle: andrii_rom
 
 You check your marketing dashboard and see a 30% drop in conversions, yet your payment processor reports record sales. You have a tracking problem. Users run ad blockers that intercept third-party analytics scripts before execution. You fix this mismatch by understanding the differences between server side tracking vs client side. Capturing data on your own infrastructure stops data loss, enforces user privacy controls, and maintains precise conversion counts.
 
-![Create a minimal infographic for a tech blog post about "server side tracking vs client side".
-
-SUBJECT: A side-by-side architectural flow diagram comparing data flows: on the left, client-side tracking showing a browser sending fragmented data directly to multiple external endpoints with red 'blocked' symbols; on the right, server-side tracking showing the browser sending one stream to a secure backend server, which then cleanly distributes it to various analytics endpoints.
-
-VISUAL STYLE (follow strictly):
-- Flat 2D vector illustration, no 3D, no gradients, no shadows, no photorealism
-- Limited color palette: white or very light gray (#F7F8FA) background, primary accent #2563EB (blue), secondary accent #6366F1 (indigo), dark text #1E293B, muted elements #94A3B8 (slate)
-- Generous whitespace; the image should feel airy and uncluttered
-- Clean geometric shapes: rounded rectangles, circles, simple arrows, dotted connector lines
-- Thin consistent stroke weight (2px style) for all lines and borders
-
-TYPOGRAPHY:
-- Minimal text only: short labels (1-3 words each), single numbers, or percentages
-- No paragraphs, no sentences, no titles, no explanatory captions inside the image
-- Sans-serif font style, clean and readable
-
-COMPOSITION:
-- Center the main concept; use symmetry or clear left-to-right / top-to-bottom flow
-- Maximum 5-7 visual elements total; cut anything that doesn't add meaning
-- Use icons only as simple geometric pictograms (circles with a symbol), not detailed illustrations
-
-DO NOT INCLUDE:
-- Any logos, brand names, or wordmarks (no "Swetrix", no company logos of any kind)
-- Photographs, people, faces, hands, or realistic objects
-- Decorative elements that don't convey information (random dots, abstract blobs, background patterns)
-- Watermarks or attribution text
-- Busy backgrounds or textures](https://cdn.swetrix.com/file/914f2b29dd9aa57a0cbcab16b98d0256.jpg)
+![Infographic](https://cdn.swetrix.com/file/914f2b29dd9aa57a0cbcab16b98d0256.jpg)
 
 ## Server Side Tracking vs Client Side Explained
 
@@ -69,33 +43,7 @@ Apple restricts third-party cookies with Safari Intelligent Tracking Prevention,
 
 Calculate your signal loss by opening your web analytics dashboard to pull the total number of conversions for the past 30 days. Pull the completed order count from your transactional database, like Stripe or Shopify, for the same period. Divide the analytics count by the database count to reveal your tracking blind spot. 
 
-![Create a minimal infographic for a tech blog post about "server side tracking vs client side".
-
-SUBJECT: A split bar chart visualizing the 'Signal Loss Crisis', showing a 100% baseline of total website traffic, a massive 30-40% chunk cut out labeled 'Lost to Ad Blockers & ITP', and the resulting 60-70% captured by traditional client-side pixels.
-
-VISUAL STYLE (follow strictly):
-- Flat 2D vector illustration, no 3D, no gradients, no shadows, no photorealism
-- Limited color palette: white or very light gray (#F7F8FA) background, primary accent #2563EB (blue), secondary accent #6366F1 (indigo), dark text #1E293B, muted elements #94A3B8 (slate)
-- Generous whitespace; the image should feel airy and uncluttered
-- Clean geometric shapes: rounded rectangles, circles, simple arrows, dotted connector lines
-- Thin consistent stroke weight (2px style) for all lines and borders
-
-TYPOGRAPHY:
-- Minimal text only: short labels (1-3 words each), single numbers, or percentages
-- No paragraphs, no sentences, no titles, no explanatory captions inside the image
-- Sans-serif font style, clean and readable
-
-COMPOSITION:
-- Center the main concept; use symmetry or clear left-to-right / top-to-bottom flow
-- Maximum 5-7 visual elements total; cut anything that doesn't add meaning
-- Use icons only as simple geometric pictograms (circles with a symbol), not detailed illustrations
-
-DO NOT INCLUDE:
-- Any logos, brand names, or wordmarks (no "Swetrix", no company logos of any kind)
-- Photographs, people, faces, hands, or realistic objects
-- Decorative elements that don't convey information (random dots, abstract blobs, background patterns)
-- Watermarks or attribution text
-- Busy backgrounds or textures](https://cdn.swetrix.com/file/d4c64acf921293ffd1f92333f13c8bb5.jpg)
+![Infographic](https://cdn.swetrix.com/file/d4c64acf921293ffd1f92333f13c8bb5.jpg)
 
 ### Recovering Lost ROI and Attribution
 
@@ -177,33 +125,7 @@ You provision a cloud server to host your tag manager container and configure yo
 **Customer Data Platforms (CDPs)**
 You use tools like Segment or RudderStack to manage your data pipeline by installing one SDK on your backend. You send user events to the CDP, giving you a visual interface to route data to hundreds of different marketing tools. You pay a premium for this convenience.
 
-![Create a minimal infographic for a tech blog post about "server side tracking vs client side".
-
-SUBJECT: A workflow funnel illustrating the 'Hybrid Tracking Approach', visually separating lightweight UI events (mouse clicks, scroll depth) routed through a thin client-side layer, while secure transactional events (purchases, account sign-ups) are routed securely through a backend server block.
-
-VISUAL STYLE (follow strictly):
-- Flat 2D vector illustration, no 3D, no gradients, no shadows, no photorealism
-- Limited color palette: white or very light gray (#F7F8FA) background, primary accent #2563EB (blue), secondary accent #6366F1 (indigo), dark text #1E293B, muted elements #94A3B8 (slate)
-- Generous whitespace; the image should feel airy and uncluttered
-- Clean geometric shapes: rounded rectangles, circles, simple arrows, dotted connector lines
-- Thin consistent stroke weight (2px style) for all lines and borders
-
-TYPOGRAPHY:
-- Minimal text only: short labels (1-3 words each), single numbers, or percentages
-- No paragraphs, no sentences, no titles, no explanatory captions inside the image
-- Sans-serif font style, clean and readable
-
-COMPOSITION:
-- Center the main concept; use symmetry or clear left-to-right / top-to-bottom flow
-- Maximum 5-7 visual elements total; cut anything that doesn't add meaning
-- Use icons only as simple geometric pictograms (circles with a symbol), not detailed illustrations
-
-DO NOT INCLUDE:
-- Any logos, brand names, or wordmarks (no "Swetrix", no company logos of any kind)
-- Photographs, people, faces, hands, or realistic objects
-- Decorative elements that don't convey information (random dots, abstract blobs, background patterns)
-- Watermarks or attribution text
-- Busy backgrounds or textures](https://cdn.swetrix.com/file/1d98ae9d058682c2f873d8094fcf72e1.jpg)
+![Infographic](https://cdn.swetrix.com/file/1d98ae9d058682c2f873d8094fcf72e1.jpg)
 
 ### The Hybrid Tracking Strategy
 
