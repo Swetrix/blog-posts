@@ -42,7 +42,7 @@ Here is a brutally honest comparison to help you see why moving away from Google
 | Experiments (A/B tests)             |         ✅         |      ❌ (Requires 3rd party)      |
 | Feature flags                       |         ✅         |                ❌                 |
 | User Profiles                       |         ✅         |                ✅                 |
-| Revenue analytics                   |         ✅         |                ✅                 |
+| Revenue analytics                   |         ✅         |                ❌                 |
 | CAPTCHA                             |         ✅         |                ❌                 |
 | **Security & Access**               |                    |                                   |
 | Bot filtering                       |         ✅         |                ✅                 |
