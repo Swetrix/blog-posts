@@ -43,7 +43,7 @@ Getting started is straightforward. A lightweight script is all that's needed to
 
 Pulsetic provides an elegant and straightforward approach to website performance and uptime monitoring. While many performance tools focus heavily on complex technical metrics, Pulsetic caters to teams that need to know immediately if their site is down or experiencing severe latency, and want to communicate that status beautifully to their users.
 
-[!Pulsetic](https://cdn.swetrix.com/file/b41401c56d918c96f95f411d6836c5c2.png)
+![Pulsetic](https://cdn.swetrix.com/file/b41401c56d918c96f95f411d6836c5c2.png)
 
 It combines global uptime monitoring with incredibly customizable status pages, allowing you to build trust with your audience. Pulsetic also tracks SSL certificates and domain expirations, ensuring you don't suffer outages due to overlooked administrative tasks. Its clean interface makes it accessible for anyone on the team to use, not just engineers.
 

@@ -49,7 +49,7 @@ Swetrix offers a transparent, traffic-based pricing model for its cloud version,
 
 Pulsetic is a modern, beautifully designed website uptime monitoring tool that makes it incredibly simple to keep track of your website's availability. It focuses on providing a clean, intuitive user interface while delivering powerful features like global uptime checks, status pages, and instant alerting. If you want a tool that is easy to set up and looks great, Pulsetic is an excellent choice.
 
-[!Pulsetic](https://cdn.swetrix.com/file/b41401c56d918c96f95f411d6836c5c2.png)
+![Pulsetic](https://cdn.swetrix.com/file/b41401c56d918c96f95f411d6836c5c2.png)
 
 Pulsetic provides reliable downtime alerts via phone call, SMS, email, Slack, and other channels, ensuring your team is the first to know when an outage occurs. It also allows you to create highly customizable, branded status pages to keep your customers informed. By pinging your website from multiple data centers worldwide, Pulsetic minimizes false positives and ensures accurate regional uptime data.
 
