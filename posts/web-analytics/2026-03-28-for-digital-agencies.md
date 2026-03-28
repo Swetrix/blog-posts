@@ -1,6 +1,7 @@
 ---
 title: "The Best Web Analytics for Digital Agencies & Freelancers in 2026"
 date: March 28, 2026
+hidden: false
 intro: "Discover why traditional analytics tools are failing digital agencies and how switching to a privacy-first, client-friendly solution can improve your reporting and client retention."
 ---
 

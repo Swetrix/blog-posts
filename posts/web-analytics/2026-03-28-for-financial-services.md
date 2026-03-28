@@ -1,6 +1,7 @@
 ---
 title: "Secure Web Analytics for Financial Services & Fintech in 2026"
 date: March 28, 2026
+hidden: false
 intro: "Financial institutions handle the most sensitive data on the web. Discover why routing your traffic data through ad networks is a massive liability, and how to implement a secure, compliant analytics stack."
 ---
 

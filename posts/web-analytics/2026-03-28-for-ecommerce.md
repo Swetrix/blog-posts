@@ -1,6 +1,7 @@
 ---
 title: "The Best Web Analytics for E-commerce Brands in 2026"
 date: March 28, 2026
+hidden: false
 intro: "Discover how a lightweight, privacy-first web analytics tool can speed up your e-commerce store, bypass ad blockers to capture lost revenue data, and integrate seamlessly with Stripe and Shopify."
 ---
 
