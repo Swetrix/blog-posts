@@ -85,7 +85,7 @@ Modern web analytics operate without cookies or persistent storage. Cookieless p
 
 The process prioritizes privacy. Servers generate temporary hashes based on user IP addresses and browser user agents. These hashes reset daily. Marketers track user sessions without storing personal identifiable information (PII) on client hard drives.
 
-Hashed routing complies with GDPR, CCPA, and PECR by design. Platforms bypass the consent wall by avoiding PII collection and tracking cookies.
+Hashed routing can reduce compliance overhead when implemented correctly. Teams should still validate GDPR, CCPA, and PECR obligations with legal counsel based on their data flows and jurisdiction.
 
 Server-side API tracking offers a more robust solution. Web servers send event data to the analytics endpoint. Ad blockers cannot intercept server-to-server communication. Systems capture total interaction data. The global API management market will hit $49.95 billion by 2032 due to this shift toward secure server-side data routing.
 
