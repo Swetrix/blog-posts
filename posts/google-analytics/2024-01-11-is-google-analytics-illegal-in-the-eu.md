@@ -1,7 +1,6 @@
 ---
 title: Is Google Analytics illegal in the EU?
 date: January 12, 2024
-hidden: true
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---

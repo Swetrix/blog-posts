@@ -1,7 +1,6 @@
 ---
 title: "Swetrix vs Fathom Analytics: Full Feature Comparison"
 date: November 29, 2025
-hidden: true
 standalone: true
 intro: "Swetrix vs Fathom Analytics: A detailed comparison. Swetrix offers open-source code, self-hosting, and advanced features like funnels and error tracking, going far beyond simple traffic statistics."
 ---

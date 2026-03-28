@@ -1,7 +1,6 @@
 ---
 title: "Swetrix vs Plausible: A Comprehensive Comparison"
 date: November 28, 2025
-hidden: true
 standalone: true
 intro: "Discover why Swetrix is the best Plausible alternative. While Plausible offers simplicity, Swetrix delivers deeper insights with performance monitoring, user flows, and error tracking—all privacy-first."
 ---

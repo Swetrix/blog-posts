@@ -1,7 +1,6 @@
 ---
 title: "Swetrix vs Cloudflare Analytics: A Comprehensive Comparison"
 date: November 29, 2025
-hidden: true
 standalone: true
 intro: "Compare Swetrix vs Cloudflare Analytics. Avoid data sampling, 6-month retention limits, and vendor lock-in. Choose Swetrix for 100% accurate, unsampled data and complete ownership of your metrics."
 ---

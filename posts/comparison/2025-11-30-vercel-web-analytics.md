@@ -1,7 +1,6 @@
 ---
 title: "Swetrix vs Vercel Web Analytics: A Comprehensive Comparison"
 date: November 30, 2025
-hidden: true
 standalone: true
 intro: "Swetrix vs Vercel Web Analytics. Avoid vendor lock-in and data limits. Swetrix works on any host, offers unlimited retention, and provides deeper insights like user flows and error tracking."
 ---

@@ -1,7 +1,6 @@
 ---
 title: Is Google Analytics illegal in Sweden?
 date: October 8, 2023
-hidden: true
 author: Andrii Romasiun
 nickname: blaumaus
 ---

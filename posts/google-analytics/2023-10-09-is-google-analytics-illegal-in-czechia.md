@@ -1,7 +1,6 @@
 ---
 title: Is Google Analytics illegal in Czechia?
 date: October 9, 2023
-hidden: true
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---

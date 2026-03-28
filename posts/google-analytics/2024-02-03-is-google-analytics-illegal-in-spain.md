@@ -1,7 +1,6 @@
 ---
 title: Is Google Analytics illegal in Spain?
 date: February 3, 2024
-hidden: true
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---

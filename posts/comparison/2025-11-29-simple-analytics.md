@@ -1,7 +1,6 @@
 ---
 title: "Swetrix vs Simple Analytics: A Comprehensive Features Comparison"
 date: November 29, 2025
-hidden: true
 standalone: true
 intro: "Swetrix vs Simple Analytics. While Simple Analytics keeps it basic, Swetrix offers a fully open-source, self-hostable alternative with deeper insights like performance metrics and user flows."
 ---
