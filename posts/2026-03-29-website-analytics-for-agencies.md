@@ -60,8 +60,7 @@ Implement privacy-by-design tracking to improve client site speed. Take these di
 ## Boosting SEO And Speed With Lightweight Scripts
 
 ### Script Size And Core Web Vitals Impact
-Heavy tracking scripts slow page load times and degrade search engine rankings. Google Analytics 4 burdens client websites with a 74 KB JavaScript file. Every downloaded byte delays the Largest Contentful Paint (LCP) and First Input Delay (FID) metrics. Search engines penalize domains failing these Core Web Vitals assessments.
-
+Heavy tracking scripts slow page load times and degrade search engine rankings. Google Analytics 4 burdens client websites with a 74 KB JavaScript file. Every downloaded byte can delay Largest Contentful Paint (LCP) and Interaction to Next Paint (INP). Search engines penalize domains failing these Core Web Vitals assessments.
 Modern website analytics for agencies run on minimal code. Open-source tracking scripts weigh between 3.5 and 5 KB. This 90 percent reduction in script bloat accelerates page rendering. Mobile browsers process the code in milliseconds. Improving [website performance](https://swetrix.com/performance) correlates with increased organic search visibility and decreased bounce rates. 
 
 Swap heavy legacy scripts using a Content Delivery Network (CDN):
