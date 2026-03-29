@@ -56,7 +56,7 @@ Here is why fast-growing fintechs and financial institutions trust Swetrix Cloud
 
 ### Strict EU Data Residency and Compliance
 
-Our cloud infrastructure is hosted entirely within the European Union. We do not use cross-site tracking or cookies, and we anonymize all IP addresses by default. Your data is 100% GDPR, CCPA, and PECR compliant from day one. You own your data completely; we just process it for you.
+Our cloud infrastructure is hosted entirely within the European Union. We do not use cross-site tracking or cookies, and we anonymize all IP addresses by default. This privacy-by-design approach makes adhering to GDPR, CCPA, and PECR straightforward. You own your data completely; we just process it for you.
 
 ### Open-Source Transparency
 

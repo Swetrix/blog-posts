@@ -51,7 +51,7 @@ Here is why hundreds of charities and nonprofits are switching to Swetrix:
 
 Swetrix uses advanced, anonymized data collection. We track the _traffic_, not the _individual_.
 
-Because we don't use cookies or collect personally identifiable information (PII), your organization is automatically compliant with GDPR, CCPA, and PECR.
+Because we don't use cookies or collect personally identifiable information (PII), your organization avoids the privacy risks associated with ad-tech tools and significantly simplifies your journey to GDPR, CCPA, and PECR compliance.
 
 The immediate benefit? **You can legally remove the cookie banner from your website.** Your donors get a clean, frictionless experience from the moment they arrive to the moment they complete their donation.
 

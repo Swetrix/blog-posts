@@ -42,7 +42,7 @@ Your clients shouldn't need a training course to understand their website traffi
 
 ### 3. Privacy by Design (No Cookie Banners)
 
-Imagine telling your clients, _"We use a privacy-first analytics tool. You don't need a cookie banner, and you're 100% GDPR compliant out of the box."_ That is a massive selling point. It shows you care about their legal compliance and the UX of their visitors.
+Imagine telling your clients, _"We use a privacy-first analytics tool. You don't need a cookie banner just for analytics, making it significantly easier to meet your privacy obligations."_ That is a massive selling point. It shows you care about their legal compliance and the UX of their visitors.
 
 ### 4. Lightweight Scripts
 
@@ -80,7 +80,7 @@ You can make a dashboard completely public, or protect it with a password. Send 
 
 Swetrix doesn't use cookies, nor do we track users across different websites. We anonymize data to protect visitor privacy.
 
-This means you can help your clients **ditch the cookie banner**. Their website will look cleaner, feel faster, and stay fully compliant with GDPR, CCPA, and PECR. Plus, Swetrix bypasses most ad blockers, meaning the data you report back to your clients is actually accurate.
+This means you can help your clients **ditch the cookie banner**. Their website will look cleaner, feel faster, and tracking will remain respectful of privacy laws like GDPR, CCPA, and PECR. Plus, Swetrix bypasses most ad blockers, meaning the data you report back to your clients is actually accurate.
 
 ### The All-In-One Toolkit: Traffic, Errors, and Performance
 
@@ -100,7 +100,7 @@ The Swetrix tracking script is under 6 KB (compared to GA4's ~74 KB). It loads a
 
 Switching your clients to a new tool is easier when you frame it around the benefits to _their_ business. Here is a simple script you can use:
 
-> _"We are upgrading our analytics stack to a premium, privacy-first solution. Unlike Google Analytics, this new tool is fully GDPR-compliant and doesn't use cookies, meaning we can remove the annoying cookie banner from your site. It also uses a much lighter script, which will make your website load faster and help with SEO. I'll send you a private link where you can see your traffic in a clean, easy-to-understand dashboard without needing a login."_
+> _"We are upgrading our analytics stack to a premium, privacy-first solution. Unlike Google Analytics, this new tool avoids invasive data collection and doesn't use cookies, meaning we can remove the annoying cookie banner from your site. It also uses a much lighter script, which will make your website load faster and help with SEO. I'll send you a private link where you can see your traffic in a clean, easy-to-understand dashboard without needing a login."_
 
 ## Ready to Streamline Your Agency Analytics?
 

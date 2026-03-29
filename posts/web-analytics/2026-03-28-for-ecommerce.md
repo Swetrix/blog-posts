@@ -87,7 +87,7 @@ The Swetrix tracking script is incredibly small—under 6 KB. It loads asynchron
 
 ### Cookieless and Ad-Blocker Resilient
 
-Swetrix does not use cookies to track visitors. We use anonymized, privacy-friendly data collection. This means you are automatically compliant with GDPR and CCPA.
+Swetrix does not use cookies to track visitors. We use anonymized, privacy-friendly data collection. This means your compliance with regulations like GDPR and CCPA becomes significantly easier.
 
 Even better? You can remove the cookie consent banner from your store entirely. By serving the Swetrix script via a custom domain proxy, you can also legally bypass most ad blockers, recovering the 30-40% of traffic data you've been missing.
 
