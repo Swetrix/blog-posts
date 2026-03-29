@@ -43,8 +43,7 @@ Hosting client data on EU-isolated servers protects businesses from GDPR infract
 | **Data Residency** | US Servers (Default) | EU-Isolated Servers |
 | **Data Ownership** | Vendor controlled | 100% Client owned |
 | **IP Anonymization** | Manual configuration required | Default behavior |
-| **Schrems II Risk** | High | Zero |
-
+| **Schrems II Risk** | High | Lower (implementation-dependent) |
 ### Eliminating The Cookie Banner
 Cookie consent pop-ups introduce friction to the user experience. Visitors abandon landing pages before reading the primary headline. Removing this obstacle increases engagement and drives improved conversion rates. 
 
