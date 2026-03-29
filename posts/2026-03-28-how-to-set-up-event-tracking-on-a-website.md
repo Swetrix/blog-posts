@@ -11,11 +11,12 @@ A visitor clicks the "Start Trial" button on your homepage. That single interact
 
 Event tracking captures specific actions to reveal user behavior, conversion funnels, and product friction.
 
-Learn how to set up event tracking on a website without relying on invasive cookies or triggering compliance warnings. 
+Learn how to set up event tracking on a website without relying on invasive cookies or triggering compliance warnings.
 
 ## What is Event Tracking and The Data Loss Crisis
 
 ### Defining Web Event Tracking
+
 Pageviews record a URL load. Event tracking records subsequent user actions.
 
 Analysts monitor button clicks, video plays, file downloads, and form submissions. Each interaction generates a distinct data point. Teams group these points to build conversion funnels. If 1,000 people view a checkout page and only 40 click "Submit Order," the 96% drop-off indicates a friction point.
@@ -23,7 +24,8 @@ Analysts monitor button clicks, video plays, file downloads, and form submission
 Track granular events to identify the specific element causing the drop-off. Broken discount code fields and malfunctioning payment gateways leave digital trails. Engineers read the event logs and deploy fixes.
 
 ### The Cookie Rejection and Ad Blocker Impact
-Traditional tracking methods rely on client-side cookies. ePrivacy and GDPR regulations require explicit user consent before browsers load these trackers. 
+
+Traditional tracking methods rely on client-side cookies. ePrivacy and GDPR regulations require explicit user consent before browsers load these trackers.
 
 European cookie rejection rates hover between 60% and 65%. German users reject non-mandated cookies at an 87% rate. French rejection rates hit 73%. When a visitor declines the banner, Google Analytics 4 (GA4) drops the session data.
 
@@ -38,6 +40,7 @@ Cookieless platforms bypass these restrictions to capture the missing data, allo
 ## Planning Your Event Tracking Strategy
 
 ### Identifying North Star Metrics
+
 Tracking every mouse movement bloats the database and slows down the website. The resulting network congestion drops analytics payloads.
 
 Focus tracking efforts on North Star metrics. These metrics combine multiple specific actions to measure business impact. A generic pageview carries zero business weight. Combined event paths show product adoption.
@@ -47,22 +50,24 @@ Map the core user journey. Define the actions users must take to achieve value i
 Group these core interactions into a funnel report. Product managers evaluate platform health based on the completion rate of these specific event paths.
 
 ### Standardizing Your Event Naming Taxonomy
+
 Poor naming conventions ruin dashboards. Misspelled tracking tags split data into duplicate rows.
 
 Adopt a strict `object_action` naming framework. Standardize this taxonomy in a shared spreadsheet before writing code. Developers and marketers must use precise nomenclature.
 
 The object represents the noun the user interacts with. The action details the verb.
 
-| Object | Action | Standardized Event Name | Tied Business KPI |
-| :--- | :--- | :--- | :--- |
-| pricing_page | viewed | `pricing_page_viewed` | Interest Generation |
-| trial_button | clicked | `trial_button_clicked` | Conversion Rate |
+| Object       | Action    | Standardized Event Name  | Tied Business KPI   |
+| :----------- | :-------- | :----------------------- | :------------------ |
+| pricing_page | viewed    | `pricing_page_viewed`    | Interest Generation |
+| trial_button | clicked   | `trial_button_clicked`   | Conversion Rate     |
 | payment_form | submitted | `payment_form_submitted` | Revenue Acquisition |
-| error_modal | displayed | `error_modal_displayed` | System Health |
+| error_modal  | displayed | `error_modal_displayed`  | System Health       |
 
 Keep names lowercase. Replace spaces with underscores. This consistency prevents one developer from logging `Click_Pricing` while another logs `pricingButton_click`. Cleaning data at the source removes the need for complex transformations.
 
 ### Mapping Events to the Customer Journey Funnel
+
 Users take multiple visits to convert. They move through stages over time. Marketers must map specific events to these distinct phases.
 
 Track `blog_post_scrolled` or `video_player_started` for top-of-funnel awareness. Measure middle-of-funnel consideration by logging `pricing_table_toggled` or `case_study_downloaded`. Bottom-of-funnel conversions trigger `demo_requested` or `checkout_completed`.
@@ -74,6 +79,7 @@ Assigning events to journey stages clarifies reporting. Analysts build funnel vi
 ## Traditional vs. Cookieless Tracking Methods
 
 ### The Limitations of Google Tag Manager
+
 Marketing teams default to Google Tag Manager (GTM) for event deployment. The platform requires loading a heavy container script on every page.
 
 GTM introduces points of failure. Administrators configure tags, triggers, and variables through a complex third-party interface. A developer changes a button class name on the website, causing the GTM trigger to break without warning.
@@ -81,6 +87,7 @@ GTM introduces points of failure. Administrators configure tags, triggers, and v
 Heavy client-side containers impact site speed. Websites force users to download unoptimized JavaScript. Slower load times decrease conversion rates and harm search engine rankings. Ad blockers target the GTM domain structure, blocking the container from loading and blinding the analytics platform.
 
 ### The Shift to Cookieless and Server-Side Events
+
 Modern web analytics operate without cookies or persistent storage. Cookieless platforms use hashed IP routing and referrer data to record user interactions.
 
 The process prioritizes privacy. Servers generate temporary hashes based on user IP addresses and browser user agents. These hashes reset daily. Marketers track user sessions without storing personal identifiable information (PII) on client hard drives.
@@ -92,6 +99,7 @@ Server-side API tracking offers a more robust solution. Web servers send event d
 ## How to Set Up Event Tracking on a Website via Swetrix
 
 ### Step 1: Initializing the Tracking Script
+
 Swetrix provides a lightweight, open-source script that respects user privacy. Setup takes two minutes.
 
 Create a Swetrix account and register the project to receive a unique Project ID. Open the website source code. Locate the `<head>` tag in the main layout file.
@@ -101,8 +109,8 @@ Paste the initialization script before the closing `</head>` tag:
 ```html
 <script src="https://swetrix.org/swetrix.js" defer></script>
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    swetrix.init('YOUR_PROJECT_ID');
+  document.addEventListener("DOMContentLoaded", () => {
+    swetrix.init("YOUR_PROJECT_ID");
     swetrix.trackViews();
   });
 </script>
@@ -111,33 +119,34 @@ Paste the initialization script before the closing `</head>` tag:
 The `defer` attribute ensures the script loads without blocking page rendering. The `trackViews()` function handles basic page tracking. Replace `YOUR_PROJECT_ID` with the provided identifier.
 
 ### Step 2: Implementation for React and Next.js Applications
+
 Single-page applications (SPAs) require specialized routing handling. Standard scripts fail to register page changes when the browser does not perform a hard reload.
 
 Install the dedicated Swetrix React package. Open the terminal and run `npm install @swetrix/react`. Import the tracking hook into the root layout or `App.js` component.
 
 ```javascript
-import { useSwetrix } from '@swetrix/react';
-import { useEffect } from 'react';
+import { useSwetrix } from "@swetrix/react";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
-  useSwetrix('YOUR_PROJECT_ID', {
-    debug: process.env.NODE_ENV === 'development'
+  useSwetrix("YOUR_PROJECT_ID", {
+    debug: process.env.NODE_ENV === "development",
   });
 
   return <Component {...pageProps} />;
 }
 ```
 
-The hook manages route changes without manual intervention. A new pageview event fires whenever the React router updates the URL path. 
+The hook manages route changes without manual intervention. A new pageview event fires whenever the React router updates the URL path.
 
 Track custom interactions using the `track` method imported from the package.
 
 ```javascript
-import { track } from '@swetrix/react';
+import { track } from "@swetrix/react";
 
 export function PricingCard() {
   const handleUpgrade = () => {
-    track({ name: 'upgrade_plan_clicked', meta: { plan: 'premium' } });
+    track({ name: "upgrade_plan_clicked", meta: { plan: "premium" } });
   };
 
   return <button onClick={handleUpgrade}>Upgrade Now</button>;
@@ -147,25 +156,24 @@ export function PricingCard() {
 Component-level tracking isolates analytics logic. This isolation keeps the codebase clean. Developers read the component and understand the specific metrics generated.
 
 ### Step 3: Firing Custom Actions and Batching Events
+
 Track granular actions by attaching the tracking function to specific HTML elements on vanilla sites.
 
 Open the pricing page code. Find the "Start Trial" button component. Add an `onClick` event handler to pass the standardized event name to the tracking script.
 
 ```html
-<button onClick="swetrix.track({ name: 'trial_button_clicked' })">
-  Start Free Trial
-</button>
+<button onClick="swetrix.track({ name: 'trial_button_clicked' })">Start Free Trial</button>
 ```
 
 Pass custom metadata alongside the event name. To track the specific pricing tier selected, add a custom payload:
 
 ```javascript
 swetrix.track({
-  name: 'checkout_initiated',
+  name: "checkout_initiated",
   meta: {
-    tier: 'pro_plan',
-    billing: 'annual'
-  }
+    tier: "pro_plan",
+    billing: "annual",
+  },
 });
 ```
 
@@ -174,6 +182,7 @@ Mobile applications and high-traffic sites benefit from event batching. Firing i
 Swetrix APIs support batching. The script stores multiple interactions in memory for a short duration. It bundles these interactions into a single optimized payload to save device resources and protect analytics endpoints from crashing during traffic spikes.
 
 ### Step 4: Sending Server-to-Server Tracking Payloads
+
 Client-side tracking faces network instability. Mobile users drop connections, while aggressive firewalls block outgoing analytics requests.
 
 Server-side tracking solves network unreliability. Backend application servers communicate with the Swetrix API endpoint.
@@ -181,38 +190,39 @@ Server-side tracking solves network unreliability. Backend application servers c
 Format a POST request to `https://api.swetrix.com/log`. The JSON body must include the project ID and the event details.
 
 ```javascript
-fetch('https://api.swetrix.com/log', {
-  method: 'POST',
+fetch("https://api.swetrix.com/log", {
+  method: "POST",
   headers: {
-    'Content-Type': 'application/json',
+    "Content-Type": "application/json",
   },
   body: JSON.stringify({
-    pid: 'YOUR_PROJECT_ID',
-    name: 'subscription_renewed',
-    type: 'custom',
+    pid: "YOUR_PROJECT_ID",
+    name: "subscription_renewed",
+    type: "custom",
     meta: {
-      revenue: 49.99
-    }
-  })
+      revenue: 49.99,
+    },
+  }),
 });
 ```
 
 Execute this fetch call within the payment webhook handler. When Stripe confirms a successful charge, the server fires the event. This configuration ensures perfect data accuracy for financial metrics. Ad blockers have zero impact on backend node communication.
 
 ### Step 5: Integrating Error Tracking
+
 Event tracking extends beyond marketing metrics. Engineering teams use it to log system failures.
 
 Track client-side JavaScript errors as standard events. Configure the tracking payload to fire and capture error details upon browser exceptions.
 
 ```javascript
-window.addEventListener('error', (event) => {
+window.addEventListener("error", (event) => {
   swetrix.track({
-    name: 'javascript_error',
+    name: "javascript_error",
     meta: {
       message: event.message,
       file: event.filename,
-      line: event.lineno
-    }
+      line: event.lineno,
+    },
   });
 });
 ```
@@ -224,6 +234,7 @@ One error logged equals one tracked event. Marketing teams monitor the frequency
 ## Validating Your Setup and Marketing Attribution
 
 ### Testing Payloads Without the Consent Wall
+
 Never deploy event tracking without verifying the data flow. Broken implementations pollute the database.
 
 Open the website in Google Chrome. Press F12 to open Developer Tools. Navigate to the "Network" tab and type "swetrix" into the filter bar.
@@ -235,6 +246,7 @@ Verify the HTTP status code. A `200 OK` or `201 Created` confirms server accepta
 Swetrix operates without cookies, enabling payload testing without consent banner interaction. Data flows without restriction.
 
 ### Auditing Your Event Tracking Implementation
+
 Data rot ruins analytics over time. Setups verified in March break by September.
 
 Schedule quarterly tracking audits. Centralized tracking plan documents keep teams aligned. List every active event, its trigger condition, and the expected metadata payload.
@@ -244,6 +256,7 @@ Compare the tracking plan against raw dashboard data to find orphaned events. An
 Check for volume anomalies. Use an anomaly detection tool to spot sudden spikes or drops in event frequency. A 500% increase in `login_failed` events points to a broken authentication service. Read our guide on [anomaly detection](https://swetrix.com/blog/what-is-anomaly-detection) to set up automated alerts for baseline deviations.
 
 ### Mapping Events to Multi-Channel Campaigns
+
 Raw event data provides limited value without context. Marketers must track traffic sources to understand user origins.
 
 Combine custom events with UTM parameters to measure channel performance. The tracking script captures the `utm_source` and `utm_medium` from the URL when users click tagged links in newsletters.
