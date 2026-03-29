@@ -1,6 +1,6 @@
 ---
 title: "The Best Web Analytics for Nonprofits & Charities in 2026"
-date: March 28, 2026
+date: March 29, 2026
 intro: "Nonprofits rely on trust to survive. Learn why legacy analytics tools and invasive captchas compromise donor privacy, and how switching to an ethical alternative can protect your organization's reputation and data."
 ---
 
