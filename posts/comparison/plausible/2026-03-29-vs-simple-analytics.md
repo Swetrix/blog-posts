@@ -9,11 +9,11 @@ When moving away from Google Analytics, many site owners narrow their choices do
 
 While they seem very similar at a glance, they have different philosophies regarding data analysis and open-source software.
 
-In this guide, we'll compare Plausible and Simple Analytics side-by-side. Then, we'll introduce **Swetrix**—a platform that combines the best parts of both while delivering powerful features they leave behind.
-
-## Simple Analytics Overview
+In this guide, we'll compare Plausible and Simple Analytics side-by-side. Then, we'll introduce [Swetrix](https://swetrix.com) - a platform that combines the best parts of both while delivering powerful features they leave behind.
 
 ![Simple Analytics dashboard screenshot](https://cdn.swetrix.com/file/6b3c2198630ee67799fce8b023fa4137.png)
+
+## Simple Analytics Overview
 
 As the name suggests, Simple Analytics strips everything down to the bare minimum. They want to give you traffic statistics without any complexity, ensuring total compliance with privacy laws. Instead of tracking specific user behaviors or sessions, it focuses strictly on aggregated pageviews, referrers, and device types.
 
@@ -28,9 +28,9 @@ As the name suggests, Simple Analytics strips everything down to the bare minimu
 - **Extremely Basic Data:** No funnels, no user flow analysis, and no deep segmentation.
 - **Closed Source:** Proprietary software, meaning you rely entirely on their cloud infrastructure.
 
-## Plausible Overview
-
 ![Plausible dashboard screenshot](https://cdn.swetrix.com/file/9310d5816ff9c214363cecd34dc160d6.png)
+
+## Plausible Overview
 
 Plausible is a bit more feature-rich than Simple Analytics while maintaining a commitment to open-source software. It provides a highly intuitive single-page dashboard but adds in helpful marketing tools like goal tracking, basic funnels, and UTM campaign filtering.
 
@@ -47,7 +47,7 @@ Plausible is a bit more feature-rich than Simple Analytics while maintaining a c
 
 ## Feature Comparison: Plausible vs Simple Analytics (vs Swetrix)
 
-Let's look at the hard facts. Here is a comprehensive feature comparison to help you see exactly what you get with each platform—and how Swetrix outshines them both.
+Let's look at the hard facts. Here is a comprehensive feature comparison to help you see exactly what you get with each platform, and how Swetrix outshines them both.
 
 | Feature                             | Plausible | Simple Analytics | ::SWETRIX_LOGO:: |
 | :---------------------------------- | :-------: | :--------------: | :--------------: |
