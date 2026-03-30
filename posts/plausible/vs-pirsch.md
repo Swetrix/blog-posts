@@ -1,7 +1,7 @@
 ---
 title: "Plausible vs Pirsch: A Detailed Comparison"
 date: March 29, 2026
-standalone: true
+hidden: false
 intro: "Plausible and Pirsch are both great European privacy-first analytics tools. But which one should you choose? We compare them and reveal a third option that outperforms them both."
 ---
 

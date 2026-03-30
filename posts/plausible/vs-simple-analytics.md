@@ -1,7 +1,7 @@
 ---
 title: "Plausible vs Simple Analytics: A Detailed Comparison"
 date: March 29, 2026
-standalone: true
+hidden: false
 intro: "Choosing between Plausible and Simple Analytics? We dive deep into their features, pros, and cons, and reveal why Swetrix might be the upgrade your website needs."
 ---
 
