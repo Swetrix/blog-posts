@@ -5,7 +5,7 @@ standalone: true
 intro: "Choosing between Plausible and Simple Analytics? We dive deep into their features, pros, and cons, and reveal why Swetrix might be the upgrade your website needs."
 ---
 
-When moving away from Google Analytics, many site owners narrow their choices down to **Plausible** and **Simple Analytics**. Both platforms emphasize data privacy, zero cookies, and clean, easy-to-read dashboards.
+When moving away from Google Analytics, many site owners narrow their choices down to [Plausible](https://plausible.io) and [Simple Analytics](https://simpleanalytics.com). Both platforms emphasize data privacy, zero cookies, and clean, easy-to-read dashboards.
 
 While they seem very similar at a glance, they have different philosophies regarding data analysis and open-source software.
 
