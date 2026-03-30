@@ -59,7 +59,7 @@ Let's see how they stack up against each other - and against Swetrix, which we b
 | UTM Tracking                        |    ✅     |        ✅        |        ✅        |
 | Device stats (browser, OS, type)    |    ✅     |        ✅        |        ✅        |
 | Email Reports                       |    ✅     |        ✅        |        ✅        |
-| Geolocation data                    |   Basic   |      Basic       |       Full       |
+| Geolocation data                    |   Basic   |        ✅        |        ✅        |
 | **Advanced Features**               |           |                  |                  |
 | Performance Monitoring (Web Vitals) |    ❌     |        ❌        |        ✅        |
 | User Flow Analysis                  |    ❌     |        ❌        |        ✅        |
