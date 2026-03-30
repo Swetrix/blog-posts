@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Sweden?
+description: "Find out if Google Analytics is illegal in Sweden due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: October 8, 2023
 author: Andrii Romasiun
 nickname: blaumaus

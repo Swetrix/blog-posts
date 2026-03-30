@@ -1,5 +1,6 @@
 ---
 title: "Google Analytics pricing: All you need to know"
+description: "A comprehensive guide to Google Analytics pricing, including the free version, GA4 360 costs, and affordable privacy-friendly alternatives."
 date: November 7, 2023
 author: Andrii Romasiun
 twitter_handle: andrii_rom
