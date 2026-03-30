@@ -1,7 +1,7 @@
 ---
 title: "Plausible vs Fathom Analytics: Which Privacy Tool Wins in 2026?"
 date: March 29, 2026
-hidden: false
+standalone: true
 intro: "Are you deciding between Plausible and Fathom Analytics? We compare these two popular privacy-focused analytics tools and introduce an alternative that brings advanced features missing in both."
 ---
 
