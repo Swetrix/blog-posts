@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Croatia?
+intro: "Two Croatian companies are under GDPR scrutiny for Google Analytics usage. Learn about the compliance risks for the Croatian market and available privacy-friendly alternatives."
 description: "Find out if Google Analytics is illegal in Croatia due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

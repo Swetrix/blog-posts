@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Czechia?
+intro: "GDPR complaints have been filed against Czech companies using Google Analytics. Find out what this means for websites targeting the Czech market and how to stay compliant."
 description: "Find out if Google Analytics is illegal in Czechia due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: October 9, 2023
 author: Andrii Romasiun

@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Germany?
+intro: "Seven German companies face GDPR complaints for using Google Analytics. Understand the legal risks for the German market and discover privacy-friendly alternatives."
 description: "Find out if Google Analytics is illegal in Germany due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: October 9, 2023
 author: Andrii Romasiun

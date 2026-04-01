@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Latvia?
+intro: "Two Latvian companies face GDPR complaints for using Google Analytics. Understand the legal implications for the Latvian market and discover privacy-compliant alternatives."
 description: "Find out if Google Analytics is illegal in Latvia due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Greece?
+intro: "Four Greek companies are targeted by GDPR complaints over Google Analytics. Explore the legal situation for websites serving the Greek market and privacy-first alternatives."
 description: "Find out if Google Analytics is illegal in Greece due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in the Netherlands?
+intro: "Four Dutch companies are under GDPR scrutiny for Google Analytics. Learn how the Netherlands' own data protection law adds extra compliance requirements."
 description: "Find out if Google Analytics is illegal in the Netherlands due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: October 9, 2023
 author: Andrii Romasiun

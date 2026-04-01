@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Slovakia?
+intro: "Three Slovak companies face GDPR complaints over Google Analytics usage. Understand the data protection risks and explore compliant analytics solutions."
 description: "Find out if Google Analytics is illegal in Slovakia due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

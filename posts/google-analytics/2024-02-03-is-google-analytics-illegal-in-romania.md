@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Romania?
+intro: "Two Romanian companies are under GDPR investigation for using Google Analytics. Learn about the regulatory risks and privacy-friendly alternatives for the Romanian market."
 description: "Find out if Google Analytics is illegal in Romania due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

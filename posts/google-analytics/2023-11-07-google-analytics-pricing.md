@@ -1,5 +1,6 @@
 ---
 title: "Google Analytics pricing: All you need to know"
+intro: "Understand Google Analytics pricing — from the free tier's 10M event limit to GA4 360 at $150,000/year — and explore affordable, privacy-friendly alternatives."
 description: "A comprehensive guide to Google Analytics pricing, including the free version, GA4 360 costs, and affordable privacy-friendly alternatives."
 date: November 7, 2023
 author: Andrii Romasiun

@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Cyprus?
+intro: "Five Cypriot companies face GDPR complaints over Google Analytics. Understand the data transfer risks for websites in Cyprus and explore privacy-respecting alternatives."
 description: "Find out if Google Analytics is illegal in Cyprus due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

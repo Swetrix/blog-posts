@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Luxembourg?
+intro: "Three Luxembourg-based companies face GDPR complaints over Google Analytics. Learn how EU data transfer rules affect businesses targeting the Luxembourgish market."
 description: "Find out if Google Analytics is illegal in Luxembourg due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Bulgaria?
+intro: "Four Bulgarian companies face GDPR complaints for using Google Analytics. Find out how EU data protection rules impact the Bulgarian market and what alternatives exist."
 description: "Find out if Google Analytics is illegal in Bulgaria due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

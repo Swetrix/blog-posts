@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Sweden?
+intro: "Sweden issued the first major GDPR fine over Google Analytics — 12 million SEK against Tele2 and 300,000 SEK against CDON. Learn about the ruling and compliant alternatives."
 description: "Find out if Google Analytics is illegal in Sweden due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: October 8, 2023
 author: Andrii Romasiun

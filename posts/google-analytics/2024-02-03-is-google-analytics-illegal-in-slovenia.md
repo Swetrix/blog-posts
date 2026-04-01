@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Slovenia?
+intro: "Three Slovenian companies have been flagged in GDPR complaints over Google Analytics. Discover the compliance risks and privacy-first analytics alternatives."
 description: "Find out if Google Analytics is illegal in Slovenia due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

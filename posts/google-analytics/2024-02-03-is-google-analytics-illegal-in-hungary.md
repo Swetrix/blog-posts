@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Hungary?
+intro: "Three Hungarian companies face GDPR complaints over Google Analytics. Learn about the growing legal risks for the Hungarian market and how to switch to compliant analytics."
 description: "Find out if Google Analytics is illegal in Hungary due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

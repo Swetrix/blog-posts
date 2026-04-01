@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Estonia?
+intro: "Two Estonian companies face GDPR complaints for using Google Analytics. Learn what this means for websites targeting the Estonian market and how to remain compliant."
 description: "Find out if Google Analytics is illegal in Estonia due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

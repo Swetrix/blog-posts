@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Lithuania?
+intro: "Three Lithuanian companies are targeted in GDPR complaints over Google Analytics. Explore what this means for businesses operating in or targeting Lithuania."
 description: "Find out if Google Analytics is illegal in Lithuania due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

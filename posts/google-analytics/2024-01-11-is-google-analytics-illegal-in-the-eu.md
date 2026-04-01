@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in the EU?
+intro: "Multiple EU member states have declared Google Analytics non-compliant with GDPR. Learn what this means for website owners across the European Union and how to adapt."
 description: "Find out if Google Analytics is illegal in the EU due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: January 12, 2024
 author: Andrii Romasiun

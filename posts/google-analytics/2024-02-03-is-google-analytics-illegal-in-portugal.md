@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Portugal?
+intro: "Two Portuguese companies face GDPR complaints for using Google Analytics. Understand the compliance landscape in Portugal and discover privacy-respecting alternatives."
 description: "Find out if Google Analytics is illegal in Portugal due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

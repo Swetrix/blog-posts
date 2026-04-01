@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Poland?
+intro: "Five Polish companies face GDPR complaints over Google Analytics usage. Explore the legal landscape for the Polish market and privacy-respecting alternatives."
 description: "Find out if Google Analytics is illegal in Poland due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: October 9, 2023
 author: Andrii Romasiun

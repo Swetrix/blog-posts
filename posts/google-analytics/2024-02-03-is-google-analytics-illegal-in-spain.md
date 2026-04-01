@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Spain?
+intro: "Five Spanish companies face GDPR complaints for using Google Analytics. Learn about the legal risks for websites targeting the Spanish market and available alternatives."
 description: "Find out if Google Analytics is illegal in Spain due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun

@@ -1,5 +1,6 @@
 ---
 title: Is Google Analytics illegal in Belgium?
+intro: "Four Belgian companies are targeted by GDPR complaints over Google Analytics. Discover the legal risks for websites serving the Belgian market and privacy-friendly analytics solutions."
 description: "Find out if Google Analytics is illegal in Belgium due to GDPR regulations and explore privacy-friendly alternatives like Swetrix."
 date: February 3, 2024
 author: Andrii Romasiun
