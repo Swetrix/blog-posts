@@ -52,3 +52,5 @@ In light of these events, it's important to consider alternatives that prioritis
 We are a cookie-less and GDPR-compliant Google Analytics alternative, giving you all the analytics insights you need without collecting any personal data. Check out our [live demo](https://swetrix.com/projects/STEzHcB1rALV) to see for yourself :)
 
 Unlike the tech giants, we charge an affordable price for our services, rather than offering them for free and then absurdly monetising the data. We offer a 14 day free trial (no need to add your payment details) and pricing starts at just $5 / month. Feel free to give us a try!
+
+::CTA:TIME_TO_DITCH_GOOGLE::

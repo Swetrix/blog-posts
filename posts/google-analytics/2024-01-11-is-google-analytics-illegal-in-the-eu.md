@@ -130,3 +130,5 @@ It is critical for organisations to understand and comply with the legal require
 The legality of Google Analytics in the EU is a complex and evolving issue. While the use of Google Analytics can provide valuable insights for website owners, it also raises concerns about privacy and compliance with EU regulations. The General Data Protection Regulation (GDPR) has set strict guidelines for the collection and processing of personal data, and website owners need to ensure they are complying with these regulations when using Google Analytics. It is important that website owners understand the implications of using Google Analytics and take the necessary steps to protect user privacy and comply with applicable laws.
 
 Cookieless alternatives to Google Analytics, such as [Swetrix](https://swetrix.com), are a great way to reduce the pain of complying with privacy regulations. Swetrix is an open source web analytics tool that does not violate user privacy. It is easy to install and provides valuable insights into website traffic and user behaviour without the use of cookies or other tracking technologies.
+
+::CTA:TIME_TO_DITCH_GOOGLE::

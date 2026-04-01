@@ -47,3 +47,5 @@ In light of these developments, it's vital to consider alternatives to Google An
 We are a cookie-less service that allows you to get all the analytics insights you need without collecting personal information or tracking individual users. Here's a [live demo](https://swetrix.com/projects/STEzHcB1rALV) page so you can see for yourself.
 
 Unlike the tech giants, we charge an affordable price for our services, rather than offering them for free and then absurdly monetising the data. We offer a 14 day free trial (no need to add your payment details) and pricing starts at just $5 / month. Feel free to [give us a try](https://swetrix.com/signup).
+
+::CTA:TIME_TO_DITCH_GOOGLE::

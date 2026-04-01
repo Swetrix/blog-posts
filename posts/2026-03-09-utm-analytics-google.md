@@ -308,3 +308,5 @@ A less common but trickier culprit is a URL redirect on your server that strips 
 ---
 
 At **[Swetrix](https://swetrix.com)**, we’re all about making data-driven decisions without compromising user privacy. Our privacy-first, cookieless analytics platform delivers the clear, actionable insights you need—including robust UTM campaign tracking—while always respecting your users. [See how Swetrix can transform your analytics](https://swetrix.com).
+
+::CTA:TIME_TO_DITCH_GOOGLE::

@@ -229,3 +229,5 @@ When you create a web data stream, you're essentially setting up the connection 
 ---
 
 If you're looking for clear, actionable insights without navigating the complexities of GA4 or compromising user privacy, give **Swetrix** a look. It offers a simple and ethical approach to web analytics. You can [start your free trial](https://swetrix.com) and see the difference for yourself.
+
+::CTA:TIME_TO_DITCH_GOOGLE::
