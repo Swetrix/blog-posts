@@ -13,7 +13,7 @@ A visitor reads your software review, clicks the partner link, and buys a subscr
 
 ### Defining Exits as Conversions
 
-An outbound link click occurs when a user leaves your domain for an external website. Clicking an affiliate link, a partner logo, or a social profile constitutes a profitable interaction. Analysts measure engagement using standard tools that focus on internal pageviews. Analytics platforms record a bounce when visitors view one page and leave before the thirty-minute timeout window expires. A visitor might spend twenty-nine minutes reading your content and click your primary call-to-action leading to an external payment processor. Default analytics settings record this purchasing user as unengaged. 
+An outbound link click occurs when a user leaves your domain for an external website. Clicking an affiliate link, a partner logo, or a social profile constitutes a profitable interaction. Analysts measure engagement using standard tools that focus on internal pageviews. Analytics platforms record a bounce when visitors view one page and leave before the thirty-minute timeout window expires. A visitor might spend twenty-nine minutes reading your content and click your primary call-to-action leading to an external payment processor. Default analytics settings record this purchasing user as unengaged.
 
 Tracking external links allows marketers to map the exact destinations users visit upon exiting a domain. Site managers reshape their understanding of performance using this destination data. Advertisers consider high exit rates a success when clicks route users to conversion endpoints. Check your metrics against the baseline [bounce rate in Google Analytics](https://swetrix.com/blog/bounce-rate-google-analytics) to spot the discrepancy.
 
@@ -39,7 +39,7 @@ Marketers can use the "Enhanced Measurement" toggle for outbound clicks in Googl
 
 ### Privacy and Compliance Risks
 
-Cross-site tracking mechanics expose companies to severe privacy issues. Platforms like Google Analytics use persistent identifiers to follow users across domains. Legislators dictate strict rules for data collection through privacy regulations. 
+Cross-site tracking mechanics expose companies to severe privacy issues. Platforms like Google Analytics use persistent identifiers to follow users across domains. Legislators dictate strict rules for data collection through privacy regulations.
 
 Website owners must display GDPR and CCPA cookie banners before loading tracking scripts. Ad blockers stop the scripts before they load. Privacy-conscious users decline the tracking prompts. Relying on this system leaves marketers with incomplete data sets and legal liabilities. Read more about [how to comply with GDPR](https://swetrix.com/blog/how-to-comply-with-gdpr) to understand the requirements.
 
@@ -55,17 +55,18 @@ Developers replace bloated tags with lightweight scripts. [Swetrix](https://swet
 
 Developers build cookieless tracking systems using anonymous data aggregation instead of persistent identifiers. System administrators record the click event without setting files on the user device. The platform logs the action using a temporary session hash that resets every 24 hours. This method ensures accurate conversion tracking while respecting user privacy.
 
-Website owners eliminate the need for consent banners by removing tracking cookies. Marketers capture a complete picture of outbound traffic because ad blockers ignore first-party endpoints that lack cookies. Build a reliable foundation of [first party data](https://swetrix.com/blog/what-is-first-party-data) using this method.
+Website owners eliminate the need for consent banners by removing tracking cookies. Marketers capture a complete picture of outbound traffic because ad blockers ignore first-party endpoints that lack cookies. Build a reliable foundation of [first-party data](https://swetrix.com/blog/what-is-first-party-data) using this method.
 
 ### Passing Actionable Metadata
 
 Marketers extract minimal conversion rate optimization value from recording raw click counts. Business leaders require context to make decisions. Pass custom metadata alongside outbound clicks to understand user behavior.
 
 Send specific parameters to the analytics dashboard. Teams should capture:
-*   `destination_url`: The exact address the user visited.
-*   `link_location`: The page element containing the link (e.g., "header", "footer", "sidebar").
-*   `user_tier`: The subscription level of the logged-in user making the click.
-*   `anchor_text`: The exact words the user clicked.
+
+- `destination_url`: The exact address the user visited.
+- `link_location`: The page element containing the link (e.g., "header", "footer", "sidebar").
+- `user_tier`: The subscription level of the logged-in user making the click.
+- `anchor_text`: The exact words the user clicked.
 
 Recording a generic total of 1,000 clicks provides a baseline number. Recording 1,000 free-tier user clicks on a specific Twitter profile link generates a clear optimization signal. Marketers use this insight to redesign the footer or push premium upgrades through social channels.
 
@@ -78,14 +79,16 @@ Recording a generic total of 1,000 clicks provides a baseline number. Recording 
 Track standard HTML links using inline JavaScript by adding a specific `onclick` attribute to your anchor tags. The Swetrix track function dispatches an event payload upon interaction.
 
 ```html
-<a href="https://affiliate-partner.com/signup" 
-   onclick="swetrix.track({
+<a
+  href="https://affiliate-partner.com/signup"
+  onclick="swetrix.track({
      name: 'outbound_click', 
      meta: {
        destination: 'affiliate-partner.com',
        location: 'pricing_table'
      }
-   })">
+   })"
+>
   Start Free Trial
 </a>
 ```
@@ -95,22 +98,53 @@ The browser executes this snippet upon click to send the event name and relevant
 Writing inline handlers for sites with hundreds of links wastes development time. Add a vanilla JavaScript event listener to automate the process across the entire document.
 
 ```javascript
-document.addEventListener('click', function(event) {
-  const link = event.target.closest('a');
-  
+document.addEventListener("click", function (event) {
+  const link = event.target.closest("a");
+
   if (!link) return;
-  
-  const href = link.getAttribute('href');
-  const isExternal = href && href.startsWith('http') && !href.includes(window.location.hostname);
-  
+
+  const href = link.getAttribute("href");
+  let isExternal = false;
+
+  if (href && href.startsWith("http")) {
+    try {
+      const url = new URL(href);
+      isExternal = url.hostname !== window.location.hostname;
+    } catch (e) {
+      isExternal = false;
+    }
+  }
+
   if (isExternal) {
-    swetrix.track({
-      name: 'outbound_click',
+    event.preventDefault();
+
+    const trackingPromise = swetrix.track({
+      name: "outbound_click",
       meta: {
         url: href,
-        text: link.innerText
-      }
+        text: link.innerText,
+      },
     });
+
+    // Navigate after tracking completes or fallback after timeout
+    if (trackingPromise && typeof trackingPromise.then === "function") {
+      Promise.race([trackingPromise, new Promise((resolve) => setTimeout(resolve, 300))]).finally(
+        () => {
+          window.location.href = href;
+        },
+      );
+    } else {
+      // Fallback using sendBeacon for synchronous tracking
+      navigator.sendBeacon &&
+        navigator.sendBeacon(
+          "/track",
+          JSON.stringify({
+            name: "outbound_click",
+            meta: { url: href, text: link.innerText },
+          }),
+        );
+      window.location.href = href;
+    }
   }
 });
 ```
@@ -119,29 +153,39 @@ Place this script before your closing body tag to monitor all clicks, verify tar
 
 ### Integrating with Modern Frameworks
 
-Single-page applications require a tailored tracking approach because frameworks manage their own routing and component lifecycles. Learn the basics of [analytics for single page applications](https://swetrix.com/blog/analytics-for-single-page-applications) to structure your codebase. Create reusable components to standardize event tracking across the application.
+Single-page applications require a tailored tracking approach because frameworks manage their own routing and component lifecycles. Learn the basics of [analytics for single-page applications](https://swetrix.com/blog/analytics-for-single-page-applications) to structure your codebase. Create reusable components to standardize event tracking across the application.
 
 Here is a React component for tracking external links:
 
 ```jsx
-import { track } from 'swetrix';
+import { track } from "swetrix";
 
 export default function TrackedLink({ href, children, location, className }) {
-  const handleClick = () => {
-    track({
-      name: 'outbound_click',
+  const handleClick = async (event) => {
+    event.preventDefault();
+
+    const trackingPromise = track({
+      name: "outbound_click",
       meta: {
         destination: href,
-        placement: location
-      }
+        placement: location,
+      },
     });
+
+    // Wait for tracking to complete or timeout
+    if (trackingPromise && typeof trackingPromise.then === "function") {
+      await Promise.race([trackingPromise, new Promise((resolve) => setTimeout(resolve, 300))]);
+    }
+
+    // Navigate after tracking completes
+    window.open(href, "_blank", "noopener,noreferrer");
   };
 
   return (
-    <a 
-      href={href} 
-      onClick={handleClick} 
-      target="_blank" 
+    <a
+      href={href}
+      onClick={handleClick}
+      target="_blank"
       rel="noopener noreferrer"
       className={className}
     >
@@ -151,31 +195,39 @@ export default function TrackedLink({ href, children, location, className }) {
 }
 ```
 
-Import this component into your pages and replace standard anchor tags with the new `<TrackedLink>` element. 
+Import this component into your pages and replace standard anchor tags with the new `<TrackedLink>` element.
 
 Vue and Nuxt projects require a different component structure. Developers achieve the same tracking result using the `<script setup>` syntax.
 
 ```vue
 <template>
-  <a :href="href" @click="trackClick" target="_blank" rel="noopener noreferrer">
+  <a :href="href" @click.prevent="trackClick" target="_blank" rel="noopener noreferrer">
     <slot></slot>
   </a>
 </template>
 
 <script setup>
-import { track } from 'swetrix'
+import { track } from "swetrix";
 
-const props = defineProps(['href', 'location'])
+const props = defineProps(["href", "location"]);
 
-const trackClick = () => {
-  track({
-    name: 'outbound_click',
+const trackClick = async () => {
+  const trackingPromise = track({
+    name: "outbound_click",
     meta: {
       destination: props.href,
-      placement: props.location
-    }
-  })
-}
+      placement: props.location,
+    },
+  });
+
+  // Wait for tracking to complete or timeout
+  if (trackingPromise && typeof trackingPromise.then === "function") {
+    await Promise.race([trackingPromise, new Promise((resolve) => setTimeout(resolve, 300))]);
+  }
+
+  // Navigate after tracking completes
+  window.open(props.href, "_blank", "noopener,noreferrer");
+};
 </script>
 ```
 
@@ -188,21 +240,22 @@ Developers keep tracking logic centralized using this architecture. Engineers up
 Analysts ruin their reporting by tracking every external citation. Logging Wikipedia links, academic citations, and random blog references fills the dashboard with useless data. Teams struggle to find revenue-generating clicks among these meaningless data points.
 
 Restrict outbound tracking to specific, high-value categories:
-*   Affiliate links driving direct commission revenue.
-*   Partner logos in your customer trust carousel.
-*   External scheduling pages like Calendly or SavvyCal.
-*   App store download buttons for mobile applications.
-*   Company social media profiles.
+
+- Affiliate links driving direct commission revenue.
+- Partner logos in your customer trust carousel.
+- External scheduling pages like Calendly or SavvyCal.
+- App store download buttons for mobile applications.
+- Company social media profiles.
 
 Audit your tracking setup every month by opening the custom events report. Identify metadata parameters receiving fewer than ten clicks and remove the tracking scripts from those underperforming links. Maintain a clean setup to [improve data quality](https://swetrix.com/blog/how-to-improve-data-quality) and inform accurate business decisions.
 
-| Link Type | Action Required | Business Value |
-| :--- | :--- | :--- |
-| Affiliate link | Track with metadata | Revenue generation |
-| Scheduling tool | Track with placement data | Lead generation |
-| App store badge | Track with OS parameters | User acquisition |
-| Citation source | Do not track | None |
-| Blog reference | Do not track | None |
+| Link Type       | Action Required           | Business Value     |
+| :-------------- | :------------------------ | :----------------- |
+| Affiliate link  | Track with metadata       | Revenue generation |
+| Scheduling tool | Track with placement data | Lead generation    |
+| App store badge | Track with OS parameters  | User acquisition   |
+| Citation source | Do not track              | None               |
+| Blog reference  | Do not track              | None               |
 
 ### Prioritizing User Security
 
