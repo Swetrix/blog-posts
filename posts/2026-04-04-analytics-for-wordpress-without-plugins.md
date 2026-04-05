@@ -122,7 +122,7 @@ Client-side tracking faces strict limitations. Browsers block frontend scripts v
 Self-hosting an open-source platform gives you control over the data pipeline. Connect to your Linux server via SSH. Create a new directory for the application and build a `docker-compose.yml` file.
 
 ```yaml
-version: '3.8'
+version: "3.8"
 services:
   swetrix-api:
     image: swetrix/api:latest
@@ -168,7 +168,7 @@ add_action( 'woocommerce_thankyou', 'track_server_side_purchase' );
 function track_server_side_purchase( $order_id ) {
     $order = wc_get_order( $order_id );
     $total = $order->get_total();
-    
+
     $payload = array(
         'project' => 'YOUR_PROJECT_ID',
         'name'    => 'purchase',
@@ -198,16 +198,16 @@ Basic pageview scripts ignore specific user interactions. E-commerce sites requi
 Locate the button or form in your template files. Add a specific CSS class or ID to the element. Write a short script in your child theme's footer to listen for the click event and fire the tracking payload.
 
 ```javascript
-document.addEventListener('DOMContentLoaded', () => {
-  const checkoutBtn = document.getElementById('checkout-button');
-  
+document.addEventListener("DOMContentLoaded", () => {
+  const checkoutBtn = document.getElementById("checkout-button");
+
   if (checkoutBtn) {
-    checkoutBtn.addEventListener('click', () => {
+    checkoutBtn.addEventListener("click", () => {
       swetrix.track({
-        name: 'checkout_initiated',
+        name: "checkout_initiated",
         meta: {
-          source: 'header_nav'
-        }
+          source: "header_nav",
+        },
       });
     });
   }
@@ -231,12 +231,12 @@ Performance monitoring works through the browser. You do not need heavy database
 Plugins monitor outbound clicks by loading massive jQuery libraries and attaching listeners to every anchor tag. Replicate this functionality using an optimized vanilla script. Add a script block that targets all links containing the `target="_blank"` attribute or filters out the site's local hostname.
 
 ```javascript
-document.querySelectorAll('a').forEach(link => {
+document.querySelectorAll("a").forEach((link) => {
   if (link.hostname !== window.location.hostname) {
-    link.addEventListener('click', (e) => {
+    link.addEventListener("click", (e) => {
       swetrix.track({
-        name: 'outbound_link',
-        meta: { url: link.href }
+        name: "outbound_link",
+        meta: { url: link.href },
       });
     });
   }
