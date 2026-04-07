@@ -17,7 +17,7 @@ Stop paying for sales you would have won without advertising. Incrementality tes
 
 Many marketers confuse a creative test with an incrementality test. A/B testing measures which ad variation performs best. Marketers show Creative A to half their audience and Creative B to the other half, awarding the budget to the winning variation. Optimizing campaign performance with [A/B testing software](https://swetrix.com/blog/a-b-testing-software) improves click-through rates. This software cannot determine if the winning ad generated a net-new sale.
 
-Incrementality testing in marketing isolates net-new revenue. Divide your target market into a test group and a control group. The test group views your ad. The control group acts as a holdout and sees zero marketing from your brand. 
+Incrementality testing in marketing isolates net-new revenue. Divide your target market into a test group and a control group. The test group views your ad. The control group acts as a holdout and sees zero marketing from your brand.
 
 Removing the ad from the control group establishes a baseline of sales momentum. Compare the final conversions from the test group against that baseline. The resulting difference represents the causal impact of your ad spend.
 
@@ -25,21 +25,21 @@ Removing the ad from the control group establishes a baseline of sales momentum.
 
 ### Calculating Incremental Lift
 
-To measure this causal impact, calculate the incremental lift. Subtract the results of the control group from the results of the test group. The remaining figure equals the net positive effect of your campaign. 
+To measure this causal impact, calculate the incremental lift. Subtract the results of the control group from the results of the test group. The remaining figure equals the net positive effect of your campaign.
 
 Apply this formula to your next campaign by building an audience of 100,000 users. Isolate 50,000 users into the control group and exclude them from all ad targeting. Target the remaining 50,000 users with a new Meta video ad. After 14 days, check the sales data.
 
-The test group yields 750 conversions, producing a 1.5% conversion rate. The control group yields 250 conversions, producing a 0.5% conversion rate. Apply the formula: `1.5% (Test) - 0.5% (Control) = 1.0% Incremental Lift`. 
+The test group yields 750 conversions, producing a 1.5% conversion rate. The control group yields 250 conversions, producing a 0.5% conversion rate. Apply the formula: `1.5% (Test) - 0.5% (Control) = 1.0% Incremental Lift`.
 
-The ad generated a 1% increase in conversion rate. Two-thirds of the sales in the test group happened because of the ad. One-third occur without marketing intervention. Scale your budget based on the 1% net-new lift to maximize profitability. 
+The ad generated a 1% increase in conversion rate. Two-thirds of the sales in the test group happened because of the ad. One-third occur without marketing intervention. Scale your budget based on the 1% net-new lift to maximize profitability.
 
-Failing to separate these two groups leads to bad financial decisions. Platform return on ad spend (ROAS) dashboards might report a 4.0x multiplier when a brand spends $10,000 to make $40,000 in the test group. However, if a control group check reveals $35,000 in baseline sales, the incremental revenue equals $5,000. Causal ROAS drops to 0.5x, meaning the campaign lost money. 
+Failing to separate these two groups leads to bad financial decisions. Platform return on ad spend (ROAS) dashboards might report a 4.0x multiplier when a brand spends $10,000 to make $40,000 in the test group. However, if a control group check reveals $35,000 in baseline sales, the incremental revenue equals $5,000. Causal ROAS drops to 0.5x, meaning the campaign lost money.
 
 ## Why Marketers Are Abandoning Legacy Attribution
 
 ### The Demise of Multi-Touch Attribution
 
-[Multi-channel attribution models](https://swetrix.com/blog/multi-channel-attribution-models) track a user across the web to map their entire journey. A visitor clicks a Facebook ad on their phone during lunch. That evening, the same person searches your brand on a laptop and completes a purchase. Legacy attribution software stitches these events together using third-party cookies and IP addresses. 
+[Multi-channel attribution models](https://swetrix.com/blog/multi-channel-attribution-models) track a user across the web to map their entire journey. A visitor clicks a Facebook ad on their phone during lunch. That evening, the same person searches your brand on a laptop and completes a purchase. Legacy attribution software stitches these events together using third-party cookies and IP addresses.
 
 Privacy regulations and software updates broke this tracking infrastructure. Apple introduced App Tracking Transparency to block cross-app data sharing, and browsers disabled third-party cookies. Marketing teams lost the ability to follow users from device to device. Marketers must abandon multi-touch attribution because it requires invasive tracking methods with broken functionality ([Northbeam, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG2SjPuf9jdnl3tlgZy68p2wuUq78nO0dTgPNYtGEDyBm3CaD_sLZN4ZKutQLdm-rN08nnXZrnfRTTrn9Oxrj6gnd03lLmzUrQZ-I6YUzUsb2nW3GxeiAYY2AW42ZY_roQvh1jhjwm0TzSMoZ90NhLRmBJd9sarlqDvk_lE)).
 
@@ -61,16 +61,16 @@ Incremental Return on Ad Spend (iROAS) measures the causal revenue generated by 
 
 Channel performance varies based on funnel position and user intent. Top-of-funnel video channels introduce the brand to cold audiences, creating new demand. Connected TV generates the highest median return ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) because it reaches viewers who had zero prior intent to buy.
 
-| Marketing Channel | Median Incremental ROAS (iROAS) | Funnel Position |
-| :--- | :--- | :--- |
-| Connected TV (CTV) | 3.30x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Upper Funnel |
-| Google Performance Max | 2.98x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Full Funnel |
-| Meta (Facebook/Instagram)| 2.92x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Mid Funnel |
-| Branded Google Search | 0.70x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Bottom Funnel |
+| Marketing Channel         | Median Incremental ROAS (iROAS)                                                                                                                                                                                                                                                                                        | Funnel Position |
+| :------------------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------- |
+| Connected TV (CTV)        | 3.30x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Upper Funnel    |
+| Google Performance Max    | 2.98x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Full Funnel     |
+| Meta (Facebook/Instagram) | 2.92x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Mid Funnel      |
+| Branded Google Search     | 0.70x ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) | Bottom Funnel   |
 
 ![A horizontal bar chart visualization displaying the median Incremental Return on Ad Spend (iROAS) across different marketing channels, showing Connected TV (3.30x), Performance Max (2.98x), Meta (2.92x), and Branded Search (0.70x).](https://cdn.swetrix.com/file/6fefbf2af16d59a89bf3fd0389bb6dea.jpg)
 
-Bottom-funnel text ads capture users executing a specific search to harvest existing demand. Branded search yields a 0.70x median iROAS ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) because it targets users who intend to visit your website before they see the ad. 
+Bottom-funnel text ads capture users executing a specific search to harvest existing demand. Branded search yields a 0.70x median iROAS ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)) because it targets users who intend to visit your website before they see the ad.
 
 Advertisers lose 30 cents on every dollar spent bidding on their own brand name ([Stella Incrementality, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQExskDlImi11gDgElI8hXvst51oZMCN1co_EdB2r-vsTf6r3UUSEJKQdIYHWiEmGTri4X3TRALEq5aM8a5WFez0hKt-xxs3oLE0nO5QMN7xD7LPJ1xM9v-uc7DgYUx3KdBP-Vph6_GcW4wNv9vJmUyBeuQcbb_Lx6QzNga4R64VrGQGdJH51V4A3YEfqTLtYQ_NgZqqFnw=)). The users typing your brand into Google know the company. If you pause your branded search ads, organic search results capture those clicks.
 
@@ -89,7 +89,7 @@ Geo-holdout experiments measure ad impact without requiring user-level tracking.
 Follow these steps to run a geo-holdout test:
 
 1. **Select a focus channel.** Pick a channel consuming a large portion of your budget, such as Meta Ads or Google Performance Max.
-2. **Identify comparable regions.** Group states or cities with matching historical sales trends. Ohio and Michigan provide a classic comparison for US-based brands. 
+2. **Identify comparable regions.** Group states or cities with matching historical sales trends. Ohio and Michigan provide a classic comparison for US-based brands.
 3. **Establish the control.** Turn off all ad spend for the focus channel in Michigan while keeping the budget steady in Ohio.
 4. **Run the test.** Maintain the holdout for 30 days to capture a full purchase cycle.
 5. **Analyze the regional data.** Open your web analytics platform to compare the total [unique visitors](https://swetrix.com/blog/unique-visitors-of-a-website) and total revenue from Ohio against Michigan.
@@ -100,13 +100,13 @@ The difference in revenue growth between the two states represents the causal im
 
 First-party CRM data provides a framework to test retention and reactivation campaigns. Brands own their email subscriber lists and customer purchase histories. This data provides a secure foundation for creating randomized test and control groups.
 
-Export your list of inactive customers who have not made a purchase in 90 days from your database. Randomize the list in a spreadsheet and split the rows into two equal halves to prevent algorithmic bias. 
+Export your list of inactive customers who have not made a purchase in 90 days from your database. Randomize the list in a spreadsheet and split the rows into two equal halves to prevent algorithmic bias.
 
-Upload the first half to your Meta Ads manager as a custom audience. Keep the second half isolated as a control group. Launch a 20% off reactivation offer to the custom audience. 
+Upload the first half to your Meta Ads manager as a custom audience. Keep the second half isolated as a control group. Launch a 20% off reactivation offer to the custom audience.
 
-Monitor the purchase behavior of both groups in your CRM database over the next two weeks. Ad platforms will try to match conversions to views. Rely on your database as the objective source of record. Compare the number of returning customers in the test group against the baseline return rate of the control group. 
+Monitor the purchase behavior of both groups in your CRM database over the next two weeks. Ad platforms will try to match conversions to views. Rely on your database as the objective source of record. Compare the number of returning customers in the test group against the baseline return rate of the control group.
 
-This comparison calculates the [customer acquisition cost](https://swetrix.com/blog/how-to-reduce-customer-acquisition-cost) for reactivating a churned user. Using the Swetrix [LTV calculator](https://swetrix.com/tools/ltv-calculator) helps determine if the reactivation cost justifies the long-term revenue. 
+This comparison calculates the [customer acquisition cost](https://swetrix.com/blog/how-to-reduce-customer-acquisition-cost) for reactivating a churned user. Using the Swetrix [LTV calculator](https://swetrix.com/tools/ltv-calculator) helps determine if the reactivation cost justifies the long-term revenue.
 
 ## Building a Privacy-First Measurement Stack
 
@@ -114,9 +114,9 @@ This comparison calculates the [customer acquisition cost](https://swetrix.com/b
 
 No single tool provides flawless marketing measurement. Industry leaders abandon the search for a single attribution model. Build a resilient measurement stack by combining Marketing Mix Modeling, Incrementality Testing, and Web Analytics.
 
-Marketing Mix Modeling analyzes aggregate historical data to calculate the impact of budget changes. Marketers use MMM for long-term budget planning, but these algorithms rely on correlation and struggle to separate seasonality from ad effectiveness. 
+Marketing Mix Modeling analyzes aggregate historical data to calculate the impact of budget changes. Marketers use MMM for long-term budget planning, but these algorithms rely on correlation and struggle to separate seasonality from ad effectiveness.
 
-Fix this correlation problem by anchoring your MMM with causal data. Analysts use incrementality holdout tests to calibrate their MMM algorithms with real-world facts ([RevelOne, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIhAVFGfs-MugNbjSTTnLLz2qQpfjgbiv99mb8Ty3vqWniBlC6MeyS-4MlYgatYZxEuEDp1VHwbgg2LnkzxJBmhrdFSgu2au3avnzA9aOtoFRPzVqjZEYWLOJMUZc3iNpritG3XvBARPYbTX-jS1-SJKw10RlCL2pJkBcy)). Analysts reviewing the incrementality test verify the lift of a specific channel in the present moment. Feed that proven multiplier back into the MMM. 
+Fix this correlation problem by anchoring your MMM with causal data. Analysts use incrementality holdout tests to calibrate their MMM algorithms with real-world facts ([RevelOne, 2025](https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIhAVFGfs-MugNbjSTTnLLz2qQpfjgbiv99mb8Ty3vqWniBlC6MeyS-4MlYgatYZxEuEDp1VHwbgg2LnkzxJBmhrdFSgu2au3avnzA9aOtoFRPzVqjZEYWLOJMUZc3iNpritG3XvBARPYbTX-jS1-SJKw10RlCL2pJkBcy)). Analysts reviewing the incrementality test verify the lift of a specific channel in the present moment. Feed that proven multiplier back into the MMM.
 
 Web analytics forms the final pillar of the triangulation method. Teams need an independent dashboard to monitor day-to-day site health, regional traffic variations, and overall conversion spikes while the tests run.
 
@@ -128,9 +128,9 @@ Advertising companies record interactions on their networks and run platform-nat
 
 Swetrix serves as that independent record. As an open-source, privacy-focused [Google Analytics alternative](https://swetrix.com/google-analytics-alternative), it tracks your traffic without relying on third-party cookies. Monitor regional traffic volumes during a geo-holdout test without tracking individual users.
 
-Navigate to the Swetrix dashboard during your next geographic holdout and open the locations report. Filter the incoming sessions by state or region. Watch the impact on total sessions and pageviews. 
+Navigate to the Swetrix dashboard during your next geographic holdout and open the locations report. Filter the incoming sessions by state or region. Watch the impact on total sessions and pageviews.
 
-Compare the traffic drop in your paused Michigan region against the baseline in Ohio. Because Swetrix avoids device fingerprinting and intrusive tracking codes, your measurement stack remains compliant with [GDPR and CCPA regulations](https://swetrix.com/blog/privacy-regulations-for-websites-by-country). Gather aggregate data to validate your test. 
+Compare the traffic drop in your paused Michigan region against the baseline in Ohio. Because Swetrix avoids device fingerprinting and intrusive tracking codes, your measurement stack remains compliant with [GDPR and CCPA regulations](https://swetrix.com/blog/privacy-regulations-for-websites-by-country). Gather aggregate data to validate your test.
 
 Stop trusting ad platforms to report their own success, and implement a measurement strategy based on causal testing and independent data to protect your budget.
 
