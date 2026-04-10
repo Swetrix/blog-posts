@@ -31,13 +31,13 @@ Persistent cookies store unique identifiers on the user device to track behavior
 
 Regulators penalize companies that ignore consent mandates. The [CMS GDPR Enforcement Tracker](https://enforcementtracker.com/) calculates total EU GDPR fines above 5.65 billion Euros. Enforcement extends beyond massive tech conglomerates. Mid-sized stores and agency portfolios face audits when user complaints trigger investigations. Audit the current tracking setup to check compliance. Open browser developer tools, navigate to the Application tab, and inspect the cookies section. Finding `_ga` or similar tracking tokens loading before the user clicks accept proves the site violates regulations. Switch to a privacy-first model to eliminate this regulatory risk.
 
-| Feature | Legacy Analytics | Cookie-Free Analytics |
-| :--- | :--- | :--- |
-| Tracking Mechanism | Persistent Cookies | Temporary Anonymized Hashing |
-| Consent Banner Required | Yes | No |
-| Data Capture Rate | 10 to 40 Percent | 100 Percent |
-| SPA Routing Support | Requires Custom Code | Native Integration |
-| Adblocker Impact | High Data Loss | Low Data Loss (with proxying) |
+| Feature                 | Legacy Analytics     | Cookie-Free Analytics         |
+| :---------------------- | :------------------- | :---------------------------- |
+| Tracking Mechanism      | Persistent Cookies   | Temporary Anonymized Hashing  |
+| Consent Banner Required | Yes                  | No                            |
+| Data Capture Rate       | 10 to 40 Percent     | 100 Percent                   |
+| SPA Routing Support     | Requires Custom Code | Native Integration            |
+| Adblocker Impact        | High Data Loss       | Low Data Loss (with proxying) |
 
 ![A technical diagram illustrating the Next.js rewrites proxying process, showing a user request routed to a first-party custom path, bypassing a visual adblocker wall, and safely connecting to the analytics server.](https://cdn.swetrix.com/file/f8850addf0ef06e9a2a5b8507ac109d2.jpg)
 
@@ -54,12 +54,12 @@ Moving from the Pages Router to the App Router changed how Next.js handles globa
 5. Initialize the hook with the project ID.
 
 ```tsx
-'use client'
-import { useSwetrix } from '@swetrix/nextjs'
+"use client";
+import { useSwetrix } from "@swetrix/nextjs";
 
 export default function Analytics() {
-  useSwetrix('YOUR_PROJECT_ID')
-  return null
+  useSwetrix("YOUR_PROJECT_ID");
+  return null;
 }
 ```
 
@@ -69,8 +69,8 @@ Render this component inside the root `layout.tsx` file. The layout wraps every 
 
 Some teams prefer HTML script insertion over NPM packages. Next.js 15+ demands strict performance optimization to maintain Core Web Vitals. Injecting raw script tags into the document `<head>` blocks the main thread and delays the Largest Contentful Paint metric. Implement the Next.js `<Script>` component to manage loading priorities. Open the root layout and import `Script` from `next/script`. Assign the `strategy` attribute to control execution timing.
 
-* `afterInteractive`: Loads the script after the page becomes interactive. Add this setting for baseline analytics.
-* `lazyOnload`: Waits for idle browser time. Choose this configuration if tracking speed matters less than raw page performance.
+- `afterInteractive`: Loads the script after the page becomes interactive. Add this setting for baseline analytics.
+- `lazyOnload`: Waits for idle browser time. Choose this configuration if tracking speed matters less than raw page performance.
 
 Heavy scripts consume processing power on mobile devices. Lightweight alternatives minimize CPU strain. Measure the speed difference before and after swapping platforms. Opening Google Lighthouse in developer tools provides a baseline. Run a performance audit on the production URL. Examine the Total Blocking Time score. Deleting legacy tracking tags from the code allows a cleaner second audit. Monitor technical metrics using a performance monitoring dashboard to catch slowdowns before they impact search rankings.
 
@@ -81,18 +81,18 @@ Heavy scripts consume processing power on mobile devices. Lightweight alternativ
 Beyond pageviews, developers need to measure specific user actions. A visitor clicking a "Request Demo" button indicates high intent. Track these interactions using custom events. The `@swetrix/nextjs` package exports a `track` function for this purpose. Import the function into client components. Attach it to standard React event handlers like `onClick` or `onSubmit`.
 
 ```tsx
-'use client'
-import { track } from '@swetrix/nextjs'
+"use client";
+import { track } from "@swetrix/nextjs";
 
 export default function SignupButton() {
   const handleSignup = () => {
     track({
-      ev: 'demo_request',
-      meta: { button_location: 'hero_section' }
-    })
-  }
+      ev: "demo_request",
+      meta: { button_location: "hero_section" },
+    });
+  };
 
-  return <button onClick={handleSignup}>Request Demo</button>
+  return <button onClick={handleSignup}>Request Demo</button>;
 }
 ```
 
@@ -114,13 +114,13 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/sproxy/:path*',
-        destination: 'https://api.swetrix.com/log/:path*',
+        source: "/sproxy/:path*",
+        destination: "https://api.swetrix.com/log/:path*",
       },
-    ]
+    ];
   },
-}
-module.exports = nextConfig
+};
+module.exports = nextConfig;
 ```
 
 Avoid using words like `log`, `track`, or `analytics` in the source path. Adblockers scan custom paths for these keywords. Choose an unassuming path like `/sproxy` or `/metrics` to ensure maximum data flow. Update the initialization code to point to this new custom endpoint instead of the default API URL.
@@ -132,18 +132,18 @@ Avoid using words like `log`, `track`, or `analytics` in the source path. Adbloc
 Development work generates massive amounts of fake traffic. Refreshing localhost fifty times to test a CSS change inflates pageview metrics. Separating development traffic from production data keeps the dashboard accurate and prevents unnecessary API quota usage. Next.js provides built-in environment variables to distinguish between local and live deployments. Wrap the initialization logic in an environment check. Validate that `process.env.NODE_ENV` equals `'production'` before firing the tracking script.
 
 ```tsx
-'use client'
-import { useSwetrix } from '@swetrix/nextjs'
+"use client";
+import { useSwetrix } from "@swetrix/nextjs";
 
 export default function Analytics() {
-  const isProd = process.env.NODE_ENV === 'production'
+  const isProd = process.env.NODE_ENV === "production";
 
-  useSwetrix('YOUR_PROJECT_ID', {
+  useSwetrix("YOUR_PROJECT_ID", {
     disabled: !isProd,
-    apiURL: isProd ? '/sproxy' : undefined
-  })
+    apiURL: isProd ? "/sproxy" : undefined,
+  });
 
-  return null
+  return null;
 }
 ```
 
