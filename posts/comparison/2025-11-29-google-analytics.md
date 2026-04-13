@@ -115,6 +115,10 @@ You might think you need Google's ecosystem for advanced features, but Swetrix m
 - **Revenue Analytics:** Track revenue without sharing financial data with an ad tech giant.
 - **AI Chat:** Get insights faster than clicking through GA4's complex menus.
 
+## Bring Your Historical Data
+
+Leaving Google Analytics shouldn't mean starting from zero. We've built a dedicated [Google Analytics 4 import tool](/docs/data-import) that securely connects to your Google account via API. With just a few clicks, Swetrix automatically pulls in your historical GA4 data—so you can seamlessly transition to a privacy-first platform while keeping your past traffic trends intact.
+
 ## Conclusion
 
 Google Analytics is free because **you (and your users) are the product**. It's a tool for Google to collect data, not for you to own it.

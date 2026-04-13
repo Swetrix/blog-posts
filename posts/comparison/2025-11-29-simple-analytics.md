@@ -95,6 +95,10 @@ Swetrix offers a suite of tools to help you actively grow your business, not jus
 
 While Simple Analytics focuses purely on the "stats", Swetrix gives you the tools to improve those stats.
 
+## Seamless Data Import
+
+Switching analytics tools is easier when you don't have to leave your past data behind. Swetrix offers a built-in [import feature for Simple Analytics](/docs/data-import). You can effortlessly export your historical CSV data from Simple Analytics and bring it straight into your Swetrix account, allowing you to maintain a continuous view of your website's growth journey.
+
 ## Conclusion
 
 If you want the absolute simplest tool and don't mind a closed-source product, **Simple Analytics** is a great choice.

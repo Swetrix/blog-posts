@@ -43,17 +43,17 @@ For most projects, the practical options are **local installation**, **Docker**,
 
 ### Postgres environment comparison
 
-| Criteria | Local Installation | Docker Container | Managed Service (e.g., AWS RDS) |
-|---|---|---|---|
-| Setup speed | Fast on one machine | Fast once you know Compose | Usually fast, but needs cloud setup |
-| Best use case | Learning, local dev | Self-hosting, reproducible environments | Production apps that need less ops work |
-| Environment consistency | Lower | High | High |
-| Maintenance overhead | You handle everything | You handle container and database ops | Provider handles more of the platform |
-| Backups | Manual unless you build a process | Manual unless you build a process | Usually easier to manage |
-| Upgrades | Manual | Manual | More guided |
-| Networking complexity | Low for local use | Moderate | Moderate to high depending on VPC and access rules |
-| Cost profile | Lowest direct cost | Low to moderate | Ongoing service cost |
-| Good fit for privacy-focused self-hosting | Limited | Strong | Strong if configured carefully |
+| Criteria                                  | Local Installation                | Docker Container                        | Managed Service (e.g., AWS RDS)                    |
+| ----------------------------------------- | --------------------------------- | --------------------------------------- | -------------------------------------------------- |
+| Setup speed                               | Fast on one machine               | Fast once you know Compose              | Usually fast, but needs cloud setup                |
+| Best use case                             | Learning, local dev               | Self-hosting, reproducible environments | Production apps that need less ops work            |
+| Environment consistency                   | Lower                             | High                                    | High                                               |
+| Maintenance overhead                      | You handle everything             | You handle container and database ops   | Provider handles more of the platform              |
+| Backups                                   | Manual unless you build a process | Manual unless you build a process       | Usually easier to manage                           |
+| Upgrades                                  | Manual                            | Manual                                  | More guided                                        |
+| Networking complexity                     | Low for local use                 | Moderate                                | Moderate to high depending on VPC and access rules |
+| Cost profile                              | Lowest direct cost                | Low to moderate                         | Ongoing service cost                               |
+| Good fit for privacy-focused self-hosting | Limited                           | Strong                                  | Strong if configured carefully                     |
 
 ### Local install works for one person, one machine
 
@@ -172,8 +172,8 @@ That simplicity matters because PostgreSQL’s query optimizer depends on an adv
 If you’re building an API in Node, the `pg` package is the default starting point.
 
 ```js
-import express from 'express';
-import pg from 'pg';
+import express from "express";
+import pg from "pg";
 
 const app = express();
 const { Pool } = pg;
@@ -182,9 +182,9 @@ const pool = new Pool({
   connectionString: process.env.DATABASE_URL,
 });
 
-app.get('/health/db', async (req, res) => {
+app.get("/health/db", async (req, res) => {
   try {
-    const result = await pool.query('SELECT NOW()');
+    const result = await pool.query("SELECT NOW()");
     res.json({ ok: true, dbTime: result.rows[0].now });
   } catch (err) {
     console.error(err);
@@ -193,7 +193,7 @@ app.get('/health/db', async (req, res) => {
 });
 
 app.listen(3000, () => {
-  console.log('Server running on port 3000');
+  console.log("Server running on port 3000");
 });
 ```
 

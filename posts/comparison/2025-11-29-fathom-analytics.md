@@ -102,6 +102,10 @@ Swetrix is built to scale with your organisation. We offer full support for **Te
 
 Fathom Analytics is primarily designed for individual users or small setups. While it offers basic dashboard sharing, it lacks comprehensive organization management and granular role-based access control, making it less suitable for growing teams or agencies.
 
+## Effortless Data Migration
+
+Worried about losing your historical statistics if you switch? Swetrix makes the transition smooth. We fully support [data import from Fathom Analytics](/docs/data-import). You can easily export your existing pageviews and events from Fathom and upload them directly into your Swetrix dashboard, ensuring that your valuable historical data is safely preserved alongside your new tracking metrics.
+
 ## Conclusion
 
 If you want the absolute simplest tool, don't need funnels or deep behavioral insights, and don't mind a closed-source product, **Fathom Analytics** is a great choice.
