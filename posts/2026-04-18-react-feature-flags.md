@@ -124,7 +124,7 @@ useEffect(() => {
 }, [isNewCheckoutEnabled]);
 ```
 
-Analyze the conversion rates in the Swetrix dashboard. Compare the conversion events between the v1 and v2 dimensions. This setup requires zero cookies and eliminates the need for consent banners. Product teams retain full visibility into product performance while respecting GDPR guidelines.
+Analyze the conversion rates in the Swetrix dashboard. Compare the conversion events between the v1 and v2 dimensions. This setup can operate without cookies and may reduce consent-banner requirements, depending on jurisdiction and implementation details. Product teams retain strong visibility into product performance while aligning with GDPR principles.
 
 ### Validating Feature Adoption Rates
 
