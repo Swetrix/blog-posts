@@ -136,40 +136,23 @@ Deploying Swetrix Community Edition replaces outdated Perl scripts with a cookie
 
 Execute a transition to privacy-first analytics:
 
-1. Provision a Virtual Private Server located in the European Union to guarantee data sovereignty.
+1. Provision a Virtual Private Server located in the European Union to guarantee data sovereignty. A 2GB RAM x86_64 or arm64 instance is sufficient for most deployments.
 2. Install Docker and the Docker Compose plugin on Ubuntu LTS (or your distro's latest stable release).
-3. Clone the Swetrix self-hosting repository from GitHub.
-4. Modify the `docker-compose.yml` file to include custom database credentials and API keys.
+3. Clone the Swetrix self-hosting repository from GitHub:
 
-```yaml
-version: "3.8"
-services:
-  api:
-    image: swetrix/api:latest
-    environment:
-      - CLICKHOUSE_HOST=clickhouse
-      - REDIS_HOST=redis
-    ports:
-      - "3000:3000"
-    depends_on:
-      - clickhouse
-      - redis
-  clickhouse:
-    image: clickhouse/clickhouse-server:latest
-    ports:
-      - "8123:8123"
-      - "9000:9000"
-  redis:
-    image: redis:7-alpine
-    ports:
-      - "6379:6379"
+```bash
+git clone https://github.com/swetrix/selfhosting
+cd selfhosting
 ```
 
-5. Run `docker-compose up -d` to launch the analytics API and ClickHouse database cluster.
-6. Configure an Nginx reverse proxy to route secure SSL traffic to the new analytics container using Let's Encrypt for a free TLS certificate.
-7. Create an administrator account via the setup wizard.
+4. Run the bundled `./configure.sh` script to generate the `.env` file. The script autogenerates secrets, prompts for SMTP and OIDC settings, and validates the Docker installation.
+5. Launch the full stack with `docker compose up -d`. This boots the frontend, API, Redis, ClickHouse, and an Nginx reverse proxy that exposes the dashboard on port 80, with `/backend/` routed internally to the API.
+6. Put your own TLS-terminating reverse proxy (Traefik, Caddy, or another Nginx instance with Let's Encrypt) in front of the bundled `nginx-proxy` container, then set `CLIENT_IP_HEADER=x-forwarded-for` so visitor IPs survive the extra hop.
+7. Open the dashboard, create an administrator account via the setup wizard, and register your first project.
 8. Paste the provided JavaScript tracking snippet into the website header.
 9. Monitor incoming web traffic without deploying cookie banners.
+
+The complete reference, including upgrade procedures, OIDC configuration, and Traefik routing labels, lives in the [Swetrix self-hosting guide](https://swetrix.com/docs/selfhosting/how-to).
 
 ---
 
