@@ -19,7 +19,7 @@ A compliant banner presents specific choices before tracking scripts load. Europ
 
 Every valid cookie consent example provides equal choices on the first layer. Users must see a "Reject All" button next to the "Accept All" button the moment the banner appears.
 
-Banners fail compliance checks when they hide the rejection option behind a "Settings" or "Customize Choices" link. The [European Data Protection Board requires website owners](https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-052020-consent-under-regulation-2016679_en) to offer a rejection option that takes the exact number of clicks as accepting. 
+Banners fail compliance checks when they hide the rejection option behind a "Settings" or "Customize Choices" link. The [European Data Protection Board requires website owners](https://www.edpb.europa.eu/our-work-tools/our-documents/guidelines/guidelines-052020-consent-under-regulation-2016679_en) to offer a rejection option that takes the exact number of clicks as accepting.
 
 Open your website in an incognito window. Count the clicks required to accept tracking, then count the clicks needed to reject it. If the second number exceeds the first, your setup violates privacy guidelines. Review instructions on how to comply with GDPR regulations to map out your specific legal strategy.
 
@@ -29,12 +29,12 @@ Designers use color and contrast to manipulate user behavior. Regulators classif
 
 A common dark pattern uses a bright, high-contrast color for the "Accept" button while formatting the "Reject" option as gray text. This visual hierarchy tricks users into clicking the dominant button. Compliant designs assign equal visual weight to both choices.
 
-| Element | Non-Compliant Dark Pattern | Strict GDPR Compliance |
-| :--- | :--- | :--- |
-| First Layer Options | "Accept All" and "Settings" | "Accept All" and "Reject All" |
-| Button Colors | High-contrast Accept, gray text Reject | Identical contrast for both buttons |
-| Pre-ticked Boxes | Active tracking categories | Empty checkboxes requiring manual selection |
-| Close Button (X) | Interpreted as active consent | Interpreted as refusal of consent |
+| Element             | Non-Compliant Dark Pattern             | Strict GDPR Compliance                      |
+| :------------------ | :------------------------------------- | :------------------------------------------ |
+| First Layer Options | "Accept All" and "Settings"            | "Accept All" and "Reject All"               |
+| Button Colors       | High-contrast Accept, gray text Reject | Identical contrast for both buttons         |
+| Pre-ticked Boxes    | Active tracking categories             | Empty checkboxes requiring manual selection |
+| Close Button (X)    | Interpreted as active consent          | Interpreted as refusal of consent           |
 
 Update your banner CSS. Match the padding, font weight, and background color for all primary decision buttons to eliminate visual bias.
 
@@ -42,7 +42,7 @@ Update your banner CSS. Match the padding, font weight, and background color for
 
 Regulators demand specific consent for distinct processing activities. Grouping all tracking scripts under a single "Accept" action violates the mandate for informed, explicit choice.
 
-Divide your cookies into distinct categories. Standard frameworks require separate classifications for functional, statistical, and marketing purposes. 
+Divide your cookies into distinct categories. Standard frameworks require separate classifications for functional, statistical, and marketing purposes.
 
 Functional cookies enable basic website operations like shopping carts and language preferences, meaning you can load them without prior consent. Statistical cookies power legacy analytics platforms. Marketing cookies build audience profiles for retargeting campaigns. Both statistical and marketing categories require explicit opt-in before execution.
 
@@ -52,7 +52,7 @@ Provide a settings panel that lists these categories with clear descriptions. Le
 
 ## Why a Compliant Banner Destroys Your Data
 
-Deploying a legal banner creates a data crisis. When given a fair choice, visitors decline tracking. 
+Deploying a legal banner creates a data crisis. When given a fair choice, visitors decline tracking.
 
 ### The Banner Ghosting Effect
 
@@ -74,7 +74,7 @@ Industry tests on Google Analytics 4 indicate that strict compliance can render 
 
 Marketing budgets rely on accurate attribution. When traffic ghosting hides the source of incoming visits, paid channels look less effective than their real-world impact.
 
-A campaign might generate fifty conversions. If your tracking platform records ten of them due to consent rejections, your cost-per-acquisition metrics break. You calculate a CPA five times higher than the accurate figure. 
+A campaign might generate fifty conversions. If your tracking platform records ten of them due to consent rejections, your cost-per-acquisition metrics break. You calculate a CPA five times higher than the accurate figure.
 
 This distortion forces marketing teams to pause profitable campaigns. They shift budgets away from high-performing channels because the tracking infrastructure fails to report the success. Fixing the data pipeline means abandoning tools that demand user consent.
 
@@ -100,7 +100,7 @@ If a user rejects tracking in your consent banner, you must respect that choice 
 
 ### The Psychological Toll on Users
 
-Web users face consent pop-ups on every domain they visit. This constant interruption causes consent fatigue. 
+Web users face consent pop-ups on every domain they visit. This constant interruption causes consent fatigue.
 
 Visitors install ad blockers and privacy extensions to bypass these banners. Network-level blockers prevent the consent management platform from loading in the browser. When the CMP fails to load, the default "no consent" state persists, and your legacy tracking scripts never execute.
 
@@ -116,7 +116,7 @@ You eliminate data loss by removing the requirement for consent. Moving to cooki
 
 [Swetrix](https://swetrix.com) offers a privacy-focused analytics platform that operates without storing tracking identifiers on user devices. The system measures pageviews, sessions, and custom events using temporary, hashed strings.
 
-The server generates a daily rotating hash based on the visitor IP address and user agent. This salt expires at midnight. You cannot track a user across multiple days or build long-term behavioral profiles. 
+The server generates a daily rotating hash based on the visitor IP address and user agent. This salt expires at midnight. You cannot track a user across multiple days or build long-term behavioral profiles.
 
 Because the platform writes zero data to local storage and anonymizes all connection data, it falls outside the scope of ePrivacy Directive cookie rules. You capture complete traffic volume without displaying a consent prompt.
 
@@ -152,7 +152,7 @@ Gaining complete visibility into your traffic requires a system audit and a clea
 
 Identify every third-party tag executing on your domain. Marketing teams stack multiple tracking tools over several years, creating massive compliance liabilities.
 
-Open Chrome Developer Tools on your homepage. Navigate to the 'Application' tab. Inside the left sidebar, expand the 'Cookies' section and note every domain listed in the storage table. 
+Open Chrome Developer Tools on your homepage. Navigate to the 'Application' tab. Inside the left sidebar, expand the 'Cookies' section and note every domain listed in the storage table.
 
 Repeat this process for your 'Local Storage' and 'Session Storage' menus. If you spot domains related to advertising networks, legacy analytics providers, or social media pixels, you must wrap those scripts in a consent manager or delete them.
 
@@ -169,10 +169,10 @@ Paste this script into the `<head>` section of your website:
 ```html
 <script src="https://swetrix.org/swetrix.js" defer></script>
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    swetrix.init('YOUR_PROJECT_ID')
-    swetrix.trackViews()
-  })
+  document.addEventListener("DOMContentLoaded", () => {
+    swetrix.init("YOUR_PROJECT_ID");
+    swetrix.trackViews();
+  });
 </script>
 ```
 
@@ -190,12 +190,12 @@ When the visitor completes a purchase or submits a lead form, fire a custom even
 
 ```javascript
 swetrix.track({
-  ev: 'checkout_complete',
+  ev: "checkout_complete",
   meta: {
-    revenue: 150.00,
-    currency: 'USD'
-  }
-})
+    revenue: 150.0,
+    currency: "USD",
+  },
+});
 ```
 
 Unlike complex Google Analytics event tracking setups, firing events in a cookieless environment requires minimal code. You associate revenue directly with the referring campaign. This setup provides accurate return on investment calculations without relying on third-party cookie syncs.
@@ -213,4 +213,5 @@ Engineering teams spend hours configuring script blocking, testing banner trigge
 Dropping the banner eliminates this technical debt. You cancel the CMP subscription and reassign developer time to building product features.
 
 ---
+
 Stop losing your analytics data to consent blockers. [Start your free Swetrix trial today](https://swetrix.com) and gain 100% visibility into your traffic with a platform that respects user privacy by design.
