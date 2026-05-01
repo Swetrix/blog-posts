@@ -109,7 +109,7 @@ Transitioning to a cookieless setup requires an inventory of current technologie
 
 ### Bypassing Data Loss with Swetrix
 
-Track 100 percent of site traffic using Swetrix. The platform processes data at the edge without cookies, IP fingerprinting, or cross-site profiling. Swetrix hashes visitor IP addresses with a 24-hour rotating salt. This process creates a temporary identifier for session tracking that vanishes at midnight.
+Track vast majority of site traffic using Swetrix. The platform processes data at the edge without cookies, IP fingerprinting, or cross-site profiling. Swetrix hashes visitor IP addresses with a 24-hour rotating salt. This process creates a temporary identifier for session tracking that vanishes at midnight.
 
 No data moves between websites. Profiles never accumulate in an advertising database. Because this architecture falls under the essential exemptions in European privacy law, this approach may allow some sites to limit use of consent popups, subject to legal basis and local law.
 
