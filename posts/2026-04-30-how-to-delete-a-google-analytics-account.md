@@ -17,7 +17,7 @@ Google Analytics commands a massive market share, yet an industry-wide migration
 
 ### The Shift Toward Privacy and Compliance
 
-European Data Protection Authorities enforce strict interpretations of user privacy. Following the Schrems II ruling, regulators in Austria, Italy, Denmark, and France examined standard Google Analytics implementations. The French privacy regulator CNIL ruled that transferring EU citizen data to US-based Google servers violates GDPR Chapter V. 
+European Data Protection Authorities enforce strict interpretations of user privacy. Following the Schrems II ruling, regulators in Austria, Italy, Denmark, and France examined standard Google Analytics implementations. The French privacy regulator CNIL ruled that transferring EU citizen data to US-based Google servers violates GDPR Chapter V.
 
 Compliance dictates software choices. When adopting alternative analytics tools, B2B companies frequently name GDPR compliance requirements as their main motivator. By removing platforms that rely on IP tracking and cross-site identifiers, businesses bypass legal uncertainties. Organizations protect their revenue from fines and build trust with visitors who demand privacy.
 
@@ -37,21 +37,21 @@ A wrong click in the admin panel wipes out data for every website your business 
 
 Understanding the organizational hierarchy prevents mistakes. The platform divides tracking infrastructure into three distinct levels.
 
-*   **Account:** This represents the top-level business entity. Deleting the Account destroys every website profile, app profile, and piece of historical data associated with the company.
-*   **Property:** This represents a specific website or application. Deleting a Property removes all reporting data for that specific asset while leaving other websites in the Account intact.
-*   **Data Stream:** This represents the source of incoming data. Deleting a Data Stream stops new data collection but keeps historical data in the reports.
+- **Account:** This represents the top-level business entity. Deleting the Account destroys every website profile, app profile, and piece of historical data associated with the company.
+- **Property:** This represents a specific website or application. Deleting a Property removes all reporting data for that specific asset while leaving other websites in the Account intact.
+- **Data Stream:** This represents the source of incoming data. Deleting a Data Stream stops new data collection but keeps historical data in the reports.
 
 Audit all properties before taking action. Open the admin dashboard to review the Property column. Agency owners managing multiple client websites under one Account must target the specific Property for deletion to preserve other clients' data.
 
 ### Exporting Historical Data
 
-Administrators lose access to reports the moment a property enters the trash. Secure past marketing performance metrics first. Marketers rely on historical benchmarks to measure current campaign success. 
+Administrators lose access to reports the moment a property enters the trash. Secure past marketing performance metrics first. Marketers rely on historical benchmarks to measure current campaign success.
 
 Export basic reports via the standard interface. Navigate to the most visited reports, such as Traffic Acquisition or Pages and Screens dashboards. Adjust the date range to encompass the maximum available history. Click the "Share" icon in the top right corner and select "Download File" to save the data as a CSV. Repeat this process for all custom explorations.
 
-Data engineers should connect the property to BigQuery for a raw data dump. The native BigQuery integration allows administrators to export event-level data to a Google Cloud warehouse. This process requires configuring a billing account in Google Cloud Platform. 
+Data engineers should connect the property to BigQuery for a raw data dump. The native BigQuery integration allows administrators to export event-level data to a Google Cloud warehouse. This process requires configuring a billing account in Google Cloud Platform.
 
-Many [Google Analytics alternative](https://swetrix.com/google-analytics-alternative) platforms offer import tools. Exporting data in standard CSV formats ensures marketers can populate new dashboards with historical context. 
+Many [Google Analytics alternative](https://swetrix.com/google-analytics-alternative) platforms offer import tools. Exporting data in standard CSV formats ensures marketers can populate new dashboards with historical context.
 
 ![A visual timeline mapping the 35-day 'Trash Can' grace period, starting from the deletion request, highlighting the data recovery window, and ending with permanent server-side data destruction.](https://cdn.swetrix.com/file/618ea9337946b7b871cdb4d2100f20ee.jpg)
 
@@ -89,13 +89,13 @@ A grayed-out or missing "Move to Trash Can" button indicates the user profile la
 
 ## The Final Step: Removing the Tracking Code
 
-Deleting the property in the dashboard tells Google servers to stop processing data. This action leaves the website infrastructure untouched. The web server continues serving tracking scripts to every visitor. 
+Deleting the property in the dashboard tells Google servers to stop processing data. This action leaves the website infrastructure untouched. The web server continues serving tracking scripts to every visitor.
 
 Leaving dead scripts on the website degrades performance. Browsers must download the payload, parse the JavaScript, and attempt to send HTTP requests to a tracking server rejecting the data.
 
 ### Erasing gtag.js from Your Website
 
-Open the website source code or tag management system. Locate the global site tag script block. This code sits within the `<head>` section of the HTML document. 
+Open the website source code or tag management system. Locate the global site tag script block. This code sits within the `<head>` section of the HTML document.
 
 Search for this specific script structure:
 
@@ -104,24 +104,26 @@ Search for this specific script structure:
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("js", new Date());
 
-  gtag('config', 'G-XXXXXXXXXX');
+  gtag("config", "G-XXXXXXXXXX");
 </script>
 ```
 
-Delete the entire block of code. Save the file and deploy the changes to the live server. 
+Delete the entire block of code. Save the file and deploy the changes to the live server.
 
 Organizations using a tag management system must log into that interface. Pause and delete all tags associated with the deleted property. Publish a new container version to push the changes live. Developers can compare deployment mechanics in the [Google Tag Manager vs Google Analytics](https://swetrix.com/blog/gtm-vs-google-analytics) documentation.
 
 ### Deactivating CMS Plugins
 
-Millions of content-driven websites deploy tracking scripts via third-party plugins. WordPress administrators must check the active plugin list. Deactivate and delete tools like Site Kit by Google, MonsterInsights, or ExactMetrics. 
+Millions of content-driven websites deploy tracking scripts via third-party plugins. WordPress administrators must check the active plugin list. Deactivate and delete tools like Site Kit by Google, MonsterInsights, or ExactMetrics.
 
 Shopify administrators execute a different removal process. Open the Shopify admin dashboard. Navigate to Settings, then click Customer Events. Locate the Google tag in the custom pixels list and click disconnect. Open the Online Store preferences to clear the measurement ID from the analytics configuration box.
 
-Removing these plugins reduces database load. Fewer background processes run on the server. Site owners eliminate security vulnerabilities introduced by unpatched third-party extensions. 
+Removing these plugins reduces database load. Fewer background processes run on the server. Site owners eliminate security vulnerabilities introduced by unpatched third-party extensions.
 
 ![A before-and-after comparison matrix contrasting a website using gtag.js (showing heavy script size, required cookie consent banners, and US data transfers) versus a site using a lightweight, privacy-first script (showing zero cookies, faster load times, and GDPR compliance).](https://cdn.swetrix.com/file/683f5ee7a4ba55a2d48863951ffba585.jpg)
 
@@ -133,7 +135,7 @@ Data collection remains a requirement for scaling a digital business. Deleting G
 
 Modern digital marketing requires data sovereignty. Storing metrics on proprietary ad-tech servers subjects the business to external policy changes and mandatory feature deprecations. Implementing an open-source analytics platform grants full control over the reporting infrastructure.
 
-Privacy-first platforms operate without persistent cookies or fingerprinting techniques. This architecture changes compliance obligations. Reviewing [GDPR banner examples](https://swetrix.com/blog/gdpr-banner-examples) reveals that cookie-free tracking eliminates the need for consent pop-ups. Visitors interact with the website without clicking through legal disclaimers. 
+Privacy-first platforms operate without persistent cookies or fingerprinting techniques. This architecture changes compliance obligations. Reviewing [GDPR banner examples](https://swetrix.com/blog/gdpr-banner-examples) reveals that cookie-free tracking eliminates the need for consent pop-ups. Visitors interact with the website without clicking through legal disclaimers.
 
 Data accuracy improves upon removing consent banners. Banners cause artificial traffic drops when users decline tracking or ignore the prompt. Cookie-free systems log anonymous pageviews on the server side to provide a complete picture of traffic volume without violating user trust.
 
@@ -141,9 +143,9 @@ Data accuracy improves upon removing consent banners. Banners cause artificial t
 
 Performance dictates search engine rankings and e-commerce conversion rates. The standard `gtag.js` payload requires browsers to process heavy JavaScript execution tasks. Replacing this with a lightweight alternative transforms site speed metrics.
 
-Swetrix provides a tracking script weighing less than 5KB. The browser downloads and executes this file in milliseconds. The script refuses to write data to local storage. This approach eliminates the performance penalties associated with legacy tracking software. Administrators monitor the impact of third-party scripts on load times using [performance monitoring](https://swetrix.com/performance) dashboards. 
+Swetrix provides a tracking script weighing less than 5KB. The browser downloads and executes this file in milliseconds. The script refuses to write data to local storage. This approach eliminates the performance penalties associated with legacy tracking software. Administrators monitor the impact of third-party scripts on load times using [performance monitoring](https://swetrix.com/performance) dashboards.
 
-Switching to a lightweight platform streamlines daily workflows. Marketers configure custom events, track outbound links, and measure user engagement without writing complex regex or navigating nested configuration menus. 
+Switching to a lightweight platform streamlines daily workflows. Marketers configure custom events, track outbound links, and measure user engagement without writing complex regex or navigating nested configuration menus.
 
 ---
 
