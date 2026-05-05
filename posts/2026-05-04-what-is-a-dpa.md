@@ -29,12 +29,12 @@ Certain vendors act as both. A payment gateway processes transactions for you wh
 
 Map your vendor ecosystem using a classification table:
 
-| Vendor Type | Role | Example Service | Data Handled |
-| :--- | :--- | :--- | :--- |
-| Analytics | Processor | [Swetrix](https://swetrix.com) | Browser metrics, performance data |
-| Cloud Hosting | Processor | AWS | Application databases |
-| Payment | Joint | Stripe | Credit card details, billing addresses |
-| CRM | Processor | Salesforce | Customer contact records |
+| Vendor Type   | Role      | Example Service                | Data Handled                           |
+| :------------ | :-------- | :----------------------------- | :------------------------------------- |
+| Analytics     | Processor | [Swetrix](https://swetrix.com) | Browser metrics, performance data      |
+| Cloud Hosting | Processor | AWS                            | Application databases                  |
+| Payment       | Joint     | Stripe                         | Credit card details, billing addresses |
+| CRM           | Processor | Salesforce                     | Customer contact records               |
 
 Open your tech stack documentation. Assign a controller or processor label to every third-party service. Request a signed agreement from every processor on the list to avoid regulatory fines.
 
@@ -85,6 +85,7 @@ You cannot govern unmapped data. Drafting an effective contract requires complet
 A RoPA catalogs every piece of personal data your business touches. The document details collection methods, storage locations, and retention periods. It lists the exact vendors receiving specific data points.
 
 Build your record in a spreadsheet before drafting vendor contracts. Include these columns in your data map:
+
 - Data subject category (customers, employees, website visitors)
 - Personal data categories (names, IP addresses, payment details)
 - Processing purpose (marketing, order fulfillment, site analytics)
@@ -164,4 +165,5 @@ This minimal data footprint creates broad compliance. Stripping identifiers remo
 Open your analytics dashboard. Export your historical reports. Switch to a privacy-by-design platform to end your reliance on complex tracking agreements and foreign data transfers.
 
 ---
+
 Stop managing complex consent frameworks for basic website metrics. Swetrix delivers accurate, compliant traffic data without the legal liability of legacy trackers. [Start your free Swetrix trial today](https://swetrix.com/signup) and simplify your privacy stack.
