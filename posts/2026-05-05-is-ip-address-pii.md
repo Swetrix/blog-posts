@@ -27,14 +27,15 @@ The California Consumer Privacy Act (CCPA) takes a contextual approach. Californ
 
 A telecommunications company holds the billing records for every IP address. For them, the address serves as direct PII. A local restaurant blog owner holds no secondary database of user identities. For the blog owner, the IP address alone falls outside the definition of PII unless the business combines it with other tracking identifiers. California legislators evaluate the business capabilities, while European authorities regulate the data type.
 
-| Framework | IP Address Status | Evaluation Criteria | Enforcement Focus |
-| :--- | :--- | :--- | :--- |
-| **GDPR (Europe)** | Classified as Personal Data | Theoretical capability of ISP to identify the user | Regulates the data type regardless of business size |
+| Framework             | IP Address Status                  | Evaluation Criteria                                        | Enforcement Focus                                        |
+| :-------------------- | :--------------------------------- | :--------------------------------------------------------- | :------------------------------------------------------- |
+| **GDPR (Europe)**     | Classified as Personal Data        | Theoretical capability of ISP to identify the user         | Regulates the data type regardless of business size      |
 | **CCPA (California)** | Classified as Personal Information | Reasonable capability of the business to identify the user | Regulates the specific business context and capabilities |
 
 IMAGE_PLACE_HOLDER_1
 
 **Action:** Audit your web stack to determine your regulatory exposure.
+
 1. Open your server control panel.
 2. Check the default access logs in Nginx, Apache, or Caddy.
 3. Review the data schema for your internal product databases.
@@ -61,6 +62,7 @@ European regulators issue fines for failing to protect this data. Authorities pr
 Storing PII triggers mandatory rights for your visitors, forcing businesses to build systems to honor Data Subject Access Requests. When a user demands a copy of their data, engineering teams must query the databases to extract their IP history. The right to be forgotten forces administrators to locate and purge these specific addresses from all system backups.
 
 **Action:** Calculate and reduce your exposure window.
+
 1. Connect to your production web server via SSH.
 2. Navigate to your log directory.
 3. Run `find /var/log -name "*.log" -mtime +30` to list log files older than thirty days.
@@ -83,13 +85,14 @@ Regulators mandate explicit user consent before a tracking script can process pe
 
 The browser halts traditional analytics scripts until the visitor clicks "Accept" on the consent banner. Seven out of ten visitors click "Reject" or ignore the prompt. Site owners see zero page views for these sessions. Marketing teams allocate advertising budgets based on reports missing the majority of actual website conversions.
 
-Browser developers reinforce this consumer preference through aggressive default settings. Apple blocks third-party trackers using Intelligent Tracking Prevention (ITP), while Mozilla deploys Enhanced Tracking Protection (ETP) to restrict data collection. Meanwhile, Google restricts third-party cookies for millions of Chrome users. 
+Browser developers reinforce this consumer preference through aggressive default settings. Apple blocks third-party trackers using Intelligent Tracking Prevention (ITP), while Mozilla deploys Enhanced Tracking Protection (ETP) to restrict data collection. Meanwhile, Google restricts third-party cookies for millions of Chrome users.
 
 Browser-level restrictions compound the data loss from rejected consent banners. A user accepts the cookie policy, but their browser environment strips the tracking parameters from the URL. Attribution data disappears. Marketing teams guess at campaign performance instead of reading clear metrics. Companies misallocate advertising budgets because legacy analytics vendors fail to credit the conversions.
 
 IMAGE_PLACE_HOLDER_3
 
 **Action:** Measure your current tracking gap to quantify lost data.
+
 1. Open your content delivery network dashboard.
 2. Note the total unique network-level visitors recorded for the past thirty days.
 3. Open your legacy analytics dashboard.
@@ -104,7 +107,7 @@ Removing identifying characteristics from incoming traffic data satisfies compli
 
 ### Server-Side IP Masking
 
-Developers alter the address in memory before the system writes the data to a hard drive. IPv4 addresses consist of four number blocks. The last block narrows the location to a specific household. 
+Developers alter the address in memory before the system writes the data to a hard drive. IPv4 addresses consist of four number blocks. The last block narrows the location to a specific household.
 
 Replacing the final block with a zero degrades the location accuracy to a regional level. The modified address becomes `192.168.1.0` instead of `192.168.1.15`, forcing the server to discard the specific user identifier. Network routing functions continue operating. Regional geography data remains intact for broad demographic reporting.
 
@@ -115,6 +118,7 @@ To implement IP masking in an Nginx web server, open `nginx.conf` and update the
 ```nginx
 map $remote_addr $masked_ip {
     ~^(?P<prefix>\d+\.\d+\.\d+)\.\d+$ $prefix.0;
+    ~^(?P<v6prefix>([0-9a-fA-F]{0,4}:){3})[0-9a-fA-F:]+$ ${v6prefix}0:0:0:0:0;
     default $remote_addr;
 }
 log_format anonymized '$masked_ip - $remote_user [$time_local] '
@@ -133,11 +137,31 @@ A static hash remains vulnerable to dictionary attacks. Bad actors process every
 The tracking server generates a random text string at midnight. The analytics script combines the visitor IP address, the user agent string, and the daily salt. The code hashes this combined string.
 
 ```javascript
-const crypto = require('crypto');
+const crypto = require("crypto");
 
-function generateDailyHash(ipAddress, userAgent, dailySalt) {
-    const rawString = ipAddress + userAgent + dailySalt;
-    return crypto.createHash('sha256').update(rawString).digest('hex');
+function generateSalt() {
+  return crypto.randomBytes(32).toString("hex");
+}
+
+function getDailySalt() {
+  const today = new Date().toISOString().split("T")[0]; // YYYY-MM-DD
+  let salt = cache.get(today); // lookup from persistent store/cache
+
+  if (!salt) {
+    salt = generateSalt();
+    const midnight = new Date();
+    midnight.setHours(24, 0, 0, 0);
+    const ttl = Math.floor((midnight - Date.now()) / 1000); // seconds until midnight
+    cache.set(today, salt, ttl); // store with expiry at midnight
+  }
+
+  return salt;
+}
+
+function generateDailyHash(ipAddress, userAgent) {
+  const dailySalt = getDailySalt();
+  const data = ipAddress + "|" + userAgent;
+  return crypto.createHmac("sha256", dailySalt).update(data).digest("hex");
 }
 ```
 
@@ -146,6 +170,7 @@ The system uses the resulting hash as a unique identifier for that specific day.
 IMAGE_PLACE_HOLDER_2
 
 **Action:** Audit your current tracking payload.
+
 1. Open your website in an incognito browser window.
 2. Open the browser developer tools.
 3. Navigate to the Network tab.
@@ -155,7 +180,7 @@ Inspect the request headers. If the payload transmits the full IP address to a t
 
 ## Future-Proofing With Cookieless Analytics
 
-Gartner predicts that [60 percent of large businesses](https://www.gartner.com/en/newsroom/press-releases/2022-05-31-gartner-identifies-top-five-trends-in-privacy-through-2024) will integrate Privacy-Enhancing Technologies into their infrastructure by the end of 2025. The transition eliminates the compliance burden of managing legacy marketing tags.
+Gartner predicted in 2022 that [60 percent of large businesses](https://www.gartner.com/en/newsroom/press-releases/2022-05-31-gartner-identifies-top-five-trends-in-privacy-through-2024) would integrate Privacy-Enhancing Technologies into their infrastructure by end of 2025. The transition eliminates the compliance burden of managing legacy marketing tags.
 
 ### Bypassing Consent Banners
 
@@ -172,6 +197,7 @@ Administrators restore visibility using cookieless architecture. The analytics s
 Companies drop the Swetrix script into their web applications to satisfy GDPR and CCPA requirements on day one. We deliver complete traffic metrics, performance monitoring, and custom event tracking. Marketers regain the accurate data needed to scale campaigns. Engineering teams close a major compliance vulnerability.
 
 **Action:** Remove legacy tracking overhead.
+
 1. Delete the traditional analytics scripts from your website header.
 2. Sign up for a cookieless platform to implement hash-based tracking.
 3. Remove the consent banner from your user interface.
@@ -179,4 +205,5 @@ Companies drop the Swetrix script into their web applications to satisfy GDPR an
 Review the analytics dashboard after twenty-four hours to observe the restored traffic data in your reporting funnel.
 
 ---
+
 Stop losing data to consent banners. Start your 14-day free trial at [Swetrix](https://swetrix.com/signup) and track 100% of your traffic today.
