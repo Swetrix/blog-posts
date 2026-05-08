@@ -51,41 +51,41 @@ Cloudflare Analytics is a lightweight, privacy-first tool designed to operate di
 
 Let's examine how the feature sets of Matomo and Cloudflare Analytics compare directly, and how Swetrix outshines them both.
 
-| Feature                                       |        Matomo         |    Cloudflare Analytics     | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------------------: | :-------------------------: | :--------------: |
-| **Core Features**                             |                       |                             |                  |
-| Real-time Analytics                           |          ✅           |             ✅              |        ✅        |
-| Page views                                    |          ✅           |             ✅              |        ✅        |
-| Device stats (browser, OS)                    |          ✅           |             ✅              |        ✅        |
-| Custom Events                                 |          ✅           |             ❌              |        ✅        |
-| Live visitors count                           |          ✅           |             ❌              |        ✅        |
-| UTM Tracking                                  |          ✅           |             ❌              |        ✅        |
-| Email Reports                                 |          ✅           |             ❌              |        ✅        |
-| **Advanced Features**                         |                       |                             |                  |
-| Performance Monitoring                        | ⚠️ Paid Plugin / $$$$ |             ✅              |        ✅        |
-| Segments                                      |          ✅           |            Basic            |        ✅        |
-| User Flow Analysis                            | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
-| Error Tracking                                | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
-| Funnels                                       | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
-| Multiple Domains per Site                     |          ✅           |             ❌              |        ✅        |
-| **Growth & Product**                          |                       |                             |                  |
-| AI Chat                                       |          ❌           |             ❌              |        ✅        |
-| Goals                                         |          ✅           |             ❌              |        ✅        |
-| Experiments (A/B tests)                       | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
-| Feature flags                                 |          ❌           |             ❌              |        ✅        |
-| User Profiles                                 |          ✅           |             ❌              |        ✅        |
-| Revenue analytics                             |    ✅ (Ecommerce)     |             ❌              |        ✅        |
-| Complete SEO overview (Google Search Console) | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
-| **Data Quality & Ownership**                  |                       |                             |                  |
-| Data Sampling                                 |       0% (None)       | 10% (only 1 of 10 visitors) |    0% (None)     |
-| Data Retention                                |       Unlimited       |          6 months           |    Unlimited     |
-| Data Export                                   |          ✅           |             ❌              |        ✅        |
-| CDN Independent                               |          ✅           |             ❌              |        ✅        |
-| Open Source                                   |          ✅           |             ❌              |        ✅        |
-| Self-hostable                                 |          ✅           |             ❌              |        ✅        |
-| **Technical & Pricing**                       |                       |                             |                  |
-| Script size                                   |        > 60 KB        |      Lightweight/Edge       |      ~6 KB       |
-| Cloud Entry price                             |    €22.00 ( ~$25)     |           Free\*            |      $19.00      |
+| Feature                              |        Matomo         |    Cloudflare Analytics     | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------------------: | :-------------------------: | :--------------: |
+| **Core Features**                    |                       |                             |                  |
+| Real-time Analytics                  |          ✅           |             ✅              |        ✅        |
+| Page views                           |          ✅           |             ✅              |        ✅        |
+| Device stats (browser, OS)           |          ✅           |             ✅              |        ✅        |
+| Custom Events                        |          ✅           |             ❌              |        ✅        |
+| Live visitors count                  |          ✅           |             ❌              |        ✅        |
+| UTM Tracking                         |          ✅           |             ❌              |        ✅        |
+| Email Reports                        |          ✅           |             ❌              |        ✅        |
+| **Advanced Features**                |                       |                             |                  |
+| Performance Monitoring               | ⚠️ Paid Plugin / $$$$ |             ✅              |        ✅        |
+| Segments                             |          ✅           |            Basic            |        ✅        |
+| User Flow Analysis                   | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
+| Error Tracking                       | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
+| Funnels                              | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
+| Multiple Domains per Site            |          ✅           |             ❌              |        ✅        |
+| **Growth & Product**                 |                       |                             |                  |
+| AI Chat                              |          ❌           |             ❌              |        ✅        |
+| Goals                                |          ✅           |             ❌              |        ✅        |
+| Experiments (A/B tests)              | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
+| Feature flags                        |          ❌           |             ❌              |        ✅        |
+| User Profiles                        |          ✅           |             ❌              |        ✅        |
+| Revenue analytics                    |    ✅ (Ecommerce)     |             ❌              |        ✅        |
+| SEO insights (Google Search Console) | ⚠️ Paid Plugin / $$$$ |             ❌              |        ✅        |
+| **Data Quality & Ownership**         |                       |                             |                  |
+| Data Sampling                        |       0% (None)       | 10% (only 1 of 10 visitors) |    0% (None)     |
+| Data Retention                       |       Unlimited       |          6 months           |    Unlimited     |
+| Data Export                          |          ✅           |             ❌              |        ✅        |
+| CDN Independent                      |          ✅           |             ❌              |        ✅        |
+| Open Source                          |          ✅           |             ❌              |        ✅        |
+| Self-hostable                        |          ✅           |             ❌              |        ✅        |
+| **Technical & Pricing**              |                       |                             |                  |
+| Script size                          |        > 60 KB        |      Lightweight/Edge       |      ~6 KB       |
+| Cloud Entry price                    |    €22.00 ( ~$25)     |           Free\*            |      $19.00      |
 
 <br>
 

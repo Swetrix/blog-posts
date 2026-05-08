@@ -54,43 +54,43 @@ Cloudflare Web Analytics is essentially a free perk for using Cloudflare's DNS a
 
 Here is a side-by-side breakdown of the features each tool provides, and how Swetrix stacks up as a premium alternative.
 
-| Feature                                       |   Simple Analytics   |          Cloudflare Analytics           |      ::SWETRIX_LOGO::       |
-| :-------------------------------------------- | :------------------: | :-------------------------------------: | :-------------------------: |
-| **Core Features**                             |                      |                                         |                             |
-| Real-time Analytics                           |          ✅          |                   ✅                    |             ✅              |
-| Page views                                    |          ✅          |                   ✅                    |             ✅              |
-| Device stats (browser, OS, type)              |          ✅          |                   ✅                    |             ✅              |
-| Custom Events                                 |          ✅          |                   ❌                    |             ✅              |
-| Live visitors count                           |          ✅          |                   ❌                    |             ✅              |
-| UTM Tracking                                  |          ✅          |                   ❌                    |             ✅              |
-| Session duration metrics                      |          ❌          |                   ❌                    |             ✅              |
-| Email Reports                                 |          ✅          |                   ❌                    |             ✅              |
-| Geolocation data                              | Basic (Country only) |                 Limited                 | Full (Country, State, City) |
-| **Advanced Features**                         |                      |                                         |                             |
-| Performance Monitoring (Web Vitals)           |          ❌          |                   ✅                    |             ✅              |
-| User Flow Analysis                            |          ❌          |                   ❌                    |             ✅              |
-| Error Tracking                                |          ❌          |                   ❌                    |             ✅              |
-| Alerts / Notifications                        |          ❌          |                   ❌                    |             ✅              |
-| Funnels                                       |          ✅          |                   ❌                    |             ✅              |
-| Segments                                      |          ✅          |                  Basic                  |             ✅              |
-| Multiple Domains per Site                     |          ❌          |                   ❌                    |             ✅              |
-| **Growth & Product**                          |                      |                                         |                             |
-| AI Chat                                       |          ✅          |                   ❌                    |             ✅              |
-| Goals                                         |          ✅          |                   ❌                    |             ✅              |
-| Experiments (A/B tests)                       |          ❌          |                   ❌                    |             ✅              |
-| Feature flags                                 |          ❌          |                   ❌                    |             ✅              |
-| User Profiles                                 |          ❌          |                   ❌                    |             ✅              |
-| Revenue analytics                             |          ❌          |                   ❌                    |             ✅              |
-| Complete SEO overview (Google Search Console) |          ✅          |                   ❌                    |             ✅              |
-| **Data Quality & Ownership**                  |                      |                                         |                             |
-| Data Sampling                                 |      0% (None)       | 10% (only 1 of 10 visitors are counted) |          0% (None)          |
-| Data Retention                                |      Unlimited       |                6 months                 |          Unlimited          |
-| CDN Independent                               |          ✅          |                   ❌                    |             ✅              |
-| Open Source                                   |          ❌          |                   ❌                    |             ✅              |
-| Self-hostable                                 |          ❌          |                   ❌                    |             ✅              |
-| **Pricing & Support**                         |                      |                                         |                             |
-| Entry price                                   |        $15.00        |                 Free\*                  |           $19.00            |
-| Customer support                              |          ✅          |                   ❌                    |             ✅              |
+| Feature                              |   Simple Analytics   |          Cloudflare Analytics           |      ::SWETRIX_LOGO::       |
+| :----------------------------------- | :------------------: | :-------------------------------------: | :-------------------------: |
+| **Core Features**                    |                      |                                         |                             |
+| Real-time Analytics                  |          ✅          |                   ✅                    |             ✅              |
+| Page views                           |          ✅          |                   ✅                    |             ✅              |
+| Device stats (browser, OS, type)     |          ✅          |                   ✅                    |             ✅              |
+| Custom Events                        |          ✅          |                   ❌                    |             ✅              |
+| Live visitors count                  |          ✅          |                   ❌                    |             ✅              |
+| UTM Tracking                         |          ✅          |                   ❌                    |             ✅              |
+| Session duration metrics             |          ❌          |                   ❌                    |             ✅              |
+| Email Reports                        |          ✅          |                   ❌                    |             ✅              |
+| Geolocation data                     | Basic (Country only) |                 Limited                 | Full (Country, State, City) |
+| **Advanced Features**                |                      |                                         |                             |
+| Performance Monitoring (Web Vitals)  |          ❌          |                   ✅                    |             ✅              |
+| User Flow Analysis                   |          ❌          |                   ❌                    |             ✅              |
+| Error Tracking                       |          ❌          |                   ❌                    |             ✅              |
+| Alerts / Notifications               |          ❌          |                   ❌                    |             ✅              |
+| Funnels                              |          ✅          |                   ❌                    |             ✅              |
+| Segments                             |          ✅          |                  Basic                  |             ✅              |
+| Multiple Domains per Site            |          ❌          |                   ❌                    |             ✅              |
+| **Growth & Product**                 |                      |                                         |                             |
+| AI Chat                              |          ✅          |                   ❌                    |             ✅              |
+| Goals                                |          ✅          |                   ❌                    |             ✅              |
+| Experiments (A/B tests)              |          ❌          |                   ❌                    |             ✅              |
+| Feature flags                        |          ❌          |                   ❌                    |             ✅              |
+| User Profiles                        |          ❌          |                   ❌                    |             ✅              |
+| Revenue analytics                    |          ❌          |                   ❌                    |             ✅              |
+| SEO insights (Google Search Console) |          ✅          |                   ❌                    |             ✅              |
+| **Data Quality & Ownership**         |                      |                                         |                             |
+| Data Sampling                        |      0% (None)       | 10% (only 1 of 10 visitors are counted) |          0% (None)          |
+| Data Retention                       |      Unlimited       |                6 months                 |          Unlimited          |
+| CDN Independent                      |          ✅          |                   ❌                    |             ✅              |
+| Open Source                          |          ❌          |                   ❌                    |             ✅              |
+| Self-hostable                        |          ❌          |                   ❌                    |             ✅              |
+| **Pricing & Support**                |                      |                                         |                             |
+| Entry price                          |        $15.00        |                 Free\*                  |           $19.00            |
+| Customer support                     |          ✅          |                   ❌                    |             ✅              |
 
 <br>
 

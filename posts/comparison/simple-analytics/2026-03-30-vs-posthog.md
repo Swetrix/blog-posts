@@ -53,47 +53,47 @@ PostHog is an incredibly powerful, all-in-one platform built primarily for produ
 
 Here is how the hyper-simple and the overly complex stack up against Swetrix, the balanced middle ground.
 
-| Feature                                       |   Simple Analytics   |           PostHog           |      ::SWETRIX_LOGO::       |
-| :-------------------------------------------- | :------------------: | :-------------------------: | :-------------------------: |
-| **Core Features**                             |                      |                             |                             |
-| Real-time Analytics                           |          ✅          |             ✅              |             ✅              |
-| Custom Events                                 |          ✅          |             ✅              |             ✅              |
-| Page views                                    |          ✅          |             ✅              |             ✅              |
-| Live visitors count                           |          ✅          |             ✅              |             ✅              |
-| UTM Tracking                                  |          ✅          |             ✅              |             ✅              |
-| Device stats (browser, OS, type)              |          ✅          |             ✅              |             ✅              |
-| Email Reports                                 |          ✅          |             ✅              |             ✅              |
-| Geolocation data                              | Basic (Country only) | Full (Country, State, City) | Full (Country, State, City) |
-| **Advanced Features**                         |                      |                             |                             |
-| Performance Monitoring (Web Vitals)           |          ❌          |             ✅              |             ✅              |
-| User Flow Analysis                            |          ❌          |             ✅              |             ✅              |
-| Error Tracking                                |          ❌          |             ✅              |             ✅              |
-| Alerts / Notifications                        |          ❌          |             ✅              |             ✅              |
-| Funnels                                       |          ✅          |             ✅              |             ✅              |
-| Segments                                      |          ✅          |             ✅              |             ✅              |
-| Custom dashboards                             |          ❌          |             ✅              |             ❌              |
-| **Growth & Product**                          |                      |                             |                             |
-| AI Chat                                       |          ✅          |             ✅              |             ✅              |
-| Goals                                         |          ✅          |             ✅              |             ✅              |
-| Experiments (A/B tests)                       |          ❌          |             ✅              |             ✅              |
-| Feature flags                                 |          ❌          |             ✅              |             ✅              |
-| User Profiles                                 |          ❌          |             ✅              |             ✅              |
-| Complete SEO overview (Google Search Console) |          ✅          |             ❌              |             ✅              |
-| Session recordings                            |          ❌          |             ✅              |             ❌              |
-| SQL Access                                    |          ❌          |             ✅              |             ❌              |
-| **Security & Access**                         |                      |                             |                             |
-| Bot filtering                                 |          ✅          |             ✅              |             ✅              |
-| Role-based Access Control                     |          ❌          |             ✅              |             ✅              |
-| Shared Dashboards                             |          ✅          |             ✅              |             ✅              |
-| Organisations (Teams)                         |          ✅          |             ✅              |             ✅              |
-| **Privacy & Compliance**                      |                      |                             |                             |
-| Cookie-less Tracking                          |          ✅          |             ✅              |             ✅              |
-| Open Source                                   |          ❌          |       ✅ (Open Core)        |             ✅              |
-| Easy Self-hosting                             |          ❌          |             ❌              |             ✅              |
-| EU data residency                             |          ✅          |        ✅ (Optional)        |             ✅              |
-| **Pricing & Support**                         |                      |                             |                             |
-| Pricing Model                                 |       Flat fee       |         Usage-based         |          Flat fee           |
-| Entry price                                   |        $15.00        |    Free / Pay-as-you-go     |           $19.00            |
+| Feature                              |   Simple Analytics   |           PostHog           |      ::SWETRIX_LOGO::       |
+| :----------------------------------- | :------------------: | :-------------------------: | :-------------------------: |
+| **Core Features**                    |                      |                             |                             |
+| Real-time Analytics                  |          ✅          |             ✅              |             ✅              |
+| Custom Events                        |          ✅          |             ✅              |             ✅              |
+| Page views                           |          ✅          |             ✅              |             ✅              |
+| Live visitors count                  |          ✅          |             ✅              |             ✅              |
+| UTM Tracking                         |          ✅          |             ✅              |             ✅              |
+| Device stats (browser, OS, type)     |          ✅          |             ✅              |             ✅              |
+| Email Reports                        |          ✅          |             ✅              |             ✅              |
+| Geolocation data                     | Basic (Country only) | Full (Country, State, City) | Full (Country, State, City) |
+| **Advanced Features**                |                      |                             |                             |
+| Performance Monitoring (Web Vitals)  |          ❌          |             ✅              |             ✅              |
+| User Flow Analysis                   |          ❌          |             ✅              |             ✅              |
+| Error Tracking                       |          ❌          |             ✅              |             ✅              |
+| Alerts / Notifications               |          ❌          |             ✅              |             ✅              |
+| Funnels                              |          ✅          |             ✅              |             ✅              |
+| Segments                             |          ✅          |             ✅              |             ✅              |
+| Custom dashboards                    |          ❌          |             ✅              |             ❌              |
+| **Growth & Product**                 |                      |                             |                             |
+| AI Chat                              |          ✅          |             ✅              |             ✅              |
+| Goals                                |          ✅          |             ✅              |             ✅              |
+| Experiments (A/B tests)              |          ❌          |             ✅              |             ✅              |
+| Feature flags                        |          ❌          |             ✅              |             ✅              |
+| User Profiles                        |          ❌          |             ✅              |             ✅              |
+| SEO insights (Google Search Console) |          ✅          |             ❌              |             ✅              |
+| Session recordings                   |          ❌          |             ✅              |             ❌              |
+| SQL Access                           |          ❌          |             ✅              |             ❌              |
+| **Security & Access**                |                      |                             |                             |
+| Bot filtering                        |          ✅          |             ✅              |             ✅              |
+| Role-based Access Control            |          ❌          |             ✅              |             ✅              |
+| Shared Dashboards                    |          ✅          |             ✅              |             ✅              |
+| Organisations (Teams)                |          ✅          |             ✅              |             ✅              |
+| **Privacy & Compliance**             |                      |                             |                             |
+| Cookie-less Tracking                 |          ✅          |             ✅              |             ✅              |
+| Open Source                          |          ❌          |       ✅ (Open Core)        |             ✅              |
+| Easy Self-hosting                    |          ❌          |             ❌              |             ✅              |
+| EU data residency                    |          ✅          |        ✅ (Optional)        |             ✅              |
+| **Pricing & Support**                |                      |                             |                             |
+| Pricing Model                        |       Flat fee       |         Usage-based         |          Flat fee           |
+| Entry price                          |        $15.00        |    Free / Pay-as-you-go     |           $19.00            |
 
 <br>
 

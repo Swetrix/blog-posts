@@ -51,45 +51,45 @@ Cloudflare Web Analytics is a free add-on for users who route their web traffic 
 
 To truly understand the divide between these platforms, look at this comprehensive feature comparison, and see how Swetrix bridges the gap.
 
-| Feature                                       |    PostHog     |          Cloudflare Analytics           |    ::SWETRIX_LOGO::    |
-| :-------------------------------------------- | :------------: | :-------------------------------------: | :--------------------: |
-| **Core Features**                             |                |                                         |                        |
-| Real-time Analytics                           |       ✅       |                   ✅                    |           ✅           |
-| Page views                                    |       ✅       |                   ✅                    |           ✅           |
-| Device stats (browser, OS, type)              |       ✅       |                   ✅                    |           ✅           |
-| Custom Events                                 |       ✅       |                   ❌                    |           ✅           |
-| Live visitors count                           |       ✅       |                   ❌                    |           ✅           |
-| UTM Tracking                                  |       ✅       |                   ❌                    |           ✅           |
-| Entry/Exit pages                              |       ✅       |                   ❌                    |           ✅           |
-| Email Reports                                 |       ✅       |                   ❌                    |           ✅           |
-| **Advanced Features**                         |                |                                         |                        |
-| Performance Monitoring (Web Vitals)           |       ✅       |                   ✅                    |           ✅           |
-| User Flow Analysis                            |       ✅       |                   ❌                    |           ✅           |
-| Error Tracking                                |       ✅       |                   ❌                    |           ✅           |
-| Alerts / Notifications                        |       ✅       |                   ❌                    |           ✅           |
-| Geolocation map visualisation                 |       ✅       |                 Limited                 |           ✅           |
-| Funnels                                       |       ✅       |                   ❌                    |           ✅           |
-| Segments                                      |       ✅       |                  Basic                  |           ✅           |
-| Multiple Domains per Site                     |       ✅       |                   ❌                    |           ✅           |
-| Custom dashboards                             |       ✅       |                   ❌                    |           ❌           |
-| **Growth & Product**                          |                |                                         |                        |
-| AI Chat                                       |       ✅       |                   ❌                    |           ✅           |
-| Goals                                         |       ✅       |                   ❌                    |           ✅           |
-| Experiments (A/B tests)                       |       ✅       |                   ❌                    |           ✅           |
-| Feature flags                                 |       ✅       |                   ❌                    |           ✅           |
-| User Profiles                                 |       ✅       |                   ❌                    |           ✅           |
-| Revenue analytics                             |       ✅       |                   ❌                    |           ✅           |
-| Complete SEO overview (Google Search Console) |       ❌       |                   ❌                    |           ✅           |
-| CAPTCHA                                       |       ❌       |             ✅ (Turnstile)              |           ✅           |
-| **Data Quality & Ownership**                  |                |                                         |                        |
-| Data Sampling                                 |   0% (None)    | 10% (only 1 of 10 visitors are counted) |       0% (None)        |
-| Data Retention                                |   Unlimited    |                6 months                 |       Unlimited        |
-| Data Export                                   |       ✅       |                   ❌                    |           ✅           |
-| CDN Independent                               |       ✅       |                   ❌                    |           ✅           |
-| Open Source                                   | ✅ (Open Core) |                   ❌                    |           ✅           |
-| Self-hostable                                 |       ❌       |                   ❌                    |           ✅           |
-| **Pricing & Support**                         |                |                                         |                        |
-| Pricing Model                                 |  Usage-based   |                 Free\*                  | Predictable (Flat fee) |
+| Feature                              |    PostHog     |          Cloudflare Analytics           |    ::SWETRIX_LOGO::    |
+| :----------------------------------- | :------------: | :-------------------------------------: | :--------------------: |
+| **Core Features**                    |                |                                         |                        |
+| Real-time Analytics                  |       ✅       |                   ✅                    |           ✅           |
+| Page views                           |       ✅       |                   ✅                    |           ✅           |
+| Device stats (browser, OS, type)     |       ✅       |                   ✅                    |           ✅           |
+| Custom Events                        |       ✅       |                   ❌                    |           ✅           |
+| Live visitors count                  |       ✅       |                   ❌                    |           ✅           |
+| UTM Tracking                         |       ✅       |                   ❌                    |           ✅           |
+| Entry/Exit pages                     |       ✅       |                   ❌                    |           ✅           |
+| Email Reports                        |       ✅       |                   ❌                    |           ✅           |
+| **Advanced Features**                |                |                                         |                        |
+| Performance Monitoring (Web Vitals)  |       ✅       |                   ✅                    |           ✅           |
+| User Flow Analysis                   |       ✅       |                   ❌                    |           ✅           |
+| Error Tracking                       |       ✅       |                   ❌                    |           ✅           |
+| Alerts / Notifications               |       ✅       |                   ❌                    |           ✅           |
+| Geolocation map visualisation        |       ✅       |                 Limited                 |           ✅           |
+| Funnels                              |       ✅       |                   ❌                    |           ✅           |
+| Segments                             |       ✅       |                  Basic                  |           ✅           |
+| Multiple Domains per Site            |       ✅       |                   ❌                    |           ✅           |
+| Custom dashboards                    |       ✅       |                   ❌                    |           ❌           |
+| **Growth & Product**                 |                |                                         |                        |
+| AI Chat                              |       ✅       |                   ❌                    |           ✅           |
+| Goals                                |       ✅       |                   ❌                    |           ✅           |
+| Experiments (A/B tests)              |       ✅       |                   ❌                    |           ✅           |
+| Feature flags                        |       ✅       |                   ❌                    |           ✅           |
+| User Profiles                        |       ✅       |                   ❌                    |           ✅           |
+| Revenue analytics                    |       ✅       |                   ❌                    |           ✅           |
+| SEO insights (Google Search Console) |       ❌       |                   ❌                    |           ✅           |
+| CAPTCHA                              |       ❌       |             ✅ (Turnstile)              |           ✅           |
+| **Data Quality & Ownership**         |                |                                         |                        |
+| Data Sampling                        |   0% (None)    | 10% (only 1 of 10 visitors are counted) |       0% (None)        |
+| Data Retention                       |   Unlimited    |                6 months                 |       Unlimited        |
+| Data Export                          |       ✅       |                   ❌                    |           ✅           |
+| CDN Independent                      |       ✅       |                   ❌                    |           ✅           |
+| Open Source                          | ✅ (Open Core) |                   ❌                    |           ✅           |
+| Self-hostable                        |       ❌       |                   ❌                    |           ✅           |
+| **Pricing & Support**                |                |                                         |                        |
+| Pricing Model                        |  Usage-based   |                 Free\*                  | Predictable (Flat fee) |
 
 <br>
 

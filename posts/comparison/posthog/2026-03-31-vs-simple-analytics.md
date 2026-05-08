@@ -51,50 +51,50 @@ Simple Analytics is exactly what it sounds like. It is a strictly privacy-focuse
 
 Here is a comprehensive breakdown of how these platforms stack up, and where Swetrix offers a superior alternative.
 
-| Feature                                       |    PostHog     |   Simple Analytics   |      ::SWETRIX_LOGO::       |
-| :-------------------------------------------- | :------------: | :------------------: | :-------------------------: |
-| **Core Features**                             |                |                      |                             |
-| Real-time Analytics                           |       ✅       |          ✅          |             ✅              |
-| Custom Events                                 |       ✅       |          ✅          |             ✅              |
-| Page views                                    |       ✅       |          ✅          |             ✅              |
-| Live visitors count                           |       ✅       |          ✅          |             ✅              |
-| UTM Tracking                                  |       ✅       |          ✅          |             ✅              |
-| Device stats (browser, OS, type)              |       ✅       |          ✅          |             ✅              |
-| Email Reports                                 |       ✅       |          ✅          |             ✅              |
-| **Advanced Features**                         |                |                      |                             |
-| Performance Monitoring (Web Vitals)           |       ✅       |          ❌          |             ✅              |
-| User Flow Analysis                            |       ✅       |          ❌          |             ✅              |
-| Error Tracking                                |       ✅       |          ❌          |             ✅              |
-| Alerts / Notifications                        |       ✅       |          ❌          |             ✅              |
-| Geolocation map visualisation                 |       ✅       | Basic (Country only) | Full (Country, State, City) |
-| Funnels                                       |       ✅       |          ❌          |             ✅              |
-| Segments                                      |       ✅       |          ❌          |             ✅              |
-| Custom dashboards                             |       ✅       |          ❌          |             ❌              |
-| **Growth & Product**                          |                |                      |                             |
-| AI Chat                                       |       ✅       |          ✅          |             ✅              |
-| Goals                                         |       ✅       |          ✅          |             ✅              |
-| Experiments (A/B tests)                       |       ✅       |          ❌          |             ✅              |
-| Feature flags                                 |       ✅       |          ❌          |             ✅              |
-| User Profiles                                 |       ✅       |          ❌          |             ✅              |
-| Revenue analytics                             |       ✅       |          ❌          |             ✅              |
-| Complete SEO overview (Google Search Console) |       ❌       |          ✅          |             ✅              |
-| CAPTCHA                                       |       ❌       |          ❌          |             ✅              |
-| **Security & Access**                         |                |                      |                             |
-| Bot filtering                                 |       ✅       |          ✅          |             ✅              |
-| Two-Factor Authentication (2FA)               |       ✅       |          ❌          |             ✅              |
-| Role-based Access Control                     |       ✅       |          ❌          |             ✅              |
-| Shared Dashboards                             |       ✅       |          ✅          |             ✅              |
-| Organisations (Teams)                         |       ✅       |          ✅          |             ✅              |
-| **Privacy & Compliance**                      |                |                      |                             |
-| Cookie-less Tracking                          |       ✅       |          ✅          |             ✅              |
-| Open Source                                   | ✅ (Open Core) |          ❌          |             ✅              |
-| Easy Self-hosting                             |       ❌       |          ❌          |             ✅              |
-| **Technical specifications**                  |                |                      |                             |
-| Script size                                   |     >30 KB     |        >7 KB         |            6 KB             |
-| API access                                    |       ✅       |          ✅          |             ✅              |
-| Bypass adblockers                             |       ✅       |          ✅          |             ✅              |
-| **Pricing**                                   |                |                      |                             |
-| Pricing Model                                 |  Usage-based   |       Flat fee       |   Predictable (Flat fee)    |
+| Feature                              |    PostHog     |   Simple Analytics   |      ::SWETRIX_LOGO::       |
+| :----------------------------------- | :------------: | :------------------: | :-------------------------: |
+| **Core Features**                    |                |                      |                             |
+| Real-time Analytics                  |       ✅       |          ✅          |             ✅              |
+| Custom Events                        |       ✅       |          ✅          |             ✅              |
+| Page views                           |       ✅       |          ✅          |             ✅              |
+| Live visitors count                  |       ✅       |          ✅          |             ✅              |
+| UTM Tracking                         |       ✅       |          ✅          |             ✅              |
+| Device stats (browser, OS, type)     |       ✅       |          ✅          |             ✅              |
+| Email Reports                        |       ✅       |          ✅          |             ✅              |
+| **Advanced Features**                |                |                      |                             |
+| Performance Monitoring (Web Vitals)  |       ✅       |          ❌          |             ✅              |
+| User Flow Analysis                   |       ✅       |          ❌          |             ✅              |
+| Error Tracking                       |       ✅       |          ❌          |             ✅              |
+| Alerts / Notifications               |       ✅       |          ❌          |             ✅              |
+| Geolocation map visualisation        |       ✅       | Basic (Country only) | Full (Country, State, City) |
+| Funnels                              |       ✅       |          ❌          |             ✅              |
+| Segments                             |       ✅       |          ❌          |             ✅              |
+| Custom dashboards                    |       ✅       |          ❌          |             ❌              |
+| **Growth & Product**                 |                |                      |                             |
+| AI Chat                              |       ✅       |          ✅          |             ✅              |
+| Goals                                |       ✅       |          ✅          |             ✅              |
+| Experiments (A/B tests)              |       ✅       |          ❌          |             ✅              |
+| Feature flags                        |       ✅       |          ❌          |             ✅              |
+| User Profiles                        |       ✅       |          ❌          |             ✅              |
+| Revenue analytics                    |       ✅       |          ❌          |             ✅              |
+| SEO insights (Google Search Console) |       ❌       |          ✅          |             ✅              |
+| CAPTCHA                              |       ❌       |          ❌          |             ✅              |
+| **Security & Access**                |                |                      |                             |
+| Bot filtering                        |       ✅       |          ✅          |             ✅              |
+| Two-Factor Authentication (2FA)      |       ✅       |          ❌          |             ✅              |
+| Role-based Access Control            |       ✅       |          ❌          |             ✅              |
+| Shared Dashboards                    |       ✅       |          ✅          |             ✅              |
+| Organisations (Teams)                |       ✅       |          ✅          |             ✅              |
+| **Privacy & Compliance**             |                |                      |                             |
+| Cookie-less Tracking                 |       ✅       |          ✅          |             ✅              |
+| Open Source                          | ✅ (Open Core) |          ❌          |             ✅              |
+| Easy Self-hosting                    |       ❌       |          ❌          |             ✅              |
+| **Technical specifications**         |                |                      |                             |
+| Script size                          |     >30 KB     |        >7 KB         |            6 KB             |
+| API access                           |       ✅       |          ✅          |             ✅              |
+| Bypass adblockers                    |       ✅       |          ✅          |             ✅              |
+| **Pricing**                          |                |                      |                             |
+| Pricing Model                        |  Usage-based   |       Flat fee       |   Predictable (Flat fee)    |
 
 <br>
 

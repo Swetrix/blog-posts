@@ -51,42 +51,42 @@ Cloudflare Analytics is a feature offered to users of Cloudflare's massive CDN a
 
 Here is a direct side-by-side comparison of the features offered by Vercel Web Analytics, Cloudflare Analytics, and Swetrix.
 
-| Feature                                       | Vercel Web Analytics  |    Cloudflare Analytics    | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------------------: | :------------------------: | :--------------: |
-| **Core Features**                             |                       |                            |                  |
-| Real-time Analytics                           |          ✅           |             ✅             |        ✅        |
-| Custom Events                                 |          ✅           |             ❌             |        ✅        |
-| Page views                                    |          ✅           |             ✅             |        ✅        |
-| Live visitors count                           |          ✅           |             ❌             |        ✅        |
-| UTM Tracking                                  |          ✅           |             ❌             |        ✅        |
-| Device stats (browser, OS, type)              |          ✅           |             ✅             |        ✅        |
-| Email Reports                                 |          ❌           |             ❌             |        ✅        |
-| **Advanced Features**                         |                       |                            |                  |
-| Performance Monitoring                        |  ✅ (Separate tool)   |             ✅             |        ✅        |
-| User Flow Analysis                            |          ❌           |             ❌             |        ✅        |
-| Error Tracking                                |          ❌           |             ❌             |        ✅        |
-| Alerts / Notifications                        |          ❌           |             ❌             |        ✅        |
-| Geolocation map visualisation                 |          ❌           |          Limited           |        ✅        |
-| Funnels                                       |          ❌           |             ❌             |        ✅        |
-| Segments                                      |          ✅           |           Basic            |        ✅        |
-| Multiple Domains per Site                     |          ❌           |             ❌             |        ✅        |
-| **Data Quality & Ownership**                  |                       |                            |                  |
-| Data Sampling                                 |       0% (None)       | 10% (only 1 of 10 counted) |    0% (None)     |
-| Data Retention                                | Limited (1-12 months) |          6 months          |    Unlimited     |
-| Platform / CDN Independent                    |   ❌ (Vercel only)    |    ❌ (Cloudflare only)    |        ✅        |
-| **Growth & Product**                          |                       |                            |                  |
-| AI Chat                                       |          ❌           |             ❌             |        ✅        |
-| Goals                                         |          ❌           |             ❌             |        ✅        |
-| Experiments (A/B tests)                       |          ❌           |             ❌             |        ✅        |
-| Feature flags                                 |          ❌           |             ❌             |        ✅        |
-| User Profiles                                 |          ❌           |             ❌             |        ✅        |
-| Revenue analytics                             |          ❌           |             ❌             |        ✅        |
-| Complete SEO overview (Google Search Console) |          ❌           |             ❌             |        ✅        |
-| **Privacy & Compliance**                      |                       |                            |                  |
-| Cookie-less Tracking                          |          ✅           |             ✅             |        ✅        |
-| Open Source                                   |          ❌           |             ❌             |        ✅        |
-| Self-hostable                                 |          ❌           |             ❌             |        ✅        |
-| EU data residency                             |       ⚠️ Global       |             ❌             |        ✅        |
+| Feature                              | Vercel Web Analytics  |    Cloudflare Analytics    | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------------------: | :------------------------: | :--------------: |
+| **Core Features**                    |                       |                            |                  |
+| Real-time Analytics                  |          ✅           |             ✅             |        ✅        |
+| Custom Events                        |          ✅           |             ❌             |        ✅        |
+| Page views                           |          ✅           |             ✅             |        ✅        |
+| Live visitors count                  |          ✅           |             ❌             |        ✅        |
+| UTM Tracking                         |          ✅           |             ❌             |        ✅        |
+| Device stats (browser, OS, type)     |          ✅           |             ✅             |        ✅        |
+| Email Reports                        |          ❌           |             ❌             |        ✅        |
+| **Advanced Features**                |                       |                            |                  |
+| Performance Monitoring               |  ✅ (Separate tool)   |             ✅             |        ✅        |
+| User Flow Analysis                   |          ❌           |             ❌             |        ✅        |
+| Error Tracking                       |          ❌           |             ❌             |        ✅        |
+| Alerts / Notifications               |          ❌           |             ❌             |        ✅        |
+| Geolocation map visualisation        |          ❌           |          Limited           |        ✅        |
+| Funnels                              |          ❌           |             ❌             |        ✅        |
+| Segments                             |          ✅           |           Basic            |        ✅        |
+| Multiple Domains per Site            |          ❌           |             ❌             |        ✅        |
+| **Data Quality & Ownership**         |                       |                            |                  |
+| Data Sampling                        |       0% (None)       | 10% (only 1 of 10 counted) |    0% (None)     |
+| Data Retention                       | Limited (1-12 months) |          6 months          |    Unlimited     |
+| Platform / CDN Independent           |   ❌ (Vercel only)    |    ❌ (Cloudflare only)    |        ✅        |
+| **Growth & Product**                 |                       |                            |                  |
+| AI Chat                              |          ❌           |             ❌             |        ✅        |
+| Goals                                |          ❌           |             ❌             |        ✅        |
+| Experiments (A/B tests)              |          ❌           |             ❌             |        ✅        |
+| Feature flags                        |          ❌           |             ❌             |        ✅        |
+| User Profiles                        |          ❌           |             ❌             |        ✅        |
+| Revenue analytics                    |          ❌           |             ❌             |        ✅        |
+| SEO insights (Google Search Console) |          ❌           |             ❌             |        ✅        |
+| **Privacy & Compliance**             |                       |                            |                  |
+| Cookie-less Tracking                 |          ✅           |             ✅             |        ✅        |
+| Open Source                          |          ❌           |             ❌             |        ✅        |
+| Self-hostable                        |          ❌           |             ❌             |        ✅        |
+| EU data residency                    |       ⚠️ Global       |             ❌             |        ✅        |
 
 <br>
 

@@ -51,46 +51,46 @@ Simple Analytics is a cloud-based SaaS platform built on the philosophy that les
 
 Let's look at the hard facts. The table below compares the specific features of Matomo and Simple Analytics, alongside Swetrix.
 
-| Feature                                       |        Matomo         |   Simple Analytics   | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------------------: | :------------------: | :--------------: |
-| **Core Features**                             |                       |                      |                  |
-| Real-time Analytics                           |          ✅           |          ✅          |        ✅        |
-| Custom Events                                 |          ✅           |          ✅          |        ✅        |
-| Page views                                    |          ✅           |          ✅          |        ✅        |
-| Live visitors count                           |          ✅           |          ✅          |        ✅        |
-| UTM Tracking                                  |          ✅           |          ✅          |        ✅        |
-| Device stats (browser, OS)                    |          ✅           |          ✅          |        ✅        |
-| Email Reports                                 |          ✅           |          ✅          |        ✅        |
-| Geolocation data                              |         Full          | Basic (Country only) |       Full       |
-| **Advanced Features**                         |                       |                      |                  |
-| Performance Monitoring                        | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
-| User Flow Analysis                            | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
-| Error Tracking                                | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
-| Alerts / Notifications                        |          ❌           |          ❌          |        ✅        |
-| Geolocation map                               |          ✅           |          ❌          |        ✅        |
-| Funnels                                       | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
-| Segments                                      |          ✅           |          ❌          |        ✅        |
-| Multiple Domains per Site                     |          ✅           |          ❌          |        ✅        |
-| **Growth & Product**                          |                       |                      |                  |
-| AI Chat                                       |          ❌           |          ✅          |        ✅        |
-| Goals                                         |          ✅           |          ✅          |        ✅        |
-| Experiments (A/B tests)                       | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
-| Feature flags                                 |          ❌           |          ❌          |        ✅        |
-| Revenue analytics                             |    ✅ (Ecommerce)     |          ❌          |        ✅        |
-| Complete SEO overview (Google Search Console) | ⚠️ Paid Plugin / $$$$ |          ✅          |        ✅        |
-| **Security & Access**                         |                       |                      |                  |
-| Bot filtering                                 |          ✅           |          ✅          |        ✅        |
-| Two-Factor Authentication                     |          ✅           |          ❌          |        ✅        |
-| Role-based Access Control                     |          ✅           |          ❌          |        ✅        |
-| Shared Dashboards                             |          ✅           |          ✅          |        ✅        |
-| **Privacy & Compliance**                      |                       |                      |                  |
-| Cookie-less Tracking                          |          ❌           |          ✅          |        ✅        |
-| Open Source                                   |          ✅           |          ❌          |        ✅        |
-| Self-hostable                                 |          ✅           |          ❌          |        ✅        |
-| **Technical & Pricing**                       |                       |                      |                  |
-| Script size                                   |        > 60 KB        |        > 7 KB        |      ~6 KB       |
-| API access                                    |          ✅           |          ✅          |        ✅        |
-| Cloud Entry price                             |    €22.00 ( ~$25)     |        $15.00        |      $19.00      |
+| Feature                              |        Matomo         |   Simple Analytics   | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------------------: | :------------------: | :--------------: |
+| **Core Features**                    |                       |                      |                  |
+| Real-time Analytics                  |          ✅           |          ✅          |        ✅        |
+| Custom Events                        |          ✅           |          ✅          |        ✅        |
+| Page views                           |          ✅           |          ✅          |        ✅        |
+| Live visitors count                  |          ✅           |          ✅          |        ✅        |
+| UTM Tracking                         |          ✅           |          ✅          |        ✅        |
+| Device stats (browser, OS)           |          ✅           |          ✅          |        ✅        |
+| Email Reports                        |          ✅           |          ✅          |        ✅        |
+| Geolocation data                     |         Full          | Basic (Country only) |       Full       |
+| **Advanced Features**                |                       |                      |                  |
+| Performance Monitoring               | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
+| User Flow Analysis                   | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
+| Error Tracking                       | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
+| Alerts / Notifications               |          ❌           |          ❌          |        ✅        |
+| Geolocation map                      |          ✅           |          ❌          |        ✅        |
+| Funnels                              | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
+| Segments                             |          ✅           |          ❌          |        ✅        |
+| Multiple Domains per Site            |          ✅           |          ❌          |        ✅        |
+| **Growth & Product**                 |                       |                      |                  |
+| AI Chat                              |          ❌           |          ✅          |        ✅        |
+| Goals                                |          ✅           |          ✅          |        ✅        |
+| Experiments (A/B tests)              | ⚠️ Paid Plugin / $$$$ |          ❌          |        ✅        |
+| Feature flags                        |          ❌           |          ❌          |        ✅        |
+| Revenue analytics                    |    ✅ (Ecommerce)     |          ❌          |        ✅        |
+| SEO insights (Google Search Console) | ⚠️ Paid Plugin / $$$$ |          ✅          |        ✅        |
+| **Security & Access**                |                       |                      |                  |
+| Bot filtering                        |          ✅           |          ✅          |        ✅        |
+| Two-Factor Authentication            |          ✅           |          ❌          |        ✅        |
+| Role-based Access Control            |          ✅           |          ❌          |        ✅        |
+| Shared Dashboards                    |          ✅           |          ✅          |        ✅        |
+| **Privacy & Compliance**             |                       |                      |                  |
+| Cookie-less Tracking                 |          ❌           |          ✅          |        ✅        |
+| Open Source                          |          ✅           |          ❌          |        ✅        |
+| Self-hostable                        |          ✅           |          ❌          |        ✅        |
+| **Technical & Pricing**              |                       |                      |                  |
+| Script size                          |        > 60 KB        |        > 7 KB        |      ~6 KB       |
+| API access                           |          ✅           |          ✅          |        ✅        |
+| Cloud Entry price                    |    €22.00 ( ~$25)     |        $15.00        |      $19.00      |
 
 <br>
 

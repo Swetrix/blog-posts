@@ -50,44 +50,44 @@ Vercel Web Analytics is incredibly convenient if you are already hosting your fr
 
 Let us see how Pirsch and Vercel Web Analytics compare on specific features, and where Swetrix outshines them both.
 
-| Feature                                       |     Pirsch      | Vercel Web Analytics  | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------------: | :-------------------: | :--------------: |
-| **Core Features**                             |                 |                       |                  |
-| Real-time Analytics                           |       ✅        |          ✅           |        ✅        |
-| Custom Events                                 |       ✅        |          ✅           |        ✅        |
-| Page views                                    |       ✅        |          ✅           |        ✅        |
-| Live visitors count                           |       ✅        |          ✅           |        ✅        |
-| UTM Tracking                                  |       ✅        |          ✅           |        ✅        |
-| Device stats (browser, OS, type)              |       ✅        |          ✅           |        ✅        |
-| Email Reports                                 |       ✅        |          ❌           |        ✅        |
-| **Advanced Features**                         |                 |                       |                  |
-| Performance Monitoring (Web Vitals)           |       ❌        |  ✅ (Separate tool)   |        ✅        |
-| User Flow Analysis                            |       ❌        |          ❌           |        ✅        |
-| Error Tracking                                |       ❌        |          ❌           |        ✅        |
-| Alerts / Notifications                        |       ✅        |          ❌           |        ✅        |
-| Geolocation map visualisation                 |       ❌        |          ❌           |        ✅        |
-| Funnels                                       |       ✅        |          ❌           |        ✅        |
-| Segments                                      |       ✅        |          ✅           |        ✅        |
-| Multiple Domains per Site                     |       ✅        |          ❌           |        ✅        |
-| **Growth & Product**                          |                 |                       |                  |
-| AI Chat                                       |       ❌        |          ❌           |        ✅        |
-| Goals                                         |       ✅        |          ❌           |        ✅        |
-| Experiments (A/B tests)                       |       ❌        |          ❌           |        ✅        |
-| Feature flags                                 |       ❌        |          ❌           |        ✅        |
-| User Profiles                                 |       ❌        |          ❌           |        ✅        |
-| Revenue analytics                             |       ❌        |          ❌           |        ✅        |
-| Complete SEO overview (Google Search Console) |       ✅        |          ❌           |        ✅        |
-| CAPTCHA                                       |       ❌        |          ❌           |        ✅        |
-| **Platform & Freedom**                        |                 |                       |                  |
-| Works on ANY hosting                          |       ✅        |   ❌ (Vercel only)    |        ✅        |
-| Zero Vendor Lock-in                           |       ✅        |          ❌           |        ✅        |
-| Open Source                                   | ⚠️ (Core only)  |          ❌           |        ✅        |
-| Self-hostable                                 | ⚠️ (Enterprise) |          ❌           |        ✅        |
-| **Data Policies**                             |                 |                       |                  |
-| Data Retention                                |    Unlimited    | Limited (1-12 months) |    Unlimited     |
-| Cookie-less Tracking                          |       ✅        |          ✅           |        ✅        |
-| **Pricing & Support**                         |                 |                       |                  |
-| Entry price                                   |     $12.00      |        Free\*         |      $19.00      |
+| Feature                              |     Pirsch      | Vercel Web Analytics  | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------------: | :-------------------: | :--------------: |
+| **Core Features**                    |                 |                       |                  |
+| Real-time Analytics                  |       ✅        |          ✅           |        ✅        |
+| Custom Events                        |       ✅        |          ✅           |        ✅        |
+| Page views                           |       ✅        |          ✅           |        ✅        |
+| Live visitors count                  |       ✅        |          ✅           |        ✅        |
+| UTM Tracking                         |       ✅        |          ✅           |        ✅        |
+| Device stats (browser, OS, type)     |       ✅        |          ✅           |        ✅        |
+| Email Reports                        |       ✅        |          ❌           |        ✅        |
+| **Advanced Features**                |                 |                       |                  |
+| Performance Monitoring (Web Vitals)  |       ❌        |  ✅ (Separate tool)   |        ✅        |
+| User Flow Analysis                   |       ❌        |          ❌           |        ✅        |
+| Error Tracking                       |       ❌        |          ❌           |        ✅        |
+| Alerts / Notifications               |       ✅        |          ❌           |        ✅        |
+| Geolocation map visualisation        |       ❌        |          ❌           |        ✅        |
+| Funnels                              |       ✅        |          ❌           |        ✅        |
+| Segments                             |       ✅        |          ✅           |        ✅        |
+| Multiple Domains per Site            |       ✅        |          ❌           |        ✅        |
+| **Growth & Product**                 |                 |                       |                  |
+| AI Chat                              |       ❌        |          ❌           |        ✅        |
+| Goals                                |       ✅        |          ❌           |        ✅        |
+| Experiments (A/B tests)              |       ❌        |          ❌           |        ✅        |
+| Feature flags                        |       ❌        |          ❌           |        ✅        |
+| User Profiles                        |       ❌        |          ❌           |        ✅        |
+| Revenue analytics                    |       ❌        |          ❌           |        ✅        |
+| SEO insights (Google Search Console) |       ✅        |          ❌           |        ✅        |
+| CAPTCHA                              |       ❌        |          ❌           |        ✅        |
+| **Platform & Freedom**               |                 |                       |                  |
+| Works on ANY hosting                 |       ✅        |   ❌ (Vercel only)    |        ✅        |
+| Zero Vendor Lock-in                  |       ✅        |          ❌           |        ✅        |
+| Open Source                          | ⚠️ (Core only)  |          ❌           |        ✅        |
+| Self-hostable                        | ⚠️ (Enterprise) |          ❌           |        ✅        |
+| **Data Policies**                    |                 |                       |                  |
+| Data Retention                       |    Unlimited    | Limited (1-12 months) |    Unlimited     |
+| Cookie-less Tracking                 |       ✅        |          ✅           |        ✅        |
+| **Pricing & Support**                |                 |                       |                  |
+| Entry price                          |     $12.00      |        Free\*         |      $19.00      |
 
 <br>
 

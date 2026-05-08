@@ -50,45 +50,45 @@ Plausible was built as a direct reaction to complex, heavy analytics tools. It i
 
 To help you make an informed decision, here is a detailed breakdown of how Matomo and Plausible compare, and how Swetrix bridges the gap between them.
 
-| Feature                                       |        Matomo         | Plausible | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------------------: | :-------: | :--------------: |
-| **Core Features**                             |                       |           |                  |
-| Real-time Analytics                           |          ✅           |    ✅     |        ✅        |
-| Page views                                    |          ✅           |    ✅     |        ✅        |
-| Custom Events                                 |          ✅           |    ✅     |        ✅        |
-| Live visitors count                           |          ✅           |    ✅     |        ✅        |
-| UTM Tracking                                  |          ✅           |    ✅     |        ✅        |
-| Email Reports                                 |          ✅           |    ✅     |        ✅        |
-| Modern, intuitive UI                          |          ❌           |    ✅     |        ✅        |
-| Easy setup                                    |          ❌           |    ✅     |        ✅        |
-| Device stats (browser, OS)                    |          ✅           |    ✅     |        ✅        |
-| **Advanced Features**                         |                       |           |                  |
-| Performance Monitoring                        | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
-| User Flow Analysis                            | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
-| Funnels                                       | ⚠️ Paid Plugin / $$$$ |    ✅     |        ✅        |
-| Error Tracking                                | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
-| Heatmaps                                      | ⚠️ Paid Plugin / $$$$ |    ❌     |        ❌        |
-| Multiple Domains per Site                     |          ✅           |    ❌     |        ✅        |
-| Segments                                      |          ✅           |    ✅     |        ✅        |
-| Alerts / Notifications                        |          ❌           |    ❌     |        ✅        |
-| **Growth & Product**                          |                       |           |                  |
-| AI Chat                                       |          ❌           |    ❌     |        ✅        |
-| Goals                                         |          ✅           |    ✅     |        ✅        |
-| Experiments (A/B tests)                       | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
-| Feature flags                                 |          ❌           |    ❌     |        ✅        |
-| User Profiles                                 |          ✅           |    ❌     |        ✅        |
-| Revenue analytics                             |    ✅ (Ecommerce)     |    ❌     |        ✅        |
-| Complete SEO overview (Google Search Console) | ⚠️ Paid Plugin / $$$$ |    ✅     |        ✅        |
-| **Privacy & Compliance**                      |                       |           |                  |
-| Cookie-less by default                        |          ❌           |    ✅     |        ✅        |
-| Open Source                                   |          ✅           |    ✅     |        ✅        |
-| Self-hostable                                 |          ✅           |    ✅     |        ✅        |
-| EU data residency                             |          ✅           |    ✅     |        ✅        |
-| **Technical & Pricing**                       |                       |           |                  |
-| Script size                                   |        > 60 KB        |   6 KB    |      ~6 KB       |
-| API access                                    |          ✅           |    ✅     |        ✅        |
-| Entry price                                   |    €22.00 ( ~$25)     |  $19.00   |      $19.00      |
-| Human customer support                        | ⚠️ Paid option / $$$$ |    ✅     |        ✅        |
+| Feature                              |        Matomo         | Plausible | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------------------: | :-------: | :--------------: |
+| **Core Features**                    |                       |           |                  |
+| Real-time Analytics                  |          ✅           |    ✅     |        ✅        |
+| Page views                           |          ✅           |    ✅     |        ✅        |
+| Custom Events                        |          ✅           |    ✅     |        ✅        |
+| Live visitors count                  |          ✅           |    ✅     |        ✅        |
+| UTM Tracking                         |          ✅           |    ✅     |        ✅        |
+| Email Reports                        |          ✅           |    ✅     |        ✅        |
+| Modern, intuitive UI                 |          ❌           |    ✅     |        ✅        |
+| Easy setup                           |          ❌           |    ✅     |        ✅        |
+| Device stats (browser, OS)           |          ✅           |    ✅     |        ✅        |
+| **Advanced Features**                |                       |           |                  |
+| Performance Monitoring               | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
+| User Flow Analysis                   | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
+| Funnels                              | ⚠️ Paid Plugin / $$$$ |    ✅     |        ✅        |
+| Error Tracking                       | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
+| Heatmaps                             | ⚠️ Paid Plugin / $$$$ |    ❌     |        ❌        |
+| Multiple Domains per Site            |          ✅           |    ❌     |        ✅        |
+| Segments                             |          ✅           |    ✅     |        ✅        |
+| Alerts / Notifications               |          ❌           |    ❌     |        ✅        |
+| **Growth & Product**                 |                       |           |                  |
+| AI Chat                              |          ❌           |    ❌     |        ✅        |
+| Goals                                |          ✅           |    ✅     |        ✅        |
+| Experiments (A/B tests)              | ⚠️ Paid Plugin / $$$$ |    ❌     |        ✅        |
+| Feature flags                        |          ❌           |    ❌     |        ✅        |
+| User Profiles                        |          ✅           |    ❌     |        ✅        |
+| Revenue analytics                    |    ✅ (Ecommerce)     |    ❌     |        ✅        |
+| SEO insights (Google Search Console) | ⚠️ Paid Plugin / $$$$ |    ✅     |        ✅        |
+| **Privacy & Compliance**             |                       |           |                  |
+| Cookie-less by default               |          ❌           |    ✅     |        ✅        |
+| Open Source                          |          ✅           |    ✅     |        ✅        |
+| Self-hostable                        |          ✅           |    ✅     |        ✅        |
+| EU data residency                    |          ✅           |    ✅     |        ✅        |
+| **Technical & Pricing**              |                       |           |                  |
+| Script size                          |        > 60 KB        |   6 KB    |      ~6 KB       |
+| API access                           |          ✅           |    ✅     |        ✅        |
+| Entry price                          |    €22.00 ( ~$25)     |  $19.00   |      $19.00      |
+| Human customer support               | ⚠️ Paid option / $$$$ |    ✅     |        ✅        |
 
 <br>
 

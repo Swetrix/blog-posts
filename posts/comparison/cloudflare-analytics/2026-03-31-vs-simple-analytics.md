@@ -52,58 +52,58 @@ As its name suggests, Simple Analytics strips away all the clutter associated wi
 
 To provide a clear picture of what you get with each tool, here is a direct, feature-by-feature comparison comparing Cloudflare, Simple Analytics, and Swetrix.
 
-| Feature                                       |    Cloudflare Analytics     |   Simple Analytics   |      ::SWETRIX_LOGO::       |
-| :-------------------------------------------- | :-------------------------: | :------------------: | :-------------------------: |
-| **Core Features**                             |                             |                      |                             |
-| Real-time Analytics                           |             ✅              |          ✅          |             ✅              |
-| Page views                                    |             ✅              |          ✅          |             ✅              |
-| Custom Events                                 |             ❌              |          ✅          |             ✅              |
-| Live visitors count                           |             ❌              |          ✅          |             ✅              |
-| UTM Tracking                                  |             ❌              |          ✅          |             ✅              |
-| Device stats (browser, OS, type)              |             ✅              |          ✅          |             ✅              |
-| Email Reports                                 |             ❌              |          ✅          |             ✅              |
-| Geolocation data                              |           Limited           | Basic (Country only) | Full (Country, State, City) |
-| **Advanced Features**                         |                             |                      |                             |
-| Performance Monitoring (Web Vitals)           |             ✅              |          ❌          |             ✅              |
-| User Flow Analysis                            |             ❌              |          ❌          |             ✅              |
-| Error Tracking                                |             ❌              |          ❌          |             ✅              |
-| Alerts / Notifications                        |             ❌              |          ❌          |             ✅              |
-| Geolocation map visualisation                 |           Limited           |          ❌          |             ✅              |
-| Funnels                                       |             ❌              |          ❌          |             ✅              |
-| Segments                                      |            Basic            |          ❌          |             ✅              |
-| Multiple Domains per Site                     |             ❌              |          ❌          |             ✅              |
-| **Growth & Product**                          |                             |                      |                             |
-| AI Chat                                       |             ❌              |          ✅          |             ✅              |
-| Goals                                         |             ❌              |          ✅          |             ✅              |
-| Experiments (A/B tests)                       |             ❌              |          ❌          |             ✅              |
-| Feature flags                                 |             ❌              |          ❌          |             ✅              |
-| User Profiles                                 |             ❌              |          ❌          |             ✅              |
-| Revenue analytics                             |             ❌              |          ❌          |             ✅              |
-| Complete SEO overview (Google Search Console) |             ❌              |          ✅          |             ✅              |
-| CAPTCHA                                       |       ✅ (Turnstile)        |          ❌          |             ✅              |
-| **Security & Access**                         |                             |                      |                             |
-| Bot filtering                                 |             ✅              |          ✅          |             ✅              |
-| Two-Factor Authentication (2FA)               |             ✅              |          ❌          |             ✅              |
-| Role-based Access Control                     |             ✅              |          ❌          |             ✅              |
-| Shared Dashboards                             |             ❌              |          ✅          |             ✅              |
-| Organisations (Teams)                         |             ❌              |          ✅          |             ✅              |
-| **Privacy & Compliance**                      |                             |                      |                             |
-| Cookie-less Tracking                          |             ✅              |          ✅          |             ✅              |
-| Open Source                                   |             ❌              |          ❌          |             ✅              |
-| Self-hostable                                 |             ❌              |          ❌          |             ✅              |
-| EU data residency                             |             ❌              |          ✅          |             ✅              |
-| **Data Quality & Ownership**                  |                             |                      |                             |
-| Data Sampling                                 | 10% (only 1 of 10 visitors) |      0% (None)       |          0% (None)          |
-| Data Retention                                |          6 months           |      Unlimited       |          Unlimited          |
-| Data Export                                   |             ❌              |          ✅          |             ✅              |
-| CDN Independent                               |             ❌              |          ✅          |             ✅              |
-| **Technical specifications**                  |                             |                      |                             |
-| Script size                                   |            ~1 KB            |        >7 KB         |            6 KB             |
-| API access                                    |             ❌              |          ✅          |             ✅              |
-| Bypass adblockers                             |             ❌              |          ✅          |             ✅              |
-| **Pricing & Support**                         |                             |                      |                             |
-| Entry price                                   |           Free\*            |        $15.00        |           $19.00            |
-| Customer support                              |             ❌              |          ✅          |             ✅              |
+| Feature                              |    Cloudflare Analytics     |   Simple Analytics   |      ::SWETRIX_LOGO::       |
+| :----------------------------------- | :-------------------------: | :------------------: | :-------------------------: |
+| **Core Features**                    |                             |                      |                             |
+| Real-time Analytics                  |             ✅              |          ✅          |             ✅              |
+| Page views                           |             ✅              |          ✅          |             ✅              |
+| Custom Events                        |             ❌              |          ✅          |             ✅              |
+| Live visitors count                  |             ❌              |          ✅          |             ✅              |
+| UTM Tracking                         |             ❌              |          ✅          |             ✅              |
+| Device stats (browser, OS, type)     |             ✅              |          ✅          |             ✅              |
+| Email Reports                        |             ❌              |          ✅          |             ✅              |
+| Geolocation data                     |           Limited           | Basic (Country only) | Full (Country, State, City) |
+| **Advanced Features**                |                             |                      |                             |
+| Performance Monitoring (Web Vitals)  |             ✅              |          ❌          |             ✅              |
+| User Flow Analysis                   |             ❌              |          ❌          |             ✅              |
+| Error Tracking                       |             ❌              |          ❌          |             ✅              |
+| Alerts / Notifications               |             ❌              |          ❌          |             ✅              |
+| Geolocation map visualisation        |           Limited           |          ❌          |             ✅              |
+| Funnels                              |             ❌              |          ❌          |             ✅              |
+| Segments                             |            Basic            |          ❌          |             ✅              |
+| Multiple Domains per Site            |             ❌              |          ❌          |             ✅              |
+| **Growth & Product**                 |                             |                      |                             |
+| AI Chat                              |             ❌              |          ✅          |             ✅              |
+| Goals                                |             ❌              |          ✅          |             ✅              |
+| Experiments (A/B tests)              |             ❌              |          ❌          |             ✅              |
+| Feature flags                        |             ❌              |          ❌          |             ✅              |
+| User Profiles                        |             ❌              |          ❌          |             ✅              |
+| Revenue analytics                    |             ❌              |          ❌          |             ✅              |
+| SEO insights (Google Search Console) |             ❌              |          ✅          |             ✅              |
+| CAPTCHA                              |       ✅ (Turnstile)        |          ❌          |             ✅              |
+| **Security & Access**                |                             |                      |                             |
+| Bot filtering                        |             ✅              |          ✅          |             ✅              |
+| Two-Factor Authentication (2FA)      |             ✅              |          ❌          |             ✅              |
+| Role-based Access Control            |             ✅              |          ❌          |             ✅              |
+| Shared Dashboards                    |             ❌              |          ✅          |             ✅              |
+| Organisations (Teams)                |             ❌              |          ✅          |             ✅              |
+| **Privacy & Compliance**             |                             |                      |                             |
+| Cookie-less Tracking                 |             ✅              |          ✅          |             ✅              |
+| Open Source                          |             ❌              |          ❌          |             ✅              |
+| Self-hostable                        |             ❌              |          ❌          |             ✅              |
+| EU data residency                    |             ❌              |          ✅          |             ✅              |
+| **Data Quality & Ownership**         |                             |                      |                             |
+| Data Sampling                        | 10% (only 1 of 10 visitors) |      0% (None)       |          0% (None)          |
+| Data Retention                       |          6 months           |      Unlimited       |          Unlimited          |
+| Data Export                          |             ❌              |          ✅          |             ✅              |
+| CDN Independent                      |             ❌              |          ✅          |             ✅              |
+| **Technical specifications**         |                             |                      |                             |
+| Script size                          |            ~1 KB            |        >7 KB         |            6 KB             |
+| API access                           |             ❌              |          ✅          |             ✅              |
+| Bypass adblockers                    |             ❌              |          ✅          |             ✅              |
+| **Pricing & Support**                |                             |                      |                             |
+| Entry price                          |           Free\*            |        $15.00        |           $19.00            |
+| Customer support                     |             ❌              |          ✅          |             ✅              |
 
 <br>
 

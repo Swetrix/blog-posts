@@ -51,43 +51,43 @@ Google Analytics is the most widely used tracking software in the world. It prov
 
 To help you understand exactly what each platform offers, here is a direct side-by-side feature comparison, including how Swetrix measures up against both.
 
-| Feature                                       | Vercel Web Analytics |         Google Analytics          | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :------------------: | :-------------------------------: | :--------------: |
-| **Core Features**                             |                      |                                   |                  |
-| Real-time Analytics                           |          ✅          |                ❌                 |        ✅        |
-| Custom Events                                 |          ✅          |                ✅                 |        ✅        |
-| Page views                                    |          ✅          |                ✅                 |        ✅        |
-| Live visitors count                           |          ✅          |                ✅                 |        ✅        |
-| UTM Tracking                                  |          ✅          |                ✅                 |        ✅        |
-| Device stats (browser, OS, type)              |          ✅          |                ✅                 |        ✅        |
-| Email Reports                                 |          ❌          |                ✅                 |        ✅        |
-| **Advanced Features**                         |                      |                                   |                  |
-| Performance Monitoring                        |  ✅ (Separate tool)  |                ❌                 |        ✅        |
-| User Flow Analysis                            |          ❌          |                ❌                 |        ✅        |
-| Error Tracking                                |          ❌          |                ❌                 |        ✅        |
-| Alerts / Notifications                        |          ❌          |                ❌                 |        ✅        |
-| Geolocation map visualisation                 |          ❌          |                ✅                 |        ✅        |
-| Funnels                                       |          ❌          |                ✅                 |        ✅        |
-| Segments                                      |          ✅          |                ✅                 |        ✅        |
-| Multiple Domains per Site                     |          ❌          |                ❌                 |        ✅        |
-| **Growth & Product**                          |                      |                                   |                  |
-| AI Chat                                       |          ❌          |                ✅                 |        ✅        |
-| Goals                                         |          ❌          |                ✅                 |        ✅        |
-| Experiments (A/B tests)                       |          ❌          |      ❌ (Requires 3rd party)      |        ✅        |
-| Feature flags                                 |          ❌          |                ❌                 |        ✅        |
-| User Profiles                                 |          ❌          |                ✅                 |        ✅        |
-| Revenue analytics                             |          ❌          |                ❌                 |        ✅        |
-| Complete SEO overview (Google Search Console) |          ❌          |                ✅                 |        ✅        |
-| **Privacy & Compliance**                      |                      |                                   |                  |
-| Cookie-less Tracking                          |          ✅          |                ❌                 |        ✅        |
-| Privacy compliance                            |          ✅          | ❌ (Illegal in some EU countries) |        ✅        |
-| Data Ownership                                |        Vercel        |        Google (for Ads/AI)        |    You (100%)    |
-| Open Source                                   |          ❌          |                ❌                 |        ✅        |
-| Self-hostable                                 |          ❌          |                ❌                 |        ✅        |
-| EU data residency                             |      ⚠️ Global       |                ❌                 |        ✅        |
-| **Pricing & Support**                         |                      |                                   |                  |
-| Entry price                                   |        Free\*        |              Free\*               |      $19.00      |
-| Customer support                              |          ✅          |                ❌                 |        ✅        |
+| Feature                              | Vercel Web Analytics |         Google Analytics          | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :------------------: | :-------------------------------: | :--------------: |
+| **Core Features**                    |                      |                                   |                  |
+| Real-time Analytics                  |          ✅          |                ❌                 |        ✅        |
+| Custom Events                        |          ✅          |                ✅                 |        ✅        |
+| Page views                           |          ✅          |                ✅                 |        ✅        |
+| Live visitors count                  |          ✅          |                ✅                 |        ✅        |
+| UTM Tracking                         |          ✅          |                ✅                 |        ✅        |
+| Device stats (browser, OS, type)     |          ✅          |                ✅                 |        ✅        |
+| Email Reports                        |          ❌          |                ✅                 |        ✅        |
+| **Advanced Features**                |                      |                                   |                  |
+| Performance Monitoring               |  ✅ (Separate tool)  |                ❌                 |        ✅        |
+| User Flow Analysis                   |          ❌          |                ❌                 |        ✅        |
+| Error Tracking                       |          ❌          |                ❌                 |        ✅        |
+| Alerts / Notifications               |          ❌          |                ❌                 |        ✅        |
+| Geolocation map visualisation        |          ❌          |                ✅                 |        ✅        |
+| Funnels                              |          ❌          |                ✅                 |        ✅        |
+| Segments                             |          ✅          |                ✅                 |        ✅        |
+| Multiple Domains per Site            |          ❌          |                ❌                 |        ✅        |
+| **Growth & Product**                 |                      |                                   |                  |
+| AI Chat                              |          ❌          |                ✅                 |        ✅        |
+| Goals                                |          ❌          |                ✅                 |        ✅        |
+| Experiments (A/B tests)              |          ❌          |      ❌ (Requires 3rd party)      |        ✅        |
+| Feature flags                        |          ❌          |                ❌                 |        ✅        |
+| User Profiles                        |          ❌          |                ✅                 |        ✅        |
+| Revenue analytics                    |          ❌          |                ❌                 |        ✅        |
+| SEO insights (Google Search Console) |          ❌          |                ✅                 |        ✅        |
+| **Privacy & Compliance**             |                      |                                   |                  |
+| Cookie-less Tracking                 |          ✅          |                ❌                 |        ✅        |
+| Privacy compliance                   |          ✅          | ❌ (Illegal in some EU countries) |        ✅        |
+| Data Ownership                       |        Vercel        |        Google (for Ads/AI)        |    You (100%)    |
+| Open Source                          |          ❌          |                ❌                 |        ✅        |
+| Self-hostable                        |          ❌          |                ❌                 |        ✅        |
+| EU data residency                    |      ⚠️ Global       |                ❌                 |        ✅        |
+| **Pricing & Support**                |                      |                                   |                  |
+| Entry price                          |        Free\*        |              Free\*               |      $19.00      |
+| Customer support                     |          ✅          |                ❌                 |        ✅        |
 
 <br>
 

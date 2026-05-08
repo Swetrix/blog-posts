@@ -50,47 +50,47 @@ Plausible is a dedicated, open-source analytics platform. It provides a highly i
 
 Here is how Plausible and Vercel Web Analytics compare directly with each other, and how they both stack up against Swetrix.
 
-| Feature                                       | Plausible |        Vercel Web Analytics         | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------: | :---------------------------------: | :--------------: |
-| **Core Features**                             |           |                                     |                  |
-| Real-time Analytics                           |    ✅     |                 ✅                  |        ✅        |
-| Custom Events                                 |    ✅     |                 ✅                  |        ✅        |
-| Page views                                    |    ✅     |                 ✅                  |        ✅        |
-| Live visitors count                           |    ✅     |                 ✅                  |        ✅        |
-| UTM Tracking                                  |    ✅     |                 ✅                  |        ✅        |
-| Device stats (browser, OS, type)              |    ✅     |                 ✅                  |        ✅        |
-| Email Reports                                 |    ✅     |                 ❌                  |        ✅        |
-| **Advanced Features**                         |           |                                     |                  |
-| Performance Monitoring (Web Vitals)           |    ❌     | ✅ (Separate "Speed Insights" tool) |        ✅        |
-| User Flow Analysis                            |    ❌     |                 ❌                  |        ✅        |
-| Error Tracking                                |    ❌     |                 ❌                  |        ✅        |
-| Alerts / Notifications                        |    ❌     |                 ❌                  |        ✅        |
-| Geolocation map visualisation                 |    ❌     |                 ❌                  |        ✅        |
-| Funnels                                       |    ✅     |                 ❌                  |        ✅        |
-| Segments                                      |    ✅     |                 ✅                  |        ✅        |
-| Multiple Domains per Site                     |    ❌     |                 ❌                  |        ✅        |
-| API access                                    |    ✅     |                 ❌                  |        ✅        |
-| **Growth & Product**                          |           |                                     |                  |
-| AI Chat                                       |    ❌     |                 ❌                  |        ✅        |
-| Goals                                         |    ✅     |                 ❌                  |        ✅        |
-| Experiments (A/B tests)                       |    ❌     |                 ❌                  |        ✅        |
-| Feature flags                                 |    ❌     |                 ❌                  |        ✅        |
-| User Profiles                                 |    ❌     |                 ❌                  |        ✅        |
-| Revenue analytics                             |    ❌     |                 ❌                  |        ✅        |
-| Complete SEO overview (Google Search Console) |    ✅     |                 ❌                  |        ✅        |
-| CAPTCHA                                       |    ❌     |                 ❌                  |        ✅        |
-| **Platform & Freedom**                        |           |                                     |                  |
-| Works on ANY hosting                          |    ✅     |          ❌ (Vercel only)           |        ✅        |
-| Zero Vendor Lock-in                           |    ✅     |                 ❌                  |        ✅        |
-| Open Source                                   |    ✅     |                 ❌                  |        ✅        |
-| Self-hostable                                 |    ✅     |                 ❌                  |        ✅        |
-| **Data Policies**                             |           |                                     |                  |
-| Data Retention                                | Unlimited |        Limited (1-12 months)        |    Unlimited     |
-| Cookie-less Tracking                          |    ✅     |                 ✅                  |        ✅        |
-| EU data residency                             |    ✅     |              ⚠️ Global              |        ✅        |
-| **Pricing & Support**                         |           |                                     |                  |
-| Entry price                                   |  $19.00   |               Free\*                |      $19.00      |
-| Customer support                              |    ✅     |                 ✅                  |        ✅        |
+| Feature                              | Plausible |        Vercel Web Analytics         | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------: | :---------------------------------: | :--------------: |
+| **Core Features**                    |           |                                     |                  |
+| Real-time Analytics                  |    ✅     |                 ✅                  |        ✅        |
+| Custom Events                        |    ✅     |                 ✅                  |        ✅        |
+| Page views                           |    ✅     |                 ✅                  |        ✅        |
+| Live visitors count                  |    ✅     |                 ✅                  |        ✅        |
+| UTM Tracking                         |    ✅     |                 ✅                  |        ✅        |
+| Device stats (browser, OS, type)     |    ✅     |                 ✅                  |        ✅        |
+| Email Reports                        |    ✅     |                 ❌                  |        ✅        |
+| **Advanced Features**                |           |                                     |                  |
+| Performance Monitoring (Web Vitals)  |    ❌     | ✅ (Separate "Speed Insights" tool) |        ✅        |
+| User Flow Analysis                   |    ❌     |                 ❌                  |        ✅        |
+| Error Tracking                       |    ❌     |                 ❌                  |        ✅        |
+| Alerts / Notifications               |    ❌     |                 ❌                  |        ✅        |
+| Geolocation map visualisation        |    ❌     |                 ❌                  |        ✅        |
+| Funnels                              |    ✅     |                 ❌                  |        ✅        |
+| Segments                             |    ✅     |                 ✅                  |        ✅        |
+| Multiple Domains per Site            |    ❌     |                 ❌                  |        ✅        |
+| API access                           |    ✅     |                 ❌                  |        ✅        |
+| **Growth & Product**                 |           |                                     |                  |
+| AI Chat                              |    ❌     |                 ❌                  |        ✅        |
+| Goals                                |    ✅     |                 ❌                  |        ✅        |
+| Experiments (A/B tests)              |    ❌     |                 ❌                  |        ✅        |
+| Feature flags                        |    ❌     |                 ❌                  |        ✅        |
+| User Profiles                        |    ❌     |                 ❌                  |        ✅        |
+| Revenue analytics                    |    ❌     |                 ❌                  |        ✅        |
+| SEO insights (Google Search Console) |    ✅     |                 ❌                  |        ✅        |
+| CAPTCHA                              |    ❌     |                 ❌                  |        ✅        |
+| **Platform & Freedom**               |           |                                     |                  |
+| Works on ANY hosting                 |    ✅     |          ❌ (Vercel only)           |        ✅        |
+| Zero Vendor Lock-in                  |    ✅     |                 ❌                  |        ✅        |
+| Open Source                          |    ✅     |                 ❌                  |        ✅        |
+| Self-hostable                        |    ✅     |                 ❌                  |        ✅        |
+| **Data Policies**                    |           |                                     |                  |
+| Data Retention                       | Unlimited |        Limited (1-12 months)        |    Unlimited     |
+| Cookie-less Tracking                 |    ✅     |                 ✅                  |        ✅        |
+| EU data residency                    |    ✅     |              ⚠️ Global              |        ✅        |
+| **Pricing & Support**                |           |                                     |                  |
+| Entry price                          |  $19.00   |               Free\*                |      $19.00      |
+| Customer support                     |    ✅     |                 ✅                  |        ✅        |
 
 <br>
 

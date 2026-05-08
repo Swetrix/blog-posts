@@ -51,43 +51,43 @@ Vercel Web Analytics is built directly into the Vercel hosting platform. It is d
 
 Let us review the technical capabilities of both platforms alongside Swetrix.
 
-| Feature                                       | Rybbit | Vercel Web Analytics | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :----: | :------------------: | :--------------: |
-| **Core Features**                             |        |                      |                  |
-| Real-time Analytics                           |   ✅   |          ✅          |        ✅        |
-| Custom Events                                 |   ✅   |          ✅          |        ✅        |
-| Page views                                    |   ✅   |          ✅          |        ✅        |
-| Live visitors count                           |   ✅   |          ✅          |        ✅        |
-| UTM Tracking                                  |   ✅   |          ✅          |        ✅        |
-| Device stats (browser, OS, type)              |   ✅   |          ✅          |        ✅        |
-| Email Reports                                 |   ✅   |          ❌          |        ✅        |
-| **Advanced Features**                         |        |                      |                  |
-| Performance Monitoring (Web Vitals)           |   ✅   |  ✅ (Separate tool)  |        ✅        |
-| User Flow Analysis                            |   ✅   |          ❌          |        ✅        |
-| Error Tracking                                |   ✅   |          ❌          |        ✅        |
-| Alerts / Notifications                        |   ❌   |          ❌          |        ✅        |
-| Geolocation map visualisation                 |   ✅   |          ❌          |        ✅        |
-| Funnels                                       |   ✅   |          ❌          |        ✅        |
-| Segments                                      |   ✅   |          ✅          |        ✅        |
-| Multiple Domains per Site                     |   ✅   |          ❌          |        ✅        |
-| API access                                    |   ✅   |          ❌          |        ✅        |
-| **Growth & Product**                          |        |                      |                  |
-| AI Chat                                       |   ❌   |          ❌          |        ✅        |
-| Goals                                         |   ✅   |          ❌          |        ✅        |
-| Experiments (A/B tests)                       |   ❌   |          ❌          |        ✅        |
-| Feature flags                                 |   ❌   |          ❌          |        ✅        |
-| User Profiles                                 |   ✅   |          ❌          |        ✅        |
-| Revenue analytics                             |   ❌   |          ❌          |        ✅        |
-| Complete SEO overview (Google Search Console) |   ❌   |          ❌          |        ✅        |
-| CAPTCHA                                       |   ❌   |          ❌          |        ✅        |
-| **Platform & Freedom**                        |        |                      |                  |
-| Works on ANY hosting                          |   ✅   |   ❌ (Vercel only)   |        ✅        |
-| Zero Vendor Lock-in                           |   ✅   |          ❌          |        ✅        |
-| Open Source                                   |   ✅   |          ❌          |        ✅        |
-| Self-hostable                                 |   ✅   |          ❌          |        ✅        |
-| **Privacy & Compliance**                      |        |                      |                  |
-| Cookie-less Tracking                          |   ✅   |          ✅          |        ✅        |
-| EU data residency                             |   ✅   |      ⚠️ Global       |        ✅        |
+| Feature                              | Rybbit | Vercel Web Analytics | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :----: | :------------------: | :--------------: |
+| **Core Features**                    |        |                      |                  |
+| Real-time Analytics                  |   ✅   |          ✅          |        ✅        |
+| Custom Events                        |   ✅   |          ✅          |        ✅        |
+| Page views                           |   ✅   |          ✅          |        ✅        |
+| Live visitors count                  |   ✅   |          ✅          |        ✅        |
+| UTM Tracking                         |   ✅   |          ✅          |        ✅        |
+| Device stats (browser, OS, type)     |   ✅   |          ✅          |        ✅        |
+| Email Reports                        |   ✅   |          ❌          |        ✅        |
+| **Advanced Features**                |        |                      |                  |
+| Performance Monitoring (Web Vitals)  |   ✅   |  ✅ (Separate tool)  |        ✅        |
+| User Flow Analysis                   |   ✅   |          ❌          |        ✅        |
+| Error Tracking                       |   ✅   |          ❌          |        ✅        |
+| Alerts / Notifications               |   ❌   |          ❌          |        ✅        |
+| Geolocation map visualisation        |   ✅   |          ❌          |        ✅        |
+| Funnels                              |   ✅   |          ❌          |        ✅        |
+| Segments                             |   ✅   |          ✅          |        ✅        |
+| Multiple Domains per Site            |   ✅   |          ❌          |        ✅        |
+| API access                           |   ✅   |          ❌          |        ✅        |
+| **Growth & Product**                 |        |                      |                  |
+| AI Chat                              |   ❌   |          ❌          |        ✅        |
+| Goals                                |   ✅   |          ❌          |        ✅        |
+| Experiments (A/B tests)              |   ❌   |          ❌          |        ✅        |
+| Feature flags                        |   ❌   |          ❌          |        ✅        |
+| User Profiles                        |   ✅   |          ❌          |        ✅        |
+| Revenue analytics                    |   ❌   |          ❌          |        ✅        |
+| SEO insights (Google Search Console) |   ❌   |          ❌          |        ✅        |
+| CAPTCHA                              |   ❌   |          ❌          |        ✅        |
+| **Platform & Freedom**               |        |                      |                  |
+| Works on ANY hosting                 |   ✅   |   ❌ (Vercel only)   |        ✅        |
+| Zero Vendor Lock-in                  |   ✅   |          ❌          |        ✅        |
+| Open Source                          |   ✅   |          ❌          |        ✅        |
+| Self-hostable                        |   ✅   |          ❌          |        ✅        |
+| **Privacy & Compliance**             |        |                      |                  |
+| Cookie-less Tracking                 |   ✅   |          ✅          |        ✅        |
+| EU data residency                    |   ✅   |      ⚠️ Global       |        ✅        |
 
 <br>
 

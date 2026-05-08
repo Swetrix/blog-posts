@@ -51,41 +51,41 @@ Vercel Web Analytics is a built-in feature for users of the Vercel hosting platf
 
 Let's break down the technical capabilities of these platforms. Here is how Matomo and Vercel Web Analytics stack up against Swetrix.
 
-| Feature                                       |        Matomo         | Vercel Web Analytics  | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------------------: | :-------------------: | :--------------: |
-| **Core Features**                             |                       |                       |                  |
-| Real-time Analytics                           |          ✅           |          ✅           |        ✅        |
-| Page views                                    |          ✅           |          ✅           |        ✅        |
-| Custom Events                                 |          ✅           |          ✅           |        ✅        |
-| Live visitors count                           |          ✅           |          ✅           |        ✅        |
-| UTM Tracking                                  |          ✅           |          ✅           |        ✅        |
-| Device stats (browser, OS)                    |          ✅           |          ✅           |        ✅        |
-| Email Reports                                 |          ✅           |          ❌           |        ✅        |
-| **Advanced Features**                         |                       |                       |                  |
-| Performance Monitoring                        | ⚠️ Paid Plugin / $$$$ |  ✅ (Separate tool)   |        ✅        |
-| User Flow Analysis                            | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
-| Error Tracking                                | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
-| Alerts / Notifications                        |          ❌           |          ❌           |        ✅        |
-| Funnels                                       | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
-| Segments                                      |          ✅           |          ✅           |        ✅        |
-| Multiple Domains per Site                     |          ✅           |          ❌           |        ✅        |
-| **Growth & Product**                          |                       |                       |                  |
-| AI Chat                                       |          ❌           |          ❌           |        ✅        |
-| Goals                                         |          ✅           |          ❌           |        ✅        |
-| Experiments (A/B tests)                       | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
-| Feature flags                                 |          ❌           |          ❌           |        ✅        |
-| User Profiles                                 |          ✅           |          ❌           |        ✅        |
-| Complete SEO overview (Google Search Console) | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
-| **Platform & Freedom**                        |                       |                       |                  |
-| Works on ANY hosting                          |          ✅           |   ❌ (Vercel only)    |        ✅        |
-| Zero Vendor Lock-in                           |          ✅           |          ❌           |        ✅        |
-| Open Source                                   |          ✅           |          ❌           |        ✅        |
-| Self-hostable                                 |          ✅           |          ❌           |        ✅        |
-| **Technical & Pricing**                       |                       |                       |                  |
-| Data Retention                                |       Unlimited       | Limited (1-12 months) |    Unlimited     |
-| Script size                                   |        > 60 KB        |      Lightweight      |      ~6 KB       |
-| API access                                    |          ✅           |          ❌           |        ✅        |
-| Cloud Entry price                             |    €22.00 ( ~$25)     |        Free\*         |      $19.00      |
+| Feature                              |        Matomo         | Vercel Web Analytics  | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------------------: | :-------------------: | :--------------: |
+| **Core Features**                    |                       |                       |                  |
+| Real-time Analytics                  |          ✅           |          ✅           |        ✅        |
+| Page views                           |          ✅           |          ✅           |        ✅        |
+| Custom Events                        |          ✅           |          ✅           |        ✅        |
+| Live visitors count                  |          ✅           |          ✅           |        ✅        |
+| UTM Tracking                         |          ✅           |          ✅           |        ✅        |
+| Device stats (browser, OS)           |          ✅           |          ✅           |        ✅        |
+| Email Reports                        |          ✅           |          ❌           |        ✅        |
+| **Advanced Features**                |                       |                       |                  |
+| Performance Monitoring               | ⚠️ Paid Plugin / $$$$ |  ✅ (Separate tool)   |        ✅        |
+| User Flow Analysis                   | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
+| Error Tracking                       | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
+| Alerts / Notifications               |          ❌           |          ❌           |        ✅        |
+| Funnels                              | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
+| Segments                             |          ✅           |          ✅           |        ✅        |
+| Multiple Domains per Site            |          ✅           |          ❌           |        ✅        |
+| **Growth & Product**                 |                       |                       |                  |
+| AI Chat                              |          ❌           |          ❌           |        ✅        |
+| Goals                                |          ✅           |          ❌           |        ✅        |
+| Experiments (A/B tests)              | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
+| Feature flags                        |          ❌           |          ❌           |        ✅        |
+| User Profiles                        |          ✅           |          ❌           |        ✅        |
+| SEO insights (Google Search Console) | ⚠️ Paid Plugin / $$$$ |          ❌           |        ✅        |
+| **Platform & Freedom**               |                       |                       |                  |
+| Works on ANY hosting                 |          ✅           |   ❌ (Vercel only)    |        ✅        |
+| Zero Vendor Lock-in                  |          ✅           |          ❌           |        ✅        |
+| Open Source                          |          ✅           |          ❌           |        ✅        |
+| Self-hostable                        |          ✅           |          ❌           |        ✅        |
+| **Technical & Pricing**              |                       |                       |                  |
+| Data Retention                       |       Unlimited       | Limited (1-12 months) |    Unlimited     |
+| Script size                          |        > 60 KB        |      Lightweight      |      ~6 KB       |
+| API access                           |          ✅           |          ❌           |        ✅        |
+| Cloud Entry price                    |    €22.00 ( ~$25)     |        Free\*         |      $19.00      |
 
 <br>
 

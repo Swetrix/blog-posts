@@ -51,42 +51,42 @@ Cloudflare Web Analytics is a built-in feature for users of the Cloudflare netwo
 
 To help you visualize the differences, here is a detailed feature comparison between Rybbit, Cloudflare Analytics, and Swetrix.
 
-| Feature                                       |  Rybbit   |          Cloudflare Analytics           | ::SWETRIX_LOGO:: |
-| :-------------------------------------------- | :-------: | :-------------------------------------: | :--------------: |
-| **Core Features**                             |           |                                         |                  |
-| Real-time Analytics                           |    ✅     |                   ✅                    |        ✅        |
-| Page views                                    |    ✅     |                   ✅                    |        ✅        |
-| Device stats (browser, OS, type)              |    ✅     |                   ✅                    |        ✅        |
-| Custom Events                                 |    ✅     |                   ❌                    |        ✅        |
-| Live visitors count                           |    ✅     |                   ❌                    |        ✅        |
-| UTM Tracking                                  |    ✅     |                   ❌                    |        ✅        |
-| Entry/Exit pages                              |    ✅     |                   ❌                    |        ✅        |
-| Session duration metrics                      |    ✅     |                   ❌                    |        ✅        |
-| Email Reports                                 |    ✅     |                   ❌                    |        ✅        |
-| **Advanced Features**                         |           |                                         |                  |
-| Performance Monitoring (Web Vitals)           |    ✅     |                   ✅                    |        ✅        |
-| Segments                                      |    ✅     |                  Basic                  |        ✅        |
-| User Flow Analysis                            |    ✅     |                   ❌                    |        ✅        |
-| Error Tracking                                |    ✅     |                   ❌                    |        ✅        |
-| Alerts / Notifications                        |    ❌     |                   ❌                    |        ✅        |
-| Geolocation map visualisation                 |    ✅     |                 Limited                 |        ✅        |
-| Funnels                                       |    ✅     |                   ❌                    |        ✅        |
-| Multiple Domains per Site                     |    ✅     |                   ❌                    |        ✅        |
-| **Growth & Product**                          |           |                                         |                  |
-| AI Chat                                       |    ❌     |                   ❌                    |        ✅        |
-| Goals                                         |    ✅     |                   ❌                    |        ✅        |
-| Experiments (A/B tests)                       |    ❌     |                   ❌                    |        ✅        |
-| Feature flags                                 |    ❌     |                   ❌                    |        ✅        |
-| User Profiles                                 |    ✅     |                   ❌                    |        ✅        |
-| Revenue analytics                             |    ❌     |                   ❌                    |        ✅        |
-| Complete SEO overview (Google Search Console) |    ❌     |                   ❌                    |        ✅        |
-| CAPTCHA                                       |    ❌     |             ✅ (Turnstile)              |        ✅        |
-| **Data Quality & Ownership**                  |           |                                         |                  |
-| Data Sampling                                 | 0% (None) | 10% (only 1 of 10 visitors are counted) |    0% (None)     |
-| Data Export                                   |    ✅     |                   ❌                    |        ✅        |
-| CDN Independent                               |    ✅     |                   ❌                    |        ✅        |
-| Open Source                                   |    ✅     |                   ❌                    |        ✅        |
-| Self-hostable                                 |    ✅     |                   ❌                    |        ✅        |
+| Feature                              |  Rybbit   |          Cloudflare Analytics           | ::SWETRIX_LOGO:: |
+| :----------------------------------- | :-------: | :-------------------------------------: | :--------------: |
+| **Core Features**                    |           |                                         |                  |
+| Real-time Analytics                  |    ✅     |                   ✅                    |        ✅        |
+| Page views                           |    ✅     |                   ✅                    |        ✅        |
+| Device stats (browser, OS, type)     |    ✅     |                   ✅                    |        ✅        |
+| Custom Events                        |    ✅     |                   ❌                    |        ✅        |
+| Live visitors count                  |    ✅     |                   ❌                    |        ✅        |
+| UTM Tracking                         |    ✅     |                   ❌                    |        ✅        |
+| Entry/Exit pages                     |    ✅     |                   ❌                    |        ✅        |
+| Session duration metrics             |    ✅     |                   ❌                    |        ✅        |
+| Email Reports                        |    ✅     |                   ❌                    |        ✅        |
+| **Advanced Features**                |           |                                         |                  |
+| Performance Monitoring (Web Vitals)  |    ✅     |                   ✅                    |        ✅        |
+| Segments                             |    ✅     |                  Basic                  |        ✅        |
+| User Flow Analysis                   |    ✅     |                   ❌                    |        ✅        |
+| Error Tracking                       |    ✅     |                   ❌                    |        ✅        |
+| Alerts / Notifications               |    ❌     |                   ❌                    |        ✅        |
+| Geolocation map visualisation        |    ✅     |                 Limited                 |        ✅        |
+| Funnels                              |    ✅     |                   ❌                    |        ✅        |
+| Multiple Domains per Site            |    ✅     |                   ❌                    |        ✅        |
+| **Growth & Product**                 |           |                                         |                  |
+| AI Chat                              |    ❌     |                   ❌                    |        ✅        |
+| Goals                                |    ✅     |                   ❌                    |        ✅        |
+| Experiments (A/B tests)              |    ❌     |                   ❌                    |        ✅        |
+| Feature flags                        |    ❌     |                   ❌                    |        ✅        |
+| User Profiles                        |    ✅     |                   ❌                    |        ✅        |
+| Revenue analytics                    |    ❌     |                   ❌                    |        ✅        |
+| SEO insights (Google Search Console) |    ❌     |                   ❌                    |        ✅        |
+| CAPTCHA                              |    ❌     |             ✅ (Turnstile)              |        ✅        |
+| **Data Quality & Ownership**         |           |                                         |                  |
+| Data Sampling                        | 0% (None) | 10% (only 1 of 10 visitors are counted) |    0% (None)     |
+| Data Export                          |    ✅     |                   ❌                    |        ✅        |
+| CDN Independent                      |    ✅     |                   ❌                    |        ✅        |
+| Open Source                          |    ✅     |                   ❌                    |        ✅        |
+| Self-hostable                        |    ✅     |                   ❌                    |        ✅        |
 
 <br>
 
