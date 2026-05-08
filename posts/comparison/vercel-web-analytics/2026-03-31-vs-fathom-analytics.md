@@ -51,40 +51,41 @@ Fathom Analytics is one of the pioneers of the privacy-first analytics movement.
 
 Let us take a detailed look at how these platforms stack up against each other, and how Swetrix surpasses them both in technical and behavioral capabilities.
 
-| Feature                          | Vercel Web Analytics | Fathom Analytics | ::SWETRIX_LOGO:: |
-| :------------------------------- | :------------------: | :--------------: | :--------------: |
-| **Core Features**                |                      |                  |                  |
-| Real-time Analytics              |          ✅          |        ✅        |        ✅        |
-| Custom Events                    |          ✅          |        ✅        |        ✅        |
-| Page views                       |          ✅          |        ✅        |        ✅        |
-| Live visitors count              |          ✅          |        ✅        |        ✅        |
-| UTM Tracking                     |          ✅          |        ✅        |        ✅        |
-| Device stats (browser, OS, type) |          ✅          |        ✅        |        ✅        |
-| Email Reports                    |          ❌          |        ✅        |        ✅        |
-| **Advanced Features**            |                      |                  |                  |
-| Performance Monitoring           |  ✅ (Separate tool)  |        ❌        |        ✅        |
-| User Flow Analysis               |          ❌          |        ❌        |        ✅        |
-| Error Tracking                   |          ❌          |        ❌        |        ✅        |
-| Alerts / Notifications           |          ❌          |        ❌        |        ✅        |
-| Geolocation map visualisation    |          ❌          |        ❌        |        ✅        |
-| Funnels                          |          ❌          |        ❌        |        ✅        |
-| Segments                         |          ✅          |        ❌        |        ✅        |
-| Multiple Domains per Site        |          ❌          |        ✅        |        ✅        |
-| **Growth & Product**             |                      |                  |                  |
-| AI Chat                          |          ❌          |        ❌        |        ✅        |
-| Goals                            |          ❌          |        ✅        |        ✅        |
-| Experiments (A/B tests)          |          ❌          |        ❌        |        ✅        |
-| Feature flags                    |          ❌          |        ❌        |        ✅        |
-| User Profiles                    |          ❌          |        ❌        |        ✅        |
-| Revenue analytics                |          ❌          |        ❌        |        ✅        |
-| **Privacy & Compliance**         |                      |                  |                  |
-| Cookie-less Tracking             |          ✅          |        ✅        |        ✅        |
-| Open Source                      |          ❌          |        ❌        |        ✅        |
-| Self-hostable                    |          ❌          |        ❌        |        ✅        |
-| EU data residency                |      ⚠️ Global       |        ✅        |        ✅        |
-| **Pricing & Support**            |                      |                  |                  |
-| Entry price                      |        Free\*        |      $15.00      |      $19.00      |
-| Customer support                 |          ✅          |        ✅        |        ✅        |
+| Feature                                       | Vercel Web Analytics | Fathom Analytics | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :------------------: | :--------------: | :--------------: |
+| **Core Features**                             |                      |                  |                  |
+| Real-time Analytics                           |          ✅          |        ✅        |        ✅        |
+| Custom Events                                 |          ✅          |        ✅        |        ✅        |
+| Page views                                    |          ✅          |        ✅        |        ✅        |
+| Live visitors count                           |          ✅          |        ✅        |        ✅        |
+| UTM Tracking                                  |          ✅          |        ✅        |        ✅        |
+| Device stats (browser, OS, type)              |          ✅          |        ✅        |        ✅        |
+| Email Reports                                 |          ❌          |        ✅        |        ✅        |
+| **Advanced Features**                         |                      |                  |                  |
+| Performance Monitoring                        |  ✅ (Separate tool)  |        ❌        |        ✅        |
+| User Flow Analysis                            |          ❌          |        ❌        |        ✅        |
+| Error Tracking                                |          ❌          |        ❌        |        ✅        |
+| Alerts / Notifications                        |          ❌          |        ❌        |        ✅        |
+| Geolocation map visualisation                 |          ❌          |        ❌        |        ✅        |
+| Funnels                                       |          ❌          |        ❌        |        ✅        |
+| Segments                                      |          ✅          |        ❌        |        ✅        |
+| Multiple Domains per Site                     |          ❌          |        ✅        |        ✅        |
+| **Growth & Product**                          |                      |                  |                  |
+| AI Chat                                       |          ❌          |        ❌        |        ✅        |
+| Goals                                         |          ❌          |        ✅        |        ✅        |
+| Experiments (A/B tests)                       |          ❌          |        ❌        |        ✅        |
+| Feature flags                                 |          ❌          |        ❌        |        ✅        |
+| User Profiles                                 |          ❌          |        ❌        |        ✅        |
+| Revenue analytics                             |          ❌          |        ❌        |        ✅        |
+| Complete SEO overview (Google Search Console) |          ❌          |        ❌        |        ✅        |
+| **Privacy & Compliance**                      |                      |                  |                  |
+| Cookie-less Tracking                          |          ✅          |        ✅        |        ✅        |
+| Open Source                                   |          ❌          |        ❌        |        ✅        |
+| Self-hostable                                 |          ❌          |        ❌        |        ✅        |
+| EU data residency                             |      ⚠️ Global       |        ✅        |        ✅        |
+| **Pricing & Support**                         |                      |                  |                  |
+| Entry price                                   |        Free\*        |      $15.00      |      $19.00      |
+| Customer support                              |          ✅          |        ✅        |        ✅        |
 
 <br>
 

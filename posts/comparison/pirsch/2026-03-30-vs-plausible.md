@@ -49,50 +49,51 @@ Plausible is one of the most recognizable names in the privacy analytics space. 
 
 Let us evaluate the specific features of Pirsch, Plausible, and Swetrix side by side.
 
-| Feature                             |     Pirsch      | Plausible | ::SWETRIX_LOGO:: |
-| :---------------------------------- | :-------------: | :-------: | :--------------: |
-| **Core Features**                   |                 |           |                  |
-| Real-time Analytics                 |       ✅        |    ✅     |        ✅        |
-| Custom Events                       |       ✅        |    ✅     |        ✅        |
-| Page views                          |       ✅        |    ✅     |        ✅        |
-| Live visitors count                 |       ✅        |    ✅     |        ✅        |
-| UTM Tracking                        |       ✅        |    ✅     |        ✅        |
-| Device stats (browser, OS, type)    |       ✅        |    ✅     |        ✅        |
-| Email Reports                       |       ✅        |    ✅     |        ✅        |
-| **Advanced Features**               |                 |           |                  |
-| Performance Monitoring (Web Vitals) |       ❌        |    ❌     |        ✅        |
-| User Flow Analysis                  |       ❌        |    ❌     |        ✅        |
-| Error Tracking                      |       ❌        |    ❌     |        ✅        |
-| Alerts / Notifications              |       ✅        |    ❌     |        ✅        |
-| Geolocation map visualisation       |       ❌        |    ❌     |        ✅        |
-| Funnels                             |       ✅        |    ✅     |        ✅        |
-| Segments                            |       ✅        |    ✅     |        ✅        |
-| Multiple Domains per Site           |       ✅        |    ❌     |        ✅        |
-| **Growth & Product**                |                 |           |                  |
-| AI Chat                             |       ❌        |    ❌     |        ✅        |
-| Goals                               |       ✅        |    ✅     |        ✅        |
-| Experiments (A/B tests)             |       ❌        |    ❌     |        ✅        |
-| Feature flags                       |       ❌        |    ❌     |        ✅        |
-| User Profiles                       |       ❌        |    ❌     |        ✅        |
-| Revenue analytics                   |       ❌        |    ❌     |        ✅        |
-| CAPTCHA                             |       ❌        |    ❌     |        ✅        |
-| **Security & Access**               |                 |           |                  |
-| Bot filtering                       |       ✅        |    ✅     |        ✅        |
-| Two-Factor Authentication (2FA)     |       ❌        |    ✅     |        ✅        |
-| Role-based Access Control           |       ✅        |    ✅     |        ✅        |
-| Shared Dashboards                   |       ✅        |    ✅     |        ✅        |
-| Organisations (Teams)               |       ✅        |    ❌     |        ✅        |
-| **Privacy & Compliance**            |                 |           |                  |
-| Cookie-less Tracking                |       ✅        |    ✅     |        ✅        |
-| Open Source                         | ⚠️ (Core only)  |    ✅     |        ✅        |
-| Self-hostable                       | ⚠️ (Enterprise) |    ✅     |        ✅        |
-| EU data residency                   |       ✅        |    ✅     |        ✅        |
-| **Technical specifications**        |                 |           |                  |
-| Script size                         |     ~11 KB      |   6 KB    |       6 KB       |
-| API access                          |       ✅        |    ✅     |        ✅        |
-| Bypass adblockers                   |       ✅        |    ✅     |        ✅        |
-| **Pricing & Support**               |                 |           |                  |
-| Entry price                         |     $12.00      |  $19.00   |      $19.00      |
+| Feature                                       |     Pirsch      | Plausible | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------------: | :-------: | :--------------: |
+| **Core Features**                             |                 |           |                  |
+| Real-time Analytics                           |       ✅        |    ✅     |        ✅        |
+| Custom Events                                 |       ✅        |    ✅     |        ✅        |
+| Page views                                    |       ✅        |    ✅     |        ✅        |
+| Live visitors count                           |       ✅        |    ✅     |        ✅        |
+| UTM Tracking                                  |       ✅        |    ✅     |        ✅        |
+| Device stats (browser, OS, type)              |       ✅        |    ✅     |        ✅        |
+| Email Reports                                 |       ✅        |    ✅     |        ✅        |
+| **Advanced Features**                         |                 |           |                  |
+| Performance Monitoring (Web Vitals)           |       ❌        |    ❌     |        ✅        |
+| User Flow Analysis                            |       ❌        |    ❌     |        ✅        |
+| Error Tracking                                |       ❌        |    ❌     |        ✅        |
+| Alerts / Notifications                        |       ✅        |    ❌     |        ✅        |
+| Geolocation map visualisation                 |       ❌        |    ❌     |        ✅        |
+| Funnels                                       |       ✅        |    ✅     |        ✅        |
+| Segments                                      |       ✅        |    ✅     |        ✅        |
+| Multiple Domains per Site                     |       ✅        |    ❌     |        ✅        |
+| **Growth & Product**                          |                 |           |                  |
+| AI Chat                                       |       ❌        |    ❌     |        ✅        |
+| Goals                                         |       ✅        |    ✅     |        ✅        |
+| Experiments (A/B tests)                       |       ❌        |    ❌     |        ✅        |
+| Feature flags                                 |       ❌        |    ❌     |        ✅        |
+| User Profiles                                 |       ❌        |    ❌     |        ✅        |
+| Revenue analytics                             |       ❌        |    ❌     |        ✅        |
+| Complete SEO overview (Google Search Console) |       ✅        |    ✅     |        ✅        |
+| CAPTCHA                                       |       ❌        |    ❌     |        ✅        |
+| **Security & Access**                         |                 |           |                  |
+| Bot filtering                                 |       ✅        |    ✅     |        ✅        |
+| Two-Factor Authentication (2FA)               |       ❌        |    ✅     |        ✅        |
+| Role-based Access Control                     |       ✅        |    ✅     |        ✅        |
+| Shared Dashboards                             |       ✅        |    ✅     |        ✅        |
+| Organisations (Teams)                         |       ✅        |    ❌     |        ✅        |
+| **Privacy & Compliance**                      |                 |           |                  |
+| Cookie-less Tracking                          |       ✅        |    ✅     |        ✅        |
+| Open Source                                   | ⚠️ (Core only)  |    ✅     |        ✅        |
+| Self-hostable                                 | ⚠️ (Enterprise) |    ✅     |        ✅        |
+| EU data residency                             |       ✅        |    ✅     |        ✅        |
+| **Technical specifications**                  |                 |           |                  |
+| Script size                                   |     ~11 KB      |   6 KB    |       6 KB       |
+| API access                                    |       ✅        |    ✅     |        ✅        |
+| Bypass adblockers                             |       ✅        |    ✅     |        ✅        |
+| **Pricing & Support**                         |                 |           |                  |
+| Entry price                                   |     $12.00      |  $19.00   |      $19.00      |
 
 <br>
 

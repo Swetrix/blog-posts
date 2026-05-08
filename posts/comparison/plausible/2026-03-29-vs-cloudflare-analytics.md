@@ -50,44 +50,45 @@ Cloudflare Analytics is a free add-on primarily designed for users already withi
 
 Let's look at the hard facts. Here is a comprehensive feature comparison to help you see exactly what you get with each platform.
 
-| Feature                             | Plausible |          Cloudflare Analytics           | ::SWETRIX_LOGO:: |
-| :---------------------------------- | :-------: | :-------------------------------------: | :--------------: |
-| **Core Features**                   |           |                                         |                  |
-| Real-time Analytics                 |    ✅     |                   ✅                    |        ✅        |
-| Page views                          |    ✅     |                   ✅                    |        ✅        |
-| Device stats (browser, OS, type)    |    ✅     |                   ✅                    |        ✅        |
-| Custom Events                       |    ✅     |                   ❌                    |        ✅        |
-| Live visitors count                 |    ✅     |                   ❌                    |        ✅        |
-| UTM Tracking                        |    ✅     |                   ❌                    |        ✅        |
-| Entry/Exit pages                    |    ✅     |                   ❌                    |        ✅        |
-| Session duration metrics            |    ✅     |                   ❌                    |        ✅        |
-| Email Reports                       |    ✅     |                   ❌                    |        ✅        |
-| **Advanced Features**               |           |                                         |                  |
-| Performance Monitoring (Web Vitals) |    ❌     |                   ✅                    |        ✅        |
-| Segments                            |    ✅     |                  Basic                  |        ✅        |
-| User Flow Analysis                  |    ❌     |                   ❌                    |        ✅        |
-| Error Tracking                      |    ❌     |                   ❌                    |        ✅        |
-| Alerts / Notifications              |    ❌     |                   ❌                    |        ✅        |
-| Geolocation map visualisation       |    ❌     |                 Limited                 |        ✅        |
-| Funnels                             |    ✅     |                   ❌                    |        ✅        |
-| Multiple Domains per Site           |    ❌     |                   ❌                    |        ✅        |
-| **Growth & Product**                |           |                                         |                  |
-| AI Chat                             |    ❌     |                   ❌                    |        ✅        |
-| Goals                               |    ✅     |                   ❌                    |        ✅        |
-| Experiments (A/B tests)             |    ❌     |                   ❌                    |        ✅        |
-| Feature flags                       |    ❌     |                   ❌                    |        ✅        |
-| User Profiles                       |    ❌     |                   ❌                    |        ✅        |
-| Revenue analytics                   |    ❌     |                   ❌                    |        ✅        |
-| **Data Quality & Ownership**        |           |                                         |                  |
-| Data Sampling                       | 0% (None) | 10% (only 1 of 10 visitors are counted) |    0% (None)     |
-| Data Retention                      | Unlimited |                6 months                 |    Unlimited     |
-| Data Export                         |    ✅     |                   ❌                    |        ✅        |
-| CDN Independent                     |    ✅     |                   ❌                    |        ✅        |
-| Open Source                         |    ✅     |                   ❌                    |        ✅        |
-| Self-hostable                       |    ✅     |                   ❌                    |        ✅        |
-| **Pricing & Support**               |           |                                         |                  |
-| Entry price                         |  $19.00   |                 Free\*                  |      $19.00      |
-| Customer support                    |    ✅     |                   ❌                    |        ✅        |
+| Feature                                       | Plausible |          Cloudflare Analytics           | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------: | :-------------------------------------: | :--------------: |
+| **Core Features**                             |           |                                         |                  |
+| Real-time Analytics                           |    ✅     |                   ✅                    |        ✅        |
+| Page views                                    |    ✅     |                   ✅                    |        ✅        |
+| Device stats (browser, OS, type)              |    ✅     |                   ✅                    |        ✅        |
+| Custom Events                                 |    ✅     |                   ❌                    |        ✅        |
+| Live visitors count                           |    ✅     |                   ❌                    |        ✅        |
+| UTM Tracking                                  |    ✅     |                   ❌                    |        ✅        |
+| Entry/Exit pages                              |    ✅     |                   ❌                    |        ✅        |
+| Session duration metrics                      |    ✅     |                   ❌                    |        ✅        |
+| Email Reports                                 |    ✅     |                   ❌                    |        ✅        |
+| **Advanced Features**                         |           |                                         |                  |
+| Performance Monitoring (Web Vitals)           |    ❌     |                   ✅                    |        ✅        |
+| Segments                                      |    ✅     |                  Basic                  |        ✅        |
+| User Flow Analysis                            |    ❌     |                   ❌                    |        ✅        |
+| Error Tracking                                |    ❌     |                   ❌                    |        ✅        |
+| Alerts / Notifications                        |    ❌     |                   ❌                    |        ✅        |
+| Geolocation map visualisation                 |    ❌     |                 Limited                 |        ✅        |
+| Funnels                                       |    ✅     |                   ❌                    |        ✅        |
+| Multiple Domains per Site                     |    ❌     |                   ❌                    |        ✅        |
+| **Growth & Product**                          |           |                                         |                  |
+| AI Chat                                       |    ❌     |                   ❌                    |        ✅        |
+| Goals                                         |    ✅     |                   ❌                    |        ✅        |
+| Experiments (A/B tests)                       |    ❌     |                   ❌                    |        ✅        |
+| Feature flags                                 |    ❌     |                   ❌                    |        ✅        |
+| User Profiles                                 |    ❌     |                   ❌                    |        ✅        |
+| Revenue analytics                             |    ❌     |                   ❌                    |        ✅        |
+| Complete SEO overview (Google Search Console) |    ✅     |                   ❌                    |        ✅        |
+| **Data Quality & Ownership**                  |           |                                         |                  |
+| Data Sampling                                 | 0% (None) | 10% (only 1 of 10 visitors are counted) |    0% (None)     |
+| Data Retention                                | Unlimited |                6 months                 |    Unlimited     |
+| Data Export                                   |    ✅     |                   ❌                    |        ✅        |
+| CDN Independent                               |    ✅     |                   ❌                    |        ✅        |
+| Open Source                                   |    ✅     |                   ❌                    |        ✅        |
+| Self-hostable                                 |    ✅     |                   ❌                    |        ✅        |
+| **Pricing & Support**                         |           |                                         |                  |
+| Entry price                                   |  $19.00   |                 Free\*                  |      $19.00      |
+| Customer support                              |    ✅     |                   ❌                    |        ✅        |
 
 <br>
 

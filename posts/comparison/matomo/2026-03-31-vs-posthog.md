@@ -51,44 +51,45 @@ PostHog is an immensely powerful, VC-backed product analytics platform. It is de
 
 Let's look at the technical capabilities of these tools. Here is how Matomo and PostHog compare against Swetrix.
 
-| Feature                    |         Matomo          |         PostHog         |    ::SWETRIX_LOGO::     |
-| :------------------------- | :---------------------: | :---------------------: | :---------------------: |
-| **Core Features**          |                         |                         |                         |
-| Real-time Analytics        |           ✅            |           ✅            |           ✅            |
-| Custom Events              |           ✅            |           ✅            |           ✅            |
-| Page views                 |           ✅            |           ✅            |           ✅            |
-| UTM Tracking               |           ✅            |           ✅            |           ✅            |
-| Device stats (browser, OS) |           ✅            |           ✅            |           ✅            |
-| Email Reports              |           ✅            |           ✅            |           ✅            |
-| Geolocation data           |           ✅            |          Full           |          Full           |
-| **Advanced Features**      |                         |                         |                         |
-| Performance Monitoring     |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
-| User Flow Analysis         |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
-| Error Tracking             |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
-| Alerts / Notifications     |           ❌            |           ✅            |           ✅            |
-| Funnels                    |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
-| Custom dashboards          |           ❌            |           ✅            |           ❌            |
-| Multiple Domains per Site  |           ✅            |           ✅            |           ✅            |
-| **Growth & Product**       |                         |                         |                         |
-| AI Chat                    |           ❌            |           ✅            |           ✅            |
-| Experiments (A/B tests)    |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
-| Feature flags              |           ❌            |           ✅            |           ✅            |
-| Revenue analytics          |     ✅ (Ecommerce)      |           ✅            |           ✅            |
-| Session recordings         |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ❌            |
-| SQL Access                 |           ❌            |           ✅            |           ❌            |
-| **Security & Access**      |                         |                         |                         |
-| Bot filtering              |           ✅            |           ✅            |           ✅            |
-| Two-Factor Authentication  |           ✅            |           ✅            |           ✅            |
-| Role-based Access Control  |           ✅            |           ✅            |           ✅            |
-| Organisations (Teams)      |           ✅            |           ✅            |           ✅            |
-| **Privacy & Compliance**   |                         |                         |                         |
-| Cookie-less by default     |           ❌            |           ❌            |           ✅            |
-| Open Source                |           ✅            |     ✅ (Open Core)      |           ✅            |
-| Easy Self-hosting          |     ❌ (Heavy PHP)      | ❌ (Distributed System) | ✅ (Lightweight Docker) |
-| **Technical & Pricing**    |                         |                         |                         |
-| Script size                |         > 60 KB         |         > 30 KB         |          ~6 KB          |
-| Pricing Model              | Subscriptions / Plugins |       Usage-based       |        Flat fee         |
-| Cloud Entry price          |     €22.00 ( ~$25)      |  Free / Pay-as-you-go   |         $19.00          |
+| Feature                                       |         Matomo          |         PostHog         |    ::SWETRIX_LOGO::     |
+| :-------------------------------------------- | :---------------------: | :---------------------: | :---------------------: |
+| **Core Features**                             |                         |                         |                         |
+| Real-time Analytics                           |           ✅            |           ✅            |           ✅            |
+| Custom Events                                 |           ✅            |           ✅            |           ✅            |
+| Page views                                    |           ✅            |           ✅            |           ✅            |
+| UTM Tracking                                  |           ✅            |           ✅            |           ✅            |
+| Device stats (browser, OS)                    |           ✅            |           ✅            |           ✅            |
+| Email Reports                                 |           ✅            |           ✅            |           ✅            |
+| Geolocation data                              |           ✅            |          Full           |          Full           |
+| **Advanced Features**                         |                         |                         |                         |
+| Performance Monitoring                        |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
+| User Flow Analysis                            |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
+| Error Tracking                                |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
+| Alerts / Notifications                        |           ❌            |           ✅            |           ✅            |
+| Funnels                                       |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
+| Custom dashboards                             |           ❌            |           ✅            |           ❌            |
+| Multiple Domains per Site                     |           ✅            |           ✅            |           ✅            |
+| **Growth & Product**                          |                         |                         |                         |
+| AI Chat                                       |           ❌            |           ✅            |           ✅            |
+| Experiments (A/B tests)                       |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
+| Feature flags                                 |           ❌            |           ✅            |           ✅            |
+| Revenue analytics                             |     ✅ (Ecommerce)      |           ✅            |           ✅            |
+| Complete SEO overview (Google Search Console) |  ⚠️ Paid Plugin / $$$$  |           ❌            |           ✅            |
+| Session recordings                            |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ❌            |
+| SQL Access                                    |           ❌            |           ✅            |           ❌            |
+| **Security & Access**                         |                         |                         |                         |
+| Bot filtering                                 |           ✅            |           ✅            |           ✅            |
+| Two-Factor Authentication                     |           ✅            |           ✅            |           ✅            |
+| Role-based Access Control                     |           ✅            |           ✅            |           ✅            |
+| Organisations (Teams)                         |           ✅            |           ✅            |           ✅            |
+| **Privacy & Compliance**                      |                         |                         |                         |
+| Cookie-less by default                        |           ❌            |           ❌            |           ✅            |
+| Open Source                                   |           ✅            |     ✅ (Open Core)      |           ✅            |
+| Easy Self-hosting                             |     ❌ (Heavy PHP)      | ❌ (Distributed System) | ✅ (Lightweight Docker) |
+| **Technical & Pricing**                       |                         |                         |                         |
+| Script size                                   |         > 60 KB         |         > 30 KB         |          ~6 KB          |
+| Pricing Model                                 | Subscriptions / Plugins |       Usage-based       |        Flat fee         |
+| Cloud Entry price                             |     €22.00 ( ~$25)      |  Free / Pay-as-you-go   |         $19.00          |
 
 <br>
 
@@ -115,6 +116,7 @@ Here is why Swetrix is the perfect alternative to Matomo and PostHog:
 - **Powerful yet Simple:** We give you deep insights—like Performance Monitoring, Error Tracking, and User Flow analysis—in a beautifully pre-configured dashboard. You get the actionable data of PostHog without needing to write SQL or build custom charts.
 - **Easy Self-Hosting:** Unlike PostHog's massive distributed system or Matomo's legacy PHP stack, Swetrix is incredibly lightweight. You can deploy a fully functional instance via Docker on a modest VPS in about 5 minutes.
 - **Predictable, Flat-Rate Pricing:** Swetrix offers predictable, flat-rate pricing. You know exactly what you will pay each month, regardless of sudden traffic spikes. We don't punish you for success with usage-based bills.
+- **Advanced Bot Blocking:** Swetrix gives you configurable bot blocking controls, so automated traffic is easier to keep out of your reports before it distorts metrics or creates billing anxiety.
 - **All-Inclusive Features:** Advanced tools like A/B Testing, Feature Flags, Funnels, and real-time alerts are included directly out of the box. No hidden premium plugins required.
 
 If you want advanced product analytics that are easy to use, easy to host, and predictably priced, Swetrix is the definitive upgrade for your business.

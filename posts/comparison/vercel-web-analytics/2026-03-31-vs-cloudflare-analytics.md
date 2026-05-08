@@ -51,41 +51,42 @@ Cloudflare Analytics is a feature offered to users of Cloudflare's massive CDN a
 
 Here is a direct side-by-side comparison of the features offered by Vercel Web Analytics, Cloudflare Analytics, and Swetrix.
 
-| Feature                          | Vercel Web Analytics  |    Cloudflare Analytics    | ::SWETRIX_LOGO:: |
-| :------------------------------- | :-------------------: | :------------------------: | :--------------: |
-| **Core Features**                |                       |                            |                  |
-| Real-time Analytics              |          ✅           |             ✅             |        ✅        |
-| Custom Events                    |          ✅           |             ❌             |        ✅        |
-| Page views                       |          ✅           |             ✅             |        ✅        |
-| Live visitors count              |          ✅           |             ❌             |        ✅        |
-| UTM Tracking                     |          ✅           |             ❌             |        ✅        |
-| Device stats (browser, OS, type) |          ✅           |             ✅             |        ✅        |
-| Email Reports                    |          ❌           |             ❌             |        ✅        |
-| **Advanced Features**            |                       |                            |                  |
-| Performance Monitoring           |  ✅ (Separate tool)   |             ✅             |        ✅        |
-| User Flow Analysis               |          ❌           |             ❌             |        ✅        |
-| Error Tracking                   |          ❌           |             ❌             |        ✅        |
-| Alerts / Notifications           |          ❌           |             ❌             |        ✅        |
-| Geolocation map visualisation    |          ❌           |          Limited           |        ✅        |
-| Funnels                          |          ❌           |             ❌             |        ✅        |
-| Segments                         |          ✅           |           Basic            |        ✅        |
-| Multiple Domains per Site        |          ❌           |             ❌             |        ✅        |
-| **Data Quality & Ownership**     |                       |                            |                  |
-| Data Sampling                    |       0% (None)       | 10% (only 1 of 10 counted) |    0% (None)     |
-| Data Retention                   | Limited (1-12 months) |          6 months          |    Unlimited     |
-| Platform / CDN Independent       |   ❌ (Vercel only)    |    ❌ (Cloudflare only)    |        ✅        |
-| **Growth & Product**             |                       |                            |                  |
-| AI Chat                          |          ❌           |             ❌             |        ✅        |
-| Goals                            |          ❌           |             ❌             |        ✅        |
-| Experiments (A/B tests)          |          ❌           |             ❌             |        ✅        |
-| Feature flags                    |          ❌           |             ❌             |        ✅        |
-| User Profiles                    |          ❌           |             ❌             |        ✅        |
-| Revenue analytics                |          ❌           |             ❌             |        ✅        |
-| **Privacy & Compliance**         |                       |                            |                  |
-| Cookie-less Tracking             |          ✅           |             ✅             |        ✅        |
-| Open Source                      |          ❌           |             ❌             |        ✅        |
-| Self-hostable                    |          ❌           |             ❌             |        ✅        |
-| EU data residency                |       ⚠️ Global       |             ❌             |        ✅        |
+| Feature                                       | Vercel Web Analytics  |    Cloudflare Analytics    | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------------------: | :------------------------: | :--------------: |
+| **Core Features**                             |                       |                            |                  |
+| Real-time Analytics                           |          ✅           |             ✅             |        ✅        |
+| Custom Events                                 |          ✅           |             ❌             |        ✅        |
+| Page views                                    |          ✅           |             ✅             |        ✅        |
+| Live visitors count                           |          ✅           |             ❌             |        ✅        |
+| UTM Tracking                                  |          ✅           |             ❌             |        ✅        |
+| Device stats (browser, OS, type)              |          ✅           |             ✅             |        ✅        |
+| Email Reports                                 |          ❌           |             ❌             |        ✅        |
+| **Advanced Features**                         |                       |                            |                  |
+| Performance Monitoring                        |  ✅ (Separate tool)   |             ✅             |        ✅        |
+| User Flow Analysis                            |          ❌           |             ❌             |        ✅        |
+| Error Tracking                                |          ❌           |             ❌             |        ✅        |
+| Alerts / Notifications                        |          ❌           |             ❌             |        ✅        |
+| Geolocation map visualisation                 |          ❌           |          Limited           |        ✅        |
+| Funnels                                       |          ❌           |             ❌             |        ✅        |
+| Segments                                      |          ✅           |           Basic            |        ✅        |
+| Multiple Domains per Site                     |          ❌           |             ❌             |        ✅        |
+| **Data Quality & Ownership**                  |                       |                            |                  |
+| Data Sampling                                 |       0% (None)       | 10% (only 1 of 10 counted) |    0% (None)     |
+| Data Retention                                | Limited (1-12 months) |          6 months          |    Unlimited     |
+| Platform / CDN Independent                    |   ❌ (Vercel only)    |    ❌ (Cloudflare only)    |        ✅        |
+| **Growth & Product**                          |                       |                            |                  |
+| AI Chat                                       |          ❌           |             ❌             |        ✅        |
+| Goals                                         |          ❌           |             ❌             |        ✅        |
+| Experiments (A/B tests)                       |          ❌           |             ❌             |        ✅        |
+| Feature flags                                 |          ❌           |             ❌             |        ✅        |
+| User Profiles                                 |          ❌           |             ❌             |        ✅        |
+| Revenue analytics                             |          ❌           |             ❌             |        ✅        |
+| Complete SEO overview (Google Search Console) |          ❌           |             ❌             |        ✅        |
+| **Privacy & Compliance**                      |                       |                            |                  |
+| Cookie-less Tracking                          |          ✅           |             ✅             |        ✅        |
+| Open Source                                   |          ❌           |             ❌             |        ✅        |
+| Self-hostable                                 |          ❌           |             ❌             |        ✅        |
+| EU data residency                             |       ⚠️ Global       |             ❌             |        ✅        |
 
 <br>
 
@@ -112,6 +113,7 @@ Why Swetrix is the superior alternative to built-in trackers:
 - **100% Accurate Data:** We never sample your data. Every single visitor and pageview is counted accurately, giving you absolute confidence in your metrics.
 - **Unlimited Retention:** Swetrix allows you to keep your historical data indefinitely, so you can track year-over-year growth without worrying about your data being deleted after 6 months.
 - **Total Independence:** Host your site on Vercel, use Cloudflare for DNS, or migrate to AWS tomorrow. Swetrix tracks your data reliably across any infrastructure, ensuring you are never locked in.
+- **Advanced Bot Blocking Controls:** Block unwanted automated traffic without tying your analytics to Cloudflare's CDN or Vercel's hosting layer.
 - **Deep Product Insights:** Beyond simple page views, Swetrix offers User Flow Analysis, Conversion Funnels, and JavaScript Error Tracking to give you a complete picture of your user experience.
 - **Modern Growth Tools:** Stop passively watching traffic. Swetrix includes built-in A/B Testing, Feature Flags, and an AI Chat assistant to actively help you improve your website.
 

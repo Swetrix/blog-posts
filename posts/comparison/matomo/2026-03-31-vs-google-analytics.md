@@ -51,46 +51,47 @@ Google Analytics is the default choice for millions of websites worldwide. The t
 
 Let's take a closer look at the actual features provided by these platforms. The following table highlights how Matomo and Google Analytics stack up against Swetrix across various categories.
 
-| Feature                    |        Matomo         |         Google Analytics          | ::SWETRIX_LOGO:: |
-| :------------------------- | :-------------------: | :-------------------------------: | :--------------: |
-| **Core Features**          |                       |                                   |                  |
-| Real-time Analytics        |          ✅           |                ❌                 |        ✅        |
-| Page views                 |          ✅           |                ✅                 |        ✅        |
-| Custom Events              |          ✅           |                ✅                 |        ✅        |
-| Live visitors count        |          ✅           |                ✅                 |        ✅        |
-| UTM Tracking               |          ✅           |                ✅                 |        ✅        |
-| Email Reports              |          ✅           |                ❌                 |        ✅        |
-| Modern, intuitive UI       |          ❌           |                ❌                 |        ✅        |
-| Easy setup                 |          ❌           |                ❌                 |        ✅        |
-| Device stats (browser, OS) |          ✅           |                ✅                 |        ✅        |
-| **Advanced Features**      |                       |                                   |                  |
-| Performance Monitoring     | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ✅        |
-| User Flow Analysis         | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ✅        |
-| Funnels                    | ⚠️ Paid Plugin / $$$$ |                ✅                 |        ✅        |
-| Error Tracking             | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ✅        |
-| Heatmaps                   | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ❌        |
-| Multiple Domains per Site  |          ✅           |                ❌                 |        ✅        |
-| Alerts / Notifications     |          ❌           |                ❌                 |        ✅        |
-| **Growth & Product**       |                       |                                   |                  |
-| AI Chat                    |          ❌           |                ✅                 |        ✅        |
-| Goals                      |          ✅           |                ✅                 |        ✅        |
-| Experiments (A/B tests)    | ⚠️ Paid Plugin / $$$$ |      ❌ (Requires 3rd party)      |        ✅        |
-| Feature flags              |          ❌           |                ❌                 |        ✅        |
-| User Profiles              |          ✅           |                ✅                 |        ✅        |
-| Revenue analytics          |    ✅ (Ecommerce)     |                ❌                 |        ✅        |
-| **Privacy & Compliance**   |                       |                                   |                  |
-| Cookie-less by default     |          ❌           |                ❌                 |        ✅        |
-| Privacy compliance         |   ✅ (With config)    | ❌ (Illegal in some EU countries) |        ✅        |
-| Data Ownership             |      You (100%)       |        Google (for Ads/AI)        |    You (100%)    |
-| Open Source                |          ✅           |                ❌                 |        ✅        |
-| Self-hostable              |          ✅           |                ❌                 |        ✅        |
-| EU data residency          |          ✅           |                ❌                 |        ✅        |
-| **Technical & Pricing**    |                       |                                   |                  |
-| Data Sampling              |       0% (None)       |   Heavy (Data is approximated)    |    0% (None)     |
-| Script size                |        > 60 KB        |               74 KB               |      ~6 KB       |
-| API access                 |          ✅           |                ✅                 |        ✅        |
-| Entry price                |    €22.00 ( ~$25)     |              Free\*               |      $19.00      |
-| Human customer support     | ⚠️ Paid option / $$$$ |                ❌                 |        ✅        |
+| Feature                                       |        Matomo         |         Google Analytics          | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------------------: | :-------------------------------: | :--------------: |
+| **Core Features**                             |                       |                                   |                  |
+| Real-time Analytics                           |          ✅           |                ❌                 |        ✅        |
+| Page views                                    |          ✅           |                ✅                 |        ✅        |
+| Custom Events                                 |          ✅           |                ✅                 |        ✅        |
+| Live visitors count                           |          ✅           |                ✅                 |        ✅        |
+| UTM Tracking                                  |          ✅           |                ✅                 |        ✅        |
+| Email Reports                                 |          ✅           |                ❌                 |        ✅        |
+| Modern, intuitive UI                          |          ❌           |                ❌                 |        ✅        |
+| Easy setup                                    |          ❌           |                ❌                 |        ✅        |
+| Device stats (browser, OS)                    |          ✅           |                ✅                 |        ✅        |
+| **Advanced Features**                         |                       |                                   |                  |
+| Performance Monitoring                        | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ✅        |
+| User Flow Analysis                            | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ✅        |
+| Funnels                                       | ⚠️ Paid Plugin / $$$$ |                ✅                 |        ✅        |
+| Error Tracking                                | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ✅        |
+| Heatmaps                                      | ⚠️ Paid Plugin / $$$$ |                ❌                 |        ❌        |
+| Multiple Domains per Site                     |          ✅           |                ❌                 |        ✅        |
+| Alerts / Notifications                        |          ❌           |                ❌                 |        ✅        |
+| **Growth & Product**                          |                       |                                   |                  |
+| AI Chat                                       |          ❌           |                ✅                 |        ✅        |
+| Goals                                         |          ✅           |                ✅                 |        ✅        |
+| Experiments (A/B tests)                       | ⚠️ Paid Plugin / $$$$ |      ❌ (Requires 3rd party)      |        ✅        |
+| Feature flags                                 |          ❌           |                ❌                 |        ✅        |
+| User Profiles                                 |          ✅           |                ✅                 |        ✅        |
+| Revenue analytics                             |    ✅ (Ecommerce)     |                ❌                 |        ✅        |
+| Complete SEO overview (Google Search Console) | ⚠️ Paid Plugin / $$$$ |                ✅                 |        ✅        |
+| **Privacy & Compliance**                      |                       |                                   |                  |
+| Cookie-less by default                        |          ❌           |                ❌                 |        ✅        |
+| Privacy compliance                            |   ✅ (With config)    | ❌ (Illegal in some EU countries) |        ✅        |
+| Data Ownership                                |      You (100%)       |        Google (for Ads/AI)        |    You (100%)    |
+| Open Source                                   |          ✅           |                ❌                 |        ✅        |
+| Self-hostable                                 |          ✅           |                ❌                 |        ✅        |
+| EU data residency                             |          ✅           |                ❌                 |        ✅        |
+| **Technical & Pricing**                       |                       |                                   |                  |
+| Data Sampling                                 |       0% (None)       |   Heavy (Data is approximated)    |    0% (None)     |
+| Script size                                   |        > 60 KB        |               74 KB               |      ~6 KB       |
+| API access                                    |          ✅           |                ✅                 |        ✅        |
+| Entry price                                   |    €22.00 ( ~$25)     |              Free\*               |      $19.00      |
+| Human customer support                        | ⚠️ Paid option / $$$$ |                ❌                 |        ✅        |
 
 <br>
 

@@ -50,43 +50,44 @@ Cloudflare Analytics is a free add on for users within the Cloudflare ecosystem.
 
 Here is a side by side look at the features of Pirsch, Cloudflare Analytics, and Swetrix.
 
-| Feature                             |     Pirsch      |        Cloudflare Analytics         | ::SWETRIX_LOGO:: |
-| :---------------------------------- | :-------------: | :---------------------------------: | :--------------: |
-| **Core Features**                   |                 |                                     |                  |
-| Real-time Analytics                 |       ✅        |                 ✅                  |        ✅        |
-| Custom Events                       |       ✅        |                 ❌                  |        ✅        |
-| Page views                          |       ✅        |                 ✅                  |        ✅        |
-| Live visitors count                 |       ✅        |                 ❌                  |        ✅        |
-| UTM Tracking                        |       ✅        |                 ❌                  |        ✅        |
-| Device stats (browser, OS, type)    |       ✅        |                 ✅                  |        ✅        |
-| **Advanced Features**               |                 |                                     |                  |
-| Performance Monitoring (Web Vitals) |       ❌        |                 ✅                  |        ✅        |
-| User Flow Analysis                  |       ❌        |                 ❌                  |        ✅        |
-| Error Tracking                      |       ❌        |                 ❌                  |        ✅        |
-| Alerts / Notifications              |       ✅        |                 ❌                  |        ✅        |
-| Geolocation map visualisation       |       ❌        |               Limited               |        ✅        |
-| Funnels                             |       ✅        |                 ❌                  |        ✅        |
-| Segments                            |       ✅        |                Basic                |        ✅        |
-| Multiple Domains per Site           |       ✅        |                 ❌                  |        ✅        |
-| **Growth & Product**                |                 |                                     |                  |
-| AI Chat                             |       ❌        |                 ❌                  |        ✅        |
-| Goals                               |       ✅        |                 ❌                  |        ✅        |
-| Experiments (A/B tests)             |       ❌        |                 ❌                  |        ✅        |
-| Feature flags                       |       ❌        |                 ❌                  |        ✅        |
-| User Profiles                       |       ❌        |                 ❌                  |        ✅        |
-| Revenue analytics                   |       ❌        |                 ❌                  |        ✅        |
-| CAPTCHA                             |       ❌        |           ✅ (Turnstile)            |        ✅        |
-| **Data Quality & Freedom**          |                 |                                     |                  |
-| Data Sampling                       |    0% (None)    | 10% (only 1 of 10 visitors counted) |    0% (None)     |
-| Data Retention                      |    Unlimited    |              6 months               |    Unlimited     |
-| Vendor Lock-in                      |       ❌        |                 ✅                  |        ❌        |
-| Open Source                         | ⚠️ (Core only)  |                 ❌                  |        ✅        |
-| Self-hostable                       | ⚠️ (Enterprise) |                 ❌                  |        ✅        |
-| **Privacy & Compliance**            |                 |                                     |                  |
-| Cookie-less Tracking                |       ✅        |                 ✅                  |        ✅        |
-| EU data residency                   |       ✅        |                 ❌                  |        ✅        |
-| **Pricing & Support**               |                 |                                     |                  |
-| Entry price                         |     $12.00      |               Free\*                |      $19.00      |
+| Feature                                       |     Pirsch      |        Cloudflare Analytics         | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------------: | :---------------------------------: | :--------------: |
+| **Core Features**                             |                 |                                     |                  |
+| Real-time Analytics                           |       ✅        |                 ✅                  |        ✅        |
+| Custom Events                                 |       ✅        |                 ❌                  |        ✅        |
+| Page views                                    |       ✅        |                 ✅                  |        ✅        |
+| Live visitors count                           |       ✅        |                 ❌                  |        ✅        |
+| UTM Tracking                                  |       ✅        |                 ❌                  |        ✅        |
+| Device stats (browser, OS, type)              |       ✅        |                 ✅                  |        ✅        |
+| **Advanced Features**                         |                 |                                     |                  |
+| Performance Monitoring (Web Vitals)           |       ❌        |                 ✅                  |        ✅        |
+| User Flow Analysis                            |       ❌        |                 ❌                  |        ✅        |
+| Error Tracking                                |       ❌        |                 ❌                  |        ✅        |
+| Alerts / Notifications                        |       ✅        |                 ❌                  |        ✅        |
+| Geolocation map visualisation                 |       ❌        |               Limited               |        ✅        |
+| Funnels                                       |       ✅        |                 ❌                  |        ✅        |
+| Segments                                      |       ✅        |                Basic                |        ✅        |
+| Multiple Domains per Site                     |       ✅        |                 ❌                  |        ✅        |
+| **Growth & Product**                          |                 |                                     |                  |
+| AI Chat                                       |       ❌        |                 ❌                  |        ✅        |
+| Goals                                         |       ✅        |                 ❌                  |        ✅        |
+| Experiments (A/B tests)                       |       ❌        |                 ❌                  |        ✅        |
+| Feature flags                                 |       ❌        |                 ❌                  |        ✅        |
+| User Profiles                                 |       ❌        |                 ❌                  |        ✅        |
+| Revenue analytics                             |       ❌        |                 ❌                  |        ✅        |
+| Complete SEO overview (Google Search Console) |       ✅        |                 ❌                  |        ✅        |
+| CAPTCHA                                       |       ❌        |           ✅ (Turnstile)            |        ✅        |
+| **Data Quality & Freedom**                    |                 |                                     |                  |
+| Data Sampling                                 |    0% (None)    | 10% (only 1 of 10 visitors counted) |    0% (None)     |
+| Data Retention                                |    Unlimited    |              6 months               |    Unlimited     |
+| Vendor Lock-in                                |       ❌        |                 ✅                  |        ❌        |
+| Open Source                                   | ⚠️ (Core only)  |                 ❌                  |        ✅        |
+| Self-hostable                                 | ⚠️ (Enterprise) |                 ❌                  |        ✅        |
+| **Privacy & Compliance**                      |                 |                                     |                  |
+| Cookie-less Tracking                          |       ✅        |                 ✅                  |        ✅        |
+| EU data residency                             |       ✅        |                 ❌                  |        ✅        |
+| **Pricing & Support**                         |                 |                                     |                  |
+| Entry price                                   |     $12.00      |               Free\*                |      $19.00      |
 
 <br>
 
@@ -117,6 +118,7 @@ Here is why Swetrix outperforms both Pirsch and Cloudflare Analytics:
 - **100% Accurate Data:** Swetrix never samples your data and offers unlimited retention. You own your history and the numbers you see are exact.
 - **Deep Technical Insights:** Monitor Core Web Vitals and automatically track JavaScript errors directly within your dashboard. Know exactly when technical issues are impacting your users.
 - **Infrastructure Freedom:** Unlike Cloudflare, Swetrix works with any hosting provider or CDN. You are never locked into a specific vendor.
+- **Advanced Bot Blocking Controls:** Swetrix lets you block noisy automated traffic while keeping analytics independent from your infrastructure provider.
 - **Built in Growth Suite:** Swetrix is a true product analytics platform, featuring built in A/B testing, feature flags, and revenue tracking—tools that neither Pirsch nor Cloudflare offer.
 
 If you are ready for a tool that delivers professional grade insights while respecting user privacy and keeping your data accurate, Swetrix is the clear winner.

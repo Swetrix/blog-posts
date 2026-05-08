@@ -48,53 +48,54 @@ PostHog describes itself as an "OS for product analytics." It is an incredibly f
 
 Here is how the simple and the complex stack up against Swetrix, the balanced middle ground.
 
-| Feature                             |  Umami   |           PostHog           | ::SWETRIX_LOGO:: |
-| :---------------------------------- | :------: | :-------------------------: | :--------------: |
-| **Core Features**                   |          |                             |                  |
-| Real-time Analytics                 |    ✅    |             ✅              |        ✅        |
-| Custom Events                       |    ✅    |             ✅              |        ✅        |
-| Page views                          |    ✅    |             ✅              |        ✅        |
-| Live visitors count                 |    ✅    |             ✅              |        ✅        |
-| UTM Tracking                        |    ✅    |             ✅              |        ✅        |
-| Device stats (browser, OS, type)    |    ✅    |             ✅              |        ✅        |
-| Email Reports                       |    ❌    |             ✅              |        ✅        |
-| Geolocation data                    |  Basic   | Full (Country, State, City) |       Full       |
-| **Advanced Features**               |          |                             |                  |
-| Performance Monitoring (Web Vitals) |    ❌    |             ✅              |        ✅        |
-| User Flow Analysis                  |    ❌    |             ✅              |        ✅        |
-| Error Tracking                      |    ❌    |             ✅              |        ✅        |
-| Alerts / Notifications              |    ❌    |             ✅              |        ✅        |
-| Funnels                             |    ✅    |             ✅              |        ✅        |
-| Multiple Domains per Site           |    ❌    |             ✅              |        ✅        |
-| Custom dashboards                   |    ❌    |             ✅              |        ❌        |
-| **Growth & Product**                |          |                             |                  |
-| AI Chat                             |    ❌    |             ✅              |        ✅        |
-| Goals                               |    ✅    |             ✅              |        ✅        |
-| Experiments (A/B tests)             |    ❌    |             ✅              |        ✅        |
-| Feature flags                       |    ❌    |             ✅              |        ✅        |
-| User Profiles                       |    ❌    |             ✅              |        ✅        |
-| Revenue analytics                   |    ❌    |             ✅              |        ✅        |
-| Session recordings                  |    ❌    |             ✅              |        ❌        |
-| Heatmaps                            |    ❌    |             ✅              |        ❌        |
-| SQL Access                          |    ❌    |             ✅              |        ❌        |
-| CAPTCHA                             |    ❌    |             ❌              |        ✅        |
-| **Security & Access**               |          |                             |                  |
-| Bot filtering                       |    ✅    |             ✅              |        ✅        |
-| Two-Factor Authentication (2FA)     |    ❌    |             ✅              |        ✅        |
-| Role-based Access Control           |    ✅    |             ✅              |        ✅        |
-| Shared Dashboards                   |    ✅    |             ✅              |        ✅        |
-| Organisations (Teams)               |    ✅    |             ✅              |        ✅        |
-| **Privacy & Compliance**            |          |                             |                  |
-| Cookie-less Tracking                |    ✅    |             ✅              |        ✅        |
-| Open Source                         |    ✅    |       ✅ (Open Core)        |        ✅        |
-| Easy Self-hosting                   |    ✅    |             ❌              |        ✅        |
-| EU data residency                   |    ✅    |        ✅ (Optional)        |        ✅        |
-| **Technical specifications**        |          |                             |                  |
-| Script size                         |  <3 KB   |           >30 KB            |       6 KB       |
-| API access                          |    ✅    |             ✅              |        ✅        |
-| **Pricing & Support**               |          |                             |                  |
-| Pricing Model                       | Flat fee |         Usage-based         |     Flat fee     |
-| Entry price                         |   $20    |    Free / Pay-as-you-go     |      $19.00      |
+| Feature                                       |  Umami   |           PostHog           | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :------: | :-------------------------: | :--------------: |
+| **Core Features**                             |          |                             |                  |
+| Real-time Analytics                           |    ✅    |             ✅              |        ✅        |
+| Custom Events                                 |    ✅    |             ✅              |        ✅        |
+| Page views                                    |    ✅    |             ✅              |        ✅        |
+| Live visitors count                           |    ✅    |             ✅              |        ✅        |
+| UTM Tracking                                  |    ✅    |             ✅              |        ✅        |
+| Device stats (browser, OS, type)              |    ✅    |             ✅              |        ✅        |
+| Email Reports                                 |    ❌    |             ✅              |        ✅        |
+| Geolocation data                              |  Basic   | Full (Country, State, City) |       Full       |
+| **Advanced Features**                         |          |                             |                  |
+| Performance Monitoring (Web Vitals)           |    ❌    |             ✅              |        ✅        |
+| User Flow Analysis                            |    ❌    |             ✅              |        ✅        |
+| Error Tracking                                |    ❌    |             ✅              |        ✅        |
+| Alerts / Notifications                        |    ❌    |             ✅              |        ✅        |
+| Funnels                                       |    ✅    |             ✅              |        ✅        |
+| Multiple Domains per Site                     |    ❌    |             ✅              |        ✅        |
+| Custom dashboards                             |    ❌    |             ✅              |        ❌        |
+| **Growth & Product**                          |          |                             |                  |
+| AI Chat                                       |    ❌    |             ✅              |        ✅        |
+| Goals                                         |    ✅    |             ✅              |        ✅        |
+| Experiments (A/B tests)                       |    ❌    |             ✅              |        ✅        |
+| Feature flags                                 |    ❌    |             ✅              |        ✅        |
+| User Profiles                                 |    ❌    |             ✅              |        ✅        |
+| Revenue analytics                             |    ❌    |             ✅              |        ✅        |
+| Complete SEO overview (Google Search Console) |    ❌    |             ❌              |        ✅        |
+| Session recordings                            |    ❌    |             ✅              |        ❌        |
+| Heatmaps                                      |    ❌    |             ✅              |        ❌        |
+| SQL Access                                    |    ❌    |             ✅              |        ❌        |
+| CAPTCHA                                       |    ❌    |             ❌              |        ✅        |
+| **Security & Access**                         |          |                             |                  |
+| Bot filtering                                 |    ✅    |             ✅              |        ✅        |
+| Two-Factor Authentication (2FA)               |    ❌    |             ✅              |        ✅        |
+| Role-based Access Control                     |    ✅    |             ✅              |        ✅        |
+| Shared Dashboards                             |    ✅    |             ✅              |        ✅        |
+| Organisations (Teams)                         |    ✅    |             ✅              |        ✅        |
+| **Privacy & Compliance**                      |          |                             |                  |
+| Cookie-less Tracking                          |    ✅    |             ✅              |        ✅        |
+| Open Source                                   |    ✅    |       ✅ (Open Core)        |        ✅        |
+| Easy Self-hosting                             |    ✅    |             ❌              |        ✅        |
+| EU data residency                             |    ✅    |        ✅ (Optional)        |        ✅        |
+| **Technical specifications**                  |          |                             |                  |
+| Script size                                   |  <3 KB   |           >30 KB            |       6 KB       |
+| API access                                    |    ✅    |             ✅              |        ✅        |
+| **Pricing & Support**                         |          |                             |                  |
+| Pricing Model                                 | Flat fee |         Usage-based         |     Flat fee     |
+| Entry price                                   |   $20    |    Free / Pay-as-you-go     |      $19.00      |
 
 <br>
 
@@ -125,6 +126,7 @@ Why Swetrix is the definitive winner:
 - **Powerful yet Simple:** We give you the deep insights you need (like Performance Monitoring, Error Tracking, and User Flows) in a pre-configured, beautiful dashboard that anyone can understand instantly. No SQL required.
 - **Easy Self-Hosting:** You can get a fully functional Swetrix instance running on a modest VPS in about 5 minutes using Docker. It is significantly more realistic to host than PostHog, while offering far more features than Umami.
 - **Built-in Growth Tools:** Swetrix includes A/B testing and Feature Flags directly out of the box, allowing you to optimize your site without needing a complex platform.
+- **Advanced Bot Blocking:** Configurable bot blocking controls help keep automated traffic out of your reports before it skews product decisions or pricing assumptions.
 - **Predictable Pricing:** We offer predictable, flat-rate pricing. You know exactly what you will pay each month, regardless of sudden traffic spikes. We don't punish you for success.
 
 If you are a large enterprise data team, PostHog is fantastic. But if you want advanced analytics that are easy to use, easy to host, and predictably priced, Swetrix is the clear winner.

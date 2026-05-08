@@ -51,49 +51,50 @@ Simple Analytics is exactly what it sounds like. It is a proprietary platform bu
 
 Let us take a detailed look at how Rybbit and Simple Analytics compare to the feature set of Swetrix.
 
-| Feature                             | Rybbit |   Simple Analytics   |      ::SWETRIX_LOGO::       |
-| :---------------------------------- | :----: | :------------------: | :-------------------------: |
-| **Core Features**                   |        |                      |                             |
-| Real-time Analytics                 |   ✅   |          ✅          |             ✅              |
-| Custom Events                       |   ✅   |          ✅          |             ✅              |
-| Page views                          |   ✅   |          ✅          |             ✅              |
-| Live visitors count                 |   ✅   |          ✅          |             ✅              |
-| UTM Tracking                        |   ✅   |          ✅          |             ✅              |
-| Device stats (browser, OS, type)    |   ✅   |          ✅          |             ✅              |
-| Email Reports                       |   ✅   |          ✅          |             ✅              |
-| Geolocation data                    |   ✅   | Basic (Country only) | Full (Country, State, City) |
-| **Advanced Features**               |        |                      |                             |
-| Performance Monitoring (Web Vitals) |   ✅   |          ❌          |             ✅              |
-| User Flow Analysis                  |   ✅   |          ❌          |             ✅              |
-| Error Tracking                      |   ✅   |          ❌          |             ✅              |
-| Alerts / Notifications              |   ❌   |          ❌          |             ✅              |
-| Geolocation map visualisation       |   ✅   |          ❌          |             ✅              |
-| Funnels                             |   ✅   |          ❌          |             ✅              |
-| Segments                            |   ✅   |          ❌          |             ✅              |
-| Multiple Domains per Site           |   ✅   |          ❌          |             ✅              |
-| **Growth & Product**                |        |                      |                             |
-| AI Chat                             |   ❌   |          ✅          |             ✅              |
-| Goals                               |   ✅   |          ✅          |             ✅              |
-| Experiments (A/B tests)             |   ❌   |          ❌          |             ✅              |
-| Feature flags                       |   ❌   |          ❌          |             ✅              |
-| User Profiles                       |   ✅   |          ❌          |             ✅              |
-| Revenue analytics                   |   ❌   |          ❌          |             ✅              |
-| CAPTCHA                             |   ❌   |          ❌          |             ✅              |
-| **Security & Access**               |        |                      |                             |
-| Bot filtering                       |   ✅   |          ✅          |             ✅              |
-| Two-Factor Authentication (2FA)     |   ❌   |          ❌          |             ✅              |
-| Role-based Access Control           |   ✅   |          ❌          |             ✅              |
-| Shared Dashboards                   |   ✅   |          ✅          |             ✅              |
-| Organisations (Teams)               |   ✅   |          ✅          |             ✅              |
-| **Privacy & Compliance**            |        |                      |                             |
-| Cookie-less Tracking                |   ✅   |          ✅          |             ✅              |
-| Open Source                         |   ✅   |          ❌          |             ✅              |
-| Self-hostable                       |   ✅   |          ❌          |             ✅              |
-| EU data residency                   |   ✅   |          ✅          |             ✅              |
-| **Technical specifications**        |        |                      |                             |
-| Script size                         | ~18 KB |        >7 KB         |            6 KB             |
-| API access                          |   ✅   |          ✅          |             ✅              |
-| Bypass adblockers                   |   ✅   |          ✅          |             ✅              |
+| Feature                                       | Rybbit |   Simple Analytics   |      ::SWETRIX_LOGO::       |
+| :-------------------------------------------- | :----: | :------------------: | :-------------------------: |
+| **Core Features**                             |        |                      |                             |
+| Real-time Analytics                           |   ✅   |          ✅          |             ✅              |
+| Custom Events                                 |   ✅   |          ✅          |             ✅              |
+| Page views                                    |   ✅   |          ✅          |             ✅              |
+| Live visitors count                           |   ✅   |          ✅          |             ✅              |
+| UTM Tracking                                  |   ✅   |          ✅          |             ✅              |
+| Device stats (browser, OS, type)              |   ✅   |          ✅          |             ✅              |
+| Email Reports                                 |   ✅   |          ✅          |             ✅              |
+| Geolocation data                              |   ✅   | Basic (Country only) | Full (Country, State, City) |
+| **Advanced Features**                         |        |                      |                             |
+| Performance Monitoring (Web Vitals)           |   ✅   |          ❌          |             ✅              |
+| User Flow Analysis                            |   ✅   |          ❌          |             ✅              |
+| Error Tracking                                |   ✅   |          ❌          |             ✅              |
+| Alerts / Notifications                        |   ❌   |          ❌          |             ✅              |
+| Geolocation map visualisation                 |   ✅   |          ❌          |             ✅              |
+| Funnels                                       |   ✅   |          ❌          |             ✅              |
+| Segments                                      |   ✅   |          ❌          |             ✅              |
+| Multiple Domains per Site                     |   ✅   |          ❌          |             ✅              |
+| **Growth & Product**                          |        |                      |                             |
+| AI Chat                                       |   ❌   |          ✅          |             ✅              |
+| Goals                                         |   ✅   |          ✅          |             ✅              |
+| Experiments (A/B tests)                       |   ❌   |          ❌          |             ✅              |
+| Feature flags                                 |   ❌   |          ❌          |             ✅              |
+| User Profiles                                 |   ✅   |          ❌          |             ✅              |
+| Revenue analytics                             |   ❌   |          ❌          |             ✅              |
+| Complete SEO overview (Google Search Console) |   ❌   |          ✅          |             ✅              |
+| CAPTCHA                                       |   ❌   |          ❌          |             ✅              |
+| **Security & Access**                         |        |                      |                             |
+| Bot filtering                                 |   ✅   |          ✅          |             ✅              |
+| Two-Factor Authentication (2FA)               |   ❌   |          ❌          |             ✅              |
+| Role-based Access Control                     |   ✅   |          ❌          |             ✅              |
+| Shared Dashboards                             |   ✅   |          ✅          |             ✅              |
+| Organisations (Teams)                         |   ✅   |          ✅          |             ✅              |
+| **Privacy & Compliance**                      |        |                      |                             |
+| Cookie-less Tracking                          |   ✅   |          ✅          |             ✅              |
+| Open Source                                   |   ✅   |          ❌          |             ✅              |
+| Self-hostable                                 |   ✅   |          ❌          |             ✅              |
+| EU data residency                             |   ✅   |          ✅          |             ✅              |
+| **Technical specifications**                  |        |                      |                             |
+| Script size                                   | ~18 KB |        >7 KB         |            6 KB             |
+| API access                                    |   ✅   |          ✅          |             ✅              |
+| Bypass adblockers                             |   ✅   |          ✅          |             ✅              |
 
 <br>
 

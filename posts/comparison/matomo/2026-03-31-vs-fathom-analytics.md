@@ -51,46 +51,47 @@ Fathom was one of the pioneers of the privacy-focused analytics movement. It pri
 
 Let's dive into the specifics. Here is a side-by-side feature comparison of Matomo, Fathom Analytics, and Swetrix.
 
-| Feature                    |        Matomo         | Fathom Analytics | ::SWETRIX_LOGO:: |
-| :------------------------- | :-------------------: | :--------------: | :--------------: |
-| **Core Features**          |                       |                  |                  |
-| Real-time Analytics        |          ✅           |        ✅        |        ✅        |
-| Custom Events              |          ✅           |        ✅        |        ✅        |
-| Page views                 |          ✅           |        ✅        |        ✅        |
-| Live visitors count        |          ✅           |        ✅        |        ✅        |
-| UTM Tracking               |          ✅           |        ✅        |        ✅        |
-| Device stats (browser, OS) |          ✅           |        ✅        |        ✅        |
-| Email Reports              |          ✅           |        ✅        |        ✅        |
-| Geolocation data           |          ✅           |        ✅        |        ✅        |
-| **Advanced Features**      |                       |                  |                  |
-| Performance Monitoring     | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
-| User Flow Analysis         | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
-| Error Tracking             | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
-| Alerts / Notifications     |          ❌           |        ❌        |        ✅        |
-| Geolocation map            |          ✅           |        ❌        |        ✅        |
-| Funnels                    | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
-| Segments                   |          ✅           |        ❌        |        ✅        |
-| Multiple Domains per Site  |          ✅           |        ✅        |        ✅        |
-| **Growth & Product**       |                       |                  |                  |
-| AI Chat                    |          ❌           |        ❌        |        ✅        |
-| Goals                      |          ✅           |        ✅        |        ✅        |
-| Experiments (A/B tests)    | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
-| Feature flags              |          ❌           |        ❌        |        ✅        |
-| User Profiles              |          ✅           |        ❌        |        ✅        |
-| Revenue analytics          |    ✅ (Ecommerce)     |        ❌        |        ✅        |
-| **Security & Access**      |                       |                  |                  |
-| Bot filtering              |          ✅           |        ✅        |        ✅        |
-| Two-Factor Authentication  |          ✅           |        ✅        |        ✅        |
-| Role-based Access Control  |          ✅           |        ❌        |        ✅        |
-| Organisations (Teams)      |          ✅           |        ❌        |        ✅        |
-| **Privacy & Compliance**   |                       |                  |                  |
-| Cookie-less Tracking       |          ❌           |        ✅        |        ✅        |
-| Open Source                |          ✅           |        ❌        |        ✅        |
-| Self-hostable              |          ✅           |        ❌        |        ✅        |
-| **Technical & Pricing**    |                       |                  |                  |
-| Script size                |        > 60 KB        |       6 KB       |      ~6 KB       |
-| API access                 |          ✅           |        ✅        |        ✅        |
-| Cloud Entry price          |    €22.00 ( ~$25)     |      $15.00      |      $19.00      |
+| Feature                                       |        Matomo         | Fathom Analytics | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------------------: | :--------------: | :--------------: |
+| **Core Features**                             |                       |                  |                  |
+| Real-time Analytics                           |          ✅           |        ✅        |        ✅        |
+| Custom Events                                 |          ✅           |        ✅        |        ✅        |
+| Page views                                    |          ✅           |        ✅        |        ✅        |
+| Live visitors count                           |          ✅           |        ✅        |        ✅        |
+| UTM Tracking                                  |          ✅           |        ✅        |        ✅        |
+| Device stats (browser, OS)                    |          ✅           |        ✅        |        ✅        |
+| Email Reports                                 |          ✅           |        ✅        |        ✅        |
+| Geolocation data                              |          ✅           |        ✅        |        ✅        |
+| **Advanced Features**                         |                       |                  |                  |
+| Performance Monitoring                        | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
+| User Flow Analysis                            | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
+| Error Tracking                                | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
+| Alerts / Notifications                        |          ❌           |        ❌        |        ✅        |
+| Geolocation map                               |          ✅           |        ❌        |        ✅        |
+| Funnels                                       | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
+| Segments                                      |          ✅           |        ❌        |        ✅        |
+| Multiple Domains per Site                     |          ✅           |        ✅        |        ✅        |
+| **Growth & Product**                          |                       |                  |                  |
+| AI Chat                                       |          ❌           |        ❌        |        ✅        |
+| Goals                                         |          ✅           |        ✅        |        ✅        |
+| Experiments (A/B tests)                       | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
+| Feature flags                                 |          ❌           |        ❌        |        ✅        |
+| User Profiles                                 |          ✅           |        ❌        |        ✅        |
+| Revenue analytics                             |    ✅ (Ecommerce)     |        ❌        |        ✅        |
+| Complete SEO overview (Google Search Console) | ⚠️ Paid Plugin / $$$$ |        ❌        |        ✅        |
+| **Security & Access**                         |                       |                  |                  |
+| Bot filtering                                 |          ✅           |        ✅        |        ✅        |
+| Two-Factor Authentication                     |          ✅           |        ✅        |        ✅        |
+| Role-based Access Control                     |          ✅           |        ❌        |        ✅        |
+| Organisations (Teams)                         |          ✅           |        ❌        |        ✅        |
+| **Privacy & Compliance**                      |                       |                  |                  |
+| Cookie-less Tracking                          |          ❌           |        ✅        |        ✅        |
+| Open Source                                   |          ✅           |        ❌        |        ✅        |
+| Self-hostable                                 |          ✅           |        ❌        |        ✅        |
+| **Technical & Pricing**                       |                       |                  |                  |
+| Script size                                   |        > 60 KB        |       6 KB       |      ~6 KB       |
+| API access                                    |          ✅           |        ✅        |        ✅        |
+| Cloud Entry price                             |    €22.00 ( ~$25)     |      $15.00      |      $19.00      |
 
 <br>
 

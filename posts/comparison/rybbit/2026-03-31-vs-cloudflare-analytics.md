@@ -51,41 +51,42 @@ Cloudflare Web Analytics is a built-in feature for users of the Cloudflare netwo
 
 To help you visualize the differences, here is a detailed feature comparison between Rybbit, Cloudflare Analytics, and Swetrix.
 
-| Feature                             |  Rybbit   |          Cloudflare Analytics           | ::SWETRIX_LOGO:: |
-| :---------------------------------- | :-------: | :-------------------------------------: | :--------------: |
-| **Core Features**                   |           |                                         |                  |
-| Real-time Analytics                 |    ✅     |                   ✅                    |        ✅        |
-| Page views                          |    ✅     |                   ✅                    |        ✅        |
-| Device stats (browser, OS, type)    |    ✅     |                   ✅                    |        ✅        |
-| Custom Events                       |    ✅     |                   ❌                    |        ✅        |
-| Live visitors count                 |    ✅     |                   ❌                    |        ✅        |
-| UTM Tracking                        |    ✅     |                   ❌                    |        ✅        |
-| Entry/Exit pages                    |    ✅     |                   ❌                    |        ✅        |
-| Session duration metrics            |    ✅     |                   ❌                    |        ✅        |
-| Email Reports                       |    ✅     |                   ❌                    |        ✅        |
-| **Advanced Features**               |           |                                         |                  |
-| Performance Monitoring (Web Vitals) |    ✅     |                   ✅                    |        ✅        |
-| Segments                            |    ✅     |                  Basic                  |        ✅        |
-| User Flow Analysis                  |    ✅     |                   ❌                    |        ✅        |
-| Error Tracking                      |    ✅     |                   ❌                    |        ✅        |
-| Alerts / Notifications              |    ❌     |                   ❌                    |        ✅        |
-| Geolocation map visualisation       |    ✅     |                 Limited                 |        ✅        |
-| Funnels                             |    ✅     |                   ❌                    |        ✅        |
-| Multiple Domains per Site           |    ✅     |                   ❌                    |        ✅        |
-| **Growth & Product**                |           |                                         |                  |
-| AI Chat                             |    ❌     |                   ❌                    |        ✅        |
-| Goals                               |    ✅     |                   ❌                    |        ✅        |
-| Experiments (A/B tests)             |    ❌     |                   ❌                    |        ✅        |
-| Feature flags                       |    ❌     |                   ❌                    |        ✅        |
-| User Profiles                       |    ✅     |                   ❌                    |        ✅        |
-| Revenue analytics                   |    ❌     |                   ❌                    |        ✅        |
-| CAPTCHA                             |    ❌     |             ✅ (Turnstile)              |        ✅        |
-| **Data Quality & Ownership**        |           |                                         |                  |
-| Data Sampling                       | 0% (None) | 10% (only 1 of 10 visitors are counted) |    0% (None)     |
-| Data Export                         |    ✅     |                   ❌                    |        ✅        |
-| CDN Independent                     |    ✅     |                   ❌                    |        ✅        |
-| Open Source                         |    ✅     |                   ❌                    |        ✅        |
-| Self-hostable                       |    ✅     |                   ❌                    |        ✅        |
+| Feature                                       |  Rybbit   |          Cloudflare Analytics           | ::SWETRIX_LOGO:: |
+| :-------------------------------------------- | :-------: | :-------------------------------------: | :--------------: |
+| **Core Features**                             |           |                                         |                  |
+| Real-time Analytics                           |    ✅     |                   ✅                    |        ✅        |
+| Page views                                    |    ✅     |                   ✅                    |        ✅        |
+| Device stats (browser, OS, type)              |    ✅     |                   ✅                    |        ✅        |
+| Custom Events                                 |    ✅     |                   ❌                    |        ✅        |
+| Live visitors count                           |    ✅     |                   ❌                    |        ✅        |
+| UTM Tracking                                  |    ✅     |                   ❌                    |        ✅        |
+| Entry/Exit pages                              |    ✅     |                   ❌                    |        ✅        |
+| Session duration metrics                      |    ✅     |                   ❌                    |        ✅        |
+| Email Reports                                 |    ✅     |                   ❌                    |        ✅        |
+| **Advanced Features**                         |           |                                         |                  |
+| Performance Monitoring (Web Vitals)           |    ✅     |                   ✅                    |        ✅        |
+| Segments                                      |    ✅     |                  Basic                  |        ✅        |
+| User Flow Analysis                            |    ✅     |                   ❌                    |        ✅        |
+| Error Tracking                                |    ✅     |                   ❌                    |        ✅        |
+| Alerts / Notifications                        |    ❌     |                   ❌                    |        ✅        |
+| Geolocation map visualisation                 |    ✅     |                 Limited                 |        ✅        |
+| Funnels                                       |    ✅     |                   ❌                    |        ✅        |
+| Multiple Domains per Site                     |    ✅     |                   ❌                    |        ✅        |
+| **Growth & Product**                          |           |                                         |                  |
+| AI Chat                                       |    ❌     |                   ❌                    |        ✅        |
+| Goals                                         |    ✅     |                   ❌                    |        ✅        |
+| Experiments (A/B tests)                       |    ❌     |                   ❌                    |        ✅        |
+| Feature flags                                 |    ❌     |                   ❌                    |        ✅        |
+| User Profiles                                 |    ✅     |                   ❌                    |        ✅        |
+| Revenue analytics                             |    ❌     |                   ❌                    |        ✅        |
+| Complete SEO overview (Google Search Console) |    ❌     |                   ❌                    |        ✅        |
+| CAPTCHA                                       |    ❌     |             ✅ (Turnstile)              |        ✅        |
+| **Data Quality & Ownership**                  |           |                                         |                  |
+| Data Sampling                                 | 0% (None) | 10% (only 1 of 10 visitors are counted) |    0% (None)     |
+| Data Export                                   |    ✅     |                   ❌                    |        ✅        |
+| CDN Independent                               |    ✅     |                   ❌                    |        ✅        |
+| Open Source                                   |    ✅     |                   ❌                    |        ✅        |
+| Self-hostable                                 |    ✅     |                   ❌                    |        ✅        |
 
 <br>
 
@@ -115,6 +116,7 @@ Swetrix stands out as the ultimate winner for several compelling reasons:
 
 - **100% Accurate, Unsampled Data:** Unlike Cloudflare, Swetrix tracks every single request. Your numbers are always precise, and with unlimited data retention, you can analyze year-over-year trends without fear of deletion.
 - **True Platform Independence:** Swetrix works perfectly regardless of your hosting provider or CDN. You own your data, and you can export it whenever you want.
+- **Advanced Bot Blocking Controls:** Keep automated traffic out of your reports with controls that do not require locking your analytics to a specific CDN.
 - **Comprehensive Growth Suite:** Swetrix is not just a counter. It includes native A/B Testing, Feature Flags, and Revenue Tracking, allowing you to optimize your product directly from your dashboard.
 - **Deep Visual Insights:** Understand exactly how users navigate your website with detailed User Flow Analysis, customizable Funnels, and interactive Geolocation maps—features that Cloudflare completely lacks.
 - **Proactive Monitoring and Security:** Swetrix alerts you via email, Slack, or Discord the moment traffic spikes or a JavaScript error occurs. Furthermore, your account is protected with robust Two-Factor Authentication (2FA).

@@ -51,48 +51,49 @@ Vercel Web Analytics is a convenient add-on for developers already using Vercel 
 
 Let's look at a comprehensive feature comparison to see exactly where these platforms differ, and how Swetrix outshines them both.
 
-| Feature                             |    PostHog     |        Vercel Web Analytics         |    ::SWETRIX_LOGO::    |
-| :---------------------------------- | :------------: | :---------------------------------: | :--------------------: |
-| **Core Features**                   |                |                                     |                        |
-| Real-time Analytics                 |       ✅       |                 ✅                  |           ✅           |
-| Custom Events                       |       ✅       |                 ✅                  |           ✅           |
-| Page views                          |       ✅       |                 ✅                  |           ✅           |
-| Live visitors count                 |       ✅       |                 ✅                  |           ✅           |
-| UTM Tracking                        |       ✅       |                 ✅                  |           ✅           |
-| Device stats (browser, OS, type)    |       ✅       |                 ✅                  |           ✅           |
-| Email Reports                       |       ✅       |                 ❌                  |           ✅           |
-| **Advanced Features**               |                |                                     |                        |
-| Performance Monitoring (Web Vitals) |       ✅       | ✅ (Separate "Speed Insights" tool) |           ✅           |
-| User Flow Analysis                  |       ✅       |                 ❌                  |           ✅           |
-| Error Tracking                      |       ✅       |                 ❌                  |           ✅           |
-| Alerts / Notifications              |       ✅       |                 ❌                  |           ✅           |
-| Geolocation map visualisation       |       ✅       |                 ❌                  |           ✅           |
-| Funnels                             |       ✅       |                 ❌                  |           ✅           |
-| Segments                            |       ✅       |                 ✅                  |           ✅           |
-| Multiple Domains per Site           |       ✅       |                 ❌                  |           ✅           |
-| Custom dashboards                   |       ✅       |                 ❌                  |           ❌           |
-| **Growth & Product**                |                |                                     |                        |
-| AI Chat                             |       ✅       |                 ❌                  |           ✅           |
-| Goals                               |       ✅       |                 ❌                  |           ✅           |
-| Experiments (A/B tests)             |       ✅       |                 ❌                  |           ✅           |
-| Feature flags                       |       ✅       |                 ❌                  |           ✅           |
-| User Profiles                       |       ✅       |                 ❌                  |           ✅           |
-| Revenue analytics                   |       ✅       |                 ❌                  |           ✅           |
-| CAPTCHA                             |       ❌       |                 ❌                  |           ✅           |
-| **Platform & Freedom**              |                |                                     |                        |
-| Works on ANY hosting                |       ✅       |          ❌ (Vercel only)           |           ✅           |
-| Zero Vendor Lock-in                 |       ✅       |                 ❌                  |           ✅           |
-| **Privacy & Compliance**            |                |                                     |                        |
-| Cookie-less Tracking                |       ✅       |                 ✅                  |           ✅           |
-| Open Source                         | ✅ (Open Core) |                 ❌                  |           ✅           |
-| Easy Self-hosting                   |       ❌       |                 ❌                  |           ✅           |
-| Data Retention                      |   Unlimited    |        Limited (1-12 months)        |       Unlimited        |
-| **Technical specifications**        |                |                                     |                        |
-| Script size                         |     >30 KB     |             Integrated              |          6 KB          |
-| API access                          |       ✅       |                 ❌                  |           ✅           |
-| Bypass adblockers                   |       ✅       |                 ✅                  |           ✅           |
-| **Pricing**                         |                |                                     |                        |
-| Pricing Model                       |  Usage-based   |         Tiered limitations          | Predictable (Flat fee) |
+| Feature                                       |    PostHog     |        Vercel Web Analytics         |    ::SWETRIX_LOGO::    |
+| :-------------------------------------------- | :------------: | :---------------------------------: | :--------------------: |
+| **Core Features**                             |                |                                     |                        |
+| Real-time Analytics                           |       ✅       |                 ✅                  |           ✅           |
+| Custom Events                                 |       ✅       |                 ✅                  |           ✅           |
+| Page views                                    |       ✅       |                 ✅                  |           ✅           |
+| Live visitors count                           |       ✅       |                 ✅                  |           ✅           |
+| UTM Tracking                                  |       ✅       |                 ✅                  |           ✅           |
+| Device stats (browser, OS, type)              |       ✅       |                 ✅                  |           ✅           |
+| Email Reports                                 |       ✅       |                 ❌                  |           ✅           |
+| **Advanced Features**                         |                |                                     |                        |
+| Performance Monitoring (Web Vitals)           |       ✅       | ✅ (Separate "Speed Insights" tool) |           ✅           |
+| User Flow Analysis                            |       ✅       |                 ❌                  |           ✅           |
+| Error Tracking                                |       ✅       |                 ❌                  |           ✅           |
+| Alerts / Notifications                        |       ✅       |                 ❌                  |           ✅           |
+| Geolocation map visualisation                 |       ✅       |                 ❌                  |           ✅           |
+| Funnels                                       |       ✅       |                 ❌                  |           ✅           |
+| Segments                                      |       ✅       |                 ✅                  |           ✅           |
+| Multiple Domains per Site                     |       ✅       |                 ❌                  |           ✅           |
+| Custom dashboards                             |       ✅       |                 ❌                  |           ❌           |
+| **Growth & Product**                          |                |                                     |                        |
+| AI Chat                                       |       ✅       |                 ❌                  |           ✅           |
+| Goals                                         |       ✅       |                 ❌                  |           ✅           |
+| Experiments (A/B tests)                       |       ✅       |                 ❌                  |           ✅           |
+| Feature flags                                 |       ✅       |                 ❌                  |           ✅           |
+| User Profiles                                 |       ✅       |                 ❌                  |           ✅           |
+| Revenue analytics                             |       ✅       |                 ❌                  |           ✅           |
+| Complete SEO overview (Google Search Console) |       ❌       |                 ❌                  |           ✅           |
+| CAPTCHA                                       |       ❌       |                 ❌                  |           ✅           |
+| **Platform & Freedom**                        |                |                                     |                        |
+| Works on ANY hosting                          |       ✅       |          ❌ (Vercel only)           |           ✅           |
+| Zero Vendor Lock-in                           |       ✅       |                 ❌                  |           ✅           |
+| **Privacy & Compliance**                      |                |                                     |                        |
+| Cookie-less Tracking                          |       ✅       |                 ✅                  |           ✅           |
+| Open Source                                   | ✅ (Open Core) |                 ❌                  |           ✅           |
+| Easy Self-hosting                             |       ❌       |                 ❌                  |           ✅           |
+| Data Retention                                |   Unlimited    |        Limited (1-12 months)        |       Unlimited        |
+| **Technical specifications**                  |                |                                     |                        |
+| Script size                                   |     >30 KB     |             Integrated              |          6 KB          |
+| API access                                    |       ✅       |                 ❌                  |           ✅           |
+| Bypass adblockers                             |       ✅       |                 ✅                  |           ✅           |
+| **Pricing**                                   |                |                                     |                        |
+| Pricing Model                                 |  Usage-based   |         Tiered limitations          | Predictable (Flat fee) |
 
 <br>
 

@@ -51,38 +51,39 @@ PostHog is an incredibly powerful, open-core product analytics platform designed
 
 Here is a direct comparison of the features provided by Vercel Web Analytics and PostHog, alongside the balanced capabilities of Swetrix.
 
-| Feature                       | Vercel Web Analytics |       PostHog        |    ::SWETRIX_LOGO::    |
-| :---------------------------- | :------------------: | :------------------: | :--------------------: |
-| **Core Features**             |                      |                      |                        |
-| Real-time Analytics           |          ✅          |          ✅          |           ✅           |
-| Custom Events                 |          ✅          |          ✅          |           ✅           |
-| Page views                    |          ✅          |          ✅          |           ✅           |
-| Live visitors count           |          ✅          |          ✅          |           ✅           |
-| UTM Tracking                  |          ✅          |          ✅          |           ✅           |
-| Email Reports                 |          ❌          |          ✅          |           ✅           |
-| **Advanced Features**         |                      |                      |                        |
-| Performance Monitoring        |  ✅ (Separate tool)  |          ✅          |           ✅           |
-| User Flow Analysis            |          ❌          |          ✅          |           ✅           |
-| Error Tracking                |          ❌          |          ✅          |           ✅           |
-| Alerts / Notifications        |          ❌          |          ✅          |           ✅           |
-| Geolocation map visualisation |          ❌          |          ✅          |           ✅           |
-| Funnels                       |          ❌          |          ✅          |           ✅           |
-| Multiple Domains per Site     |          ❌          |          ✅          |           ✅           |
-| **Growth & Product**          |                      |                      |                        |
-| AI Chat                       |          ❌          |          ✅          |           ✅           |
-| Goals                         |          ❌          |          ✅          |           ✅           |
-| Experiments (A/B tests)       |          ❌          |          ✅          |           ✅           |
-| Feature flags                 |          ❌          |          ✅          |           ✅           |
-| Session recordings            |          ❌          |          ✅          |           ❌           |
-| SQL Access                    |          ❌          |          ✅          |           ❌           |
-| **Platform & Setup**          |                      |                      |                        |
-| Platform Independent          |   ❌ (Vercel only)   |          ✅          |           ✅           |
-| Ease of Use                   |     Very Simple      |       Complex        |       Intuitive        |
-| Easy Self-hosting             |          ❌          |  ❌ (Very complex)   |   ✅ (Simple Docker)   |
-| Open Source                   |          ❌          |    ✅ (Open Core)    |           ✅           |
-| **Pricing & Support**         |                      |                      |                        |
-| Pricing Model                 |        Tiered        |     Usage-based      | Predictable (Flat fee) |
-| Entry price                   |        Free\*        | Free / Pay-as-you-go |         $19.00         |
+| Feature                                       | Vercel Web Analytics |       PostHog        |    ::SWETRIX_LOGO::    |
+| :-------------------------------------------- | :------------------: | :------------------: | :--------------------: |
+| **Core Features**                             |                      |                      |                        |
+| Real-time Analytics                           |          ✅          |          ✅          |           ✅           |
+| Custom Events                                 |          ✅          |          ✅          |           ✅           |
+| Page views                                    |          ✅          |          ✅          |           ✅           |
+| Live visitors count                           |          ✅          |          ✅          |           ✅           |
+| UTM Tracking                                  |          ✅          |          ✅          |           ✅           |
+| Email Reports                                 |          ❌          |          ✅          |           ✅           |
+| **Advanced Features**                         |                      |                      |                        |
+| Performance Monitoring                        |  ✅ (Separate tool)  |          ✅          |           ✅           |
+| User Flow Analysis                            |          ❌          |          ✅          |           ✅           |
+| Error Tracking                                |          ❌          |          ✅          |           ✅           |
+| Alerts / Notifications                        |          ❌          |          ✅          |           ✅           |
+| Geolocation map visualisation                 |          ❌          |          ✅          |           ✅           |
+| Funnels                                       |          ❌          |          ✅          |           ✅           |
+| Multiple Domains per Site                     |          ❌          |          ✅          |           ✅           |
+| **Growth & Product**                          |                      |                      |                        |
+| AI Chat                                       |          ❌          |          ✅          |           ✅           |
+| Goals                                         |          ❌          |          ✅          |           ✅           |
+| Experiments (A/B tests)                       |          ❌          |          ✅          |           ✅           |
+| Feature flags                                 |          ❌          |          ✅          |           ✅           |
+| Complete SEO overview (Google Search Console) |          ❌          |          ❌          |           ✅           |
+| Session recordings                            |          ❌          |          ✅          |           ❌           |
+| SQL Access                                    |          ❌          |          ✅          |           ❌           |
+| **Platform & Setup**                          |                      |                      |                        |
+| Platform Independent                          |   ❌ (Vercel only)   |          ✅          |           ✅           |
+| Ease of Use                                   |     Very Simple      |       Complex        |       Intuitive        |
+| Easy Self-hosting                             |          ❌          |  ❌ (Very complex)   |   ✅ (Simple Docker)   |
+| Open Source                                   |          ❌          |    ✅ (Open Core)    |           ✅           |
+| **Pricing & Support**                         |                      |                      |                        |
+| Pricing Model                                 |        Tiered        |     Usage-based      | Predictable (Flat fee) |
+| Entry price                                   |        Free\*        | Free / Pay-as-you-go |         $19.00         |
 
 <br>
 

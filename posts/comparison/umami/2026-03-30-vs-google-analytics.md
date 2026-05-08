@@ -50,60 +50,61 @@ Google Analytics is the industry standard. It is a massive, complex piece of sof
 
 Let's look at the hard facts. Here is a comprehensive feature comparison to help you see exactly what you get with each platform, and how Swetrix outshines them both.
 
-| Feature                             |       Umami        |         Google Analytics          |  ::SWETRIX_LOGO::  |
-| :---------------------------------- | :----------------: | :-------------------------------: | :----------------: |
-| **Core Features**                   |                    |                                   |                    |
-| Real-time Analytics                 |         ✅         |                ❌                 |         ✅         |
-| Custom Events                       |         ✅         |                ✅                 |         ✅         |
-| Page views                          |         ✅         |                ✅                 |         ✅         |
-| Live visitors count                 |         ✅         |                ✅                 |         ✅         |
-| UTM Tracking                        |         ✅         |                ✅                 |         ✅         |
-| Device stats (browser, OS, type)    |         ✅         |                ✅                 |         ✅         |
-| Public dashboards                   |         ✅         |                ❌                 |         ✅         |
-| **Advanced Features**               |                    |                                   |                    |
-| Performance Monitoring (Web Vitals) |         ❌         |                ❌                 |         ✅         |
-| User Flow Analysis                  |         ❌         |                ❌                 |         ✅         |
-| Error Tracking                      |         ❌         |                ❌                 |         ✅         |
-| Alerts / Notifications              |         ❌         |                ❌                 |         ✅         |
-| Geolocation map visualisation       |         ❌         |                ✅                 |         ✅         |
-| Funnels                             |         ✅         |                ✅                 |         ✅         |
-| Segments                            |         ✅         |                ✅                 |         ✅         |
-| Multiple Domains per Site           |         ❌         |                ❌                 |         ✅         |
-| Custom dashboards                   |         ❌         |                ✅                 |         ❌         |
-| **Growth & Product**                |                    |                                   |                    |
-| AI Chat                             |         ❌         |                ✅                 |         ✅         |
-| Goals                               |         ✅         |                ✅                 |         ✅         |
-| Experiments (A/B tests)             |         ❌         |      ❌ (Requires 3rd party)      |         ✅         |
-| Feature flags                       |         ❌         |                ❌                 |         ✅         |
-| User Profiles                       |         ❌         |                ✅                 |         ✅         |
-| Revenue analytics                   |         ❌         |                ❌                 |         ✅         |
-| CAPTCHA                             |         ❌         |                ❌                 |         ✅         |
-| **Security & Access**               |                    |                                   |                    |
-| Bot filtering                       |         ✅         |                ✅                 |         ✅         |
-| Two-Factor Authentication (2FA)     |         ❌         |                ✅                 |         ✅         |
-| Role-based Access Control           |         ✅         |                ✅                 |         ✅         |
-| Shared Dashboards                   |         ✅         |                ✅                 |         ✅         |
-| Organisations (Teams)               |         ✅         |                ✅                 |         ✅         |
-| **Privacy & Compliance**            |                    |                                   |                    |
-| Cookie-less Tracking                |         ✅         |                ❌                 |         ✅         |
-| Privacy compliance                  |         ✅         | ❌ (Illegal in some EU countries) |         ✅         |
-| Data Ownership                      |     You (100%)     |        Google (for Ads/AI)        |     You (100%)     |
-| Open Source                         |         ✅         |                ❌                 |         ✅         |
-| Self-hostable                       |         ✅         |                ❌                 |         ✅         |
-| EU data residency                   |         ✅         |                ❌                 |         ✅         |
-| **Technical specifications**        |                    |                                   |                    |
-| Data Sampling                       |     0% (None)      |   Heavy (Data is approximated)    |     0% (None)      |
-| Real-time Accuracy                  |         ✅         |    ❌ (Delays of up to 24-48h)    |         ✅         |
-| Script size                         |       <3 KB        |               74 KB               |        6 KB        |
-| API access                          |         ✅         |                ✅                 |         ✅         |
-| Bypass adblockers                   |         ✅         |                ❌                 |         ✅         |
-| **User Experience**                 |                    |                                   |                    |
-| Setup Time                          |      < 5 mins      |       Hours / Days / Weeks        |      < 5 mins      |
-| Ease of Use                         | Intuitive / Simple |    Complex (Requires training)    | Intuitive / Simple |
-| Script Weight                       |    Lightweight     |        Heavy (Bloats site)        |    Lightweight     |
-| **Pricing & Support**               |                    |                                   |                    |
-| Entry price                         |        $20         |              Free\*               |       $19.00       |
-| Human customer support              |         ✅         |                ❌                 |         ✅         |
+| Feature                                       |       Umami        |         Google Analytics          |  ::SWETRIX_LOGO::  |
+| :-------------------------------------------- | :----------------: | :-------------------------------: | :----------------: |
+| **Core Features**                             |                    |                                   |                    |
+| Real-time Analytics                           |         ✅         |                ❌                 |         ✅         |
+| Custom Events                                 |         ✅         |                ✅                 |         ✅         |
+| Page views                                    |         ✅         |                ✅                 |         ✅         |
+| Live visitors count                           |         ✅         |                ✅                 |         ✅         |
+| UTM Tracking                                  |         ✅         |                ✅                 |         ✅         |
+| Device stats (browser, OS, type)              |         ✅         |                ✅                 |         ✅         |
+| Public dashboards                             |         ✅         |                ❌                 |         ✅         |
+| **Advanced Features**                         |                    |                                   |                    |
+| Performance Monitoring (Web Vitals)           |         ❌         |                ❌                 |         ✅         |
+| User Flow Analysis                            |         ❌         |                ❌                 |         ✅         |
+| Error Tracking                                |         ❌         |                ❌                 |         ✅         |
+| Alerts / Notifications                        |         ❌         |                ❌                 |         ✅         |
+| Geolocation map visualisation                 |         ❌         |                ✅                 |         ✅         |
+| Funnels                                       |         ✅         |                ✅                 |         ✅         |
+| Segments                                      |         ✅         |                ✅                 |         ✅         |
+| Multiple Domains per Site                     |         ❌         |                ❌                 |         ✅         |
+| Custom dashboards                             |         ❌         |                ✅                 |         ❌         |
+| **Growth & Product**                          |                    |                                   |                    |
+| AI Chat                                       |         ❌         |                ✅                 |         ✅         |
+| Goals                                         |         ✅         |                ✅                 |         ✅         |
+| Experiments (A/B tests)                       |         ❌         |      ❌ (Requires 3rd party)      |         ✅         |
+| Feature flags                                 |         ❌         |                ❌                 |         ✅         |
+| User Profiles                                 |         ❌         |                ✅                 |         ✅         |
+| Revenue analytics                             |         ❌         |                ❌                 |         ✅         |
+| Complete SEO overview (Google Search Console) |         ❌         |                ✅                 |         ✅         |
+| CAPTCHA                                       |         ❌         |                ❌                 |         ✅         |
+| **Security & Access**                         |                    |                                   |                    |
+| Bot filtering                                 |         ✅         |                ✅                 |         ✅         |
+| Two-Factor Authentication (2FA)               |         ❌         |                ✅                 |         ✅         |
+| Role-based Access Control                     |         ✅         |                ✅                 |         ✅         |
+| Shared Dashboards                             |         ✅         |                ✅                 |         ✅         |
+| Organisations (Teams)                         |         ✅         |                ✅                 |         ✅         |
+| **Privacy & Compliance**                      |                    |                                   |                    |
+| Cookie-less Tracking                          |         ✅         |                ❌                 |         ✅         |
+| Privacy compliance                            |         ✅         | ❌ (Illegal in some EU countries) |         ✅         |
+| Data Ownership                                |     You (100%)     |        Google (for Ads/AI)        |     You (100%)     |
+| Open Source                                   |         ✅         |                ❌                 |         ✅         |
+| Self-hostable                                 |         ✅         |                ❌                 |         ✅         |
+| EU data residency                             |         ✅         |                ❌                 |         ✅         |
+| **Technical specifications**                  |                    |                                   |                    |
+| Data Sampling                                 |     0% (None)      |   Heavy (Data is approximated)    |     0% (None)      |
+| Real-time Accuracy                            |         ✅         |    ❌ (Delays of up to 24-48h)    |         ✅         |
+| Script size                                   |       <3 KB        |               74 KB               |        6 KB        |
+| API access                                    |         ✅         |                ✅                 |         ✅         |
+| Bypass adblockers                             |         ✅         |                ❌                 |         ✅         |
+| **User Experience**                           |                    |                                   |                    |
+| Setup Time                                    |      < 5 mins      |       Hours / Days / Weeks        |      < 5 mins      |
+| Ease of Use                                   | Intuitive / Simple |    Complex (Requires training)    | Intuitive / Simple |
+| Script Weight                                 |    Lightweight     |        Heavy (Bloats site)        |    Lightweight     |
+| **Pricing & Support**                         |                    |                                   |                    |
+| Entry price                                   |        $20         |              Free\*               |       $19.00       |
+| Human customer support                        |         ✅         |                ❌                 |         ✅         |
 
 <br>
 
