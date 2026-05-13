@@ -7,9 +7,9 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-A visitor lands on your pricing page, watches a product demo, and converts to a paid plan. Analysts see a direct conversion from the landing page in the dashboard. The tracking configuration misses the video interaction. 
+A visitor lands on your pricing page, watches a product demo, and converts to a paid plan. Analysts see a direct conversion from the landing page in the dashboard. The tracking configuration misses the video interaction.
 
-Without specific tracking logic, embedded video players act as black boxes. A two-minute product demonstration could be driving the majority of your signups. Standard metrics group those engaged buyers with users bouncing after three seconds. 
+Without specific tracking logic, embedded video players act as black boxes. A two-minute product demonstration could be driving the majority of your signups. Standard metrics group those engaged buyers with users bouncing after three seconds.
 
 Tracking media interactions reveals which assets generate revenue. Connecting video views to specific user sessions clarifies these conversion paths.
 
@@ -19,7 +19,7 @@ Tracking media interactions reveals which assets generate revenue. Connecting vi
 
 Video assets require substantial production budgets. Marketing teams rely on precise engagement data to measure the return on that investment. A generic pageview records a URL load. Video metrics reveal audience retention.
 
-Tracking playback events identifies drop-off points. A spike in abandonment at the 30-second mark highlights a confusing explanation or a pacing issue. Fix the edit, upload a new version, and measure the retention difference. 
+Tracking playback events identifies drop-off points. A spike in abandonment at the 30-second mark highlights a confusing explanation or a pacing issue. Fix the edit, upload a new version, and measure the retention difference.
 
 Marketing teams across B2B and B2C sectors see engagement gains from media. A 2025 [Wyzowl report](https://www.wyzowl.com/video-marketing-statistics/) shows 84 percent of marketers note an increase in time on page, though this metric naturally varies depending on industry and content type. High retention on pages with media correlates with increased conversion rates. Implement event tracking to confirm this correlation for your own domains.
 
@@ -47,9 +47,9 @@ Open your browser's developer tools. Load a page with a standard YouTube embed. 
 
 ### The Shift Away From Third-Party Cookies
 
-Regulators and software developers dismantled traditional tracking frameworks. Major browsers block cross-site identifiers. Users reject consent banners at high rates. 
+Regulators and software developers dismantled traditional tracking frameworks. Major browsers block cross-site identifiers. Users reject consent banners at high rates.
 
-Relying on Google's default scripts ties your analytics to a deprecated technology stack. When users decline cookie tracking, consent management platforms block the YouTube iframe. A broken empty space appears on your landing page. 
+Relying on Google's default scripts ties your analytics to a deprecated technology stack. When users decline cookie tracking, consent management platforms block the YouTube iframe. A broken empty space appears on your landing page.
 
 Check your consent management configuration. Determine if the platform blocks standard iframes for opted-out users. Blocking these iframes deletes both the video presentation and the engagement data for your audience.
 
@@ -61,7 +61,7 @@ Check your consent management configuration. Determine if the platform blocks st
 
 Site owners attempt to solve the consent problem using YouTube's privacy-enhanced mode. Change the domain in the iframe source from `www.youtube.com` to `www.youtube-nocookie.com`. Using this modified URL stops YouTube from setting tracking cookies upon the initial page load.
 
-Privacy-enhanced mode creates a secondary problem. Changing the source URL breaks automated tracking solutions. 
+Privacy-enhanced mode creates a secondary problem. Changing the source URL breaks automated tracking solutions.
 
 Analysts use the Google Analytics 4 Enhanced Measurement toggle to capture video events. This native script relies on a regular expression searching for `youtube.com` in the HTML. The listener ignores the `nocookie` domain. Enabling privacy-enhanced mode blinds GA4 to all video interactions.
 
@@ -69,7 +69,7 @@ Analysts use the Google Analytics 4 Enhanced Measurement toggle to capture video
 
 Marketing teams use Google Tag Manager to configure event tracking. GTM includes a built-in YouTube Video trigger. This native trigger searches the DOM for standard YouTube iframe structures.
 
-When an iframe uses `youtube-nocookie.com`, the built-in GTM listener fails to attach to the player. Users click play, pause the video, and finish the content. GTM registers zero events. 
+When an iframe uses `youtube-nocookie.com`, the built-in GTM listener fails to attach to the player. Users click play, pause the video, and finish the content. GTM registers zero events.
 
 Test your current tracking infrastructure. Open your analytics dashboard or load Google Tag Assistant in debug mode. Click play on a privacy-enhanced video embed. Monitor the network requests to confirm the absence of video interaction data flowing to your [event tracking setup](https://swetrix.com/blog/google-analytics-event-tracking).
 
@@ -83,14 +83,18 @@ Capturing engagement data without cookies requires communicating with the video 
 
 Developers use the API to capture state changes. The system flags when a video starts, pauses, buffers, or ends. Add a parameter to your embed URL to access these broadcasts.
 
-Append `?enablejsapi=1` to the end of the iframe source link. Add the new parameter with an ampersand if the URL contains existing parameters: `&enablejsapi=1`. 
+Append `?enablejsapi=1` to the end of the iframe source link. Add the new parameter with an ampersand if the URL contains existing parameters: `&enablejsapi=1`.
 
 ```html
 <!-- Incorrect Setup -->
 <iframe src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ" title="Product Demo"></iframe>
 
 <!-- Correct Setup -->
-<iframe id="hero-video" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?enablejsapi=1" title="Product Demo"></iframe>
+<iframe
+  id="hero-video"
+  src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?enablejsapi=1"
+  title="Product Demo"
+></iframe>
 ```
 
 Assign a unique `id` attribute to the iframe. Developers need this identifier to target the correct element via the tracking script.
@@ -105,9 +109,9 @@ Create the HTML structure for the placeholder:
 
 ```html
 <div class="video-facade" data-video-id="dQw4w9WgXcQ">
-  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video thumbnail">
+  <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/maxresdefault.jpg" alt="Video thumbnail" />
   <button class="play-button" aria-label="Play video">
-    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
   </button>
 </div>
 ```
@@ -115,20 +119,23 @@ Create the HTML structure for the placeholder:
 Write the JavaScript to handle the injection. Configure the code to read the data attribute, build the `youtube-nocookie.com` URL with the `enablejsapi=1` parameter, and replace the facade content.
 
 ```javascript
-document.querySelectorAll('.video-facade').forEach(facade => {
-  facade.addEventListener('click', function() {
-    const videoId = this.getAttribute('data-video-id');
-    const iframe = document.createElement('iframe');
-    
-    iframe.setAttribute('src', `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&enablejsapi=1`);
-    iframe.setAttribute('frameborder', '0');
-    iframe.setAttribute('allow', 'autoplay; encrypted-media; picture-in-picture');
-    iframe.setAttribute('allowfullscreen', '');
-    iframe.setAttribute('id', `yt-${videoId}`);
-    
-    this.innerHTML = '';
+document.querySelectorAll(".video-facade").forEach((facade) => {
+  facade.addEventListener("click", function () {
+    const videoId = this.getAttribute("data-video-id");
+    const iframe = document.createElement("iframe");
+
+    iframe.setAttribute(
+      "src",
+      `https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1&enablejsapi=1`,
+    );
+    iframe.setAttribute("frameborder", "0");
+    iframe.setAttribute("allow", "autoplay; encrypted-media; picture-in-picture");
+    iframe.setAttribute("allowfullscreen", "");
+    iframe.setAttribute("id", `yt-${videoId}`);
+
+    this.innerHTML = "";
     this.appendChild(iframe);
-    
+
     // Initialize tracking logic here
     initVideoTracking(`yt-${videoId}`);
   });
@@ -146,6 +153,7 @@ Replacing standard embeds with facades solves the legal compliance issue. Market
 Teams use [cookieless tracking platforms](https://swetrix.com/blog/what-is-cookieless-tracking) to process engagement data without storing persistent identifiers on the device. Swetrix accepts custom events via an API. Write standard JavaScript to monitor the YouTube player and push the resulting data to the dashboard.
 
 The YouTube API uses numerical codes for player states.
+
 - `-1`: Unstarted
 - `0`: Ended
 - `1`: Playing
@@ -157,9 +165,9 @@ Load the YouTube Iframe API script. Define a function to create a new player ins
 
 ```javascript
 // Load the YouTube API
-const tag = document.createElement('script');
+const tag = document.createElement("script");
 tag.src = "https://www.youtube.com/iframe_api";
-const firstScriptTag = document.getElementsByTagName('script')[0];
+const firstScriptTag = document.getElementsByTagName("script")[0];
 firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
 let player;
@@ -173,28 +181,28 @@ function onYouTubeIframeAPIReady() {
 function initVideoTracking(iframeId) {
   player = new YT.Player(iframeId, {
     events: {
-      'onStateChange': onPlayerStateChange
-    }
+      onStateChange: onPlayerStateChange,
+    },
   });
 }
 
 function onPlayerStateChange(event) {
   const videoTitle = event.target.getVideoData().title;
   const videoDuration = event.target.getDuration();
-  
+
   if (event.data === YT.PlayerState.PLAYING && !hasTrackedStart) {
     swetrix.track({
-      ev: 'Video_Started',
-      meta: { title: videoTitle }
+      ev: "Video_Started",
+      meta: { title: videoTitle },
     });
     hasTrackedStart = true;
     startProgressTimer();
   }
-  
+
   if (event.data === YT.PlayerState.ENDED) {
     swetrix.track({
-      ev: 'Video_Completed',
-      meta: { title: videoTitle }
+      ev: "Video_Completed",
+      meta: { title: videoTitle },
     });
   }
 }
@@ -217,11 +225,11 @@ function startProgressTimer() {
       const currentTime = player.getCurrentTime();
       const duration = player.getDuration();
       const percentComplete = (currentTime / duration) * 100;
-      
+
       if (percentComplete >= 50 && !hasTrackedHalf) {
         swetrix.track({
-          ev: 'Video_Reached_50',
-          meta: { title: player.getVideoData().title }
+          ev: "Video_Reached_50",
+          meta: { title: player.getVideoData().title },
         });
         hasTrackedHalf = true;
       }
@@ -230,11 +238,11 @@ function startProgressTimer() {
 }
 ```
 
-Clear the interval when the video pauses or ends to prevent memory leaks. 
+Clear the interval when the video pauses or ends to prevent memory leaks.
 
-This custom implementation creates precise engagement funnels inside your [analytics reporting](https://swetrix.com/google-analytics-alternative). Marketers see the precise number of users who initiated the video and reached the halfway mark. 
+This custom implementation creates precise engagement funnels inside your [analytics reporting](https://swetrix.com/google-analytics-alternative). Marketers see the precise number of users who initiated the video and reached the halfway mark.
 
-Swetrix processes this data without third-party cookies. The tracking operates alongside strict consent management platforms. Users interacting with the two-click facade generate anonymous event data. Marketing teams receive accurate performance metrics while legal departments maintain GDPR compliance. 
+Swetrix processes this data without third-party cookies. The tracking operates alongside strict consent management platforms. Users interacting with the two-click facade generate anonymous event data. Marketing teams receive accurate performance metrics while legal departments maintain GDPR compliance.
 
 Audit custom events inside the Swetrix dashboard. Navigate to the project, open the Events tab, and filter by names starting with `Video_`. Compare the event counts against total pageviews to calculate player interaction rates for each landing page.
 
