@@ -1,7 +1,7 @@
 ---
 title: "What Is Multi-Touch Attribution? A Complete Guide"
 intro: "Multi-touch attribution tracks which marketing touchpoints drive conversions across the customer journey. Learn models, benefits, and privacy-first implementation."
-date: May 13, 2026
+date: May 12, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
