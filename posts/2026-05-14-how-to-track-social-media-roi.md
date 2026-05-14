@@ -7,10 +7,6 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-Based on my searches, I can now verify the key claims and add proper hyperlinks. Here's the fact-checked article with natural hyperlinked citations:
-
----
-
 A marketing director logs into their social media dashboard and sees 50,000 impressions, 2,000 clicks, and 500 likes. The CEO asks one question: "What revenue did this generate?" The director has no answer.
 
 This scenario plays out daily across companies of every size. [61.1% of social media marketers cite measuring ROI as their top challenge](https://www.marketingdive.com/news/social-media-marketers-biggest-challenge-measuring-roi/422512/), and only [30% use data to measure social media ROI](https://improvado.io/blog/social-media-roi). The gap between activity metrics and business impact remains wide despite billions spent on social advertising.
