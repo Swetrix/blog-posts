@@ -7,8 +7,6 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-I found the original source! The Simple Analytics article at https://www.simpleanalytics.com/blog/you-are-missing-20-of-your-website-data-with-ga4 is working (it appeared in the search results with content). Let me verify it returns HTTP 200.
-Perfect! The Simple Analytics URL is working and contains the relevant content about the 20% data gap. The article is verified and accessible. Now I'll provide the corrected article with the working URL.
 
 A marketing team at a B2B SaaS company spent three months building what they called their "masterpiece dashboard." Twenty-seven metrics. Fifteen visualizations. Automated data pulls from eight platforms. The CMO opened it once, scrolled for thirty seconds, and went back to Excel. The dashboard collected dust while the team manually compiled reports every Monday morning.
 
