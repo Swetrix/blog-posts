@@ -7,14 +7,10 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-I found multiple sources confirming the claim about GDPR implementing Article 8 and ePrivacy implementing Article 7 of the EU Charter of Fundamental Rights. Let me verify the Cornell Law source is accessible:
-Perfect! I found that the Cornell Law Wex page (https://www.law.cornell.edu/wex/eu_data_privacy_laws) is accessible and contains the relevant information about Articles 7 and 8 of the EU Charter. Now I'll provide the corrected article with the working URL.
-
 # What Is ePrivacy Regulation? A Complete Guide
 
-
 The European Commission withdrew its proposed ePrivacy Regulation in February 2025
- after eight years of negotiations. This means the original 2002 ePrivacy Directive—not a new EU-wide regulation—still governs cookies, tracking, and electronic communications across Europe. If your website uses analytics cookies, consent banners, or email marketing, this legal framework applies to you today.
+after eight years of negotiations. This means the original 2002 ePrivacy Directive—not a new EU-wide regulation—still governs cookies, tracking, and electronic communications across Europe. If your website uses analytics cookies, consent banners, or email marketing, this legal framework applies to you today.
 
 Most website owners assume GDPR handles all privacy compliance. The ePrivacy Directive sets separate rules for cookies and electronic communications that override GDPR in specific scenarios. A site can comply with GDPR while violating ePrivacy by loading analytics cookies before obtaining consent. The two laws work together, but ePrivacy takes precedence for tracking technologies.
 
@@ -40,9 +36,9 @@ The regulation would have imposed penalties up to €20 million or 4% of global 
 
 ### February 2025: Regulation Withdrawal
 
-The Commission's [2025 Work Programme disclosed the withdrawal](https://getterms.io/blog/what-is-the-eprivacy-directive) on February 11, 2025. The official reason: no foreseeable agreement among legislators and outdated provisions in light of recent legislation like the NIS2 Directive. The Commission approved withdrawal on July 16, 2025, and published notice in the Official Journal on October 6, 2025.
+The Commission approved the withdrawal on July 16, 2025, and published notice in the Official Journal (2025/C 4339, October 6, 2025). The official reason: no foreseeable agreement among legislators and outdated provisions in light of recent legislation like the NIS2 Directive. The withdrawal is documented in the [Commission's 2025 Work Programme](https://commission.europa.eu/strategy-and-policy/commission-work-programme_en) and available in EUR-Lex's official legislative database.
 
-The original 2002 Directive and its national implementations remain in force. No new EU-wide regulation will replace it in the near term. The European Parliament's legislative tracking suggests a revised proposal might emerge in Q3 2027, but negotiations would take years.
+The original 2002 Directive and its national implementations remain in force. No new EU-wide regulation will replace it in the near term. Any future revised proposal would require years of negotiations.
 
 Check your analytics setup against the Directive's requirements today. If your site loads cookies before obtaining consent, you're violating rules that have been in place since 2002.
 
@@ -72,9 +68,7 @@ ePrivacy requires consent before loading non-essential cookies. GDPR requires a 
 
 Traditional analytics platforms trigger ePrivacy compliance obligations because they use cookies. The cookies may not contain obvious personal data, but the act of storing them on a user's device requires prior consent. Consent banners exist to satisfy ePrivacy, not GDPR.
 
-Penalties under both laws reach €20 million or 4% of global annual turnover. 
-France's CNIL imposed a €325 million fine on Google in September 2025 for displaying ads in Gmail without valid consent
-. The enforcement risk is real and growing.
+Penalties under the ePrivacy Directive are set by national law and therefore vary between Member States; some national regimes have introduced caps comparable to GDPR (e.g., up to €20 million or 4% of global annual turnover), but amounts differ by jurisdiction. GDPR violations can result in penalties up to €20 million or 4% of global annual turnover. In France, the CNIL imposed a €325 million fine on Google in September 2025 for displaying ads in Gmail without valid consent under French implementation of ePrivacy rules. The enforcement risk is real and growing.
 
 ## What ePrivacy Means for Website Analytics
 
@@ -88,13 +82,13 @@ Many websites remain non-compliant with cookie consent rules. Sites load trackin
 
 ### The Problem with Traditional Analytics
 
-Cookie-based analytics captures only a fraction of traffic. 
+Cookie-based analytics captures only a fraction of traffic.
 Around 30% of internet users worldwide use ad-blocking tools
 , which block analytics cookies. Safari and Firefox block third-party cookies by default. Chrome restricts cross-site tracking.
 
 Traditional analytics platforms undercount traffic by 20-40% due to cookie blocking. The visitors who block cookies often represent your most privacy-conscious and technically sophisticated users. Your reports show a skewed sample, not your full user base.
 
-Consent banners reduce data collection further. 
+Consent banners reduce data collection further.
 The EU average opt-in rate for marketing cookies sits at 46%, declining 8 percentage points over three years
 . If half your visitors decline analytics cookies and another 30% block them with browser tools, you're measuring perhaps 35% of traffic.
 
@@ -122,19 +116,18 @@ Aggregate analytics focuses on traffic patterns rather than individual user jour
 
 ### Why Privacy-First Analytics Doesn't Need Consent
 
-Cookieless platforms avoid ePrivacy's consent requirement because they don't store or access information on the user's device. No cookies means no Article 5(3) trigger. The tracking happens server-side using data your server receives in standard HTTP requests.
+Cookieless platforms may avoid ePrivacy's consent requirement when configured to avoid storing or accessing information on the user's device. No cookies means no Article 5(3) trigger, provided the implementation does not use other persistent identifiers or device storage mechanisms. The tracking happens server-side using data your server receives in standard HTTP requests.
 
-These platforms don't collect personal data under GDPR's definition. Temporary session hashes that reset daily and cannot identify individuals don't qualify as personal data. IP addresses are never stored in identifiable form. No user profiles are built.
+Whether such platforms collect personal data under GDPR depends on implementation details and applicable jurisdiction. When configured with temporary session hashes that reset daily, cannot be reversed to identify individuals, are not linked to other identifiable data, and are not logged server-side in a way that enables re-identification, such hashes may not qualify as personal data in some jurisdictions. Whether IP addresses constitute personal data and whether they are stored in identifiable form depends on technical implementation (e.g., immediate hashing with non-reversible algorithms, truncation) and legal interpretation. Avoid building user profiles or linking session data across visits.
 
-Several EU data protection authorities confirmed this interpretation. French, Spanish, and Italian DPAs ruled that properly configured privacy-focused analytics qualify as essential services exempt from consent requirements. The tools must avoid cookies, personal data collection, and cross-site tracking.
+Several EU data protection authorities have indicated that properly configured privacy-focused analytics may qualify as exempt from consent requirements in their jurisdictions. French, Spanish, and Italian DPAs have ruled that analytics tools avoiding cookies, persistent identifiers, personal data collection, and cross-site tracking may qualify as essential or exempt services. The specific conditions and legal interpretations vary by Member State. Consult legal counsel to determine whether your implementation qualifies for exemption in your target jurisdictions.
 
-Swetrix operates on this model. The tracking script runs under 6 kB, uses no cookies, and collects no personal data. The platform aligns with GDPR, CCPA, and PECR without requiring consent banners. You get accurate traffic data without legal risk or user friction.
+Platforms like Swetrix are designed to operate on this model, using lightweight scripts (under 6 kB), avoiding cookies and persistent identifiers, and implementing technical measures to prevent personal data collection. Whether any particular configuration aligns with GDPR, CCPA, and PECR without requiring consent banners depends on implementation details, jurisdictional interpretation, and evolving guidance from data protection authorities. Seek qualified legal advice for your specific use case.
 
 ### Business Benefits Beyond Compliance
 
-
 67% of B2B companies now use server-side tracking, reporting an average 41% improvement in data quality
- over client-side approaches. The data is more accurate because it bypasses browser-based blocking. Server-side processing also improves page load speed by reducing client-side JavaScript execution.
+over client-side approaches. The data is more accurate because it bypasses browser-based blocking. Server-side processing also improves page load speed by reducing client-side JavaScript execution.
 
 Companies with mature first-party data strategies generate 2.9x more revenue per ad activation and achieve 3.2x better customer retention rates. Privacy-focused marketing delivers 23% better results than traditional tracking-heavy approaches. Privacy is a competitive advantage, not a limitation.
 
@@ -186,11 +179,9 @@ Essential cookies for core functionality (shopping carts, authentication, load b
 
 ### What Are the Penalties for Non-Compliance?
 
-The ePrivacy Directive allows penalties up to €20 million or 4% of global annual revenue, whichever is higher. These match GDPR's penalty structure. National enforcement varies, but major violations draw significant fines.
+Penalties under the ePrivacy Directive are set by national law and therefore vary between Member States. Some national regimes have introduced caps comparable to GDPR (e.g., up to €20 million or 4% of global annual revenue), but amounts differ by jurisdiction. GDPR violations can result in penalties up to €20 million or 4% of global annual revenue, whichever is higher. National enforcement varies, but major violations draw significant fines.
 
-
-France's CNIL imposed a €325 million fine on Google in September 2025 for Gmail tracking without consent
-. The penalty demonstrates that regulators take ePrivacy violations seriously and will enforce against major platforms.
+In France, the CNIL imposed a €325 million fine on Google in September 2025 for Gmail tracking without consent under French implementation of ePrivacy rules. The penalty demonstrates that regulators in some jurisdictions take ePrivacy violations seriously and will enforce against major platforms.
 
 Smaller violations result in warnings, compliance orders, or smaller fines. Data protection authorities prioritize egregious cases and repeat offenders. The enforcement risk increases with company size, data volume, and visibility.
 
