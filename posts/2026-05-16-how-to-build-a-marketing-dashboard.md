@@ -7,7 +7,6 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-
 A marketing team at a B2B SaaS company spent three months building what they called their "masterpiece dashboard." Twenty-seven metrics. Fifteen visualizations. Automated data pulls from eight platforms. The CMO opened it once, scrolled for thirty seconds, and went back to Excel. The dashboard collected dust while the team manually compiled reports every Monday morning.
 
 This pattern repeats across organizations. [Research from Dataslayer](https://www.dataslayer.ai/blog/marketing-dashboard-best-practices-2025) shows that 40% of users rate their dashboards 3 out of 5 or lower, and 72% still export data to Excel when dashboards fail to deliver answers. Most dashboards are built as reports, not decision-making tools.
