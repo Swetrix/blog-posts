@@ -15,10 +15,10 @@ Video engagement tracking closes this gap. Install the right tracking setup, and
 
 Video dominates web traffic. [82.5% of all internet traffic now comes from video content](https://www.demandsage.com/video-marketing-statistics/), making it the primary way people consume information online. Businesses recognize this shift: [91% now use video as a marketing tool](https://wyzowl.com/video-marketing-statistics/), and [93% report strong ROI](https://wyzowl.com/video-marketing-statistics/) from their video efforts.
 
-The business case extends beyond awareness. 
-Product pages with video see a 47% higher engagement rate
- than pages without. 
-Users spend 88% more time on websites featuring video
+The business case extends beyond awareness.
+Product pages with video see significantly higher engagement rates
+than pages without.
+Users spend substantially more time on websites featuring video
 . These results materialize only when you track what works. Without tracking, you're guessing which videos convert and which waste production budget.
 
 ### What Video Engagement Measures
@@ -93,10 +93,9 @@ Link your video platform to Google Analytics for unified reporting. Most platfor
 
 ### Privacy-First Tracking Implementation
 
-
-Safari, Firefox, and Brave together represent 20-25% of website visitors
-, and each blocks or restricts cookie-based analytics. 
-Businesses switching to cookieless analytics report seeing 40-50% more traffic than Google Analytics showed
+Safari, Firefox, and Brave together represent a significant portion of website visitors
+, and each blocks or restricts cookie-based analytics.
+Businesses switching to cookieless analytics often report seeing substantially more traffic than Google Analytics showed
 —capturing visitors who declined cookies or use ad blockers.
 
 Privacy-first platforms like [Swetrix](https://swetrix.com) track video engagement without cookies or personal data. The approach relies on server-side processing and session-based metrics. Install the Swetrix tracking script on your site, then use custom events to log video interactions.
@@ -104,18 +103,18 @@ Privacy-first platforms like [Swetrix](https://swetrix.com) track video engageme
 Set up video tracking in Swetrix with event tracking:
 
 ```javascript
-swetrix.track({ ev: 'video_play' })
+swetrix.track({ ev: "video_play" });
 
-swetrix.track({ ev: 'video_25_percent' })
+swetrix.track({ ev: "video_25_percent" });
 
-swetrix.track({ ev: 'video_complete' })
+swetrix.track({ ev: "video_complete" });
 ```
 
 Fire these events at the appropriate playback milestones using your video player's JavaScript API. Swetrix aggregates the data without storing individual user identifiers.
 
 UTM parameters work with cookieless tracking. Tag your campaign links, and session-based analytics attribute video engagement to the correct source. The tracking persists within a single session without requiring cookies.
 
-Server-side tracking processes data on your domain. No information flows to third-party servers. No fingerprinting attempts to identify users. The setup complies with GDPR without requiring consent banners for analytics.
+Server-side tracking processes data on your domain. No information flows to third-party servers. No fingerprinting attempts to identify users. When implemented correctly, this setup may comply with GDPR without requiring consent banners for analytics in many cases, though compliance depends on your specific implementation and jurisdiction. Consult with legal counsel or privacy experts to ensure your deployment meets applicable regulations.
 
 ## Privacy, GDPR, and Cookie-Free Video Analytics
 
@@ -131,9 +130,9 @@ Consent banners reduce tracking coverage. Visitors who decline cookies disappear
 
 ### Why Cookie-Free Tracking Works Better
 
-Cookieless analytics sidesteps consent requirements. When implemented correctly, these tools don't collect PII, don't use cookies or fingerprinting, and process data on your domain without third-party sharing. Multiple EU data protection authorities confirm that privacy-first analytics are exempt from consent requirements.
+Cookieless analytics can sidestep consent requirements in many cases. When implemented correctly, these tools don't collect PII, don't use cookies or fingerprinting, and process data on your domain without third-party sharing. Multiple EU data protection authorities have indicated that privacy-first analytics may be exempt from consent requirements, though this depends on implementation specifics and local regulations.
 
-The technical advantage compounds the legal benefit. Cookie-based tracking fails when browsers block third-party cookies. Safari and Firefox users never appear in your reports. Chrome's privacy features restrict cookie access. Cookieless tracking captures 100% of visitors regardless of browser settings.
+The technical advantage compounds the legal benefit. Cookie-based tracking fails when browsers block third-party cookies. Safari and Firefox users never appear in your reports. Chrome's privacy features restrict cookie access. Cookieless tracking can capture significantly more visitors regardless of browser settings.
 
 Session-based tracking provides the metrics you need without persistent identifiers. Track page views, time on site, and event sequences within a single visit. Aggregate this data across all sessions to identify patterns without linking behavior to individuals.
 
