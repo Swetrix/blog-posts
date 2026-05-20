@@ -9,13 +9,9 @@ twitter_handle: andrii_rom
 
 A UK business sets analytics cookies without a consent banner. The ICO issues a preliminary enforcement notice. Maximum penalty: £17.5 million or 4% of global turnover. The company scrambles to audit every tracking script, rewrite its banner, and document consent records while facing potential enforcement action.
 
-PECR—the Privacy and Electronic Communications Regulations 2003—sits alongside UK GDPR and governs how websites use cookies and similar tracking technologies. The [Data Use and Access Act](https://www.mayerbrown.com/en/insights/publications/2025/06/the-data-use-and-access-act-pecr-reform-rules-relating-to-electronic-marketing-and-cookies-in-the-uk) raised maximum fines from £500,000 to
-£17.5 million or 4% of annual global turnover
-in June 2025, aligning PECR penalties with GDPR enforcement levels.
-The ICO issued £4.63 million in PECR fines since March 2022
-and sent compliance letters to 1,000 websites after
-assessing the top 200 UK websites and communicating concerns to 134 of those organisations
-.
+PECR—the Privacy and Electronic Communications Regulations 2003—sits alongside UK GDPR and governs how websites use cookies and similar tracking technologies. The [Data Use and Access Act](https://www.mayerbrown.com/en/insights/publications/2025/06/the-data-use-and-access-act-pecr-reform-rules-relating-to-electronic-marketing-and-cookies-in-the-uk) raised maximum fines from £500,000 to £17.5 million or 4% of annual global turnover in June 2025, aligning PECR penalties with GDPR enforcement levels.
+
+The ICO issued £4.63 million in PECR fines since March 2022 and sent compliance letters to 1,000 websites after assessing the top 200 UK websites and communicating concerns to 134 of those organisations.
 
 Compliance requires more than adding a banner. Scripts must stay blocked until users consent. Accept and Reject buttons need equal visual prominence. Analytics cookies—despite common assumptions—require consent like advertising trackers. This guide walks through the technical and legal requirements that keep your site compliant and your data complete.
 
@@ -37,7 +33,7 @@ Check your current cookie inventory. Open your browser's developer tools, go to 
 
 ### The New Penalty Environment
 
-Before June 2025, the ICO could fine organizations up to £500,000 for PECR violations. The Data Use and Access Act increased this ceiling to £17.5 million or 4% of annual global turnover, whichever is higher. Serious breaches now carry the same financial risk as GDPR violations.
+Before June 2025, the ICO could fine organisations up to £500,000 for PECR violations. The Data Use and Access Act increased this ceiling to £17.5 million or 4% of annual global turnover, whichever is higher. Serious breaches now carry the same financial risk as GDPR violations.
 
 The ICO's enforcement campaign demonstrates active monitoring. After
 contacting 53 of the UK's top 200 websites in November 2023 and giving them 30 days to ensure compliance
@@ -47,7 +43,7 @@ Compliance letters led to improvements at 564 websites
 
 Complaints drive investigations. The ICO received 1,753 cookie-related complaints in 2022/23. Sixty percent involved users being denied the option to reject non-essential tracking. Each complaint creates a paper trail that can trigger formal enforcement action.
 
-![Timeline visualization showing PECR enforcement evolution: £500k maximum fine (pre-2025), Data Use and Access Act passage (June 2025), new £17.5M/4% penalty threshold, ICO enforcement campaign milestones (53 sites contacted Nov 2023, expanded to 1,000 by 2025, 564 improved, 134 of 200 still non-compliant Jan 2025), and DUA Act exemptions pending (expected Dec 2025-June 2026)](https://cdn.swetrix.com/file/6f2b0780ae8520a4c3c6f08b506abd00.jpg)
+![Timeline visualisation showing PECR enforcement evolution: £500k maximum fine (pre-2025), Data Use and Access Act passage (June 2025), new £17.5M/4% penalty threshold, ICO enforcement campaign milestones (53 sites contacted Nov 2023, expanded to 1,000 by 2025, 564 improved, 134 of 200 still non-compliant Jan 2025), and DUA Act exemptions pending (expected Dec 2025-June 2026)](https://cdn.swetrix.com/file/6f2b0780ae8520a4c3c6f08b506abd00.jpg)
 
 ## Meeting ICO Consent Standards
 
@@ -138,7 +134,7 @@ Keep records of user consent decisions to demonstrate compliance during ICO inve
 
 If you use a consent management platform, it handles record-keeping. If you built a custom solution, implement a consent logging system that writes decisions to a database. Include fields for consent date, consent scope (which categories were accepted), policy version, and user identifier.
 
-Retention periods for consent records should align with your data retention policy. The ICO expects organizations to demonstrate that consent was obtained, but you don't need to store consent records indefinitely. A retention period of 2-3 years provides sufficient evidence for compliance audits while respecting data minimization principles.
+Retention periods for consent records should align with your data retention policy. The ICO expects organisations to demonstrate that consent was obtained, but you don't need to store consent records indefinitely. A retention period of 2-3 years provides sufficient evidence for compliance audits while respecting data minimisation principles.
 
 Document your cookie audit findings in a spreadsheet. List every cookie, its purpose, its category (strictly necessary or non-essential), its duration, and the third party that sets it. Update this inventory whenever you add new tracking technologies or third-party scripts. This documentation serves as evidence that you've assessed your cookies and made informed decisions about consent requirements.
 
@@ -150,7 +146,7 @@ Document your cookie audit findings in a spreadsheet. List every cookie, its pur
 
 Many site owners assume analytics cookies qualify as strictly necessary because understanding traffic patterns seems needed to run a website. The ICO disagrees. Analytics measure performance for your benefit, not to deliver the service the user requested. A visitor can read your blog post, complete a purchase, or submit a form whether analytics runs or not.
 
-The ICO's position is explicit: analytics cookies require consent. This applies to Google Analytics, Matomo, Mixpanel, Amplitude, and every other analytics platform that uses cookies or similar tracking technologies. Privacy-friendly configurations—like IP anonymization or disabling advertising features—don't change the consent requirement. If the tool stores information on the user's device or accesses device information to track behavior, PECR applies.
+The ICO's position is explicit: analytics cookies require consent. This applies to Google Analytics, Matomo, Mixpanel, Amplitude, and every other analytics platform that uses cookies or similar tracking technologies. Privacy-friendly configurations—like IP anonymisation or disabling advertising features—don't change the consent requirement. If the tool stores information on the user's device or accesses device information to track behavior, PECR applies.
 
 ### How Cookieless Tracking Works
 
@@ -180,13 +176,13 @@ The Data Use and Access Act introduces exemptions for certain low-risk cookies, 
 
 The catch: these provisions aren't yet in force as of May 2026. The Act received Royal Assent in June 2025, but the cookie exemptions require secondary legislation and updated ICO guidance before they take effect. The government indicated these changes would come within six months to a year of Royal Assent, but no specific implementation date has been announced.
 
-Organizations should continue seeking consent for analytics cookies until the exemptions take effect with clear ICO guidance. Implementing the exemptions prematurely creates enforcement risk. If the ICO investigates your site before the new rules are in force, you'll be judged against current requirements—which mandate consent for analytics.
+Organisations should continue seeking consent for analytics cookies until the exemptions take effect with clear ICO guidance. Implementing the exemptions prematurely creates enforcement risk. If the ICO investigates your site before the new rules are in force, you'll be judged against current requirements—which mandate consent for analytics.
 
 ### What to Do Until New Rules Take Effect
 
 Maintain current compliance practices while monitoring for updates. Subscribe to ICO email alerts and check the regulator's guidance page for announcements about the DUA Act implementation timeline. When secondary legislation is published, review it to understand which cookies qualify for exemptions and what conditions apply.
 
-The exemptions will include restrictions. Low-risk analytics might be exempt, but advertising cookies, cross-site tracking, and user profiling will still require consent. The ICO may impose conditions like data minimization, purpose limitation, or transparency requirements even for exempt cookies. Read the final regulations and guidance before changing your implementation.
+The exemptions will include restrictions. Low-risk analytics might be exempt, but advertising cookies, cross-site tracking, and user profiling will still require consent. The ICO may impose conditions like data minimisation, purpose limitation, or transparency requirements even for exempt cookies. Read the final regulations and guidance before changing your implementation.
 
 If your analytics setup requires consent, consider whether switching to cookie-free analytics makes sense regardless of future exemptions. Even if analytics cookies become exempt in the UK, cookie-free tracking offers advantages: no data loss from rejected consent, simpler compliance for multi-jurisdiction sites, and reduced technical complexity. The exemptions might reduce legal risk, but they won't solve the data quality problem that consent banners create.
 
