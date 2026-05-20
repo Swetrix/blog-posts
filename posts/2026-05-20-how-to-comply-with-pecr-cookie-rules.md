@@ -9,11 +9,11 @@ twitter_handle: andrii_rom
 
 A UK business sets analytics cookies without a consent banner. The ICO issues a preliminary enforcement notice. Maximum penalty: £17.5 million or 4% of global turnover. The company scrambles to audit every tracking script, rewrite its banner, and document consent records while facing potential enforcement action.
 
-PECR—the Privacy and Electronic Communications Regulations 2003—sits alongside UK GDPR and governs how websites use cookies and similar tracking technologies. The [Data Use and Access Act](https://www.mayerbrown.com/en/insights/publications/2025/06/the-data-use-and-access-act-pecr-reform-rules-relating-to-electronic-marketing-and-cookies-in-the-uk) raised maximum fines from £500,000 to 
+PECR—the Privacy and Electronic Communications Regulations 2003—sits alongside UK GDPR and governs how websites use cookies and similar tracking technologies. The [Data Use and Access Act](https://www.mayerbrown.com/en/insights/publications/2025/06/the-data-use-and-access-act-pecr-reform-rules-relating-to-electronic-marketing-and-cookies-in-the-uk) raised maximum fines from £500,000 to
 £17.5 million or 4% of annual global turnover
- in June 2025, aligning PECR penalties with GDPR enforcement levels. 
+in June 2025, aligning PECR penalties with GDPR enforcement levels.
 The ICO issued £4.63 million in PECR fines since March 2022
- and sent compliance letters to 1,000 websites after 
+and sent compliance letters to 1,000 websites after
 assessing the top 200 UK websites and communicating concerns to 134 of those organisations
 .
 
@@ -39,9 +39,9 @@ Check your current cookie inventory. Open your browser's developer tools, go to 
 
 Before June 2025, the ICO could fine organizations up to £500,000 for PECR violations. The Data Use and Access Act increased this ceiling to £17.5 million or 4% of annual global turnover, whichever is higher. Serious breaches now carry the same financial risk as GDPR violations.
 
-The ICO's enforcement campaign demonstrates active monitoring. After 
-contacting 53 of the UK's top 100 websites in November 2023 and giving them 30 days to ensure compliance
-, the regulator expanded its sweep to 1,000 sites by 2025. 
+The ICO's enforcement campaign demonstrates active monitoring. After
+contacting 53 of the UK's top 200 websites in November 2023 and giving them 30 days to ensure compliance
+, the regulator expanded its sweep to 1,000 sites by 2025.
 Compliance letters led to improvements at 564 websites
 , but a January 2025 audit found 134 of 200 reviewed sites still using non-compliant banners. The ICO is developing AI tools to identify violations at scale, making manual reviews of individual sites unnecessary for enforcement.
 
@@ -82,7 +82,6 @@ Test this behavior. Open your site in a private browsing window, dismiss the ban
 ## Designing a Compliant Cookie Banner
 
 ### Equal Prominence for Accept and Reject
-
 
 ICO Deputy Commissioner Stephen Bonner stated in June 2023 that sites without a "Reject All" button are breaking the law
 . The button must appear on the first layer of the banner with equal visual prominence to the "Accept" button. Equal prominence means matching size, color contrast, position, and accessibility.
