@@ -13,7 +13,7 @@ Micro conversions are the small steps visitors take toward your primary business
 
 Two categories define micro conversions. Process milestones mark linear progress: adding items to cart, filling out form fields, creating an account. Secondary actions indicate engagement without direct conversion intent: newsletter signups, video views, social media follows. [Nielsen Norman Group's research](https://www.nngroup.com/articles/micro-conversions/) separates these types because they serve different analytical purposes. Process milestones diagnose funnel friction. Secondary actions predict future conversions.
 
-The business case for tracking both types is clear. The [2025 Forrester CX Index](https://www.forrester.com/press-newsroom/forrester-global-customer-experience-index-2025-rankings/) found companies focusing on fewer, higher-value events saw better customer experience outcomes, with even minor improvements reducing churn and increasing share of wallet.
+The business case for tracking both types is clear. The [2025 Forrester Global Customer Experience Index](https://www.forrester.com/press-newsroom/forrester-global-customer-experience-index-2025-rankings/) is a perception-based measure across CX dimensions tied to loyalty, showing that even minor improvements in customer experience reduce churn and increase share of wallet.
 
 Map your customer journey into these two categories. Start with your macro conversion—a purchase, a qualified lead, a subscription signup. Work backward through every step required to reach that goal. Those are your process milestones. Then list actions that don't lead to conversion but suggest interest: content downloads, tool usage, repeat visits. Those are your secondary actions.
 
@@ -32,6 +32,7 @@ Testing comes next. Open DebugView in GA4 by navigating to Configure > DebugView
 Use Google Tag Manager to implement events without touching site code. Create a trigger for the user action—a button click, a scroll depth threshold, a form submission. Attach a GA4 event tag to that trigger. Set the event name and parameters in the tag configuration. Publish the container, then verify in DebugView.
 
 Common micro conversions to track in GA4:
+
 - `add_to_cart`: User adds product to shopping cart
 - `begin_checkout`: User starts checkout process
 - `view_item`: User views product detail page
@@ -50,9 +51,9 @@ Each event requires a trigger. An `add_to_cart` event fires when the user clicks
 
 GA4 requires cookie consent in most jurisdictions. Cookieless analytics platforms bypass this requirement by tracking aggregate metrics without identifying individual users. [Matomo](https://matomo.org/), [Plausible](https://plausible.io/), and [Swetrix](https://swetrix.com) offer event tracking without cookies or personal data collection.
 
-Matomo's cookieless mode hashes browser attributes into a temporary identifier that groups pageviews into sessions. The hash resets every 24 hours, preventing long-term user tracking. [France's data protection authority confirmed](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) Matomo configured this way is exempt from consent requirements. Set up custom events in Matomo through the tracking code or tag manager, the same way you would in GA4.
+Matomo's cookieless mode hashes browser attributes into a temporary identifier that groups pageviews into sessions. The hash resets every 24 hours, preventing long-term user tracking. [France's data protection authority provides](https://www.cnil.fr/en/sheet-ndeg16-use-analytics-your-websites-and-applications) a conditional audience-measurement exemption for Matomo configured this way, requiring purpose limitation, IP anonymization, disabling cross-domain and third-party cookies, no User ID or ecommerce tracking when not aligned with conditions, and CNIL-aligned retention and lifespan limits. Set up custom events in Matomo through the tracking code or tag manager, the same way you would in GA4.
 
-Server-side tracking moves data collection from the browser to your server. The user's browser sends a request to your domain, which forwards anonymized data to your analytics platform. Ad blockers can't intercept server-side requests because they originate from your infrastructure, not a third-party script. [B2B adoption of server-side tracking](https://www.xictron.com/en/blog/server-side-tracking-cookieless-own-infrastructure-2026/) sits at 67% according to recent industry data, with companies reporting an average 41% data quality improvement over client-side approaches.
+Server-side tracking moves data collection from the browser to your server. The user's browser sends a request to your domain, which forwards anonymized data to your analytics platform. Ad blockers can't intercept server-side requests because they originate from your infrastructure, not a third-party script. Server-side tracking offers improved data quality and completeness over client-side approaches.
 
 Behavior analytics tools complement event tracking with visual data. Hotjar records user sessions and generates heatmaps showing where visitors click, scroll, and hover. Crazy Egg overlays click data on your page layout. These tools reveal friction points that raw event counts miss. A high `form_start` count paired with low `form_submit` suggests users abandon mid-form. Session recordings show where they stop.
 
@@ -70,13 +71,13 @@ Segment micro conversions by user cohorts. Retention patterns differ by signup d
 
 Funnel analysis shows where users drop off. If 10,000 visitors result in 200 purchases (2% conversion rate), break down the intermediate steps. Suppose 3,000 visitors add items to cart, 1,500 start checkout, and 200 complete purchase. The biggest drop-off happens between cart and checkout (50% loss), not between product page and cart (70% loss). Focus optimization efforts on the checkout flow, not product pages.
 
-| Funnel Stage | Visitors | Drop-off Rate |
-|--------------|----------|---------------|
-| Landing Page | 10,000 | — |
-| Product View | 5,000 | 50% |
-| Add to Cart | 3,000 | 40% |
-| Start Checkout | 1,500 | 50% |
-| Complete Purchase | 200 | 87% |
+| Funnel Stage      | Visitors | Drop-off Rate |
+| ----------------- | -------- | ------------- |
+| Landing Page      | 10,000   | —             |
+| Product View      | 5,000    | 50%           |
+| Add to Cart       | 3,000    | 40%           |
+| Start Checkout    | 1,500    | 50%           |
+| Complete Purchase | 200      | 87%           |
 
 The table reveals checkout as the critical friction point. Users who reach that stage are motivated, yet 87% abandon. Investigate form length, payment options, shipping costs, and trust signals on the checkout page.
 
