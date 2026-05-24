@@ -3,15 +3,16 @@ title: "Is Google Analytics Illegal in Europe? 2026 Guide"
 intro: "Multiple EU authorities have ruled Google Analytics non-compliant with GDPR. Learn the current legal status and compliant alternatives."
 date: May 24, 2026
 hidden: false
+standalone: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-Multiple European data protection authorities have ruled Google Analytics non-compliant with GDPR. 
+Multiple European data protection authorities have ruled Google Analytics non-compliant with GDPR.
 Austria banned it in January 2022
-. France followed in February. Italy joined in June. By January 2025, Denmark, Finland, Norway, and Sweden had issued similar rulings. 
+. France followed in February. Italy joined in June. By January 2025, Denmark, Finland, Norway, and Sweden had issued similar rulings.
 The Swedish authority fined telecommunications provider Tele2 €1 million in July 2023
- for using the platform. GDPR violations carry penalties up to €20 million or 4% of global revenue, whichever is higher.
+for using the platform. GDPR violations carry penalties up to €20 million or 4% of global revenue, whichever is higher.
 
 The legal status remains fluid in 2026. The EU-US Data Privacy Framework, adopted in July 2023, addressed some data transfer concerns. Privacy advocates question whether it will survive judicial review. Max Schrems, who brought down the previous Privacy Shield agreement, [recommends businesses "have a 'host in Europe' contingency plan"](https://www.termsfeed.com/blog/google-analytics-illegal/) in case the framework collapses under political pressure.
 
@@ -37,9 +38,8 @@ Other EU member states have not issued formal bans, but the European Data Protec
 
 ### The NOYB Complaint Campaign Across 30 Countries
 
-
 Privacy advocacy group NOYB filed 101 complaints in all 30 EU and EEA member states
- in August 2020. The complaints targeted European companies forwarding visitor data to Google and Facebook. The European Data Protection Board set up a task force in September 2020 to promote consistent handling across jurisdictions.
+in August 2020. The complaints targeted European companies forwarding visitor data to Google and Facebook. The European Data Protection Board set up a task force in September 2020 to promote consistent handling across jurisdictions.
 
 The campaign aimed to force systematic enforcement rather than isolated cases. Filing in every member state prevented authorities from waiting to see what others would do. The strategy worked. Multiple countries issued rulings within 18 months.
 
@@ -114,9 +114,8 @@ Audit your current setup against this checklist. Fix gaps within 30 days. Docume
 
 ### The 90% Traffic Data Loss Problem
 
-
 The UK's Information Commissioner's Office shared that their website traffic dropped by 90.8%
- after showing visitors a cookie consent banner. The ICO, the UK's data protection authority, experienced this data loss despite being a government entity with high brand trust. Commercial websites face similar or worse decline rates.
+after showing visitors a cookie consent banner. The ICO, the UK's data protection authority, experienced this data loss despite being a government entity with high brand trust. Commercial websites face similar or worse decline rates.
 
 Visitors who decline consent aren't tracked at all. Depending on your audience, a significant portion of traffic becomes invisible. European users decline cookies at higher rates than users in other regions. Privacy-conscious visitors, the demographic most likely to decline tracking, often represent your most engaged audience segment.
 
@@ -150,6 +149,10 @@ The accuracy advantage is substantial. As Google Analytics data becomes more ina
 
 ### Top GDPR-Compliant Analytics Tools Compared
 
+**Swetrix** is a cookieless, privacy-focused Google Analytics alternative built for teams that want accurate traffic data without consent-banner data loss. Swetrix is open source, stores data in the EU, and avoids cookies and cross-device tracking, so you can measure 100% of visits while respecting visitor privacy. The dashboard covers the essentials - page views, unique visitors, sessions, bounce rate, referrers, devices, countries, UTM campaigns, entry pages, and exit pages - then goes deeper with custom events, conversion goals, funnels, user flows, session analysis, real-user performance monitoring, and client-side error tracking. Teams can share public or password-protected dashboards, invite teammates, export data, use the API, and set alerts through email, Slack, Telegram, Discord, webhooks, or browser push. Start with a 14-day free trial, or self-host the Community Edition if you need full infrastructure control.
+
+![A screenshot of the Swetrix Traffic Dashboard](https://swetrix.com/assets/screenshot_light.png)
+
 **Plausible Analytics** is a lightweight alternative offering simple web metrics: page views, unique visitors, bounce rate, and visit duration. The company is based in Estonia with legal entity incorporated in the EU. All data is kept secured, encrypted, and hosted on renewable energy powered servers in Falkenstein, Germany, owned by Hetzner. Pricing starts at $9/month for 10,000 monthly pageviews. The self-hosted version is free.
 
 **Fathom Analytics** tracks unique visitors, page views, time on site, bounce rate, and referral data without cookies. Pricing starts at $5/month for 100,000 pageviews. The platform emphasizes speed, loading in under 1KB compared to GA4's 45KB script size.
@@ -159,8 +162,6 @@ The accuracy advantage is substantial. As Google Analytics data becomes more ina
 **Simple Analytics** is 100% GDPR compliant from installation. Because it only processes non-personal data, it satisfies the strictest privacy regulations, including GDPR, ePrivacy Directive, UK GDPR, and PECR. The platform provides a single-page dashboard showing visitors, referrers, and top pages.
 
 **PostHog** offers EU data hosting, keeping all user data within the EU to comply with GDPR. The platform combines product analytics, session replay, feature flags, and A/B testing in one tool. Pricing scales with event volume.
-
-**Swetrix** provides cookieless, privacy-focused analytics with EU hosting. The platform requires no consent banners and tracks 100% of visitors. Start with a 14-day free trial to test the platform with your traffic.
 
 ### How to Migrate Without Losing Historical Data
 
@@ -204,7 +205,6 @@ Document your findings in a compliance checklist. Note which items need fixing a
 
 Set a quarterly review process to monitor regulatory developments. Subscribe to your national data protection authority's newsletter. Follow NOYB's press releases for early warnings about legal challenges. Join industry groups that track privacy regulations.
 
-
 The Europe web analytics market accounted for USD 1.4 billion in 2025, representing 22.33% of the global industry, and is expected to reach USD 1.62 billion in 2026
 . This growth reflects demand for compliant analytics solutions. Market momentum favors privacy-first platforms.
 
@@ -214,4 +214,4 @@ Establish a 30-day deadline to complete your audit and implementation. Mark the 
 
 ---
 
-**Ready to eliminate analytics compliance risk?** Swetrix provides cookieless, privacy-focused web analytics with EU hosting. No consent banners required. Track 100% of your visitors without GDPR concerns. [Start your 14-day free trial](https://swetrix.com/signup) and see how privacy-first analytics captures more accurate data than cookie-based platforms. For more on privacy regulations across different jurisdictions, read our guide on [privacy regulations for websites by country](https://swetrix.com/blog/privacy-regulations-for-websites-by-country).
+**Ready to reduce analytics compliance risk?** Swetrix provides cookieless, privacy-focused web analytics with EU hosting to help you meet privacy requirements depending on your configuration and data practices. No consent banners are required for typical cookieless analytics setups, subject to your implementation and local law. [Start your 14-day free trial](https://swetrix.com/signup) and see how privacy-first analytics captures more accurate data than cookie-based platforms. For more on privacy regulations across different jurisdictions, read our guide on [privacy regulations for websites by country](https://swetrix.com/blog/privacy-regulations-for-websites-by-country).
