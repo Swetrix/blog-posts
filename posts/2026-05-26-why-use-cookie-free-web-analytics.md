@@ -59,7 +59,7 @@ Server-side tracking moves data collection to your backend. The user's browser r
 
 [Over 72% of B2B companies now employ server-side tracking](https://openpanel.dev/articles/cookieless-analytics), reporting an average 45% data quality improvement over client-side-only approaches. The architecture bypasses browser restrictions and ad blockers, [improving data accuracy by 12.6%](https://secureprivacy.ai/blog/cookieless-tracking-technology).
 
-Implement server-side tracking by installing the analytics SDK on your backend. Your application serves a page. Call the SDK's tracking function with the page URL and referrer. The SDK handles the rest—batching events, sending them to the analytics platform, and managing the server-to-server connection.
+In Swetrix, most teams start with the lightweight browser script: `swetrix.trackViews()` for automatic pageviews, `swetrix.pageview()` for manual pageviews, and `swetrix.track()` for custom events. If you need backend collection, use Swetrix's API or server-side library with the same Swetrix pageview and custom-event concepts instead of treating pageviews as a generic `event: "page_view"` payload.
 
 ### The Honest Limitations
 
@@ -165,33 +165,42 @@ Load analytics without blocking page rendering. In Swetrix, setup can be as simp
 </script>
 ```
 
-Implement server-side tracking for complete immunity to ad blockers when you need the highest possible collection reliability. Install your analytics platform's SDK on your backend. Your application serves a page. Call the tracking function:
+For manual pageviews or custom events, use the Swetrix methods from the tracking script reference. Automatic page tracking is handled by `swetrix.trackViews()`. If your app needs to send a specific pageview manually, call `swetrix.pageview()`:
 
 ```javascript
-analytics.track({
-  event: "page_view",
-  url: request.url,
-  referrer: request.headers.referer,
-  user_agent: request.headers["user-agent"],
+swetrix.pageview({
+  payload: {
+    pg: "/pricing",
+  },
 });
 ```
 
-The SDK sends events from your server to the analytics platform through a server-to-server connection. Ad blockers never see the request because it doesn't touch the user's browser.
+For conversions and other custom actions, call `swetrix.track()` with an event identifier:
+
+```javascript
+swetrix.track({
+  ev: "signup",
+  unique: false,
+  meta: {
+    plan: "pro",
+  },
+});
+```
+
+Keep event names and metadata free of personal data. Swetrix anonymises analytics data, but you should never send names, emails, user IDs, session cookies, payment details, or any other personally identifiable information in event names or metadata.
 
 Configure first-party domains to avoid browser restrictions. Instead of sending data to `analytics.example.com`, proxy requests through your own domain: `yourdomain.com/analytics`. Swetrix supports routing the tracker script and analytics events through a subdomain you control, which helps prevent generic blocker lists from treating your analytics endpoint as a third-party tracker.
 
-Test your implementation by visiting your site with an ad blocker enabled. Check your analytics dashboard. If the visit appears, your setup is working. If not, verify that you're using server-side tracking or a first-party domain proxy.
+Test your implementation by visiting your site with an ad blocker enabled. Check your analytics dashboard. If the visit appears, your setup is working. If not, verify the tracking script, custom domain proxy, or API/server-side setup.
 
 ### Data Minimization and Privacy Design
 
-Collect only what you need. A minimal event structure includes:
+Collect only what you need. For a simple Swetrix custom event, keep the payload small:
 
 ```javascript
-{
-  event: 'page_view',
-  page: location.pathname,
-  referrer: document.referrer
-}
+swetrix.track({
+  ev: "newsletter_signup",
+});
 ```
 
 Skip user agent parsing, screen resolution, language preferences, and other browser fingerprinting signals unless you have a specific business need. The less data you collect, the lower your privacy risk and the simpler your compliance story.
