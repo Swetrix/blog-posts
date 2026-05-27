@@ -1,5 +1,5 @@
 ---
-title: "Is Google Analytics 4 GDPR Compliant in 2025?"
+title: "Is Google Analytics 4 GDPR Compliant in 2026?"
 intro: "GA4 can be GDPR compliant with proper configuration, but legal uncertainty and data loss make cookieless alternatives worth considering."
 date: May 27, 2026
 hidden: false
@@ -23,15 +23,13 @@ IP addresses arrive with every web request. GA4 anonymizes these addresses by de
 
 ### Seven EU Countries Have Ruled Against GA4
 
+Austria's Data Protection Authority issued the first ruling on 22 Dec 2021, declaring that [US intelligence services could access GA4 data](https://swetrix.com/blog/google-analytics-illegal-in-europe). France's CNIL followed on 4 Jan 2022, then Italy's Garante on 9 Jun 2022. Denmark, Finland, Norway, and Sweden joined the list through 2025, with Norway's decision arriving in January 2025.
 
-Austria's Data Protection Authority issued the first ruling in January 2022
-, declaring that [US intelligence services could access GA4 data](https://swetrix.com/blog/google-analytics-illegal-in-europe). France's CNIL followed one month later, then Italy's Garante in June 2022. Denmark, Finland, Norway, and Sweden joined the list through 2025, with Norway's decision arriving in January 2025.
-
-Privacy advocacy group NOYB filed 101 complaints across all 30 EU and EEA member states in August 2020. The European Data Protection Board created a task force in September 2020 to coordinate enforcement. These coordinated actions produced the wave of national rulings that continue today.
+The European Data Protection Board created a task force in September 2020 to coordinate enforcement following concerns about US data transfers. These coordinated actions produced the wave of national rulings that continue today.
 
 ### Why the EU-US Data Privacy Framework Doesn't Solve Everything
 
-The European Commission adopted an adequacy decision for the EU-US Data Privacy Framework in July 2023. This framework provides a legal basis for transferring personal data from the EU to certified US companies, including Google. The framework addresses data transfers but not collection practices.
+The European Commission adopted an adequacy decision for the EU-US Data Privacy Framework on 10 Jul 2023. This framework provides a legal basis for transferring personal data from the EU to certified US companies, including Google. The framework addresses data transfers but not collection practices.
 
 NOYB plans to challenge the framework in court—a potential "Schrems III" case that could invalidate the agreement as Schrems I and II invalidated previous frameworks. Legal uncertainty persists until the Court of Justice of the EU rules on any challenge. Website owners who rely on the Data Privacy Framework for compliance face renewed risk if the court strikes down the agreement.
 
@@ -39,19 +37,19 @@ Configure GA4 properly or accept that your analytics setup might not survive reg
 
 ## The Hidden Cost: How Cookie Consent Destroys Your Data
 
-Cookie consent banners don't annoy visitors—they create massive blind spots in your analytics. 
+Cookie consent banners don't annoy visitors—they create massive blind spots in your analytics.
 A study by Orbit Media comparing GA4 to Plausible found that 55.6% of traffic data is missing when users were shown the consent banner
 .
 
-### GA4 Captures Only 55.6% of Actual Traffic
+### GA4 Captures Only 44.4% of Actual Traffic
 
-Visitors who decline cookies disappear from your reports. GA4 requires consent to set tracking cookies, so declined consent means no data collection. The Orbit Media study measured traffic on the same website using both GA4 (with consent requirements) and Plausible (cookieless). GA4 missed nearly half of all visitors.
+Visitors who decline cookies disappear from your reports. GA4 requires consent to set tracking cookies, so declined consent means no data collection. The Orbit Media study measured traffic on the same website using both GA4 (with consent requirements) and Plausible (cookieless). With 55.6% missing, GA4 captured only 44.4% of visitors—meaning GA4 missed slightly more than half of all visitors.
 
 Run your own comparison test. Install a cookieless analytics platform alongside GA4 for 30 days. Compare total pageview counts between the two platforms. The gap reveals how much traffic you're currently missing in GA4 reports.
 
 ### Why 30-90% Data Loss Happens
 
-Most sites experience 30-90% organic data loss in GA4, depending on audience demographics, geographic location, brand trust, and consent banner design. 
+Most sites experience 30-90% organic data loss in GA4, depending on audience demographics, geographic location, brand trust, and consent banner design.
 The UK's Information Commissioner's Office shared that their website traffic dropped by 90.8% after implementing a compliant consent banner—from 119,417 users per day to just 10,967
 . Privacy-conscious audiences in Germany, France, and Scandinavia decline consent at higher rates than visitors from other regions.
 
@@ -127,7 +125,7 @@ Swetrix offers a [14-day free trial](https://swetrix.com/signup) with full featu
 
 Plausible provides lightweight, open-source analytics with a simple dashboard. The platform collects no personally identifiable information and requires no consent banners. Self-host the open-source version or use the hosted cloud service.
 
-Matomo runs on over 1 million websites. France's data protection agency confirmed that configured Matomo is exempt from tracking consent in France. Self-host Matomo on your own servers for complete data control, or use Matomo Cloud for managed hosting.
+Matomo runs on over 1 million websites. France's CNIL provides an "audience measurement" exemption from tracking consent, but only when Matomo is configured to meet [strict conditions](https://cnil.fr/fr/cookies-solutions-pour-les-outils-de-mesure-daudience). This exemption applies whether you self-host Matomo on your own servers or use Matomo Cloud for managed hosting. Matomo offers detailed guidance on [configuring for CNIL exemption](https://matomo.org/faq/how-to/how-do-i-configure-matomo-without-tracking-consent-for-french-visitors-cnil-exemption/) and provides a [configuration user guide](https://matomo.org/wp-content/uploads/2026/04/Configure-Matomo-Analytics-for-CNIL-exemption-User-Guide.pdf). For more details on CNIL's cookie rules, see their [FAQ](https://www.cnil.fr/fr/cookies-et-autres-traceurs/regles/cookies/FAQ).
 
 Fathom Analytics stores no PII and requires no cookie consent. The platform focuses on metrics: pageviews, referrers, goals, and campaign tracking. Fathom's simplicity appeals to users who want basic analytics without GA4's complexity.
 
@@ -146,7 +144,6 @@ Run both platforms in parallel for 30 days. Compare traffic volumes, conversion 
 GDPR violations carry financial penalties that scale with company size and violation severity. Enforcement activity continues to increase as data protection authorities mature their processes and coordinate across borders.
 
 ### Current Fine Landscape: €7.1 Billion and Counting
-
 
 GDPR penalties since 2018 now exceed €7.1 billion, with the CMS GDPR Enforcement Tracker recording 2,245 documented fines through early 2026
 . Maximum penalties reach 4% of annual global turnover or €20 million, whichever is higher.
