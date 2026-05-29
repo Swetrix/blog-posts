@@ -7,7 +7,7 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-A visitor from Munich lands on your site. Before they read a word, a modal blocks the screen asking them to accept or reject cookies. Half click accept without reading. The other half bounce.
+A visitor from Munich lands on your site. Before they read a word, a modal blocks the screen asking them to accept or reject cookies. Half of them click accept without reading. The other half bounce.
 
 Cookie banners exist because privacy laws require websites to ask permission before collecting personal data. The decision to implement one depends on three factors: the types of cookies your site uses, where your visitors are located, and which privacy regulations apply to your business. Get any of these wrong, and you face either unnecessary friction that tanks conversions or [regulatory fines that reach €20 million](https://gdpr-info.eu/issues/fines-penalties/).
 
