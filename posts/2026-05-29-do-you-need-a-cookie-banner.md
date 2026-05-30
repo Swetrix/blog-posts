@@ -210,6 +210,7 @@ Answer these four questions to determine your cookie banner requirement:
 Compare the full cost of each approach:
 
 **Cookie Banner Path Costs:**
+
 - CMP subscription: $50-500/month depending on platform and features
 - Compliance audit time: 10-20 hours initially, 2-4 hours quarterly for ongoing monitoring
 - Data loss from rejections: 30-70% of visitors invisible in analytics
@@ -219,6 +220,7 @@ Compare the full cost of each approach:
 - Fine risk if implementation fails: €20M or 4% of global revenue
 
 **Cookie-Free Analytics Path Costs:**
+
 - Swetrix subscription: lower than CMP costs, starting at $19/month for 100,000 events
 - Migration time: 1-2 weeks to implement and verify
 - Loss of user-level tracking: no cross-device attribution, no remarketing audiences, no user-level funnels
