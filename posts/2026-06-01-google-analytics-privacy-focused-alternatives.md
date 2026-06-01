@@ -7,7 +7,7 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-A Swedish company receives a €1 million fine for using Google Analytics. The violation: transferring user data to US servers where intelligence agencies can access it without a warrant. Seven European countries now classify Google Analytics as illegal under GDPR, and enforcement actions have generated €6.7 billion in penalties across 2,679 violations since 2018.
+A Swedish company receives a €1 million fine for using Google Analytics. The violation: transferring user data to US servers where intelligence agencies can access it without a warrant. Seven European countries now classify Google Analytics as illegal under GDPR, and enforcement actions have generated €6.11 billion in penalties across 2,685 violations as of March 2026.
 
 The legal risk is real, but the hidden cost runs deeper. Cookie-based analytics captures only 52% of your actual traffic. Safari blocks third-party cookies by default and holds 26% of desktop share plus 53% of mobile traffic in the US. Firefox adds another 7% of desktop users. Ad blockers strip tracking pixels from 30-40% of sessions before data reaches your dashboard. The other 48% of your visitors exist, browse, and convert—but vanish from your reports because they rejected a consent banner or run privacy tools.
 
@@ -69,7 +69,7 @@ Both methods preserve geographic data while preventing identification of individ
 
 Data minimization means collecting only what you need to answer business questions. Google Analytics collects device IDs, user IDs, client IDs, cross-device graphs, and dozens of behavioral signals to build advertising profiles. Privacy-focused tools collect page URL, referrer, timestamp, country, device type, and browser. That's enough to answer "Which pages get the most traffic?" and "Where do visitors come from?" without building a surveillance apparatus.
 
-[France's CNIL has approved Matomo](https://matomo.org/gdpr-analytics/) as one of the only web analytics tools that can collect data without tracking consent when configured with IP anonymization, no cookies, and data retention under 13 months. The CNIL's guidance establishes a legal framework: if your analytics tool doesn't identify individuals and doesn't share data with third parties, you can operate without consent banners.
+[France's CNIL has approved Matomo](https://matomo.org/gdpr-analytics/) as one of the only web analytics tools that can collect data without tracking consent when configured with IP anonymization, no cookies, and data retention under 13 months (CNIL exemption: under 13 months when IP anonymization, no cookies, and no third-party sharing are in place). The CNIL's guidance establishes a legal framework: if your analytics tool doesn't identify individuals and doesn't share data with third parties, you can operate without consent banners.
 
 ### Why You Don't Need Consent Banners
 
@@ -78,9 +78,10 @@ GDPR requires consent for processing personal data, but aggregate analytics data
 Configuration determines whether you need consent. If your analytics platform stores cookies, tracks users across sessions, or transfers data to third-party services, you need consent. If it collects aggregate behavioral patterns without persistent identifiers, you don't.
 
 Set up your privacy-focused tool with these parameters:
+
 - Enable IP anonymization (hash or truncate before storage)
 - Disable cookies and local storage
-- Set data retention to 24 months maximum
+- Set data retention to 24 months maximum (general best practice; note that CNIL exemption requires under 13 months for consent-free operation)
 - Host data on EU servers or your own infrastructure
 - Block data transfers to third-party services
 
@@ -143,8 +144,8 @@ For Swetrix, add the tracking script to your site's `<head>` section:
 ```html
 <script src="https://swetrix.org/swetrix.js" defer></script>
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    swetrix.init('YOUR_PROJECT_ID');
+  document.addEventListener("DOMContentLoaded", function () {
+    swetrix.init("YOUR_PROJECT_ID");
     swetrix.trackViews();
   });
 </script>
@@ -166,24 +167,24 @@ For event-based tracking, add JavaScript to your site:
 
 ```javascript
 // Track button click
-document.getElementById('cta-button').addEventListener('click', function() {
+document.getElementById("cta-button").addEventListener("click", function () {
   swetrix.track({
-    ev: 'cta_click',
+    ev: "cta_click",
     meta: {
-      button_location: 'homepage_hero',
-      button_text: 'Start Free Trial'
-    }
+      button_location: "homepage_hero",
+      button_text: "Start Free Trial",
+    },
   });
 });
 
 // Track form submission
-document.getElementById('contact-form').addEventListener('submit', function() {
+document.getElementById("contact-form").addEventListener("submit", function () {
   swetrix.track({
-    ev: 'form_submit',
+    ev: "form_submit",
     meta: {
-      form_type: 'contact',
-      form_location: 'footer'
-    }
+      form_type: "contact",
+      form_location: "footer",
+    },
   });
 });
 ```
@@ -192,12 +193,12 @@ Custom events accept a meta object, so you can segment conversions by product ca
 
 ```javascript
 swetrix.track({
-  ev: 'purchase',
+  ev: "purchase",
   meta: {
     revenue: 49.99,
-    product_id: 'PRD-123',
-    quantity: 1
-  }
+    product_id: "PRD-123",
+    quantity: 1,
+  },
 });
 ```
 
@@ -205,7 +206,7 @@ Test each event by triggering it manually and checking the Swetrix dashboard. Ev
 
 Set up server-side tracking for improved match rates. Server-side methods capture conversions from users who block client-side scripts. For Meta ads, implement the [Conversions API](https://swetrix.com/blog/how-to-track-form-submissions-without-tag-manager). For Google Ads, configure Enhanced Conversions. Both require sending conversion data from your server to the ad platform, bypassing browser restrictions.
 
-Update your privacy policy. List what you track (page URL, referrer, timestamp, country, device type, browser), where you store it (EU servers or your infrastructure), and how long you retain it (24 months for analytics data). Specify that you don't use cookies, don't track individuals across sessions, and don't share data with third parties. Link to your analytics vendor's privacy policy and data processing agreement.
+Update your privacy policy. List what you track (page URL, referrer, timestamp, country, device type, browser), where you store it (EU servers or your infrastructure), and how long you retain it (general best practice: 24 months for analytics data; CNIL exemption requires under 13 months for consent-free operation). Specify that you don't use cookies, don't track individuals across sessions, and don't share data with third parties. Link to your analytics vendor's privacy policy and data processing agreement.
 
 Remove Google Analytics. Delete the GA4 tracking script from your site's `<head>` section. Remove any Google Tag Manager containers that load GA4. Check your consent management platform and remove Google Analytics from the list of third-party services.
 
@@ -237,26 +238,28 @@ Implement Meta CAPI by sending purchase events from your server to Facebook:
 
 ```javascript
 // Server-side code (Node.js example)
-const axios = require('axios');
+const axios = require("axios");
 
 async function sendConversion(email, phone, purchaseValue) {
   const hashedEmail = hashSHA256(email);
   const hashedPhone = hashSHA256(phone);
-  
-  await axios.post('https://graph.facebook.com/v18.0/YOUR_PIXEL_ID/events', {
-    data: [{
-      event_name: 'Purchase',
-      event_time: Math.floor(Date.now() / 1000),
-      user_data: {
-        em: hashedEmail,
-        ph: hashedPhone
+
+  await axios.post("https://graph.facebook.com/v18.0/YOUR_PIXEL_ID/events", {
+    data: [
+      {
+        event_name: "Purchase",
+        event_time: Math.floor(Date.now() / 1000),
+        user_data: {
+          em: hashedEmail,
+          ph: hashedPhone,
+        },
+        custom_data: {
+          value: purchaseValue,
+          currency: "USD",
+        },
       },
-      custom_data: {
-        value: purchaseValue,
-        currency: 'USD'
-      }
-    }],
-    access_token: 'YOUR_ACCESS_TOKEN'
+    ],
+    access_token: "YOUR_ACCESS_TOKEN",
   });
 }
 ```
@@ -287,7 +290,7 @@ The EU is advancing the Digital Omnibus package, a broad initiative aimed at str
 
 The UK Data (Use and Access) Act 2025 introduces updates to PECR expected to make it easier to use privacy-friendly analytics without requiring consent. These changes apply in early 2026. The Act distinguishes between intrusive tracking (cookies, fingerprinting, cross-site identifiers) and statistical measurement (aggregate pageviews, referrer data, session duration). If your analytics tool collects only statistical data without identifying individuals, you won't need consent.
 
-France's CNIL has established a framework for consent-exempt analytics. The framework provides a checklist: IP anonymization enabled, no cookies used, data retention under 24 months, no third-party transfers, aggregate reporting only. Complete the checklist, and you have evidence of compliance if regulators investigate.
+France's CNIL has established a framework for consent-exempt analytics. The framework provides a checklist: IP anonymization enabled, no cookies used, data retention under 13 months (CNIL exemption requirement), no third-party transfers, aggregate reporting only. Complete the checklist, and you have evidence of compliance if regulators investigate.
 
 ### AI, Privacy Budgets, and Differential Privacy
 
@@ -301,7 +304,7 @@ Privacy-by-design principles embed privacy from project start. When building a n
 
 ### How to Future-Proof Your Analytics Stack
 
-Conduct quarterly compliance audits. Review what data you collect, where you store it, and who has access. Check vendor contracts for data processing agreements. Verify that IP anonymization is enabled and data retention is set to 24 months or less. Document everything in a compliance log.
+Conduct quarterly compliance audits. Review what data you collect, where you store it, and who has access. Check vendor contracts for data processing agreements. Verify that IP anonymization is enabled and data retention is set appropriately (24 months or less as general best practice; under 13 months if relying on CNIL exemption for consent-free operation). Document everything in a compliance log.
 
 Choose tools with built-in anonymization. Swetrix hashes IP addresses by default, doesn't use cookies, and stores data on EU servers. These architectural choices mean compliance is automatic, not something you configure and hope stays correct.
 
