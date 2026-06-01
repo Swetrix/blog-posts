@@ -105,15 +105,25 @@ Pricing starts at 100,000 events per month for $19/month or $190/year. Events in
 
 The platform offers a [14-day free trial](https://swetrix.com/signup) with full feature access. Install the script, run it alongside Google Analytics for two weeks, and compare the traffic counts. Most businesses see 40-50% more visitors in Swetrix because cookieless tracking captures Safari users, Firefox users, and anyone who rejected your consent banner.
 
+![A screenshot of the Swetrix Traffic Dashboard](https://swetrix.com/assets/screenshot_light.png)
+
 ### Plausible, Fathom, and Matomo Compared
 
 **Plausible Analytics** uses a [script under 1KB](https://withcabin.com/blog/7-best-google-analytics-alternatives-for-2025) and focuses on simplicity. The dashboard shows pageviews, visitors, bounce rate, visit duration, and top pages in a single screen. No drill-down menus. No configuration complexity. Pricing starts at $9/month for 10,000 monthly pageviews, scaling to $69/month for 100,000 pageviews. Over [200,000 websites](https://wp-statistics.com/2025/08/privacy-focused-analytics-tools/) use Plausible. Data stays on EU servers, and the platform doesn't use cookies. The trade-off: limited event tracking and no built-in conversion funnels.
 
+![Plausible dashboard screenshot](https://cdn.swetrix.com/file/9310d5816ff9c214363cecd34dc160d6.png)
+
 **Fathom Analytics** offers similar simplicity with [pricing starting at $9/month](https://www.bizbot.com/blog/5-best-privacy-focused-web-analytics-tools-2024/). The interface shows traffic sources, popular pages, and goal completions. Fathom supports unlimited websites per account, making it cost-effective for agencies managing multiple clients. The platform provides email reports and Slack notifications when traffic spikes. Over [200,000 websites](https://wp-statistics.com/2025/08/privacy-focused-analytics-tools/) use Fathom. The limitation: basic event tracking and no real-time data.
+
+![Fathom Analytics dashboard screenshot](https://cdn.swetrix.com/file/1cd6562e739265c649561f506dc96865.png)
 
 **Matomo** serves over [one million websites](https://humblytics.com/blog/the-best-google-analytics-alternative-for-2025-privacy-focused-options) across 190+ countries. The platform offers two deployment options: free self-hosted or cloud plans starting at $29/month. Self-hosting gives you complete data ownership but requires server management. Cloud hosting handles infrastructure while keeping data on EU servers. Matomo provides advanced features—heatmaps, session recordings, A/B testing, and funnel analysis—that match Google Analytics' depth. [France's CNIL has approved Matomo](https://matomo.org/gdpr-analytics/) as GDPR-compliant when configured with IP anonymization and no cookies. The complexity: extensive configuration options that require technical knowledge.
 
+![Matomo dashboard screenshot](https://cdn.swetrix.com/file/8c2fd444d54483ec608b9bb10426a660.png)
+
 **Umami** is a free, open-source tool built for developers. Over [500,000 websites](https://wp-statistics.com/2025/08/privacy-focused-analytics-tools/) use Umami. Self-host it on your infrastructure, and you pay only for server costs. The interface shows real-time traffic, referrers, pages, and custom events. Umami supports multiple websites per installation and includes a public dashboard feature for sharing stats. The requirement: technical skills to deploy and maintain the application.
+
+![Umami dashboard screenshot](https://cdn.swetrix.com/file/3c2f16378bfc4bfe35617abbcbfd5a34.jpg)
 
 ### Open-Source vs. Cloud-Hosted: Which to Choose
 
