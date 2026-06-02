@@ -83,6 +83,8 @@ Measure your current analytics script impact. Open Chrome DevTools, navigate to 
 
 ### Swetrix: The Modern Privacy-First Choice
 
+![A screenshot of the Swetrix Traffic Dashboard](https://swetrix.com/assets/screenshot_light.png)
+
 Swetrix combines true privacy with powerful features that traditional platforms require cookies to deliver. The platform collects zero personal data, uses no cookies, and requires no consent banners. GDPR and CCPA compliance is built in from the first page view.
 
 The Swetrix script weighs under 1KB. EU hosting ensures data residency compliance. Real-time dashboards update as visitors browse your site. Campaign tracking with UTM parameters works without cookies by using temporary session identifiers. Custom events track conversions, form submissions, and user actions without storing personal information.
@@ -97,6 +99,8 @@ Swetrix pricing starts at 100,000 events per month for $19/month or $190/year. A
 
 ### Plausible Analytics: Lightweight and EU-Hosted
 
+![Plausible dashboard screenshot](https://cdn.swetrix.com/file/9310d5816ff9c214363cecd34dc160d6.png)
+
 Plausible launched in 2019 and grew as a GDPR-compliant Google Analytics alternative. The platform uses a 2.5KB script, processes data on EU infrastructure, and operates on a cookieless model.
 
 Plausible processes data under GDPR Article 6(1)(f) legitimate interest. The platform uses pseudonymization and anonymization techniques that preserve privacy while delivering actionable insights. No explicit consent is required because Plausible collects no personal data for advertising or cross-site tracking.
@@ -107,6 +111,8 @@ Plausible's EU hosting addresses data residency requirements for European organi
 
 ### Fathom and Simple Analytics: Cookieless Simplicity
 
+![Fathom Analytics dashboard screenshot](https://cdn.swetrix.com/file/1cd6562e739265c649561f506dc96865.png)
+
 Fathom Analytics positions itself as the simple, fast alternative for entrepreneurs who value privacy and clean data. The platform operates on a cookieless tracking model. No consent banners appear on your site. The dashboard provides metrics without complexity.
 
 Fathom focuses on core analytics: page views, referrers, time on site, and goals. The interface removes clutter and presents data clearly. Teams that don't need heatmaps, session recordings, or advanced segmentation find Fathom sufficient for traffic analysis and conversion tracking.
@@ -116,6 +122,8 @@ Simple Analytics offers a privacy-first approach with ad-blocker bypass technolo
 Both platforms charge monthly fees based on page view volume. Fathom and Simple Analytics target teams that prioritize simplicity over feature depth. If your analytics needs center on traffic sources, popular content, and conversion rates, either platform delivers those metrics without privacy compromises.
 
 ### Umami and Self-Hosted Options
+
+![Umami dashboard screenshot](https://cdn.swetrix.com/file/3c2f16378bfc4bfe35617abbcbfd5a34.jpg)
 
 Umami strikes a balance between simplicity and capability. The platform offers more features than basic alternatives without Matomo's complexity. Visitors stay anonymous. GDPR compliance is built in from the start.
 
