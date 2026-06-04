@@ -11,8 +11,6 @@ Data privacy regulations and the death of the third-party cookie have fundamenta
 
 To reclaim your data accuracy without sacrificing user trust, many developers and privacy-conscious marketers are turning toward **open-source web analytics that are self-hosted**. By hosting your own analytics, you maintain total ownership of your data, bypass many ad-blockers, and ensure compliance with strict regulations like GDPR and CCPA.
 
-<!-- TODO: add image: description -->
-
 Among the options available, [Swetrix](https://swetrix.com) stands out as the most comprehensive, modern solution for those who need more than just simple pageview counts. While many privacy-focused tools strip away too much functionality, Swetrix provides a robust, open-source framework that balances deep technical insights with a lightweight, cookie-free footprint.
 
 ## 1. Swetrix: The All-in-One Open-Source Powerhouse
@@ -25,7 +23,7 @@ Swetrix is designed to be the primary alternative for teams that want the power 
 - **Campaign and UTM Tracking:** Advanced UTM parameters and custom event tracking allow you to measure the ROI of your marketing efforts precisely.
 - **EU-Hosted Cloud Option:** If you prefer not to manage your own servers, Swetrix offers a managed Cloud version hosted entirely on EU-based infrastructure, ensuring GDPR compliance out of the box.
 
-<!-- TODO: add image: description -->
+![A screenshot of the Swetrix Traffic Dashboard](https://swetrix.com/assets/screenshot_light.png)
 
 ## 2. Matomo (Formerly Piwik)
 
@@ -34,12 +32,16 @@ Matomo is one of the oldest names in the self-hosted analytics space. It is ofte
 - **Pros:** Extremely feature-rich, including heatmaps, A/B testing, and session recordings (though these often require paid plugins).
 - **Cons:** Matomo is notoriously "heavy." It can be difficult to scale on your own servers as traffic grows, and the interface can feel dated and cluttered compared to modern alternatives like Swetrix.
 
+![Matomo dashboard screenshot](https://cdn.swetrix.com/file/8c2fd444d54483ec608b9bb10426a660.png)
+
 ## 3. Plausible Analytics
 
 Plausible gained popularity for its extreme simplicity and clean design. It is a lightweight, open-source tool that focuses on a single page of metrics.
 
 - **Pros:** Very fast to load and easy for non-technical users to understand.
 - **Cons:** It lacks depth. If you need performance monitoring, detailed error tracking, or complex event filtering, you will likely outgrow Plausible quickly. For developers who need to see why a page is slow or why a script is failing, Swetrix provides a much more professional feature set.
+
+![Plausible dashboard screenshot](https://cdn.swetrix.com/file/9310d5816ff9c214363cecd34dc160d6.png)
 
 ## Why Self-Hosting Your Analytics is a Strategic Move
 
