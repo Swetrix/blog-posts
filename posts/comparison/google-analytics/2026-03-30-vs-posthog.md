@@ -81,7 +81,7 @@ Here is exactly how Google Analytics and PostHog compare against each other, and
 | User Profiles                        |             ✅              |             ✅              |        ✅        |
 | Revenue analytics                    |             ❌              |             ✅              |        ✅        |
 | SEO insights (Google Search Console) |             ✅              |             ❌              |        ✅        |
-| Session recordings                   |             ❌              |             ✅              |        ❌        |
+| Session recordings                   |             ❌              |             ✅              |        ✅        |
 | Heatmaps                             |             ❌              |             ✅              |        ❌        |
 | SQL Access                           |             ❌              |             ✅              |        ❌        |
 | CAPTCHA                              |             ❌              |             ❌              |        ✅        |

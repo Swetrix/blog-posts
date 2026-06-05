@@ -82,7 +82,7 @@ Let's look at how the simplest and the most complex tools on the market compare,
 | User Profiles                        |        ❌        |             ✅              |        ✅        |
 | Revenue analytics                    |        ❌        |             ✅              |        ✅        |
 | SEO insights (Google Search Console) |        ❌        |             ❌              |        ✅        |
-| Session recordings                   |        ❌        |             ✅              |        ❌        |
+| Session recordings                   |        ❌        |             ✅              |        ✅        |
 | Heatmaps                             |        ❌        |             ✅              |        ❌        |
 | SQL Access                           |        ❌        |             ✅              |        ❌        |
 | CAPTCHA                              |        ❌        |             ❌              |        ✅        |

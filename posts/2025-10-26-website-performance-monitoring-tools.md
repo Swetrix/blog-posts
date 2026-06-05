@@ -17,13 +17,13 @@ Each entry provides a concise breakdown of key features, pricing structures, and
 
 Swetrix stands out as a powerful, privacy-first alternative in the world of website performance monitoring tools. It delivers clear, actionable insights without relying on cookies, ensuring GDPR compliance and respecting visitor anonymity. This platform is built for teams who demand 100% data ownership and transparency, offering a robust feature set that bridges the gap between traditional analytics and modern performance monitoring.
 
-It adeptly combines essential traffic metrics like top pages, referrers, and UTM campaign tracking with advanced capabilities. Users can analyze session recordings, map user flows, build conversion funnels, and monitor real-user website speed metrics. Swetrix also includes built-in error tracking, which aggregates issues by browser, device, and page, providing developers with critical data to resolve bugs quickly.
+It adeptly combines essential traffic metrics like top pages, referrers, and UTM campaign tracking with advanced capabilities. Swetrix Cloud users can analyze opt-in session recordings when they enable replay recording, map user flows, build conversion funnels, and monitor real-user website speed metrics. Swetrix also includes built-in error tracking, which aggregates issues by browser, device, and page, providing developers with critical data to resolve bugs quickly.
 
 ![Swetrix](https://cdn.outrank.so/ec97efe1-e4fa-4a91-85f3-25c0f1a37f9f/screenshots/70ad6e4e-c814-4a72-9b4b-e29f3efc6a7a.jpg)
 
 ### Key Features & Use Cases
 
-Swetrix is uniquely positioned to serve multiple roles within an organization. For marketing and growth teams, its cookieless tracking provides reliable insights into campaign performance and user journeys without navigating complex consent banners. Product managers and UX researchers can use the session analysis and funnels to identify friction points and optimize conversion paths.
+Swetrix is uniquely positioned to serve multiple roles within an organization. For marketing and growth teams, its cookieless tracking provides reliable insights into campaign performance and user journeys without navigating complex consent banners for standard analytics. Product managers and UX researchers can use session analysis, optional Cloud replay, and funnels to identify friction points and optimize conversion paths.
 
 Developers and DevOps teams gain significant value from the open-source Community Edition, which allows for self-hosting and complete data control. The platform’s API access and configurable alerts to Slack, Telegram, or Discord integrate seamlessly into existing development workflows, making it an excellent tool for proactive issue resolution.
 

@@ -75,7 +75,7 @@ Here is how the simple and the complex stack up against Swetrix, the balanced mi
 | User Profiles                        |    ❌     |             ✅              |        ✅        |
 | Revenue analytics                    |    ❌     |             ✅              |        ✅        |
 | SEO insights (Google Search Console) |    ✅     |             ❌              |        ✅        |
-| Session recordings                   |    ❌     |             ✅              |        ❌        |
+| Session recordings                   |    ❌     |             ✅              |        ✅        |
 | Heatmaps                             |    ❌     |             ✅              |        ❌        |
 | SQL Access                           |    ❌     |             ✅              |        ❌        |
 | CAPTCHA                              |    ❌     |             ❌              |        ✅        |

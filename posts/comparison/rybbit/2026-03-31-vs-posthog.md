@@ -80,7 +80,7 @@ Here is a side-by-side feature comparison to help you understand how Rybbit and 
 | User Profiles                        |           ✅           |             ✅              |             ✅              |
 | Revenue analytics                    |           ❌           |             ✅              |             ✅              |
 | SEO insights (Google Search Console) |           ❌           |             ❌              |             ✅              |
-| Session recordings                   |           ❌           |             ✅              |             ❌              |
+| Session recordings                   |           ❌           |             ✅              |             ✅              |
 | SQL Access                           |           ❌           |             ✅              |             ❌              |
 | CAPTCHA                              |           ❌           |             ❌              |             ✅              |
 | **Security & Access**                |                        |                             |                             |

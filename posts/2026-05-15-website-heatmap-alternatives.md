@@ -165,9 +165,9 @@ Create a survey template with three questions: "What brought you here today?" (o
 
 Start with one main analytics tool for traffic and conversion tracking, one session replay tool for behavioral analysis, and one feedback method for qualitative insights. This combination covers quantitative metrics, individual user journeys, and direct user feedback.
 
-For the main analytics tool, choose between Plausible for simplicity and privacy focus, or Swetrix for more advanced features like error tracking and performance monitoring. Both are cookie-free, GDPR-compliant by default, and don't require consent banners. Plausible's 2.5KB script loads faster than any traditional analytics platform, while Swetrix offers built-in session replay and form analytics in a single tool.
+For the main analytics tool, choose between Plausible for simplicity and privacy focus, or Swetrix for more advanced features like error tracking and performance monitoring. Both are cookie-free for core analytics and can avoid analytics consent banners when configured appropriately. Plausible's 2.5KB script loads faster than any traditional analytics platform, while Swetrix offers opt-in Cloud session replay alongside its analytics stack when you need behavioral context.
 
-Add Microsoft Clarity for session replay if you're not using Swetrix's built-in replay. Clarity is free, has no traffic limits, and includes heatmaps alongside session recordings. Configure field masking for password and payment fields, set data retention to 30 days, and enable IP anonymization.
+Add Microsoft Clarity for session replay if you're not using Swetrix's opt-in built-in replay. Clarity is free, has no traffic limits, and includes heatmaps alongside session recordings. Configure field masking for password and payment fields, set data retention to 30 days, and enable IP anonymization.
 
 Implement on-page surveys using a lightweight tool like Hotjar's free tier (50 responses per month) or a custom solution using sessionStorage for display logic. Keep surveys to three questions maximum and trigger them based on user behavior, not arbitrary timers.
 
@@ -201,4 +201,4 @@ Privacy-first analytics tools capture the complete user journey without cookies,
 
 Switch to a privacy-first stack—one main analytics tool, one session replay tool, and one feedback method—and your traffic numbers will increase substantially overnight. Not because you gained new visitors, but because you're seeing the ones who were always there.
 
-[Start your free Swetrix trial](https://swetrix.com/signup) to track higher coverage of your traffic without cookies or consent banners. The platform includes analytics, session replay, and error tracking in a single privacy-first tool that complies with GDPR by design.
+[Start your free Swetrix trial](https://swetrix.com/signup) to track higher coverage of your traffic without cookies or consent banners for core analytics. The platform includes analytics, optional session replay, and error tracking in a single privacy-first tool; start replay only after your consent flow, masking, and retention choices are configured.

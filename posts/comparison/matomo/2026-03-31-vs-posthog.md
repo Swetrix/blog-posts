@@ -75,7 +75,7 @@ Let's look at the technical capabilities of these tools. Here is how Matomo and 
 | Feature flags                        |           ❌            |           ✅            |           ✅            |
 | Revenue analytics                    |     ✅ (Ecommerce)      |           ✅            |           ✅            |
 | SEO insights (Google Search Console) |  ⚠️ Paid Plugin / $$$$  |           ❌            |           ✅            |
-| Session recordings                   |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ❌            |
+| Session recordings                   |  ⚠️ Paid Plugin / $$$$  |           ✅            |           ✅            |
 | SQL Access                           |           ❌            |           ✅            |           ❌            |
 | **Security & Access**                |                         |                         |                         |
 | Bot filtering                        |           ✅            |           ✅            |           ✅            |

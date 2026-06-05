@@ -363,4 +363,4 @@ The journey to find the right **Matomo alternative** is an opportunity to re-eva
 
 ---
 
-Ready to upgrade to a modern, privacy-focused analytics suite that combines simplicity with powerful features? **Swetrix** offers the perfect balance, providing everything from performance monitoring and session recordings to intuitive dashboards, all while respecting user privacy. Explore how [Swetrix](https://swetrix.com) can give you the actionable insights you need to grow your business, without the complexity of traditional analytics platforms.
+Ready to upgrade to a modern, privacy-focused analytics suite that combines simplicity with powerful features? **Swetrix** offers the perfect balance, providing everything from performance monitoring and opt-in Cloud session recordings to intuitive dashboards, all while respecting user privacy. Explore how [Swetrix](https://swetrix.com) can give you the actionable insights you need to grow your business, without the complexity of traditional analytics platforms.

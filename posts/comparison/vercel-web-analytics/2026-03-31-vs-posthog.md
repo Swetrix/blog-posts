@@ -74,7 +74,7 @@ Here is a direct comparison of the features provided by Vercel Web Analytics and
 | Experiments (A/B tests)              |          ❌          |          ✅          |           ✅           |
 | Feature flags                        |          ❌          |          ✅          |           ✅           |
 | SEO insights (Google Search Console) |          ❌          |          ❌          |           ✅           |
-| Session recordings                   |          ❌          |          ✅          |           ❌           |
+| Session recordings                   |          ❌          |          ✅          |           ✅           |
 | SQL Access                           |          ❌          |          ✅          |           ❌           |
 | **Platform & Setup**                 |                      |                      |                        |
 | Platform Independent                 |   ❌ (Vercel only)   |          ✅          |           ✅           |

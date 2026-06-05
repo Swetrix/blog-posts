@@ -79,7 +79,7 @@ Here is how the hyper-simple and the overly complex stack up against Swetrix, th
 | Feature flags                        |          ❌          |             ✅              |             ✅              |
 | User Profiles                        |          ❌          |             ✅              |             ✅              |
 | SEO insights (Google Search Console) |          ✅          |             ❌              |             ✅              |
-| Session recordings                   |          ❌          |             ✅              |             ❌              |
+| Session recordings                   |          ❌          |             ✅              |             ✅              |
 | SQL Access                           |          ❌          |             ✅              |             ❌              |
 | **Security & Access**                |                      |                             |                             |
 | Bot filtering                        |          ✅          |             ✅              |             ✅              |

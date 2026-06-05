@@ -9,7 +9,7 @@ twitter_handle: andrii_rom
 
 Google Analytics 4 sits in legal limbo across Europe. Seven national data protection authorities have ruled against it since January 2022, yet millions of websites still run GA4 tracking scripts. The platform can achieve GDPR compliance with proper configuration, but that compliance comes at a steep cost: most sites lose 30-90% of their traffic data to cookie consent declines.
 
-[Swetrix](https://swetrix.com) sidesteps this entire problem. The platform requires no cookies, no consent banners, and no data transfers to US servers. Deploy the tracking script and capture 100% of your traffic from day one. EU hosting keeps data within GDPR jurisdiction, eliminating the legal uncertainty that plagues GA4 implementations.
+[Swetrix](https://swetrix.com) sidesteps this entire problem for standard analytics. The platform requires no cookies, no consent banners, and no data transfers to US servers for core traffic measurement. Deploy the tracking script and capture 100% of your traffic from day one. EU hosting keeps data within GDPR jurisdiction, eliminating the legal uncertainty that plagues GA4 implementations.
 
 ## The Short Answer: GA4 Compliance Is Conditional
 
@@ -65,7 +65,7 @@ Attribution modeling breaks down when permissions aren't managed. Multi-touch at
 
 Audience segmentation fails when half your traffic lacks demographic data. Geographic reports show only consenting visitors, skewing your understanding of where traffic originates. Device and browser breakdowns become unreliable when mobile users decline consent at different rates than desktop users.
 
-[Swetrix captures 100% of traffic without consent banners](https://swetrix.com), giving you the full picture for confident decision-making. The platform tracks pageviews, referrers, and user flows without processing personal data that requires consent. Deploy it alongside GA4 to measure your data loss, then decide whether partial visibility justifies the compliance burden.
+[Swetrix captures 100% of traffic without consent banners](https://swetrix.com), giving you the full picture for confident decision-making. Standard analytics tracks pageviews, referrers, and user flows without processing personal data that requires consent. Deploy it alongside GA4 to measure your data loss, then decide whether partial visibility justifies the compliance burden.
 
 ![After 'The Hidden Cost' section: Data visualization comparing traffic capture rates—bar chart showing GA4 at 55.6% vs cookieless analytics at 100%, with segments showing the 30-90% data loss range from consent declines, and the UK ICO's 90.8% drop as an extreme example.](https://cdn.swetrix.com/file/d584fac0aa17a2dc942a7486c113d8fb.jpg)
 
@@ -111,7 +111,9 @@ GA4's compliance complexity and data loss problems drive adoption of cookieless 
 
 ### Swetrix: Cookieless, EU-Hosted, 100% Data Accuracy
 
-[Swetrix](https://swetrix.com) processes no personal data requiring consent. The platform tracks pageviews, referrers, UTM parameters, custom events, and user flows without cookies. Deploy the tracking script and start collecting data—no consent banner required.
+[Swetrix](https://swetrix.com) standard analytics processes no personal data requiring consent. The platform tracks pageviews, referrers, UTM parameters, custom events, and user flows without cookies. Deploy the tracking script and start collecting data—no consent banner required for core analytics.
+
+Optional session replays are separate. They are available on Swetrix Cloud only, are not recorded by default, and start only when your site calls `startSessionReplay()`. Review consent, masking, page exclusions, and retention before enabling replay recording.
 
 EU hosting keeps all data on servers within GDPR jurisdiction. Data never transfers to US servers or third-party processors. This architecture eliminates the legal uncertainty around transatlantic data transfers that affects GA4. Check your dashboard for real-time traffic data, campaign performance, and conversion tracking without worrying about DPA rulings or framework challenges.
 
@@ -166,7 +168,7 @@ Record data retention policies and deletion procedures. Show how you honor data 
 
 Regulators require this documentation during investigations. Missing documentation signals non-compliance and increases penalty severity. Complete documentation demonstrates good-faith compliance efforts and may reduce fines even if violations occurred.
 
-Cookieless analytics like Swetrix eliminate most of this compliance burden. The platform processes no personal data requiring consent, so consent documentation becomes unnecessary. Data stays within EU borders, removing data transfer documentation requirements. Focus on building your business instead of maintaining compliance files.
+Cookieless analytics like Swetrix eliminate most of this compliance burden for core analytics. The standard analytics setup processes no personal data requiring consent, so consent documentation becomes unnecessary for that component. Data stays within EU borders, removing data transfer documentation requirements. Focus on building your business instead of maintaining compliance files.
 
 ![After 'The Real Risks' section: Timeline visualization of GDPR enforcement milestones—horizontal timeline from August 2020 (NOYB's 101 complaints) through January 2022 (Austria ruling), February 2022 (France), June 2022 (Italy), July 2023 (EU-US Data Privacy Framework), to January 2025 (Norway), with total fines (€5.65B) and average fine (€2.36M) displayed prominently.](https://cdn.swetrix.com/file/e76529991ce2478811ede3e8351fc2ad.jpg)
 
@@ -194,7 +196,7 @@ Check server logs for another comparison point. Server logs capture every reques
 
 Test Swetrix's [14-day free trial](https://swetrix.com/signup) with full feature access. Set up custom events for your key conversion actions. Configure UTM parameters using the [UTM generator tool](https://swetrix.com/tools/utm-generator) for campaign tracking. Share dashboards with stakeholders to gather feedback on the interface and available metrics.
 
-Compare data completeness, insight quality, and ease of use. Check whether Swetrix provides the metrics you use for decision-making. Most businesses need pageviews, referrers, conversion tracking, and campaign performance—all available without cookies or consent banners.
+Compare data completeness, insight quality, and ease of use. Check whether Swetrix provides the metrics you use for decision-making. Most businesses need pageviews, referrers, conversion tracking, and campaign performance—all available without cookies or consent banners in the standard analytics setup.
 
 Calculate total cost of ownership. GA4 appears free but requires CMP subscriptions ($50-500/month), compliance consulting, legal review, and ongoing maintenance. Swetrix pricing starts at $19/month for 100,000 events with no hidden costs or compliance overhead.
 
@@ -202,4 +204,4 @@ Make the switch if you're seeing >30% data loss, facing EU regulatory scrutiny, 
 
 ---
 
-**Ready to see your complete traffic picture?** [Start your free 14-day Swetrix trial](https://swetrix.com/signup) and capture 100% of your visitors without consent banners. No credit card required.
+**Ready to see your complete traffic picture?** [Start your free 14-day Swetrix trial](https://swetrix.com/signup) and capture 100% of your core analytics visitors without consent banners. No credit card required.

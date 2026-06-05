@@ -77,7 +77,7 @@ Here is how Pirsch and PostHog compare across features, and how Swetrix balances
 | User Profiles                        |           ❌           |           ✅           |           ✅           |
 | Revenue analytics                    |           ❌           |           ✅           |           ✅           |
 | SEO insights (Google Search Console) |           ✅           |           ❌           |           ✅           |
-| Session recordings                   |           ❌           |           ✅           |           ❌           |
+| Session recordings                   |           ❌           |           ✅           |           ✅           |
 | SQL Access                           |           ❌           |           ✅           |           ❌           |
 | **Security & Access**                |                        |                        |                        |
 | Bot filtering                        |           ✅           |           ✅           |           ✅           |

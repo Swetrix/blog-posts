@@ -143,15 +143,15 @@ Swetrix, on the other hand, is built for teams that need to dig deeper. While it
 
 To really see the difference, it helps to put their key features side-by-side. This table shows where the two platforms overlap and, more importantly, where Swetrix offers capabilities that go far beyond simple traffic counting.
 
-| Feature                  | Plausible Analytics                                      | Swetrix                                                                    |
-| :----------------------- | :------------------------------------------------------- | :------------------------------------------------------------------------- |
-| **Real-Time Monitoring** | Yes, provides a live view of current visitors.           | Yes, with detailed real-time performance and user flow data.               |
-| **Error Tracking**       | No, focuses on traffic metrics only.                     | **Yes**, built-in tracking for JavaScript errors to identify and fix bugs. |
-| **Session Replays**      | No, does not offer session recording.                    | **Yes**, allows you to watch anonymized recordings of user sessions.       |
-| **A/B Testing**          | No, requires external tools for experiments.             | **Yes**, includes a built-in, statistically-sound A/B testing framework.   |
-| **Revenue Analytics**    | No, does not directly integrate with payment processors. | **Yes**, integrates with Stripe and Paddle for direct revenue attribution. |
+| Feature                  | Plausible Analytics                                      | Swetrix                                                                                  |
+| :----------------------- | :------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **Real-Time Monitoring** | Yes, provides a live view of current visitors.           | Yes, with detailed real-time performance and user flow data.                             |
+| **Error Tracking**       | No, focuses on traffic metrics only.                     | **Yes**, built-in tracking for JavaScript errors to identify and fix bugs.               |
+| **Session Replays**      | No, does not offer session recording.                    | **Yes**, opt-in on Swetrix Cloud; recording starts when you call `startSessionReplay()`. |
+| **A/B Testing**          | No, requires external tools for experiments.             | **Yes**, includes a built-in, statistically-sound A/B testing framework.                 |
+| **Revenue Analytics**    | No, does not directly integrate with payment processors. | **Yes**, integrates with Stripe and Paddle for direct revenue attribution.               |
 
-This comparison shows that Swetrix isn't just an analytics tool; it’s closer to a full-stack product improvement suite. Features like error tracking and session replays help you proactively find and fix issues that are costing you conversions.
+This comparison shows that Swetrix isn't just an analytics tool; it’s closer to a full-stack product improvement suite. Features like error tracking and opt-in session replays help you proactively find and fix issues that are costing you conversions.
 
 ![A flowchart titled 'Unexpected Website Events: Decision Tree' outlining steps to address website anomalies.](https://cdnimg.co/ec97efe1-e4fa-4a91-85f3-25c0f1a37f9f/11629b26-35cb-4e00-8e67-7a574eed11c9/what-is-plausible-decision-tree.jpg)
 

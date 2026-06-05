@@ -221,4 +221,4 @@ Don't be discouraged if you don't see a massive jump in conversions overnight. T
 
 ---
 
-Ready to turn user insights into measurable growth? Start by understanding your visitor's journey with a privacy-first analytics tool. **Swetrix** provides powerful session recordings, funnels, and performance monitoring to help you pinpoint exactly where to focus your optimization efforts, all while respecting user privacy. [Sign up for free and start improving your website conversion rates today](https://swetrix.com).
+Ready to turn user insights into measurable growth? Start by understanding your visitor's journey with a privacy-first analytics tool. **Swetrix** provides opt-in session replays on Swetrix Cloud, funnels, and performance monitoring to help you pinpoint exactly where to focus your optimization efforts, all while respecting user privacy. [Sign up for free and start improving your website conversion rates today](https://swetrix.com).

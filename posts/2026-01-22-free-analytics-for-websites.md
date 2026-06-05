@@ -339,7 +339,7 @@ To cut through the noise and select the right tool, ask yourself these three cri
 
 1.  **What is my primary goal?**
     - **Simple traffic monitoring:** If you just need to know how many people visit your site and where they come from, lightweight options like **Umami**, **Cloudflare Web Analytics**, or **Plausible** are excellent.
-    - **User behavior analysis:** To understand _how_ users interact with your site, tools with heatmaps and session recordings like **Microsoft Clarity** or event-based platforms like **Swetrix** are invaluable.
+    - **User behavior analysis:** To understand _how_ users interact with your site, tools with heatmaps and session recordings like **Microsoft Clarity** or event-based platforms with opt-in replay like **Swetrix** are invaluable.
     - **Product-led growth:** For deep analysis of user journeys, funnels, and feature adoption in a web app, a product analytics tool like **PostHog** or **Mixpanel** is the right choice.
 
 2.  **What are my technical resources?**

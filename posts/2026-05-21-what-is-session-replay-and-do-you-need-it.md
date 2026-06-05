@@ -166,10 +166,10 @@ Wait if you can't commit to proper PII masking and consent management. Deploying
 
 Session replay works best integrated with traditional analytics, not as a replacement. Use analytics to identify problems at scale—which pages have high bounce rates, which funnel steps lose the most users, which features get the least engagement. Then use replay to understand why those problems exist and what to fix.
 
-Privacy-first alternatives like [Swetrix](https://swetrix.com) reduce compliance burden by collecting minimal data and avoiding cookies. If your team lacks privacy expertise or wants to minimize compliance risk, choose tools designed for privacy from the ground up rather than bolting privacy features onto traditional session replay platforms.
+Privacy-first alternatives like [Swetrix](https://swetrix.com) reduce compliance burden by collecting minimal analytics data and avoiding cookies by default. Swetrix session replays are optional on Cloud and start only after your site calls `startSessionReplay()`, so you can put consent, masking, and page exclusions in place before recording.
 
 ---
 
 Session replay turns abstract analytics metrics into concrete user stories. You stop guessing why users abandon and start watching them struggle with the broken button or confusing form. The tool pays for itself when you fix one major conversion blocker or cut bug resolution time in half.
 
-Start with a [free trial at Swetrix](https://swetrix.com/signup) to see how privacy-first analytics and session replay work together without the compliance headaches of traditional tools.
+Start with a [free trial at Swetrix](https://swetrix.com/signup) to see how privacy-first analytics and opt-in session replay work together without the compliance headaches of traditional tools.

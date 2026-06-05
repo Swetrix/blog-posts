@@ -82,7 +82,7 @@ To see exactly how these tools stack up, here is a detailed, side-by-side featur
 | User Profiles                        |             ❌              |          ✅          |           ✅           |
 | Revenue analytics                    |             ❌              |          ✅          |           ✅           |
 | SEO insights (Google Search Console) |             ❌              |          ❌          |           ✅           |
-| Session recordings                   |             ❌              |          ✅          |           ❌           |
+| Session recordings                   |             ❌              |          ✅          |           ✅           |
 | Heatmaps                             |             ❌              |          ✅          |           ❌           |
 | SQL Access                           |             ❌              |          ✅          |           ❌           |
 | CAPTCHA                              |       ✅ (Turnstile)        |          ❌          |           ✅           |
