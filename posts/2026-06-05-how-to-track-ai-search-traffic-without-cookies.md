@@ -19,11 +19,11 @@ AI tools can send visitors through several paths. [ChatGPT Search](https://help.
 
 Separate three signals before you build reports:
 
-| Signal | What it means | Where to check it | What to do next |
-| :--- | :--- | :--- | :--- |
-| Citation | An AI answer mentions or links your page | Manual checks, AI visibility tools, Search Console for Google surfaces | Record the prompt, cited URL, and answer type |
-| Click | A person lands on your site from the AI surface | Referrers, landing pages, UTMs | Segment the session and compare behavior |
-| Conversion | The visitor triggers a goal, funnel step, or transaction | Events, funnels, revenue analytics | Attribute value back to source and page |
+| Signal     | What it means                                            | Where to check it                                                      | What to do next                               |
+| :--------- | :------------------------------------------------------- | :--------------------------------------------------------------------- | :-------------------------------------------- |
+| Citation   | An AI answer mentions or links your page                 | Manual checks, AI visibility tools, Search Console for Google surfaces | Record the prompt, cited URL, and answer type |
+| Click      | A person lands on your site from the AI surface          | Referrers, landing pages, UTMs                                         | Segment the session and compare behavior      |
+| Conversion | The visitor triggers a goal, funnel step, or transaction | Events, funnels, revenue analytics                                     | Attribute value back to source and page       |
 
 A citation does not equal a visit. A user may read the AI answer and stop. Another user may copy your brand name and search for it later. Your analytics stack should measure the traffic you receive and mark the gaps you cannot prove.
 
@@ -33,14 +33,14 @@ A citation does not equal a visit. A user may read the AI answer and stop. Anoth
 
 Open your referrers report and create a segment for known AI sources. Start with domains you can verify in your own traffic, then revise the list each month.
 
-| AI surface | Referrer or source pattern to watch | Notes |
-| :--- | :--- | :--- |
-| ChatGPT | `chatgpt.com`, `chat.openai.com`, `openai.com` | Expect both referral traffic and direct follow-up visits |
-| Perplexity | `perplexity.ai` | Watch cited pages and long-tail landing pages |
-| Gemini | `gemini.google.com`, `bard.google.com` | Some traffic may blend with Google surfaces |
-| Claude | `claude.ai` | Expect small volume and high intent on technical pages |
-| Copilot | `copilot.microsoft.com`, `bing.com` | Split Microsoft AI traffic from classic Bing search where possible |
-| Google AI Overviews and AI Mode | `google.com`, `google.*` | Treat as Google Search traffic unless Search Console gives a better clue |
+| AI surface                      | Referrer or source pattern to watch            | Notes                                                                    |
+| :------------------------------ | :--------------------------------------------- | :----------------------------------------------------------------------- |
+| ChatGPT                         | `chatgpt.com`, `chat.openai.com`, `openai.com` | Expect both referral traffic and direct follow-up visits                 |
+| Perplexity                      | `perplexity.ai`                                | Watch cited pages and long-tail landing pages                            |
+| Gemini                          | `gemini.google.com`, `bard.google.com`         | Some traffic may blend with Google surfaces                              |
+| Claude                          | `claude.ai`                                    | Expect small volume and high intent on technical pages                   |
+| Copilot                         | `copilot.microsoft.com`, `bing.com`            | Split Microsoft AI traffic from classic Bing search where possible       |
+| Google AI Overviews and AI Mode | `google.com`, `google.*`                       | Treat as Google Search traffic unless Search Console gives a better clue |
 
 In Swetrix, filter referrers for those patterns and save the view for Monday review. Compare each source against:
 
@@ -77,12 +77,12 @@ Dark AI traffic means the visitor came from an AI-assisted journey, but the sess
 
 Mark the probable cases instead of pretending the data can prove more than it can.
 
-| Pattern in analytics | Possible AI cause | How to test it |
-| :--- | :--- | :--- |
-| Direct traffic spikes on one guide | Users copy the URL from an AI answer | Check AI tools for that exact URL and topic |
-| Branded search rises after a citation | Users search your brand after reading the answer | Compare brand queries with cited-page dates |
-| Long-tail landing pages convert well | AI tools send qualified visitors to specific pages | Segment by page and compare revenue per visit |
-| New referrer appears once or twice | AI surface, app, or browser changed link handling | Add it to a watchlist before grouping it |
+| Pattern in analytics                  | Possible AI cause                                  | How to test it                                |
+| :------------------------------------ | :------------------------------------------------- | :-------------------------------------------- |
+| Direct traffic spikes on one guide    | Users copy the URL from an AI answer               | Check AI tools for that exact URL and topic   |
+| Branded search rises after a citation | Users search your brand after reading the answer   | Compare brand queries with cited-page dates   |
+| Long-tail landing pages convert well  | AI tools send qualified visitors to specific pages | Segment by page and compare revenue per visit |
+| New referrer appears once or twice    | AI surface, app, or browser changed link handling  | Add it to a watchlist before grouping it      |
 
 Create an `ai_suspected` segment for landing pages that receive unexplained direct traffic after you confirm citations in AI answers. Keep that label separate from `ai_referred`. Your team can act on both, but the confidence level differs.
 
@@ -117,13 +117,13 @@ AI answer clicks often skip your homepage. Visitors land on a comparison post, d
 
 Group AI landing pages by intent:
 
-| Landing page type | Visitor intent | Metric to check | Action |
-| :--- | :--- | :--- | :--- |
-| Comparison | Vendor shortlist | Trial starts per visitor | Add feature proof and migration path |
-| Pricing | Budget check | Pricing-to-signup rate | Clarify event tiers and trial terms |
-| Docs | Implementation | Docs-to-product click rate | Add SDK snippets and next-step links |
-| Blog guide | Problem research | Scroll depth, CTA clicks | Add examples, templates, and related tools |
-| Support article | Post-purchase issue | Error rate, support clicks | Fix the product friction behind the query |
+| Landing page type | Visitor intent      | Metric to check            | Action                                     |
+| :---------------- | :------------------ | :------------------------- | :----------------------------------------- |
+| Comparison        | Vendor shortlist    | Trial starts per visitor   | Add feature proof and migration path       |
+| Pricing           | Budget check        | Pricing-to-signup rate     | Clarify event tiers and trial terms        |
+| Docs              | Implementation      | Docs-to-product click rate | Add SDK snippets and next-step links       |
+| Blog guide        | Problem research    | Scroll depth, CTA clicks   | Add examples, templates, and related tools |
+| Support article   | Post-purchase issue | Error rate, support clicks | Fix the product friction behind the query  |
 
 In Swetrix, create filters for AI referrers plus landing-page paths. Save views for `/blog`, `/docs`, `/pricing`, and comparison pages. Then compare each view against all traffic.
 
@@ -137,13 +137,13 @@ Pageviews tell you who arrived. Events tell you who cared.
 
 Add custom events to actions that show buying, adoption, or research intent. Start with five:
 
-| Event | Fires when | Why it matters |
-| :--- | :--- | :--- |
-| `ai_cta_clicked` | Visitor clicks the main CTA on an AI landing page | Measures immediate intent |
-| `pricing_viewed` | Visitor opens pricing after an AI referral | Connects research to budget review |
-| `signup_started` | Visitor begins account creation | Marks funnel entry |
-| `integration_docs_opened` | Visitor opens setup docs | Shows developer intent |
-| `demo_requested` | Visitor submits a sales form | Captures high-value demand |
+| Event                     | Fires when                                        | Why it matters                     |
+| :------------------------ | :------------------------------------------------ | :--------------------------------- |
+| `ai_cta_clicked`          | Visitor clicks the main CTA on an AI landing page | Measures immediate intent          |
+| `pricing_viewed`          | Visitor opens pricing after an AI referral        | Connects research to budget review |
+| `signup_started`          | Visitor begins account creation                   | Marks funnel entry                 |
+| `integration_docs_opened` | Visitor opens setup docs                          | Shows developer intent             |
+| `demo_requested`          | Visitor submits a sales form                      | Captures high-value demand         |
 
 For simple website actions, Swetrix supports event attributes in markup:
 
@@ -172,12 +172,12 @@ For SaaS, choose one activation event that predicts retention. Examples include 
 
 Then compare AI traffic against other channels:
 
-| Channel | Visit-to-signup | Signup-to-activation | Activation-to-paid | Revenue per 1,000 visits |
-| :--- | ---: | ---: | ---: | ---: |
-| AI referrals | 5.2% | 61% | 18% | $1,710 |
-| Organic search | 2.4% | 48% | 11% | $620 |
-| Paid search | 3.1% | 44% | 9% | $780 |
-| Direct | 4.0% | 57% | 16% | $1,220 |
+| Channel        | Visit-to-signup | Signup-to-activation | Activation-to-paid | Revenue per 1,000 visits |
+| :------------- | --------------: | -------------------: | -----------------: | -----------------------: |
+| AI referrals   |            5.2% |                  61% |                18% |                   $1,710 |
+| Organic search |            2.4% |                  48% |                11% |                     $620 |
+| Paid search    |            3.1% |                  44% |                 9% |                     $780 |
+| Direct         |            4.0% |                  57% |                16% |                   $1,220 |
 
 Use your own data, not these sample numbers. The table format matters because it forces the team to discuss value, not traffic volume.
 
