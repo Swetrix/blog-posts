@@ -1,7 +1,7 @@
 ---
 title: "How to Track AI Search Traffic Without Cookies"
 intro: "Learn how to measure ChatGPT, Perplexity, Gemini, Claude, Copilot, AI Overviews, and AI Mode traffic with referrers, UTMs, events, funnels, and revenue attribution."
-date: June 05, 2026
+date: June 5, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
