@@ -11,7 +11,7 @@ A significant number of website sessions experience a JavaScript error. A custom
 
 Ecommerce websites often harbor five or more unresolved JavaScript errors. Engineers who fix these bugs recover lost revenue and improve the user experience.
 
-Deploying heavy error-tracking SDKs slows down your site and risks exposing sensitive user data. [Swetrix](https://swetrix.com) offers a lightweight, privacy-conscious way to catch these bugs without deploying cookie-dependent scripts. 
+Deploying heavy error-tracking SDKs slows down your site and risks exposing sensitive user data. [Swetrix](https://swetrix.com) offers a lightweight, privacy-conscious way to catch these bugs without deploying cookie-dependent scripts.
 
 ## Why Unseen JavaScript Errors Cost You Revenue
 
@@ -25,7 +25,7 @@ Silent failures do the most damage. A syntax error in a promotional pop-up scrip
 
 ### How Errors Drain Developer Time
 
-[Thirty-two percent of software developers](https://devops.com/survey-fixing-bugs-stealing-time-from-development/) spend up to 10 hours a week chasing bugs. These engineers dig through generic console logs trying to replicate a failure that occurred on an obscure mobile browser. 
+[Thirty-two percent of software developers](https://devops.com/survey-fixing-bugs-stealing-time-from-development/) spend up to 10 hours a week chasing bugs. These engineers dig through generic console logs trying to replicate a failure that occurred on an obscure mobile browser.
 
 You save these hours by capturing the exact stack trace and environment data at the moment of failure. A raw user complaint provides zero context, stating that a button failed. An error tracking platform provides the device type, browser version, timestamp, and the exact line of code that triggered the failure. Engineers fix the bug in minutes, avoiding days of recreating the user environment.
 
@@ -40,13 +40,13 @@ Catch unhandled exceptions across your entire application using global listeners
 Open your main application file and implement the `window.onerror` event listener at the top of your execution stack. This listener captures standard runtime errors, syntax errors, and undefined variables.
 
 ```javascript
-window.onerror = function(message, source, lineno, colno, error) {
+window.onerror = function (message, source, lineno, colno, error) {
   const payload = {
     msg: message,
     url: source,
     line: lineno,
     column: colno,
-    stack: error ? error.stack : null
+    stack: error ? error.stack : null,
   };
   // Send payload to your Swetrix error tracking endpoint
 };
@@ -55,10 +55,29 @@ window.onerror = function(message, source, lineno, colno, error) {
 Modern web applications rely on asynchronous JavaScript and Promises. Because the `window.onerror` method misses Promise rejections, you must add the `unhandledrejection` event listener to track failed API calls and timeouts.
 
 ```javascript
-window.addEventListener('unhandledrejection', function(event) {
+window.addEventListener("unhandledrejection", function (event) {
+  let message, stack;
+
+  // Normalize event.reason which can be any value (Error, string, object, etc.)
+  if (event.reason instanceof Error) {
+    message = event.reason.message;
+    stack = event.reason.stack;
+  } else if (event.reason && typeof event.reason === "object" && "message" in event.reason) {
+    message = event.reason.message;
+    stack = event.reason.stack || null;
+  } else {
+    // Coerce non-Error values to a safe string
+    try {
+      message = JSON.stringify(event.reason);
+    } catch (e) {
+      message = String(event.reason);
+    }
+    stack = null;
+  }
+
   const payload = {
-    reason: event.reason.message,
-    stack: event.reason.stack
+    reason: message,
+    stack: stack,
   };
   // Send payload to your tracking endpoint
 });
@@ -75,19 +94,19 @@ Enclose API calls in a `try` block and log the failure to your tracking service 
 ```javascript
 async function submitCheckout(cartData) {
   try {
-    const response = await fetch('/api/checkout', { 
-      method: 'POST', 
-      body: JSON.stringify(cartData) 
+    const response = await fetch("/api/checkout", {
+      method: "POST",
+      body: JSON.stringify(cartData),
     });
-    
+
     if (!response.ok) {
       throw new Error(`Checkout failed with status: ${response.status}`);
     }
-    
+
     showSuccessPage();
   } catch (error) {
-    trackErrorEvent('checkout_failure', error.message);
-    showUserFallbackMessage('Payment delayed. Try again.');
+    trackErrorEvent("checkout_failure", error.message);
+    showUserFallbackMessage("Payment delayed. Try again.");
   }
 }
 ```
@@ -98,7 +117,7 @@ This pattern isolates the failure, allowing you to log the exact context of the 
 
 Upload source maps to your monitoring tool to decode minified production code. Build tools like Webpack and Vite compress your code into a single unreadable line. An error report pointing to `app.min.js:1:432` provides zero value to an engineer investigating a bug.
 
-Source maps reverse this compression. The monitoring tool uses the map file to translate the minified stack trace back into readable file names, functions, and line numbers. 
+Source maps reverse this compression. The monitoring tool uses the map file to translate the minified stack trace back into readable file names, functions, and line numbers.
 
 Keep source maps off your public-facing servers. Exposing public source maps hands your proprietary code structure to competitors and attackers. Upload the `.map` files direct to your tracking provider during your CI/CD deployment phase, then delete them from the public build directory. The tracking server decodes the stack traces in private, giving your engineers actionable data without compromising security.
 
@@ -112,7 +131,7 @@ Engineers experience alert fatigue from high error volumes. Teams must filter th
 
 Track frustration metrics alongside technical failures. Engineers using modern observability tools link script failures to click-rage, a behavior where a user clicks a broken submit button multiple times in rapid succession. Identifying these click-rage clusters highlights silent errors that break the user journey without causing a full page crash.
 
-Engineers monitoring a flight booking site might see zero server-side errors, yet users abandon the final step. Correlating a spike in click-rage on the "Confirm Flight" button with a silent JavaScript error on that specific element gives developers the exact cause of the abandonment. 
+Engineers monitoring a flight booking site might see zero server-side errors, yet users abandon the final step. Correlating a spike in click-rage on the "Confirm Flight" button with a silent JavaScript error on that specific element gives developers the exact cause of the abandonment.
 
 Review the specific error types hitting your tracking endpoints. Analysts reviewing Microsoft telemetry data found that "Illegal invocation errors" account for 7.4% of common frontend issues, while "Unexpected Token '<'" makes up another 6.5%. This pattern occurs when a server returns an HTML error page to a browser expecting JSON data. Teams grouping these recurring patterns prioritize fixes faster.
 
@@ -134,9 +153,9 @@ Set custom filters in your tracking tool to discard any payload originating from
 
 ### GDPR Risks Hiding in Stack Traces
 
-Error logs present massive compliance risks under GDPR and CCPA. Stack traces capture sensitive user data inside the application state. 
+Error logs present massive compliance risks under GDPR and CCPA. Stack traces capture sensitive user data inside the application state.
 
-An error object holds a full API request payload containing email addresses, session tokens, physical addresses, or credit card endpoints. Storing this Personally Identifiable Information (PII) on a centralized logging server without explicit user consent violates major privacy laws. 
+An error object holds a full API request payload containing email addresses, session tokens, physical addresses, or credit card endpoints. Storing this Personally Identifiable Information (PII) on a centralized logging server without explicit user consent violates major privacy laws.
 
 Data minimization laws require engineers to collect the minimum data required to perform the task. Standard analytics setups fail this requirement by grabbing the entire user context, binding it to a tracking cookie, and shipping it to a remote database. If a data breach hits that log database, regulatory agencies fine your company.
 
@@ -145,7 +164,7 @@ Data minimization laws require engineers to collect the minimum data required to
 Implement data minimization rules on the client side. [Swetrix solves the PII problem](https://swetrix.com/error-tracking) by capturing technical failures while maintaining user privacy. Initialize the tracking script and enable error tracking to capture frontend exceptions automatically.
 
 ```javascript
-swetrix.init('your_project_id');
+swetrix.init("your_project_id");
 swetrix.trackErrors();
 ```
 
@@ -157,13 +176,13 @@ The anonymized telemetry reaches the server free of compliance risks. This cooki
 
 Select a monitoring tool built for modern privacy standards. Legacy SDKs rely on heavy device fingerprinting and massive payload sizes. Swetrix provides a privacy-first alternative that unifies performance monitoring, error tracking, and user analytics without the bloat.
 
-| Feature | Legacy Error Trackers | Swetrix Privacy-First Tracking |
-| :--- | :--- | :--- |
-| **Data Collection** | Captures full state by default | Enforces data minimization |
-| **PII Risk** | High risk of logging user tokens | Privacy-focused error tracking |
-| **Script Weight** | Heavy payload, slows page load | Lightweight, minimal overhead |
-| **Cookie Dependency** | Requires cookies for session mapping | 100% Cookie-free telemetry |
-| **Compliance** | Requires complex GDPR consent | Out-of-the-box compliance |
+| Feature               | Legacy Error Trackers                | Swetrix Privacy-First Tracking |
+| :-------------------- | :----------------------------------- | :----------------------------- |
+| **Data Collection**   | Captures full state by default       | Enforces data minimization     |
+| **PII Risk**          | High risk of logging user tokens     | Privacy-focused error tracking |
+| **Script Weight**     | Heavy payload, slows page load       | Lightweight, minimal overhead  |
+| **Cookie Dependency** | Requires cookies for session mapping | 100% Cookie-free telemetry     |
+| **Compliance**        | Requires complex GDPR consent        | Out-of-the-box compliance      |
 
 Developers gain detailed stack traces and error rates while maintaining a fast, compliant application. Consolidating your analytics setup into one lightweight platform removes the need for multiple tracking scripts.
 
@@ -171,9 +190,10 @@ Developers gain detailed stack traces and error rates while maintaining a fast, 
 
 Establish automated alerting rules based on business impact. A spike in raw error volume provides zero actionable insight if a single user triggers a minor cosmetic bug 500 times. Pure volume alerts lead engineers to mute the monitoring channel.
 
-Tie alerts to specific conversion paths by setting a threshold for your checkout flow. If the `/checkout` route throws more than 10 errors in a five-minute window, trigger an immediate notification to the engineering Slack channel. 
+Tie alerts to specific conversion paths by setting a threshold for your checkout flow. If the `/checkout` route throws more than 10 errors in a five-minute window, trigger an immediate notification to the engineering Slack channel.
 
 Use percentage-based thresholds for high-traffic pages. Configure the monitor to alert the team if the error rate exceeds 2% of total page views over an hour. This relative metric accounts for natural traffic spikes during marketing campaigns. Allow isolated, low-impact errors to batch into a daily summary report, a workflow that protects developer focus and guarantees fast responses to critical revenue blocks.
 
 ---
+
 You need visibility into your frontend performance without compromising user trust or page speed. [Swetrix](https://swetrix.com) provides an open-source, cookie-free web analytics platform with built-in error tracking and performance monitoring. Start capturing the data that matters with our [14-day free trial](https://swetrix.com/signup) and keep your conversion paths bug-free.
