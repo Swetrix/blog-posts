@@ -1,15 +1,17 @@
 ---
 title: "How to Accurately Track Stripe Revenue in Web Analytics"
-intro: "Learn how to accurately track Stripe revenue in web analytics without losing data to ad blockers, ensuring GDPR compliance and better marketing attribution."
+intro: "Learn how to accurately track Stripe revenue in web analytics with Swetrix, without losing data to ad blockers, while preserving GDPR compliance and better marketing attribution."
 date: June 7, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-A customer buys a $100 subscription on your website. Stripe logs the payment, but your web analytics dashboard shows $0. Multiply this missing data across thousands of transactions to see how marketing attribution breaks. 
+A customer buys a $100 subscription on your website. Stripe logs the payment, but your web analytics dashboard shows $0. Multiply this missing data across thousands of transactions to see how marketing attribution breaks.
 
 Track Stripe revenue in web analytics without relying on fragile browser pixels. Standard client-side tracking drops data when visitors use ad blockers or reject cookie banners. Server-side tracking bypasses these restrictions. Implementing a server-to-server connection captures complete revenue data, maintains GDPR compliance, and maps purchases back to the correct marketing campaigns.
+
+Swetrix makes this setup much easier than building a custom Stripe webhook pipeline. Connect Stripe from **Project Settings > Revenue**, paste a restricted Stripe API key, choose your reporting currency, and Swetrix automatically syncs sales, subscriptions, and refunds into the same dashboard where you already analyze traffic.
 
 ## Reasons Your Analytics Dashboard Fails to Match Stripe
 
@@ -40,55 +42,66 @@ Swetrix provides a privacy-compliant tracking structure. The platform monitors u
 
 Safari and Firefox block cross-site trackers by default. Apple's Intelligent Tracking Prevention restricts client-side cookies to a [seven-day lifespan](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/), destroying long-term attribution. A user clicks an ad on Monday and buys on the following Tuesday. The browser deletes the tracking cookie before the purchase happens, forcing the analytics platform to register the conversion as direct traffic.
 
-Move your tracking infrastructure to the server to regain data control. Endpoint substitution enables developers to intercept the data payload. Instead of letting ad platforms read browser data, send the transaction details to a private server first. Filter out sensitive customer information, then forward clean conversion data to your [Google Analytics alternative](https://swetrix.com/google-analytics-alternative).
+Move your tracking infrastructure to the server to regain data control. Instead of relying on a browser pixel to report revenue after checkout, let your analytics platform sync confirmed transactions from Stripe. Swetrix keeps the financial event server-side, avoids sending sensitive customer details to the browser, and connects clean revenue data to your [Google Analytics alternative](https://swetrix.com/google-analytics-alternative).
 
 ### Capturing Recurring Subscription Revenue
 
 SaaS businesses rely on usage-based and recurring billing models. Capturing monthly recurring revenue requires tracking off-site events through backend systems. A customer's subscription renews at 2:00 AM while their devices remain offline. A client-side pixel fails to fire during this automated process.
 
-Without a server-to-server connection, your analytics platform ignores all subsequent subscription payments. Ignoring renewal data degrades your [customer lifetime value](https://swetrix.com/blog/what-is-ltv-in-marketing). Connect Stripe to your analytics API to record every payment event, independent of browser activity.
+Without a server-to-server connection, your analytics platform ignores all subsequent subscription payments. Ignoring renewal data degrades your [customer lifetime value](https://swetrix.com/blog/what-is-ltv-in-marketing). Connect Stripe to Swetrix Revenue Tracking to record sales, renewals, and refunds independent of browser activity.
 
-Handling prorated upgrades creates similar reporting failures within browser-based setups. A user upgrades from a $10 plan to a $50 plan mid-month, prompting Stripe to calculate the proration and charge $23. Client-side pixels hardcoded to track a standard $50 checkout report the wrong revenue figure. Server-side endpoints read the exact charge amount from the Stripe backend to prevent these accounting errors.
+Handling prorated upgrades creates similar reporting failures within browser-based setups. A user upgrades from a $10 plan to a $50 plan mid-month, prompting Stripe to calculate the proration and charge $23. Client-side pixels hardcoded to track a standard $50 checkout report the wrong revenue figure. Swetrix reads the exact charge amount from Stripe to prevent these accounting errors.
 
-![A flowchart demonstrating the server-side Stripe webhook data flow: starting from a user payment on a website, moving to a secure server, triggering an event like invoice.payment_succeeded, hashing the data, and finally securely pushing the payload to the web analytics platform without touching the client browser.](https://cdn.swetrix.com/file/0e0bdf2534981ca77a6941fd2cd285d2.jpg)
+![A flowchart demonstrating a server-side Stripe revenue sync: starting from a user payment on a website, moving to Stripe, syncing confirmed revenue, and finally showing the sale inside the web analytics platform without depending on the client browser.](https://cdn.swetrix.com/file/0e0bdf2534981ca77a6941fd2cd285d2.jpg)
 
-## How to Connect Stripe Webhooks Securely
+## How to Track Stripe Sales with Swetrix
 
-Webhooks automate messaging between servers. Configure Stripe to push payment data to your analytics API the moment a transaction clears. 
+Swetrix has a [built-in Stripe integration](https://swetrix.com/docs/analytics-dashboard/revenue-tracking), so most teams do not need to write a webhook handler, normalize Stripe payloads, or maintain a separate revenue database. The integration pulls verified Stripe transactions into Swetrix automatically and shows revenue next to the traffic, UTM, referrer, country, device, and browser data you already use.
 
-Follow these steps to set up the connection:
+Follow these steps to connect Stripe:
 
-1. Open your Stripe Dashboard and navigate to the Developers section.
-2. Click the Webhooks tab and select "Add an endpoint."
-3. Enter your server's endpoint URL.
-4. Select specific events to track. 
-5. Save the endpoint and copy the signing secret.
+1. Open your Swetrix project dashboard.
+2. Go to **Project Settings > Revenue**.
+3. Open the Stripe section and click **Create a key in Stripe**.
+4. Confirm the restricted key in Stripe and copy the key that starts with `rk_live_`.
+5. Paste the key into Swetrix, click **Connect**, and choose your reporting currency.
+6. Open Traffic Analytics and enable the **Revenue** metric in the chart selector.
 
-Choose `checkout.session.completed` for one-time purchases and `invoice.payment_succeeded` for recurring subscription renewals. Avoid selecting the "Send all events" option. Pushing every webhook event overwhelms your server with unneeded customer creation or card update alerts, so restrict the connection to specific revenue-generating actions.
+After the connection is active, Swetrix syncs Stripe sales, subscriptions, and refunds automatically every 30 minutes. Net revenue appears as solid bars in the Traffic chart, refunds are stacked on top for comparison, and the dashboard also gives you totals, average order value, monthly recurring revenue, and a transactions table.
 
-Verify the payload authenticity on your server using the signing secret. Validating the signature prevents malicious actors from injecting fake revenue data into your analytics dashboards.
+That matters because Stripe tells you what was paid, while Swetrix tells you where the buyer came from. You can filter revenue by campaign, traffic source, country, device, page, or segment without exporting Stripe data into a spreadsheet and manually matching it against analytics sessions.
 
-### Extracting the Right Data Payload
+### Attribute Stripe Revenue to Visitors
 
-Stripe generates a massive JSON payload for every webhook event. Tracking revenue in an analytics dashboard requires three specific pieces of information: the user identifier, the transaction amount, and the currency code.
+Basic sales tracking works as soon as Stripe is connected. For deeper attribution, pass the Swetrix profile ID or session ID into Stripe metadata before the payment is created. Swetrix looks for `swetrix_profile_id` and `swetrix_session_id` on Stripe PaymentIntents or Charges when it syncs transactions.
 
-For a `checkout.session.completed` event, extract the `amount_total` field. Stripe formats transaction amounts in the lowest currency unit. A $50.00 USD charge arrives as the integer `5000`. Program your server to divide this value by 100 before passing the integer to your analytics platform. 
-
-### Ensuring GDPR Compliance with Hashing
-
-Transmitting raw Stripe data to an external analytics platform introduces legal liabilities. Passing unencrypted customer email addresses, physical addresses, or full names constitutes a GDPR violation. Analytics platforms function without personal identifiers to map a conversion.
-
-Apply cryptographic hashing to the payload before the data leaves your server. The SHA-256 algorithm transforms a customer email address into an irreversible 64-character string.
+Get the anonymous IDs from the Swetrix script:
 
 ```javascript
-const crypto = require('crypto');
-const userEmail = stripeEvent.data.object.customer_details.email;
-const hashedEmail = crypto.createHash('sha256').update(userEmail).digest('hex');
+const profileId = await swetrix.getProfileId();
+const sessionId = await swetrix.getSessionId();
 ```
 
-Add a random salt to your hashing function to increase data security. Salting the hash prevents attackers from using rainbow tables to reverse-engineer the original customer email addresses. 
+Send those values to your backend when you create the Stripe payment, then attach them as metadata:
 
-Swetrix processes this workflow without building non-compliant tracking profiles. Send the hashed identifier alongside the purchase amount and currency code using custom events. Swetrix connects the revenue to the correct user journey without storing personal data, providing exact marketing attribution while preserving customer privacy.
+```javascript
+const paymentIntent = await stripe.paymentIntents.create({
+  amount: 2000,
+  currency: "usd",
+  metadata: {
+    swetrix_profile_id: profileId,
+    swetrix_session_id: sessionId,
+  },
+});
+```
+
+When the payment syncs, Swetrix links the confirmed revenue to the visitor profile or browsing session. You do not need to send customer emails, names, billing addresses, or card-related data to your analytics stack.
+
+### When to Use the Revenue API Instead
+
+Use the Swetrix Revenue API when you sell through a platform that is not Stripe or Paddle, or when you run a fully custom checkout and want complete control over which backend events count as revenue. The API accepts sales, subscription charges, and refunds from your server through `POST /log/revenue`.
+
+Stripe users should prefer the built-in integration. A project can only have one active revenue source at a time, which prevents double-counting the same payment through both Stripe sync and manual API calls.
 
 ![A visual step-by-step timeline of cookieless attribution: showing an initial ad click, the generation of a privacy-friendly rotating session ID, the eventual conversion event, and the reconciliation of ROAS data, structured purely with generic abstract shapes and data flows.](https://cdn.swetrix.com/file/9efc18df2fb6914eab442501ec8cb568.jpg)
 
@@ -98,7 +111,7 @@ Browser filters target third-party domains to block tracking attempts. Ad blocke
 
 Route your analytics requests through a custom sub-domain. System administrators configure a proxy on the host server at `analytics.yourdomain.com` to handle the incoming traffic. The proxy forwards these localized requests to the external analytics provider.
 
-The browser identifies a first-party request matching the core website domain name. Ad blockers allow the localized request to pass unrestricted. This proxy setup secures the initial website visit data, establishing the foundation for the server-side Stripe webhook attribution.
+The browser identifies a first-party request matching the core website domain name. Ad blockers allow the localized request to pass unrestricted. This proxy setup secures the initial website visit data, establishing the foundation for server-side Stripe revenue attribution.
 
 If you use Nginx, add a location block to your server configuration:
 
@@ -116,13 +129,13 @@ Next.js environments achieve identical routing results using the `next.config.js
 
 Traditional UTM tracking mechanisms fail when browsers reject cookies. Engineering teams must pair off-site Stripe conversions with on-site marketing clicks without violating regional privacy laws.
 
-Swetrix assigns rotating, hashed session IDs to incoming visitors. When a prospect clicks a tagged campaign link, Swetrix logs the [UTM parameters](https://swetrix.com/blog/how-to-track-utm-parameters-effectively) against that specific session ID. The customer proceeds to complete the checkout process. Your server intercepts the resulting Stripe webhook, hashes the user identifier, and transmits the confirmed revenue value to Swetrix. 
+Swetrix assigns privacy-friendly profile and session IDs to incoming visitors. When a prospect clicks a tagged campaign link, Swetrix logs the [UTM parameters](https://swetrix.com/blog/how-to-track-utm-parameters-effectively) against that browsing session. The customer proceeds to complete the checkout process, and your Stripe integration syncs the confirmed payment back into Swetrix.
 
-Swetrix matches the incoming hashed ID to the active session, attributing the off-site payment to the original ad click. This server-to-server mechanism restores full visibility to customer acquisition reporting.
+If you passed `swetrix_profile_id` or `swetrix_session_id` into Stripe metadata, Swetrix links the off-site payment to the original visitor journey. This server-to-server mechanism restores full visibility to customer acquisition reporting without storing personal data in your analytics dashboard.
 
 Marketers calculate Return on Ad Spend (ROAS) using verified numbers. A campaign spends $1,000, but client-side tracking reports a partial $1,200 in revenue due to browser restrictions. The marketing team assumes a low 1.2x ROAS and pauses the ads. Server-side tracking captures the blocked traffic alongside off-site renewals to report the accurate $2,100 revenue total. The team identifies the true 2.1x ROAS and scales the profitable campaign.
 
 Accurate tracking demands a resilient technical infrastructure. Companies stop losing revenue data to ad blockers and browser restrictions by migrating their analytics stack to a privacy-first, server-side environment.
 
 ---
-Swetrix provides cookieless web analytics to track events without invasive cross-site scripts. Maintain GDPR compliance while capturing accurate revenue metrics. [Start a 14-day free trial](https://swetrix.com/signup) to secure full visibility over your Stripe revenue data. Paid plans start at $19/mo for 100,000 events.
+Swetrix provides cookieless web analytics and built-in Stripe revenue tracking without invasive cross-site scripts. Maintain GDPR compliance while capturing accurate sales, subscription, and refund metrics. [Start a 14-day free trial](https://swetrix.com/signup) to secure full visibility over your Stripe revenue data. Paid plans start at $19/mo for 100,000 events.
