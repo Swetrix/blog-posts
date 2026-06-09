@@ -1,7 +1,7 @@
 ---
 title: "What Is AI Search Traffic? Referrers, Citations, Mentions, and Dark AI Visits Explained"
 intro: "Learn how AI search traffic differs from organic search, how citations, mentions, referrals, retrieval, and dark AI visits work, and how to track them in Swetrix."
-date: June 05, 2026
+date: June 5, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
