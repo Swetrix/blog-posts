@@ -1,7 +1,7 @@
 ---
 title: "AI Search Analytics: The Metrics That Actually Matter"
 intro: "Track AI referrals, landing pages, assisted conversions, funnels, revenue, and content freshness without turning AI search into another pageview report."
-date: June 06, 2026
+date: June 6, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
