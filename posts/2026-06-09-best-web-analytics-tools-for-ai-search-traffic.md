@@ -1,7 +1,7 @@
 ---
 title: "Best Web Analytics Tools for AI Search Traffic in 2026"
 intro: "Compare Swetrix, GA4, Matomo, Plausible, Fathom, Umami, PostHog, Simple Analytics, Cloudflare Web Analytics, and Pirsch for AI referrals, UTMs, events, funnels, revenue, privacy, and self-hosting."
-date: June 09, 2026
+date: June 9, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom

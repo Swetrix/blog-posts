@@ -1,7 +1,7 @@
 ---
 title: "Why Your SEO Reports Are Missing AI Search Traffic"
 intro: "AI search can answer, cite, and qualify your content before anyone reaches your website. Build SEO reports that connect search visibility to AI referrals, direct traffic, behavior, and conversions."
-date: June 08, 2026
+date: June 8, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom

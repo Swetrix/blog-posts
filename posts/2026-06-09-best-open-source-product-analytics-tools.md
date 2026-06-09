@@ -1,7 +1,7 @@
 ---
 title: "Best Open-Source Product Analytics Tools in 2026"
 intro: "Compare Swetrix, PostHog, Matomo, Umami, Plausible, Rybbit, GoatCounter, Offen, Countly, and OpenReplay by privacy, self-hosting, setup, and product analytics depth."
-date: June 09, 2026
+date: June 9, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom

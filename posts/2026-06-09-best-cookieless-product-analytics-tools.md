@@ -1,7 +1,7 @@
 ---
 title: "Best Cookieless Product Analytics Tools for SaaS Teams in 2026"
 intro: "Compare the best cookieless product analytics tools for SaaS teams, with a practical view of events, funnels, feature flags, A/B tests, revenue, privacy, and data ownership."
-date: June 09, 2026
+date: June 9, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
