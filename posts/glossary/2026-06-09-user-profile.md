@@ -1,7 +1,8 @@
 ---
 title: "What is a User Profile? Product Analytics Definition and Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A user profile groups sessions, events, properties, and journey history for a known visitor or user. Learn how user profiles support product analytics."
 ---
 

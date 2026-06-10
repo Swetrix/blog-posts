@@ -1,7 +1,8 @@
 ---
 title: "What is a Landing Page? Definition, Examples, and Analytics Metrics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A landing page is the first page a visitor reaches after clicking a search result, ad, campaign link, referral, or social post. Learn how to measure landing page performance."
 ---
 

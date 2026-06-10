@@ -1,7 +1,8 @@
 ---
 title: "What is Segmentation? Analytics Definition and Website Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Segmentation is the practice of splitting analytics data into groups by source, device, country, behavior, campaign, or user property. Learn why segments make reports more useful."
 ---
 

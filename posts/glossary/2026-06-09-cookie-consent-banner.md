@@ -1,7 +1,8 @@
 ---
 title: "What is a Cookie Consent Banner? Definition and Analytics Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A cookie consent banner asks visitors to accept, reject, or configure cookies and tracking technologies. Learn when banners are used and how they affect analytics data."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is First-party Data? Definition for Analytics and Privacy"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "First-party data is data collected directly from your own audience, website, product, or customers. Learn how it differs from third-party data and why it matters."
 ---
 

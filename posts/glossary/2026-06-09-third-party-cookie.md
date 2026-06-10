@@ -1,7 +1,8 @@
 ---
 title: "What is a Third Party Cookie? Definition and Analytics Privacy Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A third-party cookie is set by a domain other than the website a visitor is viewing. Learn why third-party cookies are controversial and how they differ from first-party cookies."
 ---
 

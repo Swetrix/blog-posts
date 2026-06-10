@@ -1,7 +1,8 @@
 ---
 title: "What is Session Replay? Definition, Use Cases, and Privacy Concerns"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Session replay reconstructs visitor sessions so teams can review user journeys, bugs, and friction. Learn when session replay is useful and what privacy safeguards matter."
 ---
 

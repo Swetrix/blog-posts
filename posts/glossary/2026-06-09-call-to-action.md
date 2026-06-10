@@ -1,7 +1,8 @@
 ---
 title: "What is a Call to Action? CTA Definition and Website Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A call to action, or CTA, is a prompt that asks a visitor to take the next step. Learn how CTAs affect conversion rate and how to measure CTA performance in analytics."
 ---
 

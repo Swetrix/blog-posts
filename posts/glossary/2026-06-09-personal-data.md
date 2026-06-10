@@ -1,7 +1,8 @@
 ---
 title: "What is Personal Data? Definition for Website Analytics and Privacy"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Personal data is information that identifies or can be linked to a person. Learn what counts as personal data in website analytics and why data minimization matters."
 ---
 

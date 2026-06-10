@@ -1,7 +1,8 @@
 ---
 title: "What is Robots.txt? Definition and SEO Analytics Meaning"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Robots.txt is a file that tells search engine crawlers which parts of a website they can or cannot crawl. Learn how it affects SEO, indexing, and analytics."
 ---
 

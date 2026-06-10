@@ -1,7 +1,8 @@
 ---
 title: "What is a Meta Description? SEO Definition and CTR Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A meta description is an HTML summary of a page that can appear in search results. Learn how meta descriptions affect SEO click-through rate and analytics."
 ---
 

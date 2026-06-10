@@ -1,7 +1,8 @@
 ---
 title: "What is a Page Title? SEO Definition and Search Analytics Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A page title is the HTML title used by browsers and search engines to describe a page. Learn how title tags affect search visibility and click-through rate."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is a Unique Visitor? Definition and Difference from Page Views"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A unique visitor is one distinct visitor counted once during a reporting period. Learn how unique visitors differ from page views, sessions, and users."
 ---
 

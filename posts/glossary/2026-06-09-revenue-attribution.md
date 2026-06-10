@@ -1,7 +1,8 @@
 ---
 title: "What is Revenue Attribution? Definition and Marketing Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Revenue attribution connects revenue back to the channels, campaigns, pages, and touchpoints that influenced it. Learn how it differs from basic conversion attribution."
 ---
 

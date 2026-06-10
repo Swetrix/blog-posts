@@ -1,7 +1,8 @@
 ---
 title: "What is Customer Acquisition Cost? CAC Formula and Analytics Meaning"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Customer acquisition cost, or CAC, is the average cost to acquire a new customer. Learn the CAC formula and how analytics helps connect campaigns to customer value."
 ---
 

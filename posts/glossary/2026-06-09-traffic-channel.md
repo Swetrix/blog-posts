@@ -1,7 +1,8 @@
 ---
 title: "What is a Traffic Channel? Website Analytics Definition and Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A traffic channel is a grouped source of website visits, such as organic search, referral, direct, paid search, email, or social. Learn how traffic channels work."
 ---
 

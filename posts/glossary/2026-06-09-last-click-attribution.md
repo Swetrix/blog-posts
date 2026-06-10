@@ -1,7 +1,8 @@
 ---
 title: "What is Last-click Attribution? Definition and Marketing Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Last-click attribution gives full conversion credit to the final known touchpoint before conversion. Learn when it is useful and why it can misrepresent customer journeys."
 ---
 

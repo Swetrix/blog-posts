@@ -1,7 +1,8 @@
 ---
 title: "What is Conversion Rate? Definition, Formula, and Website Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Conversion rate is the percentage of visitors or sessions that complete a desired action. Learn the conversion rate formula, examples, and how to improve it with analytics."
 ---
 

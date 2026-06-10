@@ -1,7 +1,8 @@
 ---
 title: "What is Bot Filtering? Definition for Website Analytics Data Quality"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Bot filtering detects and excludes automated traffic from analytics reports. Learn why bot filtering matters for traffic quality, conversion rates, and clean website data."
 ---
 

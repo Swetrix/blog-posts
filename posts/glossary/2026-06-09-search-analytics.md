@@ -1,7 +1,8 @@
 ---
 title: "What is Search Analytics? Definition for SEO and Website Traffic"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Search analytics is the analysis of search queries, impressions, clicks, rankings, landing pages, and organic traffic. Learn how search analytics connects SEO to conversions."
 ---
 

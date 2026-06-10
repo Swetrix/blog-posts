@@ -1,7 +1,8 @@
 ---
 title: "What is an Assisted Conversion? Attribution Definition and Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "An assisted conversion happens when a channel or touchpoint helps influence a conversion but is not the final interaction. Learn how assisted conversions improve attribution analysis."
 ---
 

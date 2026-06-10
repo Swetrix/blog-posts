@@ -1,7 +1,8 @@
 ---
 title: "What is a Consent Management Platform? CMP Definition for Analytics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A consent management platform, or CMP, collects and applies visitor consent choices for cookies, analytics, advertising, and data processing. Learn how CMPs affect analytics."
 ---
 

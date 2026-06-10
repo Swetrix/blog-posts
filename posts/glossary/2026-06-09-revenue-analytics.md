@@ -1,7 +1,8 @@
 ---
 title: "What is Revenue Analytics? Definition and Website Tracking Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Revenue analytics connects traffic, campaigns, conversions, users, and product events to revenue. Learn how revenue analytics helps teams measure profitable growth."
 ---
 

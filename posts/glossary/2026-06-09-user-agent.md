@@ -1,7 +1,8 @@
 ---
 title: "What is a User Agent? Definition for Browsers, Devices, and Analytics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A user agent is a browser-provided string that identifies the client application, operating system, browser version, and device context. Learn how analytics tools use it."
 ---
 

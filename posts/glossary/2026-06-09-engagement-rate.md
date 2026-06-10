@@ -1,7 +1,8 @@
 ---
 title: "What is Engagement Rate? Definition and Website Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Engagement rate measures how often visitors interact meaningfully with a page, product, or campaign. Learn how engagement rate is used in website analytics and what to track."
 ---
 

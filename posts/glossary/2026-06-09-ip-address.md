@@ -1,7 +1,8 @@
 ---
 title: "What is an IP Address? Definition for Website Analytics and Privacy"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "An IP address is a network address assigned to a device or connection. Learn how IP addresses are used in analytics, geolocation, security, and privacy compliance."
 ---
 

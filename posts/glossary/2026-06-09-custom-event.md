@@ -1,7 +1,8 @@
 ---
 title: "What is a Custom Event? Analytics Definition and Tracking Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A custom event is a named action you track on a website or app, such as a button click, form submission, checkout step, or product interaction. Learn how custom events work."
 ---
 

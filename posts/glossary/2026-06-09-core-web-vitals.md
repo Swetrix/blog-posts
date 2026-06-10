@@ -1,7 +1,8 @@
 ---
 title: "What are Core Web Vitals? Definition and Website Performance Metrics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Core Web Vitals are Google-defined user experience metrics for loading speed, interactivity, and visual stability. Learn what LCP, INP, and CLS mean."
 ---
 

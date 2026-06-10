@@ -1,7 +1,8 @@
 ---
 title: "What is Search Engine Optimization? SEO Definition and Analytics Metrics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Search engine optimization, or SEO, is the practice of improving a website so search engines can crawl, understand, and rank its pages. Learn how SEO connects to analytics."
 ---
 

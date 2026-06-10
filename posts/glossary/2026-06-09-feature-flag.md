@@ -1,7 +1,8 @@
 ---
 title: "What is a Feature Flag? Definition for Product Analytics and Experiments"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A feature flag is a switch that lets teams enable, disable, target, or gradually roll out product features without deploying new code. Learn how feature flags support analytics."
 ---
 

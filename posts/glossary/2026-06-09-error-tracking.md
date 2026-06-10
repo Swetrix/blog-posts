@@ -1,7 +1,8 @@
 ---
 title: "What is Error Tracking? Definition for Websites and Web Apps"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Error tracking collects and analyzes software errors so teams can fix broken user experiences. Learn why frontend error tracking matters for analytics and conversions."
 ---
 

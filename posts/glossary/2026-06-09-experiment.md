@@ -1,7 +1,8 @@
 ---
 title: "What is an Experiment? Analytics Definition for Product and Website Testing"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "An experiment is a controlled test that compares variants and measures which version performs better. Learn how experiments differ from simple changes and A/B tests."
 ---
 

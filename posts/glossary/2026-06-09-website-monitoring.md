@@ -1,7 +1,8 @@
 ---
 title: "What is Website Monitoring? Definition and Analytics Use Cases"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Website monitoring is the ongoing measurement of availability, performance, errors, traffic health, and user experience. Learn how it complements website analytics."
 ---
 

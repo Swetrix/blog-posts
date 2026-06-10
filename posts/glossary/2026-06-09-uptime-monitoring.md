@@ -1,7 +1,8 @@
 ---
 title: "What is Uptime Monitoring? Definition for Websites and Services"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Uptime monitoring checks whether a website, endpoint, or service is reachable and responding correctly. Learn how uptime monitoring supports analytics and reliability."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is Page Speed? Definition, Core Web Vitals, and Analytics Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Page speed is how quickly a page loads and becomes usable. Learn why page speed matters for SEO, conversion rate, user experience, and real-user monitoring."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is a Public Dashboard? Analytics Definition and Use Cases"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A public dashboard is a shareable analytics view that lets others see selected metrics without full account access. Learn when public dashboards are useful."
 ---
 

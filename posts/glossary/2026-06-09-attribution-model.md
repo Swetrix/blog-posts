@@ -1,7 +1,8 @@
 ---
 title: "What is an Attribution Model? Definition and Examples for Web Analytics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "An attribution model is the rule an analytics platform uses to assign conversion credit to marketing channels, campaigns, and touchpoints. Learn the main attribution models and how to use them."
 ---
 

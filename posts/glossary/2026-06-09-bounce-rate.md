@@ -1,7 +1,8 @@
 ---
 title: "What is Bounce Rate? Definition, Formula, and How to Improve It"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Bounce rate is the percentage of sessions where a visitor leaves after viewing one page without another meaningful interaction. Learn the formula, what a good bounce rate means, and how to improve it."
 ---
 

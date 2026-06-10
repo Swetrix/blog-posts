@@ -1,7 +1,8 @@
 ---
 title: "What is Indexability? SEO Definition and Analytics Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Indexability describes whether search engines are allowed and able to include a page in search results. Learn why indexability affects organic traffic and SEO analytics."
 ---
 

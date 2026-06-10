@@ -1,7 +1,8 @@
 ---
 title: "What is Goal Tracking? Definition and Website Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Goal tracking measures important website outcomes such as signups, purchases, leads, downloads, and activation events. Learn how goals connect traffic to business results."
 ---
 

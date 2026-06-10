@@ -1,7 +1,8 @@
 ---
 title: "What is a Canonical URL? SEO Definition and Analytics Meaning"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A canonical URL tells search engines which version of a page is preferred when duplicates or similar pages exist. Learn why canonical tags matter for SEO and reporting."
 ---
 

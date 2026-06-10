@@ -1,7 +1,8 @@
 ---
 title: "What is Time on Page? Definition and Website Analytics Meaning"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Time on page estimates how long a visitor spends on a page before leaving, navigating, or becoming inactive. Learn how to interpret it and why it can be misleading."
 ---
 

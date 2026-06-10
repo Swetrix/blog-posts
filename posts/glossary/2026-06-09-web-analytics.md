@@ -1,7 +1,8 @@
 ---
 title: "What is Web Analytics? Definition, Metrics, and Why It Matters"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Web analytics is the collection and analysis of website traffic, visitor behavior, conversions, performance, and acquisition data. Learn the key metrics and how privacy-first analytics works."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is Average Session Duration? Definition and Analytics Meaning"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Average session duration is the average amount of time visitors spend on your website during a session. Learn how it is calculated, when it matters, and why it can be misleading."
 ---
 

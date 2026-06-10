@@ -1,7 +1,8 @@
 ---
 title: "What is Event Tracking? Definition and Website Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Event tracking records user actions such as clicks, form submissions, downloads, purchases, and product interactions. Learn how event tracking improves analytics."
 ---
 

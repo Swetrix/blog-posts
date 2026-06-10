@@ -1,7 +1,8 @@
 ---
 title: "What is Customer Lifetime Value? CLV Definition and Formula"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Customer lifetime value, or CLV, estimates how much revenue or gross profit a customer generates over their relationship with a business. Learn why CLV matters for analytics."
 ---
 

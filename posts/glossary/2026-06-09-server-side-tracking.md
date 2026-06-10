@@ -1,7 +1,8 @@
 ---
 title: "What is Server-side Tracking? Definition and Analytics Pros and Cons"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Server-side tracking sends analytics events from your server rather than only from browser JavaScript. Learn when it improves reliability, privacy control, and data quality."
 ---
 

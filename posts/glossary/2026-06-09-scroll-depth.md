@@ -1,7 +1,8 @@
 ---
 title: "What is Scroll Depth? Definition and Content Engagement Tracking"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Scroll depth measures how far visitors scroll down a page. Learn how scroll tracking helps evaluate content engagement, landing pages, and conversion intent."
 ---
 

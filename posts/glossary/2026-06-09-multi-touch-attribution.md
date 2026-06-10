@@ -1,7 +1,8 @@
 ---
 title: "What is Multi-touch Attribution? Definition and Marketing Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Multi-touch attribution distributes conversion credit across several channels or touchpoints. Learn how it differs from last-click attribution and when to use it."
 ---
 

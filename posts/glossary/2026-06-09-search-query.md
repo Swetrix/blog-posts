@@ -1,7 +1,8 @@
 ---
 title: "What is a Search Query? SEO Definition and Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A search query is the word or phrase someone enters into a search engine. Learn how search query data helps improve SEO, content, and conversion analytics."
 ---
 

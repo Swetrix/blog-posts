@@ -1,7 +1,8 @@
 ---
 title: "What is Data Retention? Analytics Definition and Best Practices"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Data retention defines how long analytics data is kept before deletion, anonymization, or aggregation. Learn why retention policies matter for privacy and reporting."
 ---
 

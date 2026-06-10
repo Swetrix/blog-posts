@@ -1,7 +1,8 @@
 ---
 title: "What are Live Visitors? Real-time Website Analytics Definition"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Live visitors are people currently active on your website. Learn how real-time analytics works, when live visitor data is useful, and how to interpret traffic spikes."
 ---
 

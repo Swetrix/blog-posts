@@ -1,7 +1,8 @@
 ---
 title: "What is Organic Search? Definition and Analytics Meaning"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Organic search is unpaid traffic from search engines such as Google, Bing, DuckDuckGo, and others. Learn how organic search is measured and how to evaluate SEO traffic quality."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is Dark Social? Definition and Analytics Attribution Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Dark social is traffic from private sharing channels that analytics tools cannot easily identify. Learn why messaging apps, email, documents, and communities often appear as direct traffic."
 ---
 

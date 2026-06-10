@@ -1,7 +1,8 @@
 ---
 title: "What is Conversion Rate Optimization? CRO Definition and Process"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Conversion rate optimization, or CRO, is the process of improving a website so more visitors complete desired actions. Learn how CRO works and which analytics metrics matter."
 ---
 

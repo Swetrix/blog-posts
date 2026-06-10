@@ -1,7 +1,8 @@
 ---
 title: "What is an Adblocker? Definition and Impact on Web Analytics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "An adblocker is software that blocks ads, tracking scripts, analytics requests, and other third-party resources. Learn how adblockers affect website analytics and what privacy-first teams should do about it."
 ---
 

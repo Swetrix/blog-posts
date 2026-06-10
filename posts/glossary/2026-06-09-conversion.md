@@ -1,7 +1,8 @@
 ---
 title: "What is a Conversion? Definition and Examples in Website Analytics"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A conversion is a completed action that matters to your business, such as a signup, purchase, form submission, download, or product activation event. Learn how conversions work in web analytics."
 ---
 

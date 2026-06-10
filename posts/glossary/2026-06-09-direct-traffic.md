@@ -1,7 +1,8 @@
 ---
 title: "What is Direct Traffic? Definition and Why Analytics Shows Direct Visits"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Direct traffic is website traffic where the analytics tool cannot identify a referrer, campaign, search engine, or known source. Learn what causes direct traffic and how to reduce misattribution."
 ---
 

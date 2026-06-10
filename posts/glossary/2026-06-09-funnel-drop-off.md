@@ -1,7 +1,8 @@
 ---
 title: "What is Funnel Drop-off? Definition and Conversion Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Funnel drop-off is the point where visitors leave a conversion path before reaching the next step or final goal. Learn how to find and reduce funnel drop-offs."
 ---
 

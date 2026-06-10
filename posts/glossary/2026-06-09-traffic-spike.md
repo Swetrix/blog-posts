@@ -1,7 +1,8 @@
 ---
 title: "What is a Traffic Spike? Definition and Website Analytics Causes"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A traffic spike is a sudden increase in visits, events, errors, or conversions compared with normal activity. Learn how to investigate traffic spikes in analytics."
 ---
 

@@ -1,7 +1,8 @@
 ---
 title: "What is a JavaScript Error? Definition and Website Analytics Impact"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A JavaScript error is a browser-side runtime problem that can break forms, buttons, checkout, tracking, or product features. Learn why JavaScript errors affect conversions."
 ---
 

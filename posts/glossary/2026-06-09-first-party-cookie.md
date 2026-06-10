@@ -1,7 +1,8 @@
 ---
 title: "What is a First Party Cookie? Definition and Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A first party cookie is set by the website domain a visitor is using. Learn how first-party cookies differ from third-party cookies and what they mean for analytics and privacy."
 ---
 

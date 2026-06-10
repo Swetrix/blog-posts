@@ -1,7 +1,8 @@
 ---
 title: "What is Google Analytics 4? GA4 Definition and Analytics Context"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Google Analytics 4, or GA4, is Google's event-based analytics platform for websites and apps. Learn what GA4 tracks, how it differs from Universal Analytics, and why teams compare alternatives."
 ---
 

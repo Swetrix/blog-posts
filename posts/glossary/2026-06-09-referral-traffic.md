@@ -1,7 +1,8 @@
 ---
 title: "What is Referral Traffic? Definition and Analytics Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Referral traffic is website traffic from links on other websites. Learn how referral traffic is tracked, why it matters, and how to analyze referral sources."
 ---
 

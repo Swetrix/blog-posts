@@ -1,7 +1,8 @@
 ---
 title: "What is Cookieless Tracking? Definition and Analytics Benefits"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Cookieless tracking measures website traffic and behavior without storing analytics cookies in the visitor browser. Learn how cookieless analytics works and why it matters."
 ---
 

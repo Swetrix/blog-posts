@@ -1,7 +1,8 @@
 ---
 title: "What is A/B Testing? Definition, Examples, and Website Analytics Use Cases"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "A/B testing compares two versions of a page, feature, or journey to learn which one performs better against a measurable goal. Learn how A/B tests work, what to track, and how to read the results."
 ---
 

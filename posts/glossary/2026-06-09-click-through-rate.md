@@ -1,7 +1,8 @@
 ---
 title: "What is Click-through Rate? CTR Definition, Formula, and Examples"
-date: June 09, 2026
+date: June 9, 2026
 standalone: true
+hidden: true
 intro: "Click-through rate, or CTR, is the percentage of people who click after seeing a link, ad, button, email, or search result. Learn the CTR formula and how to improve it."
 ---
 
