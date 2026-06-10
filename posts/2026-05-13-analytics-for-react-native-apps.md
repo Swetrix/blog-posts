@@ -31,8 +31,6 @@ Delay the prompt if your business model demands IDFA collection. Build a flow th
 
 Replace device fingerprinting with privacy-focused analytics frameworks to eliminate the need for permission dialogs.
 
-IMAGE_PLACE_HOLDER_1: A comparison matrix contrasting legacy analytics SDKs versus API-first privacy analytics, evaluating factors such as App Store privacy label requirements, ATT prompt necessity, and impact on the app bundle size.
-
 ## Why Legacy Trackers Fail Modern Apps
 
 Default choices like Firebase, Mixpanel, and Segment dominate developer tutorials. These platforms offer broad functionality at the cost of your application's bundle size, legal compliance, and user trust.
@@ -82,8 +80,6 @@ const trackEvent = (eventName) => {
   Swetrix.track({ ev: eventName });
 };
 ```
-
-IMAGE_PLACE_HOLDER_2: A flowchart illustrating the React Native 0.76 New Architecture (JSI) handling analytics event requests directly without blocking the main UI thread, compared side-by-side to the old asynchronous bridge bottleneck.
 
 ## Implementing Privacy-First Tracking Strategies
 
@@ -175,8 +171,6 @@ const flushQueue = () => {
 ```
 
 This strategy captures usage data during airplane mode or spotty commutes. It ensures high data accuracy without writing massive logs to the device's flash storage, protecting both privacy and app performance.
-
-IMAGE_PLACE_HOLDER_3: A step-by-step process diagram detailing offline queuing logic: an event is triggered, the system checks network status via NetInfo, queues the event in RAM if the device is offline, and successfully dispatches the payload via REST API once reconnected.
 
 ### Creating Strict Custom Property Allow-lists
 
