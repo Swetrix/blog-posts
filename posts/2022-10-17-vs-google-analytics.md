@@ -91,7 +91,7 @@ We present the most important metrics on a single, simple-first dashboard.
 <br />
 People who need additional features can always install custom extensions from our <a href="https://marketplace.swetrix.com" target="_blank" rel="noreferrer noopener">Marketplace</a> or create their own.
 <br /><br />
-On Swetrix, there are no dozens of useless tabs or menus, no need to generate custom reports or filter through data noise. Take a look at our <a href="https://swetrix.com/projects/STEzHcB1rALV" target="_blank" rel="noreferrer noopener">live demo</a> and see for yourself!
+On Swetrix, there are no dozens of useless tabs or menus, no need to generate custom reports or filter through data noise. Take a look at our <a href="https://swetrix.com/demo" target="_blank" rel="noreferrer noopener">live demo</a> and see for yourself!
 
 ### Feature-rich vs feature-overkill.
 

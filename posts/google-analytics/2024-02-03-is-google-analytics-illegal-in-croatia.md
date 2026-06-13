@@ -45,7 +45,7 @@ Following the CJEU judgement, the majority of EU companies continued their regul
 
 In light of these developments, it's important to consider alternatives to Google Analytics that prioritise user privacy and compliance with GDPR regulations. Fortunately, such alternatives do exist and [Swetrix](https://swetrix.com) is one of them.
 
-Our service is cookie-less, meaning that we provide analytics insights without collecting personal information or tracking individual users. Here's a [live demo](https://swetrix.com/projects/STEzHcB1rALV) page so you can see for yourself.
+Our service is cookie-less, meaning that we provide analytics insights without collecting personal information or tracking individual users. Here's a [live demo](https://swetrix.com/demo) page so you can see for yourself.
 
 In contrast to the tech giants, we offer our services at an affordable price instead of providing them for free and then excessively monetising user data. We offer a 14 day free trial (no need to add your payment details) and pricing starts at just $5 / month. Feel free to [give us a try](https://swetrix.com/signup).
 
