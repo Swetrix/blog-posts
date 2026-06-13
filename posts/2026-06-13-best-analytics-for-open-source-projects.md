@@ -1,15 +1,15 @@
 ---
 title: "The Best Analytics for Open Source Projects in 2025"
-intro: "Find the best analytics for open source projects to measure traffic, bypass ad blockers, and guarantee GDPR compliance without invasive cookies."
+intro: "Find the best analytics for open source projects to measure traffic, bypass ad blockers, and support GDPR-aligned analytics without invasive cookies."
 date: June 13, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-Open-source maintainers build software for the community. Tracking how users interact with that software presents a massive challenge. Find the best analytics for open source projects to measure traffic, bypass ad blockers, and guarantee compliance without invasive cookies.
+Open-source maintainers build software for the community. Tracking how users interact with that software presents a massive challenge. Find the best analytics for open source projects to measure traffic, bypass ad blockers, and support privacy-aligned compliance without invasive cookies.
 
-Google Analytics commands an [over 80% market share](https://w3techs.com/technologies/details/ta-googleanalytics) among traffic analysis tools across the web. Relying on this legacy tracker burdens your repository sites with over 45 kilobytes of script bloat. Ad blockers strip out [between 20 and 58 percent](https://plausible.io/blog/google-analytics-adblockers-missing-data) of your valid visitor data for developer-heavy audiences, though this rate varies by industry and content type. Visitors actively reject tracking cookies. 
+Google Analytics commands an [over 80% market share as of 2024](https://w3techs.com/technologies/details/ta-googleanalytics) among traffic analysis tools across the web. Relying on this legacy tracker burdens your repository sites with approximately 45 kilobytes of script bloat. Ad blockers strip out [between 20 and 58 percent as of 2024](https://plausible.io/blog/google-analytics-adblockers-missing-data) of your valid visitor data for developer-heavy audiences, though this rate varies by industry and content type. Visitors actively reject tracking cookies. 
 
 Swetrix offers a privacy-first alternative. Site owners secure accurate telemetry without tracking individuals across the web. Our open-source platform captures the data required to grow your project without harvesting personal information.
 
@@ -78,7 +78,7 @@ Picking the right platform depends on specific data requirements. Open-source ma
 
 ### Swetrix: The Best All-in-One Solution
 
-Swetrix stands as the best analytics for open source projects. The unified platform covers web traffic, application performance, and error tracking in a single 6-kilobyte script. 
+Swetrix stands as the best analytics for open source projects. The unified platform covers web traffic, application performance, and error tracking in a single script of approximately 6 KB (minified and gzipped). 
 
 Developers built Swetrix as an [open-source self-hosted analytics](https://swetrix.com/blog/open-source-web-analytics-self-hosted) platform. Maintainers inspect the code, verify the privacy claims, and deploy it anywhere. The cloud version starts at $19 per month for 100,000 events. The hybrid script captures custom events, outbound link clicks, and file downloads without bloated configurations.
 
@@ -106,7 +106,7 @@ Evaluate the project tech stack. Maintaining a frontend library pairs well with 
 | :--- | :--- | :--- | :--- | :--- |
 | Primary Use Case | Web & Product Analytics | Web Analytics | Web Analytics | Infrastructure Telemetry |
 | Open Source | Yes | Yes | Yes | Yes |
-| Script Weight | 6-7 KB | < 1 KB | ~2 KB | N/A (Gateway) |
+| Script Weight | ~6 KB | < 1 KB | ~2 KB | N/A (Gateway) |
 | Error Tracking | Yes | No | No | No |
 | Funnel Visualization | Yes | Yes | Yes | No |
 | Cookieless Tracking | Yes | Yes | Yes | Yes |
@@ -129,9 +129,9 @@ Update firewall rules after deployment. Restrict database access to internal net
 
 ### Bypassing Ad Blockers with Subdomain Proxies
 
-Third-party tracking domains trigger ad blocker blocklists. First-party subdomains bypass these filters. Routing analytics requests through a custom domain solves this problem.
+Third-party tracking domains trigger ad blocker blocklists. First-party subdomains may bypass these filters. Routing analytics requests through a custom domain can help address this problem.
 
-A visitor loads `yourproject.com`. The browser requests the tracking script from `analytics.yourproject.com`. Ad blockers detect a first-party request and allow the connection. This setup recovers the missing data.
+A visitor loads `yourproject.com`. The browser requests the tracking script from `analytics.yourproject.com`. Ad blockers may treat first-party subdomains more permissively, though results vary across blockers and browsers. This setup may improve data collection and can reduce missing data.
 
 Set up a proxy script. Create a CNAME record in the DNS provider pointing `analytics.yourdomain.com` to the analytics server. Update the tracking snippet to use the custom domain endpoint. 
 
@@ -143,9 +143,9 @@ Open-source projects live across multiple platforms. Maintainers track engagemen
 
 ### Utilizing 1x1 Pixel Tracking in Repositories
 
-GitHub strips JavaScript from README files. Standard script tags fail to track repository views. Non-interactive pixel tracking solves this limitation. 
+GitHub strips JavaScript from README files. Standard script tags fail to track repository views. Non-interactive pixel tracking provides an alternative.
 
-Embed a 1x1 image tag in the markdown. The browser requests the image from the analytics server whenever a user opens the README. The server logs the pageview based on request headers. 
+Embed a 1x1 image tag in the markdown. The browser requests the image from the analytics server whenever a user opens the README. The server logs the pageview based on request headers. Note that GitHub (and CDNs/proxies) may cache or proxy README images, so counts reflect image loads—an approximation of README opens rather than an exact count. Consider adding cache-busting query parameters (e.g., a timestamp) or using server-side heuristics to improve accuracy.
 
 Add this markdown to the repository:
 
@@ -153,7 +153,7 @@ Add this markdown to the repository:
 ![Analytics](https://api.swetrix.org/log/image?pid=YOUR_PROJECT_ID)
 ```
 
-Replace `YOUR_PROJECT_ID` with the unique identifier. This gathers view counts for documentation directly inside the code repository. Place the image at the bottom of the document to ensure the text content loads ahead of the tracking pixel.
+Replace `YOUR_PROJECT_ID` with the unique identifier. This approach provides approximate view counts for documentation directly inside the code repository. Place the image at the bottom of the document to ensure the text content loads ahead of the tracking pixel.
 
 ### Accurate Attribution with UTM Parameters
 
@@ -182,15 +182,18 @@ Send custom event payloads to the analytics platform. Define an event category a
 
 ```javascript
 // Example of tracking a custom event with Swetrix
-document.getElementById('copy-install-cmd').addEventListener('click', () => {
-  swetrix.track({
-    ev: 'Copy Code',
-    meta: {
-      section: 'Installation',
-      os: 'Linux'
-    }
+const copyButton = document.getElementById('copy-install-cmd')
+if (copyButton) {
+  copyButton.addEventListener('click', () => {
+    swetrix.track({
+      ev: 'Copy Code',
+      meta: {
+        section: 'Installation',
+        os: 'Linux'
+      }
+    })
   })
-})
+}
 ```
 
 Build a conversion funnel in the dashboard using these events. Define step one as a landing page view. Set step two as viewing the installation guide. Designate step three as clicking the copy button. 
