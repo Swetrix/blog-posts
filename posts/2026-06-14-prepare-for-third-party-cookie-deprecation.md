@@ -33,8 +33,6 @@ Open your primary advertising platform. Next, audit the active campaigns to iden
 
 Monitor your frequency capping. Ad networks use cookies to limit banner exposure. Without cross-site identifiers, frequency caps fail. A single user might see your ad twenty times in one afternoon. This causes ad fatigue and wastes budget. Set strict daily spend limits on display networks to mitigate runaway frequency issues.
 
-IMAGE_PLACE_HOLDER_2
-
 ## First-Party Data Strategies to Adopt Now
 
 Data ownership outlasts tracking workarounds. Collect information direct from your audience. First-party data includes purchase history, website interactions, and support ticket logs. Zero-party data comes from deliberate user submissions.

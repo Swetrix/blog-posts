@@ -13,8 +13,6 @@ You reveal your website growth to your audience when you create a public analyti
 
 The Swetrix privacy-first web analytics platform equips you to launch a public dashboard without invasive tracking. Turn your private metrics into a public asset to build brand trust and market your startup.
 
-IMAGE_PLACE_HOLDER_1
-
 ## Reasons To Create A Public Analytics Dashboard
 
 Treat your data as an acquisition channel by publishing your metrics. Share specific numbers like unique visitors to capture audience interest.
@@ -38,8 +36,6 @@ Identify your primary business goal before publishing your data. Choose trust, h
 - **Marketing:** Highlight specific referral sources to show community engagement and user advocacy.
 
 Transparent companies provide the data to let the user evaluate the traction firsthand.
-
-IMAGE_PLACE_HOLDER_2
 
 ## Privacy And GDPR Compliance
 
@@ -65,8 +61,6 @@ Audit your current analytics stack to ensure no PII reaches your database before
 4.  Verify you disabled cross-domain tracking.
 
 Migrating to an EU-hosted cloud infrastructure guarantees your data residency complies with European regulations. Secure the infrastructure before exposing your reporting to external viewers.
-
-IMAGE_PLACE_HOLDER_3
 
 ## How To Set Up Your Public Dashboard
 
