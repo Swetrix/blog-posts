@@ -1,5 +1,5 @@
 ---
-title: "The Best Analytics for Open Source Projects in 2025"
+title: "The Best Analytics for Open Source Projects in 2026"
 intro: "Find the best analytics for open source projects to measure traffic, bypass ad blockers, and support GDPR-aligned analytics without invasive cookies."
 date: June 13, 2026
 hidden: false
