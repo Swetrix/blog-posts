@@ -61,6 +61,8 @@ Marketing teams map traffic sources to load times while developers identify slow
 
 Install Swetrix for live user tracking using the official script or package manager. Engineers integrate the tracker into the frontend application to configure custom alerts for slow page loads. These alerts map performance data to individual user flows.
 
+![A screenshot of the Swetrix Performance Monitoring Dashboard](https://swetrix.com/assets/screenshot_perf_light.png)
+
 ### WebPageTest & Lighthouse: Synthetic Lab Testing
 
 Synthetic testing simulates network conditions before code reaches production. Developers use these tools to catch massive regressions during the build process. Lighthouse runs in the Chrome browser console, allowing teams to run lab tests with 4G network throttling and CPU slowdown enabled. This identifies render-blocking resources and oversized image payloads. WebPageTest offers detailed waterfall charts to test multiple connections from various geographic locations.
