@@ -21,9 +21,9 @@ Audit the current Largest Contentful Paint (LCP) scores today. This metric measu
 
 ### The Shift to Interaction to Next Paint (INP)
 
-On March 12, 2024, Google deprecated First Input Delay (FID) and replaced it with Interaction to Next Paint (INP) as a stable Core Web Vital metric. The Google Chrome Team established INP to measure responsiveness by evaluating all interactions over a page's lifecycle. FID measured the initial input delay, ignoring the time the browser spent running event handlers and presenting the next visual frame. INP tracks every tap, click, and keyboard input across the entire session to log the longest single delay the user experiences. 
+On March 12, 2024, Google deprecated First Input Delay (FID) and replaced it with Interaction to Next Paint (INP) as a stable Core Web Vital metric. The Google Chrome Team established INP to measure responsiveness by evaluating all interactions over a page's lifecycle. FID measured the initial input delay, ignoring the time the browser spent running event handlers and presenting the next visual frame. INP tracks every tap, click, and keyboard input across the entire session to log the longest single delay the user experiences.
 
-Complex JavaScript applications struggle with INP scores. When a user clicks an accordion menu, the browser pauses to execute a massive bundle of third-party scripts. This freezes the user interface, and the delay between the click and the visual update determines the INP latency. 
+Complex JavaScript applications struggle with INP scores. When a user clicks an accordion menu, the browser pauses to execute a massive bundle of third-party scripts. This freezes the user interface, and the delay between the click and the visual update determines the INP latency.
 
 Check Google Search Console for INP warnings to prevent poor scores from downgrading organic search visibility. Next, profile the site in Chrome DevTools using the Performance tab to locate main thread tasks exceeding 50 milliseconds. Developers must break these long JavaScript tasks into smaller chunks. Defer background syncs and non-critical tracking pixels until the main content finishes rendering.
 
@@ -37,7 +37,7 @@ Average EU marketing cookie consent rates hover around 46%. Traditional analytic
 
 Browser extensions like uBlock Origin and native iOS privacy features block commercial tracking domains. Hosted analytics scripts fail to execute in these environments. Marketers see artificial drops in direct and organic visits as a result.
 
-Engineering teams fix this blind spot with open source analytics. Self-hosting on a first-party subdomain bypasses browser ad-blockers. Developers configure the tracking script to run through `analytics.yourdomain.com`. The browser sees a request to the origin server instead of a third-party advertising network. 
+Engineering teams fix this blind spot with open source analytics. Self-hosting on a first-party subdomain bypasses browser ad-blockers. Developers configure the tracking script to run through `analytics.yourdomain.com`. The browser sees a request to the origin server instead of a third-party advertising network.
 
 Adopt a cookieless, open-source setup to close the data gap while maintaining legal compliance. Cookieless platforms hash incoming IP addresses with a rotating salt generated each day to create an anonymous session identifier that resets at midnight. This method persists tracking across page views without storing personal data on the user's hard drive.
 
@@ -71,7 +71,7 @@ Use synthetic tests during development and rely on RUM data for production monit
 
 ### SigNoz & OpenObserve: Deep APM Tracking
 
-Backend infrastructure requires specialized monitoring. Application Performance Monitoring (APM) handles distributed tracing across microservices. [SigNoz](https://signoz.io/) provides logs and metrics utilizing OpenTelemetry to track the milliseconds a database query takes to execute. This tracing identifies the API endpoint causing high frontend TTFB. OpenObserve offers a lightweight alternative for high-scale log ingestion. 
+Backend infrastructure requires specialized monitoring. Application Performance Monitoring (APM) handles distributed tracing across microservices. [SigNoz](https://signoz.io/) provides logs and metrics utilizing OpenTelemetry to track the milliseconds a database query takes to execute. This tracing identifies the API endpoint causing high frontend TTFB. OpenObserve offers a lightweight alternative for high-scale log ingestion.
 
 Set up backend alerts for failed server responses. Operations teams use APM to find memory leaks in Node.js or Python environments. Connecting frontend analytics to backend tracing correlates spikes in frontend INP scores with bottlenecks in the database connection pool.
 
@@ -85,7 +85,7 @@ Marketing campaigns fail when landing pages experience slow load times. Marketer
 
 Analyze conversion variance across geographic regions. Retail stores in the U.S. and U.K. report [higher baseline conversion rates](https://parahgroup.com/) due to mature broadband networks. Factor regional infrastructure maturity into performance baselines. Asian or Latin American markets require lighter asset payloads to achieve parity in page load speeds.
 
-Build a shared reporting dashboard. Place the average session duration metric next to the LCP score. This setup highlights the correlation between speed and engagement for the target audience. 
+Build a shared reporting dashboard. Place the average session duration metric next to the LCP score. This setup highlights the correlation between speed and engagement for the target audience.
 
 ### Mobile-First Optimization and Asset Deferment
 
