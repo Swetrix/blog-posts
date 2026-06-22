@@ -37,11 +37,11 @@ Tracking structures require specific formatting to function. An ID card with mis
 
 ### Core Tags: Source, Medium, and Campaign
 
-Standardized parameter values prevent traffic from falling into the "unassigned" category. 
+Standardized parameter values prevent traffic from falling into the "unassigned" category.
 
-*   **utm_source:** Identifies the origin of the traffic. Marketers frequently default to naming their Email Service Provider (ESP) here, typing "Mailchimp" or "Klaviyo". The ESP functions as the delivery vehicle. Source tags should reflect the audience segment. Use identifiers like `weekly_newsletter`, `customer_base`, or `lead_magnet_subscribers`.
-*   **utm_medium:** Identifies the channel. Keep this parameter static across all email sends. Type `email` for every campaign. Standardizing the medium ensures all email traffic aggregates into one high-level channel report.
-*   **utm_campaign:** Identifies the specific promotion or broadcast. Use descriptive, date-based names. A broadcast announcing a product update becomes `q3_feature_launch`. A holiday promotion becomes `black_friday_2026`.
+- **utm_source:** Identifies the origin of the traffic. Marketers frequently default to naming their Email Service Provider (ESP) here, typing "Mailchimp" or "Klaviyo". The ESP functions as the delivery vehicle. Source tags should reflect the audience segment. Use identifiers like `weekly_newsletter`, `customer_base`, or `lead_magnet_subscribers`.
+- **utm_medium:** Identifies the channel. Keep this parameter static across all email sends. Type `email` for every campaign. Standardizing the medium ensures all email traffic aggregates into one high-level channel report.
+- **utm_campaign:** Identifies the specific promotion or broadcast. Use descriptive, date-based names. A broadcast announcing a product update becomes `q3_feature_launch`. A holiday promotion becomes `black_friday_2026`.
 
 ### Advanced Tagging: Content and A/B Testing
 
@@ -95,17 +95,17 @@ A tagging strategy requires operational discipline. One mistyped parameter split
 
 Analytics platforms enforce case sensitivity. A click on `utm_medium=Email` and a click on `utm_medium=email` register as two separate channels. Mixed capitalization ruins top-level channel reports.
 
-*   Use lowercase letters for every parameter field.
-*   Replace spaces with underscores (`_`) or hyphens (`-`).
-*   Avoid special characters and punctuation marks.
-*   Establish a shared reference document outlining exact campaign names.
+- Use lowercase letters for every parameter field.
+- Replace spaces with underscores (`_`) or hyphens (`-`).
+- Avoid special characters and punctuation marks.
+- Establish a shared reference document outlining exact campaign names.
 
-| Incorrect Parameter Example | Correct Parameter Example | Reason for Correction |
-| :--- | :--- | :--- |
-| `utm_medium=Email` | `utm_medium=email` | Capital letters split the channel data. |
-| `utm_source=Welcome Series` | `utm_source=welcome_series` | Spaces break URL formatting. |
-| `utm_campaign=Q3 Promo!` | `utm_campaign=q3_promo` | Punctuation marks cause parsing errors. |
-| `utm_source=Mailchimp` | `utm_source=newsletter` | Source tags require audience origin data rather than the delivery tool name. |
+| Incorrect Parameter Example | Correct Parameter Example   | Reason for Correction                                                        |
+| :-------------------------- | :-------------------------- | :--------------------------------------------------------------------------- |
+| `utm_medium=Email`          | `utm_medium=email`          | Capital letters split the channel data.                                      |
+| `utm_source=Welcome Series` | `utm_source=welcome_series` | Spaces break URL formatting.                                                 |
+| `utm_campaign=Q3 Promo!`    | `utm_campaign=q3_promo`     | Punctuation marks cause parsing errors.                                      |
+| `utm_source=Mailchimp`      | `utm_source=newsletter`     | Source tags require audience origin data rather than the delivery tool name. |
 
 Audit the default templates inside your email service provider. Locate the global header logo, the footer navigation links, and the social media icons. Marketers frequently tag the main body buttons while leaving the structural links bare. A click on an untagged header logo registers as direct traffic. Apply core parameters to every interactive element in the template.
 
@@ -128,4 +128,5 @@ Before pressing send, test the final generated string. Paste the URL into an inc
 Configure the analytics dashboard to read incoming data. Open the acquisition report within the platform interface and filter the traffic columns by the specific email medium. The view displays individual campaigns alongside pageviews, session durations, and conversion events. Connecting a structured tagging process to a privacy-first analytics tool builds a complete map of subscriber behavior. Marketing departments track the return on investment for every broadcast while maintaining user trust.
 
 ---
+
 Stop losing email attribution to dark social and unknown direct traffic. Swetrix offers a privacy-first, cookie-free analytics platform that captures every UTM-tagged click out of the box. Build custom email conversion funnels and track ROI without intrusive cookie banners. Plans start at $19/month for 100,000 events. Start a [14-day free trial](https://swetrix.com/signup) today.
