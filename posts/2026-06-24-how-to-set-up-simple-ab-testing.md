@@ -46,20 +46,22 @@ Check the conversion rate for each high-traffic page. If an ad campaign drives 5
 ### Identifying Conversion Bottlenecks
 
 Pinpoint the friction on the page. Friction is anything that stops the user from clicking the call-to-action button. Common sources include:
-*   Confusing headlines that fail to explain the value proposition
-*   Hidden pricing structures
-*   Forms requiring excessive fields
-*   Lack of trust signals or customer reviews
-*   Slow page load times caused by heavy scripts
+
+- Confusing headlines that fail to explain the value proposition
+- Hidden pricing structures
+- Forms requiring excessive fields
+- Lack of trust signals or customer reviews
+- Slow page load times caused by heavy scripts
 
 Turn your observation into a testable hypothesis. Formulate an "If X, then Y" statement.
 
-*   *Observation:* Visitors abandon the checkout page after seeing the shipping cost.
-*   *Hypothesis:* If we move the shipping calculator to the product page, checkout completion will increase because buyers understand the total cost before entering the funnel.
+- _Observation:_ Visitors abandon the checkout page after seeing the shipping cost.
+- _Hypothesis:_ If we move the shipping calculator to the product page, checkout completion will increase because buyers understand the total cost before entering the funnel.
 
 Another example targets trust.
-*   *Observation:* The lead capture form has a 2% submit rate.
-*   *Hypothesis:* If we add customer logos above the form, submission rates will rise because the logos provide immediate social proof.
+
+- _Observation:_ The lead capture form has a 2% submit rate.
+- _Hypothesis:_ If we add customer logos above the form, submission rates will rise because the logos provide immediate social proof.
 
 ![A side-by-side wireframe diagram of an A/B test comparing a Control page (Variant A) and a Variation page (Variant B), with only a single element (a call-to-action button) highlighted to demonstrate testing a single variable.](https://cdn.swetrix.com/file/9fab1248012003ef35d6920c2bdefcd7.jpg)
 
@@ -86,8 +88,9 @@ Button text dictates action. Swap generic commands like "Submit" or "Click Here"
 
 **Headlines**
 The headline is the first thing users read. Test a feature-focused headline against a benefit-focused one.
-*   *Variant A:* Our Analytics Platform Tracks Traffic
-*   *Variant B:* See Who Visits Your Site Without Cookies
+
+- _Variant A:_ Our Analytics Platform Tracks Traffic
+- _Variant B:_ See Who Visits Your Site Without Cookies
 
 **Trust Signals and Social Proof**
 Buyer hesitation ruins conversions. Add trust elements near the purchase button to reduce anxiety. Test the inclusion of star ratings, customer quotes, or security badges.
@@ -95,13 +98,13 @@ Buyer hesitation ruins conversions. Add trust elements near the purchase button 
 **Pricing Display**
 Test how you present costs. Compare monthly billing versus annual billing defaults. Test the order of pricing tiers, placing the most expensive option on the left.
 
-| Element | What to Test | Expected Impact |
-| :--- | :--- | :--- |
-| Headline | Clarity vs. Curiosity | High |
-| CTA Button | Action vs. Value | High |
-| Hero Image | Product Shot vs. Human Face | Medium |
-| Form Fields | 5 fields vs. 3 fields | High |
-| Navigation | Visible vs. Hidden (on landing pages) | Medium |
+| Element     | What to Test                          | Expected Impact |
+| :---------- | :------------------------------------ | :-------------- |
+| Headline    | Clarity vs. Curiosity                 | High            |
+| CTA Button  | Action vs. Value                      | High            |
+| Hero Image  | Product Shot vs. Human Face           | Medium          |
+| Form Fields | 5 fields vs. 3 fields                 | High            |
+| Navigation  | Visible vs. Hidden (on landing pages) | Medium          |
 
 ## Step 3: Run Your Cookieless Test Safely
 
