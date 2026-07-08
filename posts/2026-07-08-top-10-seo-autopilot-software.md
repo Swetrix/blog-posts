@@ -50,6 +50,7 @@ With autopilot on (the default), RankPine plans roughly one article per day, up 
 Pricing is refreshingly boring: **$99 per site for 30 articles a month** — about $3.30 per article — with images, editing passes, scoring, and rank tracking all included. No hidden tiers, no per-seat fees. For agencies it drops to $79.20 per site at 20+ sites, and you can invite clients as members with per-site roles so every article waits for their approval before going live.
 
 **Pros:** Real search data instead of LLM-guessed keywords, genuinely readable output, full-loop automation with rank tracking, flat transparent pricing, no backlink schemes
+
 **Cons:** Content-focused — it won't fix technical SEO issues on your site; no free tier (there's a trial)
 
 **Best for:** SaaS companies, indie founders, and agencies who want the content loop fully off their plate without publishing slop.
@@ -63,6 +64,7 @@ Pricing is refreshingly boring: **$99 per site for 30 articles a month** — abo
 The weekly cadence means slower compounding than daily publishers, and the pricing tiers beyond the entry plan aren't as transparent as we'd like. But if you want to test whether autopilot content works for your niche before committing $99/month, this is a sensible first step.
 
 **Pros:** Cheapest way in, fact-checking with citations, broad language support
+
 **Cons:** Slow output cadence, opaque higher tiers
 
 ### 3. Outrank
@@ -74,6 +76,7 @@ The weekly cadence means slower compounding than daily publishers, and the prici
 The catch: Outrank leans on a backlink exchange between customer sites to boost rankings. That's a link scheme in Google's eyes and a genuine policy risk. Users have also reported support issues. Fine output at a fair price, but go in with eyes open.
 
 **Pros:** Widest CMS support, competitive per-article price, included images
+
 **Cons:** Backlink exchange is a Google policy violation risk, reported support problems, questionable content quality
 
 ### 4. RankYak
@@ -85,6 +88,7 @@ The catch: Outrank leans on a backlink exchange between customer sites to boost 
 Like Outrank, it uses a backlink exchange, which carries the same Google guidelines risk. Customization is also limited — you get the article RankYak decides to write, with less control over voice and structure than the top picks.
 
 **Pros:** Predictable daily output, flat pricing, connects to anything via Zapier/Make
+
 **Cons:** Backlink exchange risk, limited voice and structure control
 
 ### 5. Search Atlas (OTTO)
@@ -96,6 +100,7 @@ Like Outrank, it uses a backlink exchange, which carries the same Google guideli
 The breadth is real but so is the complexity: the learning curve is steep, users report the GBP module is buggy, and per-site costs add up fast. Pick it if technical debt is your bottleneck rather than content volume.
 
 **Pros:** Only tool automating technical SEO, content, and links together
+
 **Cons:** Expensive per site, steep learning curve, buggy modules reported
 
 ### 6. SEO.AI
@@ -107,6 +112,7 @@ The breadth is real but so is the complexity: the learning curve is steep, users
 At $18–37 per article it's the most expensive per-article option in this list by a wide margin. If your niche is YMYL (finance, health, legal) where a factual slip is costly, the human layer may justify it. For most sites, tools like RankPine achieve comparable quality algorithmically at a fifth of the price.
 
 **Pros:** Human QA on every article, good for high-stakes niches
+
 **Cons:** Most expensive per article, low volume
 
 ### 7. Arvow
@@ -118,6 +124,7 @@ At $18–37 per article it's the most expensive per-article option in this list 
 It's the obvious pick if you publish in languages the English-first tools handle poorly. The trade-offs: a small team behind it, spotty support, and weaker output on niche technical topics.
 
 **Pros:** Best language coverage, automated schema and internal linking
+
 **Cons:** Support can be slow, struggles with specialist topics
 
 ### 8. Emplibot
@@ -129,6 +136,7 @@ It's the obvious pick if you publish in languages the English-first tools handle
 If your entire web presence is WordPress and you want social posts thrown in, it's decent value. Everyone else is out of luck — there's no support for other platforms.
 
 **Pros:** Social distribution included, solid WordPress integration
+
 **Cons:** WordPress-only, mid-pack content quality
 
 ### 9. Scalenut (Cruise Mode)
@@ -140,6 +148,7 @@ If your entire web presence is WordPress and you want social posts thrown in, it
 But call it what it is: an accelerated drafting tool, not autopilot. Scalenut's own positioning admits drafts need 20–60% editing before publishing, and there's no autonomous publishing loop. Great if you want a fast first draft and a human finish; it doesn't remove you from the process.
 
 **Pros:** Cheap entry, fast drafts, good optimization scoring
+
 **Cons:** Not hands-off — significant editing required, no publish-and-track loop
 
 ### 10. Adaptify
@@ -151,6 +160,7 @@ But call it what it is: an accelerated drafting tool, not autopilot. Scalenut's 
 The strategy layer and legitimate PR outreach (as opposed to link exchanges) are genuinely differentiated. But at 5–25x the price of RankPine, CMS support is oddly limited and there's no ranking-change tracking. Hard to recommend unless the white-label reporting is the product you're actually buying.
 
 **Pros:** Real strategy work, legitimate PR link building, client reporting
+
 **Cons:** Very expensive, limited CMS support, no rank tracking
 
 ## Comparison Table
