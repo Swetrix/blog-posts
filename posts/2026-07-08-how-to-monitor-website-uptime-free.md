@@ -88,4 +88,5 @@ Outages rarely respect schedules. Since most website outages begin outside the t
 Build an automated public status page and connect it directly to your monitoring tool so visitors see real-time updates when components degrade, preserving brand trust during a crash. You can then use webhook alerts to manage your marketing budget automatically. When your ping tool fails or Swetrix registers a sustained zero-traffic anomaly, the webhook shuts off active ad spend until the successful status code returns.
 
 ---
+
 Visibility keeps your website profitable. While your uptime monitor watches the servers, you need accurate, real-time analytics to understand the user experience. Swetrix provides privacy-focused, cookie-free web analytics that load instantly and never drag your performance down. Keep your data ownership strict and your insights clear. Start your [14-day free trial of Swetrix](https://swetrix.com/signup) today.

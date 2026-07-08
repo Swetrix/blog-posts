@@ -17,10 +17,10 @@ Swetrix does this without cookies or personal data collection. That matters when
 
 Split the work into visibility and measurement. Treat each one as a separate job with a separate owner.
 
-| Workstream  | Tool     | Question                                             | Output                                      |
-| :---------- | :------- | :--------------------------------------------------- | :------------------------------------------ |
-| Visibility  | RankPine | Which prompts should mention your page or brand?     | Prompt set, target page, content backlog    |
-| Measurement | Swetrix  | Which visits and events came after an AI-led journey? | Source view, funnel, revenue report         |
+| Workstream  | Tool     | Question                                              | Output                                   |
+| :---------- | :------- | :---------------------------------------------------- | :--------------------------------------- |
+| Visibility  | RankPine | Which prompts should mention your page or brand?      | Prompt set, target page, content backlog |
+| Measurement | Swetrix  | Which visits and events came after an AI-led journey? | Source view, funnel, revenue report      |
 
 Do both. A cited page with weak conversion needs a different fix than an uncited page with strong trial conversion. The first page needs offer, proof, or next-step work. The second page needs better coverage for the prompts buyers ask.
 
@@ -77,11 +77,11 @@ Use [RankPine](https://rankpine.com/) as the workspace for prompt research, page
 
 Start with prompt clusters that map to buying intent:
 
-| Prompt cluster                                 | Page to improve                              | Evidence to capture                           | Action                                       |
-| :--------------------------------------------- | :------------------------------------------- | :-------------------------------------------- | :------------------------------------------- |
-| `best privacy-first analytics for SaaS`        | `/google-analytics-alternative`              | Tools named, pages cited, missing objections  | Add migration steps and pricing context      |
-| `open source analytics self-hosted`            | `/open-source-web-analytics-self-hosted`     | Self-hosting claims, install pain points      | Add setup steps and data residency answers   |
-| `analytics for agencies client dashboards`     | `/web-analytics/for-digital-agencies`        | Dashboard needs, competitor names             | Add shared dashboard and reporting examples  |
+| Prompt cluster                             | Page to improve                          | Evidence to capture                          | Action                                      |
+| :----------------------------------------- | :--------------------------------------- | :------------------------------------------- | :------------------------------------------ |
+| `best privacy-first analytics for SaaS`    | `/google-analytics-alternative`          | Tools named, pages cited, missing objections | Add migration steps and pricing context     |
+| `open source analytics self-hosted`        | `/open-source-web-analytics-self-hosted` | Self-hosting claims, install pain points     | Add setup steps and data residency answers  |
+| `analytics for agencies client dashboards` | `/web-analytics/for-digital-agencies`    | Dashboard needs, competitor names            | Add shared dashboard and reporting examples |
 
 Run the review every two weeks. Update one page per prompt cluster, then record what changed: title, answer block, table, proof, CTA, schema, or internal links. That gives Swetrix a clean date to compare against visits, events, and revenue.
 
@@ -109,9 +109,9 @@ swetrix.track({
   meta: {
     source_group: "ai_search",
     landing_page_type: "comparison",
-    page_variant: "answer_block_v1"
-  }
-})
+    page_variant: "answer_block_v1",
+  },
+});
 ```
 
 Create goals for the next actions:
@@ -130,12 +130,12 @@ Your team can misread volume. An AI source with 30 visits and 4 paid accounts ca
 
 Use Swetrix revenue analytics with Stripe, Paddle, or API revenue events. Compare source group, landing page, goal rate, funnel drop, and revenue per session.
 
-| Source group       | Sessions | Signup starts | Paid accounts | Revenue per session | Next action                    |
-| :----------------- | -------: | ------------: | ------------: | ------------------: | :----------------------------- |
-| `ai_chatgpt`       |       92 |            11 |             3 |               $8.70 | Expand comparison proof        |
-| `ai_perplexity`    |       38 |             6 |             2 |              $12.20 | Add pricing answers            |
-| `ai_google_search` |      210 |            13 |             2 |               $2.80 | Improve first-screen CTA       |
-| `ai_suspected`     |       44 |             4 |             1 |               $3.40 | Add form source review         |
+| Source group       | Sessions | Signup starts | Paid accounts | Revenue per session | Next action              |
+| :----------------- | -------: | ------------: | ------------: | ------------------: | :----------------------- |
+| `ai_chatgpt`       |       92 |            11 |             3 |               $8.70 | Expand comparison proof  |
+| `ai_perplexity`    |       38 |             6 |             2 |              $12.20 | Add pricing answers      |
+| `ai_google_search` |      210 |            13 |             2 |               $2.80 | Improve first-screen CTA |
+| `ai_suspected`     |       44 |             4 |             1 |               $3.40 | Add form source review   |
 
 Use the table as a work queue. If RankPine shows prompt visibility but Swetrix shows weak conversion, improve the page offer. If Swetrix shows strong conversion from a source with low volume, create more pages for adjacent prompts.
 
