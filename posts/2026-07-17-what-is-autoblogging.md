@@ -11,8 +11,6 @@ Autoblogging is the practice of publishing blog posts automatically, with softwa
 
 The word carries baggage, and it should — for its first fifteen years, autoblogging was a spam technique. What changed is worth understanding before you buy anything, because the difference between the version that grows a business and the version that gets a site buried is not the automation. It's what's inside it.
 
-::TABLE_OF_CONTENTS::
-
 ## Autoblogging Then vs. Now
 
 The original autoblogs, roughly 2008–2014, didn't write anything. WordPress plugins like WP Robot and CyberSEO scraped RSS feeds and republished other people's articles — sometimes spun through synonym-replacement scripts to dodge duplicate-content detection — on domains stuffed with AdSense. It worked until Google's Panda update made thin, copied content radioactive. A few of those plugins still exist for legitimate feed aggregation, but as an SEO strategy that era is dead and staying dead.

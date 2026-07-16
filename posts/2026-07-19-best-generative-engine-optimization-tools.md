@@ -11,8 +11,6 @@ Generative engine optimization (GEO) is the practice of increasing how often AI 
 
 A tool category sprouted around this almost overnight, and it has a shape problem: nearly every product marketed as a GEO tool is a _monitoring_ dashboard. Useful, but monitoring your absence from ChatGPT doesn't fix your absence from ChatGPT. A working GEO toolchain has three jobs — watch, influence, prove — and this guide covers the best tools for each, priced from $29/month to "call sales."
 
-::TABLE_OF_CONTENTS::
-
 ## GEO, AEO, LLM SEO — Untangling the Acronyms
 
 The industry hasn't settled on a name, so four terms describe roughly one discipline:

@@ -11,8 +11,6 @@ llms.txt is a proposed web standard: a markdown file at your site's root that gi
 
 Eighteen months later, llms.txt occupies a strange spot: half the SEO industry sells it as an "AI visibility" essential, Google flatly says it does nothing, and the measured reality is more interesting than either camp admits. This post covers the spec, the evidence on both sides, and what we'd actually do — with the receipts linked.
 
-::TABLE_OF_CONTENTS::
-
 ## What Goes in the File
 
 The [spec](https://llmstxt.org/) is deliberately simple. One markdown file at `/llms.txt`: an H1 with the site name, a blockquote summary, then H2 sections listing links with one-line descriptions. Here's a condensed real-world example:

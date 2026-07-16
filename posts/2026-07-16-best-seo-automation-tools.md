@@ -13,8 +13,6 @@ Nobody quits SEO because the strategy was too hard. They quit because of the rep
 
 So instead of a countdown, this list is organized by job. Ten tools, each the strongest at automating one specific chunk of SEO work in 2026, with prices and the catch nobody puts on the pricing page.
 
-::TABLE_OF_CONTENTS::
-
 ## What SEO Work Can Actually Be Automated in 2026
 
 Before the tools, an honest baseline. Some SEO work automates completely, some partially, and some you shouldn't hand over at all:

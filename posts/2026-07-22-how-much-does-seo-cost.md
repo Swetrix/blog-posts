@@ -21,8 +21,6 @@ The short version:
 
 Everything below unpacks those rows — including the costs that don't appear on invoices.
 
-::TABLE_OF_CONTENTS::
-
 ## What You're Actually Buying
 
 Every SEO price is a bundle of five ingredients, and knowing the split helps you compare quotes:

@@ -11,8 +11,6 @@ When someone asks ChatGPT "what's the best tool for X" and your product isn't in
 
 The good news is that ChatGPT's answers aren't magic and aren't random. They're assembled from sources you can influence, through work that looks a lot like SEO with different weightings — which is why people call it LLM SEO, [GEO](https://swetrix.com/blog/best-generative-engine-optimization-tools), or ChatGPT SEO depending on the conference. This is the playbook we'd run, in order, with the evidence for each step.
 
-::TABLE_OF_CONTENTS::
-
 ## How ChatGPT Decides What to Recommend
 
 Three inputs shape whether you appear, and they respond to different work:

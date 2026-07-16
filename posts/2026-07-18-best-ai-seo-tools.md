@@ -11,8 +11,6 @@ twitter_handle: andrii_rom
 
 A more useful frame: SEO has six layers where AI genuinely changed the economics, and a working stack picks **one tool per layer** — no overlaps, no gaps. This guide covers the best pick (and the runner-up) for each layer, then assembles three complete stacks at $120, $250, and $900 a month.
 
-::TABLE_OF_CONTENTS::
-
 ![Hand-drawn editorial illustration](https://cdn.swetrix.com/file/435f1676d1c4c70f53179e4ccf78d37f.png)
 
 ## Layer 1: Research and Planning
