@@ -35,7 +35,7 @@ _The agency-focused all-in-one with flat pricing and white-label reporting, no p
 
 ![PostPlanify dashboard screenshot](https://cdn.swetrix.com/file/6e646929f44f0711594c7d7dda358180.png)
 
-PostPlanify is built specifically for the buyer that most tools on this list punish: the agency or team that grows. Instead of charging per seat or nickel-and-diming each social account, it uses flat monthly pricing that stays the same as you add teammates and clients. It covers scheduling, a unified inbox, analytics, and reporting across 10 platforms, including Instagram, Facebook, LinkedIn, TikTok, YouTube, Threads, Bluesky, and Google Business Profile.
+[PostPlanify](https://postplanify.com) is built specifically for the buyer that most tools on this list punish: the agency or team that grows. Instead of charging per seat or nickel-and-diming each social account, it uses flat monthly pricing that stays the same as you add teammates and clients. It covers scheduling, a unified inbox, analytics, and reporting across 10 platforms, including Instagram, Facebook, LinkedIn, TikTok, YouTube, Threads, Bluesky, and Google Business Profile.
 
 Where it separates from the pack is the agency layer. You can organize every client in its own workspace with separate accounts, calendars, and team access, invite clients as approvers through a dedicated Client role, and require multiple sign-offs before anything publishes. Reports can be fully white-labeled with your agency's logo and colors rather than the vendor's, which is usually locked behind enterprise pricing elsewhere. The unified inbox pulls comments from seven platforms and direct messages from Instagram and Facebook into one feed, with AI-drafted replies that match each brand's voice.
 
