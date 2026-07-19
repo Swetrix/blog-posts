@@ -79,13 +79,13 @@ Plausible takes a minimalist approach, delivering a lightweight script and a sin
 
 Here is how the platforms compare on core privacy features:
 
-| Feature | Swetrix | Google Analytics 4 | Matomo | Plausible |
-| :--- | :--- | :--- | :--- | :--- |
-| Cookieless by Default | Yes | No | No | Yes |
-| Default EU Data Hosting | Yes (Germany) | No (US/Global) | Optional | Yes (Germany) |
-| Open-Source | Yes | No | Yes | Yes |
-| Built-in Error Tracking | Yes | No | No | No |
-| Consent Banner Required | No | Yes | Yes (Unless Configured) | No |
+| Feature                 | Swetrix       | Google Analytics 4 | Matomo                  | Plausible     |
+| :---------------------- | :------------ | :----------------- | :---------------------- | :------------ |
+| Cookieless by Default   | Yes           | No                 | No                      | Yes           |
+| Default EU Data Hosting | Yes (Germany) | No (US/Global)     | Optional                | Yes (Germany) |
+| Open-Source             | Yes           | No                 | Yes                     | Yes           |
+| Built-in Error Tracking | Yes           | No                 | No                      | No            |
+| Consent Banner Required | No            | Yes                | Yes (Unless Configured) | No            |
 
 ## How to Transition to Privacy-First Analytics
 
@@ -104,6 +104,7 @@ Marketing requires visibility into specific user actions like newsletter signups
 Configure your backend to fire an event to your analytics platform when a transaction completes. Because the server handles the communication, the visitor's browser remains free of tracking scripts, ensuring ad blockers cannot intercept the conversion data.
 
 Follow these steps to deploy server-side event tracking:
+
 1. Generate an API key inside your privacy-first analytics dashboard.
 2. Identify the backend function that processes your target conversion, such as a successful payment webhook or a database user creation script.
 3. Add an HTTP POST request to that function targeting the analytics API.
