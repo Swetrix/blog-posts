@@ -7,13 +7,13 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
-Check your server logs, and they show 10,000 unique visitors this month. Open your web analytics dashboard, and it reports 7,000. The missing 3,000 users did not disappear, and your server did not miscount. These visitors use browser extensions that block tracking scripts from loading on their devices. 
+Check your server logs, and they show 10,000 unique visitors this month. Open your web analytics dashboard, and it reports 7,000. The missing 3,000 users did not disappear, and your server did not miscount. These visitors use browser extensions that block tracking scripts from loading on their devices.
 
 Globally, [roughly 912 million active ad-blocking users](https://backlinko.com/ad-blockers-users) browse the internet every day. Visitors install tools like uBlock Origin, Ghostery, or Pi-Hole to stop intrusive advertising, but these extensions cannot differentiate between invasive retargeting pixels and basic website performance analytics. When a visitor loads your page, the blocker checks every outbound network request against a massive filter list, killing the request before the JavaScript executes if your analytics script matches a known tracker domain.
 
-Relying on traditional client-side tracking means businesses routinely [lose between 10% and 40% of their attribution and analytics data](https://www.clickcease.com/blog/how-much-traffic-can-ad-blockers-hide-from-ga4/) depending on audience demographics. This gap grows even wider depending on your target market, scaling up to 50% for highly technical audiences like software developers, B2B professionals, or privacy-conscious users. 
+Relying on traditional client-side tracking means businesses routinely [lose between 10% and 40% of their attribution and analytics data](https://www.clickcease.com/blog/how-much-traffic-can-ad-blockers-hide-from-ga4/) depending on audience demographics. This gap grows even wider depending on your target market, scaling up to 50% for highly technical audiences like software developers, B2B professionals, or privacy-conscious users.
 
-Missing this data impacts budget allocation. Because ad platforms lose visibility into a third of your conversions, their optimization algorithms assume the campaigns are failing. Cost Per Acquisition metrics look artificially high, which causes you to pause profitable ads and double down on less effective channels that happen to track better. 
+Missing this data impacts budget allocation. Because ad platforms lose visibility into a third of your conversions, their optimization algorithms assume the campaigns are failing. Cost Per Acquisition metrics look artificially high, which causes you to pause profitable ads and double down on less effective channels that happen to track better.
 
 Restoring visibility requires a method that respects the privacy expectations of your visitors. Swetrix solves this by utilizing a managed reverse proxy that routes your analytics data through a first-party subdomain. Because the requests never hit a third-party server directly, the system bypasses browser-level restrictions, recovering your missing traffic data legally and ethically.
 
@@ -23,7 +23,7 @@ Most analytics setups rely entirely on client-side tracking. After pasting a Jav
 
 Filter lists target this exact mechanism by monitoring the network tab of the browser for outgoing requests directed at blacklisted domains. When the browser attempts to contact a known tracker, the extension returns a `net::ERR_BLOCKED_BY_CLIENT` error, effectively dropping the data payload into a black hole.
 
-Server-side tracking moves the data collection process away from the user's browser, sending the behavioral data to your own internal server first instead of instructing the browser to contact an external analytics company. Because the data flows to a subdomain you control, the request looks like a native piece of your website infrastructure, which ad blockers ignore. Once your internal server receives the payload, it forwards the data to your final analytics destination behind the scenes. 
+Server-side tracking moves the data collection process away from the user's browser, sending the behavioral data to your own internal server first instead of instructing the browser to contact an external analytics company. Because the data flows to a subdomain you control, the request looks like a native piece of your website infrastructure, which ad blockers ignore. Once your internal server receives the payload, it forwards the data to your final analytics destination behind the scenes.
 
 Test your current vulnerability by simulating a blocked user in Google Chrome DevTools. Navigate to the Network tab, enable a strict ad blocker like uBlock Origin, and refresh your homepage while filtering the network requests by your analytics provider's name. The resulting red blocked status codes reveal the specific volume of data your current setup loses during standard operation.
 
@@ -39,11 +39,11 @@ A reverse proxy acts as a traffic director sitting between the visitor's browser
 
 Running your own infrastructure allows you to set this up manually using Nginx. Create a new location block in your server configuration that intercepts requests sent to a specific path and uses the `proxy_pass` directive to forward them to the analytics API. The proxy must also forward the user's IP address and user agent via the `X-Forwarded-For` header, otherwise all traffic appears to originate from your own server IP.
 
-For teams avoiding server maintenance, platforms like Swetrix provide managed reverse proxies built directly into the tracking ecosystem. 
+For teams avoiding server maintenance, platforms like Swetrix provide managed reverse proxies built directly into the tracking ecosystem.
 
 Setting up a managed proxy with Swetrix requires minimal configuration. Begin by creating a new CNAME record in your domain registrar pointing a custom subdomain to the Swetrix proxy servers. Once the DNS propagates, update the script on your website to send data to your new custom URL instead of the default API, letting the platform handle the SSL certificate generation, HTTP header forwarding, and server uptime automatically.
 
-Proper URL obfuscation determines the success of this strategy because ad blockers constantly update their rule sets to flag suspicious patterns. If you map your CNAME to `track.yourdomain.com` or `analytics.yourdomain.com`, the regex engines in the filter lists block the request based on the terminology alone. 
+Proper URL obfuscation determines the success of this strategy because ad blockers constantly update their rule sets to flag suspicious patterns. If you map your CNAME to `track.yourdomain.com` or `analytics.yourdomain.com`, the regex engines in the filter lists block the request based on the terminology alone.
 
 Use generic routing terms like `api`, `metrics`, `ping`, or `telemetry` for your subdomains to fly under the radar. The endpoint path requires the same treatment, as a request hitting `api.yourdomain.com/collect` triggers red flags, whereas `api.yourdomain.com/v1/health` processes without issue. Swetrix allows you to customize both the tracking script filename and the API endpoints, ensuring your setup remains indistinguishable from standard website functions.
 
@@ -57,7 +57,7 @@ Moving tracking to a first-party proxy does not eliminate the need for consent b
 
 Traditional platforms like Google Analytics rely on cookies to stitch user sessions together across multiple days. If you use a proxy to force GA4 payloads past ad blockers, you collect data from users who explicitly opted out of tracking, creating a liability risk during data privacy audits.
 
-Swetrix eliminates this friction by operating without cookies, relying instead on a temporary hashing mechanism to track sessions ethically. When a user visits your site, the platform combines their IP address with their browser user agent and applies a cryptographic salt that rotates daily. 
+Swetrix eliminates this friction by operating without cookies, relying instead on a temporary hashing mechanism to track sessions ethically. When a user visits your site, the platform combines their IP address with their browser user agent and applies a cryptographic salt that rotates daily.
 
 This process generates an anonymized hash that tracks pageviews and conversions for that specific session. At midnight, the salt changes, making it mathematically impossible to connect current hashes with historical data. Because the platform stores no personal data and places no tracking files on the user's device, the analytics fall outside the scope of GDPR consent requirements.
 

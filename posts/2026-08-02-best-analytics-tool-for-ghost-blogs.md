@@ -15,13 +15,13 @@ Ghost powers a rapidly growing segment of the independent web, with active domai
 
 ### The Limits of Ghost's Built-In Stats
 
-Ghost 6.0 introduced native, cookie-free web analytics powered by Tinybird directly into the admin dashboard. This built-in reporting provides a high-level view of your blog's performance, allowing you to check total unique visitors, page views, and top referral sources without leaving your content editor. Because it runs server-side and uses no tracking cookies, the native solution respects reader privacy by default. 
+Ghost 6.0 introduced native, cookie-free web analytics powered by Tinybird directly into the admin dashboard. This built-in reporting provides a high-level view of your blog's performance, allowing you to check total unique visitors, page views, and top referral sources without leaving your content editor. Because it runs server-side and uses no tracking cookies, the native solution respects reader privacy by default.
 
 However, the system stops at surface-level metrics and leaves you blind to specific user behavior. Ghost's native dashboard cannot track custom conversion funnels, such as a reader clicking an outbound affiliate link or completing a multi-step premium membership checkout. It lacks campaign attribution capabilities, preventing you from appending UTM parameters to an email newsletter to track which send generated the most paid subscribers. If you need to measure the return on investment for specific marketing campaigns, these native stats will not provide the necessary data.
 
 ### The Hidden Cost of Google Analytics
 
-To fill the gaps left by Ghost's native dashboard, you might default to Google Analytics 4 (GA4), but deploying this tool introduces noticeable latency into the reading experience. The GA4 tracking script downloads a significant payload to the browser before the page finishes rendering, which inflates your Time to First Byte (TTFB) and delays the Largest Contentful Paint (LCP). Since search engines penalize slow sites, this analytics tool actively works against your organic acquisition strategy. 
+To fill the gaps left by Ghost's native dashboard, you might default to Google Analytics 4 (GA4), but deploying this tool introduces noticeable latency into the reading experience. The GA4 tracking script downloads a significant payload to the browser before the page finishes rendering, which inflates your Time to First Byte (TTFB) and delays the Largest Contentful Paint (LCP). Since search engines penalize slow sites, this analytics tool actively works against your organic acquisition strategy.
 
 Furthermore, GA4 relies on persistent identifiers to stitch user sessions together, triggering strict compliance requirements under global privacy laws. You cannot legally run Google Analytics in Europe or California without securing explicit user consent. Using Swetrix instead allows you to bypass these hurdles while keeping your blog lightweight and compliant.
 
@@ -33,7 +33,7 @@ Adding a cookie consent banner to your Ghost blog destroys the data integrity yo
 
 ### Plunging Cookie Consent Rates
 
-Global cookie consent rates often average less than 50 percent, though acceptance varies by region and audience type. Fewer than 25 percent of internet users in France and Germany accept tracking cookies, and ad-supported media blogs see the lowest compliance, often hovering around a 30 percent acceptance rate. 
+Global cookie consent rates often average less than 50 percent, though acceptance varies by region and audience type. Fewer than 25 percent of internet users in France and Germany accept tracking cookies, and ad-supported media blogs see the lowest compliance, often hovering around a 30 percent acceptance rate.
 
 If your analytics platform requires cookies, you operate blind for more than half your traffic, meaning a blog generating 10,000 monthly visits might only record 4,500 of them in the reporting dashboard. This data loss directly damages your marketing decisions. When a specific guest post drives 500 new visitors but 350 of them reject the tracking banner, the campaign looks like a failure on paper, causing you to abandon profitable traffic sources because the tool failed to record them.
 
@@ -49,13 +49,13 @@ Modern analytics separate the act of counting visitors from profiling them, allo
 
 ### Cookieless Data Collection
 
-Cookieless analytics platforms track sessions by generating a temporary hash based on the visitor's IP address and user agent, which resets daily. Because the system cannot recognize the same user if they return next week, it never builds a permanent profile of their browsing habits. These platforms do not require consent banners since no personally identifiable information is stored and no tracking files are placed on the user's device. 
+Cookieless analytics platforms track sessions by generating a temporary hash based on the visitor's IP address and user agent, which resets daily. Because the system cannot recognize the same user if they return next week, it never builds a permanent profile of their browsing habits. These platforms do not require consent banners since no personally identifiable information is stored and no tracking files are placed on the user's device.
 
 Removing the banner directly improves your site metrics, especially since a [Contentsquare benchmark](https://contentsquare.com/digital-experience-benchmark/) puts the cross-industry average time on page at 54 seconds, though this ranges from 44 seconds for energy and grocery sites up to 82 seconds for B2B platforms. Forcing a reader to spend five of those seconds dismissing a complex privacy modal increases your bounce rate, whereas frictionless entry keeps the reader focused on your content the moment the page loads.
 
 ### Full-Stack Observability for Marketing
 
-While standard traffic metrics count your visitors, observability tools record why they left. A modern tracking setup bridges the gap between marketing and technical performance by providing real-user monitoring, helping you understand how fast your Ghost theme loads on real mobile devices in different regions rather than relying on lab-simulated speed tests. 
+While standard traffic metrics count your visitors, observability tools record why they left. A modern tracking setup bridges the gap between marketing and technical performance by providing real-user monitoring, helping you understand how fast your Ghost theme loads on real mobile devices in different regions rather than relying on lab-simulated speed tests.
 
 Client-side JavaScript [error tracking](https://swetrix.com/error-tracking) represents a highly valuable observability feature for publishers. If a recent Ghost update or a custom theme modification breaks your subscription checkout portal on iOS Safari, standard traffic analytics will only show a sudden drop in conversions. Swetrix provides an integrated error tracker that immediately logs the specific JavaScript failure and identifies the exact browser and operating system combination causing the issue, preventing broken code from bleeding your membership revenue for weeks before a reader emails you about it.
 
@@ -65,7 +65,7 @@ Ghost's lack of a traditional plugin ecosystem means your analytics tool must ru
 
 ### Swetrix: The Top Recommendation
 
-**Swetrix** is the most comprehensive, privacy-first alternative to traditional analytics. Built as an open-source platform and hosted on EU servers, it complies with GDPR, CCPA, and PECR regulations without requiring consent banners. 
+**Swetrix** is the most comprehensive, privacy-first alternative to traditional analytics. Built as an open-source platform and hosted on EU servers, it complies with GDPR, CCPA, and PECR regulations without requiring consent banners.
 
 Swetrix excels for Ghost users by combining marketing data with technical observability. Alongside standard traffic metrics, referrers, and campaign tracking, Swetrix logs client-side JavaScript errors and monitors [page load performance](https://swetrix.com/performance) for every user, notifying you immediately if your Ghost theme breaks. You can track custom events, like newsletter signups or clicks on outbound affiliate links, and map them into visual conversion funnels. The dashboard updates in real-time, allowing you to track traffic spikes and share specific dashboard views with partners or clients.
 
@@ -90,7 +90,7 @@ Adding third-party scripts to Ghost requires using the global Code Injection pan
 1. Log into your Ghost Admin dashboard.
 2. Click the gear icon in the bottom left corner to open **Settings**.
 3. Navigate to **Advanced** and select **Code Injection**.
-4. Locate the **Site Header** text box. 
+4. Locate the **Site Header** text box.
 5. Paste your platform's tracking snippet into this field.
 
 If you use Swetrix, the integration requires a single lightweight script. Replace `YOUR_PROJECT_ID` with the specific string found in your Swetrix project settings.
@@ -98,10 +98,10 @@ If you use Swetrix, the integration requires a single lightweight script. Replac
 ```html
 <script src="https://swetrix.org/swetrix.js" defer></script>
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    swetrix.init('YOUR_PROJECT_ID')
-    swetrix.trackViews()
-  })
+  document.addEventListener("DOMContentLoaded", () => {
+    swetrix.init("YOUR_PROJECT_ID");
+    swetrix.trackViews();
+  });
 </script>
 ```
 
@@ -113,16 +113,16 @@ Ghost handles subscriptions through a built-in Portal interface. Because this po
 
 ```html
 <script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const subscribeButtons = document.querySelectorAll('[data-portal]');
-    
-    subscribeButtons.forEach(button => {
-      button.addEventListener('click', () => {
+  document.addEventListener("DOMContentLoaded", () => {
+    const subscribeButtons = document.querySelectorAll("[data-portal]");
+
+    subscribeButtons.forEach((button) => {
+      button.addEventListener("click", () => {
         swetrix.track({
-          ev: 'portal_opened',
+          ev: "portal_opened",
           meta: {
-            button_type: button.getAttribute('data-portal') || 'default'
-          }
+            button_type: button.getAttribute("data-portal") || "default",
+          },
         });
       });
     });

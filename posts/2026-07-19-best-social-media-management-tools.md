@@ -286,17 +286,17 @@ Starter is $65/month (12 accounts, 3 users) and Beyond is $332/month (60 account
 
 ## Quick Comparison
 
-| Tool            | Best For                    | Standout Strength                       | Starting Price        | Approval Workflows   | White-Label   |
-| --------------- | --------------------------- | --------------------------------------- | --------------------- | -------------------- | ------------- |
-| **PostPlanify** | Agencies and teams          | Flat pricing, 10 platforms, white-label | $99/mo flat           | ✅ Multi-approver    | ✅ (Scale)    |
-| Hootsuite       | Large teams                 | Listening + breadth                     | $249/user/mo          | ✅ (Advanced)        | ⚠️ Partial    |
-| Sprout Social   | Enterprises                 | Premium reporting                       | $199/seat/mo          | ✅                   | ⚠️ Partial    |
-| Buffer          | Creators, small teams       | Simplicity                              | Free / $6 per channel | ⚠️ Team plans        | ❌            |
-| SocialBee       | Small businesses            | Category scheduling                     | $29/mo                | ⚠️ Higher tiers      | ⚠️ Limited    |
-| Sendible        | Small agencies              | White-label on budget                   | $29/mo                | ✅                   | ✅            |
-| Vista Social    | Budget teams                | Value for money                         | $79/mo                | ✅                   | ⚠️ Partial    |
-| Metricool       | Freelancers, small agencies | Organic + paid analytics                | Free / $25/mo         | ⚠️ Limited           | ⚠️ Partial    |
-| Loomly          | Calendar-focused teams      | Approvals + calendar                    | $65/mo                | ✅                   | ❌            |
+| Tool            | Best For                    | Standout Strength                       | Starting Price        | Approval Workflows | White-Label |
+| --------------- | --------------------------- | --------------------------------------- | --------------------- | ------------------ | ----------- |
+| **PostPlanify** | Agencies and teams          | Flat pricing, 10 platforms, white-label | $99/mo flat           | ✅ Multi-approver  | ✅ (Scale)  |
+| Hootsuite       | Large teams                 | Listening + breadth                     | $249/user/mo          | ✅ (Advanced)      | ⚠️ Partial  |
+| Sprout Social   | Enterprises                 | Premium reporting                       | $199/seat/mo          | ✅                 | ⚠️ Partial  |
+| Buffer          | Creators, small teams       | Simplicity                              | Free / $6 per channel | ⚠️ Team plans      | ❌          |
+| SocialBee       | Small businesses            | Category scheduling                     | $29/mo                | ⚠️ Higher tiers    | ⚠️ Limited  |
+| Sendible        | Small agencies              | White-label on budget                   | $29/mo                | ✅                 | ✅          |
+| Vista Social    | Budget teams                | Value for money                         | $79/mo                | ✅                 | ⚠️ Partial  |
+| Metricool       | Freelancers, small agencies | Organic + paid analytics                | Free / $25/mo         | ⚠️ Limited         | ⚠️ Partial  |
+| Loomly          | Calendar-focused teams      | Approvals + calendar                    | $65/mo                | ✅                 | ❌          |
 
 _Verify current pricing on each vendor's site before purchase, since plans change often._
 

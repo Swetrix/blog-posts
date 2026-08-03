@@ -42,24 +42,24 @@ Tracking client-side clicks does not require a complex tag management system. Yo
 Open your website's main JavaScript file or global footer template to add an event listener to the document object that monitors all click events. When a click occurs, the script checks if the target is an anchor tag and whether the hyperlink points to a file extension you want to track.
 
 ```javascript
-document.addEventListener('click', function(event) {
-  const target = event.target.closest('a');
+document.addEventListener("click", function (event) {
+  const target = event.target.closest("a");
   if (!target || !target.href) return;
 
-  const fileExtensions = ['.pdf', '.zip', '.csv', '.docx'];
-  const isFileDownload = fileExtensions.some(ext => target.href.toLowerCase().endsWith(ext));
+  const fileExtensions = [".pdf", ".zip", ".csv", ".docx"];
+  const isFileDownload = fileExtensions.some((ext) => target.href.toLowerCase().endsWith(ext));
 
   if (isFileDownload) {
-    const fileName = target.href.split('/').pop();
-    const fileExtension = fileName.split('.').pop();
+    const fileName = target.href.split("/").pop();
+    const fileExtension = fileName.split(".").pop();
 
     swetrix.track({
-      ev: 'resource_downloaded',
+      ev: "resource_downloaded",
       meta: {
         file_name: fileName,
         file_type: fileExtension,
-        url: target.href
-      }
+        url: target.href,
+      },
     });
   }
 });

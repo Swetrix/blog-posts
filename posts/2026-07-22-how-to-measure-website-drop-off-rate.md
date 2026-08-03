@@ -39,9 +39,9 @@ The average global online shopping [cart abandonment rate sits at 70.22 percent]
 
 Different business models experience distinct abandonment patterns based on the user commitment required:
 
-*   **Fintech Onboarding:** Financial applications require heavy identity verification. Roughly 60 percent of users who initiate a fintech signup flow abandon the app before completing their Know Your Customer documentation, as asking for government ID creates massive friction.
-*   **B2B SaaS:** The average business software website conversion rate ranges from 0.9 to 2.3 percent. The journey from a landing page visit to a booked demo or paid subscription contains dozens of micro-decisions.
-*   **Recruitment:** Lengthy applicant tracking systems repel talent. Job application forms see an average drop-off rate of 45 to 60 percent because requiring users to upload a resume and then manually type their work history guarantees high abandonment.
+- **Fintech Onboarding:** Financial applications require heavy identity verification. Roughly 60 percent of users who initiate a fintech signup flow abandon the app before completing their Know Your Customer documentation, as asking for government ID creates massive friction.
+- **B2B SaaS:** The average business software website conversion rate ranges from 0.9 to 2.3 percent. The journey from a landing page visit to a booked demo or paid subscription contains dozens of micro-decisions.
+- **Recruitment:** Lengthy applicant tracking systems repel talent. Job application forms see an average drop-off rate of 45 to 60 percent because requiring users to upload a resume and then manually type their work history guarantees high abandonment.
 
 Segment analytics by traffic source to maintain accurate data. Organic search visitors carry higher intent than users who clicked a low-cost display ad, so evaluating the drop-off rate of paid social campaigns independently from direct traffic prevents misdiagnosing a traffic-quality issue as a broken website flow.
 
@@ -69,18 +69,18 @@ Here is a basic example of tracking a multi-step form completion using standard 
 
 ```javascript
 // Trigger this when the user saves their shipping details
-document.getElementById('shipping-form').addEventListener('submit', function() {
+document.getElementById("shipping-form").addEventListener("submit", function () {
   swetrix.track({
-    ev: 'completed_shipping_step',
-    meta: { step: 2 }
+    ev: "completed_shipping_step",
+    meta: { step: 2 },
   });
 });
 
 // Trigger this when the payment fails
 function onPaymentError(errorType) {
   swetrix.track({
-    ev: 'payment_failed',
-    meta: { reason: errorType }
+    ev: "payment_failed",
+    meta: { reason: errorType },
   });
 }
 ```
@@ -124,4 +124,5 @@ Monitor the frontend for broken code, as users cannot progress if an API fails t
 Review the performance of individual pages. A three-second delay on a payment processing button often results in duplicate clicks, failed charges, or rage-quitting. Use [website performance monitoring](https://swetrix.com/performance) to ensure critical funnel steps load instantly, which eliminates the invisible friction driving up drop-off rates.
 
 ---
+
 Stop losing revenue to broken funnels and blind analytics. Swetrix provides privacy-first, cookie-free data to map user journeys and eliminate drop-offs without compromising compliance. Plans start at $19/month for 100,000 events. [Start your 14-day free trial today](https://swetrix.com/signup) and pinpoint exactly where visitors leave the funnel.

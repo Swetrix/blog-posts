@@ -39,13 +39,13 @@ Stripping out identifying metadata eliminates the legal requirement to ask for t
 
 ### Embracing Aggregate Behavioral Metrics
 
-Staring at individual session replays wastes hours and introduces massive liability, so replace isolated recordings with aggregated engagement metrics that highlight systemic UX issues. Track scroll depth to see where content loses momentum on your long-form sales pages, or configure custom events to fire when users interact with specific accordion menus, video players, or add-to-cart buttons. 
+Staring at individual session replays wastes hours and introduces massive liability, so replace isolated recordings with aggregated engagement metrics that highlight systemic UX issues. Track scroll depth to see where content loses momentum on your long-form sales pages, or configure custom events to fire when users interact with specific accordion menus, video players, or add-to-cart buttons.
 
 Implement this tracking by mapping specific actions to custom events in your codebase. Adding an attribute like `swetrix-track="pricing-signup"` to an HTML button tells the analytics server exactly when that conversion step occurs, letting you measure specific interaction points across your entire audience:
 
-*   Set up a funnel tracking report to monitor macro-conversions from landing page to purchase.
-*   Track outbound link clicks to measure which affiliate partners or external resources receive the most traffic.
-*   Monitor file downloads to gauge interest in your whitepapers and technical documentation.
+- Set up a funnel tracking report to monitor macro-conversions from landing page to purchase.
+- Track outbound link clicks to measure which affiliate partners or external resources receive the most traffic.
+- Monitor file downloads to gauge interest in your whitepapers and technical documentation.
 
 Measuring the collective behavior of 10,000 visitors reveals patterns that single replays obscure. You identify conversion bottlenecks faster without spying on specific keystrokes. Tools like Swetrix handle this process by allowing you to [analyze website conversion funnels](https://swetrix.com/blog/how-to-analyze-website-conversion-funnels) entirely through anonymous event counting.
 
@@ -83,13 +83,13 @@ Swetrix goes beyond basic traffic counting by integrating performance monitoring
 
 Several platforms offer cookieless data collection, though their feature sets diverge significantly when analyzing complex user behavior.
 
-| Feature | Swetrix | Plausible | Fathom | Matomo |
-| :--- | :--- | :--- | :--- | :--- |
-| **Custom Event Tracking** | Yes, unlimited | Yes | Yes, limited | Yes |
-| **JavaScript Error Tracking** | Yes | No | No | No |
-| **Web Vitals Monitoring** | Yes | No | No | Optional plugin |
-| **Open Source Codebase** | Yes | Yes | No | Yes |
-| **Cookie-free by default** | Yes | Yes | Yes | Requires config |
+| Feature                       | Swetrix        | Plausible | Fathom       | Matomo          |
+| :---------------------------- | :------------- | :-------- | :----------- | :-------------- |
+| **Custom Event Tracking**     | Yes, unlimited | Yes       | Yes, limited | Yes             |
+| **JavaScript Error Tracking** | Yes            | No        | No           | No              |
+| **Web Vitals Monitoring**     | Yes            | No        | No           | Optional plugin |
+| **Open Source Codebase**      | Yes            | Yes       | No           | Yes             |
+| **Cookie-free by default**    | Yes            | Yes       | Yes          | Requires config |
 
 Plausible delivers a lightweight dashboard optimized for simplicity, handling basic traffic metrics efficiently but lacking the deep error tracking required for rigorous behavior analysis. Fathom excels at pageview tracking via its global CDN, yet its custom event limits feel rigid compared to heavier alternatives. Matomo offers a dense analytics suite with both cookie-based and cookieless modes, but configuring it for strict compliance without a consent banner requires adjusting complex backend settings panels.
 
