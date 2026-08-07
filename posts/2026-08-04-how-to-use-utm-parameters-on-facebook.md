@@ -37,13 +37,13 @@ Cross-device behavior complicates tracking further, as consumers rarely buy on a
 
 A complete tracking setup requires five distinct parameters, where two are mandatory and three add the granularity required for scaling ad accounts.
 
-| Parameter | Purpose | Example |
-| :--- | :--- | :--- |
-| `utm_source` | Identifies the platform sending the traffic. | `facebook` |
-| `utm_medium` | Identifies the marketing channel or cost model. | `paid-social` |
-| `utm_campaign` | Names the specific promotional effort. | `spring-sale-2026` |
-| `utm_term` | Tracks the specific audience or ad set. | `retargeting-30d` |
-| `utm_content` | Distinguishes between different ad creatives. | `video-testimonial-v2` |
+| Parameter      | Purpose                                         | Example                |
+| :------------- | :---------------------------------------------- | :--------------------- |
+| `utm_source`   | Identifies the platform sending the traffic.    | `facebook`             |
+| `utm_medium`   | Identifies the marketing channel or cost model. | `paid-social`          |
+| `utm_campaign` | Names the specific promotional effort.          | `spring-sale-2026`     |
+| `utm_term`     | Tracks the specific audience or ad set.         | `retargeting-30d`      |
+| `utm_content`  | Distinguishes between different ad creatives.   | `video-testimonial-v2` |
 
 Your analytics dashboard parses this exact string when a user visits your site. If you leave out `utm_campaign`, your platform will group all Facebook traffic together, making it impossible to tell your top-of-funnel ads from your retargeting campaigns.
 
@@ -137,8 +137,8 @@ View this data in real-time on your Swetrix dashboard by filtering your entire t
 
 ---
 
-Setting up UTM tracking takes a few minutes per campaign, but it permanently fixes your attribution data. Stop letting browser updates and ad blockers hide your most profitable Facebook ads. 
+Setting up UTM tracking takes a few minutes per campaign, but it permanently fixes your attribution data. Stop letting browser updates and ad blockers hide your most profitable Facebook ads.
 
-Pair your new tracking strategy with an analytics platform designed for accuracy and privacy. Swetrix Cloud offers powerful, cookie-free web analytics starting at 100,000 events per month for $19/mo. 
+Pair your new tracking strategy with an analytics platform designed for accuracy and privacy. Swetrix Cloud offers powerful, cookie-free web analytics starting at 100,000 events per month for $19/mo.
 
 Start your [14-day free trial](https://swetrix.com/signup) today and see which campaigns drive your business forward.
