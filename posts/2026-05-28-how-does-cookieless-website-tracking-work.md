@@ -215,7 +215,7 @@ The term "cookieless" refers to browser cookies: small text files stored on a us
 
 Cookieless analytics tracks all standard web metrics: page views, unique visitors, session duration, bounce rate, traffic sources, referrers, geographic location (country/region level), device type, browser, operating system, and screen resolution. Custom events measure interactions: button clicks, form submissions, video plays, file downloads, add-to-cart actions, and checkout steps.
 
-[Store visits, view-through conversions, cross-device journeys, and app behavior can all be measured without cookies](https://www.onspotdata.com/resources/news-updates/cookieless-targeting-guide). Server-side tracking captures events that browsers cannot see: server-side form processing, API calls, backend conversions, and offline transactions synced to online campaigns. Swetrix supports all these measurement capabilities through its [custom event tracking](https://swetrix.com/blog/how-to-set-up-event-tracking-on-a-website) and API integrations.
+Server-side tracking can record backend actions such as completed form submissions and purchases. Use the [Swetrix Events API](https://swetrix.com/docs/events-api) for supported events, and define attribution separately; recording an event does not automatically establish which campaign caused it.
 
 ### Can You Track Conversions and Attribution?
 

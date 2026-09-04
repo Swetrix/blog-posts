@@ -5,6 +5,7 @@ date: February 08, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is Anomaly Detection in Web Analytics?"
 ---
 
 Anomaly detection is all about spotting the odd one out. It’s the process of finding data points, events, or patterns that just don’t fit with the rest. Think of it as a smart alarm system for your website's data, one that can flag trouble long before it spirals into a full-blown disaster.

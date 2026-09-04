@@ -3,6 +3,8 @@ title: "Vercel Web Analytics vs Cloudflare Analytics: Which Built-in Tracker is 
 date: March 31, 2026
 standalone: true
 intro: "Comparing Vercel Web Analytics and Cloudflare Analytics? We explore the hidden costs of data sampling, ecosystem lock-in, and why Swetrix offers a more powerful, independent alternative."
+seoTitle: "Vercel Web Analytics vs Cloudflare Analytics"
+seoDescription: "Compare Vercel Web Analytics and Cloudflare Web Analytics on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 When looking for a quick and easy way to track website traffic, developers often turn to the analytics tools provided by their infrastructure platforms. Two of the most popular built-in solutions are [Vercel Web Analytics](https://vercel.com/analytics) and [Cloudflare Analytics](https://www.cloudflare.com/web-analytics/).
@@ -45,7 +47,7 @@ Cloudflare Analytics is a feature offered to users of Cloudflare's massive CDN a
 - **Severe Retention Limits:** Historical data is strictly limited to 6 months. You cannot analyze long-term trends.
 - **CDN Dependency:** To get the most out of it, you are forced to use Cloudflare as your CDN and DNS provider.
 
-![Cloudflare Analytics dashboard screenshot](https://cdn.swetrix.com/file/f43dc1341c2a829e71f43a6d71b31522.png)
+![Cloudflare Analytics dashboard screenshot](https://cdn.swetrix.com/file/fa7fb883df38cab14a50ae1ae503692d.png)
 
 ## Feature Comparison: Vercel vs Cloudflare Analytics
 

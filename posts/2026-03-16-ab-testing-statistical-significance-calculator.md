@@ -5,6 +5,7 @@ date: March 16, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "A/B Testing Statistical Significance Calculator"
 ---
 
 An **A/B testing statistical significance calculator** is your secret weapon for running trustworthy experiments. Think of it as an impartial referee that tells you whether the difference in performance between your two versions is a real win or just random noise. Without this check, you risk making important business decisions based on pure luck.

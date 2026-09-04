@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A cookie consent banner asks visitors to accept, reject, or configure cookies and tracking technologies. Learn when banners are used and how they affect analytics data."
+seoTitle: "What is a Cookie Consent Banner?"
+seoDescription: "A cookie consent banner asks visitors to accept, reject, or configure cookies and tracking technologies."
 ---
 
 A cookie consent banner is a notice shown on a website that asks visitors to accept, reject, or configure cookies and similar tracking technologies. It is often part of a consent management platform and is used to help websites meet privacy and electronic communications rules.

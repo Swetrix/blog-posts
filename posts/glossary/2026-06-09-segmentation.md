@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Segmentation is the practice of splitting analytics data into groups by source, device, country, behavior, campaign, or user property. Learn why segments make reports more useful."
+seoTitle: "What is Segmentation?"
+seoDescription: "Segmentation is the practice of splitting analytics data into groups by source, device, country, behavior, campaign, or user property."
 ---
 
 Segmentation is the practice of splitting analytics data into smaller groups so you can compare behavior and performance. Instead of looking at all traffic as one average, you analyze groups such as organic search visitors, mobile users, paid campaign visitors, or users from a specific country.

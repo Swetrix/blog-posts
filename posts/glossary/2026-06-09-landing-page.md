@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A landing page is the first page a visitor reaches after clicking a search result, ad, campaign link, referral, or social post. Learn how to measure landing page performance."
+seoTitle: "What is a Landing Page?"
+seoDescription: "A landing page is the first page a visitor reaches after clicking a search result, ad, campaign link, referral, or social post."
 ---
 
 A landing page is the first page a visitor reaches during a session. In marketing, the term often refers to a page built for a specific campaign or conversion goal, such as a paid search page, product launch page, lead magnet, or signup page.

@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Page speed is how quickly a page loads and becomes usable. Learn why page speed matters for SEO, conversion rate, user experience, and real-user monitoring."
+seoTitle: "What is Page Speed?"
 ---
 
 Page speed describes how quickly a page loads, renders, and becomes usable for visitors. It includes server response time, network delays, asset loading, JavaScript execution, layout stability, and browser rendering.

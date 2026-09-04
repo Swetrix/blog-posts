@@ -3,6 +3,7 @@ title: "Umami vs Cloudflare Web Analytics: Which is Right for You?"
 date: March 30, 2026
 standalone: true
 intro: "Choosing between Umami and Cloudflare Analytics? We compare these privacy-focused tools and reveal an alternative that gives you complete data ownership and accuracy."
+seoDescription: "Compare Umami and Cloudflare Web Analytics on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 When moving away from invasive analytics platforms, site owners often look for lightweight alternatives. [Umami](https://umami.is) is a beautifully designed independent choice, while [Cloudflare Analytics](https://www.cloudflare.com/web-analytics/) represents a massive tech giant's approach to "free" traffic monitoring. Both platforms aim to provide basic stats without tracking cookies or invading user privacy.

@@ -2,6 +2,7 @@
 title: "The Best Web Analytics for Nonprofits & Charities in 2026"
 date: March 29, 2026
 intro: "Nonprofits rely on trust to survive. Learn why legacy analytics tools and invasive captchas compromise donor privacy, and how switching to an ethical alternative can protect your organization's reputation and data."
+seoDescription: "Explore web analytics for nonprofits, with practical guidance on traffic measurement, privacy, reporting, and choosing an analytics tool."
 ---
 
 If you run a nonprofit organization, NGO, or charity, your website serves two primary functions: educating the public about your mission and processing donations.

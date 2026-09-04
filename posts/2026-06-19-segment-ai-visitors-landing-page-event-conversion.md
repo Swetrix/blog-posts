@@ -5,6 +5,7 @@ date: June 19, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Segment AI Visitors by Page, Event and Conversion"
 ---
 
 AI visitors move through messy paths. A founder clicks a ChatGPT citation. A developer lands on your docs from Perplexity. A buyer sees your brand in Google AI Mode, searches your name, and opens your pricing page. A teammate pastes an AI answer into Slack and the next visit shows up as Direct.

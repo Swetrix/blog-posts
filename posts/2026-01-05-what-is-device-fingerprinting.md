@@ -5,6 +5,7 @@ date: January 05, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is Device Fingerprinting? How It Works"
 ---
 
 Ever visited a website and felt like it recognized you, even if you’d cleared your cookies? You likely encountered **device fingerprinting**. It’s a clever way to identify a device by collecting a bunch of anonymous technical details it naturally broadcasts—things like its operating system, screen size, and even the fonts it has installed.

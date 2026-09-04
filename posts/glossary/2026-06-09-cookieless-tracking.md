@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Cookieless tracking measures website traffic and behavior without storing analytics cookies in the visitor browser. Learn how cookieless analytics works and why it matters."
+seoTitle: "What is Cookieless Tracking?"
+seoDescription: "Cookieless tracking measures website traffic and behavior without storing analytics cookies in the visitor browser."
 ---
 
 Cookieless tracking is analytics measurement that does not store tracking cookies in the visitor browser. It can still report useful data such as page views, sessions, referrers, traffic sources, countries, devices, events, conversions, and performance.

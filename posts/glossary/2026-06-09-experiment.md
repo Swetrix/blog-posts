@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "An experiment is a controlled test that compares variants and measures which version performs better. Learn how experiments differ from simple changes and A/B tests."
+seoTitle: "What is an Experiment?"
+seoDescription: "An experiment is a controlled test that compares variants and measures which version performs better."
 ---
 
 An experiment is a controlled test that compares one or more variants against a goal. In website and product analytics, experiments are used to test changes to pages, flows, features, pricing, onboarding, messaging, or user experience.

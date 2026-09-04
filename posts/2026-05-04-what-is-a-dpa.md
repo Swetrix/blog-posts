@@ -158,7 +158,7 @@ Eliminating personal data collection simplifies legal requirements. Privacy-by-d
 
 Cookieless analytics shifts the legal baseline. Swetrix hashes user data at the edge. The system drops the raw IP address before the payload reaches the database. We generate an anonymous, rotating session identifier that expires at the end of the day.
 
-Providing analytics services constitutes data processing, even without identifying markers. Swetrix offers a streamlined [Data Processing Agreement](https://swetrix.com/blog/dpa) to formalize this relationship. This document serves as an operational guarantee rather than a high-risk liability shield. The contract confirms your ownership of the aggregate data, guaranteeing the infrastructure resides on European servers.
+Providing analytics services constitutes data processing, even without identifying markers. Swetrix offers a streamlined [Data Processing Agreement](https://swetrix.com/dpa) to formalize this relationship. This document serves as an operational guarantee rather than a high-risk liability shield. The contract confirms your ownership of the aggregate data, guaranteeing the infrastructure resides on European servers.
 
 This minimal data footprint creates broad compliance. Stripping identifiers removes the need for cookie consent banners. It satisfies the strict requirements of [cookies and the law](https://swetrix.com/blog/cookies-and-the-law). Bypassing health data collection means healthcare clients avoid signing a Business Associate Agreement for HIPAA compliance.
 

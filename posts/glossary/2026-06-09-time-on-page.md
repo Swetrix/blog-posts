@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Time on page estimates how long a visitor spends on a page before leaving, navigating, or becoming inactive. Learn how to interpret it and why it can be misleading."
+seoTitle: "What is Time on Page?"
+seoDescription: "Time on page estimates how long a visitor spends on a page before leaving, navigating, or becoming inactive."
 ---
 
 Time on page is an estimate of how long a visitor spends on a specific page before navigating away, closing the tab, or becoming inactive. It is commonly used to understand content engagement and page usefulness.

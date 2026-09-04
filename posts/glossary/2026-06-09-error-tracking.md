@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Error tracking collects and analyzes software errors so teams can fix broken user experiences. Learn why frontend error tracking matters for analytics and conversions."
+seoDescription: "Error tracking collects and analyzes software errors so teams can fix broken user experiences."
 ---
 
 Error tracking is the practice of collecting, grouping, and analyzing software errors so teams can find and fix problems. For websites and web apps, it often focuses on JavaScript errors that happen in visitors' browsers.

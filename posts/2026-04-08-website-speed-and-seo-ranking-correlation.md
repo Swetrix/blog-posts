@@ -29,7 +29,7 @@ Open Google Search Console to view real-world performance. Navigate to the Core 
 
 Google indexes the mobile version of websites. The search engine assigns zero weight to desktop performance scores for primary rankings.
 
-A massive performance gap exists between devices in 2026. Data shows [49.7% of websites pass mobile CWV assessments](https://www.debugbear.com/core-web-vitals), while desktop pass rates hover near 57%. Complex JavaScript payloads execute without delay on desktop processors but choke mobile CPUs.
+Evaluate mobile and desktop performance separately. [DebugBear’s Web Vitals report](https://www.debugbear.com/docs/web-vitals-report) combines Chrome user experience data with lab tests. Use these views to identify slow pages and investigate how scripts, page weight, and device constraints affect your visitors.
 
 Simulate average user experiences by testing pages on a mid-tier Android device. Clear the mobile browser cache. Load the homepage over a standard 4G connection, and count the seconds passing before the interface responds to a tap.
 

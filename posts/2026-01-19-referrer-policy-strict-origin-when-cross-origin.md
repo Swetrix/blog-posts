@@ -5,6 +5,7 @@ date: January 19, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Referrer Policy Strict-Origin-When-Cross-Origin"
 ---
 
 Ever wondered how a website knows you clicked a link from another site to get there? That's the **HTTP Referer header** at work, acting like a digital "return address" for web traffic. The `strict-origin-when-cross-origin` policy is a smart, privacy-focused rule that controls this process.

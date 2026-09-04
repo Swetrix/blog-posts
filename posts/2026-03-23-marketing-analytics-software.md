@@ -5,6 +5,7 @@ date: March 23, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Marketing Analytics Software for Website Growth"
 ---
 
 Ever feel like you’re just guessing with your marketing? You launch campaigns, post on social media, and pour money into ads, but you’re not _really_ sure what’s working. That's a common problem, and it's exactly what marketing analytics software is designed to solve.

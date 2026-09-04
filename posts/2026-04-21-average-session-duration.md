@@ -41,7 +41,7 @@ User intent dictates time on site. A visitor researching enterprise software rea
 
 ### Device Categories Shape Averages
 
-Device category alters user behavior. [Desktop visitors average 4 minutes and 46 seconds per session](https://swetrix.com/blog/how-to-measure-user-engagement-on-website-without-cookies). Mobile visitors leave after 2 minutes and 20 seconds. Small screens encourage fast decisions and shorter attention spans.
+Device category alters user behavior. [Desktop visitors average 4 minutes and 46 seconds per session](https://swetrix.com/blog/how-to-measure-user-engagement-on-website). Mobile visitors leave after 2 minutes and 20 seconds. Small screens encourage fast decisions and shorter attention spans.
 
 Filter your traffic by device category before drawing conclusions about content quality. Merging mobile and desktop numbers pulls the aggregate desktop average down. Blended metrics hide high-performing pages. Create separate reporting views for each device type to isolate user patterns.
 

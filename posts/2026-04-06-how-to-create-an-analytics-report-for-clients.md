@@ -67,9 +67,9 @@ Replace legacy trackers with server-side setups or IP hashing. Agencies secure a
 
 Agencies face legal liability when installing invasive tracking pixels on a client website. You introduce unnecessary risk by recommending a tool that requires complex consent configurations. Choose software built for out-of-the-box compliance.
 
-Position privacy as a distinct value-add during client pitches. Frame the transition as an upgrade to their tech stack. Account managers include Core Web Vitals, page load times, and automated JavaScript error tracking in their monthly deliverables ([Swetrix, 2026](https://swetrix.com/blog/digital-agencies-guide)).
+Position privacy as a distinct value-add during client pitches. Frame the transition as an upgrade to their tech stack. Account managers include Core Web Vitals, page load times, and automated JavaScript error tracking in their monthly deliverables ([Swetrix, 2026](https://swetrix.com/blog/web-analytics/for-digital-agencies)).
 
-Inform the client you plan to migrate their domain to a premium, privacy-first infrastructure. Highlight the performance gains. Users experience slower mobile rendering when browsers parse 74 KB tracking scripts. Developers accelerate load times by deploying alternatives under 6 KB to improve technical SEO scores and overall user experience ([Swetrix, 2026](https://swetrix.com/blog/the-best-web-analytics-for-digital-agencies)).
+Inform the client you plan to migrate their domain to a premium, privacy-first infrastructure. Highlight the performance gains. Users experience slower mobile rendering when browsers parse 74 KB tracking scripts. Developers accelerate load times by deploying alternatives under 6 KB to improve technical SEO scores and overall user experience ([Swetrix, 2026](https://swetrix.com/blog/web-analytics/for-digital-agencies)).
 
 ### Eliminating the Cookie Banner for Better UX
 

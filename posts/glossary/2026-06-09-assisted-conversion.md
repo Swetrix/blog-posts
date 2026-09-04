@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "An assisted conversion happens when a channel or touchpoint helps influence a conversion but is not the final interaction. Learn how assisted conversions improve attribution analysis."
+seoTitle: "What is an Assisted Conversion?"
+seoDescription: "An assisted conversion happens when a channel or touchpoint helps influence a conversion but is not the final interaction."
 ---
 
 An assisted conversion is a conversion where a channel, campaign, page, or touchpoint helped influence the final action but did not receive last-click credit. It is useful for understanding the parts of a customer journey that create awareness, trust, or intent before the visitor converts later.

@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A unique visitor is one distinct visitor counted once during a reporting period. Learn how unique visitors differ from page views, sessions, and users."
+seoTitle: "What is a Unique Visitor?"
 ---
 
 A unique visitor is one distinct visitor counted once during a reporting period. If the same visitor views ten pages in one day, they may count as one unique visitor and ten page views for that day.

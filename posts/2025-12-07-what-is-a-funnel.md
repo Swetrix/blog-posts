@@ -5,6 +5,7 @@ date: December 07, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is a Funnel? Stages and Conversion Tracking"
 ---
 
 So, what exactly is a funnel? In simple terms, it's the path a potential customer takes from the very first time they hear about you to the moment they become a customer. It's a way to map out and understand that journey, guiding people step-by-step from casual interest to a real commitment.

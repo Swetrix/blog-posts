@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Multi-touch attribution distributes conversion credit across several channels or touchpoints. Learn how it differs from last-click attribution and when to use it."
+seoTitle: "What is Multi-touch Attribution?"
+seoDescription: "Multi-touch attribution distributes conversion credit across several channels or touchpoints."
 ---
 
 Multi-touch attribution is an attribution approach that distributes conversion credit across multiple channels, campaigns, pages, or touchpoints in a customer journey. It recognizes that many conversions are influenced by more than one interaction.

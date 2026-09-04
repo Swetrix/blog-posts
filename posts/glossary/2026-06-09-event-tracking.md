@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Event tracking records user actions such as clicks, form submissions, downloads, purchases, and product interactions. Learn how event tracking improves analytics."
+seoTitle: "What is Event Tracking?"
+seoDescription: "Event tracking records user actions such as clicks, form submissions, downloads, purchases, and product interactions."
 ---
 
 Event tracking is the practice of recording user actions on a website or product. Events can represent clicks, form submissions, downloads, signups, purchases, video plays, feature usage, onboarding steps, and other meaningful interactions.

@@ -108,7 +108,9 @@ Do you offer valuable resources like whitepapers, PDFs, or software on your site
 
 Imagine you have a link to a PDF case study:
 
+```html
 <a href="/resources/my-case-study.pdf" onclick="gtag('event', 'file_download', {'file_name': 'my-case-study.pdf', 'file_type': 'pdf'});">Download the Case Study (PDF)</a>
+```
 
 This snippet immediately sends a `file_download` event to GA4. We've included two key parameters to make the data more meaningful:
 

@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A traffic channel is a grouped source of website visits, such as organic search, referral, direct, paid search, email, or social. Learn how traffic channels work."
+seoTitle: "What is a Traffic Channel?"
+seoDescription: "A traffic channel is a grouped source of website visits, such as organic search, referral, direct, paid search, email, or social."
 ---
 
 A traffic channel is a grouped source of website visits. Analytics platforms use traffic channels to organize where visitors came from, such as organic search, referral, direct, paid search, email, social, display, or affiliate.

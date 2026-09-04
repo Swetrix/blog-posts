@@ -89,12 +89,9 @@ With Swetrix you can share our dashboards with other users, assign them roles (o
 <i>Table of users of a shared project on Swetrix</i>
 <br />
 
-### Customisations & Extensions
+### Integrations and API access
 
-Swetrix offers a great functionality called Swetrix Extensions & Extensions Marketplace. For example, by using our <a href="https://docs.swetrix.com/sdk-introduction" target="_blank">SDK</a> you can customise your dashboard, add new features or manipulate the data any way you want. The coolest part is that you can use extensions other people created or publish your own to our Extension Marketplace (the Marketplace is still in beta-stage, but we're working hard to improve it) - yes, this is something like browser extensions, but for analytics.
-<br />
-
-This way Swetrix can stay simple and usable for most people and if someone needs an additional functionality - they can always add it themselves by installing an appropriate extension.
+Swetrix provides [integration guides](https://swetrix.com/docs/integrations) for website builders, frameworks, and backend applications. Use the [Statistics API](https://swetrix.com/docs/statistics-api) to retrieve analytics data for your own reports and dashboards.
 
 ### Custom alerts functionality
 

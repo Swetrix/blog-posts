@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Search engine optimization, or SEO, is the practice of improving a website so search engines can crawl, understand, and rank its pages. Learn how SEO connects to analytics."
+seoTitle: "What is Search Engine Optimization?"
+seoDescription: "Search engine optimization, or SEO, is the practice of improving a website so search engines can crawl, understand, and rank its pages."
 ---
 
 Search engine optimization, usually shortened to SEO, is the practice of improving a website so search engines can discover, crawl, understand, and rank its pages for relevant queries.

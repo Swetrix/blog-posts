@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Session replay reconstructs visitor sessions so teams can review user journeys, bugs, and friction. Learn when session replay is useful and what privacy safeguards matter."
+seoTitle: "What is Session Replay?"
+seoDescription: "Session replay reconstructs visitor sessions so teams can review user journeys, bugs, and friction."
 ---
 
 Session replay is a reconstructed recording of a visitor's session on a website or app. It can show clicks, navigation, scrolling, form interactions, layout changes, and points of friction.

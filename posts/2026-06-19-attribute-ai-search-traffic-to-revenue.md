@@ -5,6 +5,8 @@ date: June 19, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Attribute AI Search Traffic to Revenue"
+seoDescription: "Connect AI search referrals to purchases, trials, subscriptions, and pipeline using campaign tags and cookieless analytics."
 ---
 
 AI search traffic does not arrive through one clean path. A buyer can click a ChatGPT source, copy a Perplexity citation, search your brand after a Google AI Overview, or return through direct traffic. Swetrix gives you cookieless analytics, referrers, UTM tracking, custom events, goals, funnels, user and session analysis, and revenue tracking, so you can connect those paths to money without personal data collection.

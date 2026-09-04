@@ -94,7 +94,7 @@ Accurate attribution directs your marketing budget, meaning if you spend ten tho
 
 ### Tracking Organic And Paid Traffic Sources
 
-Organic search dominates legal marketing, accounting for [52.6 percent](https://inoriseo.com/seo-vs-ppc-for-law-firms/) of all law firm website visits. Tracking this channel requires stripping out search engine parameters that might contain sensitive query strings.
+Measure the share of your law firm’s visits that comes from organic search rather than assuming an industry average applies. Review collected URLs and query strings so that search terms or client details do not enter your analytics unnecessarily.
 
 Standardize your campaign tracking by appending UTM parameters to your paid search ads, directory listings, and newsletter links to tell your analytics platform exactly where a visitor originated.
 

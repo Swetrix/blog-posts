@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Personal data is information that identifies or can be linked to a person. Learn what counts as personal data in website analytics and why data minimization matters."
+seoTitle: "What is Personal Data?"
+seoDescription: "Personal data is information that identifies or can be linked to a person."
 ---
 
 Personal data is information that identifies a person or can reasonably be linked to a person. Under privacy laws such as GDPR, personal data can include obvious identifiers such as names and email addresses, but it can also include technical and behavioral data in the right context.

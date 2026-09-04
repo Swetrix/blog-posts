@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A user profile groups sessions, events, properties, and journey history for a known visitor or user. Learn how user profiles support product analytics."
+seoTitle: "What is a User Profile?"
 ---
 
 A user profile is a view of activity and properties connected to a known visitor or user. In product analytics, it can group sessions, events, attributes, devices, account details, and journey history.

@@ -11,7 +11,7 @@ Marketers lose half their form conversion data to ad-blockers and cookie banner 
 
 ## The Hidden Costs of Google Tag Manager
 
-At a [99.7 percent market share](https://w3techs.com/technologies/details/tm-googletagmanager) among tag management systems, Google Tag Manager controls web tracking. This convenience carries a performance penalty. The wrapper script forces the browser to download a main library before executing asynchronous external marketing tags.
+Google Tag Manager loads the tags configured in its container. Audit the tags that actually fire on your website and measure their network and execution costs before deciding which ones to remove.
 
 Browsers execute JavaScript in sequence on the main thread, causing tag bloat to pause page rendering. An empty GTM container adds minimal overhead. However, injecting multiple standard tracking tags significantly slows visual completion on slower mobile connections. Visitors abandon pages before the form renders.
 
@@ -29,7 +29,7 @@ Remove the GTM script from a staging environment and run a Lighthouse performanc
 
 Tag managers also trigger privacy compliance issues. GTM injects third-party cookies designed to harvest Personally Identifiable Information across the web. Privacy laws like GDPR and CPRA mandate prominent opt-in banners before these scripts execute.
 
-Users despise cookie banners. B2B websites see explicit EU consent acceptance rates drop to [between 3 and 7 percent](https://milkmoonstudio.com/post/the-cookie-consent-dilemma-what-happens-when-97-of-your-data-vanishes), though this rate varies depending on regional laws and banner design. Visitors click "Reject All" to clear the modal and read the content. When a user rejects tracking, GTM fails to fire. Informational websites lose [up to 70 percent of their tracking data](https://secureprivacy.ai/blog/how-to-get-more-people-to-accept-your-website-cookies) to these consent rejections.
+Users despise cookie banners. B2B websites see explicit EU consent acceptance rates drop to [between 3 and 7 percent](https://milkmoonstudio.com/post/the-cookie-consent-dilemma-what-happens-when-97-of-your-data-vanishes), though this rate varies depending on regional laws and banner design. Visitors click "Reject All" to clear the modal and read the content. When a user rejects tracking, GTM fails to fire. When analytics depends on consent, reports can exclude visitors who decline. Measure this gap against your own backend form-submission records.
 
 Calculate the data gap by pulling the backend CRM lead total for the past 30 days. Log into the analytics dashboard and check the recorded form conversions. The difference between those two numbers represents the tracking blind spot. Transition away from cookie-reliant tracking pixels to close this gap.
 

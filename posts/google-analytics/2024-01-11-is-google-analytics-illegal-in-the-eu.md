@@ -5,6 +5,7 @@ description: "Find out if Google Analytics is illegal in the EU due to GDPR regu
 date: January 12, 2024
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Explore Google Analytics privacy concerns in the EU, the history of GDPR complaints, and privacy-friendly analytics alternatives."
 ---
 
 Google Analytics is a powerful tool that helps website owners track and analyse their website traffic. However, when it comes to using Google Analytics in the European Union (EU), there are certain legal requirements that need to be considered. This article aims to provide an understanding of the legality of Google Analytics in the EU and discusses the key takeaways for website owners.

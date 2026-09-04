@@ -5,6 +5,7 @@ date: May 25, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Lightweight Analytics Scripts for Fast Websites"
 ---
 
 A website loads in 1.2 seconds. The owner adds Google Analytics to track visitors. Load time jumps to 2.8 seconds. Conversion rate drops from 3.1% to 2.4%. The analytics tool meant to measure performance killed it.

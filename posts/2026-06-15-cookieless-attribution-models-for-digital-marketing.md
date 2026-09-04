@@ -5,6 +5,7 @@ date: June 15, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Cookieless Attribution Models For Digital Marketing"
 ---
 
 A visitor discovers your product through a targeted display ad while browsing on Safari. They click the link, read your landing page, and close the tab. Two days later, they return and buy. Traditional pixel setups credit the direct visit, assigning zero value to the display ad.

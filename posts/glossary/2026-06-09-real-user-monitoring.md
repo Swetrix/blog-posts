@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Real user monitoring, or RUM, measures performance from actual visitor devices, browsers, networks, and pages. Learn how RUM differs from lab testing."
+seoTitle: "What is Real User Monitoring?"
 ---
 
 Real user monitoring, often shortened to RUM, measures website performance from actual visitor sessions. Instead of only testing a page in a lab environment, RUM collects performance data from real devices, browsers, countries, and network conditions.

@@ -116,7 +116,7 @@ This high-level view is all about core business health and long-term viability, 
 
 Marketers are on the front lines, driving audience growth and generating leads. Their dashboards are all about campaign performance, channel effectiveness, and, of course, return on investment. They need to know which channels are bringing in quality traffic and how their latest initiatives are stacking up.
 
-This dashboard is the campaign command center, giving them the data needed to optimize ad spend and content strategy. To learn more about the metrics that power great campaigns, check out our [in-depth guide for marketers using analytics](https://swetrix.com/for-marketers).
+This dashboard is the campaign command center, giving them the data needed to optimize ad spend and content strategy. To learn more about the metrics that power great campaigns, check out our [in-depth guide for marketers using analytics](https://swetrix.com/blog/marketing-analytics-software).
 
 > A marketer's dashboard should tell a clear story about every dollar spent. It directly connects marketing activities to business outcomes, showing what’s working and what’s not.
 

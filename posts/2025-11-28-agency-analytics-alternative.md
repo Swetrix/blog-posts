@@ -193,7 +193,7 @@ The platform is designed to manage multiple client websites efficiently, offerin
 - **Agency-Centric Tools:** The platform includes white-label reporting, allowing agencies to brand all client-facing dashboards and reports. The ability to manage numerous campaigns and websites under one account simplifies operations for account managers.
 - **User Experience:** While feature-rich, the depth of Raven's SEO tools may present a steeper learning curve compared to more simplified reporting platforms. New users should allocate time for onboarding to fully leverage its comprehensive site auditing and research functionalities.
 
-**Website:** [tapclicks.com/platform/sem-seo-plans](https://www.tapclicks.com/platform/sem-seo-plans)
+**Website:** [TapClicks](https://www.tapclicks.com/)
 
 ## 11. Oviond
 

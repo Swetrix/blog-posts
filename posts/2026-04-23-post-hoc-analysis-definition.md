@@ -5,6 +5,7 @@ date: April 23, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Post Hoc Analysis Definition"
 ---
 
 A campaign finishes without a clear winner. You open the analytics dashboard, segment the traffic by device, and spot a conversion spike among German mobile users. Stop before you allocate budget to this hidden victory. Digging into analytics after a test concludes introduces mathematical risks and legal liabilities. Careless post hoc analysis drains marketing funds. Define testing parameters before launch to protect data integrity. Learn the post hoc analysis definition to avoid statistical illusions and spot trends without risk.

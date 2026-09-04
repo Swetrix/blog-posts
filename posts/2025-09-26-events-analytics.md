@@ -5,6 +5,7 @@ date: September 26, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Learn which event metrics to track, how to set up analytics, and how to use event data to improve outcomes while respecting privacy."
 ---
 
 In 2025, thriving in the events industry means relying on actionable insights to drive every decision. Events analytics is your gateway to understanding attendee behavior, optimizing experiences, and measuring true event impact.

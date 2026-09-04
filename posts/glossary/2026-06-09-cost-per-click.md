@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Cost per click, or CPC, is the amount paid for each ad click. Learn how CPC is calculated, how it connects to conversion rate, and how to evaluate paid traffic quality."
+seoTitle: "What is Cost per Click?"
+seoDescription: "Cost per click, or CPC, is the amount paid for each ad click."
 ---
 
 Cost per click, usually shortened to CPC, is the amount an advertiser pays for each click on an ad. It is one of the core metrics in paid search, paid social, display advertising, and performance marketing.

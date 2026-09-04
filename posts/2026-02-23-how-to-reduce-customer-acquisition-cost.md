@@ -5,6 +5,7 @@ date: February 23, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to reduce customer acquisition cost"
 ---
 
 Lowering your customer acquisition cost (CAC) isn't about one magic bullet. It's a combination of optimizing your marketing channels, getting better at converting the traffic you already have, and putting serious effort into keeping the customers you've earned. The goal is to shift from just _spending more_ to _spending smarter_—investing in the strategies that bring in profitable, long-term customers.

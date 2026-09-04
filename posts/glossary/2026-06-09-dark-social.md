@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Dark social is traffic from private sharing channels that analytics tools cannot easily identify. Learn why messaging apps, email, documents, and communities often appear as direct traffic."
+seoTitle: "What is Dark Social?"
+seoDescription: "Dark social is traffic from private sharing channels that analytics tools cannot easily identify."
 ---
 
 Dark social is traffic from private sharing channels that analytics tools cannot easily identify. It often includes links shared in messaging apps, email threads, private communities, documents, mobile apps, and internal tools.

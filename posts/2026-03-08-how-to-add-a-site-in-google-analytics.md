@@ -5,6 +5,7 @@ date: March 08, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Add a Site in Google Analytics"
 ---
 
 Getting your website hooked up to Google Analytics might seem intimidating, but the process really boils down to three core actions: creating a **GA4 Property**, grabbing your unique **Measurement ID** (it looks like **G-XXXXXXXXXX**), and then placing a small bit of tracking code onto your site. That's the handshake that lets Google start collecting all that valuable visitor data.

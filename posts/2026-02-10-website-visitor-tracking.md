@@ -5,6 +5,7 @@ date: February 10, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Website Visitor Tracking"
 ---
 
 Think of website visitor tracking as having a superpower: the ability to see how people actually move through your website. It’s like being a shopkeeper who can watch which aisles customers walk down, what products they pick up, and where they get stuck before leaving. This isn't about spying on people; it's about understanding the flow of traffic to make the experience better for everyone.

@@ -5,6 +5,7 @@ description: "Find out if Google Analytics is illegal in Sweden due to GDPR regu
 date: October 8, 2023
 author: Andrii Romasiun
 nickname: blaumaus
+seoDescription: "Explore Google Analytics privacy concerns in Sweden, the history of GDPR complaints, and privacy-friendly analytics alternatives."
 ---
 
 European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR.

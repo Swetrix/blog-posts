@@ -177,7 +177,7 @@ Deployment options:
 - **Managed Cloud:** Start immediately with the hosted version and a 14‑day free trial.
 - **Self-Hosted Community Edition:** Run everything on your own infrastructure for maximum control.
 
-[Explore Swetrix](https://swetrix.com) · [Self-hosting docs](https://docs.swetrix.com/selfhosted)
+[Explore Swetrix](https://swetrix.com) · [Self-hosting docs](https://swetrix.com/docs/selfhosting/how-to)
 
 ### Matomo: The Enterprise-Grade Powerhouse
 

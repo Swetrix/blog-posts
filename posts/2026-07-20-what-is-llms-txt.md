@@ -5,6 +5,8 @@ date: July 20, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is llms.txt? Uses, Evidence, and Setup"
+seoDescription: "Learn what llms.txt does, what evidence says about crawler adoption, and how to decide whether to add one to your website."
 ---
 
 llms.txt is a proposed web standard: a markdown file at your site's root that gives AI systems a curated map of your most important content — what your site is, which pages matter, where the clean text lives. It was proposed in September 2024 by Jeremy Howard of Answer.AI, and the pitch is appealing: HTML pages are a soup of navigation, cookie banners, and JavaScript; LLMs have limited context windows; so hand them a clean menu instead of making them scrape the whole restaurant.

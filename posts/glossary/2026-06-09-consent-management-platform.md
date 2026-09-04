@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A consent management platform, or CMP, collects and applies visitor consent choices for cookies, analytics, advertising, and data processing. Learn how CMPs affect analytics."
+seoTitle: "What is a Consent Management Platform?"
+seoDescription: "A consent management platform, or CMP, collects and applies visitor consent choices for cookies, analytics, advertising, and data processing."
 ---
 
 A consent management platform, often shortened to CMP, is software that helps websites collect, store, and apply visitor consent choices. CMPs are commonly used for cookie banners, privacy preferences, vendor disclosures, and consent records.

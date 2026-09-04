@@ -5,6 +5,7 @@ date: December 17, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Are Web Analytics? Metrics and Uses"
 ---
 
 At its core, **web analytics is the art and science of collecting, analyzing, and reporting data** from your website to truly understand how people use it. Think of it as having a friendly, all-knowing manager for your online storefront. This manager watches every digital footstep to show you what’s working, what’s falling flat, and most importantly, _why_. It’s how you turn a stream of raw numbers into smart decisions that help your business grow.

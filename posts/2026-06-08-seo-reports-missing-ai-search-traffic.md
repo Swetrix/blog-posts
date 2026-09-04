@@ -5,6 +5,7 @@ date: June 8, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "AI search can answer, cite, and qualify your content before anyone reaches your website."
 ---
 
 Your SEO report can look green while the channel changes under it. Search Console may show impressions. GA4 may show fewer organic sessions. The missing part sits between those two reports: AI search can use your page, answer the query, and send no click, a referral from an AI product, or a visit that lands under Direct.

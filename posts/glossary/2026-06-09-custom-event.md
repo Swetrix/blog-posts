@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A custom event is a named action you track on a website or app, such as a button click, form submission, checkout step, or product interaction. Learn how custom events work."
+seoTitle: "What is a Custom Event?"
+seoDescription: "A custom event is a named action you track on a website or app, such as a button click, form submission, checkout step, or product interaction."
 ---
 
 A custom event is a specific action you choose to track in a website or application. Unlike a page view, which records that a page was viewed, a custom event records that something meaningful happened.

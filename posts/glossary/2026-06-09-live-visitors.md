@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Live visitors are people currently active on your website. Learn how real-time analytics works, when live visitor data is useful, and how to interpret traffic spikes."
+seoTitle: "What are Live Visitors?"
+seoDescription: "Live visitors are people currently active on your website."
 ---
 
 Live visitors are visitors who are currently active on your website. Real-time analytics tools often show how many people are online right now, which pages they are viewing, where they came from, and sometimes their approximate location, browser, or device.

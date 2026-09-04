@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Funnel drop-off is the point where visitors leave a conversion path before reaching the next step or final goal. Learn how to find and reduce funnel drop-offs."
+seoTitle: "What is Funnel Drop-off?"
 ---
 
 Funnel drop-off is the point where visitors leave a sequence before completing the next step or final conversion. It is one of the most useful signals in conversion analytics because it shows where a journey breaks down.

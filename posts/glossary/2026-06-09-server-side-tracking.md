@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Server-side tracking sends analytics events from your server rather than only from browser JavaScript. Learn when it improves reliability, privacy control, and data quality."
+seoTitle: "What is Server-side Tracking?"
+seoDescription: "Server-side tracking sends analytics events from your server rather than only from browser JavaScript."
 ---
 
 Server-side tracking is analytics collection performed from a server rather than only from browser JavaScript. Instead of relying entirely on the visitor's browser to send events, your backend can send events directly to an analytics endpoint.

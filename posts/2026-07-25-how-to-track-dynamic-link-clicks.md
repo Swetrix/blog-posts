@@ -116,7 +116,7 @@ Printed materials and physical campaigns create major attribution blind spots be
 
 When the user scans the code with their camera, the routing engine logs the scan, identifies the billboard location, and drops the user into the appropriate app flow. Firing a custom event upon scan completion allows your analytics platform to attribute downstream revenue accurately, meaning you no longer rely entirely on search volume correlation to justify your physical marketing budgets.
 
-[Static QR codes hardcode the final URL pattern directly into the image pixels](https://www.jotform.com/blog/static-vs-dynamic-qr-codes/), so updating a broken destination means printing entirely new marketing collateral. Dynamic QR codes encode a short routing link instead, letting you update the final destination in your management dashboard without altering the physical printed code.
+A static QR code encodes its destination directly, so changing that destination usually requires a new printed code. A dynamic QR code uses a redirect URL, allowing its operator to change the final destination without reprinting the code. Keep control of that redirect and test it after every update.
 
 ### Personalization and Engagement Metrics
 

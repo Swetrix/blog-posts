@@ -3,6 +3,7 @@ title: "Umami vs PostHog: Choosing Between Simplicity and Power"
 date: March 30, 2026
 standalone: true
 intro: "Umami vs PostHog: Which one fits your needs? We compare Umami's radical simplicity against PostHog's overwhelming complexity, and reveal a third option that brings balance."
+seoDescription: "Compare Umami and PostHog on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 If you are diving into open-source web analytics, you will likely encounter [Umami](https://umami.is) and [PostHog](https://posthog.com). While both are open-source and incredibly capable, they cater to entirely different types of users and represent two opposite extremes: radical simplicity versus overwhelming complexity.

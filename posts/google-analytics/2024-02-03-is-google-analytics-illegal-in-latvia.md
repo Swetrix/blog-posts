@@ -5,6 +5,7 @@ description: "Find out if Google Analytics is illegal in Latvia due to GDPR regu
 date: February 3, 2024
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Explore Google Analytics privacy concerns in Latvia, the history of GDPR complaints, and privacy-friendly analytics alternatives."
 ---
 
 European Center for Digital Rights has [filed](https://noyb.eu/en/101-complaints-eu-us-transfers-filed) complaints against dozens of companies across the EU for using Google Analytics because it doesn't comply with the GDPR. Two of these companies are located in Latvia.

@@ -4,6 +4,7 @@ date: May 31, 2025
 intro: "Swetrix Data Policy: cookieless, privacy-first analytics that stores no PII. Learn what data we collect (sessions, pageviews, performance, errors) and how we comply with GDPR, PECR, CCPA."
 hidden: true
 standalone: true
+seoDescription: "Read Swetrix’s data policy to understand what analytics data is collected, how it is processed, and the approach to visitor privacy."
 ---
 
 Swetrix is a privacy-focused, open-source analytics platform that helps you understand your website traffic and performance. We are committed to protecting your privacy and complying with all relevant privacy laws and regulations. This data policy explains how we collect, use, and share your data.

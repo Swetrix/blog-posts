@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Website monitoring is the ongoing measurement of availability, performance, errors, traffic health, and user experience. Learn how it complements website analytics."
+seoTitle: "What is Website Monitoring?"
+seoDescription: "Website monitoring is the ongoing measurement of availability, performance, errors, traffic health, and user experience."
 ---
 
 Website monitoring is the ongoing measurement of website availability, performance, errors, traffic health, and user experience. It helps teams detect problems before they damage conversions, revenue, or trust.

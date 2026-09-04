@@ -5,6 +5,7 @@ date: January 08, 2023
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Have you ever thought about the technologies and frameworks that go into building and running a web analytics SaaS?"
 ---
 
 Have you ever thought about the technologies and frameworks that go into building and running a web analytics SaaS? The tech stack of a company is an important factor in its product development and growth. It's like a recipe, with each component contributing to the overall success of the platform.

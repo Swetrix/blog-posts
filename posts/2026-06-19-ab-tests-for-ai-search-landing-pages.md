@@ -5,6 +5,7 @@ date: June 19, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to A/B Test AI Search Landing Pages"
 ---
 
 AI search traffic can look small in your analytics, then distort a landing page test if you treat it like normal organic search. A visitor from an AI answer may land with a comparison, definition, or recommendation in mind. The page has to confirm the answer, remove doubt, and move the person toward one action.

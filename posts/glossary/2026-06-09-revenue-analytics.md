@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Revenue analytics connects traffic, campaigns, conversions, users, and product events to revenue. Learn how revenue analytics helps teams measure profitable growth."
+seoTitle: "What is Revenue Analytics?"
+seoDescription: "Revenue analytics connects traffic, campaigns, conversions, users, and product events to revenue."
 ---
 
 Revenue analytics is the analysis of revenue alongside traffic, campaigns, conversions, users, and product behavior. It helps teams understand not only what drives visits or signups, but what drives money.

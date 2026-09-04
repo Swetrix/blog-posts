@@ -15,7 +15,7 @@ You see a direct visit in your analytics dashboard, but a partner drove that tra
 
 ### The Data Loss Reality
 
-You lose conversion data through standard browser-based pixels. Privacy extensions stop client-side tags from firing. Apple restricts third-party tracking capabilities on iOS and macOS through Intelligent Tracking Prevention. Browser-based tracking typically sees a [15 to 45 percent data loss rate](https://swetrix.com/blog/stripe-revenue-tracking-analytics), though this metric fluctuates depending on your target device demographics and e-commerce niche.
+You lose conversion data through standard browser-based pixels. Privacy extensions stop client-side tags from firing. Apple restricts third-party tracking capabilities on iOS and macOS through Intelligent Tracking Prevention. Browser-based tracking typically sees a [15 to 45 percent data loss rate](https://swetrix.com/blog/track-stripe-revenue-in-web-analytics), though this metric fluctuates depending on your target device demographics and e-commerce niche.
 
 Apple enforces a strict [seven-day cap on script-writable cookie lifespans](https://webkit.org/tracking-prevention/) across Safari and iOS devices. A visitor clicks an affiliate link on Monday. The visitor returns on Tuesday of the next week to purchase. Apple assigns the sale to direct traffic through Safari. Audit your own conversion drops by filtering your direct traffic analytics by device type.
 

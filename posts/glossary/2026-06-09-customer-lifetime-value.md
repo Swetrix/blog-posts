@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Customer lifetime value, or CLV, estimates how much revenue or gross profit a customer generates over their relationship with a business. Learn why CLV matters for analytics."
+seoDescription: "Customer lifetime value, or CLV, estimates how much revenue or gross profit a customer generates over their relationship with a business."
 ---
 
 Customer lifetime value, often shortened to CLV or LTV, is the estimated total revenue or gross profit a customer generates over their relationship with a business. It helps teams understand how much a customer is worth beyond the first purchase or signup.

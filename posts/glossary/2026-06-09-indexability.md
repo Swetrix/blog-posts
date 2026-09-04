@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Indexability describes whether search engines are allowed and able to include a page in search results. Learn why indexability affects organic traffic and SEO analytics."
+seoDescription: "Indexability describes whether search engines are allowed and able to include a page in search results."
 ---
 
 Indexability describes whether a page is allowed and able to appear in search engine indexes. A page can be crawlable but not indexable if a noindex directive tells search engines not to include it in results.

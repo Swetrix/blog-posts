@@ -45,11 +45,7 @@ Each visitor appears as an anonymous data point in aggregate reports. Bounce rat
 
 ### Recent Enforcement Actions
 
-General Motors paid $12.75 million in May 2026 for collecting and selling Californians' driving and location data without proper disclosure ([California Privacy Protection Agency enforcement action](https://cppa.ca.gov/enforcement/)). The California Privacy Protection Agency found that GM's connected vehicle services transmitted detailed trip data—routes, speeds, braking patterns, acceleration—to third-party data brokers who sold it to insurance companies. GM's privacy policy mentioned data collection but buried the sale disclosure in generic language about "business partners."
-
-Disney paid $2.75 million in February 2026 for failing to honor user opt-outs across services and devices ([CPPA enforcement action](https://cppa.ca.gov/enforcement/)). A California resident opted out of data sales on Disney+, but Disney continued sharing their viewing data with advertisers through Hulu and ESPN+. The CPPA ruled that opt-out requests must apply across all services a business operates, not the specific platform where the user submitted the request.
-
-Tractor Supply received a $1.35 million fine in October 2025 for providing a non-functional opt-out webform ([CPPA enforcement action](https://cppa.ca.gov/enforcement/)). The company displayed a "Do Not Sell Or Share My Data" link in its footer, but the form behind that link contained validation errors that prevented submission. Users who attempted to opt out received error messages and remained in the data sale pipeline. The CPPA classified this as intentional non-compliance because the broken form persisted for eight months after the first user complaint.
+In March 2025, the [California Privacy Protection Agency required Honda to pay $632,500 and change its practices](https://cppa.ca.gov/announcements/2025/20250312.html). The agency identified excessive verification requirements for some privacy requests and an asymmetric choice between opting out and opting back in.
 
 Sephora paid $1.2 million in August 2022 for failing to process opt-out requests sent through Global Privacy Control signals ([California Attorney General settlement](https://oag.ca.gov/news/press-releases/attorney-general-bonta-announces-settlement-sephora-part-ongoing-enforcement)). The company's website ignored the `Sec-GPC: 1` browser header and continued selling user data to advertising partners. This case established that GPC signals carry the same legal weight as manual opt-out form submissions.
 
@@ -61,7 +57,7 @@ Each affected user can constitute a separate violation. A broken opt-out form th
 
 ### The Multiplication Effect: Why Small Mistakes Cost Millions
 
-Total CCPA fines have reached $23.2 million as of May 2026, but this figure excludes the GM settlement ([based on publicly available CPPA enforcement actions and California Attorney General settlements](https://cppa.ca.gov/enforcement/)). The multiplication effect explains why: a single compliance gap affects every user who encounters it. A privacy policy that fails to disclose data sales violates CCPA once per user who visits the site. A consent management platform that doesn't recognize GPC signals violates CCPA once per GPC-enabled user.
+A privacy control can affect many visitors, so test it as part of your release process. Verify that requests reach the systems that use the data, and keep records of the checks and any corrective work.
 
 Calculate potential exposure by multiplying monthly California visitors by the per-violation fine. A website with 50,000 California visitors per month faces $133.15 million in maximum exposure ($2,663 × 50,000) for a single unintentional violation that affects all users. Intentional violations raise that exposure to $399.4 million.
 

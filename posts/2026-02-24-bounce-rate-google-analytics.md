@@ -5,6 +5,7 @@ date: February 24, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Bounce Rate in Google Analytics: Metrics and Tips"
 ---
 
 Ever heard of **bounce rate**? In the world of [Google Analytics](https://analytics.google.com/), it's one of those classic metrics that gets talked about a lot. Simply put, **it's the percentage of visits where someone lands on your website and leaves without clicking on anything else.** They show up, take one look, and "bounce" right back out.

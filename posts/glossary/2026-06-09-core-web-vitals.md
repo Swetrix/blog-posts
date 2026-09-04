@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Core Web Vitals are Google-defined user experience metrics for loading speed, interactivity, and visual stability. Learn what LCP, INP, and CLS mean."
+seoTitle: "What are Core Web Vitals?"
 ---
 
 Core Web Vitals are a set of user experience metrics defined by Google to measure how real pages load, respond, and remain visually stable. They are used in performance analysis and can influence search experience evaluation.

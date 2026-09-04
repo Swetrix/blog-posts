@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "An IP address is a network address assigned to a device or connection. Learn how IP addresses are used in analytics, geolocation, security, and privacy compliance."
+seoTitle: "What is an IP Address?"
+seoDescription: "An IP address is a network address assigned to a device or connection."
 ---
 
 An IP address is a numerical network address assigned to a device or connection that uses the Internet Protocol. Websites receive IP address information because servers need it to route requests and responses across the internet.

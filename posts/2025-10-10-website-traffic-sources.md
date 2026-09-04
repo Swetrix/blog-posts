@@ -5,6 +5,7 @@ date: October 10, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Understand website traffic sources and use attribution, campaign tags, and analytics to identify channels that drive growth."
 ---
 
 The race for website growth in 2025 is more intense than ever. With digital competition at an all-time high, understanding where your visitors originate is no longer optional—it is essential for survival.

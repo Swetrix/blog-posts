@@ -7,6 +7,8 @@ author: Andrii Romasiun
 twitter_handle: andrii_rom
 ---
 
+> This announcement describes the affiliate program at its launch in November 2023. [Contact us](https://swetrix.com/contact) for current availability and terms.
+
 Are you ready to boost your earnings while promoting a fantastic product? Then we’re more than happy to introduce you to the Swetrix affiliate program! With Swetrix, you can effortlessly monetize your website, blog, newsletter, or social media presence. We offer you all the essential tools and resources to kickstart your journey as a Swetrix affiliate and begin earning enticing commissions.
 
 ::TABLE_OF_CONTENTS::
@@ -36,6 +38,6 @@ Every person you refer to Swetrix will also enjoy a 20% discount on their first 
 
 ## Important Information
 
-Before you dive into promoting Swetrix, we’d highly recommend that you check out [Terms and Conditions](https://docs.swetrix.com/affiliate/terms). It's essential to understand the guidelines and expectations of our affiliate program.
+Before promoting Swetrix, [contact our team](https://swetrix.com/contact) to confirm the current affiliate program terms and availability.
 
 Get started today and explore the earning potential of the Swetrix affiliate program! Sign up now, promote Swetrix, and start earning commissions while helping others discover outstanding services.

@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A/B testing compares two versions of a page, feature, or journey to learn which one performs better against a measurable goal. Learn how A/B tests work, what to track, and how to read the results."
+seoTitle: "What is A/B Testing?"
+seoDescription: "A/B testing compares two versions of a page, feature, or journey to learn which one performs better against a measurable goal."
 ---
 
 A/B testing is a controlled experiment where you show different versions of a page, product flow, message, or feature to different groups of visitors. Version A is usually the control, while version B is the variation. The goal is to measure which version performs better against a specific outcome, such as signups, purchases, trial starts, email clicks, or activation events.

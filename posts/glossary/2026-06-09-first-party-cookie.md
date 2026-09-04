@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A first party cookie is set by the website domain a visitor is using. Learn how first-party cookies differ from third-party cookies and what they mean for analytics and privacy."
+seoTitle: "First-Party Cookies: How They Work"
+seoDescription: "A first party cookie is set by the website domain a visitor is using."
 ---
 
 A first party cookie is a cookie set by the website domain a visitor is currently using. If a visitor is on example.com and example.com stores a cookie, that is a first party cookie.

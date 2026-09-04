@@ -5,6 +5,7 @@ date: May 9, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Track Podcast Downloads and Attribution"
 ---
 
 Global podcast audiences reached [584.1 million listeners in 2025](https://backlinko.com/podcast-stats), and brands follow this attention. Advertisers will spend an estimated $5 billion on audio campaigns in 2026. Marketing teams buy sponsorships on prominent shows, wait for the episodes to publish, and expect clear data on revenue generation.
@@ -29,7 +30,7 @@ The math breaks down at the attribution stage. Marketers relying on traditional 
 
 For years, the industry applied a workaround called IP matching. Advertisers used a pixel on the podcast host to log the listener's IP address when they fetched the audio file. Another pixel on the advertiser's website logged the visitor's IP address. Companies linked the two events and claimed a successful conversion.
 
-[Spotify shut down Chartable in December 2024](https://ads.spotify.com/en-US/news-and-insights/evolving-our-measurement-offerings/), removing a primary tool for audio pixel tracking. Hardware and software updates accelerated this decline. Apple Private Relay masks listener locations. Google limits network-level tracking mechanisms across its ecosystem.
+Podcast measurement tools change over time. Check that your hosting provider and attribution integrations are still supported, and keep exports of historical reports before migrating to a different service.
 
 Marketers who cling to matched network addresses overreport duplicate conversions and underreport mobile sales. Rebuilding a measurement framework requires abandoning network-level matching.
 

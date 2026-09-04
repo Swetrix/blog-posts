@@ -2,6 +2,8 @@
 title: "The Best Web Analytics for Indie Hackers and Startups in 2026"
 date: March 29, 2026
 intro: "Solo founders and early-stage startups don't have time for bloated enterprise analytics. Discover the all-in-one toolkit that gives you traffic, errors, and performance data without slowing you down."
+seoTitle: "Web Analytics for Indie Hackers"
+seoDescription: "Explore web analytics for indie hackers, with practical guidance on traffic measurement, privacy, reporting, and choosing an analytics tool."
 ---
 
 When you are an indie hacker or an early-stage startup founder, you wear every single hat. You are the lead developer, the marketing department, the customer support rep, and the CEO.

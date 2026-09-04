@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Revenue attribution connects revenue back to the channels, campaigns, pages, and touchpoints that influenced it. Learn how it differs from basic conversion attribution."
+seoTitle: "What is Revenue Attribution?"
+seoDescription: "Revenue attribution connects revenue back to the channels, campaigns, pages, and touchpoints that influenced it."
 ---
 
 Revenue attribution is the process of connecting revenue back to the channels, campaigns, pages, and touchpoints that influenced it. It goes beyond counting conversions by asking which activities produced money.

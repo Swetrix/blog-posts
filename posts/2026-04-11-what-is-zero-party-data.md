@@ -38,7 +38,7 @@ Modern privacy standards render passive data collection ineffective. Mobile user
 
 ### Solving the Privacy-Personalization Paradox
 
-Consumers demand tailored experiences. Marketers sending broad messages face high unsubscribe rates. A personalization gap plagues the marketing industry. According to [Twilio's State of Personalization Report](https://www.twilio.com/en-us/state-of-personalization), 84% of businesses claim they provide excellent personalized engagement, yet 54% of consumers agree.
+Customer engagement can look different from each side of a transaction. In [Twilio’s 2024 State of Customer Engagement Report](https://www.twilio.com/en-us/press/releases/socer-2024), 84% of businesses rated their engagement as good or excellent, while 54% of consumers agreed. Ask customers about their experience rather than relying only on internal assessments.
 
 Users punish invasive tracking practices by deleting applications and abandoning shopping carts over privacy fears. Marketers face a paradox. People want personalized recommendations while refusing passive surveillance.
 

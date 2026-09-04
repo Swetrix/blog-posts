@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Direct traffic is website traffic where the analytics tool cannot identify a referrer, campaign, search engine, or known source. Learn what causes direct traffic and how to reduce misattribution."
+seoTitle: "What is Direct Traffic?"
+seoDescription: "Direct traffic is website traffic where the analytics tool cannot identify a referrer, campaign, search engine, or known source."
 ---
 
 Direct traffic is traffic where an analytics platform cannot identify a source. It often includes visitors who type a URL into the browser, use a bookmark, open a link from a desktop app, or return from a saved tab.

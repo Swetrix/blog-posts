@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Google Analytics 4, or GA4, is Google's event-based analytics platform for websites and apps. Learn what GA4 tracks, how it differs from Universal Analytics, and why teams compare alternatives."
+seoTitle: "What is Google Analytics 4?"
+seoDescription: "Google Analytics 4, or GA4, is Google's event-based analytics platform for websites and apps."
 ---
 
 Google Analytics 4, often called GA4, is Google's analytics platform for websites and apps. It replaced Universal Analytics and uses an event-based data model, where page views, clicks, scrolls, purchases, and other interactions are treated as events.

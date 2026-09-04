@@ -5,6 +5,7 @@ date: September 27, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Learn what to check when analysing website performance, which tools to use, and how to turn traffic insights into improvements."
 ---
 
 Getting a clear picture of how a site is doing is half the job in 2025. If you want to get details of website traffic, speed, SEO, and user behavior, this guide shows what to look at, which tools help, and how to keep things privacy‑friendly.

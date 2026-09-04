@@ -29,6 +29,8 @@ Every blog post must contain a metadata block at the beginning of the file.
 ---
 title: 'Title of the blog post'
 intro: 'Intro of the blog post' (optional)
+seoTitle: 'Short title for search and social previews' (optional; falls back to title)
+seoDescription: 'Concise description for search and social previews' (optional; falls back to intro)
 date: November 28, 2025 (optional)
 hidden: false (true/false) - if true, the post will not be visible on the /blog page, but is still accessible at the direct URL
 standalone: true (true/false) - if true, the post will be displayed as a standalone page, without the /blog prefix

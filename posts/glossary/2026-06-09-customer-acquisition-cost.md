@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Customer acquisition cost, or CAC, is the average cost to acquire a new customer. Learn the CAC formula and how analytics helps connect campaigns to customer value."
+seoTitle: "What is Customer Acquisition Cost?"
+seoDescription: "Customer acquisition cost, or CAC, is the average cost to acquire a new customer."
 ---
 
 Customer acquisition cost, usually shortened to CAC, is the average cost to acquire a new customer. It is commonly used by SaaS, ecommerce, subscription, and B2B companies to evaluate growth efficiency.

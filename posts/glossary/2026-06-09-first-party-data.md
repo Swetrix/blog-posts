@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "First-party data is data collected directly from your own audience, website, product, or customers. Learn how it differs from third-party data and why it matters."
+seoTitle: "What is First-party Data?"
+seoDescription: "First-party data is data collected directly from your own audience, website, product, or customers."
 ---
 
 First-party data is data collected directly from your own audience, website, app, product, or customers. It can include analytics events, account data, purchases, form submissions, email engagement, support interactions, and product usage.

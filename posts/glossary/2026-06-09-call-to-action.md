@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A call to action, or CTA, is a prompt that asks a visitor to take the next step. Learn how CTAs affect conversion rate and how to measure CTA performance in analytics."
+seoTitle: "What is a Call to Action?"
+seoDescription: "A call to action, or CTA, is a prompt that asks a visitor to take the next step."
 ---
 
 A call to action, often shortened to CTA, is a prompt that asks a visitor to do something. It can be a button, link, form, banner, menu item, card, or line of copy. Common CTA examples include Start free trial, Book a demo, Download report, Subscribe, Add to cart, and Contact sales.

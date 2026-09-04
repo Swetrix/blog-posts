@@ -5,6 +5,7 @@ date: December 18, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Pixel Tags and Web Beacons: Tracking and Privacy"
 ---
 
 Pixel tags and web beacons act like invisible spies, quietly tracking how people interact with your content. Each time a page or email loads, these tiny **1×1 images** send a quick ping to a server—no visible footprint, but powerful insights.

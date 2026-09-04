@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Uptime monitoring checks whether a website, endpoint, or service is reachable and responding correctly. Learn how uptime monitoring supports analytics and reliability."
+seoTitle: "What is Uptime Monitoring?"
+seoDescription: "Uptime monitoring checks whether a website, endpoint, or service is reachable and responding correctly."
 ---
 
 Uptime monitoring is the practice of automatically checking whether a website, endpoint, or service is reachable and responding as expected. It helps teams detect outages, downtime, slow responses, and broken endpoints.

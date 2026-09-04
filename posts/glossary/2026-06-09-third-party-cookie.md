@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A third-party cookie is set by a domain other than the website a visitor is viewing. Learn why third-party cookies are controversial and how they differ from first-party cookies."
+seoTitle: "What is a Third Party Cookie?"
+seoDescription: "A third-party cookie is set by a domain other than the website a visitor is viewing."
 ---
 
 A third-party cookie is a cookie set by a domain other than the website a visitor is currently using. If a visitor is on example.com and an advertising network sets a cookie from ad-network.com, that is a third-party cookie.

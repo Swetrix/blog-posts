@@ -3,6 +3,8 @@ title: "Cloudflare Web Analytics vs Fathom Analytics: A Detailed Comparison"
 date: March 31, 2026
 standalone: true
 intro: "Debating between Cloudflare Web Analytics and Fathom Analytics? We compare their features, data accuracy, and reveal why Swetrix is the definitive open-source upgrade for deep insights."
+seoTitle: "Cloudflare Web Analytics vs Fathom Analytics"
+seoDescription: "Compare Cloudflare Web Analytics and Fathom on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 If you are looking to replace bloated, privacy-invading trackers with something lighter, you have likely come across [Cloudflare Web Analytics](https://www.cloudflare.com/web-analytics/) and [Fathom Analytics](https://usefathom.com). Both are highly respected for keeping their tracking scripts small and protecting user privacy.

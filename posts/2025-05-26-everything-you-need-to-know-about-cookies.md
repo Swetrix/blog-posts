@@ -5,6 +5,7 @@ date: May 26, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Understand website cookies, consent banners, privacy considerations, and the options for measuring traffic without cookies."
 ---
 
 As a website owner, you've probably wondered whether you actually need to display a cookie consent banner on your website.

@@ -5,6 +5,8 @@ date: June 5, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is AI Search Traffic? Sources and Measurement"
+seoDescription: "Understand AI search traffic, citations, mentions, referrals, and unattributed visits, and learn how to measure them in Swetrix."
 ---
 
 AI search traffic includes visits and assisted demand that start in ChatGPT, Perplexity, Gemini, Claude, Copilot, Google AI Overviews, Google AI Mode, or another answer engine. A person asks a question, reads an answer, sees a source, clicks a link, searches your brand, or comes back later through a direct visit.

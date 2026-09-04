@@ -5,6 +5,7 @@ date: June 16, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Browser Tracking Protection Features Explained"
 ---
 
 A visitor clicks a Facebook ad on their iPhone during a morning commute. That evening, they open their laptop, search your brand name, and complete a purchase. Both interactions generated the sale. Default analytics platforms credit the search engine and ignore the social media ad.

@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Bounce rate is the percentage of sessions where a visitor leaves after viewing one page without another meaningful interaction. Learn the formula, what a good bounce rate means, and how to improve it."
+seoTitle: "What is Bounce Rate?"
+seoDescription: "Bounce rate is the percentage of sessions where a visitor leaves after viewing one page without another meaningful interaction."
 ---
 
 Bounce rate is the percentage of sessions where a visitor lands on a page and leaves without viewing another page or triggering another meaningful interaction. It is one of the most common website analytics metrics, but it is also one of the easiest to misunderstand.

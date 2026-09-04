@@ -5,6 +5,7 @@ date: March 26, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is Traffic Attribution? Models and Privacy"
 ---
 
 You run an ad campaign. A user clicks the ad, browses your site, and leaves. Two days later, they search your brand name, click an organic link, and buy your product. You need to know which channel gets the credit for the sale. You answer this question through traffic attribution.

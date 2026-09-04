@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Scroll depth measures how far visitors scroll down a page. Learn how scroll tracking helps evaluate content engagement, landing pages, and conversion intent."
+seoTitle: "What is Scroll Depth?"
 ---
 
 Scroll depth measures how far visitors scroll down a page. It is often used to understand whether visitors are actually seeing important content, CTAs, pricing details, forms, or article sections.

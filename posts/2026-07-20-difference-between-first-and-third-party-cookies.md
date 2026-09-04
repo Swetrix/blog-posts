@@ -5,6 +5,7 @@ date: July 20, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "First-Party vs Third-Party Cookies Explained"
 ---
 
 When you land on a new website and a massive consent banner blocks the content, ignoring the prompt causes traditional analytics tools to lose your visit entirely. Only [11% of U.S. adults can correctly identify](https://www.pewresearch.org/internet/2019/10/09/americans-and-digital-knowledge/) how these trackers operate behind the scenes, largely because most people treat all website storage the same.

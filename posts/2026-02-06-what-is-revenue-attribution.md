@@ -5,6 +5,7 @@ date: February 06, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is Revenue Attribution? Models and Metrics"
 ---
 
 So, you just made a sale. Fantastic. But do you _really_ know why it happened? Was it that blog post your team published last month? The paid ad they saw on social media yesterday? Or the email newsletter they opened this morning?

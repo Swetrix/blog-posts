@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Goal tracking measures important website outcomes such as signups, purchases, leads, downloads, and activation events. Learn how goals connect traffic to business results."
+seoTitle: "What is Goal Tracking?"
+seoDescription: "Goal tracking measures important website outcomes such as signups, purchases, leads, downloads, and activation events."
 ---
 
 Goal tracking is the setup and measurement of important outcomes on a website or product. Goals turn raw traffic data into business context by showing whether visitors complete the actions that matter.

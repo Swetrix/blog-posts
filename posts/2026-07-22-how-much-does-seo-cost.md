@@ -5,6 +5,8 @@ date: July 22, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How Much Does SEO Cost in 2026?"
+seoDescription: "Compare 2026 SEO costs for agencies, freelancers, in-house teams, tools, and AI automation, with budgets and unit economics."
 ---
 
 SEO pricing is opaque on purpose — "it depends" keeps discovery calls booked. But surveys with hundreds of respondents exist, the tool prices are public, and the AI options have flat pricing pages, so the numbers are entirely knowable. Here they are, model by model, with what each actually buys you.

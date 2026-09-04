@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Engagement rate measures how often visitors interact meaningfully with a page, product, or campaign. Learn how engagement rate is used in website analytics and what to track."
+seoTitle: "What is Engagement Rate?"
+seoDescription: "Engagement rate measures how often visitors interact meaningfully with a page, product, or campaign."
 ---
 
 Engagement rate is a metric that shows how often visitors or users interact meaningfully with a page, product, campaign, or piece of content. The exact definition depends on what you consider engagement.

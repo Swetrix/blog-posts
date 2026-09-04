@@ -3,6 +3,7 @@ title: "Umami vs Google Analytics: A Detailed Comparison for 2026"
 date: March 30, 2026
 standalone: true
 intro: "Are you deciding between Umami and Google Analytics? We dive into their features, privacy differences, and reveal why Swetrix might be the perfect upgrade for your site."
+seoDescription: "Compare Umami and Google Analytics on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 If you are thinking about moving away from [Google Analytics](https://marketingplatform.google.com/about/analytics/) (GA4), [Umami](https://umami.is) is often one of the first open-source alternatives that comes to mind.

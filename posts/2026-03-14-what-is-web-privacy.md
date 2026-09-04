@@ -5,6 +5,7 @@ date: March 14, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is Web Privacy"
 ---
 
 At its core, web privacy is pretty simple. It’s the right to control your personal data—who collects it, how they see it, and what they’re allowed to do with it. Think of it as the digital version of a private conversation, where you get to decide who’s listening.

@@ -5,6 +5,7 @@ date: December 28, 2022
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Improve your small business website’s speed, layout, and content, then use performance analytics to measure the results."
 ---
 
 As a small business owner, your website is often the first point of contact between you and your potential customers. A well-designed and optimized website can help you effectively market your products or services, engage visitors, and convert them into paying customers. On the other hand, a poorly designed or slow-loading website can drive potential customers away and hurt your business.

@@ -5,6 +5,7 @@ date: February 05, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Statistical Significance in A/B Testing"
 ---
 
 Statistical significance is just a fancy way of asking: "Is this result real, or did I just get lucky?"

@@ -5,6 +5,7 @@ date: April 7, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "What Is Incrementality Testing in Marketing?"
 ---
 
 Ad networks inflate their own numbers. Launch a branded search campaign, and Google Ads might report a massive return on investment. The marketing team celebrates the win. Meanwhile, total store revenue remains flat because the platform takes credit for customers who planned to buy your product without seeing an advertisement.

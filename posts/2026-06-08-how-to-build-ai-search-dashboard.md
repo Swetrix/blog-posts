@@ -5,6 +5,7 @@ date: June 8, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Build an AI Search Dashboard"
 ---
 
 AI search traffic can enter your site from a chatbot, a Google AI feature, a copied citation, a brand search, or a partner page that an assistant quoted. If you use pageviews alone, you miss that path. Build a dashboard that connects source, landing page, event, funnel, goal, and revenue.

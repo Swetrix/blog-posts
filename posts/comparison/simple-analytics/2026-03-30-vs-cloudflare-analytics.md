@@ -3,6 +3,8 @@ title: "Simple Analytics vs Cloudflare Analytics: An In-Depth Comparison"
 date: March 30, 2026
 standalone: true
 intro: "Are you deciding between Simple Analytics and Cloudflare Web Analytics? We break down these two distinct approaches to tracking and introduce an alternative that brings both accuracy and deep insights."
+seoTitle: "Simple Analytics vs Cloudflare Analytics"
+seoDescription: "Compare Simple Analytics and Cloudflare Web Analytics on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 If you are looking for an alternative to heavy, intrusive trackers like Google Analytics, you might be weighing [Simple Analytics](https://simpleanalytics.com) against [Cloudflare Analytics](https://www.cloudflare.com/web-analytics/). Both platforms are built with privacy in mind and avoid using cookies, meaning you can drop the annoying GDPR consent banners.

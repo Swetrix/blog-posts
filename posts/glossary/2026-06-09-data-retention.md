@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Data retention defines how long analytics data is kept before deletion, anonymization, or aggregation. Learn why retention policies matter for privacy and reporting."
+seoTitle: "What is Data Retention?"
+seoDescription: "Data retention defines how long analytics data is kept before deletion, anonymization, or aggregation."
 ---
 
 Data retention is the policy that defines how long data is kept before it is deleted, anonymized, aggregated, or archived. In analytics, this can apply to page views, events, sessions, user profiles, errors, performance data, logs, and revenue data.

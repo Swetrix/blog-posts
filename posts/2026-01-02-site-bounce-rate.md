@@ -5,6 +5,7 @@ date: January 02, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Understanding and Fixing Your Site Bounce Rate"
 ---
 
 Ever heard of **site bounce rate**? It’s a term that gets thrown around a lot, but what it really boils down to is the percentage of people who land on one of your website pages and then leave without doing anything else.

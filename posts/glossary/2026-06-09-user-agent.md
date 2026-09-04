@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A user agent is a browser-provided string that identifies the client application, operating system, browser version, and device context. Learn how analytics tools use it."
+seoTitle: "What is a User Agent?"
+seoDescription: "A user agent is a browser-provided string that identifies the client application, operating system, browser version, and device context."
 ---
 
 A user agent is a string of information sent by a browser or client application when it requests a web page. It usually describes the browser, operating system, device type, rendering engine, and version information.

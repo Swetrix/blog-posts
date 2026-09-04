@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Data residency describes where data is stored and processed. Learn why analytics data location matters for privacy, compliance, vendor reviews, and customer trust."
+seoTitle: "What is Data Residency?"
+seoDescription: "Data residency describes where data is stored and processed."
 ---
 
 Data residency describes the physical or legal region where data is stored and processed. For website analytics, this can include event data, visitor data, account data, logs, backups, and reporting databases.

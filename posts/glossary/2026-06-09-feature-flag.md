@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A feature flag is a switch that lets teams enable, disable, target, or gradually roll out product features without deploying new code. Learn how feature flags support analytics."
+seoTitle: "What is a Feature Flag?"
+seoDescription: "A feature flag is a switch that lets teams enable, disable, target, or gradually roll out product features without deploying new code."
 ---
 
 A feature flag is a switch that controls whether a feature is enabled for users. It lets teams release code separately from feature exposure, target specific cohorts, run experiments, and roll back risky changes quickly.

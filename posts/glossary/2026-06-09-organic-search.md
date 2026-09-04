@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Organic search is unpaid traffic from search engines such as Google, Bing, DuckDuckGo, and others. Learn how organic search is measured and how to evaluate SEO traffic quality."
+seoDescription: "Organic search is unpaid traffic from search engines such as Google, Bing, DuckDuckGo, and others."
 ---
 
 Organic search is unpaid website traffic from search engines. A visitor searches for something, clicks a non-ad result, and lands on your website. In analytics reports, this visit is usually grouped under organic search or search traffic.

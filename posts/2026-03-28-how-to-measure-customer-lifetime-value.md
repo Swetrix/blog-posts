@@ -5,6 +5,7 @@ date: March 28, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Measure Customer Lifetime Value"
 ---
 
 At its core, measuring customer lifetime value is straightforward: you multiply your average order value by the purchase frequency and the average customer lifespan. But that simple formula unlocks something profound. It gives you a clear picture of how much revenue a single customer is likely to generate over their entire relationship with your business, shifting your focus from chasing short-term sales to building long-term value.

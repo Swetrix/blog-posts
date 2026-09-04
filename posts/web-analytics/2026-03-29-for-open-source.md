@@ -2,6 +2,7 @@
 title: "The Best Web Analytics for Open Source Projects in 2026"
 date: March 29, 2026
 intro: "Open-source projects thrive on transparency and trust. Learn why tracking your users with ad-tech betrays your ethos, and discover the analytics platform built by developers, for developers."
+seoDescription: "Explore web analytics for open source, with practical guidance on traffic measurement, privacy, reporting, and choosing an analytics tool."
 ---
 
 If you maintain an open-source library, a framework, or a Linux distribution, your community is everything.

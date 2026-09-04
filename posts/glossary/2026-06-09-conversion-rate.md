@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Conversion rate is the percentage of visitors or sessions that complete a desired action. Learn the conversion rate formula, examples, and how to improve it with analytics."
+seoTitle: "What is Conversion Rate?"
+seoDescription: "Conversion rate is the percentage of visitors or sessions that complete a desired action."
 ---
 
 Conversion rate is the percentage of visitors, sessions, or users who complete a desired action. It is one of the most important metrics in website analytics because it connects traffic to outcomes.

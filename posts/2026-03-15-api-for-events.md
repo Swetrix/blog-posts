@@ -5,6 +5,7 @@ date: March 15, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Using an API for Analytics Events in 2026"
 ---
 
 At its core, an **API for events** is just a way for developers to send custom data about user interactions straight to an analytics platform. This method lets you capture specific actions—think button clicks or form submissions—giving you a much clearer picture than simple pageviews can, all without leaning on cookies.

@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A canonical URL tells search engines which version of a page is preferred when duplicates or similar pages exist. Learn why canonical tags matter for SEO and reporting."
+seoTitle: "What is a Canonical URL?"
+seoDescription: "A canonical URL tells search engines which version of a page is preferred when duplicates or similar pages exist."
 ---
 
 A canonical URL is the preferred version of a page when duplicate or similar URLs exist. It is usually declared with a canonical link tag in the page head.
@@ -18,7 +20,7 @@ A canonical tag can look like this:
 <link rel="canonical" href="https://example.com/pricing" />
 ```
 
-This tells search engines that https://example.com/pricing is the preferred URL for that content.
+This tells search engines that `https://example.com/pricing` is the preferred URL for that content.
 
 ## Why canonical URLs matter
 

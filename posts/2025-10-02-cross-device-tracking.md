@@ -5,6 +5,7 @@ date: October 2, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Explore cross-device tracking methods, their privacy trade-offs, and ways to measure journeys across phones, tablets, and computers."
 ---
 
 Tracking the entire user journey across smartphones, tablets, desktops, and smart TVs is more difficult than ever. In 2023, the average U.S. household had 17 connected devices, according to Pew Research Center. This complexity makes cross device tracking essential for any business aiming to understand and engage its audience in 2025.
@@ -285,7 +286,7 @@ As third-party cookies disappear, cross device tracking is entering a new era. P
 
 Cookieless analytics platforms now rely on first-party data and consented identifiers, minimizing user data exposure while maintaining measurement capabilities. These solutions allow businesses to respect privacy laws and user preferences while still gaining actionable insights.
 
-To learn more about privacy-focused analytics, consider exploring [Google's guide to privacy-safe measurement](https://support.google.com/analytics/answer/9268069?hl=en). Innovations in this area will define the future of cross device tracking.
+To learn more about privacy-focused analytics, consider exploring [Google's guide to privacy-safe measurement](https://support.google.com/analytics/answer/12017362). Innovations in this area will define the future of cross device tracking.
 
 ### Cross-Platform Integration: IoT, Wearables, and Beyond
 

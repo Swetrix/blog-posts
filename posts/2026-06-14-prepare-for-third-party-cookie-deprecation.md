@@ -27,7 +27,7 @@ Marketers lose the ability to map user journeys using multi-touch attribution mo
 
 Examine your Time Lag reports. Calculate the average number of days between the first site visit and the final purchase. If your sales cycle exceeds seven days, third-party cookie loss will destroy your attribution accuracy. Apple deletes cookies after seven days through Safari's Intelligent Tracking Prevention. Google Chrome users will reject these trackers upon entry, leaving gaps in long-term sales data.
 
-Marketers remain unprepared for this shift. Forty-nine percent of marketing strategies depend on third-party cookies. Advertisers [polled by Epsilon](https://www.epsilon.com/us/insights/blog/new-research-on-how-advertisers-are-preparing-for-the-deprecation-of-third-party-cookies) indicate this deprecation will disrupt their business more than GDPR legislation.
+Inventory the campaigns, audiences, and attribution reports that depend on third-party cookies. Test their behaviour with third-party cookies blocked so you can identify measurement gaps before changing your marketing setup.
 
 Open your primary advertising platform. Next, audit the active campaigns to identify ad groups that depend on cross-site retargeting audiences. Shift budget away from campaigns showing declining match rates. Media buyers must reallocate those funds to top-of-funnel acquisition tactics.
 

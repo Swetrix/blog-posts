@@ -5,6 +5,7 @@ date: June 9, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Compare web analytics tools for AI referrals, UTMs, events, funnels, revenue attribution, privacy, and self-hosting."
 ---
 
 AI search traffic reaches your site through messy paths. From ChatGPT, a buyer clicks a citation. Perplexity sends a developer to a source page. After seeing your brand in Google AI Mode, a founder searches your name and lands on pricing. In Slack, a marketer shares a copied link from an AI answer.

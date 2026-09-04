@@ -3,6 +3,8 @@ title: "Pirsch vs Cloudflare Analytics: Which is the Best Web Analytics Tool?"
 date: March 30, 2026
 standalone: true
 intro: "Are you deciding between Pirsch and Cloudflare Analytics? We compare these two tools and reveal why Swetrix might be the perfect balance of privacy, accuracy, and depth for your website."
+seoTitle: "Pirsch vs Cloudflare Analytics"
+seoDescription: "Compare Pirsch and Cloudflare Web Analytics on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 If you are looking for an alternative to Google Analytics, both [Pirsch](https://pirsch.io) and [Cloudflare Analytics](https://www.cloudflare.com/web-analytics/) offer compelling options, but they approach the problem from completely different angles.
@@ -32,7 +34,7 @@ Pirsch is a fast, lightweight analytics tool from Germany. It is designed to res
 
 Cloudflare Analytics is a free add on for users within the Cloudflare ecosystem. It tracks traffic at the edge (DNS/CDN level), meaning it can often capture requests that client side tracking scripts miss (like adblockers). However, because it is essentially a side feature to their security products, it is quite limited in depth.
 
-![Cloudflare Analytics dashboard screenshot](https://cdn.swetrix.com/file/f43dc1341c2a829e71f43a6d71b31522.png)
+![Cloudflare Analytics dashboard screenshot](https://cdn.swetrix.com/file/fa7fb883df38cab14a50ae1ae503692d.png)
 
 **Strengths:**
 

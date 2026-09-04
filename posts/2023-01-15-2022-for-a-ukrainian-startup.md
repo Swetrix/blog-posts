@@ -5,6 +5,7 @@ date: January 15, 2023
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "2022 for a Ukrainian startup"
 ---
 
 2022 was probably the most significant and horrific year of this millennium: we've seen inflation rising, the Russian invasion of Ukraine, COVID issues, and many startups shutting down (e.g. FTX, Kite, Modsy and many more) and certainly, it wasn't really the best time for us too.

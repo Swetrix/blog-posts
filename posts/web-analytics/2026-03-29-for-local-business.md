@@ -2,6 +2,7 @@
 title: "The Best Web Analytics for Local Small Businesses in 2026"
 date: March 29, 2026
 intro: "Local businesses don't need massive enterprise software. Learn why Google Analytics is unnecessarily complex for your website, and discover the simple, privacy-first alternative."
+seoDescription: "Explore web analytics for local business, with practical guidance on traffic measurement, privacy, reporting, and choosing an analytics tool."
 ---
 
 If you run a local small business—like a restaurant, a plumbing service, a gym, or a bakery—your website has a very straightforward job: help local customers find you, see your services, and contact you.

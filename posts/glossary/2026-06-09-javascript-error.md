@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A JavaScript error is a browser-side runtime problem that can break forms, buttons, checkout, tracking, or product features. Learn why JavaScript errors affect conversions."
+seoTitle: "What is a JavaScript Error?"
+seoDescription: "A JavaScript error is a browser-side runtime problem that can break forms, buttons, checkout, tracking, or product features."
 ---
 
 A JavaScript error is a browser-side runtime problem that happens when JavaScript code fails while a visitor is using a page or web app. It can break interactions, forms, checkout flows, navigation, tracking, or product features.

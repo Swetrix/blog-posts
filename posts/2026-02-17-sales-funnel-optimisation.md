@@ -5,6 +5,7 @@ date: February 17, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Sales Funnel Optimisation: Improve Conversions"
 ---
 
 If you’ve ever felt like you're losing customers somewhere between their first click and the final sale, you’re in good company. **Sales funnel optimization** is really just the methodical work of finding and fixing the "leaks" in your customer journey to boost conversion rates. It’s all about turning the visitors you already have into paying customers.

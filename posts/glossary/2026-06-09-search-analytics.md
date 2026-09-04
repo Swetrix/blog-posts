@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Search analytics is the analysis of search queries, impressions, clicks, rankings, landing pages, and organic traffic. Learn how search analytics connects SEO to conversions."
+seoTitle: "What is Search Analytics?"
+seoDescription: "Search analytics is the analysis of search queries, impressions, clicks, rankings, landing pages, and organic traffic."
 ---
 
 Search analytics is the analysis of search engine data such as queries, impressions, clicks, click-through rate, average position, landing pages, and organic traffic. It helps teams understand how people find a website through search.

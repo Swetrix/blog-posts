@@ -5,6 +5,8 @@ date: August 16, 2022
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "UTM Parameters: A Beginner’s Guide"
+seoDescription: "Learn how to build UTM parameters, track campaign traffic, and identify which marketing links bring visitors to your website."
 ---
 
 A UTM parameter is the textual content included in the URL to apprehend where are the site visitors coming from, and therefore, to understand which advertising campaigns are working and which are not.

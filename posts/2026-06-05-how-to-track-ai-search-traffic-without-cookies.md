@@ -5,6 +5,7 @@ date: June 5, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Measure referrals from ChatGPT and other AI search tools using referrers, UTMs, events, funnels, and revenue attribution without cookies."
 ---
 
 AI search traffic has a measurement problem. A visitor asks ChatGPT, Perplexity, Gemini, Claude, or Copilot for a recommendation, clicks a source, lands on your site, and converts three pages later. Your dashboard may show `chatgpt.com`, `perplexity.ai`, `claude.ai`, `gemini.google.com`, `copilot.microsoft.com`, `google.com`, or plain direct traffic.

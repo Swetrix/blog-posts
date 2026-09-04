@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Last-click attribution gives full conversion credit to the final known touchpoint before conversion. Learn when it is useful and why it can misrepresent customer journeys."
+seoTitle: "What is Last-click Attribution?"
+seoDescription: "Last-click attribution gives full conversion credit to the final known touchpoint before conversion."
 ---
 
 Last-click attribution is an attribution model that gives full conversion credit to the final known source or touchpoint before a visitor converts. If someone clicks an email link and then signs up, email receives all credit under last-click attribution.

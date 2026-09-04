@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A public dashboard is a shareable analytics view that lets others see selected metrics without full account access. Learn when public dashboards are useful."
+seoTitle: "What is a Public Dashboard?"
 ---
 
 A public dashboard is a shareable analytics dashboard that lets people view selected metrics without logging into the full analytics account. It can be open to anyone with the link or protected with controls depending on the platform.

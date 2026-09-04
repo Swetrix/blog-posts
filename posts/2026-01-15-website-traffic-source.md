@@ -5,6 +5,7 @@ date: January 15, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Understanding Your Website Traffic Source"
 ---
 
 A **website traffic source** is simply _how_ a visitor found your website. Think of it as the specific path they took to land on your digital doorstep. Did they see a sign on the "Google highway"? Did a friend give them your address directly? Or did they follow a link from a social media post?

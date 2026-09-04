@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A data processing agreement, or DPA, defines how a service provider processes personal data on behalf of a customer. Learn why DPAs matter for web analytics and GDPR."
+seoTitle: "What is a Data Processing Agreement?"
+seoDescription: "A data processing agreement, or DPA, defines how a service provider processes personal data on behalf of a customer."
 ---
 
 A data processing agreement, often shortened to DPA, is a contract between a data controller and a data processor. It defines how personal data is processed, protected, stored, transferred, deleted, and used.

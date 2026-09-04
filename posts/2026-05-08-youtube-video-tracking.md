@@ -5,6 +5,7 @@ date: May 8, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "Privacy-Friendly YouTube Video Tracking"
 ---
 
 A visitor lands on your pricing page, watches a product demo, and converts to a paid plan. Analysts see a direct conversion from the landing page in the dashboard. The tracking configuration misses the video interaction.

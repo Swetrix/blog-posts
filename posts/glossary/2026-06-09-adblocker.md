@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "An adblocker is software that blocks ads, tracking scripts, analytics requests, and other third-party resources. Learn how adblockers affect website analytics and what privacy-first teams should do about it."
+seoDescription: "An adblocker is software that blocks ads, tracking scripts, analytics requests, and other third-party resources."
 ---
 
 An adblocker is a browser extension, browser feature, DNS filter, mobile app, or network-level tool that prevents ads and tracking resources from loading. Many adblockers block obvious advertising scripts, but they can also block analytics, tag managers, social widgets, consent tools, and other third-party requests.

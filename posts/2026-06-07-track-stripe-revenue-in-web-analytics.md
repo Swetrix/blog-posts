@@ -5,6 +5,7 @@ date: June 7, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Connect Stripe revenue to web analytics in Swetrix to measure purchases, subscriptions, and campaign performance with server-side data."
 ---
 
 A customer buys a $100 subscription on your website. Stripe logs the payment, but your web analytics dashboard shows $0. Multiply this missing data across thousands of transactions to see how marketing attribution breaks.

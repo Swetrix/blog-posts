@@ -5,6 +5,7 @@ date: February 02, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Calculate Click-Through Rate (CTR)"
 ---
 
 So, you want to figure out your Click-Through Rate? The good news is, it's not some arcane marketing metric that requires a data science degree. The calculation is surprisingly straightforward.

@@ -3,6 +3,7 @@ title: "Simple Analytics vs PostHog: A Detailed Comparison"
 date: March 30, 2026
 standalone: true
 intro: "Simple Analytics vs PostHog: Which approach is right for you? We compare radical simplicity against overwhelming complexity, and reveal a third option that brings balance."
+seoDescription: "Compare Simple Analytics and PostHog on features, pricing, privacy, and hosting to choose the right analytics tool for your website."
 ---
 
 If you are exploring the web analytics market, [Simple Analytics](https://simpleanalytics.com) and [PostHog](https://posthog.com) represent two completely opposite extremes.

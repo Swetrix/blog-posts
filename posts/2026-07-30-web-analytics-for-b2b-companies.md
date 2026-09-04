@@ -100,7 +100,7 @@ Configure the analytics setup to recognize aggregate engagement from specific co
 
 ### Choosing Privacy-First Platforms
 
-Underlying infrastructure dictates data quality, and transitioning to a privacy-focused architecture future-proofs marketing operations against aggressive browser updates and shifting international privacy laws. [Sixty-seven percent of B2B companies](https://swetrix.com/blog/how-to-measure-user-engagement-on-website-without-cookies) now use server-side tracking, driving a 41 percent improvement in data reliability across their organizations.
+Underlying infrastructure dictates data quality, and transitioning to a privacy-focused architecture future-proofs marketing operations against aggressive browser updates and shifting international privacy laws. [Sixty-seven percent of B2B companies](https://swetrix.com/blog/how-to-measure-user-engagement-on-website) now use server-side tracking, driving a 41 percent improvement in data reliability across their organizations.
 
 When selecting a platform, prioritize data ownership and regulatory compliance. Swetrix provides a robust solution for web analytics for b2b companies, offering comprehensive coverage and functionality. As a fully open-source platform, Swetrix supports self-hosting the entire infrastructure on internal hardware, guaranteeing that proprietary traffic data never touches third-party servers.
 

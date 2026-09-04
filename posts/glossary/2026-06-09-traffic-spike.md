@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A traffic spike is a sudden increase in visits, events, errors, or conversions compared with normal activity. Learn how to investigate traffic spikes in analytics."
+seoTitle: "What is a Traffic Spike?"
+seoDescription: "A traffic spike is a sudden increase in visits, events, errors, or conversions compared with normal activity."
 ---
 
 A traffic spike is a sudden increase in website visits, events, errors, or conversions compared with the normal baseline. Spikes can be good, bad, or meaningless depending on the source and quality of the traffic.

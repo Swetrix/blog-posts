@@ -5,6 +5,7 @@ date: September 18, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Explore network analytics methods, tools, and metrics for understanding traffic and improving network security and performance."
 ---
 
 Modern networks are rapidly expanding, with countless devices and skyrocketing data volumes reshaping how businesses operate. This surge makes it harder than ever to maintain visibility and control.

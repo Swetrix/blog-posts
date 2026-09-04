@@ -2,6 +2,8 @@
 title: "The Best Web Analytics for Government & Public Sector in 2026"
 date: March 29, 2026
 intro: "Government agencies need reliable data without compromising citizen privacy. Learn why relying on ad-tech for public sector analytics is a risk, and discover the secure, open-source alternative."
+seoTitle: "Web Analytics for Government & Public Sector"
+seoDescription: "Explore web analytics for government, with practical guidance on traffic measurement, privacy, reporting, and choosing an analytics tool."
 ---
 
 If you manage a digital platform for a government agency, municipality, or public sector organization, your responsibilities go far beyond standard web development.

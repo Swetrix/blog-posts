@@ -5,6 +5,7 @@ date: February 22, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Learn how to calculate A/B test sample size from conversion rate, minimum detectable effect, confidence, and statistical power."
 ---
 
 An A/B testing sample size calculator is a simple tool with a crucial job: it tells you _how many users_ you need to include in an experiment to trust the outcome. Jumping into a test without this number is a recipe for wasted traffic and misleading results. It’s the very first step in making sure your tests are built on solid ground.

@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Click-through rate, or CTR, is the percentage of people who click after seeing a link, ad, button, email, or search result. Learn the CTR formula and how to improve it."
+seoTitle: "What is Click-through Rate?"
+seoDescription: "Click-through rate, or CTR, is the percentage of people who click after seeing a link, ad, button, email, or search result."
 ---
 
 Click-through rate, usually shortened to CTR, is the percentage of people who click on something after seeing it. CTR is used across website analytics, SEO, paid ads, email marketing, product onboarding, and conversion optimization.

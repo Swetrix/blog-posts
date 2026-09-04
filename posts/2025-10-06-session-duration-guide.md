@@ -5,6 +5,7 @@ date: October 6, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Learn how to measure session duration, compare engagement trends, and use privacy-friendly analytics to improve your website."
 ---
 
 Did you know your website’s future could depend on just a few minutes of user attention? In 2025, session duration is the critical metric shaping digital success, driving user engagement, SEO performance, and business growth.

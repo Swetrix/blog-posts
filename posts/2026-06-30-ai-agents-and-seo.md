@@ -5,6 +5,8 @@ date: June 30, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "AI Agents and SEO: Citations, Traffic, and Revenue"
+seoDescription: "Learn how to structure pages for AI search, use RankPine for SEO work, and measure the resulting traffic, funnels, and revenue in Swetrix."
 ---
 
 AI agents changed the SEO job. A buyer can ask ChatGPT for privacy analytics tools, read a short answer, click a cited page, search your brand in Google, or copy a URL into Slack before anyone lands on your site.

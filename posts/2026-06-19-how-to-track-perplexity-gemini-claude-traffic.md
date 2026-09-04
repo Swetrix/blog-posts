@@ -5,6 +5,7 @@ date: June 19, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoDescription: "Track Perplexity, Gemini, and Claude referrals with UTMs and landing-page reports, and understand gaps in Direct traffic attribution."
 ---
 
 Perplexity, Gemini, and Claude can send visitors through source citations, web answers, copied links, and user-triggered page fetches. Some visits arrive with a clean referrer. Some land as Direct because apps, redirects, and browser referrer settings remove source context.

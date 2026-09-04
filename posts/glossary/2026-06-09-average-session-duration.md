@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Average session duration is the average amount of time visitors spend on your website during a session. Learn how it is calculated, when it matters, and why it can be misleading."
+seoTitle: "What is Average Session Duration?"
+seoDescription: "Average session duration is the average amount of time visitors spend on your website during a session."
 ---
 
 Average session duration is the average time visitors spend on a website during a single session. It is often used as an engagement metric because it gives a quick sense of whether visitors are staying long enough to read, explore, compare, or complete an action.

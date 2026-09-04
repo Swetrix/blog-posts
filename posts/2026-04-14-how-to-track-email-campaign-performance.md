@@ -5,6 +5,7 @@ date: April 14, 2026
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "How to Track Email Campaign Performance"
 ---
 
 Marketing teams spend hours crafting newsletters, formatting HTML templates, and segmenting subscriber lists. After hitting send, the waiting game begins. A week later, the dashboard displays a 45% open rate alongside a 2% conversion rate. Exporting the PDF report to management feels like a win.
@@ -51,7 +52,7 @@ The click-through rate measures the percentage of delivered emails generating at
 
 Design templates around a single primary action. Multiple competing buttons confuse readers and split click volume. Use contrasting colors for the main call-to-action button. Ensure touch targets measure at least 44 by 44 pixels to accommodate mobile device users.
 
-Optimize subject lines for clicks. [Lengths between 41 and 50 characters](https://www.validity.com/blog/subject-lines-the-art-and-science-of-effective/) produce the highest volume of downstream engagement, though optimal lengths can vary depending on whether your audience primarily uses mobile or desktop devices. Readers must understand the value proposition before opening the message.
+Test subject lines against clicks and conversions, not just opens. Keep the value proposition clear, check how the line displays on mobile, and compare variants with similar audiences before choosing a preferred length.
 
 Evaluate internal link structures. Text links placed in the first paragraph generate higher engagement than buttons buried at the bottom of long newsletters. Test layouts by moving primary links above the mobile fold.
 
@@ -119,7 +120,7 @@ Users clicking "Decline" on the banner block the analytics script. These visitor
 
 Email campaigns drive these sales. Data exists in the URL. Cookie banners prevent analytics scripts from recording the event.
 
-Calculate opt-out rates on the website's cookie banner. Industry averages show [30% to 40% of visitors decline non-essential cookies](https://optoutadvertising.com/who-opts-out-understanding-cookie-consent-preferences/), though rejection rates fluctuate based on regional privacy laws and traffic sources. This rejection rate translates to a massive blind spot in email performance data. Campaigns driving 100 conversions only show 60 within legacy dashboards. Marketers pull budget away from profitable channels based on incomplete data.
+Measure acceptance and rejection rates on your own cookie banner. Compare recorded email conversions with backend orders or CRM leads to estimate the reporting gap. Keep definitions and attribution windows consistent before changing campaign budgets.
 
 Fix this blind spot by measuring [return on investment](https://swetrix.com/tools/roi-calculator) using tools that do not require invasive client-side storage.
 

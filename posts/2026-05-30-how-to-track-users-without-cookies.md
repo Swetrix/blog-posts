@@ -9,7 +9,7 @@ twitter_handle: andrii_rom
 
 # How to Track Users Without Cookies in 2026
 
-Safari blocked third-party cookies in 2017. Firefox followed in 2019. Chrome completed its Privacy Sandbox transition in 2024. [Cookie blocking affects 60%+ of web traffic](https://improvado.io/blog/cookieless-attribution), and [67% of US adults manage or block cookies](https://www.onspotdata.com/resources/news-updates/cookieless-targeting-guide). If you're running pixel-only tracking from 2020, you're missing 30-50% of your conversion data.
+Browser privacy controls, consent choices, and ad blockers affect what client-side tracking can record. Test your setup with these restrictions enabled and compare recorded conversions against backend records to identify gaps.
 
 The cost shows up in your attribution reports. A $10,000 Facebook campaign drives 500 conversions, but your analytics platform records 300 because ad blockers stripped the tracking pixel before data reached your server. Revenue gets filed under "direct" or "unknown source." Campaign ROI calculations collapse.
 

@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Web analytics is the collection and analysis of website traffic, visitor behavior, conversions, performance, and acquisition data. Learn the key metrics and how privacy-first analytics works."
+seoTitle: "What is Web Analytics?"
+seoDescription: "Web analytics is the collection and analysis of website traffic, visitor behavior, conversions, performance, and acquisition data."
 ---
 
 Web analytics is the collection and analysis of data about website traffic, visitor behavior, acquisition sources, conversions, performance, and user journeys. It helps teams understand what happens on a website and how that activity supports business goals.

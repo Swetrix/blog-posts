@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "An attribution model is the rule an analytics platform uses to assign conversion credit to marketing channels, campaigns, and touchpoints. Learn the main attribution models and how to use them."
+seoTitle: "What is an Attribution Model?"
+seoDescription: "An attribution model is the rule an analytics platform uses to assign conversion credit to marketing channels, campaigns, and touchpoints."
 ---
 
 An attribution model is a set of rules for deciding which traffic source, campaign, or touchpoint gets credit for a conversion. If someone discovers your product through organic search, returns from a newsletter, clicks a retargeting ad, and then signs up directly, attribution decides how credit is assigned.

@@ -2,6 +2,8 @@
 title: "The Best Web Analytics for News & Journalism Organizations in 2026"
 date: March 29, 2026
 intro: "Investigative journalism relies on protecting sources and readers. Learn why tracking your audience with commercial ad-tech compromises your integrity, and discover the privacy-first alternative."
+seoTitle: "Web Analytics for News & Journalism"
+seoDescription: "Explore web analytics for news journalism, with practical guidance on traffic measurement, privacy, reporting, and choosing an analytics tool."
 ---
 
 If you manage a digital news outlet, an investigative journalism platform, or an independent media publication, the relationship you have with your readers is built entirely on trust.

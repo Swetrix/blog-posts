@@ -5,6 +5,7 @@ date: December 29, 2025
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
+seoTitle: "First-Party Cookies: How They Work"
 ---
 
 Ever visited a website that remembered your username or kept items in your shopping cart even after you closed the tab? That’s a **first-party cookie** at work.

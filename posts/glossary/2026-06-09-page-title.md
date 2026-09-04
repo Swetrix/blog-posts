@@ -4,6 +4,7 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "A page title is the HTML title used by browsers and search engines to describe a page. Learn how title tags affect search visibility and click-through rate."
+seoTitle: "What is a Page Title?"
 ---
 
 A page title is the HTML title that describes a web page. It appears in browser tabs and can appear as the clickable headline in search results. In SEO, it is often called the title tag.

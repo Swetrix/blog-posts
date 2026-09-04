@@ -4,6 +4,8 @@ date: June 9, 2026
 standalone: true
 hidden: true
 intro: "Bot filtering detects and excludes automated traffic from analytics reports. Learn why bot filtering matters for traffic quality, conversion rates, and clean website data."
+seoTitle: "What is Bot Filtering?"
+seoDescription: "Bot filtering detects and excludes automated traffic from analytics reports."
 ---
 
 Bot filtering is the process of detecting and excluding automated traffic from analytics reports. Bots can be search crawlers, uptime monitors, scrapers, vulnerability scanners, spam bots, AI crawlers, or malicious scripts.
