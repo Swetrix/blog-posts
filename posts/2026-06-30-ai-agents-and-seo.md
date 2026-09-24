@@ -2,6 +2,8 @@
 title: "AI Agents and SEO: Build Pages That Get Cited, Clicked, and Measured"
 intro: "AI agents can crawl, cite, and send visitors to your site. Learn how to structure pages for AI search, use RankPine for SEO work, and measure funnels and revenue in Swetrix."
 date: June 30, 2026
+modified: September 24, 2026
+image: "https://cdn.swetrix.com/file/0527e2c1eb69032f3188314cb6e1a5a8.webp"
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
@@ -38,7 +40,7 @@ Start with the journey before you edit pages. One AI-assisted purchase can leave
 | Visit      | The buyer clicks, copies a URL, or searches brand | Review Swetrix referrers, direct visits, and pages |
 | Conversion | The buyer starts a trial, creates a project, pays | Track goals, funnels, and revenue                  |
 
-Google says AI Overviews and AI Mode use Search systems, and site owners can inspect AI feature clicks in the [Search Console Web performance report](https://developers.google.com/search/docs/appearance/ai-features). OpenAI also documents separate crawler user agents for search, model improvement, and user-triggered page fetches in its [crawler docs](https://developers.openai.com/docs/bots).
+Google says AI Overviews and AI Mode use Search systems, and AI feature traffic is included in the overall [Search Console Web performance report](https://developers.google.com/search/docs/appearance/ai-features). OpenAI also documents separate crawler user agents for search, model improvement, and user-triggered page fetches in its [crawler docs](https://developers.openai.com/api/docs/bots).
 
 Treat those records as evidence with different confidence. A `chatgpt.com` referrer gives you a stronger signal than a direct visit after a brand mention. A bot fetch gives you crawl evidence, then Swetrix tells you whether a person arrived and took action.
 
@@ -52,7 +54,7 @@ Use this checklist before you rewrite content:
 2. Add a comparison table with product, fit, privacy posture, pricing model, and action.
 3. Add proof with screenshots and docs links.
 4. Publish a stable URL. Use canonical tags when you test variants.
-5. Add schema where it matches the content. Use `FAQPage` for FAQs, `SoftwareApplication` for product pages, and `BreadcrumbList` for nested docs.
+5. Add schema where it matches the content. Use an appropriate type such as `SoftwareApplication` or `BreadcrumbList` where it describes the page. Structured data does not guarantee an AI citation or a rich result.
 
 If your answer lives inside a client-side app with no HTML text, agents have less to quote. Put the answer, comparison table, and main CTA in the page source.
 
@@ -75,7 +77,7 @@ Check the page after you publish. Open the HTML source, confirm the answer and t
 
 ## Use RankPine For The SEO Side
 
-Use [RankPine](https://rankpine.com/) as the workspace for prompt research, page targets, and content tasks. Keep SEO work separate from analytics so your team knows which action changes visibility and which metric proves business value.
+Use [RankPine](https://rankpine.com/) for content research and publishing. Its optional [AI visibility add-on](https://rankpine.com/docs/ai-visibility) samples answers to saved prompts across ChatGPT, Gemini, and Google AI Mode. It costs $49/site/month separately from the required paid writing subscription and is not included in the writing trial. Keep SEO work separate from analytics so your team knows which action changes visibility and which metric proves business value.
 
 Start with prompt clusters that map to buying intent:
 
@@ -91,15 +93,15 @@ Run the review every two weeks. Update one page per prompt cluster, then record 
 
 After a person clicks from an AI answer, analytics matter. Open Swetrix and create one AI source view before you build a large report.
 
-| Source pattern                         | Group              | First action                                     |
-| :------------------------------------- | :----------------- | :----------------------------------------------- |
-| `chatgpt.com`, `chat.openai.com`       | `ai_chatgpt`       | Compare landing pages against signup starts      |
-| `perplexity.ai`                        | `ai_perplexity`    | Check source pages, CTAs, and pricing visits     |
-| `claude.ai`                            | `ai_claude`        | Inspect docs, setup pages, and activation events |
-| `gemini.google.com`                    | `ai_gemini`        | Compare landing pages with Search Console data   |
-| `copilot.microsoft.com`, selected Bing | `ai_copilot`       | Split brand, docs, and comparison pages          |
-| `google.com` on AI-visible pages       | `ai_google_search` | Pair Search Console clicks with Swetrix goals    |
-| Direct visits after citation checks    | `ai_suspected`     | Confirm with signup form text or CRM notes       |
+| Source pattern                   | Group            | First action                                                      |
+| :------------------------------- | :--------------- | :---------------------------------------------------------------- |
+| `chatgpt.com`, `chat.openai.com` | `ai_chatgpt`     | Compare landing pages against signup starts                       |
+| `perplexity.ai`                  | `ai_perplexity`  | Check source pages, CTAs, and pricing visits                      |
+| `claude.ai`                      | `ai_claude`      | Inspect docs, setup pages, and activation events                  |
+| `gemini.google.com`              | `ai_gemini`      | Compare landing pages with Search Console data                    |
+| `copilot.microsoft.com`          | `ai_copilot`     | Inspect identifiable Copilot referrals                            |
+| `google.com`                     | `google_search`  | Report as Google; the referrer does not identify an AI feature    |
+| Direct visits                    | `direct_unknown` | Keep unattributed unless independent evidence explains the source |
 
 Keep Google separate from chatbot sources. A Google click can come from standard search, AI Overview, AI Mode, or a branded search after an AI mention.
 
@@ -130,14 +132,14 @@ Skip prompt text, emails, names, raw IPs, and pasted chats in event metadata. St
 
 Your team can misread volume. An AI source with 30 visits and 4 paid accounts can beat a source with 2,000 visits and no revenue.
 
-Use Swetrix revenue analytics with Stripe, Paddle, or API revenue events. Compare source group, landing page, goal rate, funnel drop, and revenue per session.
+Use configured Swetrix revenue reporting to compare sources and landing pages. Verify that the recorded events represent confirmed payments, and distinguish referral evidence from self-reported attribution.
 
-| Source group       | Sessions | Signup starts | Paid accounts | Revenue per session | Next action              |
-| :----------------- | -------: | ------------: | ------------: | ------------------: | :----------------------- |
-| `ai_chatgpt`       |       92 |            11 |             3 |               $8.70 | Expand comparison proof  |
-| `ai_perplexity`    |       38 |             6 |             2 |              $12.20 | Add pricing answers      |
-| `ai_google_search` |      210 |            13 |             2 |               $2.80 | Improve first-screen CTA |
-| `ai_suspected`     |       44 |             4 |             1 |               $3.40 | Add form source review   |
+| Source group     | Sessions | Signup starts | Paid accounts | Revenue per session | Next action              |
+| :--------------- | -------: | ------------: | ------------: | ------------------: | :----------------------- |
+| `ai_chatgpt`     |       92 |            11 |             3 |               $8.70 | Expand comparison proof  |
+| `ai_perplexity`  |       38 |             6 |             2 |              $12.20 | Add pricing answers      |
+| `google_search`  |      210 |            13 |             2 |               $2.80 | Improve first-screen CTA |
+| `direct_unknown` |       44 |             4 |             1 |               $3.40 | Add form source review   |
 
 Use the table as a work queue. If RankPine shows prompt visibility but Swetrix shows weak conversion, improve the page offer. If Swetrix shows strong conversion from a source with low volume, create more pages for adjacent prompts.
 
@@ -147,7 +149,7 @@ Use the table as a work queue. If RankPine shows prompt visibility but Swetrix s
 
 Use a short cycle so SEO, product, and analytics work stay connected.
 
-1. Pick ten prompts that match buying intent. Add them to RankPine and assign one target page per prompt.
+1. Pick ten prompts that match buying intent and record a target page in your content plan. Use RankPine’s paid AI visibility add-on if you want scheduled checks; manual checks can establish an initial baseline.
 2. Audit those pages for HTML answers, tables, proof, schema, and CTAs.
 3. Add or fix one page per prompt cluster.
 4. Create Swetrix AI source views and goal filters.
@@ -165,14 +167,8 @@ Which source group had the best revenue per session?
 
 Then inspect the source view before you edit a page or change a CTA. AI Chat can shorten the review, and the dashboard keeps the decision tied to events, goals, funnels, performance, errors, and revenue.
 
-## Final Recommendation
+## Choose the Next Page to Improve
 
-Treat AI agents as a discovery layer and Swetrix as the measurement layer. Use RankPine for prompt research, page targets, and visibility work. Use Swetrix for referrers, UTM tracking, custom events, goals, funnels, user flows, performance, errors, shared dashboards, organisations, experiments, feature flags, AI Chat, and revenue.
+Treat crawl requests, sampled AI answers, human referrals, and paid conversions as different evidence. Improve one page based on the gap you can actually observe, then repeat the same checks.
 
-Start with ten buyer prompts, improve the pages those prompts should cite, then measure source quality in Swetrix. Strong SEO work shows up in trial starts, activation, paid accounts, and revenue.
-
----
-
-Try the [Swetrix 14-day free trial](https://swetrix.com/signup) and measure AI-search visitors, events, funnels, performance, errors, and revenue without cookies or personal data collection.
-
-::CTA:TIME_TO_SWITCH::
+For the content workflow, [explore RankPine](https://rankpine.com/features/article-generation). Use Swetrix to measure the visits and customer actions that follow, with the attribution limits recorded alongside the results. Our [SEO ROI guide](https://swetrix.com/blog/how-to-measure-seo-roi) explains how to connect that work to a defensible cost model.

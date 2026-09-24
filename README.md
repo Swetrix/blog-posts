@@ -32,12 +32,20 @@ intro: 'Intro of the blog post' (optional)
 seoTitle: 'Short title for search and social previews' (optional; falls back to title)
 seoDescription: 'Concise description for search and social previews' (optional; falls back to intro)
 date: November 28, 2025 (optional)
+modified: September 24, 2026 (optional; date of the latest substantive update)
+image: "https://cdn.swetrix.com/file/article-cover.webp" (optional; absolute image URL)
 hidden: false (true/false) - if true, the post will not be visible on the /blog page, but is still accessible at the direct URL
 standalone: true (true/false) - if true, the post will be displayed as a standalone page, without the /blog prefix
 author: Author name (optional)
 twitter_handle: Author Twitter handle (optional; without the @ prefix)
 ---
 ```
+
+Dates may use the existing `November 28, 2025` format or a quoted ISO date such as `"2025-11-28"`. The frontend converts valid dates to ISO for structured data and time metadata. `modified` is optional and must not precede `date`; without it, no modification date is claimed.
+
+The optional `image` URL supplies the article's Open Graph, Twitter card, and Schema.org image. It does not add a cover to the article body or blog listing. When `image` is absent, both social previews and article structured data use the generated Open Graph image. RankPine's publishing webhook stores its top-level `featuredImage.url` in this field when provided.
+
+Article headings automatically populate the floating navigation with server-rendered anchor links, so new posts do not need a `::TABLE_OF_CONTENTS::` marker.
 
 ### UI Components
 

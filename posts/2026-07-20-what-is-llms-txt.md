@@ -1,121 +1,94 @@
 ---
-title: "llms.txt: What It Is, Who Actually Reads It, and Whether It Works"
-intro: "llms.txt promises to make your site legible to AI. Google says it does nothing, Ahrefs' data says almost nothing fetches it — and yet OpenAI and Anthropic keep nudging it along. Here's the honest state of llms.txt in 2026, and the 10-minute version worth shipping."
+title: "What Is llms.txt? Format, Examples, and Its Role in SEO"
+intro: "llms.txt gives agents a concise guide to a website. Learn what belongs in it, how the proposal differs from robots.txt and sitemaps, and how to test its usefulness."
 date: July 20, 2026
+modified: September 24, 2026
+image: "https://cdn.swetrix.com/file/bbe14bf43845651f63bb9a6ae041d209.webp"
 hidden: false
 author: Andrii Romasiun
 twitter_handle: andrii_rom
-seoTitle: "What Is llms.txt? Uses, Evidence, and Setup"
-seoDescription: "Learn what llms.txt does, what evidence says about crawler adoption, and how to decide whether to add one to your website."
+seoTitle: "What Is llms.txt? Format, Examples, and SEO"
+seoDescription: "Understand llms.txt, see a minimal example, compare it with robots.txt and XML sitemaps, and learn how to evaluate agent use without assuming ranking benefits."
 ---
 
-llms.txt is a proposed web standard: a markdown file at your site's root that gives AI systems a curated map of your most important content — what your site is, which pages matter, where the clean text lives. It was proposed in September 2024 by Jeremy Howard of Answer.AI, and the pitch is appealing: HTML pages are a soup of navigation, cookie banners, and JavaScript; LLMs have limited context windows; so hand them a clean menu instead of making them scrape the whole restaurant.
+**llms.txt is a proposed Markdown format for helping AI agents find and use information on a website.** It gives a short description of the site and links to useful resources. Think of it as a maintained reading guide, especially for documentation.
 
-Eighteen months later, llms.txt occupies a strange spot: half the SEO industry sells it as an "AI visibility" essential, Google flatly says it does nothing, and the measured reality is more interesting than either camp admits. This post covers the spec, the evidence on both sides, and what we'd actually do — with the receipts linked.
+It is not an indexing request, an access-control mechanism, or a promise that an AI search engine will cite you. Build it to solve a navigation problem for agents that use it, and measure that use separately from search traffic.
 
-## What Goes in the File
+_Reviewed September 24, 2026 against the current proposal and search documentation._
 
-The [spec](https://llmstxt.org/) is deliberately simple. One markdown file at `/llms.txt`: an H1 with the site name, a blockquote summary, then H2 sections listing links with one-line descriptions. Here's a condensed real-world example:
+## What Goes in llms.txt?
+
+The [current llms.txt proposal](https://llmstxt.org/) describes a Markdown file with a project-name H1, an optional summary, and sections linking to useful content. Its August 2026 revision also describes files under subpaths, such as `/docs/llms.txt`, and discovery links to Markdown resources.
+
+A small illustrative file might look like this:
 
 ```markdown
-# Swetrix
+# Example Product
 
-> Swetrix is a privacy-first, cookieless web analytics platform —
-> an open-source Google Analytics alternative with traffic analytics,
-> custom events, funnels, and error tracking.
+> Documentation for a website analytics product.
 
-## Docs
+## Guides
 
-- [Getting started](https://swetrix.com/docs): install the tracking
-  script and see data in under 10 minutes
-- [Events API](https://swetrix.com/docs/events-api): track custom
-  actions like signups and purchases
+- [Installation](https://example.com/docs/install.md): Add the tracker.
+- [Events](https://example.com/docs/events.md): Record product actions.
+- [Troubleshooting](https://example.com/docs/troubleshooting.md): Diagnose missing events.
 
-## Product
+## Optional
 
-- [Pricing](https://swetrix.com/#pricing): plans and free trial
-- [Blog](https://swetrix.com/blog): guides on analytics, SEO, and
-  AI search traffic
+- [Changelog](https://example.com/changelog.md): Version history.
 ```
 
-There's an optional companion, `llms-full.txt`, which inlines the full text of your documentation into one giant markdown file so an agent can ingest everything in a single fetch.
+This is a format example using a reserved example domain, not a file to publish unchanged. Substitute real, working pages from your own site. If you link to Markdown versions, make sure those versions exist and contain the same relevant facts as the human-readable documentation.
 
-Note what this is **not**:
+## llms.txt vs robots.txt vs sitemap.xml
 
-| File          | Job                                        | Enforced by anyone?                  |
-| :------------ | :----------------------------------------- | :----------------------------------- |
-| `robots.txt`  | Access control — what crawlers _may_ fetch | Yes, honored by major crawlers       |
-| `sitemap.xml` | Inventory — every URL you want indexed     | Yes, consumed by search engines      |
-| `llms.txt`    | Curation — what an AI _should_ read first  | No. Purely voluntary, mostly ignored |
+| File         | Purpose                                           | What it does not do                                      |
+| :----------- | :------------------------------------------------ | :------------------------------------------------------- |
+| `llms.txt`   | Offer agents a concise guide to useful resources  | Force an agent to read, trust, or cite them              |
+| `robots.txt` | Communicate rules to compliant automated crawlers | Protect private content or guarantee removal from search |
+| XML sitemap  | Help search engines discover canonical URLs       | Guarantee crawling, indexing, or rankings                |
 
-That third row is the entire controversy.
+Use authentication for private material. Publishing a path in any public file can reveal that it exists; crawler rules are not a security boundary. Google's [robots.txt introduction](https://developers.google.com/search/docs/crawling-indexing/robots/intro) explains its limitations.
 
-## The Case Against: Nobody's Home
+## Does llms.txt Improve SEO or AI Citations?
 
-The blunt facts, from the people who run the crawlers and the people who watched the logs:
+Do not assume that adding the file improves rankings. Google's [AI features guidance](https://developers.google.com/search/docs/appearance/ai-features) says no new AI text files or special markup are required for its AI search features.
 
-**Google says no, repeatedly.** John Mueller compared llms.txt to the keywords meta tag — the canonical example of a signal nobody consumes — and Gary Illyes confirmed Google doesn't use it and has no plans to. In June 2026, Google's official AI-features documentation settled it in writing: "You don't need to create new machine readable files, AI text files, markup, or Markdown to appear in Google Search (including its generative AI capabilities), as Google Search itself doesn't use them." That covers AI Overviews and AI Mode — the largest AI search surface there is.
+A documentation workflow is a different use case. An agent that has been given your llms.txt file can use it to locate installation instructions or an API reference. Whether an agent discovers it automatically depends on the tool and workflow. Publishing the file proves availability, not consumption or citation.
 
-**The logs agree.** [Ahrefs analyzed](https://ahrefs.com/blog/llmstxt-study/) 137,000 sites with llms.txt files and found that in May 2026, 97% of those files received zero bot traffic. Across more than 515 million logged LLM-bot events, requests touching `/llms.txt` were statistically negligible. The bots that matter for AI search visibility — OpenAI's, Anthropic's, Perplexity's crawlers — overwhelmingly fetch your actual pages, not your curated menu.
+For commercial visibility, prioritize a page that answers the buyer's question, accurate product information, and a clear next step. Our [ChatGPT visibility guide](https://swetrix.com/blog/how-to-rank-in-chatgpt) separates crawl access, content work, sampled answers, and referral measurement.
 
-So the strong version of the pitch — "add llms.txt, get cited by ChatGPT" — is simply false. If a consultant is charging you for llms.txt as an AI-SEO deliverable, you're buying a keywords meta tag with better branding.
+## When Is It Worth Maintaining?
 
-## The Case For: Agents, Not Search
+It is a reasonable addition when people use agents to integrate your product, navigate a large documentation set, or find a specific reference. The cost is low if the file is generated from the same source as the docs and checked alongside them.
 
-Here's where it gets more interesting than "dead on arrival." Through 2026, the file kept accumulating endorsements — just not from search:
+It is a lower priority when your important pages are broken, inaccessible, contradictory, or missing. Fix those problems first. A well-written index cannot compensate for incorrect instructions behind its links.
 
-- **Anthropic recommends it** in its Writing for Agents guidance, and publishes llms.txt for its own docs.
-- **OpenAI publishes the file for its own developer documentation** and references the format in its agent tooling, including work around the Agentic Commerce Protocol.
-- **Chrome's Lighthouse 13.3** (May 2026) added an "Agentic Browsing" audit category that checks whether your site provides llms.txt — a hint at where browser vendors think agent traffic is heading.
-- **AI coding assistants actually use it.** Cursor, Copilot, Claude and friends fetch documentation on demand while helping someone integrate your product. A curated markdown map means they pull the right page in one hop instead of burning tokens scraping navigation — which is why docs platforms like Mintlify now generate llms.txt automatically for every site they host.
+Before adding a full-text companion such as `llms-full.txt`, consider size and maintenance. A compact index that leads to the correct page may suit a task better than a single file containing every historical detail.
 
-The pattern: llms.txt failed as a _search visibility_ signal but found a real niche as _agent infrastructure_ — particularly for developer documentation, where the reader is increasingly an IDE with a language model inside it. If developers integrate your product, their AI pair-programmer is already part of your funnel, and this file is how you cater to it. And the agentic-browsing story — AI agents visiting sites to research and transact on a human's behalf — is the growth curve to watch; we've written about [what agent traffic means for SEO](https://swetrix.com/blog/ai-agents-and-seo) separately.
+## How to Create and Test a Useful File
 
-## Our Verdict
+1. Pick a concrete task, such as installing your tracker or finding an API parameter.
+2. Identify the few pages an agent needs to complete that task correctly.
+3. Write a short description and link to those pages with clear labels.
+4. Serve the file successfully at the chosen public path.
+5. Follow each link and check its content, redirects, and response status.
+6. Give an agent the file as a starting point and ask it to complete the task.
+7. Review the answer against the actual documentation, then remove ambiguity from the index or source pages.
 
-Ship one — because it costs ten minutes, not because it ranks you.
-
-- **If you have developer docs:** genuinely worth doing properly, llms-full.txt included. This is the one audience measurably using the format.
-- **If you're any other site:** a minimal llms.txt is cheap insurance for the agentic web. Expect zero AI-search benefit; Google told you in writing there is none.
-- **If someone's selling you an "llms.txt optimization package":** run.
-
-## How to Ship One in 10 Minutes
-
-1. Write the file by hand — H1, blockquote summary, one `## Docs` and one `## Product` section, 5–15 links total. Curate ruthlessly; a 400-link dump defeats the purpose.
-2. Serve it at `https://yourdomain.com/llms.txt` as plain text or markdown.
-3. If your docs are generated (Fumadocs, Mintlify, Docusaurus and most modern platforms have plugins or built-ins), turn on auto-generation so the file can't rot.
-4. Don't block it in robots.txt (yes, people do this).
-5. Re-check it whenever your pricing, product names, or doc structure changes — a stale summary quietly feeding agents wrong facts is worse than no file.
+Repeat the test when documentation moves or product behavior changes. This tests a specific navigation workflow. It does not demonstrate that a search engine uses the file as a ranking signal.
 
 ## How to Check Whether Anything Reads It
 
-JavaScript analytics can't see this — crawlers fetching a text file don't execute scripts, so no tag-based tool (ours included) will ever show llms.txt hits. Where to look instead:
+Use server or CDN access logs to inspect requests for the file. Record the time, path, response status, and declared user agent. If you need to identify a crawler, verify it using that operator's published guidance rather than trusting the user-agent string alone.
 
-- **Server or CDN logs.** Grep access logs for `GET /llms.txt` and check the user agents. Cloudflare's analytics make this a two-minute filter.
-- **Expect near-silence.** Per the Ahrefs data, that's the norm — a fetch a week from an agent or AI dev tool is a realistic good outcome for a docs-heavy site.
+An ordinary browser analytics tag will not reliably measure a plain-text fetch. Use logs for those requests and analytics for visitors who arrive at your website. Our [AI crawler diagnostic guide](https://swetrix.com/blog/how-to-check-if-ai-bots-are-crawling-my-site) explains this distinction.
 
-What analytics _can_ see is the part that pays: humans arriving at your site out of AI answers. That's a referrer question — chatgpt.com, perplexity.ai, gemini.google.com showing up in your traffic mix — and it's exactly what [Swetrix](https://swetrix.com) breaks out by default, cookieless and consent-banner-free. The setup for [tracking ChatGPT referrals](https://swetrix.com/blog/how-to-track-chatgpt-referrals-in-swetrix) and [the rest of the AI engines](https://swetrix.com/blog/how-to-track-perplexity-gemini-claude-traffic) takes minutes, and it measures the outcome llms.txt was supposed to influence — which makes it a rather good lie detector for AI-SEO advice in general.
+In [Swetrix](https://swetrix.com), inspect identifiable AI referrals, landing pages, and relevant conversion events. A change in those visits after adding llms.txt is not, by itself, evidence that the file caused it.
 
-## What Actually Moves AI Visibility
+## Where Content Production Fits
 
-Since the file won't do it, the things that measurably do — each with its own guide on this blog:
+If an agent reaches your website and finds no useful answer, the missing work is usually on the page itself. Publish accurate explanations, useful examples, and current product details before spending heavily on a file-generation service.
 
-- **Content AI engines want to cite:** structured, answer-first, factually sourced, current. At breadth, because citation patterns churn violently. That's a publishing-cadence problem; [SEO autopilot tools](https://swetrix.com/blog/top-10-seo-autopilot-software) like [RankPine](https://rankpine.com/) exist precisely to sustain it.
-- **Presence in the sources engines already trust** — the listicles, comparison posts, and platforms like LinkedIn and Reddit that dominate citation share. The playbook: [how to rank in ChatGPT](https://swetrix.com/blog/how-to-rank-in-chatgpt).
-- **A monitoring-and-measurement loop** so you know if any of it works: [the GEO toolchain](https://swetrix.com/blog/best-generative-engine-optimization-tools).
-
-## llms.txt FAQ
-
-**Does Google read llms.txt?** No. Google has stated directly that Search — including AI Overviews and AI Mode — doesn't use these files.
-
-**Can llms.txt hurt my SEO?** No. It's invisible to ranking systems. The only real risk is letting it go stale and misinforming the few agents that do read it.
-
-**llms.txt vs robots.txt?** robots.txt restricts crawler access; llms.txt suggests reading order. One is enforced policy, the other is a voluntary menu.
-
-**Should my docs site have one?** Yes — it's the single audience (AI dev tools) with demonstrated usage, and your docs platform can probably generate it automatically.
-
----
-
-Measure the claim, not the hype: if AI engines start sending you people, it shows up as referral traffic — and Swetrix catches it cookieless, per page, per engine, all the way to signup. [Start the 14-day free trial](https://swetrix.com/signup) and watch what AI search actually delivers.
-
-::CTA:TIME_TO_SWITCH::
+[RankPine](https://rankpine.com/) handles keyword research, article writing, anti-slop editing, images, and publishing. If you need a steady flow of useful content, [see RankPine's content workflow](https://rankpine.com/features/article-generation).
