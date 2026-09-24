@@ -45,9 +45,9 @@ A serious autoblogging tool runs a loop that looks like a small content team:
 
 A calendar makes the proposed topics and publishing states visible before you commit to a schedule:
 
-![RankPine public calendar demo showing article topics and publishing states](https://cdn.swetrix.com/file/bdd62e4160d332630f6824aae54bea8e.png)
+![RankPine content calendar for Swetrix showing published and queued articles in September 2026](https://cdn.swetrix.com/file/44cb47a94e41c4b65efdf10519ea759a.png)
 
-_Public demo captured September 24, 2026. The coffee business and metrics are sample data._
+_RankPine content calendar for Swetrix, September 2026._
 
 Use this list to identify which steps your selected tool handles and which still belong to you.
 

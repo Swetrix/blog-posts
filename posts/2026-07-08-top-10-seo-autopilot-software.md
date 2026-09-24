@@ -55,9 +55,9 @@ Automating these steps can save time. It does not establish that the topic is co
 
 The editing process is a major reason it takes the top spot. After drafting, RankPine checks for repetitive phrasing and AI filler, improves the flow, and verifies claims against cited sources. It also creates images in your chosen style. Those steps are part of the publishing workflow, so you do not have to move each draft between separate writing, editing, and image tools.
 
-![RankPine public calendar demo showing article topics, keyword metrics, and publishing states for a fictional coffee business](https://cdn.swetrix.com/file/bdd62e4160d332630f6824aae54bea8e.png)
+![RankPine content calendar for Swetrix showing published and queued articles in September 2026](https://cdn.swetrix.com/file/44cb47a94e41c4b65efdf10519ea759a.png)
 
-_Public website demo captured September 24, 2026. The coffee business and metrics are sample data, not customer results._
+_RankPine content calendar for Swetrix, September 2026._
 
 The [writing plan](https://rankpine.com/#pricing) is $99 per site per month for 30 articles. That is $3.30 per included article before your review time, assuming you use the full allowance. Check the [publishing integrations](https://rankpine.com/features/auto-publishing) for your CMS and decide whether you want automatic publication or review first.
 

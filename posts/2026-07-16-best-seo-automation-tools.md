@@ -38,9 +38,9 @@ If you only want tools that produce and publish articles, use the narrower [SEO 
 
 The monthly writing plan is $99 per site for 30 articles. That is a software allowance, not the complete cost of publishing: record your review time and check whether you need any separate add-ons.
 
-![RankPine public calendar demo showing topics and article publishing states](https://cdn.swetrix.com/file/bdd62e4160d332630f6824aae54bea8e.png)
+![RankPine content calendar for Swetrix showing published and queued articles in September 2026](https://cdn.swetrix.com/file/44cb47a94e41c4b65efdf10519ea759a.png)
 
-_Public demo captured September 24, 2026. The coffee business and metrics are sample data._
+_RankPine content calendar for Swetrix, September 2026._
 
 **Trial task:** review the proposed keywords, edit one article, and inspect the result in your CMS. [Try RankPine with your website](https://rankpine.com/sign-up).
 

@@ -44,9 +44,9 @@ A low-volume question can still be valuable if it concerns a buying decision. Eq
 
 Its monthly writing plan is $99/site for 30 articles. Compare the cost per accepted article after review, not just the $3.30 allocation of the software fee. Source checks, product expertise, and your publishing standard still need an owner.
 
-![RankPine public content calendar demo with topics and publishing states](https://cdn.swetrix.com/file/bdd62e4160d332630f6824aae54bea8e.png)
+![RankPine content calendar for Swetrix showing published and queued articles in September 2026](https://cdn.swetrix.com/file/44cb47a94e41c4b65efdf10519ea759a.png)
 
-_Public website demo captured September 24, 2026. This is a fictional site with sample data._
+_RankPine content calendar for Swetrix, September 2026._
 
 **Evaluation task:** give it your website, inspect the proposed keywords, and review one article about a topic you understand. Then test the [publishing integration](https://rankpine.com/features/auto-publishing) you intend to use. [Start a RankPine trial](https://rankpine.com/sign-up) if that matches your bottleneck.
 
