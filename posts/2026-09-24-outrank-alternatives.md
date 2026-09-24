@@ -39,9 +39,7 @@ If your existing articles are good and the integration is reliable, first try co
 
 [RankPine](https://rankpine.com/) takes a topic through research, drafting, editing, image creation, and publication. Its anti-slop checks remove repetitive wording and filler, while editorial passes improve the flow and verify claims against sources. You can inspect the [keyword research workflow](https://rankpine.com/features/keyword-research), review the calendar, and evaluate articles against your own brand and factual standards.
 
-![RankPine's public calendar demo displaying topic names and the status of scheduled articles](https://cdn.swetrix.com/file/bdd62e4160d332630f6824aae54bea8e.png)
-
-_Public demo captured September 24, 2026. The fictional coffee site and keyword metrics are illustrative._
+![RankPine landing page showing its automated SEO content service and website signup form](https://cdn.swetrix.com/file/27180dc6b3a9ad2f080d1542e60b0207.png)
 
 The writing plan costs $99/site/month for 30 articles. That matches Outrank's base article allowance. The reason to choose RankPine is how much of the work around the draft it handles: research, editing, images, and the final CMS handoff.
 
