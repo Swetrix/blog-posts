@@ -60,15 +60,15 @@ If a client-side script fails during a transaction, Swetrix logs the error along
 
 Feature lists overlap on paper, but implementation details determine how useful a tool proves during a live campaign. The table below outlines how each platform handles common analytics tasks.
 
-| Decision Area | Matomo | Plausible | Swetrix |
-| :--- | :--- | :--- | :--- |
-| **Privacy Model** | First-party cookies by default. Requires manual configuration for cookieless setups. | Cookieless aggregate measurement. No cross-site tracking. | Cookieless standard analytics. Cloud-only session replays require a separate privacy and consent review. |
-| **Data Granularity** | Visitor-level reports, deep segmentation, raw data access. | Aggregate metrics. No individual visitor profiles. | Session context, user profiles, error traces, and aggregate traffic. |
-| **Conversion Analysis** | Goals, complex funnels, user flows, multi-touch attribution. | Goal-based funnels, journeys, ecommerce revenue. | Goals, conversion funnels, custom events, revenue tracking. |
-| **Replays & Heatmaps** | Session recordings and heatmaps (Cloud or paid On-Premise plugin). | No native session replay or heatmap support documented. | Cloud-exclusive session replays tied to error monitoring. |
-| **SEO Utilities** | Search-engine keywords, SEO Web Vitals plugin. | Google Search Console integration for organic queries. | Built-in SEO dashboard powered by GSC, technical SEO utilities. |
-| **Self-Hosting** | Free core download. Advanced features sold as paid plugins. | Free AGPL Community Edition. Excludes specific enterprise features. | Open-source self-hosting. Replays remain Cloud-exclusive. |
-| **Billing Unit** | Traffic tiers or server hits. | Total combined pageviews and custom events. | Traffic and custom event volume. |
+| Decision Area           | Matomo                                                                               | Plausible                                                           | Swetrix                                                                                                  |
+| :---------------------- | :----------------------------------------------------------------------------------- | :------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------- |
+| **Privacy Model**       | First-party cookies by default. Requires manual configuration for cookieless setups. | Cookieless aggregate measurement. No cross-site tracking.           | Cookieless standard analytics. Cloud-only session replays require a separate privacy and consent review. |
+| **Data Granularity**    | Visitor-level reports, deep segmentation, raw data access.                           | Aggregate metrics. No individual visitor profiles.                  | Session context, user profiles, error traces, and aggregate traffic.                                     |
+| **Conversion Analysis** | Goals, complex funnels, user flows, multi-touch attribution.                         | Goal-based funnels, journeys, ecommerce revenue.                    | Goals, conversion funnels, custom events, revenue tracking.                                              |
+| **Replays & Heatmaps**  | Session recordings and heatmaps (Cloud or paid On-Premise plugin).                   | No native session replay or heatmap support documented.             | Cloud-exclusive session replays tied to error monitoring.                                                |
+| **SEO Utilities**       | Search-engine keywords, SEO Web Vitals plugin.                                       | Google Search Console integration for organic queries.              | Built-in SEO dashboard powered by GSC, technical SEO utilities.                                          |
+| **Self-Hosting**        | Free core download. Advanced features sold as paid plugins.                          | Free AGPL Community Edition. Excludes specific enterprise features. | Open-source self-hosting. Replays remain Cloud-exclusive.                                                |
+| **Billing Unit**        | Traffic tiers or server hits.                                                        | Total combined pageviews and custom events.                         | Traffic and custom event volume.                                                                         |
 
 ### Events, Goals, Funnels, and Journeys
 

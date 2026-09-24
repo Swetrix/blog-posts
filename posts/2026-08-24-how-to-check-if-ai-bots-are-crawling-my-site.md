@@ -8,7 +8,7 @@ twitter_handle: "andrii_rom"
 rankpine_id: "3a9fad0a-2cf1-41ed-a33e-fc2de9ecaeec"
 ---
 
-Check your web server, CDN, WAF, or reverse-proxy access logs for AI crawler user-agent tokens such as `GPTBot`, `OAI-SearchBot`, `ClaudeBot`, `Claude-SearchBot`, and `PerplexityBot`. Record the request path, timestamp, response status, response size, and source IP. Then compare the request with your `robots.txt` rules and verify the IP against the crawler operator’s published lists. 
+Check your web server, CDN, WAF, or reverse-proxy access logs for AI crawler user-agent tokens such as `GPTBot`, `OAI-SearchBot`, `ClaudeBot`, `Claude-SearchBot`, and `PerplexityBot`. Record the request path, timestamp, response status, response size, and source IP. Then compare the request with your `robots.txt` rules and verify the IP against the crawler operator’s published lists.
 
 If you want to know how to check if AI bots are crawling your site, look past your browser analytics. A standard browser tag cannot prove an AI crawler visited because many training bots request plain HTML without executing page JavaScript, so you need server logs to show what actually requested your site.
 
@@ -20,19 +20,19 @@ Before running a single log query, define exactly what you are looking for. Trai
 
 Classify the crawlers into categories. A [2026 Cloudflare bot reference](https://developers.cloudflare.com/ai-crawl-control/reference/bots/) lists a selection of crawlers from major AI operators and assigns them categories, so use the user-agent names most relevant to your logs for the initial search. Match the listed user-agent name rather than hard-coding a longer string.
 
-| Operator | User-agent token | General purpose |
-|---|---|---|
-| OpenAI | `GPTBot` | Training-related crawling |
-| OpenAI | `OAI-SearchBot` | ChatGPT Search discovery |
-| OpenAI | `ChatGPT-User` | User-triggered page retrieval |
-| Anthropic | `ClaudeBot` | Training-related crawling |
-| Anthropic | `Claude-SearchBot` | Claude search discovery |
-| Anthropic | `Claude-User` | User-triggered page retrieval |
-| Perplexity | `PerplexityBot` | AI search crawling |
-| Common Crawl | `CCBot` | Public web dataset crawling |
-| ByteDance | `Bytespider` | AI crawler |
-| Meta | `Meta-ExternalAgent` | AI crawler |
-| Google | `Google-CloudVertexBot` | AI crawler |
+| Operator     | User-agent token        | General purpose               |
+| ------------ | ----------------------- | ----------------------------- |
+| OpenAI       | `GPTBot`                | Training-related crawling     |
+| OpenAI       | `OAI-SearchBot`         | ChatGPT Search discovery      |
+| OpenAI       | `ChatGPT-User`          | User-triggered page retrieval |
+| Anthropic    | `ClaudeBot`             | Training-related crawling     |
+| Anthropic    | `Claude-SearchBot`      | Claude search discovery       |
+| Anthropic    | `Claude-User`           | User-triggered page retrieval |
+| Perplexity   | `PerplexityBot`         | AI search crawling            |
+| Common Crawl | `CCBot`                 | Public web dataset crawling   |
+| ByteDance    | `Bytespider`            | AI crawler                    |
+| Meta         | `Meta-ExternalAgent`    | AI crawler                    |
+| Google       | `Google-CloudVertexBot` | AI crawler                    |
 
 OpenAI documents that `ChatGPT-User` responds to specific user actions rather than operating as an automatic web crawler, meaning it does not control ChatGPT Search eligibility. Anthropic makes similar distinctions between its background crawlers and user-directed retrievals, so exclude specialized agents like `OAI-AdsBot` from this initial list unless you are validating advertising landing pages.
 
@@ -44,7 +44,7 @@ Gather the fields you need to prove the interaction: timestamp, IP, method, path
 
 ## Step 1: Search Server, CDN, and WAF Logs
 
-Start your search at the layer that first saw the request. The evidence hierarchy flows from the outermost edge inward. Check CDN or edge logs first, followed by WAF or bot-management logs, reverse-proxy logs, and finally origin web-server logs. 
+Start your search at the layer that first saw the request. The evidence hierarchy flows from the outermost edge inward. Check CDN or edge logs first, followed by WAF or bot-management logs, reverse-proxy logs, and finally origin web-server logs.
 
 Searching only the origin can miss data, because a bot might request a popular article, receive a cached response from the CDN, and trigger zero activity on the origin server. Conversely, a WAF might block a malicious scraper spoofing an AI user-agent and leave a record only in the security logs.
 
@@ -70,16 +70,16 @@ Aggregate the results by token, path, status code, and day. If you pull logs fro
 
 Finding a user-agent string in a log file confirms a request arrived, but it does not tell the whole story. Interpret the raw data carefully rather than treating every matching row as a successful content scrape.
 
-| Log result | Reasonable interpretation |
-|---|---|
-| Named AI user-agent plus a `2xx` page response | The request reached a layer that returned a successful page response. |
-| Named AI user-agent plus `3xx` | The bot hit a redirect. Inspect the complete redirect chain and final response. |
-| Named AI user-agent plus `4xx`, `403`, `429`, or `5xx` | The bot attempted access, but the request was denied, rate-limited, or failed. |
-| Request only for `/robots.txt` | The bot checked crawler instructions. This does not prove it fetched a content page. |
-| User-agent name with an unexpected IP | Treat as unverified spoofing until the source is checked. |
-| AI referral in analytics without crawler hits | A human arrived from an existing index, cached result, or user-triggered retrieval. |
+| Log result                                             | Reasonable interpretation                                                            |
+| ------------------------------------------------------ | ------------------------------------------------------------------------------------ |
+| Named AI user-agent plus a `2xx` page response         | The request reached a layer that returned a successful page response.                |
+| Named AI user-agent plus `3xx`                         | The bot hit a redirect. Inspect the complete redirect chain and final response.      |
+| Named AI user-agent plus `4xx`, `403`, `429`, or `5xx` | The bot attempted access, but the request was denied, rate-limited, or failed.       |
+| Request only for `/robots.txt`                         | The bot checked crawler instructions. This does not prove it fetched a content page. |
+| User-agent name with an unexpected IP                  | Treat as unverified spoofing until the source is checked.                            |
+| AI referral in analytics without crawler hits          | A human arrived from an existing index, cached result, or user-triggered retrieval.  |
 
-A named AI user-agent combined with a `200 OK` response proves only that your server delivered the file, not that the bot parsed the text, retained the data, indexed the URL, or used the content for model training. 
+A named AI user-agent combined with a `200 OK` response proves only that your server delivered the file, not that the bot parsed the text, retained the data, indexed the URL, or used the content for model training.
 
 Some OpenAI crawler requests include a distinct `robots.txt` marker in the user-agent string to help you differentiate policy checks from resource fetches, but always inspect the requested path column to see exactly what the bot asked for.
 
@@ -93,13 +93,13 @@ A user-agent is a declaration rather than authentication, meaning anyone writing
 
 Use the relevant log entry to identify the source IP, then compare it with the operator’s published information. OpenAI, for example, [publishes IP addresses](https://platform.openai.com/docs/bots) for several of its bots.
 
-Perform a reverse DNS lookup to check the claimed network origin. Forward-resolve the resulting hostname and compare the final IP with the one in your log. 
+Perform a reverse DNS lookup to check the claimed network origin. Forward-resolve the resulting hostname and compare the final IP with the one in your log.
 
 ```bash
 dig -x 203.0.113.10 +short
 ```
 
-Compare the result with official documentation. Anthropic provides a dedicated source-IP list for its bots. Treat a mismatch as suspicious, but rule out IPv6 formatting differences, undocumented proxying, or recent provider documentation changes before implementing an automatic, network-wide block. 
+Compare the result with official documentation. Anthropic provides a dedicated source-IP list for its bots. Treat a mismatch as suspicious, but rule out IPv6 formatting differences, undocumented proxying, or recent provider documentation changes before implementing an automatic, network-wide block.
 
 To see how easily a user-agent is faked, test your own server access rules without trusting the declared string:
 
@@ -143,7 +143,7 @@ Disallow: /
 
 Treat `Claude-User` as a separate policy decision if you want to permit user-triggered retrieval. Anthropic [documents support for the non-standard Crawl-delay directive](https://support.anthropic.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler) to limit crawling activity, but recognize this as a provider-specific feature rather than a universal standard.
 
-A `robots.txt` file is voluntary and manages crawler access, but a disallowed URL can still be discovered if linked elsewhere, and non-compliant scrapers will ignore the file entirely. 
+A `robots.txt` file is voluntary and manages crawler access, but a disallowed URL can still be discovered if linked elsewhere, and non-compliant scrapers will ignore the file entirely.
 
 Similarly, do not confuse `noindex` with a crawler block. Google Search Central [explicitly states that `noindex` robots meta directives](https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag) and `X-Robots-Tag` `noindex` instructions are honored only if the crawler can access and read the page, so a `robots.txt` block prevents the crawler from finding and applying them.
 
@@ -171,11 +171,11 @@ Keep your focus on what visitors do after the bot does its job. If the goal is [
 
 Apply the log results to a clear business framework:
 
-*   **To appear in AI search results:** Allow documented search crawlers (`OAI-SearchBot`, `Claude-SearchBot`) in `robots.txt` and ensure the WAF permits their IP ranges.
-*   **To opt out of training crawlers:** Use provider-specific rules (`Disallow: /` for `GPTBot` and `ClaudeBot`) while leaving search agents untouched. 
-*   **To reduce server load:** Implement WAF rate limits or IP-based connection dropping.
-*   **To protect private content:** Require strict authentication. `robots.txt` is not a firewall.
-*   **To measure business value:** Track AI referral conversions in Swetrix.
+- **To appear in AI search results:** Allow documented search crawlers (`OAI-SearchBot`, `Claude-SearchBot`) in `robots.txt` and ensure the WAF permits their IP ranges.
+- **To opt out of training crawlers:** Use provider-specific rules (`Disallow: /` for `GPTBot` and `ClaudeBot`) while leaving search agents untouched.
+- **To reduce server load:** Implement WAF rate limits or IP-based connection dropping.
+- **To protect private content:** Require strict authentication. `robots.txt` is not a firewall.
+- **To measure business value:** Track AI referral conversions in Swetrix.
 
 ### Frequently Asked Questions
 
@@ -198,7 +198,7 @@ OpenAI documents `ChatGPT-User` as an agent for user-triggered actions. It does 
 OpenAI’s crawler documentation sets an expectation of approximately 24 hours for its Search systems to reflect a `robots.txt` update, though propagation timing varies by provider and crawl frequency.
 
 **Can Swetrix show whether AI bots are crawling my site?**
-Swetrix provides the crawlability preflight and the human analytics layer. Use its AI search LLM checker to test configuration, review your server logs to confirm the raw automated requests, and use Swetrix analytics to track the resulting human referrals and conversions. 
+Swetrix provides the crawlability preflight and the human analytics layer. Use its AI search LLM checker to test configuration, review your server logs to confirm the raw automated requests, and use Swetrix analytics to track the resulting human referrals and conversions.
 
 ### Final Checklist
 
@@ -213,4 +213,5 @@ Bring the technical and analytical steps together:
 7. Measure the resulting human outcomes.
 
 ---
+
 Check whether AI search crawlers can reach your important pages, then measure the human traffic and conversions they help generate with [Swetrix](https://swetrix.com). Keep your server logs for the bots, and use privacy-first analytics for the people.

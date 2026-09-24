@@ -70,12 +70,12 @@ Each extra nine sharply reduces the allowed downtime, which can increase the eng
 
 The following examples assume 43,200 minutes of continuous 24/7 service with zero exclusions, serving as calculated illustrations rather than universal standards.
 
-* 99% availability allows 7 hours and 12 minutes of downtime.
-* 99.5% availability allows 3 hours and 36 minutes of downtime.
-* 99.9% availability allows 43 minutes and 12 seconds of downtime.
-* 99.95% availability allows 21 minutes and 36 seconds of downtime.
-* 99.99% availability allows 4 minutes and 19.2 seconds of downtime.
-* 99.999% availability allows 25.9 seconds of downtime.
+- 99% availability allows 7 hours and 12 minutes of downtime.
+- 99.5% availability allows 3 hours and 36 minutes of downtime.
+- 99.9% availability allows 43 minutes and 12 seconds of downtime.
+- 99.95% availability allows 21 minutes and 36 seconds of downtime.
+- 99.99% availability allows 4 minutes and 19.2 seconds of downtime.
+- 99.999% availability allows 25.9 seconds of downtime.
 
 Moving from 99.9% to [99.99% leaves 4 minutes and 19.2 seconds per month when planned downtime is not counted](https://sre.google/sre-book/availability-table/), so higher availability targets require [automation for recovery from failures](https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/availability.html).
 

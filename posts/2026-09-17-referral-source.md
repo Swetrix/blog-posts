@@ -8,7 +8,7 @@ twitter_handle: "andrii_rom"
 rankpine_id: "b7ba4f91-b08e-4155-9722-550f41a3b6f4"
 ---
 
-A referral source identifies the website, app, platform, or campaign associated with a visitor's arrival at your site. Analytics tools use browser data and campaign parameters to identify this origin, but missing signals can make legitimate referrals appear as direct traffic. Tracking the acquisition context helps you assign value to partnerships, social media posts, and marketing emails. 
+A referral source identifies the website, app, platform, or campaign associated with a visitor's arrival at your site. Analytics tools use browser data and campaign parameters to identify this origin, but missing signals can make legitimate referrals appear as direct traffic. Tracking the acquisition context helps you assign value to partnerships, social media posts, and marketing emails.
 
 Mapping these sources to visitor actions shows which channels correlate with growth and where visitors convert. Swetrix offers a privacy-first, open-source, cookieless alternative to Google Analytics that connects acquisition data with on-site events, goals, funnels, and sessions. Instead of relying on invasive trackers, you can compare marketing channels with conversions while keeping visitor analytics anonymous by default.
 
@@ -20,7 +20,7 @@ Determining where visitors come from requires breaking acquisition data into dis
 
 ### Source, Medium, and Campaign
 
-Analytics platforms categorize incoming traffic using three primary dimensions. The source identifies the specific origin, such as a partner website, a search engine, or a particular newsletter. The medium describes the broader acquisition method and how the visitor arrived, while the campaign tracks the specific marketing initiative responsible for the visit. 
+Analytics platforms categorize incoming traffic using three primary dimensions. The source identifies the specific origin, such as a partner website, a search engine, or a particular newsletter. The medium describes the broader acquisition method and how the visitor arrived, while the campaign tracks the specific marketing initiative responsible for the visit.
 
 Google Analytics groups traffic into these [traffic-source dimensions](https://support.google.com/analytics/answer/15567068?hl=en) to distinguish the referring source from the medium. When evaluating traffic, `referral` functions as one possible medium rather than a generic term for every incoming source. For example, an unpaid search visit uses an organic medium, whereas social media traffic uses a social medium.
 
@@ -28,17 +28,17 @@ Google Analytics groups traffic into these [traffic-source dimensions](https://s
 
 Different visitor paths generate distinct source and medium combinations, and grouping this data correctly keeps your reporting from fracturing into unusable fragments.
 
-| Visitor Path | Example Source | Example Medium |
-|---|---|---|
-| Clicks a link in a product review | `productreview.com` | `referral` |
-| Finds a page in unpaid search | `google` | `organic` |
-| Clicks a tagged newsletter link | `weekly_newsletter` | `email` |
-| Clicks a tagged LinkedIn post | `linkedin` | `social` |
-| Uses a bookmark or arrives untracked | `direct` | `none` |
+| Visitor Path                         | Example Source      | Example Medium |
+| ------------------------------------ | ------------------- | -------------- |
+| Clicks a link in a product review    | `productreview.com` | `referral`     |
+| Finds a page in unpaid search        | `google`            | `organic`      |
+| Clicks a tagged newsletter link      | `weekly_newsletter` | `email`        |
+| Clicks a tagged LinkedIn post        | `linkedin`          | `social`       |
+| Uses a bookmark or arrives untracked | `direct`            | `none`         |
 
 ### A Simple Visitor-Path Example
 
-When a user reads a software review on an independent blog and clicks a link to your pricing page, the blog's domain becomes the source, and the medium registers as a referral. If that user explores the site, leaves, and returns three days later by typing your address directly into their browser, that second session has no identifiable origin. Depending on your attribution model and platform settings, the analytics tool may record that session as direct while a conversion report still credits the earlier referral. 
+When a user reads a software review on an independent blog and clicks a link to your pricing page, the blog's domain becomes the source, and the medium registers as a referral. If that user explores the site, leaves, and returns three days later by typing your address directly into their browser, that second session has no identifiable origin. Depending on your attribution model and platform settings, the analytics tool may record that session as direct while a conversion report still credits the earlier referral.
 
 ## How Analytics Identifies a Referral Source
 
@@ -46,11 +46,11 @@ Browsers and analytics scripts use a specific technical protocol to pass origin 
 
 ### Browser Referrer Data
 
-When a visitor follows a link from one page to another, the browser generates an HTTP request for the new destination. This request often includes the `Referer` header, which contains the address of the previous page. Although standard documentation uses the conventional double-R spelling for the concept, the HTTP header itself remains `Referer` because of a historical standardization error. Analytics scripts then access this browser-reported value through the `document.referrer` property. 
+When a visitor follows a link from one page to another, the browser generates an HTTP request for the new destination. This request often includes the `Referer` header, which contains the address of the previous page. Although standard documentation uses the conventional double-R spelling for the concept, the HTTP header itself remains `Referer` because of a historical standardization error. Analytics scripts then access this browser-reported value through the `document.referrer` property.
 
 ### Referrer-Policy and Missing Detail
 
-Browsers do not automatically send a complete URL for every click. The browser's default policy and any site-specific [Referrer-Policy header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy) determine how much origin information leaves the site. 
+Browsers do not automatically send a complete URL for every click. The browser's default policy and any site-specific [Referrer-Policy header](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Referrer-Policy) determine how much origin information leaves the site.
 
 The modern browser default, when a site does not specify another policy, is `strict-origin-when-cross-origin`. Under this policy, same-origin requests retain the full path and query string, while cross-origin HTTPS-to-HTTPS requests send only the origin. When a user clicks a link from an HTTPS page, such as `example.com/blog/article-name`, to your site, the browser typically shows only `example.com` in your dashboard rather than the specific article path. Furthermore, navigating from a secure HTTPS site to an unencrypted HTTP site prompts the browser to drop the referrer information entirely.
 
@@ -70,7 +70,7 @@ Traffic loses its source data through several routine network interactions. In-a
 
 ### What Direct / None Indicates
 
-Swetrix classifies a pageview as `Direct / None` when three conditions intersect: the browser provides no `Referer` header, the destination URL contains no UTM data, and the request lacks a recognized advertising or social click ID. This classification indicates only that the origin remains unknown, rather than confirming that a visitor typed your domain manually or used a bookmark. 
+Swetrix classifies a pageview as `Direct / None` when three conditions intersect: the browser provides no `Referer` header, the destination URL contains no UTM data, and the request lacks a recognized advertising or social click ID. This classification indicates only that the origin remains unknown, rather than confirming that a visitor typed your domain manually or used a bookmark.
 
 ### A Practical Troubleshooting Check
 
@@ -83,11 +83,12 @@ UTM parameters grant you direct control over how incoming traffic appears in you
 ### What Each UTM Parameter Means
 
 A common tracking setup uses five familiar fields:
-*   `utm_source`: The specific publisher, platform, newsletter, or partner sending the traffic.
-*   `utm_medium`: The overarching acquisition method, such as email, social, or cost-per-click.
-*   `utm_campaign`: The marketing initiative tying different sources together.
-*   `utm_content`: The specific creative variation or link placement, useful for distinguishing a hero banner from a footer link.
-*   `utm_term`: The paid keyword or targeting label associated with the click.
+
+- `utm_source`: The specific publisher, platform, newsletter, or partner sending the traffic.
+- `utm_medium`: The overarching acquisition method, such as email, social, or cost-per-click.
+- `utm_campaign`: The marketing initiative tying different sources together.
+- `utm_content`: The specific creative variation or link placement, useful for distinguishing a hero banner from a footer link.
+- `utm_term`: The paid keyword or targeting label associated with the click.
 
 ### A Consistent Naming Framework
 
@@ -95,18 +96,18 @@ Inconsistent tagging fragments your reporting, so if one team member uses `Email
 
 ### Examples for Newsletters, Partners, and Social Posts
 
-During a campaign promoting a new product feature, distributing the announcement through a weekly newsletter, a partner blog, and a LinkedIn post requires different tags. The base URL remains the same, while the parameters change to reflect the exact distribution method. 
+During a campaign promoting a new product feature, distributing the announcement through a weekly newsletter, a partner blog, and a LinkedIn post requires different tags. The base URL remains the same, while the parameters change to reflect the exact distribution method.
 
 For the newsletter, the destination URL looks like this:
 `https://example.com/new-feature?utm_source=weekly_newsletter&utm_medium=email&utm_campaign=feature_launch&utm_content=hero_cta`
 
-| Distribution Channel | `utm_source` | `utm_medium` | `utm_campaign` |
-|---|---|---|---|
-| Weekly email | `weekly_newsletter` | `email` | `feature_launch` |
-| Partner article | `partner_blog` | `referral` | `feature_launch` |
-| LinkedIn post | `linkedin` | `social` | `feature_launch` |
-| Paid search ad | `google` | `cpc` | `feature_launch` |
-| Conference booth | `conference_booth` | `qr` | `feature_launch` |
+| Distribution Channel | `utm_source`        | `utm_medium` | `utm_campaign`   |
+| -------------------- | ------------------- | ------------ | ---------------- |
+| Weekly email         | `weekly_newsletter` | `email`      | `feature_launch` |
+| Partner article      | `partner_blog`      | `referral`   | `feature_launch` |
+| LinkedIn post        | `linkedin`          | `social`     | `feature_launch` |
+| Paid search ad       | `google`            | `cpc`        | `feature_launch` |
+| Conference booth     | `conference_booth`  | `qr`         | `feature_launch` |
 
 Swetrix gives explicit campaign values priority over inferred click-ID data. When a visitor arrives with these parameters, the tracker uses the values as entered, so the source and medium in the report reflect your campaign tags.
 
@@ -124,9 +125,9 @@ Evaluating sources by their impact on business metrics gives you a clearer view 
 
 ### Goals and Funnels by Source
 
-Swetrix enables you to map traffic sources directly to target outcomes by creating multi-condition goals that combine a specific event with a designated referrer. This setup tracks targeted scenarios, like a user arriving from a tagged partner campaign and successfully completing a checkout sequence. 
+Swetrix enables you to map traffic sources directly to target outcomes by creating multi-condition goals that combine a specific event with a designated referrer. This setup tracks targeted scenarios, like a user arriving from a tagged partner campaign and successfully completing a checkout sequence.
 
-Funnels then provide deeper visibility into the visitor journey. Segmenting a sequential page or event funnel by source highlights exactly where different audiences abandon the process. For example, visitors from a paid campaign might drop off at the pricing page, while users from an organic search query proceed smoothly through the payment form. 
+Funnels then provide deeper visibility into the visitor journey. Segmenting a sequential page or event funnel by source highlights exactly where different audiences abandon the process. For example, visitors from a paid campaign might drop off at the pricing page, while users from an organic search query proceed smoothly through the payment form.
 
 ### Investigate Valuable Sessions
 
@@ -138,7 +139,7 @@ Clarifying your acquisition data requires distinguishing between the platform tr
 
 ### How Swetrix Classifies Referral Data
 
-Swetrix processes traffic sources through a specific hierarchy, giving explicit UTM parameters top priority. If no parameters exist, the tracker looks for recognized advertising and social click IDs in the URL, parsing them for categorization before discarding them to keep the raw query strings out of storage. 
+Swetrix processes traffic sources through a specific hierarchy, giving explicit UTM parameters top priority. If no parameters exist, the tracker looks for recognized advertising and social click IDs in the URL, parsing them for categorization before discarding them to keep the raw query strings out of storage.
 
 When no URL signals exist, Swetrix evaluates the browser's `document.referrer`. It groups recognized hostnames into established categories, sorting known search engines, social networks, news sites, and mail providers into their respective mediums. Unrecognized domains remain visible in your dashboard as raw hostnames so you can identify emerging referral sources.
 
@@ -156,7 +157,7 @@ Historical acquisition data can provide continuity during a platform change, but
 
 ### Attribution Basics
 
-While a backlink represents the structural HTML element connecting another website to yours, a referral source functions as the origin recorded by an analytics platform. The latter is usually recorded when a user follows that link and generates a visit. 
+While a backlink represents the structural HTML element connecting another website to yours, a referral source functions as the origin recorded by an analytics platform. The latter is usually recorded when a user follows that link and generates a visit.
 
 ### Email, Search, and Referral Links
 

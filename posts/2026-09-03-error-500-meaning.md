@@ -40,7 +40,7 @@ The appropriate response depends on whether you are visiting the website or oper
 
 You have limited options when encountering a server-side failure. Refresh the page once to see if a transient network condition clears, and try again later if the error persists. Repeatedly refreshing the browser will not repair a persistent application failure.
 
-Avoid resubmitting payments, checkout orders, or contact forms. A state-changing request can sometimes succeed on the backend even if the web server fails to return the confirmation page, so check your account history, watch your email for order confirmations, or review your bank records before assuming the transaction failed. 
+Avoid resubmitting payments, checkout orders, or contact forms. A state-changing request can sometimes succeed on the backend even if the web server fails to return the confirmation page, so check your account history, watch your email for order confirmations, or review your bank records before assuming the transaction failed.
 
 Do not assume your browser or device is broken. Clearing your cookies, purging your local cache, or switching browsers usually will not fix a server-side 500 error. When reporting the issue to the website owner, provide useful diagnostic context, including the exact URL, the approximate time of the failure, the action you took beforehand, your browser type, and any request ID visible on the screen. Keep passwords, access tokens, payment details, and private form contents out of your bug report.
 
@@ -80,13 +80,13 @@ Web servers return different status classes for different failure conditions. Gr
 
 ### The Nearby Status Codes
 
-| Status Code | Meaning | Typical Investigation Focus |
-| :--- | :--- | :--- |
-| **404 Not Found** | The server cannot find the requested resource. | Missing files, incorrect URLs, or deleted database records. |
-| **500 Internal Server Error** | The server encountered an unexpected condition. | Unhandled exceptions, configuration errors, or resource limits. |
-| **502 Bad Gateway** | A gateway or proxy received an invalid upstream response. | Proxy-to-upstream connections, misconfigured load balancers, or crashed backend workers. |
-| **503 Service Unavailable** | The server is temporarily unable to handle the request. | Deliberate maintenance windows, temporary overload, or depleted capacity. |
-| **504 Gateway Timeout** | A proxy did not receive a timely upstream response. | Upstream latency, overloaded databases, or network packet loss. |
+| Status Code                   | Meaning                                                   | Typical Investigation Focus                                                              |
+| :---------------------------- | :-------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| **404 Not Found**             | The server cannot find the requested resource.            | Missing files, incorrect URLs, or deleted database records.                              |
+| **500 Internal Server Error** | The server encountered an unexpected condition.           | Unhandled exceptions, configuration errors, or resource limits.                          |
+| **502 Bad Gateway**           | A gateway or proxy received an invalid upstream response. | Proxy-to-upstream connections, misconfigured load balancers, or crashed backend workers. |
+| **503 Service Unavailable**   | The server is temporarily unable to handle the request.   | Deliberate maintenance windows, temporary overload, or depleted capacity.                |
+| **504 Gateway Timeout**       | A proxy did not receive a timely upstream response.       | Upstream latency, overloaded databases, or network packet loss.                          |
 
 ### Choose The Status That Matches The Failure
 
@@ -108,7 +108,7 @@ The SEO effect therefore depends on scope and persistence. An isolated failure i
 
 [Google ignores content from a 5xx response](https://developers.google.com/crawling/docs/troubleshooting/http-status-codes), so it won't use content returned with that response.
 
-An API or `fetch()` request can return a 500 even when the initial HTML loads successfully with a 200 status. In that case, a subsequent background request fails. This degrades the user experience and can leave the rendered page incomplete if the request supplies article text, product data, or another critical component. 
+An API or `fetch()` request can return a 500 even when the initial HTML loads successfully with a 200 status. In that case, a subsequent background request fails. This degrades the user experience and can leave the rendered page incomplete if the request supplies article text, product data, or another critical component.
 
 Never configure your server to return a 200 OK status for an error page. [Google's status-code guidance](https://developers.google.com/crawling/docs/troubleshooting/http-status-codes) says a 2xx response containing an empty page or error message can be reported as a soft 404, so use an error status for that response. ([developers.google.com](https://developers.google.com/crawling/docs/troubleshooting/http-status-codes))
 
@@ -139,7 +139,7 @@ Visitors generally cannot fix server errors. Retry the page once, avoid submitti
 Fixing one starts with inspecting application logs and server metrics. Confirm the exact request, reproduce it in a safe environment, correlate it with recent deployments or resource limits, and correct the underlying code or configuration failure.
 
 **What is the difference between a 500 and a 404?**
-A 404 means the requested resource cannot be found, usually because of a broken link or deleted file. A 500 means the server encountered an unexpected failure while trying to process the request. 
+A 404 means the requested resource cannot be found, usually because of a broken link or deleted file. A 500 means the server encountered an unexpected failure while trying to process the request.
 
 **What is the difference between a 500 and a 503?**
 A 500 indicates an unexpected internal failure. A 503 indicates the server is temporarily unable to handle the request, often because of planned maintenance or temporary overload or capacity limits.
@@ -159,4 +159,5 @@ No. [Google says a 2xx response containing an empty page or error message can be
 Yes, but the monitor must receive an event from the server or from a client that observes and reports the failed response. Client-side JavaScript tracking captures browser exceptions and frontend observations, while server-side instrumentation captures the application failure and its context.
 
 ---
+
 Monitor client-side errors, server-side failures, and the user journeys they disrupt without sacrificing compliance. Build your privacy-first analytics stack with [Swetrix](https://swetrix.com).

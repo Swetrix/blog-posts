@@ -14,7 +14,7 @@ We built Swetrix to capture this timing data from real visitors without relying 
 
 ## Differentiating Observability, RUM, and Event Tracking
 
-Server side performance monitoring measures how quickly and reliably backend systems handle requests, encompassing latency, throughput, error rates, and the speed of underlying databases or external APIs. 
+Server side performance monitoring measures how quickly and reliably backend systems handle requests, encompassing latency, throughput, error rates, and the speed of underlying databases or external APIs.
 
 Many teams conflate three overlapping practices within this discipline. Application performance monitoring (APM) and distributed tracing handle internal observability by watching service-to-service calls, database queries, and container infrastructure. Real-user performance monitoring (RUM) captures the actual timings real visitors experience from the moment they initiate navigation. Finally, server-side tracking transmits pageviews, custom events, or error logs directly from a backend environment rather than relying on a browser script.
 
@@ -22,7 +22,7 @@ Swetrix operates primarily as a privacy-first platform for [real-user performanc
 
 ## Connecting Latency to UX, Conversions, and SEO
 
-Technical latency dictates user outcomes because a slow response delays HTML delivery. Every later loading phase waits in line, from downloading stylesheets to executing interactive JavaScript. These compounding delays create friction across content consumption, signup forms, and product workflows. 
+Technical latency dictates user outcomes because a slow response delays HTML delivery. Every later loading phase waits in line, from downloading stylesheets to executing interactive JavaScript. These compounding delays create friction across content consumption, signup forms, and product workflows.
 
 Speed and availability measure different dimensions of reliability. A web server returning a heavily cached error page in fifty milliseconds responds fast while still delivering a failed experience. Your monitoring must capture both HTTP error rates and successful response times to provide a complete picture of backend health.
 
@@ -56,11 +56,11 @@ Pay attention to units when extracting data from different systems. Our platform
 
 Different monitoring methods answer different questions, and a resilient strategy combines multiple approaches to detect and diagnose slow pages.
 
-| Monitoring Method | The Question It Answers | Primary Strength | Known Limitation |
-| :--- | :--- | :--- | :--- |
-| **Real-User Monitoring (RUM)** | How fast is the site for real visitors? | Captures actual devices, browsers, geographic locations, and network conditions. | Rarely reveals the exact internal code path or database query causing a delay. |
-| **Synthetic Testing** | Does the page perform under a controlled condition? | Useful for release checks, deployment validation, and stable period-over-period comparisons. | Cannot represent the varying constraints of real-world visitor environments. |
-| **Application Performance Monitoring (APM)** | Which backend component, service, or database is slow? | Provides deep root-cause detail and structural traces for complex architectures. | Requires extensive infrastructure instrumentation and heavier technical setup. |
+| Monitoring Method                            | The Question It Answers                                | Primary Strength                                                                             | Known Limitation                                                               |
+| :------------------------------------------- | :----------------------------------------------------- | :------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
+| **Real-User Monitoring (RUM)**               | How fast is the site for real visitors?                | Captures actual devices, browsers, geographic locations, and network conditions.             | Rarely reveals the exact internal code path or database query causing a delay. |
+| **Synthetic Testing**                        | Does the page perform under a controlled condition?    | Useful for release checks, deployment validation, and stable period-over-period comparisons. | Cannot represent the varying constraints of real-world visitor environments.   |
+| **Application Performance Monitoring (APM)** | Which backend component, service, or database is slow? | Provides deep root-cause detail and structural traces for complex architectures.             | Requires extensive infrastructure instrumentation and heavier technical setup. |
 
 Field data and lab data serve different functions. RUM acts as the field data layer, exposing exactly where real users encounter friction, while synthetic tests operate as lab data to ensure a new code release meets baseline expectations before it reaches production.
 

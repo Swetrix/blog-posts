@@ -12,13 +12,13 @@ Measuring SaaS retention rate requires tracking five distinct metrics to underst
 
 Evaluating these five metrics together protects you from distorted growth narratives. An organization can post impressive top-line ARR numbers while shedding accounts beneath the surface, because large enterprise expansions can mask high customer churn. Pairing revenue metrics with behavioral cohorts reveals whether users build enduring workflows or abandon the product after trial.
 
-| Business Question | Primary Metric | Core Data Source |
-|---|---|---|
-| What percentage of customer accounts remain active? | Customer / Logo Retention | Subscription billing ledger |
-| How much starting recurring revenue survived churn and downgrades? | Gross Revenue Retention (GRR) | Subscription billing ledger |
-| Did the existing customer base expand or shrink financially? | Net Revenue Retention (NRR) | Subscription billing ledger |
-| What proportion of ending contracts agreed to renew? | Customer and Revenue Renewal Rate | Contract management / Billing |
-| Are users continuously receiving value from core features? | Product / User Cohort Retention | Product event analytics |
+| Business Question                                                  | Primary Metric                    | Core Data Source              |
+| ------------------------------------------------------------------ | --------------------------------- | ----------------------------- |
+| What percentage of customer accounts remain active?                | Customer / Logo Retention         | Subscription billing ledger   |
+| How much starting recurring revenue survived churn and downgrades? | Gross Revenue Retention (GRR)     | Subscription billing ledger   |
+| Did the existing customer base expand or shrink financially?       | Net Revenue Retention (NRR)       | Subscription billing ledger   |
+| What proportion of ending contracts agreed to renew?               | Customer and Revenue Renewal Rate | Contract management / Billing |
+| Are users continuously receiving value from core features?         | Product / User Cohort Retention   | Product event analytics       |
 
 ## Step 1: Decide Which SaaS Retention to Measure
 
@@ -46,15 +46,15 @@ Create a one-page data dictionary before reporting these numbers. Outline the en
 
 Build a revenue movement ledger combining starting revenue, new business, expansion, contraction, voluntary churn, involuntary churn, reactivations, refunds, and pricing adjustments to feed the three core formulas. Use a [percentage calculator](https://swetrix.com/tools/percentage-calculator) or spreadsheet software to automate the math across monthly cohorts. Classifying every dollar into these specific movement buckets prevents upgrades from disguising cancellations in your reporting.
 
-| Revenue Movement Component | Description | Included in GRR? | Included in NRR? |
-|---|---|---|---|
-| Starting Recurring Revenue | Active recurring revenue at beginning of period | Yes (Base) | Yes (Base) |
-| Expansion Revenue | Upgrades, add-ons, and seat expansions | No | Yes (+) |
-| Contraction Revenue | Downgrades and plan reductions | Yes (-) | Yes (-) |
-| Voluntary Churn | Explicit cancellations and non-renewals | Yes (-) | Yes (-) |
-| Involuntary Churn | Payment failures and expired billing details | Yes (-) | Yes (-) |
-| Reactivations | Returning churned accounts from prior cohorts | No | No (Tracked separately) |
-| New Business | Brand new customer accounts added during period | No | No (Tracked separately) |
+| Revenue Movement Component | Description                                     | Included in GRR? | Included in NRR?        |
+| -------------------------- | ----------------------------------------------- | ---------------- | ----------------------- |
+| Starting Recurring Revenue | Active recurring revenue at beginning of period | Yes (Base)       | Yes (Base)              |
+| Expansion Revenue          | Upgrades, add-ons, and seat expansions          | No               | Yes (+)                 |
+| Contraction Revenue        | Downgrades and plan reductions                  | Yes (-)          | Yes (-)                 |
+| Voluntary Churn            | Explicit cancellations and non-renewals         | Yes (-)          | Yes (-)                 |
+| Involuntary Churn          | Payment failures and expired billing details    | Yes (-)          | Yes (-)                 |
+| Reactivations              | Returning churned accounts from prior cohorts   | No               | No (Tracked separately) |
+| New Business               | Brand new customer accounts added during period | No               | No (Tracked separately) |
 
 Customer or logo retention rate counts the starting cohort accounts still active at the end of the period, divided by the starting cohort size:
 
@@ -95,11 +95,11 @@ Join billing outcomes to product behavior using an opaque internal account key. 
 
 ```javascript
 // Example: Tracking an activation event with an opaque identifier
-swetrix.identify('acc_94817a3b');
-swetrix.track('activation_completed', {
-  plan_tier: 'growth',
-  billing_interval: 'annual',
-  integration_type: 'slack'
+swetrix.identify("acc_94817a3b");
+swetrix.track("activation_completed", {
+  plan_tier: "growth",
+  billing_interval: "annual",
+  integration_type: "slack",
 });
 ```
 

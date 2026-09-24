@@ -26,13 +26,13 @@ Tracking every click creates noise, so choose stages that represent a real chang
 
 Combine these signals into a coherent sequence. Use page steps for journeys where a URL represents a meaningful stage, such as `/pricing` or `/checkout`, and use event steps for interactions that don't trigger a new page load, like `SIGNUP_STARTED` or `PURCHASE_COMPLETED`. Hybrid funnels work best when both pageviews and actions matter for the analysis.
 
-| Funnel stage | Measurement type | Example |
-|---|---|---|
-| Landing page | Pageview | `/campaign-landing-page` |
-| Product consideration | Pageview or event | `/pricing` or `PRICING_VIEWED` |
-| Intent signal | Custom event | `SIGNUP_STARTED` |
-| Completion | Custom or server-side event | `SIGNUP_COMPLETED` |
-| Activation | Custom event | `ONBOARDING_COMPLETED` |
+| Funnel stage          | Measurement type            | Example                        |
+| --------------------- | --------------------------- | ------------------------------ |
+| Landing page          | Pageview                    | `/campaign-landing-page`       |
+| Product consideration | Pageview or event           | `/pricing` or `PRICING_VIEWED` |
+| Intent signal         | Custom event                | `SIGNUP_STARTED`               |
+| Completion            | Custom or server-side event | `SIGNUP_COMPLETED`             |
+| Activation            | Custom event                | `ONBOARDING_COMPLETED`         |
 
 Adapt the stages to your specific audience model. Content creators often measure a path from `/blog/article` to a newsletter CTA click and a final signup completion, while agencies might measure the sequence from `/services` to `/contact`, followed by a form start, form submission, and a booked meeting. SaaS teams typically watch the flow from `/pricing` to a started signup, completed registration, and completed onboarding.
 
@@ -122,4 +122,5 @@ Search Console identifies how pages perform in search results, while analytics s
 Compare the specific funnel step with error events, failed form submissions, performance metrics, session timelines, and replays to see if application failures match the abandonment points.
 
 ---
+
 Start with one high-value funnel, such as pricing to signup, article to newsletter subscription, or landing page to qualified lead. [Swetrix](https://swetrix.com) lets you measure the sequence, investigate the drop-off, and improve your conversion rates without adding intrusive cookie-based tracking.

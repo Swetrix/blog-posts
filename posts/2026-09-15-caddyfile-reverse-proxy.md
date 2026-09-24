@@ -8,9 +8,9 @@ twitter_handle: "andrii_rom"
 rankpine_id: "b32d6582-e9b4-45e8-9781-f6e94325501b"
 ---
 
-A Caddyfile reverse proxy makes Caddy the public-facing edge server while forwarding requests to an application that remains on a private address. You set up a domain, Caddy secures it with a publicly trusted certificate, and visitors interact with your application over encrypted HTTPS. The browser remains on the public URL, while the backend processes the traffic safely behind the proxy. 
+A Caddyfile reverse proxy makes Caddy the public-facing edge server while forwarding requests to an application that remains on a private address. You set up a domain, Caddy secures it with a publicly trusted certificate, and visitors interact with your application over encrypted HTTPS. The browser remains on the public URL, while the backend processes the traffic safely behind the proxy.
 
-This architecture separates routing from application logic. A visitor connects to Caddy over HTTPS, which evaluates the request against your routing rules before opening a new connection to your internal application. 
+This architecture separates routing from application logic. A visitor connects to Caddy over HTTPS, which evaluates the request against your routing rules before opening a new connection to your internal application.
 
 A [redirect response](https://caddyserver.com/docs/caddyfile/directives/redir) tells the client that the requested resource is available at a different URL, so the client can try that URL instead.
 
@@ -39,7 +39,7 @@ example.com {
 }
 ```
 
-The site address `example.com` selects the public host and triggers automatic HTTPS, while the `reverse_proxy` directive acts as the request handler. The address `127.0.0.1:3000` represents the backend destination reachable from the Caddy process. 
+The site address `example.com` selects the public host and triggers automatic HTTPS, while the `reverse_proxy` directive acts as the request handler. The address `127.0.0.1:3000` represents the backend destination reachable from the Caddy process.
 
 To test configuration logic locally without triggering rate limits at certificate authorities, use an explicit plain HTTP variant:
 
@@ -55,7 +55,7 @@ Prefixing the site address with `http://` makes plaintext local testing intentio
 
 ## 3. Route Docker Apps and Path-Based Services
 
-Containerized environments change how Caddy resolves the backend address. If Caddy runs in a Docker container, `127.0.0.1` refers to the Caddy container's own internal loopback interface rather than the host machine or the application container. 
+Containerized environments change how Caddy resolves the backend address. If Caddy runs in a Docker container, `127.0.0.1` refers to the Caddy container's own internal loopback interface rather than the host machine or the application container.
 
 To route traffic between containers, place them on the same Docker network and use the application's service name as the upstream address.
 
@@ -93,7 +93,7 @@ app.example.com {
 
 ### Mount an Application Under a Subpath
 
-Deploying multiple services under one domain requires path routing. Caddy offers two mutually exclusive path-matching directives: `handle` and `handle_path`. 
+Deploying multiple services under one domain requires path routing. Caddy offers two mutually exclusive path-matching directives: `handle` and `handle_path`.
 
 If your application expects to operate at the root level but you want to expose it at `/app`, use `handle_path`:
 
@@ -110,7 +110,7 @@ example.com {
 }
 ```
 
-The `handle_path` directive matches the prefix `/app/` and strips it from the URI before forwarding the request, which means a request for `example.com/app/users` reaches the backend as `/users`. 
+The `handle_path` directive matches the prefix `/app/` and strips it from the URI before forwarding the request, which means a request for `example.com/app/users` reaches the backend as `/users`.
 
 This creates the subfolder problem. If the backend generates HTML containing absolute links to `/styles.css` instead of `/app/styles.css`, those assets will return a 404 error because the browser requests them from the domain root. Your application needs to support a configurable base URL to function correctly behind a stripped path prefix. Test your application behavior carefully, and run an [SEO Migration Redirect Validator](https://swetrix.com/tools/seo-migration-redirect-validator) if you plan to move an existing root application to a subpath.
 
@@ -140,7 +140,7 @@ Avoid pasting large manual `header_up` blocks into your configuration to set the
 
 ### Proxying to HTTPS Backends
 
-When the internal application requires an encrypted connection, define the upstream with the `https://` scheme. 
+When the internal application requires an encrypted connection, define the upstream with the `https://` scheme.
 
 ```caddyfile
 example.com {
@@ -154,7 +154,7 @@ Avoid using the `tls_insecure_skip_verify` option in production, because disabli
 
 ### WebSockets and Health Checks
 
-The standard `reverse_proxy` directive supports WebSocket upgrades natively, removing the need for the complex connection-upgrade blocks common in legacy web server configurations. 
+The standard `reverse_proxy` directive supports WebSocket upgrades natively, removing the need for the complex connection-upgrade blocks common in legacy web server configurations.
 
 When you reload the Caddy configuration, the process normally closes existing WebSocket connections to drain old state. If your application relies on long-lived realtime sessions, configure the `stream_close_delay` or `stream_timeout` options within the proxy block to manage connection lifecycles gracefully.
 
@@ -203,13 +203,15 @@ Caddy also accepts native JSON configuration through a REST API. When an agency 
 ### Implementation Checklist and Next Steps
 
 Before deploying your reverse proxy, confirm these details:
-* Match the upstream address to your networking model, deciding whether you need `localhost`, a bare IP address, or a Docker service name.
-* Confirm whether the backend needs the subpath prefix preserved or stripped, choosing `handle` or `handle_path` accordingly.
-* Run the validation command before every systemctl reload to ensure the Caddyfile syntax is valid.
 
-Once Caddy routes your users safely over HTTPS, you can shift your focus from infrastructure to user behavior. Transitioning away from heavyweight analytics trackers does not mean sacrificing product insights. Swetrix acts as a capable [Google Analytics Alternative](https://swetrix.com/google-analytics-alternative), providing complete conversion funnels, session replays, and custom event tracking in a cookieless environment. 
+- Match the upstream address to your networking model, deciding whether you need `localhost`, a bare IP address, or a Docker service name.
+- Confirm whether the backend needs the subpath prefix preserved or stripped, choosing `handle` or `handle_path` accordingly.
+- Run the validation command before every systemctl reload to ensure the Caddyfile syntax is valid.
+
+Once Caddy routes your users safely over HTTPS, you can shift your focus from infrastructure to user behavior. Transitioning away from heavyweight analytics trackers does not mean sacrificing product insights. Swetrix acts as a capable [Google Analytics Alternative](https://swetrix.com/google-analytics-alternative), providing complete conversion funnels, session replays, and custom event tracking in a cookieless environment.
 
 Deploy Caddy to connect your users to the application, then implement Swetrix to measure the traffic, referrals, and conversions that drive your growth.
 
 ---
+
 Connect your Caddy-hosted sites to an analytics platform built for the modern web to understand your application traffic without invading user privacy. Learn more about cookieless tracking and advanced product analytics at [Swetrix.com](https://swetrix.com).

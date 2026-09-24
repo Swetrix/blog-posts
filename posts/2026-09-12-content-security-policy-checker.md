@@ -10,7 +10,7 @@ rankpine_id: "bda54828-3ef3-4b8e-8557-a6b031e20d44"
 
 A content security policy checker shows what security rules your website sends to browsers. It inspects the HTTP response header and reveals whether your policy is missing, running safely in report-only mode, or weakened by broad source allowances. Default rules often block legitimate scripts, external fonts, and marketing tools by mistake. You can inspect your policy, interpret common findings, and roll out a stricter configuration without breaking analytics, forms, or embedded content.
 
-Before rewriting your server configuration, run a live inspection using the [Swetrix CSP Checker](https://swetrix.com/tools/csp-checker) to view your current headers and generate a practical starting point. 
+Before rewriting your server configuration, run a live inspection using the [Swetrix CSP Checker](https://swetrix.com/tools/csp-checker) to view your current headers and generate a practical starting point.
 
 ## What a Content Security Policy Checker Can Tell You
 
@@ -26,7 +26,7 @@ A successful scan from a content security policy checker confirms that your serv
 
 Sending a policy header is only the first step toward securing a web application, and a present header does not automatically equal a strong policy. A basic checker looks at the raw output your web server provides, while a deeper analysis requires understanding the enforcement modes, the difference between delivery methods, and the practical context of your application.
 
-Servers deliver these instructions primarily through the `Content-Security-Policy` HTTP response header. When a browser receives this specific header, it enforces the rules strictly and blocks any resource that violates the defined boundaries. Alternatively, you might use the `Content-Security-Policy-Report-Only` header during testing. This variant records potential violations and sends them to a designated endpoint without blocking the actual resources. This observation mode allows you to identify false positives before enforcing strict limits on live traffic. 
+Servers deliver these instructions primarily through the `Content-Security-Policy` HTTP response header. When a browser receives this specific header, it enforces the rules strictly and blocks any resource that violates the defined boundaries. Alternatively, you might use the `Content-Security-Policy-Report-Only` header during testing. This variant records potential violations and sends them to a designated endpoint without blocking the actual resources. This observation mode allows you to identify false positives before enforcing strict limits on live traffic.
 
 You can configure policies using HTML meta tags for some use cases, including a client-side-rendered single-page app with static resources. A meta tag is useful in those cases, but [the response header remains the preferred delivery method because meta delivery doesn't support all CSP features](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP). Before generating a complex policy, inspect the response headers your server sends.
 
@@ -38,26 +38,26 @@ Implementing a strict security policy requires methodical testing. You need a st
 
 Follow this sequence to inspect and validate your policy configuration.
 
-1. **Check the real page URLs.** 
-Do not assume your homepage policy applies uniformly across your infrastructure. Gather the specific URLs for your application routes, checkout pages, and relevant subdomains. 
+1. **Check the real page URLs.**
+   Do not assume your homepage policy applies uniformly across your infrastructure. Gather the specific URLs for your application routes, checkout pages, and relevant subdomains.
 
-2. **Run the check and save the raw result.** 
-Input your target URLs into the Swetrix CSP Checker. Copy the complete policy string exactly as the server delivered it, because a partial directive analysis often leads to incorrect assumptions about your security posture.
+2. **Run the check and save the raw result.**
+   Input your target URLs into the Swetrix CSP Checker. Copy the complete policy string exactly as the server delivered it, because a partial directive analysis often leads to incorrect assumptions about your security posture.
 
-3. **Verify the enforcement mode.** 
-Distinguish the active `Content-Security-Policy` header from the passive `Content-Security-Policy-Report-Only` header. If the result shows only a report-only configuration, your visitors currently have no active protection from the policy.
+3. **Verify the enforcement mode.**
+   Distinguish the active `Content-Security-Policy` header from the passive `Content-Security-Policy-Report-Only` header. If the result shows only a report-only configuration, your visitors currently have no active protection from the policy.
 
-4. **Inventory your legitimate dependencies.** 
-List the external services your application requires. Include analytics platforms, content delivery networks, external web fonts, payment providers, embedded video players, chat widgets, and A/B testing scripts. 
+4. **Inventory your legitimate dependencies.**
+   List the external services your application requires. Include analytics platforms, content delivery networks, external web fonts, payment providers, embedded video players, chat widgets, and A/B testing scripts.
 
-5. **Review browser console violations.** 
-Open your staging site and access the developer console. Look for red error messages indicating blocked requests, noting the exact resource URL that failed and the specific directive that triggered the block.
+5. **Review browser console violations.**
+   Open your staging site and access the developer console. Look for red error messages indicating blocked requests, noting the exact resource URL that failed and the specific directive that triggered the block.
 
-6. **Test the critical user paths.** 
-Navigate through your application exactly as a customer would. Submit newsletter forms, add items to the cart, complete a test purchase, play embedded media, and trigger custom analytics events. If a page fails to load as expected, use a [redirect verification utility](https://swetrix.com/tools/redirect-checker) to ensure your external assets aren't bouncing through unnecessary hops before loading.
+6. **Test the critical user paths.**
+   Navigate through your application exactly as a customer would. Submit newsletter forms, add items to the cart, complete a test purchase, play embedded media, and trigger custom analytics events. If a page fails to load as expected, use a [redirect verification utility](https://swetrix.com/tools/redirect-checker) to ensure your external assets aren't bouncing through unnecessary hops before loading.
 
-7. **Determine the narrowest fix.** 
-When a legitimate dependency fails, record the affected directive and the blocked source. Propose the tightest possible origin allowance rather than adding a wildcard or a broad scheme permission.
+7. **Determine the narrowest fix.**
+   When a legitimate dependency fails, record the affected directive and the blocked source. Propose the tightest possible origin allowance rather than adding a wildcard or a broad scheme permission.
 
 A server-side snapshot provides the foundation, but it cannot replace manual browser testing. Dynamic scripts, asynchronous tracking events, and user-triggered popups often bypass static analysis. Retain the specific page URL alongside the raw policy string to document exactly where and why a third-party script failed.
 
@@ -65,19 +65,19 @@ A server-side snapshot provides the foundation, but it cannot replace manual bro
 
 ## Read the CSP Directives That Matter Most
 
-Policies consist of individual directives that control specific resource types. Understanding what each directive governs helps you pinpoint exactly why a harmless marketing widget triggered a security violation. 
+Policies consist of individual directives that control specific resource types. Understanding what each directive governs helps you pinpoint exactly why a harmless marketing widget triggered a security violation.
 
-*   **default-src:** This acts as the fallback rule for most fetch directives. A strict default baseline helps secure the page, but avoid relying on it as a substitute for explicit rules tailored to individual resource types.
-*   **script-src:** This directive controls executable JavaScript and inline script behavior. It is the most common cause of blocked analytics trackers, tag managers, and inline event handlers.
-*   **connect-src:** This controls destinations for network requests made by scripts, including fetch, XHR, EventSource, beacon, and WebSocket connections. You might overlook this directive when analytics scripts load successfully but fail to transmit their event data.
-*   **style-src:** This manages external stylesheets and inline style blocks.
-*   **img-src:** This dictates where the browser may fetch images. It affects remote media, tracking pixels, favicons, and encoded data images.
-*   **font-src:** This controls typography sources, which is critical for externally hosted web fonts.
-*   **frame-src:** This restricts the frames that your page is allowed to load. Configure this correctly to support external video players, payment widgets, and embedded forms.
-*   **frame-ancestors:** This dictates which external sites are allowed to embed your current page. It provides clickjacking protection and operates independently of the frames your page loads itself.
-*   **form-action:** This restricts the endpoint URLs where your HTML forms may submit their data. Omitting this from your inventory often breaks external checkout flows, CRM integrations, and newsletter subscriptions.
-*   **object-src:** This manages legacy plugin-style objects. Disabling them entirely is a standard hardening choice.
-*   **base-uri:** This dictates the allowed URLs for the document base. Restricting this prevents injected base tags from hijacking relative resource resolution.
+- **default-src:** This acts as the fallback rule for most fetch directives. A strict default baseline helps secure the page, but avoid relying on it as a substitute for explicit rules tailored to individual resource types.
+- **script-src:** This directive controls executable JavaScript and inline script behavior. It is the most common cause of blocked analytics trackers, tag managers, and inline event handlers.
+- **connect-src:** This controls destinations for network requests made by scripts, including fetch, XHR, EventSource, beacon, and WebSocket connections. You might overlook this directive when analytics scripts load successfully but fail to transmit their event data.
+- **style-src:** This manages external stylesheets and inline style blocks.
+- **img-src:** This dictates where the browser may fetch images. It affects remote media, tracking pixels, favicons, and encoded data images.
+- **font-src:** This controls typography sources, which is critical for externally hosted web fonts.
+- **frame-src:** This restricts the frames that your page is allowed to load. Configure this correctly to support external video players, payment widgets, and embedded forms.
+- **frame-ancestors:** This dictates which external sites are allowed to embed your current page. It provides clickjacking protection and operates independently of the frames your page loads itself.
+- **form-action:** This restricts the endpoint URLs where your HTML forms may submit their data. Omitting this from your inventory often breaks external checkout flows, CRM integrations, and newsletter subscriptions.
+- **object-src:** This manages legacy plugin-style objects. Disabling them entirely is a standard hardening choice.
+- **base-uri:** This dictates the allowed URLs for the document base. Restricting this prevents injected base tags from hijacking relative resource resolution.
 
 The distinction between script allowances and connection allowances causes the most confusion during deployment. A third-party tracking file requires permission to exist on the page, while the API endpoint requires separate permission to receive the visitor data.
 
@@ -93,7 +93,7 @@ Remove broad host allowances, wildcard subdomains, and generic scheme permission
 
 When a checker highlights a nonce mismatch, the random string in the response header failed to match the attribute on the HTML script tag. The server needs to generate a new, unpredictable nonce for each response and apply that identical value to the intended scripts. Hash mismatches occur when the script content changes but the policy hash remains outdated. Recalculate the SHA-256 hash whenever the inline script changes, including modifications to whitespace or formatting.
 
-Use the following same-origin starter policy to establish a baseline. 
+Use the following same-origin starter policy to establish a baseline.
 
 ```http
 Content-Security-Policy:
@@ -126,7 +126,7 @@ The server replaces the placeholder with a unique cryptographic string on every 
 
 Deploying a strict policy directly to production usually breaks critical user journeys. A safe rollout requires staging the changes, monitoring the failure logs, and moving to active enforcement only after the critical paths clear.
 
-Draft your new policy and deliver it exclusively through the report-only header. 
+Draft your new policy and deliver it exclusively through the report-only header.
 
 ```http
 Reporting-Endpoints: csp-endpoint="https://example.com/csp-reports"
@@ -139,7 +139,7 @@ Content-Security-Policy-Report-Only:
 
 This configuration instructs the browser to evaluate the resources against the rules and transmit JSON-formatted violation reports to your specified endpoint. The newer reporting mechanism utilizes the `report-to` directive, while `report-uri` remains useful as a compatibility fallback for older browser versions.
 
-Review the incoming violation reports with user privacy in mind. Browser reports often contain the document URL, the referrer, the user agent string, the blocked resource URL, and snippets of the surrounding code context. Route these reports to an endpoint that you control directly and handle the resulting data according to your organizational privacy requirements. 
+Review the incoming violation reports with user privacy in mind. Browser reports often contain the document URL, the referrer, the user agent string, the blocked resource URL, and snippets of the surrounding code context. Route these reports to an endpoint that you control directly and handle the resulting data according to your organizational privacy requirements.
 
 Filter out browser extensions, malware injected locally on the user's device, and false positives, adjusting your directives to accommodate the legitimate missing dependencies. Once the volume of valid application violations drops to zero, switch the header from report-only to the active enforcement variant. Document the policy requirements thoroughly, and schedule a recheck anytime the engineering team adds a new analytics tool, widget, payment service, or frontend build process.
 

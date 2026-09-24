@@ -11,7 +11,7 @@ You launch a campaign, traffic spikes, and your analytics dashboard shows a flat
 
 When you enforce a strict GDPR-compliant prompt, you lose visibility into the majority of your traffic. A recent etracker benchmark shows that prominent opt-out buttons result in a 60% average data loss across general B2B and B2C websites (though this rate varies by region and industry), which means you pay for the click, the user lands on your page, and the session vanishes from your reports.
 
-Relying on third-party cookies destroys your attribution modeling. If you cannot see the traffic, you cannot calculate the Return on Investment (ROI) of your marketing spend, but open source marketing dashboard software solves this problem by eliminating the need for persistent tracking cookies entirely. 
+Relying on third-party cookies destroys your attribution modeling. If you cannot see the traffic, you cannot calculate the Return on Investment (ROI) of your marketing spend, but open source marketing dashboard software solves this problem by eliminating the need for persistent tracking cookies entirely.
 
 ## Why Traditional Marketing Analytics Are Failing
 
@@ -19,17 +19,17 @@ Legacy platforms rely on client-side storage to identify users across multiple v
 
 ### The 60% Data Loss Problem
 
-Banner fatigue drives consumers to reject cookies by default. Because browsers like Safari and Firefox block third-party trackers automatically and ad blockers strip Google Analytics scripts before the page even finishes rendering, your marketing funnel breaks. 
+Banner fatigue drives consumers to reject cookies by default. Because browsers like Safari and Firefox block third-party trackers automatically and ad blockers strip Google Analytics scripts before the page even finishes rendering, your marketing funnel breaks.
 
 If your dashboard misses six out of ten visitors, your conversion rates appear artificially low and your Cost Per Acquisition (CPA) calculations inflate. Consequently, you end up pausing profitable campaigns because the reports show them failing.
 
-To quantify this damage, open your ad platform and pull the total clicks for your highest-spend campaign over the last thirty days. When you compare that number to the landing page sessions recorded in your analytics tool, the discrepancy represents your consent drop-off rate. 
+To quantify this damage, open your ad platform and pull the total clicks for your highest-spend campaign over the last thirty days. When you compare that number to the landing page sessions recorded in your analytics tool, the discrepancy represents your consent drop-off rate.
 
 ### Schrems II and GDPR Enforcement Penalties
 
-Data blindness is only half the problem, as using proprietary, US-based analytics exposes your business to massive legal liability. The European Court of Justice invalidated the EU-US Privacy Shield under the Schrems II ruling, making it illegal to transfer European visitor data to servers subject to US surveillance laws. 
+Data blindness is only half the problem, as using proprietary, US-based analytics exposes your business to massive legal liability. The European Court of Justice invalidated the EU-US Privacy Shield under the Schrems II ruling, making it illegal to transfer European visitor data to servers subject to US surveillance laws.
 
-Standard Contractual Clauses (SCCs) no longer provide blanket protection. Regulatory authorities actively enforce these rules, pushing the [historical aggregate total of GDPR fines beyond €5.88 billion](https://www.enforcementtracker.com/). 
+Standard Contractual Clauses (SCCs) no longer provide blanket protection. Regulatory authorities actively enforce these rules, pushing the [historical aggregate total of GDPR fines beyond €5.88 billion](https://www.enforcementtracker.com/).
 
 Swetrix offers a direct bypass for these compliance risks. Because the platform uses privacy-friendly hashing instead of cookies, it operates entirely without consent banners, allowing you to restore dashboard accuracy, capture 100% of your aggregate traffic, and keep the data strictly within EU borders.
 
@@ -43,7 +43,7 @@ The "marketing dashboard" category fragmented rapidly over the last three years.
 
 ### Data Sovereignty and 100% Ownership
 
-Proprietary Big Tech tools silo your marketing data and feed it into their own advertising networks, turning you into a data provider for their machine learning models. Open-source software prevents this extraction. 
+Proprietary Big Tech tools silo your marketing data and feed it into their own advertising networks, turning you into a data provider for their machine learning models. Open-source software prevents this extraction.
 
 Because the code is public and transportable, you own the infrastructure. [96% of organizations are either maintaining or increasing their open-source usage](https://www.openlogic.com/resources/2023-state-open-source-report) to achieve this data sovereignty. You control the retention periods, the backup schedules, and the physical location of the servers, ensuring nobody else can access your traffic logs.
 
@@ -61,23 +61,23 @@ Configure your analytics server to drop raw IP addresses at the edge by overwrit
 
 Choosing the right platform depends on what you need to measure. Marketing sites require broad traffic visibility, while SaaS applications demand deep interaction logging.
 
-| Tool | Primary Focus | Database Architecture | GDPR Compliance | Consent Banner Required |
-| :--- | :--- | :--- | :--- | :--- |
-| **Swetrix** | Marketing metrics, cookieless web analytics | Lightweight, high-speed | Default | No |
-| **Matomo** | Legacy GA replacement, custom reporting | MySQL/MariaDB | Configurable | Varies by setup |
-| **PostHog** | Product analytics, authenticated events | ClickHouse | Manual configuration | Yes (if tracking users) |
+| Tool        | Primary Focus                               | Database Architecture   | GDPR Compliance      | Consent Banner Required |
+| :---------- | :------------------------------------------ | :---------------------- | :------------------- | :---------------------- |
+| **Swetrix** | Marketing metrics, cookieless web analytics | Lightweight, high-speed | Default              | No                      |
+| **Matomo**  | Legacy GA replacement, custom reporting     | MySQL/MariaDB           | Configurable         | Varies by setup         |
+| **PostHog** | Product analytics, authenticated events     | ClickHouse              | Manual configuration | Yes (if tracking users) |
 
 ### Swetrix: Lightweight and Cookieless By Default
 
-For top-of-funnel marketing campaigns, website performance, and macro-conversions, Swetrix serves as the primary standard because it aligns natively with GDPR data minimization principles by refusing to store Personally Identifiable Information (PII). 
+For top-of-funnel marketing campaigns, website performance, and macro-conversions, Swetrix serves as the primary standard because it aligns natively with GDPR data minimization principles by refusing to store Personally Identifiable Information (PII).
 
-Because the script weighs less than 3KB, it loads instantly and never slows down your landing pages. When you append UTM parameters to your Facebook ads, email newsletters, and affiliate links, the dashboard files each visit under the correct campaign in real time. 
+Because the script weighs less than 3KB, it loads instantly and never slows down your landing pages. When you append UTM parameters to your Facebook ads, email newsletters, and affiliate links, the dashboard files each visit under the correct campaign in real time.
 
 Remove your legacy tracking snippet, deploy the Swetrix script in your document `<head>`, and delete your cookie banner. Your dashboard will capture every pageview, custom event, and outbound link click without generating a single compliance warning.
 
 ### Matomo: The Heavyweight Legacy Alternative
 
-Matomo mirrors the heavy, feature-dense interface of Universal Analytics, providing heatmaps, session recordings, e-commerce integrations, and deep custom reporting. 
+Matomo mirrors the heavy, feature-dense interface of Universal Analytics, providing heatmaps, session recordings, e-commerce integrations, and deep custom reporting.
 
 The tradeoff for this functionality is severe infrastructure weight. Running a complete Matomo instance requires significant server resources, persistent database tuning, and regular security patching. If configured incorrectly, the software collects PII and triggers GDPR consent requirements.
 
@@ -95,7 +95,7 @@ Segment your tracking stack by using Swetrix on your public marketing pages to c
 
 ## Tracking Metrics Without Invading Privacy
 
-Cookieless analytics requires a shift in how you process visitor data. You cannot legally stalk people across the internet, but you still need accurate counts of unique visitors to calculate campaign ROI. 
+Cookieless analytics requires a shift in how you process visitor data. You cannot legally stalk people across the internet, but you still need accurate counts of unique visitors to calculate campaign ROI.
 
 ### How Temporary Hashing Works
 
@@ -103,7 +103,7 @@ Open-source platforms solve the unique visitor problem through cryptography. Whe
 
 The system then hashes this combined string, producing an anonymous, encrypted identifier for that specific day:
 
-*   `Hash(IP + User-Agent + Daily_Salt) = Unique_Visitor_ID`
+- `Hash(IP + User-Agent + Daily_Salt) = Unique_Visitor_ID`
 
 If the same person clicks three different pages in one afternoon, the hash remains identical, and the dashboard records one unique visitor with three pageviews. At midnight, the daily salt automatically rotates so yesterday's hash mathematically cannot be linked to today's hash. The user starts fresh, rendering persistent tracking impossible.
 
@@ -116,6 +116,7 @@ GDPR Article 5(1)(c) mandates data minimization, and you adhere to this principl
 Aggregate data provides the metrics required to run profitable campaigns. If a Google Ads campaign drives 5,000 visits and generates 100 purchases, your conversion rate is 2%. You do not need to know the names, home addresses, or search histories of those 100 buyers to scale the ad spend.
 
 Restructure your dashboard to highlight these specific macro-metrics:
+
 1.  **Traffic by UTM Source/Medium:** Identifies which channels drive volume.
 2.  **Conversion Rate by Campaign:** Proves which messaging sells.
 3.  **Aggregate Drop-off Rate:** Highlights where the landing page UX fails.
@@ -129,7 +130,7 @@ Open-source software licenses cost nothing, but operating the software requires 
 
 ### Calculating Total Cost of Ownership (TCO)
 
-Running a robust marketing dashboard on your own hardware requires multiple components, meaning you must provision a virtual private server, deploy Docker containers, configure an Nginx reverse proxy, install SSL certificates, and maintain a database layer like PostgreSQL. 
+Running a robust marketing dashboard on your own hardware requires multiple components, meaning you must provision a virtual private server, deploy Docker containers, configure an Nginx reverse proxy, install SSL certificates, and maintain a database layer like PostgreSQL.
 
 You also pay for the engineering hours required to monitor uptime, scale storage, and apply security patches. If a database query locks up during a traffic spike, your developers must drop product work to fix the analytics pipeline.
 

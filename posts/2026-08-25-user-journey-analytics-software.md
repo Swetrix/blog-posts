@@ -32,13 +32,13 @@ Journey mapping, meanwhile, is a planning artifact you draw on a whiteboard to d
 
 You need different tools to answer what users did, where they stopped, and why they left. Teams often confuse paths and funnels, but they serve opposite purposes during a behavioral investigation.
 
-| Capability | Best for |
-|---|---|
-| Path analysis | Discovering unexpected routes, detours, and loops |
-| Funnel analysis | Measuring completion and drop-off in a predefined sequence |
-| Session replay | Understanding qualitative friction and UI confusion |
-| Error monitoring | Identifying technical causes for abandonment |
-| Experimentation | Measuring the statistical effect of an interface change |
+| Capability       | Best for                                                   |
+| ---------------- | ---------------------------------------------------------- |
+| Path analysis    | Discovering unexpected routes, detours, and loops          |
+| Funnel analysis  | Measuring completion and drop-off in a predefined sequence |
+| Session replay   | Understanding qualitative friction and UI confusion        |
+| Error monitoring | Identifying technical causes for abandonment               |
+| Experimentation  | Measuring the statistical effect of an interface change    |
 
 Path analysis is exploratory, starting with a single page or event and branching out to show the next or previous actions users take. [Google Analytics documentation](https://support.google.com/analytics/answer/9317498?hl=en) describes path exploration as a tree graph built from an event stream, capable of both forward and backward analysis. Because the graph supports forward and backward views, path exploration can expose looping behavior and alternative routes through your site or app.
 

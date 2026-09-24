@@ -70,12 +70,12 @@ Swetrix supports this model natively through API endpoints and password-protecte
 
 Different organizational models require different approaches to data sharing. Use the following decision matrix to determine how to present your multi-site analytics:
 
-| Operating Model | Client Technical Skill | Recommended Presentation Strategy | Ideal Tool Features |
-| :--- | :--- | :--- | :--- |
-| **Enterprise Agency** | Low to Medium | White-labeled external dashboards deployed on custom subdomains | Open API, native graphing integrations, custom CSS overrides for exact brand matching |
-| **B2B SaaS Platform** | Low | Embedded in-app analytics tied directly to the user's primary login session | REST API endpoints, strict RBAC provisioning, high concurrent rate limits |
-| **Technical SEO Firm** | High | Direct shared dashboard access focusing on core web vitals and crawl errors | Password-protected public links, real-time data streaming, granular error logging views |
-| **Portfolio Owner** | N/A (Internal only) | Centralized master dashboard aggregating total network traffic and conversions | Master account views, cross-domain tagging logic, global anomaly detection alerts |
+| Operating Model        | Client Technical Skill | Recommended Presentation Strategy                                              | Ideal Tool Features                                                                     |
+| :--------------------- | :--------------------- | :----------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------- |
+| **Enterprise Agency**  | Low to Medium          | White-labeled external dashboards deployed on custom subdomains                | Open API, native graphing integrations, custom CSS overrides for exact brand matching   |
+| **B2B SaaS Platform**  | Low                    | Embedded in-app analytics tied directly to the user's primary login session    | REST API endpoints, strict RBAC provisioning, high concurrent rate limits               |
+| **Technical SEO Firm** | High                   | Direct shared dashboard access focusing on core web vitals and crawl errors    | Password-protected public links, real-time data streaming, granular error logging views |
+| **Portfolio Owner**    | N/A (Internal only)    | Centralized master dashboard aggregating total network traffic and conversions | Master account views, cross-domain tagging logic, global anomaly detection alerts       |
 
 Map out an embedded analytics strategy for your highest-tier clients this month by determining exactly which metrics they read. You can then plan a transition where they only interact with customized, branded interfaces instead of raw backend panels. Survey your clients to ask whether they prefer weekly automated email summaries or a persistent dashboard link, and configure your multi-site deployment accordingly.
 

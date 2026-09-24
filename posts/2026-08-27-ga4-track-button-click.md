@@ -29,12 +29,13 @@ This automatic event triggers only when a user selects a link leading away from 
 An internal `<button>` element does not trigger this outbound event. Dropdown menus, download controls, single-page application routers, and JavaScript CTAs generally require custom instrumentation, so treating the built-in click feature as a universal button tracker guarantees missing data. If your team relies on standard enhanced measurement alone, you will capture visitors leaving for social profiles or third-party partner portals, but you will register nothing when a visitor clicks an interactive pricing toggle or opens a registration dialog.
 
 To determine which implementation path fits your component, check the interaction type against this list:
-* External HTML links: Enhanced measurement is sufficient because the built-in listener captures the destination domain automatically.
-* Internal navigation buttons: Use a custom event with Google Tag Manager or direct code listeners to capture the user movement across your site hierarchy.
-* JavaScript interface controls: Use a custom event bound directly to the click handler or dispatched through the data layer when the interface state updates.
-* Form start interactions: Enhanced form measurement or a dedicated custom event, depending on whether your forms use native HTML submission or asynchronous JavaScript requests.
-* Experiment variant selections: Custom event with a variant parameter so you can compare the click-through rates of competing button designs in your reports.
-* Successful signup actions: Fire a separate outcome event strictly after backend verification rather than on the initial submission button click.
+
+- External HTML links: Enhanced measurement is sufficient because the built-in listener captures the destination domain automatically.
+- Internal navigation buttons: Use a custom event with Google Tag Manager or direct code listeners to capture the user movement across your site hierarchy.
+- JavaScript interface controls: Use a custom event bound directly to the click handler or dispatched through the data layer when the interface state updates.
+- Form start interactions: Enhanced form measurement or a dedicated custom event, depending on whether your forms use native HTML submission or asynchronous JavaScript requests.
+- Experiment variant selections: Custom event with a variant parameter so you can compare the click-through rates of competing button designs in your reports.
+- Successful signup actions: Fire a separate outcome event strictly after backend verification rather than on the initial submission button click.
 
 Understanding these technical distinctions saves hours of debugging later. When you treat the enhanced measurement `click` event as an outbound link counter and build explicit custom events for all internal product actions, your analytics property stays organized, predictable, and accurate.
 
@@ -45,10 +46,7 @@ Google Tag Manager provides a visual workflow for mapping site interactions to a
 Begin with a stable target on your website. Visible button text changes during copy edits, localization updates, or responsive layout shifts, making text matching a brittle tracking method. Nested elements like icons, SVG graphics, or `<span>` wrappers inside a button can also intercept the click target, causing click text triggers to return empty strings or partial values. Add a unique ID or a data attribute to the HTML element instead.
 
 ```html
-<button
-  id="pricing-demo-cta"
-  type="button"
-  data-analytics-event="pricing_cta_click">
+<button id="pricing-demo-cta" type="button" data-analytics-event="pricing_cta_click">
   Request a demo
 </button>
 ```
@@ -70,19 +68,17 @@ This gtag.js approach requires adding site code. Place the Google tag snippet be
 Attach the tracking call to the application action handler, which on a static site means adding an event listener to the target element.
 
 ```html
-<button id="pricing-demo-cta" type="button">
-  Request a demo
-</button>
+<button id="pricing-demo-cta" type="button">Request a demo</button>
 
 <script>
-  const demoButton = document.getElementById('pricing-demo-cta');
-  
+  const demoButton = document.getElementById("pricing-demo-cta");
+
   if (demoButton) {
-    demoButton.addEventListener('click', () => {
-      gtag('event', 'pricing_cta_click', {
-        button_id: 'pricing-demo-cta',
-        button_location: 'pricing',
-        button_variant: 'control'
+    demoButton.addEventListener("click", () => {
+      gtag("event", "pricing_cta_click", {
+        button_id: "pricing-demo-cta",
+        button_location: "pricing",
+        button_variant: "control",
       });
     });
   }
@@ -107,15 +103,15 @@ Once the data flows reliably, decide how to classify the interaction. GA4 allows
 
 Analytics configurations fail in predictable ways. When you track button clicks in GA4, testing reveals common gaps between the browser and the reporting interface. Diagnosing these issues methodically saves hours of guesswork.
 
-| Problem | Likely explanation | Recommended fix |
-|---|---|---|
-| The built-in `click` event is missing | The target element is an internal button rather than an outbound HTML link. | Implement a custom event via GTM or code. |
-| A GTM trigger fails to fire | The trigger uses `Just Links` for a `<button>` element. | Change the trigger type to `All Elements`. |
-| The event appears but custom parameters are missing from reports | The parameters were not registered in the admin panel. | Create a custom dimension and wait for the processing period. |
-| DebugView shows no activity | The tag configuration is incorrect or the measurement ID is missing. | Verify the setup in GTM Preview mode and inspect network requests. |
-| The platform records multiple events per click | The same interaction is configured in both GTM and site code. | Remove the redundant tracking method. |
-| Nested elements break the trigger | The user clicked an inner SVG icon or text span rather than the parent button. | Use CSS property `pointer-events: none` on child elements or adjust the GTM trigger to evaluate parent nodes. |
-| Click volume is high but signups remain low | The platform is counting intent as completion. | Create a separate tracking sequence for successful outcomes. |
+| Problem                                                          | Likely explanation                                                             | Recommended fix                                                                                               |
+| ---------------------------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| The built-in `click` event is missing                            | The target element is an internal button rather than an outbound HTML link.    | Implement a custom event via GTM or code.                                                                     |
+| A GTM trigger fails to fire                                      | The trigger uses `Just Links` for a `<button>` element.                        | Change the trigger type to `All Elements`.                                                                    |
+| The event appears but custom parameters are missing from reports | The parameters were not registered in the admin panel.                         | Create a custom dimension and wait for the processing period.                                                 |
+| DebugView shows no activity                                      | The tag configuration is incorrect or the measurement ID is missing.           | Verify the setup in GTM Preview mode and inspect network requests.                                            |
+| The platform records multiple events per click                   | The same interaction is configured in both GTM and site code.                  | Remove the redundant tracking method.                                                                         |
+| Nested elements break the trigger                                | The user clicked an inner SVG icon or text span rather than the parent button. | Use CSS property `pointer-events: none` on child elements or adjust the GTM trigger to evaluate parent nodes. |
+| Click volume is high but signups remain low                      | The platform is counting intent as completion.                                 | Create a separate tracking sequence for successful outcomes.                                                  |
 
 If you rely on changing button text instead of a stable data attribute, the event will stop firing the moment the label is updated. Bind your triggers to attributes that remain static during routine content updates, ensuring that seasonal marketing copy changes do not disrupt your historic data pipeline.
 
@@ -134,21 +130,19 @@ Because Swetrix does not rely on persistent tracking identifiers, you bypass the
 Load the Swetrix initialization script on your site. Once active, you can mirror your GA4 tracking logic directly in your application code using the clean tracking API.
 
 ```html
-<button id="pricing-demo-cta" type="button">
-  Request a demo
-</button>
+<button id="pricing-demo-cta" type="button">Request a demo</button>
 
 <script>
-  const demoButton = document.getElementById('pricing-demo-cta');
-  
+  const demoButton = document.getElementById("pricing-demo-cta");
+
   if (demoButton) {
-    demoButton.addEventListener('click', () => {
+    demoButton.addEventListener("click", () => {
       swetrix.track({
-        ev: 'pricing_cta_click',
+        ev: "pricing_cta_click",
         meta: {
-          button_location: 'pricing',
-          button_variant: 'default'
-        }
+          button_location: "pricing",
+          button_variant: "default",
+        },
       });
     });
   }
@@ -162,4 +156,5 @@ Tracking a single button click gains value when connected to a sequence, allowin
 A [configured funnel](https://swetrix.com/docs/analytics-dashboard/funnels) can contain between 2 and 10 steps, accepting both page paths and custom event names to reveal whether visitors drop off after clicking the CTA or successfully complete the process. By combining interaction points and page loads into one sequential flow, you see the exact conversion percentage across each transition without constructing complex multi-tab explorations. When you identify a severe drop-off point, Swetrix's session replays and built-in error monitoring utilities help locate the interface failure blocking your users, allowing you to [track user signups](https://swetrix.com/blog/how-to-track-user-signups) based on interaction data without spying on your visitors.
 
 ---
+
 You can collect button-click data without sacrificing your visitors' privacy by implementing the same custom event schema in Swetrix. Connect your CTA clicks to completed actions using conversion funnels within a cookieless, GDPR-compliant platform. [Start tracking with Swetrix today](https://swetrix.com).

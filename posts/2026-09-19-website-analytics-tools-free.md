@@ -20,15 +20,15 @@ Swetrix bridges the gap for teams wanting privacy-first traffic reporting alongs
 
 Comparing options based on the exact questions each platform answers helps narrow the field. The table below outlines how different free models support traffic reporting, behavioral insight, and privacy goals.
 
-| Tool | Free Model | Traffic & Acquisition | Custom Events | Funnels | Replays | Search & SEO | Main Trade-off |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Swetrix** | Check official pricing | Yes | Yes | Yes | Yes | Yes | Verify current plan limits and API access |
-| **Google Analytics** | Standard service (no software fee) | Yes | Yes | Yes | No | Partial | High setup complexity and strict privacy configuration |
-| **Microsoft Clarity** | Free hosted plan | No | No | No | Yes | No | Qualitative UX only; requires a separate traffic tool |
-| **Matomo On-Premise** | Free self-hosted software | Yes | Yes | Yes | Optional | No | Operator handles all hosting, backups, and security |
-| **Plausible Cloud** | Free trial | Yes | Yes | Paid plans | No | No | Advanced funnels require paid tiers |
-| **Plausible CE** | Free self-hosted software | Yes | Yes | Setup required | No | No | Requires technical infrastructure and maintenance |
-| **Google Search Console** | Free companion tool | No | No | No | No | Yes | Measures search visibility, not on-site behavior |
+| Tool                      | Free Model                         | Traffic & Acquisition | Custom Events | Funnels        | Replays  | Search & SEO | Main Trade-off                                         |
+| :------------------------ | :--------------------------------- | :-------------------- | :------------ | :------------- | :------- | :----------- | :----------------------------------------------------- |
+| **Swetrix**               | Check official pricing             | Yes                   | Yes           | Yes            | Yes      | Yes          | Verify current plan limits and API access              |
+| **Google Analytics**      | Standard service (no software fee) | Yes                   | Yes           | Yes            | No       | Partial      | High setup complexity and strict privacy configuration |
+| **Microsoft Clarity**     | Free hosted plan                   | No                    | No            | No             | Yes      | No           | Qualitative UX only; requires a separate traffic tool  |
+| **Matomo On-Premise**     | Free self-hosted software          | Yes                   | Yes           | Yes            | Optional | No           | Operator handles all hosting, backups, and security    |
+| **Plausible Cloud**       | Free trial                         | Yes                   | Yes           | Paid plans     | No       | No           | Advanced funnels require paid tiers                    |
+| **Plausible CE**          | Free self-hosted software          | Yes                   | Yes           | Setup required | No       | No           | Requires technical infrastructure and maintenance      |
+| **Google Search Console** | Free companion tool                | No                    | No            | No             | No       | Yes          | Measures search visibility, not on-site behavior       |
 
 Because this grid measures capabilities rather than ranking a single winner, identifying the best tool means matching your technical resources to the required level of data.
 

@@ -48,10 +48,10 @@ If you do not see a clean "Claude" row in the source list, click over to the Ref
 
 Once you identify the exact source or referrer value, click the filter icon and configure it to match your identified Claude source. Applying this filter to the entire dashboard lets you review the resulting metrics:
 
-*   **Entry pages:** Which specific articles or tools receive AI citations?
-*   **Pageviews and duration:** Do users read the landing page and continue navigating, or immediately leave?
-*   **Custom events:** Are visitors clicking specific buttons or interacting with dynamic elements?
-*   **Errors:** Do Claude visitors trigger frontend errors upon arrival?
+- **Entry pages:** Which specific articles or tools receive AI citations?
+- **Pageviews and duration:** Do users read the landing page and continue navigating, or immediately leave?
+- **Custom events:** Are visitors clicking specific buttons or interacting with dynamic elements?
+- **Errors:** Do Claude visitors trigger frontend errors upon arrival?
 
 Save this filtered view as a reusable segment named "Claude / AI Referrals" to speed up monthly reporting and client dashboards. If your project also receives traffic from ChatGPT or Perplexity, build separate segments for each assistant rather than combining them immediately, because granular segments reveal which AI platforms drive growth.
 
@@ -113,11 +113,11 @@ Server requests from bots look different from human analytics sessions, but site
 
 Anthropic [distinguishes between ClaudeBot, Claude-User, and Claude-SearchBot](https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler), assigning each a specific purpose.
 
-| Agent Name | Primary Purpose | Analytics Implication |
-| :--- | :--- | :--- |
-| **ClaudeBot** | Collects public web content that may contribute to model training. | Automated crawling. Do not count as human traffic. |
-| **Claude-User** | Retrieves websites for user-directed Claude requests. | Automated retrieval. May indicate a user-directed request, but does not prove the user clicked through to your browser. |
-| **Claude-SearchBot** | Analyzes online content to improve search-result quality and relevance. | Automated search indexing. It can affect search visibility, but it is not an acquisition session. |
+| Agent Name           | Primary Purpose                                                         | Analytics Implication                                                                                                   |
+| :------------------- | :---------------------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| **ClaudeBot**        | Collects public web content that may contribute to model training.      | Automated crawling. Do not count as human traffic.                                                                      |
+| **Claude-User**      | Retrieves websites for user-directed Claude requests.                   | Automated retrieval. May indicate a user-directed request, but does not prove the user clicked through to your browser. |
+| **Claude-SearchBot** | Analyzes online content to improve search-result quality and relevance. | Automated search indexing. It can affect search visibility, but it is not an acquisition session.                       |
 
 You can identify these requests by inspecting your server, CDN, or firewall logs for the documented agent names. Analyzing these logs helps you understand which pages Anthropic retrieves, but a matching request establishes only that an automated agent requested the page.
 

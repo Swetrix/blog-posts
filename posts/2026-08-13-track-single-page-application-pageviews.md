@@ -42,12 +42,12 @@ Open your GTM container, create a new trigger, and select "History Change" from 
 
 Relying on history changes introduces a race condition. SPA frameworks frequently update the URL in the address bar milliseconds before the title tag updates in the DOM. If your tracking script fires upon the history change, it grabs the document title of the previous page, creating a dashboard that shows users visiting the checkout URL while logging the page title as the home page.
 
-| Metric | Traditional Server Load | SPA History Transition |
-| :--- | :--- | :--- |
-| Analytics Trigger | Window onload event | pushState or replaceState |
-| Document Title | Updates synchronously | Lags behind URL change |
-| Network Request | Fetches new HTML document | Fetches JSON or API data |
-| Tracking Accuracy | High out of the box | Requires manual URL extraction |
+| Metric            | Traditional Server Load   | SPA History Transition         |
+| :---------------- | :------------------------ | :----------------------------- |
+| Analytics Trigger | Window onload event       | pushState or replaceState      |
+| Document Title    | Updates synchronously     | Lags behind URL change         |
+| Network Request   | Fetches new HTML document | Fetches JSON or API data       |
+| Tracking Accuracy | High out of the box       | Requires manual URL extraction |
 
 You must extract the URL manually to create a fallback identifier.
 
@@ -66,7 +66,7 @@ Dumping a 50KB tracking script into an optimized React application ruins Lightho
 
 Developers prefer native tracking hooks that stay under 5KB. Swetrix provides dedicated SDKs for React, Next.js, Vue, Nuxt, and Svelte. You import the tracking hook into your root layout or component tree, bypassing external DOM listeners that guess when a user navigates.
 
-In a Next.js application, you initialize the script in your root layout file to let the SDK hook into the framework's internal router events. When a user clicks a navigation component, the framework transitions the view, and the SDK fires a virtual pageview payload simultaneously. 
+In a Next.js application, you initialize the script in your root layout file to let the SDK hook into the framework's internal router events. When a user clicks a navigation component, the framework transitions the view, and the SDK fires a virtual pageview payload simultaneously.
 
 This programmatic approach ensures tracking matches the moment the application state updates, eliminating the race conditions common with GTM triggers. By dropping a few lines of code into your repository and deploying the application, your analytics dashboard populates with accurate client-side navigation data. This bridges the gap between simple traffic counting and product analytics without sacrificing site speed or Core Web Vitals.
 
@@ -84,7 +84,7 @@ European regulators enforce consent requirements for persistent tracking identif
 
 You can maintain visibility into user flow legally by replacing cookies with server-side hashing, a privacy requirement Swetrix handles out of the box.
 
-When a request hits the tracking endpoint, the server combines the visitor's IP address and User-Agent string with a daily rotating cryptographic salt to create a unique, anonymized hash for that user on that day. 
+When a request hits the tracking endpoint, the server combines the visitor's IP address and User-Agent string with a daily rotating cryptographic salt to create a unique, anonymized hash for that user on that day.
 
 The system purges the salt at midnight, breaking the link between a user's activity today and their activity tomorrow. Preventing cross-site profiling and historical tracking keeps the platform compliant with GDPR, CCPA, and PECR regulations. No personal data sits on the user's device, and the hash cannot be reverse-engineered to identify a specific person. You track the SPA session and calculate daily visitor counts securely without disrupting the user experience with a cookie banner.
 
@@ -98,13 +98,14 @@ Modern styling tools like Tailwind CSS or CSS Modules generate obfuscated, rando
 
 Tracking these interactions requires firing custom events programmatically from within your components by binding the tracking payload to the framework's native event handlers.
 
-* Inside a React form submission function, execute the tracking method for that onboarding step.
-* When a user toggles a pricing tier from monthly to annual, attach the tracking call to the click handler of the toggle switch.
-* For dynamic sign-up modals, trigger the event when the component lifecycle mounts, capturing how users sign up without relying on fragile DOM scrapers.
+- Inside a React form submission function, execute the tracking method for that onboarding step.
+- When a user toggles a pricing tier from monthly to annual, attach the tracking call to the click handler of the toggle switch.
+- For dynamic sign-up modals, trigger the event when the component lifecycle mounts, capturing how users sign up without relying on fragile DOM scrapers.
 
 To track when a specific component mounts, place the tracking call inside a useEffect hook with an empty dependency array. The event fires once when the component renders on the user's screen, and this explicit control prevents duplicate event firing during React re-renders.
 
 To understand how visitors navigate these dynamic views, pair your custom events with anonymized visual data. A raw event confirms a user reached the checkout screen, but a visual record shows them repeatedly clicking a broken submit button because an asynchronous API call failed silently in the background. As an open source session replay tool, Swetrix integrates this behavioral context with your cookieless event data to turn fragmented click events into actionable product insights.
 
 ---
+
 Stop losing visibility into your single page applications and ditch the heavy tag managers. Start capturing accurate client-side routing, custom events, and marketing attribution without cookie banners using [Swetrix](https://swetrix.com).
